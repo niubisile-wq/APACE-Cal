@@ -15,6 +15,20 @@ APACE-Cal treats target-domain support acquisition as a selective decision. Usin
 - `requirements-battery-experiments.lock`: experiment environment dependencies.
 - `Dockerfile.battery-experiments`: container recipe for the experiment environment.
 
+## Reproducibility entry points
+
+The public package includes the frozen policy implementation and the integrity checks used for the manuscript audit. From the repository root:
+
+```bash
+python experiments/battery/verify_experiment_execution_artifacts.py
+python experiments/battery/batterylife_verify_apace_v2_artifacts.py
+python experiments/battery/run_reproducibility_audit.py
+```
+
+The checks validate source hashes, frozen route artifacts, primary endpoint summaries, external-contract boundaries and the machine-readable experiment manifests. They do not download restricted datasets or claim that the full battery data are redistributed here.
+
+The main policy implementation is `experiments/battery/batterylife_asymmetric_cohort_router_v2.py`; its frozen development artifact is `experiments/battery/batterylife_asymmetric_cohort_router_v2.json`. The corresponding blind external confirmation entry point is `experiments/battery/batterylife_snu_dynamic_blind.py`.
+
 ## Data
 
 Datasets are not redistributed in this repository. Please obtain them from their original providers and configure the local data paths expected by the experiment scripts.

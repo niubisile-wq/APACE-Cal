@@ -1,0 +1,9 @@
+{
+  "source": "batterylife_apace_v2_stats.json",
+  "files": [
+    "fig_main_heatmaps.pdf",
+    "fig_main_heatmaps.png",
+    "fig_primary_ci.pdf",
+    "fig_primary_ci.png"
+  ]
+}

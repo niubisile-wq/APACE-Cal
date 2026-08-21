@@ -186,8 +186,8 @@ def main():
             for h in (10, 20, 50) for k in (1, 5, 10)
         ),
     })
-    mathworks_outcome = (HERE / "UCONN_MATHWORKS_EXTERNAL_OUTCOME.md").read_text()
-    paper_tables = (HERE / "PAPER_EXPERIMENT_TABLES.md").read_text()
+    mathworks_outcome = (HERE / "UCONN_MATHWORKS_EXTERNAL_OUTCOME.md").read_text(encoding="utf-8")
+    paper_tables = (HERE / "PAPER_EXPERIMENT_TABLES.md").read_text(encoding="utf-8")
     checks.append({
         "check": "MathWorks K3 markdown tables use K3 rather than K1 baselines",
         "passed": "| 10 | 3 | 24.572 | 15.302 |" in mathworks_outcome

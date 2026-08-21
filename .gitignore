@@ -45,6 +45,6 @@ experiments/battery/batterylife_lodo_blend.json
 experiments/battery/batterylife_isu_ilcc_v2_prelabel_manifest.json
 experiments/battery/batterylife_protocol_ablation.json
 experiments/battery/batterylife_protocol_selection.json
-experiments/battery/batterylife_apace_cost_audit.json
 experiments/battery/batterylife_tongji_prelabel_manifest.json
 experiments/battery/batterylife_matr_prelabel_manifest.json
+experiments/battery/final_reproducibility_audit.json
