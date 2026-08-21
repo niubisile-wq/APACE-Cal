@@ -1,0 +1,666 @@
+{
+  "source": "batterylife_curve_aware_support.json",
+  "protocol": "outer-LODO curve weight held fixed; remove curve feature groups; 100 tie seeds",
+  "results": {
+    "h10_CALB": {
+      "selected_curve_weight": 1.0,
+      "protocol_only": {
+        "mae": 59.20513328804654,
+        "mape": 12.576283172752344,
+        "median_ae": 41.298008348221856,
+        "n_evaluations": 2700
+      },
+      "full_curve": {
+        "mae": 64.71527831240984,
+        "mape": 10.07033197430058,
+        "median_ae": 28.71483924650721,
+        "n_evaluations": 2700
+      },
+      "capacity_only": {
+        "mae": 47.762461113392135,
+        "mape": 8.017118876328123,
+        "median_ae": 19.582399137479342,
+        "n_evaluations": 2700
+      },
+      "electrical_time_only": {
+        "mae": 66.7546160963167,
+        "mape": 10.271663487834367,
+        "median_ae": 28.71483924650721,
+        "n_evaluations": 2700
+      },
+      "thermal_resistance_only": {
+        "mae": 59.20513328804654,
+        "mape": 12.576283172752344,
+        "median_ae": 41.298008348221856,
+        "n_evaluations": 2700
+      }
+    },
+    "h10_HNEI": {
+      "selected_curve_weight": 1.0,
+      "protocol_only": {
+        "mae": 14.855905161800433,
+        "mape": 6.09301000425807,
+        "median_ae": 13.930192452992998,
+        "n_evaluations": 1400
+      },
+      "full_curve": {
+        "mae": 13.016675727416617,
+        "mape": 5.3685321297218875,
+        "median_ae": 8.756276023342465,
+        "n_evaluations": 1400
+      },
+      "capacity_only": {
+        "mae": 10.489732366523697,
+        "mape": 4.380127344185729,
+        "median_ae": 5.594015510214646,
+        "n_evaluations": 1400
+      },
+      "electrical_time_only": {
+        "mae": 15.64750701454264,
+        "mape": 6.389624762363927,
+        "median_ae": 14.546689161202522,
+        "n_evaluations": 1400
+      },
+      "thermal_resistance_only": {
+        "mae": 14.855905161800433,
+        "mape": 6.09301000425807,
+        "median_ae": 13.930192452992998,
+        "n_evaluations": 1400
+      }
+    },
+    "h10_MICH_EXP": {
+      "selected_curve_weight": 1.0,
+      "protocol_only": {
+        "mae": 45.898499393771516,
+        "mape": 28.899745915243848,
+        "median_ae": 36.76642354916916,
+        "n_evaluations": 900
+      },
+      "full_curve": {
+        "mae": 48.72695582814781,
+        "mape": 31.03922887217568,
+        "median_ae": 37.351703256916835,
+        "n_evaluations": 900
+      },
+      "capacity_only": {
+        "mae": 66.6965845572374,
+        "mape": 41.24441396067107,
+        "median_ae": 39.624978911468475,
+        "n_evaluations": 900
+      },
+      "electrical_time_only": {
+        "mae": 52.58589999078609,
+        "mape": 34.4097153341139,
+        "median_ae": 38.23277056528258,
+        "n_evaluations": 900
+      },
+      "thermal_resistance_only": {
+        "mae": 45.898499393771516,
+        "mape": 28.899745915243848,
+        "median_ae": 36.76642354916916,
+        "n_evaluations": 900
+      }
+    },
+    "h10_CALCE": {
+      "selected_curve_weight": 1.0,
+      "protocol_only": {
+        "mae": 88.01188740198843,
+        "mape": 15.018220104856466,
+        "median_ae": 50.218242196462995,
+        "n_evaluations": 1300
+      },
+      "full_curve": {
+        "mae": 85.22164244988303,
+        "mape": 14.247937541454014,
+        "median_ae": 53.945431109013384,
+        "n_evaluations": 1300
+      },
+      "capacity_only": {
+        "mae": 77.6427899537025,
+        "mape": 12.82259608827056,
+        "median_ae": 53.945431109013384,
+        "n_evaluations": 1300
+      },
+      "electrical_time_only": {
+        "mae": 80.14643955725228,
+        "mape": 12.821889342510216,
+        "median_ae": 48.86039224826641,
+        "n_evaluations": 1300
+      },
+      "thermal_resistance_only": {
+        "mae": 88.01188740198843,
+        "mape": 15.018220104856466,
+        "median_ae": 50.218242196462995,
+        "n_evaluations": 1300
+      }
+    },
+    "h10_MICH": {
+      "selected_curve_weight": 1.0,
+      "protocol_only": {
+        "mae": 47.69713998120395,
+        "mape": 14.828779966060328,
+        "median_ae": 40.9093527575491,
+        "n_evaluations": 4000
+      },
+      "full_curve": {
+        "mae": 41.75127848793103,
+        "mape": 13.25238068407992,
+        "median_ae": 30.61147763060734,
+        "n_evaluations": 4000
+      },
+      "capacity_only": {
+        "mae": 43.31289288782518,
+        "mape": 13.61386914200422,
+        "median_ae": 33.423342848851064,
+        "n_evaluations": 4000
+      },
+      "electrical_time_only": {
+        "mae": 41.145868087888516,
+        "mape": 12.949450045072412,
+        "median_ae": 30.61147763060734,
+        "n_evaluations": 4000
+      },
+      "thermal_resistance_only": {
+        "mae": 47.69713998120395,
+        "mape": 14.828779966060328,
+        "median_ae": 40.9093527575491,
+        "n_evaluations": 4000
+      }
+    },
+    "h10_SNL": {
+      "selected_curve_weight": 0.5,
+      "protocol_only": {
+        "mae": 365.42856615635975,
+        "mape": 46.97286750131018,
+        "median_ae": 123.82837441887045,
+        "n_evaluations": 5200
+      },
+      "full_curve": {
+        "mae": 264.5668701863138,
+        "mape": 30.309338662577456,
+        "median_ae": 75.8591802695156,
+        "n_evaluations": 5200
+      },
+      "capacity_only": {
+        "mae": 402.4375779989586,
+        "mape": 48.9691400780305,
+        "median_ae": 98.01210274419543,
+        "n_evaluations": 5200
+      },
+      "electrical_time_only": {
+        "mae": 237.25351864968144,
+        "mape": 28.270260945466923,
+        "median_ae": 103.3112212733394,
+        "n_evaluations": 5200
+      },
+      "thermal_resistance_only": {
+        "mae": 434.0373007493781,
+        "mape": 66.09593045528844,
+        "median_ae": 133.1243456791965,
+        "n_evaluations": 5200
+      }
+    },
+    "h20_CALB": {
+      "selected_curve_weight": 0.125,
+      "protocol_only": {
+        "mae": 59.20513328804654,
+        "mape": 12.576283172752344,
+        "median_ae": 41.298008348221856,
+        "n_evaluations": 2700
+      },
+      "full_curve": {
+        "mae": 65.7501058233441,
+        "mape": 8.736363286797435,
+        "median_ae": 37.85182366767572,
+        "n_evaluations": 2700
+      },
+      "capacity_only": {
+        "mae": 49.571849068789525,
+        "mape": 9.145644962052797,
+        "median_ae": 30.663025750691304,
+        "n_evaluations": 2700
+      },
+      "electrical_time_only": {
+        "mae": 65.7501058233441,
+        "mape": 8.736363286797435,
+        "median_ae": 37.85182366767572,
+        "n_evaluations": 2700
+      },
+      "thermal_resistance_only": {
+        "mae": 59.20513328804654,
+        "mape": 12.576283172752344,
+        "median_ae": 41.298008348221856,
+        "n_evaluations": 2700
+      }
+    },
+    "h20_HNEI": {
+      "selected_curve_weight": 0.125,
+      "protocol_only": {
+        "mae": 14.855905161800433,
+        "mape": 6.09301000425807,
+        "median_ae": 13.930192452992998,
+        "n_evaluations": 1400
+      },
+      "full_curve": {
+        "mae": 14.795286165192506,
+        "mape": 6.046012821927899,
+        "median_ae": 14.091935075148257,
+        "n_evaluations": 1400
+      },
+      "capacity_only": {
+        "mae": 11.754079715164204,
+        "mape": 4.8645487733100135,
+        "median_ae": 7.875431413382529,
+        "n_evaluations": 1400
+      },
+      "electrical_time_only": {
+        "mae": 16.2659566357378,
+        "mape": 6.61647930547069,
+        "median_ae": 13.62080845189162,
+        "n_evaluations": 1400
+      },
+      "thermal_resistance_only": {
+        "mae": 14.855905161800433,
+        "mape": 6.09301000425807,
+        "median_ae": 13.930192452992998,
+        "n_evaluations": 1400
+      }
+    },
+    "h20_MICH_EXP": {
+      "selected_curve_weight": "inf",
+      "protocol_only": {
+        "mae": 45.898499393771516,
+        "mape": 28.899745915243848,
+        "median_ae": 36.76642354916916,
+        "n_evaluations": 900
+      },
+      "full_curve": {
+        "mae": 54.58638590577081,
+        "mape": 33.85065652984278,
+        "median_ae": 43.9284046323815,
+        "n_evaluations": 900
+      },
+      "capacity_only": {
+        "mae": 60.96009822982463,
+        "mape": 36.82194079264392,
+        "median_ae": 50.48802379929032,
+        "n_evaluations": 900
+      },
+      "electrical_time_only": {
+        "mae": 53.50461490609059,
+        "mape": 35.907750495430456,
+        "median_ae": 37.351703256916835,
+        "n_evaluations": 900
+      },
+      "thermal_resistance_only": {
+        "mae": 63.28738489917544,
+        "mape": 39.45845124175619,
+        "median_ae": 55.04455420044657,
+        "n_evaluations": 900
+      }
+    },
+    "h20_CALCE": {
+      "selected_curve_weight": 0.125,
+      "protocol_only": {
+        "mae": 88.01188740198843,
+        "mape": 15.018220104856466,
+        "median_ae": 50.218242196462995,
+        "n_evaluations": 1300
+      },
+      "full_curve": {
+        "mae": 72.25548213774603,
+        "mape": 11.820781600730463,
+        "median_ae": 40.19923256486584,
+        "n_evaluations": 1300
+      },
+      "capacity_only": {
+        "mae": 78.33369293321813,
+        "mape": 13.009674520413425,
+        "median_ae": 53.94543110901384,
+        "n_evaluations": 1300
+      },
+      "electrical_time_only": {
+        "mae": 83.77366601154519,
+        "mape": 13.442041670527733,
+        "median_ae": 55.37475169026834,
+        "n_evaluations": 1300
+      },
+      "thermal_resistance_only": {
+        "mae": 88.01188740198843,
+        "mape": 15.018220104856466,
+        "median_ae": 50.218242196462995,
+        "n_evaluations": 1300
+      }
+    },
+    "h20_MICH": {
+      "selected_curve_weight": 0.125,
+      "protocol_only": {
+        "mae": 47.69713998120395,
+        "mape": 14.828779966060328,
+        "median_ae": 40.9093527575491,
+        "n_evaluations": 4000
+      },
+      "full_curve": {
+        "mae": 39.65225699437657,
+        "mape": 12.589344324206943,
+        "median_ae": 26.38685386851074,
+        "n_evaluations": 4000
+      },
+      "capacity_only": {
+        "mae": 43.10770063342531,
+        "mape": 13.696062402854077,
+        "median_ae": 31.91945766824452,
+        "n_evaluations": 4000
+      },
+      "electrical_time_only": {
+        "mae": 42.1442027119839,
+        "mape": 13.029688264174561,
+        "median_ae": 30.91833549176289,
+        "n_evaluations": 4000
+      },
+      "thermal_resistance_only": {
+        "mae": 47.69713998120395,
+        "mape": 14.828779966060328,
+        "median_ae": 40.9093527575491,
+        "n_evaluations": 4000
+      }
+    },
+    "h20_SNL": {
+      "selected_curve_weight": 0.125,
+      "protocol_only": {
+        "mae": 365.2832893767626,
+        "mape": 46.92025234766788,
+        "median_ae": 123.82830367443964,
+        "n_evaluations": 5200
+      },
+      "full_curve": {
+        "mae": 357.14527382512233,
+        "mape": 35.00263249590419,
+        "median_ae": 110.41322156784923,
+        "n_evaluations": 5200
+      },
+      "capacity_only": {
+        "mae": 489.9175907708706,
+        "mape": 73.10849598859772,
+        "median_ae": 91.07297963759345,
+        "n_evaluations": 5200
+      },
+      "electrical_time_only": {
+        "mae": 355.19171552616626,
+        "mape": 33.74041870256332,
+        "median_ae": 115.73251592756617,
+        "n_evaluations": 5200
+      },
+      "thermal_resistance_only": {
+        "mae": 480.6731030886298,
+        "mape": 78.92494275616612,
+        "median_ae": 163.71550177300844,
+        "n_evaluations": 5200
+      }
+    },
+    "h50_CALB": {
+      "selected_curve_weight": 1.0,
+      "protocol_only": {
+        "mae": 59.20513328804654,
+        "mape": 12.576283172752344,
+        "median_ae": 41.298008348221856,
+        "n_evaluations": 2700
+      },
+      "full_curve": {
+        "mae": 85.0085594576216,
+        "mape": 9.84733777457801,
+        "median_ae": 26.96359661706788,
+        "n_evaluations": 2700
+      },
+      "capacity_only": {
+        "mae": 53.06047582291315,
+        "mape": 12.023473063715404,
+        "median_ae": 34.201568760589225,
+        "n_evaluations": 2700
+      },
+      "electrical_time_only": {
+        "mae": 80.65721229272269,
+        "mape": 11.500390237420195,
+        "median_ae": 31.504801713671668,
+        "n_evaluations": 2700
+      },
+      "thermal_resistance_only": {
+        "mae": 59.20513328804654,
+        "mape": 12.576283172752344,
+        "median_ae": 41.298008348221856,
+        "n_evaluations": 2700
+      }
+    },
+    "h50_HNEI": {
+      "selected_curve_weight": 1.0,
+      "protocol_only": {
+        "mae": 14.855905161800433,
+        "mape": 6.09301000425807,
+        "median_ae": 13.930192452992998,
+        "n_evaluations": 1400
+      },
+      "full_curve": {
+        "mae": 11.121506890468694,
+        "mape": 4.629597719900622,
+        "median_ae": 9.48000683139152,
+        "n_evaluations": 1400
+      },
+      "capacity_only": {
+        "mae": 10.398863796418624,
+        "mape": 4.299333016421262,
+        "median_ae": 7.331056579725725,
+        "n_evaluations": 1400
+      },
+      "electrical_time_only": {
+        "mae": 12.935798700776513,
+        "mape": 5.30453220807905,
+        "median_ae": 8.225098142935607,
+        "n_evaluations": 1400
+      },
+      "thermal_resistance_only": {
+        "mae": 14.855905161800433,
+        "mape": 6.09301000425807,
+        "median_ae": 13.930192452992998,
+        "n_evaluations": 1400
+      }
+    },
+    "h50_MICH_EXP": {
+      "selected_curve_weight": 1.0,
+      "protocol_only": {
+        "mae": 45.898499393771516,
+        "mape": 28.899745915243848,
+        "median_ae": 36.76642354916916,
+        "n_evaluations": 900
+      },
+      "full_curve": {
+        "mae": 45.12493607948148,
+        "mape": 25.77192811866146,
+        "median_ae": 27.20221858753979,
+        "n_evaluations": 900
+      },
+      "capacity_only": {
+        "mae": 44.091104880346684,
+        "mape": 22.418989994855284,
+        "median_ae": 19.646740710591587,
+        "n_evaluations": 900
+      },
+      "electrical_time_only": {
+        "mae": 48.12177427464162,
+        "mape": 32.93506503896426,
+        "median_ae": 36.76642354916916,
+        "n_evaluations": 900
+      },
+      "thermal_resistance_only": {
+        "mae": 45.898499393771516,
+        "mape": 28.899745915243848,
+        "median_ae": 36.76642354916916,
+        "n_evaluations": 900
+      }
+    },
+    "h50_CALCE": {
+      "selected_curve_weight": 1.0,
+      "protocol_only": {
+        "mae": 88.01188740198843,
+        "mape": 15.018220104856466,
+        "median_ae": 50.218242196462995,
+        "n_evaluations": 1300
+      },
+      "full_curve": {
+        "mae": 81.69892506128417,
+        "mape": 13.681541938218002,
+        "median_ae": 60.84119041763222,
+        "n_evaluations": 1300
+      },
+      "capacity_only": {
+        "mae": 78.49803298508162,
+        "mape": 13.241330441813776,
+        "median_ae": 48.140433473469216,
+        "n_evaluations": 1300
+      },
+      "electrical_time_only": {
+        "mae": 83.3175328810197,
+        "mape": 13.4008108082256,
+        "median_ae": 45.91533964077132,
+        "n_evaluations": 1300
+      },
+      "thermal_resistance_only": {
+        "mae": 88.01188740198843,
+        "mape": 15.018220104856466,
+        "median_ae": 50.218242196462995,
+        "n_evaluations": 1300
+      }
+    },
+    "h50_MICH": {
+      "selected_curve_weight": 1.0,
+      "protocol_only": {
+        "mae": 47.69713998120395,
+        "mape": 14.828779966060328,
+        "median_ae": 40.9093527575491,
+        "n_evaluations": 4000
+      },
+      "full_curve": {
+        "mae": 38.36418301128865,
+        "mape": 12.020283897838562,
+        "median_ae": 31.182193347573616,
+        "n_evaluations": 4000
+      },
+      "capacity_only": {
+        "mae": 36.992312862133026,
+        "mape": 11.533579210268217,
+        "median_ae": 25.470312438050513,
+        "n_evaluations": 4000
+      },
+      "electrical_time_only": {
+        "mae": 41.21691598231266,
+        "mape": 13.111269695872222,
+        "median_ae": 36.25419517544489,
+        "n_evaluations": 4000
+      },
+      "thermal_resistance_only": {
+        "mae": 47.69713998120395,
+        "mape": 14.828779966060328,
+        "median_ae": 40.9093527575491,
+        "n_evaluations": 4000
+      }
+    },
+    "h50_SNL": {
+      "selected_curve_weight": 2.0,
+      "protocol_only": {
+        "mae": 364.41905508854376,
+        "mape": 46.692577313771636,
+        "median_ae": 122.74977516981505,
+        "n_evaluations": 5200
+      },
+      "full_curve": {
+        "mae": 148.15528882008743,
+        "mape": 23.80316840114339,
+        "median_ae": 77.17901703822,
+        "n_evaluations": 5200
+      },
+      "capacity_only": {
+        "mae": 187.19738223019505,
+        "mape": 44.646799388559046,
+        "median_ae": 90.06049124799083,
+        "n_evaluations": 5200
+      },
+      "electrical_time_only": {
+        "mae": 163.52966417116772,
+        "mape": 26.76894978351714,
+        "median_ae": 79.88696120589037,
+        "n_evaluations": 5200
+      },
+      "thermal_resistance_only": {
+        "mae": 492.9785445900144,
+        "mape": 95.41935371374927,
+        "median_ae": 295.9960201805243,
+        "n_evaluations": 5200
+      }
+    }
+  },
+  "macro_h10_k3": {
+    "protocol_only": {
+      "mae": 103.51618856386176,
+      "mape": 20.731484444080206
+    },
+    "capacity_only": {
+      "mae": 108.05700647960659,
+      "mape": 21.5078775815817
+    },
+    "electrical_time_only": {
+      "mae": 82.25564156607794,
+      "mape": 17.518767319560293
+    },
+    "thermal_resistance_only": {
+      "mae": 114.95097766269816,
+      "mape": 23.918661603076583
+    },
+    "full_curve": {
+      "mae": 86.33311683201703,
+      "mape": 17.38129164405159
+    }
+  },
+  "macro_h20_k3": {
+    "protocol_only": {
+      "mae": 103.49197576726225,
+      "mape": 20.722715251806488
+    },
+    "capacity_only": {
+      "mae": 122.27416855854874,
+      "mape": 25.107727906645326
+    },
+    "electrical_time_only": {
+      "mae": 102.77171026914463,
+      "mape": 18.578790287494034
+    },
+    "thermal_resistance_only": {
+      "mae": 125.62175897014076,
+      "mape": 27.81661454097492
+    },
+    "full_curve": {
+      "mae": 100.6974651419254,
+      "mape": 18.00763184323495
+    }
+  },
+  "macro_h50_k3": {
+    "protocol_only": {
+      "mae": 103.34793671922576,
+      "mape": 20.68476941282378
+    },
+    "capacity_only": {
+      "mae": 68.37302876284802,
+      "mape": 18.027250852605498
+    },
+    "electrical_time_only": {
+      "mae": 71.62981638377349,
+      "mape": 17.170169628679744
+    },
+    "thermal_resistance_only": {
+      "mae": 124.77451830280421,
+      "mape": 28.80589881282005
+    },
+    "full_curve": {
+      "mae": 68.245566553372,
+      "mape": 14.958976308390008
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "dataset_versions": "BatteryLife v12",
+  "rows": [
+    {
+      "train_dataset": "CALB",
+      "test_dataset": "HNEI",
+      "target": "raw",
+      "mae": 30.790303191702748,
+      "mape": 12.198849891445878,
+      "p95_abs_error": 58.97017063492069
+    },
+    {
+      "train_dataset": "CALB",
+      "test_dataset": "HNEI",
+      "target": "log",
+      "mae": 90.88076024234397,
+      "mape": 36.46638637311857,
+      "p95_abs_error": 113.96684452563275
+    },
+    {
+      "train_dataset": "HNEI",
+      "test_dataset": "CALB",
+      "target": "raw",
+      "mae": 669.3353499248295,
+      "mape": 81.41558291656106,
+      "p95_abs_error": 1105.4208267195768
+    },
+    {
+      "train_dataset": "HNEI",
+      "test_dataset": "CALB",
+      "target": "log",
+      "mae": 669.7820890848494,
+      "mape": 80.98882995903504,
+      "p95_abs_error": 1107.7626511084698
+    }
+  ]
+}

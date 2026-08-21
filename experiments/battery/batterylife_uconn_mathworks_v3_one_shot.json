@@ -1,0 +1,2606 @@
+{
+  "phase": "UCONN_MATHWORKS_V3_ONE_SHOT_LABEL_OPENED",
+  "dataset": "UConn-MathWorks LFP/Gr",
+  "manifest_sha256": "a549f2d4947cd0fea33d4a7458f1474a0cb63c3946b7a11ceac7af3c943249b6",
+  "label_definition": "maximum first-life Cycle observed across first-life cycling members",
+  "label_count": 27,
+  "active_settings_frozen_prelabel": [
+    "h10_k3",
+    "h20_k3",
+    "h50_k3"
+  ],
+  "results": [
+    {
+      "horizon": 10,
+      "label_budget_k": 1,
+      "protocol_dispersion": 0.8047927785050895,
+      "route_counts": {
+        "fallback_stability_or_coverage": 100
+      },
+      "baseline": {
+        "mae": 117.25860031506446,
+        "mape": 42.04290849637561,
+        "n_cells": 27
+      },
+      "method": {
+        "mae": 117.25860031506446,
+        "mape": 42.04290849637561,
+        "n_cells": 27
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        27,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "MathWorks_G13C1",
+          "baseline_ape": 57.14285714285711,
+          "method_ape": 57.14285714285711,
+          "baseline_ae": 101.14285714285714,
+          "method_ae": 101.14285714285714
+        },
+        {
+          "held_out": "MathWorks_G13C2",
+          "baseline_ape": 46.82608695652174,
+          "method_ape": 46.82608695652174,
+          "baseline_ae": 93.65217391304344,
+          "method_ae": 93.65217391304344
+        },
+        {
+          "held_out": "MathWorks_G13C3",
+          "baseline_ape": 35.368016553355,
+          "method_ape": 35.368016553355,
+          "baseline_ae": 70.38235294117646,
+          "method_ae": 70.38235294117646
+        },
+        {
+          "held_out": "MathWorks_G15C1",
+          "baseline_ape": 52.56410256410255,
+          "method_ape": 52.56410256410255,
+          "baseline_ae": 109.33333333333333,
+          "method_ae": 109.33333333333333
+        },
+        {
+          "held_out": "MathWorks_G15C2",
+          "baseline_ape": 33.426816239316224,
+          "method_ape": 33.426816239316224,
+          "baseline_ae": 78.21874999999997,
+          "method_ae": 78.21874999999997
+        },
+        {
+          "held_out": "MathWorks_G15C3",
+          "baseline_ape": 78.47494553376902,
+          "method_ape": 78.47494553376902,
+          "baseline_ae": 133.40740740740742,
+          "method_ae": 133.40740740740742
+        },
+        {
+          "held_out": "MathWorks_G1C1",
+          "baseline_ape": 38.410874439461864,
+          "method_ape": 38.410874439461864,
+          "baseline_ae": 85.65625,
+          "method_ae": 85.65625
+        },
+        {
+          "held_out": "MathWorks_G1C2",
+          "baseline_ape": 26.683501683501685,
+          "method_ape": 26.683501683501685,
+          "baseline_ae": 57.63636363636363,
+          "method_ae": 57.63636363636363
+        },
+        {
+          "held_out": "MathWorks_G1C3",
+          "baseline_ape": 23.706896551724135,
+          "method_ape": 23.706896551724135,
+          "baseline_ae": 51.206896551724114,
+          "method_ae": 51.206896551724114
+        },
+        {
+          "held_out": "MathWorks_G2C1",
+          "baseline_ape": 50.704809286898865,
+          "method_ape": 50.704809286898865,
+          "baseline_ae": 271.77777777777777,
+          "method_ae": 271.77777777777777
+        },
+        {
+          "held_out": "MathWorks_G2C2",
+          "baseline_ape": 52.09495209495211,
+          "method_ape": 52.09495209495211,
+          "baseline_ae": 269.85185185185185,
+          "method_ae": 269.85185185185185
+        },
+        {
+          "held_out": "MathWorks_G2C3",
+          "baseline_ape": 37.252663622526626,
+          "method_ape": 37.252663622526626,
+          "baseline_ae": 163.16666666666663,
+          "method_ae": 163.16666666666663
+        },
+        {
+          "held_out": "MathWorks_G3C1",
+          "baseline_ape": 28.58858858858858,
+          "method_ape": 28.58858858858858,
+          "baseline_ae": 77.18918918918916,
+          "method_ae": 77.18918918918916
+        },
+        {
+          "held_out": "MathWorks_G3C2",
+          "baseline_ape": 33.72448979591836,
+          "method_ape": 33.72448979591836,
+          "baseline_ae": 82.62499999999996,
+          "method_ae": 82.62499999999996
+        },
+        {
+          "held_out": "MathWorks_G3C3",
+          "baseline_ape": 35.7103448275862,
+          "method_ape": 35.7103448275862,
+          "baseline_ae": 89.27586206896552,
+          "method_ae": 89.27586206896552
+        },
+        {
+          "held_out": "MathWorks_G5C1",
+          "baseline_ape": 40.787337662337656,
+          "method_ape": 40.787337662337656,
+          "baseline_ae": 179.46428571428572,
+          "method_ae": 179.46428571428572
+        },
+        {
+          "held_out": "MathWorks_G5C2",
+          "baseline_ape": 36.1391129032258,
+          "method_ape": 36.1391129032258,
+          "baseline_ae": 138.7741935483871,
+          "method_ae": 138.7741935483871
+        },
+        {
+          "held_out": "MathWorks_G5C3",
+          "baseline_ape": 43.27420546932742,
+          "method_ape": 43.27420546932742,
+          "baseline_ae": 177.42424242424244,
+          "method_ae": 177.42424242424244
+        },
+        {
+          "held_out": "MathWorks_G6C1",
+          "baseline_ape": 55.01693102833719,
+          "method_ape": 55.01693102833719,
+          "baseline_ae": 99.58064516129032,
+          "method_ae": 99.58064516129032
+        },
+        {
+          "held_out": "MathWorks_G6C2",
+          "baseline_ape": 43.49561053471669,
+          "method_ape": 43.49561053471669,
+          "baseline_ae": 77.85714285714288,
+          "method_ae": 77.85714285714288
+        },
+        {
+          "held_out": "MathWorks_G6C3",
+          "baseline_ape": 61.86584950629893,
+          "method_ape": 61.86584950629893,
+          "baseline_ae": 110.12121212121212,
+          "method_ae": 110.12121212121212
+        },
+        {
+          "held_out": "MathWorks_G7C1",
+          "baseline_ape": 36.967767608436134,
+          "method_ape": 36.967767608436134,
+          "baseline_ae": 132.71428571428572,
+          "method_ae": 132.71428571428572
+        },
+        {
+          "held_out": "MathWorks_G7C2",
+          "baseline_ape": 32.36971484759094,
+          "method_ape": 32.36971484759094,
+          "baseline_ae": 109.73333333333333,
+          "method_ae": 109.73333333333333
+        },
+        {
+          "held_out": "MathWorks_G7C3",
+          "baseline_ape": 31.458357200137467,
+          "method_ape": 31.458357200137467,
+          "baseline_ae": 94.68965517241378,
+          "method_ae": 94.68965517241378
+        },
+        {
+          "held_out": "MathWorks_G8C1",
+          "baseline_ape": 39.61412151067322,
+          "method_ape": 39.61412151067322,
+          "baseline_ae": 99.82758620689653,
+          "method_ae": 99.82758620689653
+        },
+        {
+          "held_out": "MathWorks_G8C2",
+          "baseline_ape": 43.958207147183515,
+          "method_ape": 43.958207147183515,
+          "baseline_ae": 111.65384615384616,
+          "method_ae": 111.65384615384616
+        },
+        {
+          "held_out": "MathWorks_G8C3",
+          "baseline_ape": 39.53136810279667,
+          "method_ape": 39.53136810279667,
+          "baseline_ae": 99.61904761904762,
+          "method_ae": 99.61904761904762
+        }
+      ]
+    },
+    {
+      "horizon": 10,
+      "label_budget_k": 3,
+      "protocol_dispersion": 0.8047927785050895,
+      "route_counts": {
+        "active_w0.5": 100
+      },
+      "baseline": {
+        "mae": 70.75149529206149,
+        "mape": 24.571731470184197,
+        "n_cells": 27
+      },
+      "method": {
+        "mae": 51.40267177580912,
+        "mape": 15.302114737076499,
+        "n_cells": 27
+      },
+      "relative_mape_reduction_percent": 37.724719335939454,
+      "paired_wilcoxon_p": 1.1354684829711914e-05,
+      "improved_same_worse_cells": [
+        24,
+        0,
+        3
+      ],
+      "per_cell": [
+        {
+          "held_out": "MathWorks_G13C1",
+          "baseline_ape": 23.310360214432105,
+          "method_ape": 9.16992611907864,
+          "baseline_ae": 41.259337579544834,
+          "method_ae": 16.230769230769194
+        },
+        {
+          "held_out": "MathWorks_G13C2",
+          "baseline_ape": 24.159896678051453,
+          "method_ape": 4.560000000000002,
+          "baseline_ae": 48.319793356102906,
+          "method_ae": 9.120000000000005
+        },
+        {
+          "held_out": "MathWorks_G13C3",
+          "baseline_ape": 26.250825108092993,
+          "method_ape": 13.723791370646314,
+          "baseline_ae": 52.23914196510505,
+          "method_ae": 27.310344827586185
+        },
+        {
+          "held_out": "MathWorks_G15C1",
+          "baseline_ape": 22.818293024564642,
+          "method_ape": 7.9498626373626475,
+          "baseline_ae": 47.462049491094454,
+          "method_ae": 16.5357142857143
+        },
+        {
+          "held_out": "MathWorks_G15C2",
+          "baseline_ape": 21.61351839257829,
+          "method_ape": 18.310322156476005,
+          "baseline_ae": 50.5756330386332,
+          "method_ae": 42.84615384615385
+        },
+        {
+          "held_out": "MathWorks_G15C3",
+          "baseline_ape": 37.53612995493694,
+          "method_ape": 13.935091277890448,
+          "baseline_ae": 63.811420923392795,
+          "method_ae": 23.689655172413776
+        },
+        {
+          "held_out": "MathWorks_G1C1",
+          "baseline_ape": 25.161690083798494,
+          "method_ape": 13.969285848335462,
+          "baseline_ae": 56.11056888687064,
+          "method_ae": 31.151507441788084
+        },
+        {
+          "held_out": "MathWorks_G1C2",
+          "baseline_ape": 18.972396085231775,
+          "method_ape": 11.315785671283534,
+          "baseline_ae": 40.98037554410063,
+          "method_ae": 24.442097049972432
+        },
+        {
+          "held_out": "MathWorks_G1C3",
+          "baseline_ape": 22.294232464714636,
+          "method_ape": 11.569728629822235,
+          "baseline_ae": 48.15554212378362,
+          "method_ae": 24.990613840416028
+        },
+        {
+          "held_out": "MathWorks_G2C1",
+          "baseline_ape": 37.70040206313134,
+          "method_ape": 41.07260181395076,
+          "baseline_ae": 202.074155058384,
+          "method_ae": 220.14914572277613
+        },
+        {
+          "held_out": "MathWorks_G2C2",
+          "baseline_ape": 33.09544000006126,
+          "method_ape": 40.758546114277685,
+          "baseline_ae": 171.4343792003173,
+          "method_ae": 211.1292688719584
+        },
+        {
+          "held_out": "MathWorks_G2C3",
+          "baseline_ape": 26.64052324109287,
+          "method_ape": 30.270662322516554,
+          "baseline_ae": 116.68549179598675,
+          "method_ae": 132.58550097262238
+        },
+        {
+          "held_out": "MathWorks_G3C1",
+          "baseline_ape": 11.776104302374106,
+          "method_ape": 2.6771821964351354,
+          "baseline_ae": 31.795481616410093,
+          "method_ae": 7.228391930374871
+        },
+        {
+          "held_out": "MathWorks_G3C2",
+          "baseline_ape": 19.06468481368333,
+          "method_ape": 9.665285875407113,
+          "baseline_ae": 46.708477793524146,
+          "method_ae": 23.679950394747422
+        },
+        {
+          "held_out": "MathWorks_G3C3",
+          "baseline_ape": 16.319481851055393,
+          "method_ape": 8.568927463062582,
+          "baseline_ae": 40.798704627638465,
+          "method_ae": 21.422318657656458
+        },
+        {
+          "held_out": "MathWorks_G5C1",
+          "baseline_ape": 31.107765861066618,
+          "method_ape": 28.503008577740488,
+          "baseline_ae": 136.87416978869314,
+          "method_ae": 125.4132377420581
+        },
+        {
+          "held_out": "MathWorks_G5C2",
+          "baseline_ape": 26.322539645341003,
+          "method_ape": 17.056205370700194,
+          "baseline_ae": 101.07855223810945,
+          "method_ae": 65.49582862348873
+        },
+        {
+          "held_out": "MathWorks_G5C3",
+          "baseline_ape": 23.27754816588937,
+          "method_ape": 23.03144495373636,
+          "baseline_ae": 95.4379474801464,
+          "method_ae": 94.42892431031912
+        },
+        {
+          "held_out": "MathWorks_G6C1",
+          "baseline_ape": 27.878054714325543,
+          "method_ape": 9.31440127983556,
+          "baseline_ae": 50.45927903292923,
+          "method_ae": 16.85906631650236
+        },
+        {
+          "held_out": "MathWorks_G6C2",
+          "baseline_ape": 39.69101435518713,
+          "method_ape": 15.454826321370009,
+          "baseline_ae": 71.04691569578493,
+          "method_ae": 27.664139115252322
+        },
+        {
+          "held_out": "MathWorks_G6C3",
+          "baseline_ape": 41.6408567628189,
+          "method_ape": 16.332614048210747,
+          "baseline_ae": 74.12072503781766,
+          "method_ae": 29.072053005815143
+        },
+        {
+          "held_out": "MathWorks_G7C1",
+          "baseline_ape": 22.4677028410563,
+          "method_ape": 15.094873964201764,
+          "baseline_ae": 80.65905319939213,
+          "method_ae": 54.190597531484315
+        },
+        {
+          "held_out": "MathWorks_G7C2",
+          "baseline_ape": 21.22388441974342,
+          "method_ape": 12.449721381279847,
+          "baseline_ae": 71.9489681829302,
+          "method_ae": 42.204555482538666
+        },
+        {
+          "held_out": "MathWorks_G7C3",
+          "baseline_ape": 22.426094948413535,
+          "method_ape": 6.234688698720306,
+          "baseline_ae": 67.50254579472477,
+          "method_ae": 18.766412983148104
+        },
+        {
+          "held_out": "MathWorks_G8C1",
+          "baseline_ape": 13.34800391354592,
+          "method_ape": 11.208771158514029,
+          "baseline_ae": 33.63696986213572,
+          "method_ae": 28.246103319455354
+        },
+        {
+          "held_out": "MathWorks_G8C2",
+          "baseline_ape": 10.982149092361933,
+          "method_ape": 10.0869896651198,
+          "baseline_ae": 27.894658694599308,
+          "method_ae": 25.6209537494043
+        },
+        {
+          "held_out": "MathWorks_G8C3",
+          "baseline_ape": 16.357156697424113,
+          "method_ape": 10.872552985091268,
+          "baseline_ae": 41.220034877508766,
+          "method_ae": 27.398833522429996
+        }
+      ]
+    },
+    {
+      "horizon": 10,
+      "label_budget_k": 5,
+      "protocol_dispersion": 0.8047927785050895,
+      "route_counts": {
+        "fallback_stability_or_coverage": 100
+      },
+      "baseline": {
+        "mae": 55.78893009842819,
+        "mape": 19.499246940243182,
+        "n_cells": 27
+      },
+      "method": {
+        "mae": 55.78893009842819,
+        "mape": 19.499246940243182,
+        "n_cells": 27
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        27,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "MathWorks_G13C1",
+          "baseline_ape": 19.231913283186664,
+          "method_ape": 19.231913283186664,
+          "baseline_ae": 34.04048651124039,
+          "method_ae": 34.04048651124039
+        },
+        {
+          "held_out": "MathWorks_G13C2",
+          "baseline_ape": 10.493036015418944,
+          "method_ape": 10.493036015418944,
+          "baseline_ae": 20.986072030837896,
+          "method_ae": 20.986072030837896
+        },
+        {
+          "held_out": "MathWorks_G13C3",
+          "baseline_ape": 13.206638755956952,
+          "method_ape": 13.206638755956952,
+          "baseline_ae": 26.281211124354357,
+          "method_ae": 26.281211124354357
+        },
+        {
+          "held_out": "MathWorks_G15C1",
+          "baseline_ape": 18.637182357846182,
+          "method_ape": 18.637182357846182,
+          "baseline_ae": 38.76533930432006,
+          "method_ae": 38.76533930432006
+        },
+        {
+          "held_out": "MathWorks_G15C2",
+          "baseline_ape": 28.53931537798278,
+          "method_ape": 28.53931537798278,
+          "baseline_ae": 66.7819979844797,
+          "method_ae": 66.7819979844797
+        },
+        {
+          "held_out": "MathWorks_G15C3",
+          "baseline_ape": 29.661059040527636,
+          "method_ape": 29.661059040527636,
+          "baseline_ae": 50.423800368897,
+          "method_ae": 50.423800368897
+        },
+        {
+          "held_out": "MathWorks_G1C1",
+          "baseline_ape": 18.83783866693603,
+          "method_ape": 18.83783866693603,
+          "baseline_ae": 42.00838022726733,
+          "method_ae": 42.00838022726733
+        },
+        {
+          "held_out": "MathWorks_G1C2",
+          "baseline_ape": 16.07022082610576,
+          "method_ape": 16.07022082610576,
+          "baseline_ae": 34.71167698438845,
+          "method_ae": 34.71167698438845
+        },
+        {
+          "held_out": "MathWorks_G1C3",
+          "baseline_ape": 14.27088663259429,
+          "method_ape": 14.27088663259429,
+          "baseline_ae": 30.825115126403656,
+          "method_ae": 30.825115126403656
+        },
+        {
+          "held_out": "MathWorks_G2C1",
+          "baseline_ape": 30.359710073172437,
+          "method_ape": 30.359710073172437,
+          "baseline_ae": 162.7280459922043,
+          "method_ae": 162.7280459922043
+        },
+        {
+          "held_out": "MathWorks_G2C2",
+          "baseline_ape": 26.026884592767253,
+          "method_ape": 26.026884592767253,
+          "baseline_ae": 134.81926219053432,
+          "method_ae": 134.81926219053432
+        },
+        {
+          "held_out": "MathWorks_G2C3",
+          "baseline_ape": 19.305302142646443,
+          "method_ape": 19.305302142646443,
+          "baseline_ae": 84.55722338479143,
+          "method_ae": 84.55722338479143
+        },
+        {
+          "held_out": "MathWorks_G3C1",
+          "baseline_ape": 9.470380891464385,
+          "method_ape": 9.470380891464385,
+          "baseline_ae": 25.57002840695384,
+          "method_ae": 25.57002840695384
+        },
+        {
+          "held_out": "MathWorks_G3C2",
+          "baseline_ape": 19.4552780089979,
+          "method_ape": 19.4552780089979,
+          "baseline_ae": 47.665431122044865,
+          "method_ae": 47.665431122044865
+        },
+        {
+          "held_out": "MathWorks_G3C3",
+          "baseline_ape": 16.277192732925155,
+          "method_ape": 16.277192732925155,
+          "baseline_ae": 40.69298183231289,
+          "method_ae": 40.69298183231289
+        },
+        {
+          "held_out": "MathWorks_G5C1",
+          "baseline_ape": 18.98609701598154,
+          "method_ape": 18.98609701598154,
+          "baseline_ae": 83.53882687031879,
+          "method_ae": 83.53882687031879
+        },
+        {
+          "held_out": "MathWorks_G5C2",
+          "baseline_ape": 16.534327163994206,
+          "method_ape": 16.534327163994206,
+          "baseline_ae": 63.49181630973774,
+          "method_ae": 63.49181630973774
+        },
+        {
+          "held_out": "MathWorks_G5C3",
+          "baseline_ape": 16.533567404247858,
+          "method_ape": 16.533567404247858,
+          "baseline_ae": 67.78762635741623,
+          "method_ae": 67.78762635741623
+        },
+        {
+          "held_out": "MathWorks_G6C1",
+          "baseline_ape": 27.03538436061105,
+          "method_ape": 27.03538436061105,
+          "baseline_ae": 48.934045692706015,
+          "method_ae": 48.934045692706015
+        },
+        {
+          "held_out": "MathWorks_G6C2",
+          "baseline_ape": 29.411287884497074,
+          "method_ape": 29.411287884497074,
+          "baseline_ae": 52.646205313249745,
+          "method_ae": 52.646205313249745
+        },
+        {
+          "held_out": "MathWorks_G6C3",
+          "baseline_ape": 22.685724025833938,
+          "method_ape": 22.685724025833938,
+          "baseline_ae": 40.380588765984406,
+          "method_ae": 40.380588765984406
+        },
+        {
+          "held_out": "MathWorks_G7C1",
+          "baseline_ape": 16.534341656093552,
+          "method_ape": 16.534341656093552,
+          "baseline_ae": 59.35828654537586,
+          "method_ae": 59.35828654537586
+        },
+        {
+          "held_out": "MathWorks_G7C2",
+          "baseline_ape": 16.370906511625194,
+          "method_ape": 16.370906511625194,
+          "baseline_ae": 55.49737307440941,
+          "method_ae": 55.49737307440941
+        },
+        {
+          "held_out": "MathWorks_G7C3",
+          "baseline_ape": 21.657539968704253,
+          "method_ape": 21.657539968704253,
+          "baseline_ae": 65.18919530579981,
+          "method_ae": 65.18919530579981
+        },
+        {
+          "held_out": "MathWorks_G8C1",
+          "baseline_ape": 18.662915340530347,
+          "method_ape": 18.662915340530347,
+          "baseline_ae": 47.03054665813648,
+          "method_ae": 47.03054665813648
+        },
+        {
+          "held_out": "MathWorks_G8C2",
+          "baseline_ape": 19.160640024127,
+          "method_ape": 19.160640024127,
+          "baseline_ae": 48.66802566128258,
+          "method_ae": 48.66802566128258
+        },
+        {
+          "held_out": "MathWorks_G8C3",
+          "baseline_ape": 13.064096631791138,
+          "method_ape": 13.064096631791138,
+          "baseline_ae": 32.921523512113666,
+          "method_ae": 32.921523512113666
+        }
+      ]
+    },
+    {
+      "horizon": 10,
+      "label_budget_k": 10,
+      "protocol_dispersion": 0.8047927785050895,
+      "route_counts": {
+        "fallback_stability_or_coverage": 100
+      },
+      "baseline": {
+        "mae": 33.57690118164939,
+        "mape": 11.28140225064093,
+        "n_cells": 27
+      },
+      "method": {
+        "mae": 33.57690118164939,
+        "mape": 11.28140225064093,
+        "n_cells": 27
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        27,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "MathWorks_G13C1",
+          "baseline_ape": 14.756578409729842,
+          "method_ape": 14.756578409729842,
+          "baseline_ae": 26.11914378522182,
+          "method_ae": 26.11914378522182
+        },
+        {
+          "held_out": "MathWorks_G13C2",
+          "baseline_ape": 8.316897330396294,
+          "method_ape": 8.316897330396294,
+          "baseline_ae": 16.63379466079259,
+          "method_ae": 16.63379466079259
+        },
+        {
+          "held_out": "MathWorks_G13C3",
+          "baseline_ape": 8.512893019907933,
+          "method_ape": 8.512893019907933,
+          "baseline_ae": 16.940657109616794,
+          "method_ae": 16.940657109616794
+        },
+        {
+          "held_out": "MathWorks_G15C1",
+          "baseline_ape": 11.055785862699215,
+          "method_ape": 11.055785862699215,
+          "baseline_ae": 22.996034594414375,
+          "method_ae": 22.996034594414375
+        },
+        {
+          "held_out": "MathWorks_G15C2",
+          "baseline_ape": 20.77745556163781,
+          "method_ape": 20.77745556163781,
+          "baseline_ae": 48.61924601423248,
+          "method_ae": 48.61924601423248
+        },
+        {
+          "held_out": "MathWorks_G15C3",
+          "baseline_ape": 20.874263623098134,
+          "method_ape": 20.874263623098134,
+          "baseline_ae": 35.48624815926683,
+          "method_ae": 35.48624815926683
+        },
+        {
+          "held_out": "MathWorks_G1C1",
+          "baseline_ape": 9.32655647332855,
+          "method_ape": 9.32655647332855,
+          "baseline_ae": 20.79822093552266,
+          "method_ae": 20.79822093552266
+        },
+        {
+          "held_out": "MathWorks_G1C2",
+          "baseline_ape": 6.490510804326281,
+          "method_ape": 6.490510804326281,
+          "baseline_ae": 14.019503337344762,
+          "method_ae": 14.019503337344762
+        },
+        {
+          "held_out": "MathWorks_G1C3",
+          "baseline_ape": 6.222291762660631,
+          "method_ape": 6.222291762660631,
+          "baseline_ae": 13.440150207346964,
+          "method_ae": 13.440150207346964
+        },
+        {
+          "held_out": "MathWorks_G2C1",
+          "baseline_ape": 22.61275328332795,
+          "method_ape": 22.61275328332795,
+          "baseline_ae": 121.20435759863778,
+          "method_ae": 121.20435759863778
+        },
+        {
+          "held_out": "MathWorks_G2C2",
+          "baseline_ape": 21.82848289573679,
+          "method_ape": 21.82848289573679,
+          "baseline_ae": 113.07154139991657,
+          "method_ae": 113.07154139991657
+        },
+        {
+          "held_out": "MathWorks_G2C3",
+          "baseline_ape": 10.329637294285607,
+          "method_ape": 10.329637294285607,
+          "baseline_ae": 45.24381134897096,
+          "method_ae": 45.24381134897096
+        },
+        {
+          "held_out": "MathWorks_G3C1",
+          "baseline_ape": 3.7407424537701295,
+          "method_ape": 3.7407424537701295,
+          "baseline_ae": 10.10000462517935,
+          "method_ae": 10.10000462517935
+        },
+        {
+          "held_out": "MathWorks_G3C2",
+          "baseline_ape": 8.805698035828426,
+          "method_ape": 8.805698035828426,
+          "baseline_ae": 21.573960187779644,
+          "method_ae": 21.573960187779644
+        },
+        {
+          "held_out": "MathWorks_G3C3",
+          "baseline_ape": 7.727152639649697,
+          "method_ape": 7.727152639649697,
+          "baseline_ae": 19.317881599124245,
+          "method_ae": 19.317881599124245
+        },
+        {
+          "held_out": "MathWorks_G5C1",
+          "baseline_ape": 13.347641104648805,
+          "method_ape": 13.347641104648805,
+          "baseline_ae": 58.72962086045475,
+          "method_ae": 58.72962086045475
+        },
+        {
+          "held_out": "MathWorks_G5C2",
+          "baseline_ape": 8.061359244441825,
+          "method_ape": 8.061359244441825,
+          "baseline_ae": 30.955619498656613,
+          "method_ae": 30.955619498656613
+        },
+        {
+          "held_out": "MathWorks_G5C3",
+          "baseline_ape": 8.40431411359492,
+          "method_ape": 8.40431411359492,
+          "baseline_ae": 34.45768786573917,
+          "method_ae": 34.45768786573917
+        },
+        {
+          "held_out": "MathWorks_G6C1",
+          "baseline_ape": 9.850087447133795,
+          "method_ape": 9.850087447133795,
+          "baseline_ae": 17.82865827931217,
+          "method_ae": 17.82865827931217
+        },
+        {
+          "held_out": "MathWorks_G6C2",
+          "baseline_ape": 12.443815074729745,
+          "method_ape": 12.443815074729745,
+          "baseline_ae": 22.27442898376625,
+          "method_ae": 22.27442898376625
+        },
+        {
+          "held_out": "MathWorks_G6C3",
+          "baseline_ape": 11.442595184434234,
+          "method_ape": 11.442595184434234,
+          "baseline_ae": 20.367819428292936,
+          "method_ae": 20.367819428292936
+        },
+        {
+          "held_out": "MathWorks_G7C1",
+          "baseline_ape": 8.65515577061764,
+          "method_ape": 8.65515577061764,
+          "baseline_ae": 31.07200921651733,
+          "method_ae": 31.07200921651733
+        },
+        {
+          "held_out": "MathWorks_G7C2",
+          "baseline_ape": 10.674810988677484,
+          "method_ape": 10.674810988677484,
+          "baseline_ae": 36.18760925161667,
+          "method_ae": 36.18760925161667
+        },
+        {
+          "held_out": "MathWorks_G7C3",
+          "baseline_ape": 14.928506763555736,
+          "method_ape": 14.928506763555736,
+          "baseline_ae": 44.93480535830277,
+          "method_ae": 44.93480535830277
+        },
+        {
+          "held_out": "MathWorks_G8C1",
+          "baseline_ape": 10.133753250554724,
+          "method_ape": 10.133753250554724,
+          "baseline_ae": 25.5370581913979,
+          "method_ae": 25.5370581913979
+        },
+        {
+          "held_out": "MathWorks_G8C2",
+          "baseline_ape": 8.279551164312949,
+          "method_ape": 8.279551164312949,
+          "baseline_ae": 21.030059957354887,
+          "method_ae": 21.030059957354887
+        },
+        {
+          "held_out": "MathWorks_G8C3",
+          "baseline_ape": 6.998571210219965,
+          "method_ape": 6.998571210219965,
+          "baseline_ae": 17.636399449754315,
+          "method_ae": 17.636399449754315
+        }
+      ]
+    },
+    {
+      "horizon": 20,
+      "label_budget_k": 1,
+      "protocol_dispersion": 0.8047927785050895,
+      "route_counts": {
+        "fallback_stability_or_coverage": 100
+      },
+      "baseline": {
+        "mae": 114.83894810013916,
+        "mape": 42.13137380598437,
+        "n_cells": 27
+      },
+      "method": {
+        "mae": 114.83894810013916,
+        "mape": 42.13137380598437,
+        "n_cells": 27
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        27,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "MathWorks_G13C1",
+          "baseline_ape": 59.163135593220304,
+          "method_ape": 59.163135593220304,
+          "baseline_ae": 104.71875,
+          "method_ae": 104.71875
+        },
+        {
+          "held_out": "MathWorks_G13C2",
+          "baseline_ape": 45.42000000000001,
+          "method_ape": 45.42000000000001,
+          "baseline_ae": 90.84000000000002,
+          "method_ae": 90.84000000000002
+        },
+        {
+          "held_out": "MathWorks_G13C3",
+          "baseline_ape": 48.77837463177957,
+          "method_ape": 48.77837463177957,
+          "baseline_ae": 97.06896551724137,
+          "method_ae": 97.06896551724137
+        },
+        {
+          "held_out": "MathWorks_G15C1",
+          "baseline_ape": 44.97252747252747,
+          "method_ape": 44.97252747252747,
+          "baseline_ae": 93.54285714285714,
+          "method_ae": 93.54285714285714
+        },
+        {
+          "held_out": "MathWorks_G15C2",
+          "baseline_ape": 40.372744539411194,
+          "method_ape": 40.372744539411194,
+          "baseline_ae": 94.47222222222223,
+          "method_ae": 94.47222222222223
+        },
+        {
+          "held_out": "MathWorks_G15C3",
+          "baseline_ape": 63.115468409586036,
+          "method_ape": 63.115468409586036,
+          "baseline_ae": 107.29629629629629,
+          "method_ae": 107.29629629629629
+        },
+        {
+          "held_out": "MathWorks_G1C1",
+          "baseline_ape": 32.15110748743036,
+          "method_ape": 32.15110748743036,
+          "baseline_ae": 71.6969696969697,
+          "method_ae": 71.6969696969697
+        },
+        {
+          "held_out": "MathWorks_G1C2",
+          "baseline_ape": 54.41798941798941,
+          "method_ape": 54.41798941798941,
+          "baseline_ae": 117.54285714285712,
+          "method_ae": 117.54285714285712
+        },
+        {
+          "held_out": "MathWorks_G1C3",
+          "baseline_ape": 46.99735449735451,
+          "method_ape": 46.99735449735451,
+          "baseline_ae": 101.51428571428572,
+          "method_ae": 101.51428571428572
+        },
+        {
+          "held_out": "MathWorks_G2C1",
+          "baseline_ape": 46.76616915422887,
+          "method_ape": 46.76616915422887,
+          "baseline_ae": 250.66666666666666,
+          "method_ae": 250.66666666666666
+        },
+        {
+          "held_out": "MathWorks_G2C2",
+          "baseline_ape": 46.64092664092664,
+          "method_ape": 46.64092664092664,
+          "baseline_ae": 241.59999999999997,
+          "method_ae": 241.59999999999997
+        },
+        {
+          "held_out": "MathWorks_G2C3",
+          "baseline_ape": 38.70576484018265,
+          "method_ape": 38.70576484018265,
+          "baseline_ae": 169.53124999999997,
+          "method_ae": 169.53124999999997
+        },
+        {
+          "held_out": "MathWorks_G3C1",
+          "baseline_ape": 24.29951690821256,
+          "method_ape": 24.29951690821256,
+          "baseline_ae": 65.6086956521739,
+          "method_ae": 65.6086956521739
+        },
+        {
+          "held_out": "MathWorks_G3C2",
+          "baseline_ape": 27.275953859804794,
+          "method_ape": 27.275953859804794,
+          "baseline_ae": 66.82608695652173,
+          "method_ae": 66.82608695652173
+        },
+        {
+          "held_out": "MathWorks_G3C3",
+          "baseline_ape": 21.79999999999999,
+          "method_ape": 21.79999999999999,
+          "baseline_ae": 54.499999999999986,
+          "method_ae": 54.499999999999986
+        },
+        {
+          "held_out": "MathWorks_G5C1",
+          "baseline_ape": 39.94868035190614,
+          "method_ape": 39.94868035190614,
+          "baseline_ae": 175.7741935483871,
+          "method_ae": 175.7741935483871
+        },
+        {
+          "held_out": "MathWorks_G5C2",
+          "baseline_ape": 35.52083333333334,
+          "method_ape": 35.52083333333334,
+          "baseline_ae": 136.4,
+          "method_ae": 136.4
+        },
+        {
+          "held_out": "MathWorks_G5C3",
+          "baseline_ape": 34.703832752613245,
+          "method_ape": 34.703832752613245,
+          "baseline_ae": 142.2857142857143,
+          "method_ae": 142.2857142857143
+        },
+        {
+          "held_out": "MathWorks_G6C1",
+          "baseline_ape": 52.81005905886835,
+          "method_ape": 52.81005905886835,
+          "baseline_ae": 95.58620689655173,
+          "method_ae": 95.58620689655173
+        },
+        {
+          "held_out": "MathWorks_G6C2",
+          "baseline_ape": 51.76192522561237,
+          "method_ape": 51.76192522561237,
+          "baseline_ae": 92.65384615384613,
+          "method_ae": 92.65384615384613
+        },
+        {
+          "held_out": "MathWorks_G6C3",
+          "baseline_ape": 80.44241573033709,
+          "method_ape": 80.44241573033709,
+          "baseline_ae": 143.1875,
+          "method_ae": 143.1875
+        },
+        {
+          "held_out": "MathWorks_G7C1",
+          "baseline_ape": 31.715081575805815,
+          "method_ape": 31.715081575805815,
+          "baseline_ae": 113.85714285714288,
+          "method_ae": 113.85714285714288
+        },
+        {
+          "held_out": "MathWorks_G7C2",
+          "baseline_ape": 33.468534906588,
+          "method_ape": 33.468534906588,
+          "baseline_ae": 113.45833333333333,
+          "method_ae": 113.45833333333333
+        },
+        {
+          "held_out": "MathWorks_G7C3",
+          "baseline_ape": 32.489403138962075,
+          "method_ape": 32.489403138962075,
+          "baseline_ae": 97.79310344827586,
+          "method_ae": 97.79310344827586
+        },
+        {
+          "held_out": "MathWorks_G8C1",
+          "baseline_ape": 41.54351395730706,
+          "method_ape": 41.54351395730706,
+          "baseline_ae": 104.6896551724138,
+          "method_ae": 104.6896551724138
+        },
+        {
+          "held_out": "MathWorks_G8C2",
+          "baseline_ape": 31.51181102362204,
+          "method_ape": 31.51181102362204,
+          "baseline_ae": 80.03999999999998,
+          "method_ae": 80.03999999999998
+        },
+        {
+          "held_out": "MathWorks_G8C3",
+          "baseline_ape": 30.753968253968235,
+          "method_ape": 30.753968253968235,
+          "baseline_ae": 77.49999999999999,
+          "method_ae": 77.49999999999999
+        }
+      ]
+    },
+    {
+      "horizon": 20,
+      "label_budget_k": 3,
+      "protocol_dispersion": 0.8047927785050895,
+      "route_counts": {
+        "active_w0.5": 100
+      },
+      "baseline": {
+        "mae": 73.68069529303443,
+        "mape": 25.891552114082444,
+        "n_cells": 27
+      },
+      "method": {
+        "mae": 51.099334101369294,
+        "mape": 15.945937828570765,
+        "n_cells": 27
+      },
+      "relative_mape_reduction_percent": 38.41258431201677,
+      "paired_wilcoxon_p": 6.407499313354492e-07,
+      "improved_same_worse_cells": [
+        23,
+        0,
+        4
+      ],
+      "per_cell": [
+        {
+          "held_out": "MathWorks_G13C1",
+          "baseline_ape": 36.22121068908712,
+          "method_ape": 14.689265536723155,
+          "baseline_ae": 64.11154291968421,
+          "method_ae": 26.0
+        },
+        {
+          "held_out": "MathWorks_G13C2",
+          "baseline_ape": 21.06792580284777,
+          "method_ape": 3.780000000000011,
+          "baseline_ae": 42.13585160569554,
+          "method_ae": 7.560000000000022
+        },
+        {
+          "held_out": "MathWorks_G13C3",
+          "baseline_ape": 30.04154586360608,
+          "method_ape": 14.386216798277086,
+          "baseline_ae": 59.78267626857613,
+          "method_ae": 28.62857142857143
+        },
+        {
+          "held_out": "MathWorks_G15C1",
+          "baseline_ape": 24.359992984468825,
+          "method_ape": 8.827457264957275,
+          "baseline_ae": 50.66878540769515,
+          "method_ae": 18.361111111111125
+        },
+        {
+          "held_out": "MathWorks_G15C2",
+          "baseline_ape": 34.89256861559683,
+          "method_ape": 18.06117858749437,
+          "baseline_ae": 81.64861056049659,
+          "method_ae": 42.26315789473684
+        },
+        {
+          "held_out": "MathWorks_G15C3",
+          "baseline_ape": 37.574911208829114,
+          "method_ape": 18.05704099821746,
+          "baseline_ae": 63.877349055009496,
+          "method_ae": 30.69696969696969
+        },
+        {
+          "held_out": "MathWorks_G1C1",
+          "baseline_ape": 19.57804037971053,
+          "method_ape": 12.770352020356064,
+          "baseline_ae": 43.65903004675447,
+          "method_ae": 28.477885005393997
+        },
+        {
+          "held_out": "MathWorks_G1C2",
+          "baseline_ape": 22.170201864077075,
+          "method_ape": 14.222688698749252,
+          "baseline_ae": 47.88763602640649,
+          "method_ae": 30.721007589298384
+        },
+        {
+          "held_out": "MathWorks_G1C3",
+          "baseline_ape": 19.57140119730452,
+          "method_ape": 12.986416377914942,
+          "baseline_ae": 42.27422658617777,
+          "method_ae": 28.050659376296267
+        },
+        {
+          "held_out": "MathWorks_G2C1",
+          "baseline_ape": 37.905761194952,
+          "method_ape": 41.28721525528731,
+          "baseline_ae": 203.17488000494268,
+          "method_ae": 221.2994737683397
+        },
+        {
+          "held_out": "MathWorks_G2C2",
+          "baseline_ape": 35.21137285907997,
+          "method_ape": 38.168283688626865,
+          "baseline_ae": 182.39491141003418,
+          "method_ae": 197.71170950708716
+        },
+        {
+          "held_out": "MathWorks_G2C3",
+          "baseline_ape": 31.139243151169506,
+          "method_ape": 26.656093906607694,
+          "baseline_ae": 136.3898850021224,
+          "method_ae": 116.75369131094173
+        },
+        {
+          "held_out": "MathWorks_G3C1",
+          "baseline_ape": 13.242383784265591,
+          "method_ape": 1.3387334141800278,
+          "baseline_ae": 35.754436217517096,
+          "method_ae": 3.6145802182860756
+        },
+        {
+          "held_out": "MathWorks_G3C2",
+          "baseline_ape": 15.712586678576908,
+          "method_ape": 9.131292578937991,
+          "baseline_ae": 38.49583736251344,
+          "method_ae": 22.37166681839806
+        },
+        {
+          "held_out": "MathWorks_G3C3",
+          "baseline_ape": 20.836874473263308,
+          "method_ape": 9.169671409260607,
+          "baseline_ae": 52.09218618315826,
+          "method_ae": 22.924178523151518
+        },
+        {
+          "held_out": "MathWorks_G5C1",
+          "baseline_ape": 26.040828389306274,
+          "method_ape": 26.947738211167394,
+          "baseline_ae": 114.57964491294759,
+          "method_ae": 118.57004812913658
+        },
+        {
+          "held_out": "MathWorks_G5C2",
+          "baseline_ape": 22.53403210172288,
+          "method_ape": 16.836559907201153,
+          "baseline_ae": 86.53068327061584,
+          "method_ae": 64.65239004365247
+        },
+        {
+          "held_out": "MathWorks_G5C3",
+          "baseline_ape": 21.47164054004678,
+          "method_ape": 21.82348369874533,
+          "baseline_ae": 88.0337262141918,
+          "method_ae": 89.47628316485584
+        },
+        {
+          "held_out": "MathWorks_G6C1",
+          "baseline_ape": 28.45455592368121,
+          "method_ape": 17.917142746739273,
+          "baseline_ae": 51.502746221863006,
+          "method_ae": 32.430028371598105
+        },
+        {
+          "held_out": "MathWorks_G6C2",
+          "baseline_ape": 40.52766747602513,
+          "method_ape": 27.071025235183,
+          "baseline_ae": 72.54452478208499,
+          "method_ae": 48.45713517097756
+        },
+        {
+          "held_out": "MathWorks_G6C3",
+          "baseline_ape": 35.7464986968306,
+          "method_ape": 17.00063081455409,
+          "baseline_ae": 63.62876768035848,
+          "method_ae": 30.261122849906275
+        },
+        {
+          "held_out": "MathWorks_G7C1",
+          "baseline_ape": 21.838442975338584,
+          "method_ape": 12.628449508915782,
+          "baseline_ae": 78.40001028146551,
+          "method_ae": 45.336133737007664
+        },
+        {
+          "held_out": "MathWorks_G7C2",
+          "baseline_ape": 20.167449161482587,
+          "method_ape": 5.08577686896221,
+          "baseline_ae": 68.36765265742598,
+          "method_ae": 17.240783585781884
+        },
+        {
+          "held_out": "MathWorks_G7C3",
+          "baseline_ape": 25.52072470788937,
+          "method_ape": 5.103605588722662,
+          "baseline_ae": 76.81738137074701,
+          "method_ae": 15.361852822055207
+        },
+        {
+          "held_out": "MathWorks_G8C1",
+          "baseline_ape": 22.406577936906046,
+          "method_ape": 12.253703478384038,
+          "baseline_ae": 56.46457640100326,
+          "method_ae": 30.879332765527785
+        },
+        {
+          "held_out": "MathWorks_G8C2",
+          "baseline_ape": 18.539701677792806,
+          "method_ape": 12.234746461528877,
+          "baseline_ae": 47.090842261593714,
+          "method_ae": 31.076256012283334
+        },
+        {
+          "held_out": "MathWorks_G8C3",
+          "baseline_ape": 16.297766746368517,
+          "method_ape": 12.105552315716814,
+          "baseline_ae": 41.07037220084867,
+          "method_ae": 30.505991835606345
+        }
+      ]
+    },
+    {
+      "horizon": 20,
+      "label_budget_k": 5,
+      "protocol_dispersion": 0.8047927785050895,
+      "route_counts": {
+        "fallback_stability_or_coverage": 100
+      },
+      "baseline": {
+        "mae": 48.9395578297179,
+        "mape": 16.782545539492986,
+        "n_cells": 27
+      },
+      "method": {
+        "mae": 48.9395578297179,
+        "mape": 16.782545539492986,
+        "n_cells": 27
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        27,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "MathWorks_G13C1",
+          "baseline_ape": 13.51087756790228,
+          "method_ape": 13.51087756790228,
+          "baseline_ae": 23.914253295187034,
+          "method_ae": 23.914253295187034
+        },
+        {
+          "held_out": "MathWorks_G13C2",
+          "baseline_ape": 9.104853172629745,
+          "method_ape": 9.104853172629745,
+          "baseline_ae": 18.20970634525949,
+          "method_ae": 18.20970634525949
+        },
+        {
+          "held_out": "MathWorks_G13C3",
+          "baseline_ape": 7.635839948814658,
+          "method_ape": 7.635839948814658,
+          "baseline_ae": 15.195321498141167,
+          "method_ae": 15.195321498141167
+        },
+        {
+          "held_out": "MathWorks_G15C1",
+          "baseline_ape": 11.355484847952729,
+          "method_ape": 11.355484847952729,
+          "baseline_ae": 23.61940848374167,
+          "method_ae": 23.61940848374167
+        },
+        {
+          "held_out": "MathWorks_G15C2",
+          "baseline_ape": 18.36286880877605,
+          "method_ape": 18.36286880877605,
+          "baseline_ae": 42.96911301253596,
+          "method_ae": 42.96911301253596
+        },
+        {
+          "held_out": "MathWorks_G15C3",
+          "baseline_ape": 27.73166124487776,
+          "method_ape": 27.73166124487776,
+          "baseline_ae": 47.1438241162922,
+          "method_ae": 47.1438241162922
+        },
+        {
+          "held_out": "MathWorks_G1C1",
+          "baseline_ape": 15.518748487162226,
+          "method_ape": 15.518748487162226,
+          "baseline_ae": 34.60680912637176,
+          "method_ae": 34.60680912637176
+        },
+        {
+          "held_out": "MathWorks_G1C2",
+          "baseline_ape": 13.248240645737122,
+          "method_ape": 13.248240645737122,
+          "baseline_ae": 28.616199794792177,
+          "method_ae": 28.616199794792177
+        },
+        {
+          "held_out": "MathWorks_G1C3",
+          "baseline_ape": 18.318858435001456,
+          "method_ape": 18.318858435001456,
+          "baseline_ae": 39.568734219603144,
+          "method_ae": 39.568734219603144
+        },
+        {
+          "held_out": "MathWorks_G2C1",
+          "baseline_ape": 28.152632684716167,
+          "method_ape": 28.152632684716167,
+          "baseline_ae": 150.89811119007865,
+          "method_ae": 150.89811119007865
+        },
+        {
+          "held_out": "MathWorks_G2C2",
+          "baseline_ape": 26.96402567100483,
+          "method_ape": 26.96402567100483,
+          "baseline_ae": 139.673652975805,
+          "method_ae": 139.673652975805
+        },
+        {
+          "held_out": "MathWorks_G2C3",
+          "baseline_ape": 17.64216299786475,
+          "method_ape": 17.64216299786475,
+          "baseline_ae": 77.27267393064761,
+          "method_ae": 77.27267393064761
+        },
+        {
+          "held_out": "MathWorks_G3C1",
+          "baseline_ape": 5.569234542723804,
+          "method_ape": 5.569234542723804,
+          "baseline_ae": 15.036933265354273,
+          "method_ae": 15.036933265354273
+        },
+        {
+          "held_out": "MathWorks_G3C2",
+          "baseline_ape": 12.494147916803868,
+          "method_ape": 12.494147916803868,
+          "baseline_ae": 30.610662396169477,
+          "method_ae": 30.610662396169477
+        },
+        {
+          "held_out": "MathWorks_G3C3",
+          "baseline_ape": 8.867273623066973,
+          "method_ape": 8.867273623066973,
+          "baseline_ae": 22.168184057667432,
+          "method_ae": 22.168184057667432
+        },
+        {
+          "held_out": "MathWorks_G5C1",
+          "baseline_ape": 18.35119878214937,
+          "method_ape": 18.35119878214937,
+          "baseline_ae": 80.74527464145723,
+          "method_ae": 80.74527464145723
+        },
+        {
+          "held_out": "MathWorks_G5C2",
+          "baseline_ape": 17.178723512601497,
+          "method_ape": 17.178723512601497,
+          "baseline_ae": 65.96629828838977,
+          "method_ae": 65.96629828838977
+        },
+        {
+          "held_out": "MathWorks_G5C3",
+          "baseline_ape": 14.183592527452069,
+          "method_ape": 14.183592527452069,
+          "baseline_ae": 58.15272936255345,
+          "method_ae": 58.15272936255345
+        },
+        {
+          "held_out": "MathWorks_G6C1",
+          "baseline_ape": 23.779728360222993,
+          "method_ape": 23.779728360222993,
+          "baseline_ae": 43.041308332003624,
+          "method_ae": 43.041308332003624
+        },
+        {
+          "held_out": "MathWorks_G6C2",
+          "baseline_ape": 27.76113127978739,
+          "method_ape": 27.76113127978739,
+          "baseline_ae": 49.69242499081941,
+          "method_ae": 49.69242499081941
+        },
+        {
+          "held_out": "MathWorks_G6C3",
+          "baseline_ape": 32.65095621164865,
+          "method_ape": 32.65095621164865,
+          "baseline_ae": 58.118702056734584,
+          "method_ae": 58.118702056734584
+        },
+        {
+          "held_out": "MathWorks_G7C1",
+          "baseline_ape": 19.849013226724097,
+          "method_ape": 19.849013226724097,
+          "baseline_ae": 71.2579574839395,
+          "method_ae": 71.2579574839395
+        },
+        {
+          "held_out": "MathWorks_G7C2",
+          "baseline_ape": 13.685937299574219,
+          "method_ape": 13.685937299574219,
+          "baseline_ae": 46.39532744555662,
+          "method_ae": 46.39532744555662
+        },
+        {
+          "held_out": "MathWorks_G7C3",
+          "baseline_ape": 18.89328474105003,
+          "method_ape": 18.89328474105003,
+          "baseline_ae": 56.8687870705606,
+          "method_ae": 56.8687870705606
+        },
+        {
+          "held_out": "MathWorks_G8C1",
+          "baseline_ape": 12.078446033618125,
+          "method_ape": 12.078446033618125,
+          "baseline_ae": 30.437684004717674,
+          "method_ae": 30.437684004717674
+        },
+        {
+          "held_out": "MathWorks_G8C2",
+          "baseline_ape": 9.183319347788487,
+          "method_ape": 9.183319347788487,
+          "baseline_ae": 23.325631143382754,
+          "method_ae": 23.325631143382754
+        },
+        {
+          "held_out": "MathWorks_G8C3",
+          "baseline_ape": 11.056487648659214,
+          "method_ape": 11.056487648659214,
+          "baseline_ae": 27.862348874621226,
+          "method_ae": 27.862348874621226
+        }
+      ]
+    },
+    {
+      "horizon": 20,
+      "label_budget_k": 10,
+      "protocol_dispersion": 0.8047927785050895,
+      "route_counts": {
+        "fallback_stability_or_coverage": 100
+      },
+      "baseline": {
+        "mae": 34.45061253974185,
+        "mape": 11.86086366807733,
+        "n_cells": 27
+      },
+      "method": {
+        "mae": 34.45061253974185,
+        "mape": 11.86086366807733,
+        "n_cells": 27
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        27,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "MathWorks_G13C1",
+          "baseline_ape": 14.407960348046588,
+          "method_ape": 14.407960348046588,
+          "baseline_ae": 25.502089816042467,
+          "method_ae": 25.502089816042467
+        },
+        {
+          "held_out": "MathWorks_G13C2",
+          "baseline_ape": 8.182223110294167,
+          "method_ape": 8.182223110294167,
+          "baseline_ae": 16.364446220588334,
+          "method_ae": 16.364446220588334
+        },
+        {
+          "held_out": "MathWorks_G13C3",
+          "baseline_ape": 12.686032258877374,
+          "method_ape": 12.686032258877374,
+          "baseline_ae": 25.24520419516597,
+          "method_ae": 25.24520419516597
+        },
+        {
+          "held_out": "MathWorks_G15C1",
+          "baseline_ape": 10.625176220500176,
+          "method_ape": 10.625176220500176,
+          "baseline_ae": 22.100366538640355,
+          "method_ae": 22.100366538640355
+        },
+        {
+          "held_out": "MathWorks_G15C2",
+          "baseline_ape": 19.53553578523067,
+          "method_ape": 19.53553578523067,
+          "baseline_ae": 45.71315373743977,
+          "method_ae": 45.71315373743977
+        },
+        {
+          "held_out": "MathWorks_G15C3",
+          "baseline_ape": 21.99073133263457,
+          "method_ape": 21.99073133263457,
+          "baseline_ae": 37.38424326547878,
+          "method_ae": 37.38424326547878
+        },
+        {
+          "held_out": "MathWorks_G1C1",
+          "baseline_ape": 10.215375348396234,
+          "method_ape": 10.215375348396234,
+          "baseline_ae": 22.7802870269236,
+          "method_ae": 22.7802870269236
+        },
+        {
+          "held_out": "MathWorks_G1C2",
+          "baseline_ape": 5.962894406660347,
+          "method_ape": 5.962894406660347,
+          "baseline_ae": 12.879851918386347,
+          "method_ae": 12.879851918386347
+        },
+        {
+          "held_out": "MathWorks_G1C3",
+          "baseline_ape": 6.411090081754583,
+          "method_ape": 6.411090081754583,
+          "baseline_ae": 13.847954576589892,
+          "method_ae": 13.847954576589892
+        },
+        {
+          "held_out": "MathWorks_G2C1",
+          "baseline_ape": 24.142380020468377,
+          "method_ape": 24.142380020468377,
+          "baseline_ae": 129.4031569097105,
+          "method_ae": 129.4031569097105
+        },
+        {
+          "held_out": "MathWorks_G2C2",
+          "baseline_ape": 18.37465141506901,
+          "method_ape": 18.37465141506901,
+          "baseline_ae": 95.18069433005746,
+          "method_ae": 95.18069433005746
+        },
+        {
+          "held_out": "MathWorks_G2C3",
+          "baseline_ape": 8.255188371412467,
+          "method_ape": 8.255188371412467,
+          "baseline_ae": 36.157725066786604,
+          "method_ae": 36.157725066786604
+        },
+        {
+          "held_out": "MathWorks_G3C1",
+          "baseline_ape": 5.512166607997888,
+          "method_ape": 5.512166607997888,
+          "baseline_ae": 14.882849841594297,
+          "method_ae": 14.882849841594297
+        },
+        {
+          "held_out": "MathWorks_G3C2",
+          "baseline_ape": 9.793629660506038,
+          "method_ape": 9.793629660506038,
+          "baseline_ae": 23.99439266823979,
+          "method_ae": 23.99439266823979
+        },
+        {
+          "held_out": "MathWorks_G3C3",
+          "baseline_ape": 8.046205117929643,
+          "method_ape": 8.046205117929643,
+          "baseline_ae": 20.115512794824106,
+          "method_ae": 20.115512794824106
+        },
+        {
+          "held_out": "MathWorks_G5C1",
+          "baseline_ape": 12.296790449963078,
+          "method_ape": 12.296790449963078,
+          "baseline_ae": 54.105877979837544,
+          "method_ae": 54.105877979837544
+        },
+        {
+          "held_out": "MathWorks_G5C2",
+          "baseline_ape": 10.726136083098261,
+          "method_ape": 10.726136083098261,
+          "baseline_ae": 41.18836255909733,
+          "method_ae": 41.18836255909733
+        },
+        {
+          "held_out": "MathWorks_G5C3",
+          "baseline_ape": 8.88476323253659,
+          "method_ape": 8.88476323253659,
+          "baseline_ae": 36.42752925340001,
+          "method_ae": 36.42752925340001
+        },
+        {
+          "held_out": "MathWorks_G6C1",
+          "baseline_ape": 15.091804950881578,
+          "method_ape": 15.091804950881578,
+          "baseline_ae": 27.316166961095654,
+          "method_ae": 27.316166961095654
+        },
+        {
+          "held_out": "MathWorks_G6C2",
+          "baseline_ape": 14.711154767771424,
+          "method_ape": 14.711154767771424,
+          "baseline_ae": 26.332967034310844,
+          "method_ae": 26.332967034310844
+        },
+        {
+          "held_out": "MathWorks_G6C3",
+          "baseline_ape": 13.693640046846934,
+          "method_ape": 13.693640046846934,
+          "baseline_ae": 24.374679283387543,
+          "method_ae": 24.374679283387543
+        },
+        {
+          "held_out": "MathWorks_G7C1",
+          "baseline_ape": 10.021421340672534,
+          "method_ape": 10.021421340672534,
+          "baseline_ae": 35.976902613014396,
+          "method_ae": 35.976902613014396
+        },
+        {
+          "held_out": "MathWorks_G7C2",
+          "baseline_ape": 8.083242153874362,
+          "method_ape": 8.083242153874362,
+          "baseline_ae": 27.40219090163409,
+          "method_ae": 27.40219090163409
+        },
+        {
+          "held_out": "MathWorks_G7C3",
+          "baseline_ape": 16.301734653424518,
+          "method_ape": 16.301734653424518,
+          "baseline_ae": 49.06822130680781,
+          "method_ae": 49.06822130680781
+        },
+        {
+          "held_out": "MathWorks_G8C1",
+          "baseline_ape": 9.531561562705436,
+          "method_ape": 9.531561562705436,
+          "baseline_ae": 24.01953513801769,
+          "method_ae": 24.01953513801769
+        },
+        {
+          "held_out": "MathWorks_G8C2",
+          "baseline_ape": 8.370288270533454,
+          "method_ape": 8.370288270533454,
+          "baseline_ae": 21.260532207154974,
+          "method_ae": 21.260532207154974
+        },
+        {
+          "held_out": "MathWorks_G8C3",
+          "baseline_ape": 8.389541440001535,
+          "method_ape": 8.389541440001535,
+          "baseline_ae": 21.14164442880387,
+          "method_ae": 21.14164442880387
+        }
+      ]
+    },
+    {
+      "horizon": 50,
+      "label_budget_k": 1,
+      "protocol_dispersion": 0.8047927785050895,
+      "route_counts": {
+        "fallback_stability_or_coverage": 100
+      },
+      "baseline": {
+        "mae": 107.17474092820184,
+        "mape": 37.71719936319542,
+        "n_cells": 27
+      },
+      "method": {
+        "mae": 107.17474092820184,
+        "mape": 37.71719936319542,
+        "n_cells": 27
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        27,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "MathWorks_G13C1",
+          "baseline_ape": 58.17260861094875,
+          "method_ape": 58.17260861094875,
+          "baseline_ae": 102.96551724137932,
+          "method_ae": 102.96551724137932
+        },
+        {
+          "held_out": "MathWorks_G13C2",
+          "baseline_ape": 40.31999999999999,
+          "method_ape": 40.31999999999999,
+          "baseline_ae": 80.63999999999999,
+          "method_ae": 80.63999999999999
+        },
+        {
+          "held_out": "MathWorks_G13C3",
+          "baseline_ape": 43.177425589485885,
+          "method_ape": 43.177425589485885,
+          "baseline_ae": 85.92307692307692,
+          "method_ae": 85.92307692307692
+        },
+        {
+          "held_out": "MathWorks_G15C1",
+          "baseline_ape": 40.32914201183433,
+          "method_ape": 40.32914201183433,
+          "baseline_ae": 83.88461538461539,
+          "method_ae": 83.88461538461539
+        },
+        {
+          "held_out": "MathWorks_G15C2",
+          "baseline_ape": 33.009583009583004,
+          "method_ape": 33.009583009583004,
+          "baseline_ae": 77.2424242424242,
+          "method_ae": 77.2424242424242
+        },
+        {
+          "held_out": "MathWorks_G15C3",
+          "baseline_ape": 56.80995475113122,
+          "method_ape": 56.80995475113122,
+          "baseline_ae": 96.57692307692308,
+          "method_ae": 96.57692307692308
+        },
+        {
+          "held_out": "MathWorks_G1C1",
+          "baseline_ape": 29.083920563741184,
+          "method_ape": 29.083920563741184,
+          "baseline_ae": 64.85714285714285,
+          "method_ae": 64.85714285714285
+        },
+        {
+          "held_out": "MathWorks_G1C2",
+          "baseline_ape": 35.38159371492706,
+          "method_ape": 35.38159371492706,
+          "baseline_ae": 76.42424242424242,
+          "method_ae": 76.42424242424242
+        },
+        {
+          "held_out": "MathWorks_G1C3",
+          "baseline_ape": 26.83641975308642,
+          "method_ape": 26.83641975308642,
+          "baseline_ae": 57.96666666666667,
+          "method_ae": 57.96666666666667
+        },
+        {
+          "held_out": "MathWorks_G2C1",
+          "baseline_ape": 47.118573797678295,
+          "method_ape": 47.118573797678295,
+          "baseline_ae": 252.55555555555554,
+          "method_ae": 252.55555555555554
+        },
+        {
+          "held_out": "MathWorks_G2C2",
+          "baseline_ape": 53.44827586206897,
+          "method_ape": 53.44827586206897,
+          "baseline_ae": 276.86206896551727,
+          "method_ae": 276.86206896551727
+        },
+        {
+          "held_out": "MathWorks_G2C3",
+          "baseline_ape": 42.500878117316475,
+          "method_ape": 42.500878117316475,
+          "baseline_ae": 186.15384615384616,
+          "method_ae": 186.15384615384616
+        },
+        {
+          "held_out": "MathWorks_G3C1",
+          "baseline_ape": 30.17283950617284,
+          "method_ape": 30.17283950617284,
+          "baseline_ae": 81.46666666666664,
+          "method_ae": 81.46666666666664
+        },
+        {
+          "held_out": "MathWorks_G3C2",
+          "baseline_ape": 29.177090190915074,
+          "method_ape": 29.177090190915074,
+          "baseline_ae": 71.48387096774192,
+          "method_ae": 71.48387096774192
+        },
+        {
+          "held_out": "MathWorks_G3C3",
+          "baseline_ape": 20.786666666666655,
+          "method_ape": 20.786666666666655,
+          "baseline_ae": 51.966666666666654,
+          "method_ae": 51.966666666666654
+        },
+        {
+          "held_out": "MathWorks_G5C1",
+          "baseline_ape": 40.64123376623377,
+          "method_ape": 40.64123376623377,
+          "baseline_ae": 178.82142857142858,
+          "method_ae": 178.82142857142858
+        },
+        {
+          "held_out": "MathWorks_G5C2",
+          "baseline_ape": 37.202380952380956,
+          "method_ape": 37.202380952380956,
+          "baseline_ae": 142.85714285714286,
+          "method_ae": 142.85714285714286
+        },
+        {
+          "held_out": "MathWorks_G5C3",
+          "baseline_ape": 35.68428184281842,
+          "method_ape": 35.68428184281842,
+          "baseline_ae": 146.30555555555554,
+          "method_ae": 146.30555555555554
+        },
+        {
+          "held_out": "MathWorks_G6C1",
+          "baseline_ape": 42.10526315789474,
+          "method_ape": 42.10526315789474,
+          "baseline_ae": 76.21052631578948,
+          "method_ae": 76.21052631578948
+        },
+        {
+          "held_out": "MathWorks_G6C2",
+          "baseline_ape": 50.494198538891276,
+          "method_ape": 50.494198538891276,
+          "baseline_ae": 90.38461538461537,
+          "method_ae": 90.38461538461537
+        },
+        {
+          "held_out": "MathWorks_G6C3",
+          "baseline_ape": 49.277688603531296,
+          "method_ape": 49.277688603531296,
+          "baseline_ae": 87.71428571428571,
+          "method_ae": 87.71428571428571
+        },
+        {
+          "held_out": "MathWorks_G7C1",
+          "baseline_ape": 33.04317548746518,
+          "method_ape": 33.04317548746518,
+          "baseline_ae": 118.625,
+          "method_ae": 118.625
+        },
+        {
+          "held_out": "MathWorks_G7C2",
+          "baseline_ape": 33.58461706544302,
+          "method_ape": 33.58461706544302,
+          "baseline_ae": 113.85185185185183,
+          "method_ae": 113.85185185185183
+        },
+        {
+          "held_out": "MathWorks_G7C3",
+          "baseline_ape": 28.79291251384274,
+          "method_ape": 28.79291251384274,
+          "baseline_ae": 86.66666666666664,
+          "method_ae": 86.66666666666664
+        },
+        {
+          "held_out": "MathWorks_G8C1",
+          "baseline_ape": 24.17582417582416,
+          "method_ape": 24.17582417582416,
+          "baseline_ae": 60.92307692307691,
+          "method_ae": 60.92307692307691
+        },
+        {
+          "held_out": "MathWorks_G8C2",
+          "baseline_ape": 32.661417322834644,
+          "method_ape": 32.661417322834644,
+          "baseline_ae": 82.96,
+          "method_ae": 82.96
+        },
+        {
+          "held_out": "MathWorks_G8C3",
+          "baseline_ape": 24.376417233560087,
+          "method_ape": 24.376417233560087,
+          "baseline_ae": 61.42857142857141,
+          "method_ae": 61.42857142857141
+        }
+      ]
+    },
+    {
+      "horizon": 50,
+      "label_budget_k": 3,
+      "protocol_dispersion": 0.8047927785050895,
+      "route_counts": {
+        "active_w0.5": 100
+      },
+      "baseline": {
+        "mae": 77.22587982991296,
+        "mape": 28.72485963220518,
+        "n_cells": 27
+      },
+      "method": {
+        "mae": 50.506990510465315,
+        "mape": 14.941236976939193,
+        "n_cells": 27
+      },
+      "relative_mape_reduction_percent": 47.98499568580078,
+      "paired_wilcoxon_p": 2.2083520889282227e-05,
+      "improved_same_worse_cells": [
+        21,
+        0,
+        6
+      ],
+      "per_cell": [
+        {
+          "held_out": "MathWorks_G13C1",
+          "baseline_ape": 49.99718909509145,
+          "method_ape": 11.973756150902117,
+          "baseline_ae": 88.49502469831188,
+          "method_ae": 21.193548387096758
+        },
+        {
+          "held_out": "MathWorks_G13C2",
+          "baseline_ape": 36.845855285164895,
+          "method_ape": 1.1041666666666792,
+          "baseline_ae": 73.69171057032979,
+          "method_ae": 2.2083333333333584
+        },
+        {
+          "held_out": "MathWorks_G13C3",
+          "baseline_ape": 41.12535953467751,
+          "method_ape": 13.67252931323282,
+          "baseline_ae": 81.83946547400824,
+          "method_ae": 27.208333333333325
+        },
+        {
+          "held_out": "MathWorks_G15C1",
+          "baseline_ape": 29.591905162178907,
+          "method_ape": 7.919337606837615,
+          "baseline_ae": 61.55116273733212,
+          "method_ae": 16.472222222222236
+        },
+        {
+          "held_out": "MathWorks_G15C2",
+          "baseline_ape": 26.272675678752286,
+          "method_ape": 16.98253437383872,
+          "baseline_ae": 61.478061088280356,
+          "method_ae": 39.73913043478261
+        },
+        {
+          "held_out": "MathWorks_G15C3",
+          "baseline_ape": 42.65301309031769,
+          "method_ape": 14.999999999999986,
+          "baseline_ae": 72.51012225354009,
+          "method_ae": 25.499999999999986
+        },
+        {
+          "held_out": "MathWorks_G1C1",
+          "baseline_ape": 23.239475659959865,
+          "method_ape": 12.407505366933346,
+          "baseline_ae": 51.824030721710514,
+          "method_ae": 27.66873696826137
+        },
+        {
+          "held_out": "MathWorks_G1C2",
+          "baseline_ape": 29.954427012282,
+          "method_ape": 12.045219275857063,
+          "baseline_ae": 64.70156234652912,
+          "method_ae": 26.017673635851253
+        },
+        {
+          "held_out": "MathWorks_G1C3",
+          "baseline_ape": 31.11602775202402,
+          "method_ape": 11.735665954499515,
+          "baseline_ae": 67.21061994437184,
+          "method_ae": 25.349038461718955
+        },
+        {
+          "held_out": "MathWorks_G2C1",
+          "baseline_ape": 35.12086393957153,
+          "method_ape": 42.143371297629905,
+          "baseline_ae": 188.24783071610338,
+          "method_ae": 225.8884701552962
+        },
+        {
+          "held_out": "MathWorks_G2C2",
+          "baseline_ape": 31.656827523564203,
+          "method_ape": 38.73587214082391,
+          "baseline_ae": 163.98236657206255,
+          "method_ae": 200.6518176894677
+        },
+        {
+          "held_out": "MathWorks_G2C3",
+          "baseline_ape": 25.03774295861517,
+          "method_ape": 29.75764863465303,
+          "baseline_ae": 109.66531415873445,
+          "method_ae": 130.3385010197803
+        },
+        {
+          "held_out": "MathWorks_G3C1",
+          "baseline_ape": 14.598021340599365,
+          "method_ape": 2.723394361454029,
+          "baseline_ae": 39.41465761961827,
+          "method_ae": 7.353164775925876
+        },
+        {
+          "held_out": "MathWorks_G3C2",
+          "baseline_ape": 25.563592721822722,
+          "method_ape": 8.839904119066151,
+          "baseline_ae": 62.63080216846567,
+          "method_ae": 21.657765091712086
+        },
+        {
+          "held_out": "MathWorks_G3C3",
+          "baseline_ape": 16.506723766288573,
+          "method_ape": 6.771288786977909,
+          "baseline_ae": 41.26680941572143,
+          "method_ae": 16.928221967444777
+        },
+        {
+          "held_out": "MathWorks_G5C1",
+          "baseline_ape": 20.3659877189153,
+          "method_ape": 28.022357056718604,
+          "baseline_ae": 89.61034596322733,
+          "method_ae": 123.29837104956182
+        },
+        {
+          "held_out": "MathWorks_G5C2",
+          "baseline_ape": 18.364935257876382,
+          "method_ape": 19.036990138664134,
+          "baseline_ae": 70.52135139024531,
+          "method_ae": 73.10204213247033
+        },
+        {
+          "held_out": "MathWorks_G5C3",
+          "baseline_ape": 22.376239504204847,
+          "method_ape": 23.516784884135237,
+          "baseline_ae": 91.74258196723987,
+          "method_ae": 96.41881802495448
+        },
+        {
+          "held_out": "MathWorks_G6C1",
+          "baseline_ape": 41.63016085054252,
+          "method_ape": 9.951878049028819,
+          "baseline_ae": 75.35059113948193,
+          "method_ae": 18.012899268742164
+        },
+        {
+          "held_out": "MathWorks_G6C2",
+          "baseline_ape": 37.4074307697327,
+          "method_ape": 14.771288218177803,
+          "baseline_ae": 66.95930107782151,
+          "method_ae": 26.440605910538274
+        },
+        {
+          "held_out": "MathWorks_G6C3",
+          "baseline_ape": 46.46997272690029,
+          "method_ape": 13.170134244587489,
+          "baseline_ae": 82.7165514538825,
+          "method_ae": 23.44283895536572
+        },
+        {
+          "held_out": "MathWorks_G7C1",
+          "baseline_ape": 19.69917220982525,
+          "method_ape": 14.308280436442958,
+          "baseline_ae": 70.72002823327267,
+          "method_ae": 51.366726766830226
+        },
+        {
+          "held_out": "MathWorks_G7C2",
+          "baseline_ape": 22.881835602180747,
+          "method_ape": 13.410724477783688,
+          "baseline_ae": 77.56942269139276,
+          "method_ae": 45.46235597968671
+        },
+        {
+          "held_out": "MathWorks_G7C3",
+          "baseline_ape": 23.663246310277703,
+          "method_ape": 5.184297911711783,
+          "baseline_ae": 71.2263713939359,
+          "method_ae": 15.604736714252478
+        },
+        {
+          "held_out": "MathWorks_G8C1",
+          "baseline_ape": 17.593113986978828,
+          "method_ape": 10.232760907486062,
+          "baseline_ae": 44.33464724718666,
+          "method_ae": 25.78655748686488
+        },
+        {
+          "held_out": "MathWorks_G8C2",
+          "baseline_ape": 16.13487723159126,
+          "method_ape": 9.432492444150112,
+          "baseline_ae": 40.98258816824178,
+          "method_ae": 23.958530808141276
+        },
+        {
+          "held_out": "MathWorks_G8C3",
+          "baseline_ape": 29.70453737960392,
+          "method_ape": 10.563215559098683,
+          "baseline_ae": 74.85543419660186,
+          "method_ae": 26.61930320892868
+        }
+      ]
+    },
+    {
+      "horizon": 50,
+      "label_budget_k": 5,
+      "protocol_dispersion": 0.8047927785050895,
+      "route_counts": {
+        "fallback_stability_or_coverage": 100
+      },
+      "baseline": {
+        "mae": 53.83058872864443,
+        "mape": 18.64492150770816,
+        "n_cells": 27
+      },
+      "method": {
+        "mae": 53.83058872864443,
+        "mape": 18.64492150770816,
+        "n_cells": 27
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        27,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "MathWorks_G13C1",
+          "baseline_ape": 20.805548303538743,
+          "method_ape": 20.805548303538743,
+          "baseline_ae": 36.82582049726356,
+          "method_ae": 36.82582049726356
+        },
+        {
+          "held_out": "MathWorks_G13C2",
+          "baseline_ape": 11.941375981787836,
+          "method_ape": 11.941375981787836,
+          "baseline_ae": 23.882751963575668,
+          "method_ae": 23.882751963575668
+        },
+        {
+          "held_out": "MathWorks_G13C3",
+          "baseline_ape": 15.607923021510745,
+          "method_ape": 15.607923021510745,
+          "baseline_ae": 31.059766812806387,
+          "method_ae": 31.059766812806387
+        },
+        {
+          "held_out": "MathWorks_G15C1",
+          "baseline_ape": 16.70600877043568,
+          "method_ape": 16.70600877043568,
+          "baseline_ae": 34.7484982425062,
+          "method_ae": 34.7484982425062
+        },
+        {
+          "held_out": "MathWorks_G15C2",
+          "baseline_ape": 18.26192057223988,
+          "method_ape": 18.26192057223988,
+          "baseline_ae": 42.73289413904132,
+          "method_ae": 42.73289413904132
+        },
+        {
+          "held_out": "MathWorks_G15C3",
+          "baseline_ape": 29.539940185062026,
+          "method_ape": 29.539940185062026,
+          "baseline_ae": 50.21789831460545,
+          "method_ae": 50.21789831460545
+        },
+        {
+          "held_out": "MathWorks_G1C1",
+          "baseline_ape": 16.089167902901302,
+          "method_ape": 16.089167902901302,
+          "baseline_ae": 35.87884442346991,
+          "method_ae": 35.87884442346991
+        },
+        {
+          "held_out": "MathWorks_G1C2",
+          "baseline_ape": 13.78340364280517,
+          "method_ape": 13.78340364280517,
+          "baseline_ae": 29.772151868459172,
+          "method_ae": 29.772151868459172
+        },
+        {
+          "held_out": "MathWorks_G1C3",
+          "baseline_ape": 12.633224717696391,
+          "method_ape": 12.633224717696391,
+          "baseline_ae": 27.2877653902242,
+          "method_ae": 27.2877653902242
+        },
+        {
+          "held_out": "MathWorks_G2C1",
+          "baseline_ape": 28.445589069394153,
+          "method_ape": 28.445589069394153,
+          "baseline_ae": 152.46835741195264,
+          "method_ae": 152.46835741195264
+        },
+        {
+          "held_out": "MathWorks_G2C2",
+          "baseline_ape": 28.189136268149337,
+          "method_ape": 28.189136268149337,
+          "baseline_ae": 146.01972586901357,
+          "method_ae": 146.01972586901357
+        },
+        {
+          "held_out": "MathWorks_G2C3",
+          "baseline_ape": 19.591597845939038,
+          "method_ape": 19.591597845939038,
+          "baseline_ae": 85.81119856521298,
+          "method_ae": 85.81119856521298
+        },
+        {
+          "held_out": "MathWorks_G3C1",
+          "baseline_ape": 13.3267820232365,
+          "method_ape": 13.3267820232365,
+          "baseline_ae": 35.982311462738544,
+          "method_ae": 35.982311462738544
+        },
+        {
+          "held_out": "MathWorks_G3C2",
+          "baseline_ape": 18.596378458272962,
+          "method_ape": 18.596378458272962,
+          "baseline_ae": 45.56112722276875,
+          "method_ae": 45.56112722276875
+        },
+        {
+          "held_out": "MathWorks_G3C3",
+          "baseline_ape": 7.737602307905536,
+          "method_ape": 7.737602307905536,
+          "baseline_ae": 19.34400576976384,
+          "method_ae": 19.34400576976384
+        },
+        {
+          "held_out": "MathWorks_G5C1",
+          "baseline_ape": 20.498467730105215,
+          "method_ape": 20.498467730105215,
+          "baseline_ae": 90.19325801246292,
+          "method_ae": 90.19325801246292
+        },
+        {
+          "held_out": "MathWorks_G5C2",
+          "baseline_ape": 16.0349063467132,
+          "method_ape": 16.0349063467132,
+          "baseline_ae": 61.57404037137866,
+          "method_ae": 61.57404037137866
+        },
+        {
+          "held_out": "MathWorks_G5C3",
+          "baseline_ape": 18.52430972439889,
+          "method_ape": 18.52430972439889,
+          "baseline_ae": 75.94966987003541,
+          "method_ae": 75.94966987003541
+        },
+        {
+          "held_out": "MathWorks_G6C1",
+          "baseline_ape": 33.89118273103775,
+          "method_ape": 33.89118273103775,
+          "baseline_ae": 61.343040743178314,
+          "method_ae": 61.343040743178314
+        },
+        {
+          "held_out": "MathWorks_G6C2",
+          "baseline_ape": 24.969865468804517,
+          "method_ape": 24.969865468804517,
+          "baseline_ae": 44.6960591891601,
+          "method_ae": 44.6960591891601
+        },
+        {
+          "held_out": "MathWorks_G6C3",
+          "baseline_ape": 25.621625052825607,
+          "method_ape": 25.621625052825607,
+          "baseline_ae": 45.60649259402959,
+          "method_ae": 45.60649259402959
+        },
+        {
+          "held_out": "MathWorks_G7C1",
+          "baseline_ape": 17.783275455256675,
+          "method_ape": 17.783275455256675,
+          "baseline_ae": 63.84195888437145,
+          "method_ae": 63.84195888437145
+        },
+        {
+          "held_out": "MathWorks_G7C2",
+          "baseline_ape": 15.242049198304455,
+          "method_ape": 15.242049198304455,
+          "baseline_ae": 51.6705467822521,
+          "method_ae": 51.6705467822521
+        },
+        {
+          "held_out": "MathWorks_G7C3",
+          "baseline_ape": 21.685055593610493,
+          "method_ape": 21.685055593610493,
+          "baseline_ae": 65.27201733676758,
+          "method_ae": 65.27201733676758
+        },
+        {
+          "held_out": "MathWorks_G8C1",
+          "baseline_ape": 15.110399411179008,
+          "method_ape": 15.110399411179008,
+          "baseline_ae": 38.0782065161711,
+          "method_ae": 38.0782065161711
+        },
+        {
+          "held_out": "MathWorks_G8C2",
+          "baseline_ape": 8.060110458353977,
+          "method_ape": 8.060110458353977,
+          "baseline_ae": 20.472680564219093,
+          "method_ae": 20.472680564219093
+        },
+        {
+          "held_out": "MathWorks_G8C3",
+          "baseline_ape": 14.736034466655205,
+          "method_ape": 14.736034466655205,
+          "baseline_ae": 37.13480685597112,
+          "method_ae": 37.13480685597112
+        }
+      ]
+    },
+    {
+      "horizon": 50,
+      "label_budget_k": 10,
+      "protocol_dispersion": 0.8047927785050895,
+      "route_counts": {
+        "fallback_stability_or_coverage": 100
+      },
+      "baseline": {
+        "mae": 35.57040896788986,
+        "mape": 11.917046465218878,
+        "n_cells": 27
+      },
+      "method": {
+        "mae": 35.57040896788986,
+        "mape": 11.917046465218878,
+        "n_cells": 27
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        27,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "MathWorks_G13C1",
+          "baseline_ape": 16.60854903402472,
+          "method_ape": 16.60854903402472,
+          "baseline_ae": 29.39713179022375,
+          "method_ae": 29.39713179022375
+        },
+        {
+          "held_out": "MathWorks_G13C2",
+          "baseline_ape": 10.584042496018906,
+          "method_ape": 10.584042496018906,
+          "baseline_ae": 21.168084992037805,
+          "method_ae": 21.168084992037805
+        },
+        {
+          "held_out": "MathWorks_G13C3",
+          "baseline_ape": 6.01939009754518,
+          "method_ape": 6.01939009754518,
+          "baseline_ae": 11.978586294114908,
+          "method_ae": 11.978586294114908
+        },
+        {
+          "held_out": "MathWorks_G15C1",
+          "baseline_ape": 12.208079174463824,
+          "method_ape": 12.208079174463824,
+          "baseline_ae": 25.39280468288475,
+          "method_ae": 25.39280468288475
+        },
+        {
+          "held_out": "MathWorks_G15C2",
+          "baseline_ape": 20.422769716244368,
+          "method_ape": 20.422769716244368,
+          "baseline_ae": 47.78928113601183,
+          "method_ae": 47.78928113601183
+        },
+        {
+          "held_out": "MathWorks_G15C3",
+          "baseline_ape": 20.695951349970944,
+          "method_ape": 20.695951349970944,
+          "baseline_ae": 35.18311729495061,
+          "method_ae": 35.18311729495061
+        },
+        {
+          "held_out": "MathWorks_G1C1",
+          "baseline_ape": 9.736881805143224,
+          "method_ape": 9.736881805143224,
+          "baseline_ae": 21.713246425469386,
+          "method_ae": 21.713246425469386
+        },
+        {
+          "held_out": "MathWorks_G1C2",
+          "baseline_ape": 7.838562846433452,
+          "method_ape": 7.838562846433452,
+          "baseline_ae": 16.931295748296254,
+          "method_ae": 16.931295748296254
+        },
+        {
+          "held_out": "MathWorks_G1C3",
+          "baseline_ape": 4.949238131253953,
+          "method_ape": 4.949238131253953,
+          "baseline_ae": 10.690354363508536,
+          "method_ae": 10.690354363508536
+        },
+        {
+          "held_out": "MathWorks_G2C1",
+          "baseline_ape": 23.970209438018674,
+          "method_ape": 23.970209438018674,
+          "baseline_ae": 128.48032258778008,
+          "method_ae": 128.48032258778008
+        },
+        {
+          "held_out": "MathWorks_G2C2",
+          "baseline_ape": 23.735257210909595,
+          "method_ape": 23.735257210909595,
+          "baseline_ae": 122.94863235251172,
+          "method_ae": 122.94863235251172
+        },
+        {
+          "held_out": "MathWorks_G2C3",
+          "baseline_ape": 10.43833697074563,
+          "method_ape": 10.43833697074563,
+          "baseline_ae": 45.719915931865856,
+          "method_ae": 45.719915931865856
+        },
+        {
+          "held_out": "MathWorks_G3C1",
+          "baseline_ape": 4.363948208423343,
+          "method_ape": 4.363948208423343,
+          "baseline_ae": 11.782660162743028,
+          "method_ae": 11.782660162743028
+        },
+        {
+          "held_out": "MathWorks_G3C2",
+          "baseline_ape": 7.973140004364931,
+          "method_ape": 7.973140004364931,
+          "baseline_ae": 19.534193010694075,
+          "method_ae": 19.534193010694075
+        },
+        {
+          "held_out": "MathWorks_G3C3",
+          "baseline_ape": 8.463575579218674,
+          "method_ape": 8.463575579218674,
+          "baseline_ae": 21.158938948046682,
+          "method_ae": 21.158938948046682
+        },
+        {
+          "held_out": "MathWorks_G5C1",
+          "baseline_ape": 11.676372373498646,
+          "method_ape": 11.676372373498646,
+          "baseline_ae": 51.37603844339405,
+          "method_ae": 51.37603844339405
+        },
+        {
+          "held_out": "MathWorks_G5C2",
+          "baseline_ape": 11.166343972958503,
+          "method_ape": 11.166343972958503,
+          "baseline_ae": 42.87876085616067,
+          "method_ae": 42.87876085616067
+        },
+        {
+          "held_out": "MathWorks_G5C3",
+          "baseline_ape": 12.25800093205347,
+          "method_ape": 12.25800093205347,
+          "baseline_ae": 50.25780382141924,
+          "method_ae": 50.25780382141924
+        },
+        {
+          "held_out": "MathWorks_G6C1",
+          "baseline_ape": 12.303580334705504,
+          "method_ape": 12.303580334705504,
+          "baseline_ae": 22.269480405816967,
+          "method_ae": 22.269480405816967
+        },
+        {
+          "held_out": "MathWorks_G6C2",
+          "baseline_ape": 13.181141271876168,
+          "method_ape": 13.181141271876168,
+          "baseline_ae": 23.59424287665834,
+          "method_ae": 23.59424287665834
+        },
+        {
+          "held_out": "MathWorks_G6C3",
+          "baseline_ape": 15.51390515266024,
+          "method_ape": 15.51390515266024,
+          "baseline_ae": 27.61475117173522,
+          "method_ae": 27.61475117173522
+        },
+        {
+          "held_out": "MathWorks_G7C1",
+          "baseline_ape": 10.13125852220701,
+          "method_ape": 10.13125852220701,
+          "baseline_ae": 36.37121809472317,
+          "method_ae": 36.37121809472317
+        },
+        {
+          "held_out": "MathWorks_G7C2",
+          "baseline_ape": 9.064471028206828,
+          "method_ape": 9.064471028206828,
+          "baseline_ae": 30.728556785621155,
+          "method_ae": 30.728556785621155
+        },
+        {
+          "held_out": "MathWorks_G7C3",
+          "baseline_ape": 17.14773547970829,
+          "method_ape": 17.14773547970829,
+          "baseline_ae": 51.61468379392195,
+          "method_ae": 51.61468379392195
+        },
+        {
+          "held_out": "MathWorks_G8C1",
+          "baseline_ape": 8.250753867281468,
+          "method_ape": 8.250753867281468,
+          "baseline_ae": 20.7918997455493,
+          "method_ae": 20.7918997455493
+        },
+        {
+          "held_out": "MathWorks_G8C2",
+          "baseline_ape": 6.348315909595673,
+          "method_ape": 6.348315909595673,
+          "baseline_ae": 16.124722410373014,
+          "method_ae": 16.124722410373014
+        },
+        {
+          "held_out": "MathWorks_G8C3",
+          "baseline_ape": 6.710443653378479,
+          "method_ape": 6.710443653378479,
+          "baseline_ae": 16.91031800651377,
+          "method_ae": 16.91031800651377
+        }
+      ]
+    }
+  ]
+}

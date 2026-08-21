@@ -1,0 +1,237 @@
+{
+  "phase": "EXPLORATORY_NONBLIND_90_PERCENT_EOL",
+  "manifest": "batterylife_zenodo_21700_expt5_prelabel.json",
+  "label_audit": "batterylife_zenodo_21700_expt5_postlabel_audit.json",
+  "eol_definition": "first performance-summary Ageing Cycles with SoH <= 0.90",
+  "results": [
+    {
+      "horizon": 10,
+      "label_budget_k": 1,
+      "protocol_dispersion": 0.22360679774997896,
+      "route_counts": {
+        "fallback_one_label_unidentifiable": 100
+      },
+      "summary": {
+        "baseline": {
+          "mae": 39.407677616501175,
+          "mape": 14.805353959765736
+        },
+        "method": {
+          "mae": 39.407677616501175,
+          "mape": 14.805353959765736
+        }
+      },
+      "relative_mape_reduction_percent": 0.0
+    },
+    {
+      "horizon": 10,
+      "label_budget_k": 3,
+      "protocol_dispersion": 0.22360679774997896,
+      "route_counts": {
+        "active_w2": 100
+      },
+      "summary": {
+        "baseline": {
+          "mae": 13.499401256106037,
+          "mape": 5.492929530437414
+        },
+        "method": {
+          "mae": 3.6069823489865493,
+          "mape": 1.3579403731968496
+        }
+      },
+      "relative_mape_reduction_percent": 75.2783944219158
+    },
+    {
+      "horizon": 10,
+      "label_budget_k": 5,
+      "protocol_dispersion": 0.22360679774997896,
+      "route_counts": {
+        "active_w2": 100
+      },
+      "summary": {
+        "baseline": {
+          "mae": 5.97423833541378,
+          "mape": 2.356453871325384
+        },
+        "method": {
+          "mae": 3.98821730650942,
+          "mape": 1.488897674718283
+        }
+      },
+      "relative_mape_reduction_percent": 36.816175659706225
+    },
+    {
+      "horizon": 10,
+      "label_budget_k": 10,
+      "protocol_dispersion": 0.22360679774997896,
+      "route_counts": {
+        "active_w2": 100
+      },
+      "summary": {
+        "baseline": {
+          "mae": 4.144901516238464,
+          "mape": 1.5904010665878876
+        },
+        "method": {
+          "mae": 4.144901516238422,
+          "mape": 1.5904010665878716
+        }
+      },
+      "relative_mape_reduction_percent": 1.0052314407020539e-12
+    },
+    {
+      "horizon": 20,
+      "label_budget_k": 1,
+      "protocol_dispersion": 0.22360679774997896,
+      "route_counts": {
+        "fallback_one_label_unidentifiable": 100
+      },
+      "summary": {
+        "baseline": {
+          "mae": 39.96948402549428,
+          "mape": 15.296390272013687
+        },
+        "method": {
+          "mae": 39.96948402549428,
+          "mape": 15.296390272013687
+        }
+      },
+      "relative_mape_reduction_percent": 0.0
+    },
+    {
+      "horizon": 20,
+      "label_budget_k": 3,
+      "protocol_dispersion": 0.22360679774997896,
+      "route_counts": {
+        "active_w2": 100
+      },
+      "summary": {
+        "baseline": {
+          "mae": 8.574646355239041,
+          "mape": 3.4916272969402087
+        },
+        "method": {
+          "mae": 3.091321832237522,
+          "mape": 1.1709640069890883
+        }
+      },
+      "relative_mape_reduction_percent": 66.463659852378
+    },
+    {
+      "horizon": 20,
+      "label_budget_k": 5,
+      "protocol_dispersion": 0.22360679774997896,
+      "route_counts": {
+        "active_w2": 100
+      },
+      "summary": {
+        "baseline": {
+          "mae": 4.6946895893577825,
+          "mape": 1.8366389743873675
+        },
+        "method": {
+          "mae": 3.4127664698572016,
+          "mape": 1.2891260416508254
+        }
+      },
+      "relative_mape_reduction_percent": 29.810590996478847
+    },
+    {
+      "horizon": 20,
+      "label_budget_k": 10,
+      "protocol_dispersion": 0.22360679774997896,
+      "route_counts": {
+        "active_w2": 100
+      },
+      "summary": {
+        "baseline": {
+          "mae": 3.3010209608278873,
+          "mape": 1.2599630166928266
+        },
+        "method": {
+          "mae": 3.3010209608279424,
+          "mape": 1.2599630166928488
+        }
+      },
+      "relative_mape_reduction_percent": -1.7623104962862954e-12
+    },
+    {
+      "horizon": 50,
+      "label_budget_k": 1,
+      "protocol_dispersion": 0.22360679774997896,
+      "route_counts": {
+        "fallback_one_label_unidentifiable": 100
+      },
+      "summary": {
+        "baseline": {
+          "mae": 41.885323971079,
+          "mape": 15.725130546286008
+        },
+        "method": {
+          "mae": 41.885323971079,
+          "mape": 15.725130546286008
+        }
+      },
+      "relative_mape_reduction_percent": 0.0
+    },
+    {
+      "horizon": 50,
+      "label_budget_k": 3,
+      "protocol_dispersion": 0.22360679774997896,
+      "route_counts": {
+        "active_w2": 100
+      },
+      "summary": {
+        "baseline": {
+          "mae": 18.92875936836637,
+          "mape": 7.554849879599137
+        },
+        "method": {
+          "mae": 4.055897007635052,
+          "mape": 1.5739840565725143
+        }
+      },
+      "relative_mape_reduction_percent": 79.16591220663632
+    },
+    {
+      "horizon": 50,
+      "label_budget_k": 5,
+      "protocol_dispersion": 0.22360679774997896,
+      "route_counts": {
+        "active_w2": 100
+      },
+      "summary": {
+        "baseline": {
+          "mae": 7.242542191046006,
+          "mape": 2.9704208103204386
+        },
+        "method": {
+          "mae": 5.952982394335287,
+          "mape": 2.3718376715040277
+        }
+      },
+      "relative_mape_reduction_percent": 20.15145923892978
+    },
+    {
+      "horizon": 50,
+      "label_budget_k": 10,
+      "protocol_dispersion": 0.22360679774997896,
+      "route_counts": {
+        "active_w2": 100
+      },
+      "summary": {
+        "baseline": {
+          "mae": 4.23044162672549,
+          "mape": 1.6841527565617476
+        },
+        "method": {
+          "mae": 4.230441626725485,
+          "mape": 1.6841527565617453
+        }
+      },
+      "relative_mape_reduction_percent": 1.3184350651085984e-13
+    }
+  ],
+  "warning": "Dataset-local 90% EOL was used only after label-contract audit; this is not independent blind confirmation."
+}

@@ -1,0 +1,84 @@
+{
+  "phase": "POSTLABEL_INPUT_CONTRACT_AUDIT",
+  "manifest": "batterylife_zenodo_21700_expt5_prelabel.json",
+  "manifest_sha256": "3b4cadfa36c9ab2071c36793eeec1f74ffb052db2d3291b417d997c908fd0c83",
+  "archive_size_bytes": 10443549687,
+  "label_opening": "performance summaries requested only after frozen episode manifest",
+  "rows": [
+    {
+      "cell": "A",
+      "performance_member": "Expt 5 - Standard Cycle Aging (Control)/Summary Data/Performance Summary/Expt 5 - cell A (10degC) - Processed Data.csv",
+      "n_age_sets": 16,
+      "max_ageing_cycles": 1170.0,
+      "min_soh": 0.722339532,
+      "eol_80_reached": true,
+      "eol_90_reached": true
+    },
+    {
+      "cell": "B",
+      "performance_member": "Expt 5 - Standard Cycle Aging (Control)/Summary Data/Performance Summary/Expt 5 - cell B (10degC) - Processed Data.csv",
+      "n_age_sets": 16,
+      "max_ageing_cycles": 1170.0,
+      "min_soh": 0.7725219573575196,
+      "eol_80_reached": true,
+      "eol_90_reached": true
+    },
+    {
+      "cell": "C",
+      "performance_member": "Expt 5 - Standard Cycle Aging (Control)/Summary Data/Performance Summary/Expt 5 - cell C (10degC) - Processed Data.csv",
+      "n_age_sets": 16,
+      "max_ageing_cycles": 1170.0,
+      "min_soh": 0.7777835752140981,
+      "eol_80_reached": true,
+      "eol_90_reached": true
+    },
+    {
+      "cell": "D",
+      "performance_member": "Expt 5 - Standard Cycle Aging (Control)/Summary Data/Performance Summary/Expt 5 - cell D (25degC) - Processed Data.csv",
+      "n_age_sets": 16,
+      "max_ageing_cycles": 1170.0,
+      "min_soh": 0.8103236352521697,
+      "eol_80_reached": false,
+      "eol_90_reached": true
+    },
+    {
+      "cell": "E",
+      "performance_member": "Expt 5 - Standard Cycle Aging (Control)/Summary Data/Performance Summary/Expt 5 - cell E (25degC) - Processed Data.csv",
+      "n_age_sets": 16,
+      "max_ageing_cycles": 1170.0,
+      "min_soh": 0.8160511485732599,
+      "eol_80_reached": false,
+      "eol_90_reached": true
+    },
+    {
+      "cell": "F",
+      "performance_member": "Expt 5 - Standard Cycle Aging (Control)/Summary Data/Performance Summary/Expt 5 - cell F (40degC) - Processed Data.csv",
+      "n_age_sets": 16,
+      "max_ageing_cycles": 1170.0,
+      "min_soh": 0.7678669086048159,
+      "eol_80_reached": true,
+      "eol_90_reached": true
+    },
+    {
+      "cell": "G",
+      "performance_member": "Expt 5 - Standard Cycle Aging (Control)/Summary Data/Performance Summary/Expt 5 - cell G (40degC) - Processed Data.csv",
+      "n_age_sets": 16,
+      "max_ageing_cycles": 1170.0,
+      "min_soh": 0.7696629711536941,
+      "eol_80_reached": true,
+      "eol_90_reached": true
+    },
+    {
+      "cell": "H",
+      "performance_member": "Expt 5 - Standard Cycle Aging (Control)/Summary Data/Performance Summary/Expt 5 - cell H (40degC) - Processed Data.csv",
+      "n_age_sets": 16,
+      "max_ageing_cycles": 1170.0,
+      "min_soh": 0.7759321888993126,
+      "eol_80_reached": true,
+      "eol_90_reached": true
+    }
+  ],
+  "common_80_percent_eol": false,
+  "common_90_percent_eol": true,
+  "decision": "technical_failure_no_common_80_percent_eol"
+}

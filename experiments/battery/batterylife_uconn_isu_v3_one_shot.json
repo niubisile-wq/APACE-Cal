@@ -1,0 +1,5721 @@
+{
+  "phase": "UCONN_ISU_V3_ONE_SHOT_LABEL_OPENED",
+  "dataset": "UConn-ISU-ILCC LFP/Gr",
+  "manifest_sha256": "a8b14771d838a5f9a4e2849853b530965e8ba22558e5b63d823c725b98e7ce95",
+  "label_definition": "sum of maximum Num Cycles per first-life RPT number; official EOL target is 80% SOH",
+  "label_count": 64,
+  "active_settings_frozen_prelabel": [
+    "h10_k3",
+    "h20_k3",
+    "h50_k3"
+  ],
+  "frozen_hashes": {
+    "manifest_sha256": "a8b14771d838a5f9a4e2849853b530965e8ba22558e5b63d823c725b98e7ce95",
+    "candidate_sha256": "943fe63437db4cf8ee43b99635a528f4d2a5ac045c7c6b39a6f1591f0c6584ac",
+    "builder_sha256": "86b58c7a2297082ad6822d74cc43c70d0a90700586b6cca5b562c164402b265e",
+    "prelabel_sha256": "680f586b3d5c86f4cebdec2309c014c7f90c71b62b31b078302ddc87ee986782",
+    "development_result_sha256": "101c0d9b3161fb32c3ac80df8efc2a08089caddea82facfaba68bfbe323bbd65"
+  },
+  "results": [
+    {
+      "horizon": 10,
+      "label_budget_k": 1,
+      "protocol_dispersion": 0.602637817413133,
+      "route_counts": {
+        "fallback_stability_or_coverage": 100
+      },
+      "baseline": {
+        "mae": 1498.4353833660095,
+        "mape": 35.333462728549655,
+        "n_cells": 64
+      },
+      "method": {
+        "mae": 1498.4353833660095,
+        "mape": 35.333462728549655,
+        "n_cells": 64
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        64,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "UConn_ISU_cell_02",
+          "baseline_ape": 27.850006727664148,
+          "method_ape": 27.850006727664148,
+          "baseline_ae": 1034.90625,
+          "method_ae": 1034.90625
+        },
+        {
+          "held_out": "UConn_ISU_cell_03",
+          "baseline_ape": 32.92050300116785,
+          "method_ape": 32.92050300116785,
+          "baseline_ae": 1346.777777777777,
+          "method_ae": 1346.777777777777
+        },
+        {
+          "held_out": "UConn_ISU_cell_04",
+          "baseline_ape": 31.452625248994615,
+          "method_ape": 31.452625248994615,
+          "baseline_ae": 1195.5142857142855,
+          "method_ae": 1195.5142857142855
+        },
+        {
+          "held_out": "UConn_ISU_cell_05",
+          "baseline_ape": 54.2827126582694,
+          "method_ape": 54.2827126582694,
+          "baseline_ae": 1710.448275862069,
+          "method_ae": 1710.448275862069
+        },
+        {
+          "held_out": "UConn_ISU_cell_06",
+          "baseline_ape": 19.576060899188285,
+          "method_ape": 19.576060899188285,
+          "baseline_ae": 750.7419354838705,
+          "method_ae": 750.7419354838705
+        },
+        {
+          "held_out": "UConn_ISU_cell_07",
+          "baseline_ape": 26.511307991317064,
+          "method_ape": 26.511307991317064,
+          "baseline_ae": 1167.0277777777771,
+          "method_ae": 1167.0277777777771
+        },
+        {
+          "held_out": "UConn_ISU_cell_08",
+          "baseline_ape": 22.60263301394408,
+          "method_ape": 22.60263301394408,
+          "baseline_ae": 1055.0909090909097,
+          "method_ae": 1055.0909090909097
+        },
+        {
+          "held_out": "UConn_ISU_cell_09",
+          "baseline_ape": 33.5685353953788,
+          "method_ape": 33.5685353953788,
+          "baseline_ae": 2025.8611111111106,
+          "method_ae": 2025.8611111111106
+        },
+        {
+          "held_out": "UConn_ISU_cell_10",
+          "baseline_ape": 19.08618478774379,
+          "method_ape": 19.08618478774379,
+          "baseline_ae": 771.2727272727266,
+          "method_ae": 771.2727272727266
+        },
+        {
+          "held_out": "UConn_ISU_cell_11",
+          "baseline_ape": 25.51288929766741,
+          "method_ape": 25.51288929766741,
+          "baseline_ae": 1109.5555555555557,
+          "method_ae": 1109.5555555555557
+        },
+        {
+          "held_out": "UConn_ISU_cell_12",
+          "baseline_ape": 29.104672788562123,
+          "method_ape": 29.104672788562123,
+          "baseline_ae": 1430.785714285714,
+          "method_ae": 1430.785714285714
+        },
+        {
+          "held_out": "UConn_ISU_cell_13",
+          "baseline_ape": 28.726807421625075,
+          "method_ape": 28.726807421625075,
+          "baseline_ae": 1346.9999999999998,
+          "method_ae": 1346.9999999999998
+        },
+        {
+          "held_out": "UConn_ISU_cell_14",
+          "baseline_ape": 63.225705177743436,
+          "method_ape": 63.225705177743436,
+          "baseline_ae": 1636.2812500000005,
+          "method_ae": 1636.2812500000005
+        },
+        {
+          "held_out": "UConn_ISU_cell_15",
+          "baseline_ape": 66.55734989648035,
+          "method_ape": 66.55734989648035,
+          "baseline_ae": 1747.1304347826094,
+          "method_ae": 1747.1304347826094
+        },
+        {
+          "held_out": "UConn_ISU_cell_16",
+          "baseline_ape": 55.16981230244932,
+          "method_ape": 55.16981230244932,
+          "baseline_ae": 1462.5517241379314,
+          "method_ae": 1462.5517241379314
+        },
+        {
+          "held_out": "UConn_ISU_cell_17",
+          "baseline_ape": 52.11176400047967,
+          "method_ape": 52.11176400047967,
+          "baseline_ae": 1401.8064516129036,
+          "method_ae": 1401.8064516129036
+        },
+        {
+          "held_out": "UConn_ISU_cell_18",
+          "baseline_ape": 59.14464482885534,
+          "method_ape": 59.14464482885534,
+          "baseline_ae": 1606.9599999999994,
+          "method_ae": 1606.9599999999994
+        },
+        {
+          "held_out": "UConn_ISU_cell_19",
+          "baseline_ape": 68.58031636772782,
+          "method_ape": 68.58031636772782,
+          "baseline_ae": 1786.5172413793098,
+          "method_ae": 1786.5172413793098
+        },
+        {
+          "held_out": "UConn_ISU_cell_20",
+          "baseline_ape": 25.940374771396794,
+          "method_ape": 25.940374771396794,
+          "baseline_ae": 1227.2391304347823,
+          "method_ae": 1227.2391304347823
+        },
+        {
+          "held_out": "UConn_ISU_cell_21",
+          "baseline_ape": 29.37617924528302,
+          "method_ape": 29.37617924528302,
+          "baseline_ae": 1556.9375,
+          "method_ae": 1556.9375
+        },
+        {
+          "held_out": "UConn_ISU_cell_22",
+          "baseline_ape": 24.92583759888321,
+          "method_ape": 24.92583759888321,
+          "baseline_ae": 1224.3571428571433,
+          "method_ae": 1224.3571428571433
+        },
+        {
+          "held_out": "UConn_ISU_cell_23",
+          "baseline_ape": 20.38929742043965,
+          "method_ape": 20.38929742043965,
+          "baseline_ae": 848.8064516129027,
+          "method_ae": 848.8064516129027
+        },
+        {
+          "held_out": "UConn_ISU_cell_24",
+          "baseline_ape": 19.762237762237746,
+          "method_ape": 19.762237762237746,
+          "baseline_ae": 834.9545454545453,
+          "method_ae": 834.9545454545453
+        },
+        {
+          "held_out": "UConn_ISU_cell_25",
+          "baseline_ape": 26.942528735632184,
+          "method_ape": 26.942528735632184,
+          "baseline_ae": 1445.4666666666662,
+          "method_ae": 1445.4666666666662
+        },
+        {
+          "held_out": "UConn_ISU_cell_26",
+          "baseline_ape": 42.091400466863895,
+          "method_ape": 42.091400466863895,
+          "baseline_ae": 2932.086956521739,
+          "method_ae": 2932.086956521739
+        },
+        {
+          "held_out": "UConn_ISU_cell_27",
+          "baseline_ape": 35.39969111146615,
+          "method_ape": 35.39969111146615,
+          "baseline_ae": 2215.666666666666,
+          "method_ae": 2215.666666666666
+        },
+        {
+          "held_out": "UConn_ISU_cell_28",
+          "baseline_ape": 38.13994076581339,
+          "method_ape": 38.13994076581339,
+          "baseline_ae": 2486.7241379310344,
+          "method_ae": 2486.7241379310344
+        },
+        {
+          "held_out": "UConn_ISU_cell_29",
+          "baseline_ape": 40.12755453275899,
+          "method_ape": 40.12755453275899,
+          "baseline_ae": 2914.464285714286,
+          "method_ae": 2914.464285714286
+        },
+        {
+          "held_out": "UConn_ISU_cell_30",
+          "baseline_ape": 40.80816332822099,
+          "method_ape": 40.80816332822099,
+          "baseline_ae": 2786.7894736842104,
+          "method_ae": 2786.7894736842104
+        },
+        {
+          "held_out": "UConn_ISU_cell_31",
+          "baseline_ape": 47.37959950762739,
+          "method_ape": 47.37959950762739,
+          "baseline_ae": 4010.2093023255816,
+          "method_ae": 4010.2093023255816
+        },
+        {
+          "held_out": "UConn_ISU_cell_32",
+          "baseline_ape": 29.703858809452576,
+          "method_ape": 29.703858809452576,
+          "baseline_ae": 992.9999999999998,
+          "method_ae": 992.9999999999998
+        },
+        {
+          "held_out": "UConn_ISU_cell_33",
+          "baseline_ape": 38.23363248219463,
+          "method_ape": 38.23363248219463,
+          "baseline_ae": 1331.6774193548385,
+          "method_ae": 1331.6774193548385
+        },
+        {
+          "held_out": "UConn_ISU_cell_34",
+          "baseline_ape": 22.84686101366881,
+          "method_ape": 22.84686101366881,
+          "baseline_ae": 809.4642857142859,
+          "method_ae": 809.4642857142859
+        },
+        {
+          "held_out": "UConn_ISU_cell_35",
+          "baseline_ape": 59.571668836805536,
+          "method_ape": 59.571668836805536,
+          "baseline_ae": 1830.0416666666663,
+          "method_ae": 1830.0416666666663
+        },
+        {
+          "held_out": "UConn_ISU_cell_36",
+          "baseline_ape": 40.65420560747662,
+          "method_ape": 40.65420560747662,
+          "baseline_ae": 1478.9999999999995,
+          "method_ae": 1478.9999999999995
+        },
+        {
+          "held_out": "UConn_ISU_cell_37",
+          "baseline_ape": 54.79166666666662,
+          "method_ape": 54.79166666666662,
+          "baseline_ae": 1577.9999999999989,
+          "method_ae": 1577.9999999999989
+        },
+        {
+          "held_out": "UConn_ISU_cell_38",
+          "baseline_ape": 28.73053531416519,
+          "method_ape": 28.73053531416519,
+          "baseline_ae": 1130.259259259259,
+          "method_ae": 1130.259259259259
+        },
+        {
+          "held_out": "UConn_ISU_cell_39",
+          "baseline_ape": 31.082050744559904,
+          "method_ape": 31.082050744559904,
+          "baseline_ae": 1329.379310344827,
+          "method_ae": 1329.379310344827
+        },
+        {
+          "held_out": "UConn_ISU_cell_40",
+          "baseline_ape": 25.97837331407489,
+          "method_ape": 25.97837331407489,
+          "baseline_ae": 1023.8076923076915,
+          "method_ae": 1023.8076923076915
+        },
+        {
+          "held_out": "UConn_ISU_cell_41",
+          "baseline_ape": 22.663320463320456,
+          "method_ape": 22.663320463320456,
+          "baseline_ae": 838.5428571428567,
+          "method_ae": 838.5428571428567
+        },
+        {
+          "held_out": "UConn_ISU_cell_42",
+          "baseline_ape": 27.310117905127477,
+          "method_ape": 27.310117905127477,
+          "baseline_ae": 995.9999999999992,
+          "method_ae": 995.9999999999992
+        },
+        {
+          "held_out": "UConn_ISU_cell_43",
+          "baseline_ape": 26.141334775718562,
+          "method_ape": 26.141334775718562,
+          "baseline_ae": 1020.2962962962956,
+          "method_ae": 1020.2962962962956
+        },
+        {
+          "held_out": "UConn_ISU_cell_44",
+          "baseline_ape": 38.19565217391302,
+          "method_ape": 38.19565217391302,
+          "baseline_ae": 1335.3199999999995,
+          "method_ae": 1335.3199999999995
+        },
+        {
+          "held_out": "UConn_ISU_cell_45",
+          "baseline_ape": 15.33869356450002,
+          "method_ape": 15.33869356450002,
+          "baseline_ae": 614.1612903225808,
+          "method_ae": 614.1612903225808
+        },
+        {
+          "held_out": "UConn_ISU_cell_46",
+          "baseline_ape": 28.418683173888574,
+          "method_ape": 28.418683173888574,
+          "baseline_ae": 1010.0000000000002,
+          "method_ae": 1010.0000000000002
+        },
+        {
+          "held_out": "UConn_ISU_cell_47",
+          "baseline_ape": 26.875776053653478,
+          "method_ape": 26.875776053653478,
+          "baseline_ae": 1258.5925925925926,
+          "method_ae": 1258.5925925925926
+        },
+        {
+          "held_out": "UConn_ISU_cell_48",
+          "baseline_ape": 25.871012620490895,
+          "method_ape": 25.871012620490895,
+          "baseline_ae": 897.7241379310339,
+          "method_ae": 897.7241379310339
+        },
+        {
+          "held_out": "UConn_ISU_cell_49",
+          "baseline_ape": 24.37900211279049,
+          "method_ape": 24.37900211279049,
+          "baseline_ae": 1071.4571428571423,
+          "method_ae": 1071.4571428571423
+        },
+        {
+          "held_out": "UConn_ISU_cell_50",
+          "baseline_ape": 34.01688677202858,
+          "method_ape": 34.01688677202858,
+          "baseline_ae": 1267.1290322580646,
+          "method_ae": 1267.1290322580646
+        },
+        {
+          "held_out": "UConn_ISU_cell_51",
+          "baseline_ape": 24.424545693968913,
+          "method_ape": 24.424545693968913,
+          "baseline_ae": 927.3999999999995,
+          "method_ae": 927.3999999999995
+        },
+        {
+          "held_out": "UConn_ISU_cell_52",
+          "baseline_ape": 25.6893444469475,
+          "method_ape": 25.6893444469475,
+          "baseline_ae": 991.6086956521737,
+          "method_ae": 991.6086956521737
+        },
+        {
+          "held_out": "UConn_ISU_cell_53",
+          "baseline_ape": 34.71958766837193,
+          "method_ape": 34.71958766837193,
+          "baseline_ae": 1342.2592592592587,
+          "method_ae": 1342.2592592592587
+        },
+        {
+          "held_out": "UConn_ISU_cell_54",
+          "baseline_ape": 32.69644547723555,
+          "method_ape": 32.69644547723555,
+          "baseline_ae": 1266.3333333333328,
+          "method_ae": 1266.3333333333328
+        },
+        {
+          "held_out": "UConn_ISU_cell_55",
+          "baseline_ape": 25.32473200187261,
+          "method_ape": 25.32473200187261,
+          "baseline_ae": 967.1515151515148,
+          "method_ae": 967.1515151515148
+        },
+        {
+          "held_out": "UConn_ISU_cell_56",
+          "baseline_ape": 33.304910353922935,
+          "method_ape": 33.304910353922935,
+          "baseline_ae": 2020.2758620689654,
+          "method_ae": 2020.2758620689654
+        },
+        {
+          "held_out": "UConn_ISU_cell_57",
+          "baseline_ape": 35.72621035058432,
+          "method_ape": 35.72621035058432,
+          "baseline_ae": 2354.0000000000005,
+          "method_ae": 2354.0000000000005
+        },
+        {
+          "held_out": "UConn_ISU_cell_58",
+          "baseline_ape": 36.17422801947065,
+          "method_ape": 36.17422801947065,
+          "baseline_ae": 2378.09375,
+          "method_ae": 2378.09375
+        },
+        {
+          "held_out": "UConn_ISU_cell_59",
+          "baseline_ape": 32.32035376489375,
+          "method_ape": 32.32035376489375,
+          "baseline_ae": 1879.428571428571,
+          "method_ae": 1879.428571428571
+        },
+        {
+          "held_out": "UConn_ISU_cell_60",
+          "baseline_ape": 41.08464476457629,
+          "method_ape": 41.08464476457629,
+          "baseline_ae": 2880.4444444444443,
+          "method_ae": 2880.4444444444443
+        },
+        {
+          "held_out": "UConn_ISU_cell_61",
+          "baseline_ape": 33.29725602910136,
+          "method_ape": 33.29725602910136,
+          "baseline_ae": 2118.3714285714286,
+          "method_ae": 2118.3714285714286
+        },
+        {
+          "held_out": "UConn_ISU_cell_62",
+          "baseline_ape": 44.98433478796016,
+          "method_ape": 44.98433478796016,
+          "baseline_ae": 1340.083333333333,
+          "method_ae": 1340.083333333333
+        },
+        {
+          "held_out": "UConn_ISU_cell_63",
+          "baseline_ape": 42.70527859237536,
+          "method_ape": 42.70527859237536,
+          "baseline_ae": 1352.9032258064517,
+          "method_ae": 1352.9032258064517
+        },
+        {
+          "held_out": "UConn_ISU_cell_64",
+          "baseline_ape": 49.05948619886931,
+          "method_ape": 49.05948619886931,
+          "baseline_ae": 1522.8064516129032,
+          "method_ae": 1522.8064516129032
+        },
+        {
+          "held_out": "UConn_ISU_cell_65",
+          "baseline_ape": 61.759587020648944,
+          "method_ape": 61.759587020648944,
+          "baseline_ae": 1674.9199999999994,
+          "method_ae": 1674.9199999999994
+        }
+      ]
+    },
+    {
+      "horizon": 10,
+      "label_budget_k": 3,
+      "protocol_dispersion": 0.602637817413133,
+      "route_counts": {
+        "active_w0.5": 100
+      },
+      "baseline": {
+        "mae": 1369.2417303647564,
+        "mape": 32.36207019244581,
+        "n_cells": 64
+      },
+      "method": {
+        "mae": 1050.9510068829127,
+        "mape": 24.199422007834354,
+        "n_cells": 64
+      },
+      "relative_mape_reduction_percent": 25.222886348342584,
+      "paired_wilcoxon_p": 1.2699609756059435e-07,
+      "improved_same_worse_cells": [
+        49,
+        0,
+        15
+      ],
+      "per_cell": [
+        {
+          "held_out": "UConn_ISU_cell_02",
+          "baseline_ape": 25.35017845341644,
+          "method_ape": 17.302934813532897,
+          "baseline_ae": 942.0126313289549,
+          "method_ae": 642.9770576708826
+        },
+        {
+          "held_out": "UConn_ISU_cell_03",
+          "baseline_ape": 19.704131243955796,
+          "method_ape": 5.676795157416504,
+          "baseline_ae": 806.0960091902319,
+          "method_ae": 232.23768988990915
+        },
+        {
+          "held_out": "UConn_ISU_cell_04",
+          "baseline_ape": 23.84195557113124,
+          "method_ape": 14.613806780709643,
+          "baseline_ae": 906.2327312586988,
+          "method_ae": 555.4707957347739
+        },
+        {
+          "held_out": "UConn_ISU_cell_05",
+          "baseline_ape": 42.56213390262488,
+          "method_ape": 39.500236016712485,
+          "baseline_ae": 1341.1328392717105,
+          "method_ae": 1244.6524368866094
+        },
+        {
+          "held_out": "UConn_ISU_cell_06",
+          "baseline_ape": 31.66595580447344,
+          "method_ape": 14.836844340523204,
+          "baseline_ae": 1214.3894051015566,
+          "method_ae": 568.9929804590647
+        },
+        {
+          "held_out": "UConn_ISU_cell_07",
+          "baseline_ape": 21.164710130266734,
+          "method_ape": 4.564992542227361,
+          "baseline_ae": 931.6705399343416,
+          "method_ae": 200.95097170884853
+        },
+        {
+          "held_out": "UConn_ISU_cell_08",
+          "baseline_ape": 26.0080807611174,
+          "method_ape": 6.738889374481662,
+          "baseline_ae": 1214.0572099289604,
+          "method_ae": 314.57135600080414
+        },
+        {
+          "held_out": "UConn_ISU_cell_09",
+          "baseline_ape": 32.53682648911058,
+          "method_ape": 28.39816849899908,
+          "baseline_ae": 1963.5974786178238,
+          "method_ae": 1713.8294689145946
+        },
+        {
+          "held_out": "UConn_ISU_cell_10",
+          "baseline_ape": 21.883335380095886,
+          "method_ape": 7.593442001592219,
+          "baseline_ae": 884.3055827096746,
+          "method_ae": 306.8509912843413
+        },
+        {
+          "held_out": "UConn_ISU_cell_11",
+          "baseline_ape": 24.451876659627377,
+          "method_ape": 6.676764903090152,
+          "baseline_ae": 1063.4121159271945,
+          "method_ae": 290.3725056353909
+        },
+        {
+          "held_out": "UConn_ISU_cell_12",
+          "baseline_ape": 19.1421460672255,
+          "method_ape": 14.373418704168845,
+          "baseline_ae": 941.0279006648054,
+          "method_ae": 706.5972634969407
+        },
+        {
+          "held_out": "UConn_ISU_cell_13",
+          "baseline_ape": 20.470812493225626,
+          "method_ape": 8.359675954887699,
+          "baseline_ae": 959.8763978073499,
+          "method_ae": 391.98520552468415
+        },
+        {
+          "held_out": "UConn_ISU_cell_14",
+          "baseline_ape": 61.79469357878755,
+          "method_ape": 67.27926653482263,
+          "baseline_ae": 1599.2466698190221,
+          "method_ae": 1741.18741792121
+        },
+        {
+          "held_out": "UConn_ISU_cell_15",
+          "baseline_ape": 73.2852646883233,
+          "method_ape": 64.2710322027018,
+          "baseline_ae": 1923.738198068487,
+          "method_ae": 1687.114595320922
+        },
+        {
+          "held_out": "UConn_ISU_cell_16",
+          "baseline_ape": 64.03906248261642,
+          "method_ape": 63.25242403323647,
+          "baseline_ae": 1697.6755464141613,
+          "method_ae": 1676.821761121099
+        },
+        {
+          "held_out": "UConn_ISU_cell_17",
+          "baseline_ape": 64.13355959051789,
+          "method_ape": 61.15847433270352,
+          "baseline_ae": 1725.1927529849315,
+          "method_ae": 1645.1629595497236
+        },
+        {
+          "held_out": "UConn_ISU_cell_18",
+          "baseline_ape": 51.10679243329536,
+          "method_ape": 57.84190598014235,
+          "baseline_ae": 1388.5715504126347,
+          "method_ae": 1571.5645854804668
+        },
+        {
+          "held_out": "UConn_ISU_cell_19",
+          "baseline_ape": 70.12944458236426,
+          "method_ape": 63.38010312191812,
+          "baseline_ae": 1826.8720313705896,
+          "method_ae": 1651.0516863259668
+        },
+        {
+          "held_out": "UConn_ISU_cell_20",
+          "baseline_ape": 21.14958042093878,
+          "method_ape": 13.93195860270193,
+          "baseline_ae": 1000.5866497146135,
+          "method_ae": 659.1209614938281
+        },
+        {
+          "held_out": "UConn_ISU_cell_21",
+          "baseline_ape": 22.778020852665524,
+          "method_ape": 23.08404696987195,
+          "baseline_ae": 1207.2351051912724,
+          "method_ae": 1223.4544894032126
+        },
+        {
+          "held_out": "UConn_ISU_cell_22",
+          "baseline_ape": 20.660413615379923,
+          "method_ape": 17.39076638348715,
+          "baseline_ae": 1014.8395167874621,
+          "method_ae": 854.2344447568889
+        },
+        {
+          "held_out": "UConn_ISU_cell_23",
+          "baseline_ape": 18.644284118679227,
+          "method_ape": 2.3135316358769384,
+          "baseline_ae": 776.1615478606163,
+          "method_ae": 96.31232200155696
+        },
+        {
+          "held_out": "UConn_ISU_cell_24",
+          "baseline_ape": 17.797526129796427,
+          "method_ape": 4.075106241193052,
+          "baseline_ae": 751.9454789838989,
+          "method_ae": 172.17323869040644
+        },
+        {
+          "held_out": "UConn_ISU_cell_25",
+          "baseline_ape": 23.200725940388782,
+          "method_ape": 24.129432238269224,
+          "baseline_ae": 1244.718946701858,
+          "method_ae": 1294.5440395831445
+        },
+        {
+          "held_out": "UConn_ISU_cell_26",
+          "baseline_ape": 38.945621345152894,
+          "method_ape": 38.15782390254033,
+          "baseline_ae": 2712.95198290335,
+          "method_ae": 2658.074013050958
+        },
+        {
+          "held_out": "UConn_ISU_cell_27",
+          "baseline_ape": 34.21530541511063,
+          "method_ape": 30.32434987384275,
+          "baseline_ae": 2141.5359659317746,
+          "method_ae": 1898.0010586038175
+        },
+        {
+          "held_out": "UConn_ISU_cell_28",
+          "baseline_ape": 29.68955020542448,
+          "method_ape": 33.3900253426366,
+          "baseline_ae": 1935.7586733936757,
+          "method_ae": 2177.029652339906
+        },
+        {
+          "held_out": "UConn_ISU_cell_29",
+          "baseline_ape": 42.773730945469744,
+          "method_ape": 40.44646981753551,
+          "baseline_ae": 3106.656078569469,
+          "method_ae": 2937.627102847606
+        },
+        {
+          "held_out": "UConn_ISU_cell_30",
+          "baseline_ape": 38.773236220871794,
+          "method_ape": 36.73126895414855,
+          "baseline_ae": 2647.8243015233343,
+          "method_ae": 2508.3783568788044
+        },
+        {
+          "held_out": "UConn_ISU_cell_31",
+          "baseline_ape": 46.69282100051181,
+          "method_ape": 48.330675121292714,
+          "baseline_ae": 3952.0803694833194,
+          "method_ae": 4090.7083422662154
+        },
+        {
+          "held_out": "UConn_ISU_cell_32",
+          "baseline_ape": 24.137397192636133,
+          "method_ape": 29.995673480063903,
+          "baseline_ae": 806.9131881498258,
+          "method_ae": 1002.7553644385365
+        },
+        {
+          "held_out": "UConn_ISU_cell_33",
+          "baseline_ape": 34.02908384355177,
+          "method_ape": 25.169378849089508,
+          "baseline_ae": 1185.2329902709084,
+          "method_ae": 876.6494653137878
+        },
+        {
+          "held_out": "UConn_ISU_cell_34",
+          "baseline_ape": 27.73655965473558,
+          "method_ape": 22.310386332557627,
+          "baseline_ae": 982.7063085672816,
+          "method_ae": 790.4569877625169
+        },
+        {
+          "held_out": "UConn_ISU_cell_35",
+          "baseline_ape": 30.558720232285918,
+          "method_ape": 40.96714783225668,
+          "baseline_ae": 938.7638855358234,
+          "method_ae": 1258.5107814069252
+        },
+        {
+          "held_out": "UConn_ISU_cell_36",
+          "baseline_ape": 37.32659889988987,
+          "method_ape": 19.74470871657379,
+          "baseline_ae": 1357.9416679779938,
+          "method_ae": 718.3125031089542
+        },
+        {
+          "held_out": "UConn_ISU_cell_37",
+          "baseline_ape": 50.318225277412495,
+          "method_ape": 52.1390850349248,
+          "baseline_ae": 1449.1648879894801,
+          "method_ae": 1501.605649005834
+        },
+        {
+          "held_out": "UConn_ISU_cell_38",
+          "baseline_ape": 18.766091176741934,
+          "method_ape": 4.056160276741656,
+          "baseline_ae": 738.2580268930278,
+          "method_ae": 159.56934528701666
+        },
+        {
+          "held_out": "UConn_ISU_cell_39",
+          "baseline_ape": 17.858880459699254,
+          "method_ape": 4.601598061741821,
+          "baseline_ae": 763.8243172613371,
+          "method_ae": 196.81034910069772
+        },
+        {
+          "held_out": "UConn_ISU_cell_40",
+          "baseline_ape": 20.035097188520044,
+          "method_ape": 3.874670623641959,
+          "baseline_ae": 789.5831801995749,
+          "method_ae": 152.7007692777296
+        },
+        {
+          "held_out": "UConn_ISU_cell_41",
+          "baseline_ape": 25.099160347993585,
+          "method_ape": 10.71327004790211,
+          "baseline_ae": 928.6689328757626,
+          "method_ae": 396.3909917723784
+        },
+        {
+          "held_out": "UConn_ISU_cell_42",
+          "baseline_ape": 27.708486479090695,
+          "method_ape": 11.21957659822588,
+          "baseline_ae": 1010.5285018924377,
+          "method_ae": 409.17795853729774
+        },
+        {
+          "held_out": "UConn_ISU_cell_43",
+          "baseline_ape": 28.798915693944227,
+          "method_ape": 4.623973669535208,
+          "baseline_ae": 1124.0216795346432,
+          "method_ae": 180.4736923219592
+        },
+        {
+          "held_out": "UConn_ISU_cell_44",
+          "baseline_ape": 32.774768658480966,
+          "method_ape": 22.89422448784296,
+          "baseline_ae": 1145.8059123004948,
+          "method_ae": 800.3820880949902
+        },
+        {
+          "held_out": "UConn_ISU_cell_45",
+          "baseline_ape": 22.25764108619038,
+          "method_ape": 8.708448730345289,
+          "baseline_ae": 891.1959490910629,
+          "method_ae": 348.6862871630253
+        },
+        {
+          "held_out": "UConn_ISU_cell_46",
+          "baseline_ape": 26.007376965458377,
+          "method_ape": 21.845616984729997,
+          "baseline_ae": 924.3021773523909,
+          "method_ae": 776.393227637304
+        },
+        {
+          "held_out": "UConn_ISU_cell_47",
+          "baseline_ape": 23.68438171435226,
+          "method_ape": 6.59739911437256,
+          "baseline_ae": 1109.139595683116,
+          "method_ae": 308.95620052606694
+        },
+        {
+          "held_out": "UConn_ISU_cell_48",
+          "baseline_ape": 24.625778322674677,
+          "method_ape": 25.490714612791308,
+          "baseline_ae": 854.5145077968114,
+          "method_ae": 884.5277970638583
+        },
+        {
+          "held_out": "UConn_ISU_cell_49",
+          "baseline_ape": 27.567342865878143,
+          "method_ape": 4.127450090327169,
+          "baseline_ae": 1211.5847189553442,
+          "method_ae": 181.40143146987913
+        },
+        {
+          "held_out": "UConn_ISU_cell_50",
+          "baseline_ape": 23.12483221476508,
+          "method_ape": 3.353914988814316,
+          "baseline_ae": 861.3999999999991,
+          "method_ae": 124.9333333333333
+        },
+        {
+          "held_out": "UConn_ISU_cell_51",
+          "baseline_ape": 20.704136462313084,
+          "method_ape": 1.8550829602317693,
+          "baseline_ae": 786.1360614740279,
+          "method_ae": 70.43750000000026
+        },
+        {
+          "held_out": "UConn_ISU_cell_52",
+          "baseline_ape": 24.56177151000553,
+          "method_ape": 0.3989637305699641,
+          "baseline_ae": 948.0843802862137,
+          "method_ae": 15.400000000000619
+        },
+        {
+          "held_out": "UConn_ISU_cell_53",
+          "baseline_ape": 16.466919583836287,
+          "method_ape": 1.1582456745416216,
+          "baseline_ae": 636.6111111111109,
+          "method_ae": 44.777777777779114
+        },
+        {
+          "held_out": "UConn_ISU_cell_54",
+          "baseline_ape": 24.088777003184408,
+          "method_ape": 0.5777175316292377,
+          "baseline_ae": 932.9583333333321,
+          "method_ae": 22.37500000000038
+        },
+        {
+          "held_out": "UConn_ISU_cell_55",
+          "baseline_ape": 32.91034705017419,
+          "method_ape": 1.0876790138377093,
+          "baseline_ae": 1256.846153846152,
+          "method_ae": 41.53846153846213
+        },
+        {
+          "held_out": "UConn_ISU_cell_56",
+          "baseline_ape": 28.10380189199879,
+          "method_ape": 33.14214323566272,
+          "baseline_ae": 1704.7766227686463,
+          "method_ae": 2010.4024086752995
+        },
+        {
+          "held_out": "UConn_ISU_cell_57",
+          "baseline_ape": 35.2250462602698,
+          "method_ape": 38.289881690250404,
+          "baseline_ae": 2320.978298089177,
+          "method_ae": 2522.9203045705967
+        },
+        {
+          "held_out": "UConn_ISU_cell_58",
+          "baseline_ape": 35.18827768093581,
+          "method_ape": 37.84347208622159,
+          "baseline_ae": 2313.2773747447204,
+          "method_ae": 2487.8298549482065
+        },
+        {
+          "held_out": "UConn_ISU_cell_59",
+          "baseline_ape": 27.06261086773132,
+          "method_ape": 29.824642497632894,
+          "baseline_ae": 1573.6908219585757,
+          "method_ae": 1734.302961237353
+        },
+        {
+          "held_out": "UConn_ISU_cell_60",
+          "baseline_ape": 42.92323544400192,
+          "method_ape": 41.581842859876545,
+          "baseline_ae": 3009.3480369789754,
+          "method_ae": 2915.303002905945
+        },
+        {
+          "held_out": "UConn_ISU_cell_61",
+          "baseline_ape": 27.10364832660949,
+          "method_ape": 36.01476667800625,
+          "baseline_ae": 1724.3341065388959,
+          "method_ae": 2291.259456054756
+        },
+        {
+          "held_out": "UConn_ISU_cell_62",
+          "baseline_ape": 47.668792986046896,
+          "method_ape": 36.99248458807743,
+          "baseline_ae": 1420.0533430543371,
+          "method_ae": 1102.0061158788262
+        },
+        {
+          "held_out": "UConn_ISU_cell_63",
+          "baseline_ape": 42.93777624521779,
+          "method_ape": 28.485268100531943,
+          "baseline_ae": 1360.2687514484996,
+          "method_ae": 902.4132934248519
+        },
+        {
+          "held_out": "UConn_ISU_cell_64",
+          "baseline_ape": 42.54640448612714,
+          "method_ape": 31.559870880734774,
+          "baseline_ae": 1320.6403952493868,
+          "method_ae": 979.618392138008
+        },
+        {
+          "held_out": "UConn_ISU_cell_65",
+          "baseline_ape": 52.67383172121233,
+          "method_ape": 49.392918063851944,
+          "baseline_ae": 1428.5143162792788,
+          "method_ae": 1339.5359378916658
+        }
+      ]
+    },
+    {
+      "horizon": 10,
+      "label_budget_k": 5,
+      "protocol_dispersion": 0.602637817413133,
+      "route_counts": {
+        "fallback_stability_or_coverage": 100
+      },
+      "baseline": {
+        "mae": 1226.799532987993,
+        "mape": 29.751256142762276,
+        "n_cells": 64
+      },
+      "method": {
+        "mae": 1226.799532987993,
+        "mape": 29.751256142762276,
+        "n_cells": 64
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        64,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "UConn_ISU_cell_02",
+          "baseline_ape": 26.016314847492964,
+          "method_ape": 26.016314847492964,
+          "baseline_ae": 966.7662597328386,
+          "method_ae": 966.7662597328386
+        },
+        {
+          "held_out": "UConn_ISU_cell_03",
+          "baseline_ape": 16.196975268049854,
+          "method_ape": 16.196975268049854,
+          "baseline_ae": 662.6182582159195,
+          "method_ae": 662.6182582159195
+        },
+        {
+          "held_out": "UConn_ISU_cell_04",
+          "baseline_ape": 23.435329031914893,
+          "method_ape": 23.435329031914893,
+          "baseline_ae": 890.7768565030849,
+          "method_ae": 890.7768565030849
+        },
+        {
+          "held_out": "UConn_ISU_cell_05",
+          "baseline_ape": 48.611521855992834,
+          "method_ape": 48.611521855992834,
+          "baseline_ae": 1531.749053682334,
+          "method_ae": 1531.749053682334
+        },
+        {
+          "held_out": "UConn_ISU_cell_06",
+          "baseline_ape": 21.698816526222704,
+          "method_ape": 21.698816526222704,
+          "baseline_ae": 832.1496137806406,
+          "method_ae": 832.1496137806406
+        },
+        {
+          "held_out": "UConn_ISU_cell_07",
+          "baseline_ape": 15.310005365180938,
+          "method_ape": 15.310005365180938,
+          "baseline_ae": 673.9464361752648,
+          "method_ae": 673.9464361752648
+        },
+        {
+          "held_out": "UConn_ISU_cell_08",
+          "baseline_ape": 13.647620442593121,
+          "method_ape": 13.647620442593121,
+          "baseline_ae": 637.0709222602468,
+          "method_ae": 637.0709222602468
+        },
+        {
+          "held_out": "UConn_ISU_cell_09",
+          "baseline_ape": 24.52137523376983,
+          "method_ape": 24.52137523376983,
+          "baseline_ae": 1479.8649953580095,
+          "method_ae": 1479.8649953580095
+        },
+        {
+          "held_out": "UConn_ISU_cell_10",
+          "baseline_ape": 22.505954226925848,
+          "method_ape": 22.505954226925848,
+          "baseline_ae": 909.4656103100734,
+          "method_ae": 909.4656103100734
+        },
+        {
+          "held_out": "UConn_ISU_cell_11",
+          "baseline_ape": 12.388876708312862,
+          "method_ape": 12.388876708312862,
+          "baseline_ae": 538.7922480445263,
+          "method_ae": 538.7922480445263
+        },
+        {
+          "held_out": "UConn_ISU_cell_12",
+          "baseline_ape": 14.87400106577453,
+          "method_ape": 14.87400106577453,
+          "baseline_ae": 731.2058923934758,
+          "method_ae": 731.2058923934758
+        },
+        {
+          "held_out": "UConn_ISU_cell_13",
+          "baseline_ape": 13.84453322551552,
+          "method_ape": 13.84453322551552,
+          "baseline_ae": 649.1701629444228,
+          "method_ae": 649.1701629444228
+        },
+        {
+          "held_out": "UConn_ISU_cell_14",
+          "baseline_ape": 52.95881108896126,
+          "method_ape": 52.95881108896126,
+          "baseline_ae": 1370.5740309823173,
+          "method_ae": 1370.5740309823173
+        },
+        {
+          "held_out": "UConn_ISU_cell_15",
+          "baseline_ape": 55.171680483423344,
+          "method_ape": 55.171680483423344,
+          "baseline_ae": 1448.256612689863,
+          "method_ae": 1448.256612689863
+        },
+        {
+          "held_out": "UConn_ISU_cell_16",
+          "baseline_ape": 57.87878538462214,
+          "method_ape": 57.87878538462214,
+          "baseline_ae": 1534.3666005463324,
+          "method_ae": 1534.3666005463324
+        },
+        {
+          "held_out": "UConn_ISU_cell_17",
+          "baseline_ape": 72.49851106181023,
+          "method_ape": 72.49851106181023,
+          "baseline_ae": 1950.209947562695,
+          "method_ae": 1950.209947562695
+        },
+        {
+          "held_out": "UConn_ISU_cell_18",
+          "baseline_ape": 58.9285487918046,
+          "method_ape": 58.9285487918046,
+          "baseline_ae": 1601.088670673331,
+          "method_ae": 1601.088670673331
+        },
+        {
+          "held_out": "UConn_ISU_cell_19",
+          "baseline_ape": 58.81953920845253,
+          "method_ape": 58.81953920845253,
+          "baseline_ae": 1532.2489963801884,
+          "method_ae": 1532.2489963801884
+        },
+        {
+          "held_out": "UConn_ISU_cell_20",
+          "baseline_ape": 13.759647604554235,
+          "method_ape": 13.759647604554235,
+          "baseline_ae": 650.9689281714607,
+          "method_ae": 650.9689281714607
+        },
+        {
+          "held_out": "UConn_ISU_cell_21",
+          "baseline_ape": 17.11522877977189,
+          "method_ape": 17.11522877977189,
+          "baseline_ae": 907.1071253279101,
+          "method_ae": 907.1071253279101
+        },
+        {
+          "held_out": "UConn_ISU_cell_22",
+          "baseline_ape": 16.21488277127578,
+          "method_ape": 16.21488277127578,
+          "baseline_ae": 796.4750417250664,
+          "method_ae": 796.4750417250664
+        },
+        {
+          "held_out": "UConn_ISU_cell_23",
+          "baseline_ape": 10.285093873370844,
+          "method_ape": 10.285093873370844,
+          "baseline_ae": 428.1684579484282,
+          "method_ae": 428.1684579484282
+        },
+        {
+          "held_out": "UConn_ISU_cell_24",
+          "baseline_ape": 9.547492237865933,
+          "method_ape": 9.547492237865933,
+          "baseline_ae": 403.3815470498356,
+          "method_ae": 403.3815470498356
+        },
+        {
+          "held_out": "UConn_ISU_cell_25",
+          "baseline_ape": 21.16652290107621,
+          "method_ape": 21.16652290107621,
+          "baseline_ae": 1135.5839536427393,
+          "method_ae": 1135.5839536427393
+        },
+        {
+          "held_out": "UConn_ISU_cell_26",
+          "baseline_ape": 35.36159995162381,
+          "method_ape": 35.36159995162381,
+          "baseline_ae": 2463.289052630115,
+          "method_ae": 2463.289052630115
+        },
+        {
+          "held_out": "UConn_ISU_cell_27",
+          "baseline_ape": 25.82043334111894,
+          "method_ape": 25.82043334111894,
+          "baseline_ae": 1616.1009228206342,
+          "method_ae": 1616.1009228206342
+        },
+        {
+          "held_out": "UConn_ISU_cell_28",
+          "baseline_ape": 28.459489573762372,
+          "method_ape": 28.459489573762372,
+          "baseline_ae": 1855.5587202093072,
+          "method_ae": 1855.5587202093072
+        },
+        {
+          "held_out": "UConn_ISU_cell_29",
+          "baseline_ape": 32.50621258524835,
+          "method_ape": 32.50621258524835,
+          "baseline_ae": 2360.9262200665867,
+          "method_ae": 2360.9262200665867
+        },
+        {
+          "held_out": "UConn_ISU_cell_30",
+          "baseline_ape": 32.675501427138,
+          "method_ape": 32.675501427138,
+          "baseline_ae": 2231.4099924592538,
+          "method_ae": 2231.4099924592538
+        },
+        {
+          "held_out": "UConn_ISU_cell_31",
+          "baseline_ape": 42.70323212636688,
+          "method_ape": 42.70323212636688,
+          "baseline_ae": 3614.4015671756933,
+          "method_ae": 3614.4015671756933
+        },
+        {
+          "held_out": "UConn_ISU_cell_32",
+          "baseline_ape": 40.548547134817724,
+          "method_ape": 40.548547134817724,
+          "baseline_ae": 1355.5379307169565,
+          "method_ae": 1355.5379307169565
+        },
+        {
+          "held_out": "UConn_ISU_cell_33",
+          "baseline_ape": 30.9435141370082,
+          "method_ape": 30.9435141370082,
+          "baseline_ae": 1077.7625973919958,
+          "method_ae": 1077.7625973919958
+        },
+        {
+          "held_out": "UConn_ISU_cell_34",
+          "baseline_ape": 29.503907025178204,
+          "method_ape": 29.503907025178204,
+          "baseline_ae": 1045.3234259020635,
+          "method_ae": 1045.3234259020635
+        },
+        {
+          "held_out": "UConn_ISU_cell_35",
+          "baseline_ape": 50.373100106877004,
+          "method_ape": 50.373100106877004,
+          "baseline_ae": 1547.4616352832616,
+          "method_ae": 1547.4616352832616
+        },
+        {
+          "held_out": "UConn_ISU_cell_36",
+          "baseline_ape": 28.662825750958184,
+          "method_ape": 28.662825750958184,
+          "baseline_ae": 1042.753600819859,
+          "method_ae": 1042.753600819859
+        },
+        {
+          "held_out": "UConn_ISU_cell_37",
+          "baseline_ape": 54.87242976599589,
+          "method_ape": 54.87242976599589,
+          "baseline_ae": 1580.3259772606818,
+          "method_ae": 1580.3259772606818
+        },
+        {
+          "held_out": "UConn_ISU_cell_38",
+          "baseline_ape": 14.427809516135824,
+          "method_ape": 14.427809516135824,
+          "baseline_ae": 567.5900263647832,
+          "method_ae": 567.5900263647832
+        },
+        {
+          "held_out": "UConn_ISU_cell_39",
+          "baseline_ape": 13.726949839759495,
+          "method_ape": 13.726949839759495,
+          "baseline_ae": 587.1016446465136,
+          "method_ae": 587.1016446465136
+        },
+        {
+          "held_out": "UConn_ISU_cell_40",
+          "baseline_ape": 17.27678553908098,
+          "method_ape": 17.27678553908098,
+          "baseline_ae": 680.8781180951814,
+          "method_ae": 680.8781180951814
+        },
+        {
+          "held_out": "UConn_ISU_cell_41",
+          "baseline_ape": 18.129536618158024,
+          "method_ape": 18.129536618158024,
+          "baseline_ae": 670.7928548718467,
+          "method_ae": 670.7928548718467
+        },
+        {
+          "held_out": "UConn_ISU_cell_42",
+          "baseline_ape": 21.51560363566103,
+          "method_ape": 21.51560363566103,
+          "baseline_ae": 784.6740645925578,
+          "method_ae": 784.6740645925578
+        },
+        {
+          "held_out": "UConn_ISU_cell_43",
+          "baseline_ape": 11.746730726446172,
+          "method_ape": 11.746730726446172,
+          "baseline_ae": 458.4749002531941,
+          "method_ae": 458.4749002531941
+        },
+        {
+          "held_out": "UConn_ISU_cell_44",
+          "baseline_ape": 46.36725613400205,
+          "method_ape": 46.36725613400205,
+          "baseline_ae": 1620.999274444711,
+          "method_ae": 1620.999274444711
+        },
+        {
+          "held_out": "UConn_ISU_cell_45",
+          "baseline_ape": 25.413219255528514,
+          "method_ape": 25.413219255528514,
+          "baseline_ae": 1017.5452989913616,
+          "method_ae": 1017.5452989913616
+        },
+        {
+          "held_out": "UConn_ISU_cell_46",
+          "baseline_ape": 42.629193818360264,
+          "method_ape": 42.629193818360264,
+          "baseline_ae": 1515.0415483045238,
+          "method_ae": 1515.0415483045238
+        },
+        {
+          "held_out": "UConn_ISU_cell_47",
+          "baseline_ape": 19.95578143521123,
+          "method_ape": 19.95578143521123,
+          "baseline_ae": 934.5292446109416,
+          "method_ae": 934.5292446109416
+        },
+        {
+          "held_out": "UConn_ISU_cell_48",
+          "baseline_ape": 39.24036605728497,
+          "method_ape": 39.24036605728497,
+          "baseline_ae": 1361.6407021877887,
+          "method_ae": 1361.6407021877887
+        },
+        {
+          "held_out": "UConn_ISU_cell_49",
+          "baseline_ape": 25.374906043577617,
+          "method_ape": 25.374906043577617,
+          "baseline_ae": 1115.227120615236,
+          "method_ae": 1115.227120615236
+        },
+        {
+          "held_out": "UConn_ISU_cell_50",
+          "baseline_ape": 22.874923733984126,
+          "method_ape": 22.874923733984126,
+          "baseline_ae": 852.0909090909088,
+          "method_ae": 852.0909090909088
+        },
+        {
+          "held_out": "UConn_ISU_cell_51",
+          "baseline_ape": 12.426608350856647,
+          "method_ape": 12.426608350856647,
+          "baseline_ae": 471.838319082027,
+          "method_ae": 471.838319082027
+        },
+        {
+          "held_out": "UConn_ISU_cell_52",
+          "baseline_ape": 18.105234947293177,
+          "method_ape": 18.105234947293177,
+          "baseline_ae": 698.8620689655168,
+          "method_ae": 698.8620689655168
+        },
+        {
+          "held_out": "UConn_ISU_cell_53",
+          "baseline_ape": 17.8469467915924,
+          "method_ape": 17.8469467915924,
+          "baseline_ae": 689.9629629629627,
+          "method_ae": 689.9629629629627
+        },
+        {
+          "held_out": "UConn_ISU_cell_54",
+          "baseline_ape": 16.05481810644533,
+          "method_ape": 16.05481810644533,
+          "baseline_ae": 621.8031052626276,
+          "method_ae": 621.8031052626276
+        },
+        {
+          "held_out": "UConn_ISU_cell_55",
+          "baseline_ape": 22.32490337732847,
+          "method_ape": 22.32490337732847,
+          "baseline_ae": 852.5880599801744,
+          "method_ae": 852.5880599801744
+        },
+        {
+          "held_out": "UConn_ISU_cell_56",
+          "baseline_ape": 22.194797194022243,
+          "method_ape": 22.194797194022243,
+          "baseline_ae": 1346.3363977893894,
+          "method_ae": 1346.3363977893894
+        },
+        {
+          "held_out": "UConn_ISU_cell_57",
+          "baseline_ape": 29.27483475027055,
+          "method_ape": 29.27483475027055,
+          "baseline_ae": 1928.9188616953265,
+          "method_ae": 1928.9188616953265
+        },
+        {
+          "held_out": "UConn_ISU_cell_58",
+          "baseline_ape": 32.45106648143224,
+          "method_ape": 32.45106648143224,
+          "baseline_ae": 2133.3331104893564,
+          "method_ae": 2133.3331104893564
+        },
+        {
+          "held_out": "UConn_ISU_cell_59",
+          "baseline_ape": 25.967723906157453,
+          "method_ape": 25.967723906157453,
+          "baseline_ae": 1510.023145143056,
+          "method_ae": 1510.023145143056
+        },
+        {
+          "held_out": "UConn_ISU_cell_60",
+          "baseline_ape": 32.38838944783451,
+          "method_ape": 32.38838944783451,
+          "baseline_ae": 2270.7499841876775,
+          "method_ae": 2270.7499841876775
+        },
+        {
+          "held_out": "UConn_ISU_cell_61",
+          "baseline_ape": 31.23721774095399,
+          "method_ape": 31.23721774095399,
+          "baseline_ae": 1987.3117926794935,
+          "method_ae": 1987.3117926794935
+        },
+        {
+          "held_out": "UConn_ISU_cell_62",
+          "baseline_ape": 50.808748720850794,
+          "method_ape": 50.808748720850794,
+          "baseline_ae": 1513.5926243941447,
+          "method_ae": 1513.5926243941447
+        },
+        {
+          "held_out": "UConn_ISU_cell_63",
+          "baseline_ape": 34.67490620885428,
+          "method_ape": 34.67490620885428,
+          "baseline_ae": 1098.5010286965035,
+          "method_ae": 1098.5010286965035
+        },
+        {
+          "held_out": "UConn_ISU_cell_64",
+          "baseline_ape": 49.396298779297446,
+          "method_ape": 49.396298779297446,
+          "baseline_ae": 1533.2611141093935,
+          "method_ae": 1533.2611141093935
+        },
+        {
+          "held_out": "UConn_ISU_cell_65",
+          "baseline_ape": 60.421975069577485,
+          "method_ape": 60.421975069577485,
+          "baseline_ae": 1638.643963886942,
+          "method_ae": 1638.643963886942
+        }
+      ]
+    },
+    {
+      "horizon": 10,
+      "label_budget_k": 10,
+      "protocol_dispersion": 0.602637817413133,
+      "route_counts": {
+        "fallback_stability_or_coverage": 100
+      },
+      "baseline": {
+        "mae": 976.8872299144325,
+        "mape": 22.57889630148,
+        "n_cells": 64
+      },
+      "method": {
+        "mae": 976.8872299144325,
+        "mape": 22.57889630148,
+        "n_cells": 64
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        64,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "UConn_ISU_cell_02",
+          "baseline_ape": 24.15717413965062,
+          "method_ape": 24.15717413965062,
+          "baseline_ae": 897.6805910294166,
+          "method_ae": 897.6805910294166
+        },
+        {
+          "held_out": "UConn_ISU_cell_03",
+          "baseline_ape": 12.857212519977422,
+          "method_ape": 12.857212519977422,
+          "baseline_ae": 525.9885641922762,
+          "method_ae": 525.9885641922762
+        },
+        {
+          "held_out": "UConn_ISU_cell_04",
+          "baseline_ape": 20.607452478988705,
+          "method_ape": 20.607452478988705,
+          "baseline_ae": 783.2892687263604,
+          "method_ae": 783.2892687263604
+        },
+        {
+          "held_out": "UConn_ISU_cell_05",
+          "baseline_ape": 45.57701130096777,
+          "method_ape": 45.57701130096777,
+          "baseline_ae": 1436.131626093495,
+          "method_ae": 1436.131626093495
+        },
+        {
+          "held_out": "UConn_ISU_cell_06",
+          "baseline_ape": 18.56293720766168,
+          "method_ape": 18.56293720766168,
+          "baseline_ae": 711.8886419138254,
+          "method_ae": 711.8886419138254
+        },
+        {
+          "held_out": "UConn_ISU_cell_07",
+          "baseline_ape": 9.929250822086564,
+          "method_ape": 9.929250822086564,
+          "baseline_ae": 437.08562118825057,
+          "method_ae": 437.08562118825057
+        },
+        {
+          "held_out": "UConn_ISU_cell_08",
+          "baseline_ape": 9.060380318215817,
+          "method_ape": 9.060380318215817,
+          "baseline_ae": 422.9385532543142,
+          "method_ae": 422.9385532543142
+        },
+        {
+          "held_out": "UConn_ISU_cell_09",
+          "baseline_ape": 23.270450238796414,
+          "method_ape": 23.270450238796414,
+          "baseline_ae": 1404.3716719113636,
+          "method_ae": 1404.3716719113636
+        },
+        {
+          "held_out": "UConn_ISU_cell_10",
+          "baseline_ape": 19.828930266971174,
+          "method_ape": 19.828930266971174,
+          "baseline_ae": 801.2870720883052,
+          "method_ae": 801.2870720883052
+        },
+        {
+          "held_out": "UConn_ISU_cell_11",
+          "baseline_ape": 12.320494298817515,
+          "method_ape": 12.320494298817515,
+          "baseline_ae": 535.8182970555738,
+          "method_ae": 535.8182970555738
+        },
+        {
+          "held_out": "UConn_ISU_cell_12",
+          "baseline_ape": 10.840182754776215,
+          "method_ape": 10.840182754776215,
+          "baseline_ae": 532.9033842247986,
+          "method_ae": 532.9033842247986
+        },
+        {
+          "held_out": "UConn_ISU_cell_13",
+          "baseline_ape": 9.701173587268809,
+          "method_ape": 9.701173587268809,
+          "baseline_ae": 454.88802950703416,
+          "method_ae": 454.88802950703416
+        },
+        {
+          "held_out": "UConn_ISU_cell_14",
+          "baseline_ape": 39.51804185945653,
+          "method_ape": 39.51804185945653,
+          "baseline_ae": 1022.7269233227348,
+          "method_ae": 1022.7269233227348
+        },
+        {
+          "held_out": "UConn_ISU_cell_15",
+          "baseline_ape": 29.402546823601828,
+          "method_ape": 29.402546823601828,
+          "baseline_ae": 771.816854119548,
+          "method_ae": 771.816854119548
+        },
+        {
+          "held_out": "UConn_ISU_cell_16",
+          "baseline_ape": 36.616781622011366,
+          "method_ape": 36.616781622011366,
+          "baseline_ae": 970.710880799521,
+          "method_ae": 970.710880799521
+        },
+        {
+          "held_out": "UConn_ISU_cell_17",
+          "baseline_ape": 21.90962683273305,
+          "method_ape": 21.90962683273305,
+          "baseline_ae": 589.3689618005192,
+          "method_ae": 589.3689618005192
+        },
+        {
+          "held_out": "UConn_ISU_cell_18",
+          "baseline_ape": 13.331474038595982,
+          "method_ape": 13.331474038595982,
+          "baseline_ae": 362.2161496286526,
+          "method_ae": 362.2161496286526
+        },
+        {
+          "held_out": "UConn_ISU_cell_19",
+          "baseline_ape": 24.504201264650398,
+          "method_ape": 24.504201264650398,
+          "baseline_ae": 638.334442944143,
+          "method_ae": 638.334442944143
+        },
+        {
+          "held_out": "UConn_ISU_cell_20",
+          "baseline_ape": 10.73123489339068,
+          "method_ape": 10.73123489339068,
+          "baseline_ae": 507.69472280631317,
+          "method_ae": 507.69472280631317
+        },
+        {
+          "held_out": "UConn_ISU_cell_21",
+          "baseline_ape": 19.29253611986884,
+          "method_ape": 19.29253611986884,
+          "baseline_ae": 1022.5044143530486,
+          "method_ae": 1022.5044143530486
+        },
+        {
+          "held_out": "UConn_ISU_cell_22",
+          "baseline_ape": 12.135701621888686,
+          "method_ape": 12.135701621888686,
+          "baseline_ae": 596.105663667172,
+          "method_ae": 596.105663667172
+        },
+        {
+          "held_out": "UConn_ISU_cell_23",
+          "baseline_ape": 8.788398101336387,
+          "method_ape": 8.788398101336387,
+          "baseline_ae": 365.8610129586337,
+          "method_ae": 365.8610129586337
+        },
+        {
+          "held_out": "UConn_ISU_cell_24",
+          "baseline_ape": 7.729406932777156,
+          "method_ape": 7.729406932777156,
+          "baseline_ae": 326.56744290983477,
+          "method_ae": 326.56744290983477
+        },
+        {
+          "held_out": "UConn_ISU_cell_25",
+          "baseline_ape": 22.544718628613168,
+          "method_ape": 22.544718628613168,
+          "baseline_ae": 1209.5241544250969,
+          "method_ae": 1209.5241544250969
+        },
+        {
+          "held_out": "UConn_ISU_cell_26",
+          "baseline_ape": 30.080321180817077,
+          "method_ape": 30.080321180817077,
+          "baseline_ae": 2095.3951734557177,
+          "method_ae": 2095.3951734557177
+        },
+        {
+          "held_out": "UConn_ISU_cell_27",
+          "baseline_ape": 21.48773187053938,
+          "method_ape": 21.48773187053938,
+          "baseline_ae": 1344.9171377770597,
+          "method_ae": 1344.9171377770597
+        },
+        {
+          "held_out": "UConn_ISU_cell_28",
+          "baseline_ape": 24.515220530044974,
+          "method_ape": 24.515220530044974,
+          "baseline_ae": 1598.3923785589323,
+          "method_ae": 1598.3923785589323
+        },
+        {
+          "held_out": "UConn_ISU_cell_29",
+          "baseline_ape": 32.85722999426235,
+          "method_ape": 32.85722999426235,
+          "baseline_ae": 2386.4206144832738,
+          "method_ae": 2386.4206144832738
+        },
+        {
+          "held_out": "UConn_ISU_cell_30",
+          "baseline_ape": 30.7042146272096,
+          "method_ape": 30.7042146272096,
+          "baseline_ae": 2096.7908168921444,
+          "method_ae": 2096.7908168921444
+        },
+        {
+          "held_out": "UConn_ISU_cell_31",
+          "baseline_ape": 44.86593837436637,
+          "method_ape": 44.86593837436637,
+          "baseline_ae": 3797.453024006368,
+          "method_ae": 3797.453024006368
+        },
+        {
+          "held_out": "UConn_ISU_cell_32",
+          "baseline_ape": 22.75474215291292,
+          "method_ape": 22.75474215291292,
+          "baseline_ae": 760.6910301718789,
+          "method_ae": 760.6910301718789
+        },
+        {
+          "held_out": "UConn_ISU_cell_33",
+          "baseline_ape": 20.799846303712528,
+          "method_ape": 20.799846303712528,
+          "baseline_ae": 724.4586467583073,
+          "method_ae": 724.4586467583073
+        },
+        {
+          "held_out": "UConn_ISU_cell_34",
+          "baseline_ape": 17.63091809521537,
+          "method_ape": 17.63091809521537,
+          "baseline_ae": 624.6634281134806,
+          "method_ae": 624.6634281134806
+        },
+        {
+          "held_out": "UConn_ISU_cell_35",
+          "baseline_ape": 29.597258793713326,
+          "method_ape": 29.597258793713326,
+          "baseline_ae": 909.227790142873,
+          "method_ae": 909.227790142873
+        },
+        {
+          "held_out": "UConn_ISU_cell_36",
+          "baseline_ape": 16.63326604944191,
+          "method_ape": 16.63326604944191,
+          "baseline_ae": 605.1182188786967,
+          "method_ae": 605.1182188786967
+        },
+        {
+          "held_out": "UConn_ISU_cell_37",
+          "baseline_ape": 38.74162909027509,
+          "method_ape": 38.74162909027509,
+          "baseline_ae": 1115.7589177999225,
+          "method_ae": 1115.7589177999225
+        },
+        {
+          "held_out": "UConn_ISU_cell_38",
+          "baseline_ape": 8.576428128550996,
+          "method_ape": 8.576428128550996,
+          "baseline_ae": 337.3966825771961,
+          "method_ae": 337.3966825771961
+        },
+        {
+          "held_out": "UConn_ISU_cell_39",
+          "baseline_ape": 9.410873725906722,
+          "method_ape": 9.410873725906722,
+          "baseline_ae": 402.5030692570305,
+          "method_ae": 402.5030692570305
+        },
+        {
+          "held_out": "UConn_ISU_cell_40",
+          "baseline_ape": 10.217482567780184,
+          "method_ape": 10.217482567780184,
+          "baseline_ae": 402.67098799621704,
+          "method_ae": 402.67098799621704
+        },
+        {
+          "held_out": "UConn_ISU_cell_41",
+          "baseline_ape": 15.044192533210879,
+          "method_ape": 15.044192533210879,
+          "baseline_ae": 556.6351237288025,
+          "method_ae": 556.6351237288025
+        },
+        {
+          "held_out": "UConn_ISU_cell_42",
+          "baseline_ape": 15.656558910533322,
+          "method_ape": 15.656558910533322,
+          "baseline_ae": 570.9947034671503,
+          "method_ae": 570.9947034671503
+        },
+        {
+          "held_out": "UConn_ISU_cell_43",
+          "baseline_ape": 10.62700366889889,
+          "method_ape": 10.62700366889889,
+          "baseline_ae": 414.7719531971237,
+          "method_ae": 414.7719531971237
+        },
+        {
+          "held_out": "UConn_ISU_cell_44",
+          "baseline_ape": 47.24933349263618,
+          "method_ape": 47.24933349263618,
+          "baseline_ae": 1651.8366989025612,
+          "method_ae": 1651.8366989025612
+        },
+        {
+          "held_out": "UConn_ISU_cell_45",
+          "baseline_ape": 22.011230585593292,
+          "method_ape": 22.011230585593292,
+          "baseline_ae": 881.3296726471555,
+          "method_ae": 881.3296726471555
+        },
+        {
+          "held_out": "UConn_ISU_cell_46",
+          "baseline_ape": 39.01526253826454,
+          "method_ape": 39.01526253826454,
+          "baseline_ae": 1386.6024306099207,
+          "method_ae": 1386.6024306099207
+        },
+        {
+          "held_out": "UConn_ISU_cell_47",
+          "baseline_ape": 14.768158783035322,
+          "method_ape": 14.768158783035322,
+          "baseline_ae": 691.5928758095439,
+          "method_ae": 691.5928758095439
+        },
+        {
+          "held_out": "UConn_ISU_cell_48",
+          "baseline_ape": 40.50077262166983,
+          "method_ape": 40.50077262166983,
+          "baseline_ae": 1405.3768099719432,
+          "method_ae": 1405.3768099719432
+        },
+        {
+          "held_out": "UConn_ISU_cell_49",
+          "baseline_ape": 19.442685601124126,
+          "method_ape": 19.442685601124126,
+          "baseline_ae": 854.5060321694057,
+          "method_ae": 854.5060321694057
+        },
+        {
+          "held_out": "UConn_ISU_cell_50",
+          "baseline_ape": 16.430535090311068,
+          "method_ape": 16.430535090311068,
+          "baseline_ae": 612.0374321140873,
+          "method_ae": 612.0374321140873
+        },
+        {
+          "held_out": "UConn_ISU_cell_51",
+          "baseline_ape": 18.227509586984286,
+          "method_ape": 18.227509586984286,
+          "baseline_ae": 692.0985390177932,
+          "method_ae": 692.0985390177932
+        },
+        {
+          "held_out": "UConn_ISU_cell_52",
+          "baseline_ape": 12.08959751296003,
+          "method_ape": 12.08959751296003,
+          "baseline_ae": 466.65846400025725,
+          "method_ae": 466.65846400025725
+        },
+        {
+          "held_out": "UConn_ISU_cell_53",
+          "baseline_ape": 9.583892731046818,
+          "method_ape": 9.583892731046818,
+          "baseline_ae": 370.5132929822699,
+          "method_ae": 370.5132929822699
+        },
+        {
+          "held_out": "UConn_ISU_cell_54",
+          "baseline_ape": 26.663454568788882,
+          "method_ape": 26.663454568788882,
+          "baseline_ae": 1032.6755954491935,
+          "method_ae": 1032.6755954491935
+        },
+        {
+          "held_out": "UConn_ISU_cell_55",
+          "baseline_ape": 19.6518427711071,
+          "method_ape": 19.6518427711071,
+          "baseline_ae": 750.50387542858,
+          "method_ae": 750.50387542858
+        },
+        {
+          "held_out": "UConn_ISU_cell_56",
+          "baseline_ape": 24.612939182529207,
+          "method_ape": 24.612939182529207,
+          "baseline_ae": 1493.020890812222,
+          "method_ae": 1493.020890812222
+        },
+        {
+          "held_out": "UConn_ISU_cell_57",
+          "baseline_ape": 19.289424031727563,
+          "method_ape": 19.289424031727563,
+          "baseline_ae": 1270.9801494505286,
+          "method_ae": 1270.9801494505286
+        },
+        {
+          "held_out": "UConn_ISU_cell_58",
+          "baseline_ape": 19.383663445999144,
+          "method_ape": 19.383663445999144,
+          "baseline_ae": 1274.2820349399835,
+          "method_ae": 1274.2820349399835
+        },
+        {
+          "held_out": "UConn_ISU_cell_59",
+          "baseline_ape": 22.02213939599231,
+          "method_ape": 22.02213939599231,
+          "baseline_ae": 1280.5874058769527,
+          "method_ae": 1280.5874058769527
+        },
+        {
+          "held_out": "UConn_ISU_cell_60",
+          "baseline_ape": 32.19211444483862,
+          "method_ape": 32.19211444483862,
+          "baseline_ae": 2256.9891437276356,
+          "method_ae": 2256.9891437276356
+        },
+        {
+          "held_out": "UConn_ISU_cell_61",
+          "baseline_ape": 23.417729074892765,
+          "method_ape": 23.417729074892765,
+          "baseline_ae": 1489.8359237446782,
+          "method_ae": 1489.8359237446782
+        },
+        {
+          "held_out": "UConn_ISU_cell_62",
+          "baseline_ape": 38.4195337431296,
+          "method_ape": 38.4195337431296,
+          "baseline_ae": 1144.5179102078307,
+          "method_ae": 1144.5179102078307
+        },
+        {
+          "held_out": "UConn_ISU_cell_63",
+          "baseline_ape": 31.168376194316398,
+          "method_ape": 31.168376194316398,
+          "baseline_ae": 987.4141578359433,
+          "method_ae": 987.4141578359433
+        },
+        {
+          "held_out": "UConn_ISU_cell_64",
+          "baseline_ape": 34.93495321198797,
+          "method_ape": 34.93495321198797,
+          "baseline_ae": 1084.3809477001066,
+          "method_ae": 1084.3809477001066
+        },
+        {
+          "held_out": "UConn_ISU_cell_65",
+          "baseline_ape": 50.556039415290265,
+          "method_ape": 50.556039415290265,
+          "baseline_ae": 1371.079788942673,
+          "method_ae": 1371.079788942673
+        }
+      ]
+    },
+    {
+      "horizon": 20,
+      "label_budget_k": 1,
+      "protocol_dispersion": 0.602637817413133,
+      "route_counts": {
+        "fallback_stability_or_coverage": 100
+      },
+      "baseline": {
+        "mae": 1385.1995803178079,
+        "mape": 32.24184364768596,
+        "n_cells": 64
+      },
+      "method": {
+        "mae": 1385.1995803178079,
+        "mape": 32.24184364768596,
+        "n_cells": 64
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        64,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "UConn_ISU_cell_02",
+          "baseline_ape": 22.413411004875563,
+          "method_ape": 22.413411004875563,
+          "baseline_ae": 832.8823529411761,
+          "method_ae": 832.8823529411761
+        },
+        {
+          "held_out": "UConn_ISU_cell_03",
+          "baseline_ape": 21.238694695673423,
+          "method_ape": 21.238694695673423,
+          "baseline_ae": 868.8749999999997,
+          "method_ae": 868.8749999999997
+        },
+        {
+          "held_out": "UConn_ISU_cell_04",
+          "baseline_ape": 21.883884546511528,
+          "method_ape": 21.883884546511528,
+          "baseline_ae": 831.806451612903,
+          "method_ae": 831.806451612903
+        },
+        {
+          "held_out": "UConn_ISU_cell_05",
+          "baseline_ape": 38.22018983872362,
+          "method_ape": 38.22018983872362,
+          "baseline_ae": 1204.318181818181,
+          "method_ae": 1204.318181818181
+        },
+        {
+          "held_out": "UConn_ISU_cell_06",
+          "baseline_ape": 27.201216862233814,
+          "method_ape": 27.201216862233814,
+          "baseline_ae": 1043.1666666666667,
+          "method_ae": 1043.1666666666667
+        },
+        {
+          "held_out": "UConn_ISU_cell_07",
+          "baseline_ape": 23.769789955614574,
+          "method_ape": 23.769789955614574,
+          "baseline_ae": 1046.3461538461538,
+          "method_ae": 1046.3461538461538
+        },
+        {
+          "held_out": "UConn_ISU_cell_08",
+          "baseline_ape": 20.312563757293837,
+          "method_ape": 20.312563757293837,
+          "baseline_ae": 948.1904761904765,
+          "method_ae": 948.1904761904765
+        },
+        {
+          "held_out": "UConn_ISU_cell_09",
+          "baseline_ape": 32.28178761148205,
+          "method_ape": 32.28178761148205,
+          "baseline_ae": 1948.2058823529417,
+          "method_ae": 1948.2058823529417
+        },
+        {
+          "held_out": "UConn_ISU_cell_10",
+          "baseline_ape": 24.942487649738332,
+          "method_ape": 24.942487649738332,
+          "baseline_ae": 1007.9259259259254,
+          "method_ae": 1007.9259259259254
+        },
+        {
+          "held_out": "UConn_ISU_cell_11",
+          "baseline_ape": 23.30585027756792,
+          "method_ape": 23.30585027756792,
+          "baseline_ae": 1013.5714285714286,
+          "method_ae": 1013.5714285714286
+        },
+        {
+          "held_out": "UConn_ISU_cell_12",
+          "baseline_ape": 26.114557906156776,
+          "method_ape": 26.114557906156776,
+          "baseline_ae": 1283.7916666666672,
+          "method_ae": 1283.7916666666672
+        },
+        {
+          "held_out": "UConn_ISU_cell_13",
+          "baseline_ape": 28.44956280656858,
+          "method_ape": 28.44956280656858,
+          "baseline_ae": 1334.0000000000005,
+          "method_ae": 1334.0000000000005
+        },
+        {
+          "held_out": "UConn_ISU_cell_14",
+          "baseline_ape": 63.54527527580875,
+          "method_ape": 63.54527527580875,
+          "baseline_ae": 1644.55172413793,
+          "method_ae": 1644.55172413793
+        },
+        {
+          "held_out": "UConn_ISU_cell_15",
+          "baseline_ape": 59.8617283950617,
+          "method_ape": 59.8617283950617,
+          "baseline_ae": 1571.3703703703693,
+          "method_ae": 1571.3703703703693
+        },
+        {
+          "held_out": "UConn_ISU_cell_16",
+          "baseline_ape": 70.6817877611613,
+          "method_ape": 70.6817877611613,
+          "baseline_ae": 1873.7741935483862,
+          "method_ae": 1873.7741935483862
+        },
+        {
+          "held_out": "UConn_ISU_cell_17",
+          "baseline_ape": 55.32527881040891,
+          "method_ape": 55.32527881040891,
+          "baseline_ae": 1488.2499999999993,
+          "method_ae": 1488.2499999999993
+        },
+        {
+          "held_out": "UConn_ISU_cell_18",
+          "baseline_ape": 43.46705925653291,
+          "method_ape": 43.46705925653291,
+          "baseline_ae": 1180.9999999999993,
+          "method_ae": 1180.9999999999993
+        },
+        {
+          "held_out": "UConn_ISU_cell_19",
+          "baseline_ape": 67.00646904101794,
+          "method_ape": 67.00646904101794,
+          "baseline_ae": 1745.5185185185178,
+          "method_ae": 1745.5185185185178
+        },
+        {
+          "held_out": "UConn_ISU_cell_20",
+          "baseline_ape": 23.925526668075815,
+          "method_ape": 23.925526668075815,
+          "baseline_ae": 1131.9166666666667,
+          "method_ae": 1131.9166666666667
+        },
+        {
+          "held_out": "UConn_ISU_cell_21",
+          "baseline_ape": 27.793850454227808,
+          "method_ape": 27.793850454227808,
+          "baseline_ae": 1473.0740740740735,
+          "method_ae": 1473.0740740740735
+        },
+        {
+          "held_out": "UConn_ISU_cell_22",
+          "baseline_ape": 25.45731707317074,
+          "method_ape": 25.45731707317074,
+          "baseline_ae": 1250.4634146341464,
+          "method_ae": 1250.4634146341464
+        },
+        {
+          "held_out": "UConn_ISU_cell_23",
+          "baseline_ape": 19.210505244615277,
+          "method_ape": 19.210505244615277,
+          "baseline_ae": 799.733333333334,
+          "method_ae": 799.733333333334
+        },
+        {
+          "held_out": "UConn_ISU_cell_24",
+          "baseline_ape": 18.393491124260354,
+          "method_ape": 18.393491124260354,
+          "baseline_ae": 777.1249999999997,
+          "method_ae": 777.1249999999997
+        },
+        {
+          "held_out": "UConn_ISU_cell_25",
+          "baseline_ape": 28.84239956835238,
+          "method_ape": 28.84239956835238,
+          "baseline_ae": 1547.3947368421052,
+          "method_ae": 1547.3947368421052
+        },
+        {
+          "held_out": "UConn_ISU_cell_26",
+          "baseline_ape": 38.3295788334548,
+          "method_ape": 38.3295788334548,
+          "baseline_ae": 2670.0384615384614,
+          "method_ae": 2670.0384615384614
+        },
+        {
+          "held_out": "UConn_ISU_cell_27",
+          "baseline_ape": 35.37412792245832,
+          "method_ape": 35.37412792245832,
+          "baseline_ae": 2214.0666666666657,
+          "method_ae": 2214.0666666666657
+        },
+        {
+          "held_out": "UConn_ISU_cell_28",
+          "baseline_ape": 30.393149284253568,
+          "method_ape": 30.393149284253568,
+          "baseline_ae": 1981.6333333333325,
+          "method_ae": 1981.6333333333325
+        },
+        {
+          "held_out": "UConn_ISU_cell_29",
+          "baseline_ape": 42.789874314037895,
+          "method_ape": 42.789874314037895,
+          "baseline_ae": 3107.828571428572,
+          "method_ae": 3107.828571428572
+        },
+        {
+          "held_out": "UConn_ISU_cell_30",
+          "baseline_ape": 33.36587429426791,
+          "method_ape": 33.36587429426791,
+          "baseline_ae": 2278.555555555556,
+          "method_ae": 2278.555555555556
+        },
+        {
+          "held_out": "UConn_ISU_cell_31",
+          "baseline_ape": 51.088802575614366,
+          "method_ape": 51.088802575614366,
+          "baseline_ae": 4324.156250000001,
+          "method_ae": 4324.156250000001
+        },
+        {
+          "held_out": "UConn_ISU_cell_32",
+          "baseline_ape": 22.863373635810973,
+          "method_ape": 22.863373635810973,
+          "baseline_ae": 764.3225806451611,
+          "method_ae": 764.3225806451611
+        },
+        {
+          "held_out": "UConn_ISU_cell_33",
+          "baseline_ape": 33.37596464211448,
+          "method_ape": 33.37596464211448,
+          "baseline_ae": 1162.4848484848476,
+          "method_ae": 1162.4848484848476
+        },
+        {
+          "held_out": "UConn_ISU_cell_34",
+          "baseline_ape": 27.520097009230497,
+          "method_ape": 27.520097009230497,
+          "baseline_ae": 975.0370370370367,
+          "method_ae": 975.0370370370367
+        },
+        {
+          "held_out": "UConn_ISU_cell_35",
+          "baseline_ape": 46.414483762254875,
+          "method_ape": 46.414483762254875,
+          "baseline_ae": 1425.8529411764696,
+          "method_ae": 1425.8529411764696
+        },
+        {
+          "held_out": "UConn_ISU_cell_36",
+          "baseline_ape": 25.893347993402944,
+          "method_ape": 25.893347993402944,
+          "baseline_ae": 941.9999999999993,
+          "method_ae": 941.9999999999993
+        },
+        {
+          "held_out": "UConn_ISU_cell_37",
+          "baseline_ape": 46.587141577060926,
+          "method_ape": 46.587141577060926,
+          "baseline_ae": 1341.7096774193549,
+          "method_ae": 1341.7096774193549
+        },
+        {
+          "held_out": "UConn_ISU_cell_38",
+          "baseline_ape": 15.80452465683782,
+          "method_ape": 15.80452465683782,
+          "baseline_ae": 621.75,
+          "method_ae": 621.75
+        },
+        {
+          "held_out": "UConn_ISU_cell_39",
+          "baseline_ape": 26.997895721299965,
+          "method_ape": 26.997895721299965,
+          "baseline_ae": 1154.6999999999996,
+          "method_ae": 1154.6999999999996
+        },
+        {
+          "held_out": "UConn_ISU_cell_40",
+          "baseline_ape": 18.83109193944008,
+          "method_ape": 18.83109193944008,
+          "baseline_ae": 742.1333333333334,
+          "method_ae": 742.1333333333334
+        },
+        {
+          "held_out": "UConn_ISU_cell_41",
+          "baseline_ape": 23.239864864864867,
+          "method_ape": 23.239864864864867,
+          "baseline_ae": 859.8750000000003,
+          "method_ae": 859.8750000000003
+        },
+        {
+          "held_out": "UConn_ISU_cell_42",
+          "baseline_ape": 19.384939676446383,
+          "method_ape": 19.384939676446383,
+          "baseline_ae": 706.9687499999997,
+          "method_ae": 706.9687499999997
+        },
+        {
+          "held_out": "UConn_ISU_cell_43",
+          "baseline_ape": 24.1858489421093,
+          "method_ape": 24.1858489421093,
+          "baseline_ae": 943.9736842105261,
+          "method_ae": 943.9736842105261
+        },
+        {
+          "held_out": "UConn_ISU_cell_44",
+          "baseline_ape": 43.61798098926242,
+          "method_ape": 43.61798098926242,
+          "baseline_ae": 1524.8846153846146,
+          "method_ae": 1524.8846153846146
+        },
+        {
+          "held_out": "UConn_ISU_cell_45",
+          "baseline_ape": 24.53502379972969,
+          "method_ape": 24.53502379972969,
+          "baseline_ae": 982.3823529411769,
+          "method_ae": 982.3823529411769
+        },
+        {
+          "held_out": "UConn_ISU_cell_46",
+          "baseline_ape": 35.61795354433079,
+          "method_ape": 35.61795354433079,
+          "baseline_ae": 1265.8620689655163,
+          "method_ae": 1265.8620689655163
+        },
+        {
+          "held_out": "UConn_ISU_cell_47",
+          "baseline_ape": 26.58141559486848,
+          "method_ape": 26.58141559486848,
+          "baseline_ae": 1244.8076923076915,
+          "method_ae": 1244.8076923076915
+        },
+        {
+          "held_out": "UConn_ISU_cell_48",
+          "baseline_ape": 26.06718299711814,
+          "method_ape": 26.06718299711814,
+          "baseline_ae": 904.5312499999994,
+          "method_ae": 904.5312499999994
+        },
+        {
+          "held_out": "UConn_ISU_cell_49",
+          "baseline_ape": 22.413839255838855,
+          "method_ape": 22.413839255838855,
+          "baseline_ae": 985.0882352941177,
+          "method_ae": 985.0882352941177
+        },
+        {
+          "held_out": "UConn_ISU_cell_50",
+          "baseline_ape": 30.03395183576786,
+          "method_ape": 30.03395183576786,
+          "baseline_ae": 1118.7647058823525,
+          "method_ae": 1118.7647058823525
+        },
+        {
+          "held_out": "UConn_ISU_cell_51",
+          "baseline_ape": 20.022598486071345,
+          "method_ape": 20.022598486071345,
+          "baseline_ae": 760.2580645161293,
+          "method_ae": 760.2580645161293
+        },
+        {
+          "held_out": "UConn_ISU_cell_52",
+          "baseline_ape": 21.94224321853093,
+          "method_ape": 21.94224321853093,
+          "baseline_ae": 846.9705882352935,
+          "method_ae": 846.9705882352935
+        },
+        {
+          "held_out": "UConn_ISU_cell_53",
+          "baseline_ape": 20.115239845157603,
+          "method_ape": 20.115239845157603,
+          "baseline_ae": 777.6551724137928,
+          "method_ae": 777.6551724137928
+        },
+        {
+          "held_out": "UConn_ISU_cell_54",
+          "baseline_ape": 21.970352819671618,
+          "method_ape": 21.970352819671618,
+          "baseline_ae": 850.9117647058818,
+          "method_ae": 850.9117647058818
+        },
+        {
+          "held_out": "UConn_ISU_cell_55",
+          "baseline_ape": 26.4873692479431,
+          "method_ape": 26.4873692479431,
+          "baseline_ae": 1011.5526315789475,
+          "method_ae": 1011.5526315789475
+        },
+        {
+          "held_out": "UConn_ISU_cell_56",
+          "baseline_ape": 34.14569366597063,
+          "method_ape": 34.14569366597063,
+          "baseline_ae": 2071.2777777777774,
+          "method_ae": 2071.2777777777774
+        },
+        {
+          "held_out": "UConn_ISU_cell_57",
+          "baseline_ape": 35.56516753511747,
+          "method_ape": 35.56516753511747,
+          "baseline_ae": 2343.3888888888887,
+          "method_ae": 2343.3888888888887
+        },
+        {
+          "held_out": "UConn_ISU_cell_58",
+          "baseline_ape": 35.98801113251981,
+          "method_ape": 35.98801113251981,
+          "baseline_ae": 2365.8518518518513,
+          "method_ae": 2365.8518518518513
+        },
+        {
+          "held_out": "UConn_ISU_cell_59",
+          "baseline_ape": 29.736723580231743,
+          "method_ape": 29.736723580231743,
+          "baseline_ae": 1729.1904761904752,
+          "method_ae": 1729.1904761904752
+        },
+        {
+          "held_out": "UConn_ISU_cell_60",
+          "baseline_ape": 39.47089356477088,
+          "method_ape": 39.47089356477088,
+          "baseline_ae": 2767.304347826087,
+          "method_ae": 2767.304347826087
+        },
+        {
+          "held_out": "UConn_ISU_cell_61",
+          "baseline_ape": 37.75083831080375,
+          "method_ape": 37.75083831080375,
+          "baseline_ae": 2401.7083333333335,
+          "method_ae": 2401.7083333333335
+        },
+        {
+          "held_out": "UConn_ISU_cell_62",
+          "baseline_ape": 33.88864911523519,
+          "method_ape": 33.88864911523519,
+          "baseline_ae": 1009.5428571428563,
+          "method_ae": 1009.5428571428563
+        },
+        {
+          "held_out": "UConn_ISU_cell_63",
+          "baseline_ape": 41.747334455667755,
+          "method_ape": 41.747334455667755,
+          "baseline_ae": 1322.5555555555547,
+          "method_ae": 1322.5555555555547
+        },
+        {
+          "held_out": "UConn_ISU_cell_64",
+          "baseline_ape": 36.382731958762854,
+          "method_ape": 36.382731958762854,
+          "baseline_ae": 1129.319999999999,
+          "method_ae": 1129.319999999999
+        },
+        {
+          "held_out": "UConn_ISU_cell_65",
+          "baseline_ape": 43.312131268436566,
+          "method_ape": 43.312131268436566,
+          "baseline_ae": 1174.6249999999995,
+          "method_ae": 1174.6249999999995
+        }
+      ]
+    },
+    {
+      "horizon": 20,
+      "label_budget_k": 3,
+      "protocol_dispersion": 0.602637817413133,
+      "route_counts": {
+        "active_w0.5": 100
+      },
+      "baseline": {
+        "mae": 1308.143816278963,
+        "mape": 31.026808976806965,
+        "n_cells": 64
+      },
+      "method": {
+        "mae": 1208.440919344758,
+        "mape": 26.78389762741573,
+        "n_cells": 64
+      },
+      "relative_mape_reduction_percent": 13.674984599811342,
+      "paired_wilcoxon_p": 0.19914163952982888,
+      "improved_same_worse_cells": [
+        38,
+        0,
+        26
+      ],
+      "per_cell": [
+        {
+          "held_out": "UConn_ISU_cell_02",
+          "baseline_ape": 16.921009444264683,
+          "method_ape": 32.24012991117345,
+          "baseline_ae": 628.7847109488757,
+          "method_ae": 1198.0432274992056
+        },
+        {
+          "held_out": "UConn_ISU_cell_03",
+          "baseline_ape": 17.68355838519758,
+          "method_ape": 19.30759706458126,
+          "baseline_ae": 723.4343735384331,
+          "method_ae": 789.8737959120191
+        },
+        {
+          "held_out": "UConn_ISU_cell_04",
+          "baseline_ape": 21.225409921119834,
+          "method_ape": 27.57667173590145,
+          "baseline_ae": 806.7778311017646,
+          "method_ae": 1048.1892926816136
+        },
+        {
+          "held_out": "UConn_ISU_cell_05",
+          "baseline_ape": 45.13060022599252,
+          "method_ape": 57.881541004264975,
+          "baseline_ae": 1422.0652131210243,
+          "method_ae": 1823.84735704439
+        },
+        {
+          "held_out": "UConn_ISU_cell_06",
+          "baseline_ape": 26.086684178540757,
+          "method_ape": 27.490266861720862,
+          "baseline_ae": 1000.424338247038,
+          "method_ae": 1054.2517341469957
+        },
+        {
+          "held_out": "UConn_ISU_cell_07",
+          "baseline_ape": 16.595688956400604,
+          "method_ape": 9.317689154894586,
+          "baseline_ae": 730.5422278607546,
+          "method_ae": 410.16467659845955
+        },
+        {
+          "held_out": "UConn_ISU_cell_08",
+          "baseline_ape": 15.992823799618265,
+          "method_ape": 11.552670380776735,
+          "baseline_ae": 746.5450149661807,
+          "method_ae": 539.2786533746579
+        },
+        {
+          "held_out": "UConn_ISU_cell_09",
+          "baseline_ape": 27.03044255993291,
+          "method_ape": 22.364883486890125,
+          "baseline_ae": 1631.287208491951,
+          "method_ae": 1349.7207184338195
+        },
+        {
+          "held_out": "UConn_ISU_cell_10",
+          "baseline_ape": 16.811824118165188,
+          "method_ape": 23.737922194415432,
+          "baseline_ae": 679.3658126150549,
+          "method_ae": 959.2494358763278
+        },
+        {
+          "held_out": "UConn_ISU_cell_11",
+          "baseline_ape": 20.221562845056766,
+          "method_ape": 15.504119099073668,
+          "baseline_ae": 879.4357681315186,
+          "method_ae": 674.2741396187138
+        },
+        {
+          "held_out": "UConn_ISU_cell_12",
+          "baseline_ape": 20.541430611749714,
+          "method_ape": 15.903960804210291,
+          "baseline_ae": 1009.8167288736158,
+          "method_ae": 781.8387131349782
+        },
+        {
+          "held_out": "UConn_ISU_cell_13",
+          "baseline_ape": 21.740392781875517,
+          "method_ape": 8.685668210956857,
+          "baseline_ae": 1019.4070175421432,
+          "method_ae": 407.2709824117674
+        },
+        {
+          "held_out": "UConn_ISU_cell_14",
+          "baseline_ape": 67.13781874448317,
+          "method_ape": 4.236029705747474,
+          "baseline_ae": 1737.5267491072248,
+          "method_ae": 109.62844878474463
+        },
+        {
+          "held_out": "UConn_ISU_cell_15",
+          "baseline_ape": 53.66421561249144,
+          "method_ape": 0.9315609106757969,
+          "baseline_ae": 1408.6856598279007,
+          "method_ae": 24.45347390523966
+        },
+        {
+          "held_out": "UConn_ISU_cell_16",
+          "baseline_ape": 41.11724704598874,
+          "method_ape": 0.9272778915617489,
+          "baseline_ae": 1090.0182191891615,
+          "method_ae": 24.582136905301976
+        },
+        {
+          "held_out": "UConn_ISU_cell_17",
+          "baseline_ape": 46.43741670041249,
+          "method_ape": 1.7404586589866045,
+          "baseline_ae": 1249.1665092410963,
+          "method_ae": 46.818337926739666
+        },
+        {
+          "held_out": "UConn_ISU_cell_18",
+          "baseline_ape": 57.40671690922555,
+          "method_ape": 2.885355426043707,
+          "baseline_ae": 1559.740498423658,
+          "method_ae": 78.39510692560755
+        },
+        {
+          "held_out": "UConn_ISU_cell_19",
+          "baseline_ape": 69.09292176058429,
+          "method_ape": 1.2450203263604482,
+          "baseline_ae": 1799.8706118632201,
+          "method_ae": 32.43277950168967
+        },
+        {
+          "held_out": "UConn_ISU_cell_20",
+          "baseline_ape": 14.283915760454747,
+          "method_ape": 6.080143693350835,
+          "baseline_ae": 675.7720546271142,
+          "method_ae": 287.6515981324279
+        },
+        {
+          "held_out": "UConn_ISU_cell_21",
+          "baseline_ape": 23.965990486837256,
+          "method_ape": 10.782510035867418,
+          "baseline_ae": 1270.1974958023748,
+          "method_ae": 571.4730319009733
+        },
+        {
+          "held_out": "UConn_ISU_cell_22",
+          "baseline_ape": 17.62398194560169,
+          "method_ape": 6.288172876386131,
+          "baseline_ae": 865.689993167955,
+          "method_ae": 308.8750516880868
+        },
+        {
+          "held_out": "UConn_ISU_cell_23",
+          "baseline_ape": 14.77965124078925,
+          "method_ape": 17.709057711716845,
+          "baseline_ae": 615.2768811540567,
+          "method_ae": 737.228072538772
+        },
+        {
+          "held_out": "UConn_ISU_cell_24",
+          "baseline_ape": 18.7134757329707,
+          "method_ape": 14.951269789321746,
+          "baseline_ae": 790.6443497180121,
+          "method_ae": 631.6911485988435
+        },
+        {
+          "held_out": "UConn_ISU_cell_25",
+          "baseline_ape": 25.583947597250415,
+          "method_ape": 11.508177972827985,
+          "baseline_ae": 1372.578788592485,
+          "method_ae": 617.4137482422211
+        },
+        {
+          "held_out": "UConn_ISU_cell_26",
+          "baseline_ape": 33.77730284325483,
+          "method_ape": 27.072884730927044,
+          "baseline_ae": 2352.9269160611307,
+          "method_ae": 1885.8971503563782
+        },
+        {
+          "held_out": "UConn_ISU_cell_27",
+          "baseline_ape": 28.925252130064866,
+          "method_ape": 20.726063638640664,
+          "baseline_ae": 1810.4315308207595,
+          "method_ae": 1297.2443231425204
+        },
+        {
+          "held_out": "UConn_ISU_cell_28",
+          "baseline_ape": 30.418202582115534,
+          "method_ape": 23.305763841623644,
+          "baseline_ae": 1983.266808353932,
+          "method_ae": 1519.535802473861
+        },
+        {
+          "held_out": "UConn_ISU_cell_29",
+          "baseline_ape": 34.4290583648784,
+          "method_ape": 31.211563818608425,
+          "baseline_ae": 2500.5825090411176,
+          "method_ae": 2266.8958801455306
+        },
+        {
+          "held_out": "UConn_ISU_cell_30",
+          "baseline_ape": 34.07335011877149,
+          "method_ape": 24.73287646655837,
+          "baseline_ae": 2326.869079610906,
+          "method_ae": 1689.0081339012709
+        },
+        {
+          "held_out": "UConn_ISU_cell_31",
+          "baseline_ape": 47.062444723118986,
+          "method_ape": 41.13269824143649,
+          "baseline_ae": 3983.365321364792,
+          "method_ae": 3481.4715791551835
+        },
+        {
+          "held_out": "UConn_ISU_cell_32",
+          "baseline_ape": 31.81016405116909,
+          "method_ape": 29.850033699709723,
+          "baseline_ae": 1063.4137842305822,
+          "method_ae": 997.8866265812959
+        },
+        {
+          "held_out": "UConn_ISU_cell_33",
+          "baseline_ape": 25.805499948712228,
+          "method_ape": 31.574859594261557,
+          "baseline_ae": 898.8055632136465,
+          "method_ae": 1099.7523596681306
+        },
+        {
+          "held_out": "UConn_ISU_cell_34",
+          "baseline_ape": 33.99568250103192,
+          "method_ape": 32.45249741828841,
+          "baseline_ae": 1204.467031011561,
+          "method_ae": 1149.791983529959
+        },
+        {
+          "held_out": "UConn_ISU_cell_35",
+          "baseline_ape": 52.73911380450111,
+          "method_ape": 34.258097749777484,
+          "baseline_ae": 1620.1455760742747,
+          "method_ae": 1052.4087628731643
+        },
+        {
+          "held_out": "UConn_ISU_cell_36",
+          "baseline_ape": 23.877492036942304,
+          "method_ape": 21.705807589908932,
+          "baseline_ae": 868.6631603039609,
+          "method_ae": 789.6572801208869
+        },
+        {
+          "held_out": "UConn_ISU_cell_37",
+          "baseline_ape": 63.09647004670328,
+          "method_ape": 58.00087755314815,
+          "baseline_ae": 1817.1783373450542,
+          "method_ae": 1670.4252735306673
+        },
+        {
+          "held_out": "UConn_ISU_cell_38",
+          "baseline_ape": 13.715221127476696,
+          "method_ape": 25.18692163526138,
+          "baseline_ae": 539.5567991549334,
+          "method_ae": 990.8534971311825
+        },
+        {
+          "held_out": "UConn_ISU_cell_39",
+          "baseline_ape": 17.37844582487025,
+          "method_ape": 17.947119893540588,
+          "baseline_ae": 743.2761279297009,
+          "method_ae": 767.5983178467309
+        },
+        {
+          "held_out": "UConn_ISU_cell_40",
+          "baseline_ape": 16.738604928422365,
+          "method_ape": 24.749654883575236,
+          "baseline_ae": 659.6684202291253,
+          "method_ae": 975.3838989616999
+        },
+        {
+          "held_out": "UConn_ISU_cell_41",
+          "baseline_ape": 21.588367622611724,
+          "method_ape": 34.01360234439283,
+          "baseline_ae": 798.7696020366338,
+          "method_ae": 1258.5032867425348
+        },
+        {
+          "held_out": "UConn_ISU_cell_42",
+          "baseline_ape": 27.129928651067264,
+          "method_ape": 33.476231252112015,
+          "baseline_ae": 989.4284979044234,
+          "method_ae": 1220.8781537645248
+        },
+        {
+          "held_out": "UConn_ISU_cell_43",
+          "baseline_ape": 19.514981633220263,
+          "method_ape": 25.434705623620463,
+          "baseline_ae": 761.669733144587,
+          "method_ae": 992.7165604899069
+        },
+        {
+          "held_out": "UConn_ISU_cell_44",
+          "baseline_ape": 42.6646927612114,
+          "method_ape": 46.20804957223256,
+          "baseline_ae": 1491.55765893195,
+          "method_ae": 1615.4334130452498
+        },
+        {
+          "held_out": "UConn_ISU_cell_45",
+          "baseline_ape": 28.990534997189254,
+          "method_ape": 29.01507983000549,
+          "baseline_ae": 1160.781021287458,
+          "method_ae": 1161.7637963934203
+        },
+        {
+          "held_out": "UConn_ISU_cell_46",
+          "baseline_ape": 43.01410833558126,
+          "method_ape": 42.52124903592399,
+          "baseline_ae": 1528.7214102465578,
+          "method_ae": 1511.2051907367381
+        },
+        {
+          "held_out": "UConn_ISU_cell_47",
+          "baseline_ape": 25.12057963027843,
+          "method_ape": 6.821928786057116,
+          "baseline_ae": 1176.3967440859387,
+          "method_ae": 319.47092505105473
+        },
+        {
+          "held_out": "UConn_ISU_cell_48",
+          "baseline_ape": 50.44854201833877,
+          "method_ape": 48.597909022137976,
+          "baseline_ae": 1750.5644080363554,
+          "method_ae": 1686.3474430681883
+        },
+        {
+          "held_out": "UConn_ISU_cell_49",
+          "baseline_ape": 28.02406794558067,
+          "method_ape": 13.913709405018013,
+          "baseline_ae": 1231.6577862082706,
+          "method_ae": 611.5075283505415
+        },
+        {
+          "held_out": "UConn_ISU_cell_50",
+          "baseline_ape": 26.455669374779198,
+          "method_ape": 5.398092546803256,
+          "baseline_ae": 985.4736842105248,
+          "method_ae": 201.0789473684211
+        },
+        {
+          "held_out": "UConn_ISU_cell_51",
+          "baseline_ape": 28.18501936226453,
+          "method_ape": 4.24214048127664,
+          "baseline_ae": 1070.185185185184,
+          "method_ae": 161.07407407407402
+        },
+        {
+          "held_out": "UConn_ISU_cell_52",
+          "baseline_ape": 19.90053347862894,
+          "method_ape": 2.3259391191709953,
+          "baseline_ae": 768.1605922750771,
+          "method_ae": 89.78125000000044
+        },
+        {
+          "held_out": "UConn_ISU_cell_53",
+          "baseline_ape": 14.070313847215045,
+          "method_ape": 3.995300913950714,
+          "baseline_ae": 543.9583333333336,
+          "method_ae": 154.4583333333346
+        },
+        {
+          "held_out": "UConn_ISU_cell_54",
+          "baseline_ape": 16.466183684937945,
+          "method_ape": 2.3845324341975327,
+          "baseline_ae": 637.7352941176467,
+          "method_ae": 92.35294117647044
+        },
+        {
+          "held_out": "UConn_ISU_cell_55",
+          "baseline_ape": 18.90353301717531,
+          "method_ape": 3.5795680467060516,
+          "baseline_ae": 721.9259259259248,
+          "method_ae": 136.70370370370404
+        },
+        {
+          "held_out": "UConn_ISU_cell_56",
+          "baseline_ape": 35.08360002801421,
+          "method_ape": 53.58796533646462,
+          "baseline_ae": 2128.171177699342,
+          "method_ae": 3250.6459773099446
+        },
+        {
+          "held_out": "UConn_ISU_cell_57",
+          "baseline_ape": 32.953945210444076,
+          "method_ape": 57.635034067783195,
+          "baseline_ae": 2171.3354499161596,
+          "method_ae": 3797.572394726237
+        },
+        {
+          "held_out": "UConn_ISU_cell_58",
+          "baseline_ape": 35.05977088445562,
+          "method_ape": 57.34147715576713,
+          "baseline_ae": 2304.829337944112,
+          "method_ae": 3769.628708220133
+        },
+        {
+          "held_out": "UConn_ISU_cell_59",
+          "baseline_ape": 26.19739961070314,
+          "method_ape": 51.89765296372649,
+          "baseline_ae": 1523.378787362388,
+          "method_ae": 3017.8485198406966
+        },
+        {
+          "held_out": "UConn_ISU_cell_60",
+          "baseline_ape": 41.00569017468038,
+          "method_ape": 60.99900805631249,
+          "baseline_ae": 2874.9089381468407,
+          "method_ae": 4276.640454828068
+        },
+        {
+          "held_out": "UConn_ISU_cell_61",
+          "baseline_ape": 31.91217662098029,
+          "method_ape": 56.38222443382226,
+          "baseline_ae": 2030.2526766267658,
+          "method_ae": 3587.0371184797723
+        },
+        {
+          "held_out": "UConn_ISU_cell_62",
+          "baseline_ape": 33.991781659378255,
+          "method_ape": 69.06741510219875,
+          "baseline_ae": 1012.615175632878,
+          "method_ae": 2057.518295894501
+        },
+        {
+          "held_out": "UConn_ISU_cell_63",
+          "baseline_ape": 30.981897857424322,
+          "method_ape": 61.360875523031666,
+          "baseline_ae": 981.5065241232029,
+          "method_ae": 1943.9125365696432
+        },
+        {
+          "held_out": "UConn_ISU_cell_64",
+          "baseline_ape": 40.72455752356765,
+          "method_ape": 60.96997170197078,
+          "baseline_ae": 1264.0902655315397,
+          "method_ae": 1892.5079216291729
+        },
+        {
+          "held_out": "UConn_ISU_cell_65",
+          "baseline_ape": 63.69686618888047,
+          "method_ape": 88.24390973695115,
+          "baseline_ae": 1727.4590110424379,
+          "method_ae": 2393.174832066118
+        }
+      ]
+    },
+    {
+      "horizon": 20,
+      "label_budget_k": 5,
+      "protocol_dispersion": 0.602637817413133,
+      "route_counts": {
+        "fallback_stability_or_coverage": 100
+      },
+      "baseline": {
+        "mae": 1290.157713570556,
+        "mape": 30.73445188239417,
+        "n_cells": 64
+      },
+      "method": {
+        "mae": 1290.157713570556,
+        "mape": 30.73445188239417,
+        "n_cells": 64
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        64,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "UConn_ISU_cell_02",
+          "baseline_ape": 22.1671054545535,
+          "method_ape": 22.1671054545535,
+          "baseline_ae": 823.7296386912079,
+          "method_ae": 823.7296386912079
+        },
+        {
+          "held_out": "UConn_ISU_cell_03",
+          "baseline_ape": 23.95135016146866,
+          "method_ape": 23.95135016146866,
+          "baseline_ae": 979.8497351056828,
+          "method_ae": 979.8497351056828
+        },
+        {
+          "held_out": "UConn_ISU_cell_04",
+          "baseline_ape": 20.47502492652274,
+          "method_ape": 20.47502492652274,
+          "baseline_ae": 778.2556974571294,
+          "method_ae": 778.2556974571294
+        },
+        {
+          "held_out": "UConn_ISU_cell_05",
+          "baseline_ape": 46.43253162770098,
+          "method_ape": 46.43253162770098,
+          "baseline_ae": 1463.0890715888581,
+          "method_ae": 1463.0890715888581
+        },
+        {
+          "held_out": "UConn_ISU_cell_06",
+          "baseline_ape": 26.298089141385837,
+          "method_ape": 26.298089141385837,
+          "baseline_ae": 1008.5317185721469,
+          "method_ae": 1008.5317185721469
+        },
+        {
+          "held_out": "UConn_ISU_cell_07",
+          "baseline_ape": 15.663830794667021,
+          "method_ape": 15.663830794667021,
+          "baseline_ae": 689.5218315812423,
+          "method_ae": 689.5218315812423
+        },
+        {
+          "held_out": "UConn_ISU_cell_08",
+          "baseline_ape": 21.283771631751048,
+          "method_ape": 21.283771631751048,
+          "baseline_ae": 993.5264597701394,
+          "method_ae": 993.5264597701394
+        },
+        {
+          "held_out": "UConn_ISU_cell_09",
+          "baseline_ape": 29.58037434937217,
+          "method_ape": 29.58037434937217,
+          "baseline_ae": 1785.175591984611,
+          "method_ae": 1785.175591984611
+        },
+        {
+          "held_out": "UConn_ISU_cell_10",
+          "baseline_ape": 25.719667731291786,
+          "method_ape": 25.719667731291786,
+          "baseline_ae": 1039.3317730215015,
+          "method_ae": 1039.3317730215015
+        },
+        {
+          "held_out": "UConn_ISU_cell_11",
+          "baseline_ape": 24.477194452757892,
+          "method_ape": 24.477194452757892,
+          "baseline_ae": 1064.5131867504408,
+          "method_ae": 1064.5131867504408
+        },
+        {
+          "held_out": "UConn_ISU_cell_12",
+          "baseline_ape": 17.838132268687218,
+          "method_ape": 17.838132268687218,
+          "baseline_ae": 876.9225823286637,
+          "method_ae": 876.9225823286637
+        },
+        {
+          "held_out": "UConn_ISU_cell_13",
+          "baseline_ape": 20.170453584155652,
+          "method_ape": 20.170453584155652,
+          "baseline_ae": 945.7925685610585,
+          "method_ae": 945.7925685610585
+        },
+        {
+          "held_out": "UConn_ISU_cell_14",
+          "baseline_ape": 67.68737274558417,
+          "method_ape": 67.68737274558417,
+          "baseline_ae": 1751.7492066557184,
+          "method_ae": 1751.7492066557184
+        },
+        {
+          "held_out": "UConn_ISU_cell_15",
+          "baseline_ape": 58.40324289423044,
+          "method_ape": 58.40324289423044,
+          "baseline_ae": 1533.085125973549,
+          "method_ae": 1533.085125973549
+        },
+        {
+          "held_out": "UConn_ISU_cell_16",
+          "baseline_ape": 43.191703549122565,
+          "method_ape": 43.191703549122565,
+          "baseline_ae": 1145.012061087239,
+          "method_ae": 1145.012061087239
+        },
+        {
+          "held_out": "UConn_ISU_cell_17",
+          "baseline_ape": 63.011599866550334,
+          "method_ape": 63.011599866550334,
+          "baseline_ae": 1695.012036410204,
+          "method_ae": 1695.012036410204
+        },
+        {
+          "held_out": "UConn_ISU_cell_18",
+          "baseline_ape": 57.36955308217383,
+          "method_ape": 57.36955308217383,
+          "baseline_ae": 1558.7307572426635,
+          "method_ae": 1558.7307572426635
+        },
+        {
+          "held_out": "UConn_ISU_cell_19",
+          "baseline_ape": 59.371970413565734,
+          "method_ape": 59.371970413565734,
+          "baseline_ae": 1546.6398292733875,
+          "method_ae": 1546.6398292733875
+        },
+        {
+          "held_out": "UConn_ISU_cell_20",
+          "baseline_ape": 17.537125996042025,
+          "method_ape": 17.537125996042025,
+          "baseline_ae": 829.6814308727483,
+          "method_ae": 829.6814308727483
+        },
+        {
+          "held_out": "UConn_ISU_cell_21",
+          "baseline_ape": 24.693557938810873,
+          "method_ape": 24.693557938810873,
+          "baseline_ae": 1308.7585707569765,
+          "method_ae": 1308.7585707569765
+        },
+        {
+          "held_out": "UConn_ISU_cell_22",
+          "baseline_ape": 18.19822691189572,
+          "method_ape": 18.19822691189572,
+          "baseline_ae": 893.896905912318,
+          "method_ae": 893.896905912318
+        },
+        {
+          "held_out": "UConn_ISU_cell_23",
+          "baseline_ape": 15.909538381599695,
+          "method_ape": 15.909538381599695,
+          "baseline_ae": 662.3140828259953,
+          "method_ae": 662.3140828259953
+        },
+        {
+          "held_out": "UConn_ISU_cell_24",
+          "baseline_ape": 12.490126773424167,
+          "method_ape": 12.490126773424167,
+          "baseline_ae": 527.707856177171,
+          "method_ae": 527.707856177171
+        },
+        {
+          "held_out": "UConn_ISU_cell_25",
+          "baseline_ape": 26.091700796815697,
+          "method_ape": 26.091700796815697,
+          "baseline_ae": 1399.8197477491626,
+          "method_ae": 1399.8197477491626
+        },
+        {
+          "held_out": "UConn_ISU_cell_26",
+          "baseline_ape": 30.262686597337677,
+          "method_ape": 30.262686597337677,
+          "baseline_ae": 2108.098748370542,
+          "method_ae": 2108.098748370542
+        },
+        {
+          "held_out": "UConn_ISU_cell_27",
+          "baseline_ape": 24.642870387618228,
+          "method_ape": 24.642870387618228,
+          "baseline_ae": 1542.3972575610248,
+          "method_ae": 1542.3972575610248
+        },
+        {
+          "held_out": "UConn_ISU_cell_28",
+          "baseline_ape": 26.091918338640003,
+          "method_ape": 26.091918338640003,
+          "baseline_ae": 1701.193075679328,
+          "method_ae": 1701.193075679328
+        },
+        {
+          "held_out": "UConn_ISU_cell_29",
+          "baseline_ape": 38.94187892816954,
+          "method_ape": 38.94187892816954,
+          "baseline_ae": 2828.348666552954,
+          "method_ae": 2828.348666552954
+        },
+        {
+          "held_out": "UConn_ISU_cell_30",
+          "baseline_ape": 31.805115139798808,
+          "method_ape": 31.805115139798808,
+          "baseline_ae": 2171.9713128968606,
+          "method_ae": 2171.9713128968606
+        },
+        {
+          "held_out": "UConn_ISU_cell_31",
+          "baseline_ape": 44.4733633616748,
+          "method_ape": 44.4733633616748,
+          "baseline_ae": 3764.225474932155,
+          "method_ae": 3764.225474932155
+        },
+        {
+          "held_out": "UConn_ISU_cell_32",
+          "baseline_ape": 39.22997700567626,
+          "method_ape": 39.22997700567626,
+          "baseline_ae": 1311.4581312997582,
+          "method_ae": 1311.4581312997582
+        },
+        {
+          "held_out": "UConn_ISU_cell_33",
+          "baseline_ape": 28.986459695575448,
+          "method_ape": 28.986459695575448,
+          "baseline_ae": 1009.598391196893,
+          "method_ae": 1009.598391196893
+        },
+        {
+          "held_out": "UConn_ISU_cell_34",
+          "baseline_ape": 28.30935318610257,
+          "method_ape": 28.30935318610257,
+          "baseline_ae": 1003.000383383614,
+          "method_ae": 1003.000383383614
+        },
+        {
+          "held_out": "UConn_ISU_cell_35",
+          "baseline_ape": 53.90567191346006,
+          "method_ape": 53.90567191346006,
+          "baseline_ae": 1655.9822411814932,
+          "method_ae": 1655.9822411814932
+        },
+        {
+          "held_out": "UConn_ISU_cell_36",
+          "baseline_ape": 30.20138355306042,
+          "method_ape": 30.20138355306042,
+          "baseline_ae": 1098.726333660338,
+          "method_ae": 1098.726333660338
+        },
+        {
+          "held_out": "UConn_ISU_cell_37",
+          "baseline_ape": 53.261125829526684,
+          "method_ape": 53.261125829526684,
+          "baseline_ae": 1533.9204238903683,
+          "method_ae": 1533.9204238903683
+        },
+        {
+          "held_out": "UConn_ISU_cell_38",
+          "baseline_ape": 14.789049754684129,
+          "method_ape": 14.789049754684129,
+          "baseline_ae": 581.8012173492738,
+          "method_ae": 581.8012173492738
+        },
+        {
+          "held_out": "UConn_ISU_cell_39",
+          "baseline_ape": 13.720986578051132,
+          "method_ape": 13.720986578051132,
+          "baseline_ae": 586.846595943247,
+          "method_ae": 586.846595943247
+        },
+        {
+          "held_out": "UConn_ISU_cell_40",
+          "baseline_ape": 15.767326360774787,
+          "method_ape": 15.767326360774787,
+          "baseline_ae": 621.3903318781342,
+          "method_ae": 621.3903318781342
+        },
+        {
+          "held_out": "UConn_ISU_cell_41",
+          "baseline_ape": 20.636768248267423,
+          "method_ape": 20.636768248267423,
+          "baseline_ae": 763.5604251858944,
+          "method_ae": 763.5604251858944
+        },
+        {
+          "held_out": "UConn_ISU_cell_42",
+          "baseline_ape": 18.919848453520192,
+          "method_ape": 18.919848453520192,
+          "baseline_ae": 690.0068730998811,
+          "method_ae": 690.0068730998811
+        },
+        {
+          "held_out": "UConn_ISU_cell_43",
+          "baseline_ape": 13.250000603364533,
+          "method_ape": 13.250000603364533,
+          "baseline_ae": 517.1475235493176,
+          "method_ae": 517.1475235493176
+        },
+        {
+          "held_out": "UConn_ISU_cell_44",
+          "baseline_ape": 32.155152644005945,
+          "method_ape": 32.155152644005945,
+          "baseline_ae": 1124.1441364344485,
+          "method_ae": 1124.1441364344485
+        },
+        {
+          "held_out": "UConn_ISU_cell_45",
+          "baseline_ape": 31.081571864729753,
+          "method_ape": 31.081571864729753,
+          "baseline_ae": 1244.506137463779,
+          "method_ae": 1244.506137463779
+        },
+        {
+          "held_out": "UConn_ISU_cell_46",
+          "baseline_ape": 38.96800568440414,
+          "method_ape": 38.96800568440414,
+          "baseline_ae": 1384.9229220237235,
+          "method_ae": 1384.9229220237235
+        },
+        {
+          "held_out": "UConn_ISU_cell_47",
+          "baseline_ape": 23.479683625628198,
+          "method_ape": 23.479683625628198,
+          "baseline_ae": 1099.5535841881685,
+          "method_ae": 1099.5535841881685
+        },
+        {
+          "held_out": "UConn_ISU_cell_48",
+          "baseline_ape": 41.890883098205364,
+          "method_ape": 41.890883098205364,
+          "baseline_ae": 1453.6136435077267,
+          "method_ae": 1453.6136435077267
+        },
+        {
+          "held_out": "UConn_ISU_cell_49",
+          "baseline_ape": 23.565822687324125,
+          "method_ape": 23.565822687324125,
+          "baseline_ae": 1035.7179071078954,
+          "method_ae": 1035.7179071078954
+        },
+        {
+          "held_out": "UConn_ISU_cell_50",
+          "baseline_ape": 26.228425274728604,
+          "method_ape": 26.228425274728604,
+          "baseline_ae": 977.0088414836405,
+          "method_ae": 977.0088414836405
+        },
+        {
+          "held_out": "UConn_ISU_cell_51",
+          "baseline_ape": 26.365751760178625,
+          "method_ape": 26.365751760178625,
+          "baseline_ae": 1001.1075943339822,
+          "method_ae": 1001.1075943339822
+        },
+        {
+          "held_out": "UConn_ISU_cell_52",
+          "baseline_ape": 19.942508475827744,
+          "method_ape": 19.942508475827744,
+          "baseline_ae": 769.7808271669508,
+          "method_ae": 769.7808271669508
+        },
+        {
+          "held_out": "UConn_ISU_cell_53",
+          "baseline_ape": 26.09824631622506,
+          "method_ape": 26.09824631622506,
+          "baseline_ae": 1008.9582025852608,
+          "method_ae": 1008.9582025852608
+        },
+        {
+          "held_out": "UConn_ISU_cell_54",
+          "baseline_ape": 20.352510644424758,
+          "method_ape": 20.352510644424758,
+          "baseline_ae": 788.2527372585711,
+          "method_ae": 788.2527372585711
+        },
+        {
+          "held_out": "UConn_ISU_cell_55",
+          "baseline_ape": 15.375551392833396,
+          "method_ape": 15.375551392833396,
+          "baseline_ae": 587.1923076923073,
+          "method_ae": 587.1923076923073
+        },
+        {
+          "held_out": "UConn_ISU_cell_56",
+          "baseline_ape": 32.10018147023525,
+          "method_ape": 32.10018147023525,
+          "baseline_ae": 1947.1970079844705,
+          "method_ae": 1947.1970079844705
+        },
+        {
+          "held_out": "UConn_ISU_cell_57",
+          "baseline_ape": 31.663802714143486,
+          "method_ape": 31.663802714143486,
+          "baseline_ae": 2086.327960834915,
+          "method_ae": 2086.327960834915
+        },
+        {
+          "held_out": "UConn_ISU_cell_58",
+          "baseline_ape": 29.0620249064936,
+          "method_ape": 29.0620249064936,
+          "baseline_ae": 1910.5375173528896,
+          "method_ae": 1910.5375173528896
+        },
+        {
+          "held_out": "UConn_ISU_cell_59",
+          "baseline_ape": 27.364957958470438,
+          "method_ape": 27.364957958470438,
+          "baseline_ae": 1591.2723052850556,
+          "method_ae": 1591.2723052850556
+        },
+        {
+          "held_out": "UConn_ISU_cell_60",
+          "baseline_ape": 39.267617720863896,
+          "method_ape": 39.267617720863896,
+          "baseline_ae": 2753.0526784097674,
+          "method_ae": 2753.0526784097674
+        },
+        {
+          "held_out": "UConn_ISU_cell_61",
+          "baseline_ape": 34.79561866033757,
+          "method_ape": 34.79561866033757,
+          "baseline_ae": 2213.697259170676,
+          "method_ae": 2213.697259170676
+        },
+        {
+          "held_out": "UConn_ISU_cell_62",
+          "baseline_ape": 40.96062351800367,
+          "method_ape": 40.96062351800367,
+          "baseline_ae": 1220.2169746013299,
+          "method_ae": 1220.2169746013299
+        },
+        {
+          "held_out": "UConn_ISU_cell_63",
+          "baseline_ape": 33.04741762498585,
+          "method_ape": 33.04741762498585,
+          "baseline_ae": 1046.942190359552,
+          "method_ae": 1046.942190359552
+        },
+        {
+          "held_out": "UConn_ISU_cell_64",
+          "baseline_ape": 37.85947034690626,
+          "method_ape": 37.85947034690626,
+          "baseline_ae": 1175.1579595679696,
+          "method_ae": 1175.1579595679696
+        },
+        {
+          "held_out": "UConn_ISU_cell_65",
+          "baseline_ape": 50.17006267483873,
+          "method_ape": 50.17006267483873,
+          "baseline_ae": 1360.6120997416263,
+          "method_ae": 1360.6120997416263
+        }
+      ]
+    },
+    {
+      "horizon": 20,
+      "label_budget_k": 10,
+      "protocol_dispersion": 0.602637817413133,
+      "route_counts": {
+        "fallback_stability_or_coverage": 100
+      },
+      "baseline": {
+        "mae": 1030.5015530894364,
+        "mape": 24.17452174568117,
+        "n_cells": 64
+      },
+      "method": {
+        "mae": 1030.5015530894364,
+        "mape": 24.17452174568117,
+        "n_cells": 64
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        64,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "UConn_ISU_cell_02",
+          "baseline_ape": 23.12529272182124,
+          "method_ape": 23.12529272182124,
+          "baseline_ae": 859.3358775428777,
+          "method_ae": 859.3358775428777
+        },
+        {
+          "held_out": "UConn_ISU_cell_03",
+          "baseline_ape": 13.92294252535128,
+          "method_ape": 13.92294252535128,
+          "baseline_ae": 569.5875787121211,
+          "method_ae": 569.5875787121211
+        },
+        {
+          "held_out": "UConn_ISU_cell_04",
+          "baseline_ape": 19.12106701706667,
+          "method_ape": 19.12106701706667,
+          "baseline_ae": 726.7917573187041,
+          "method_ae": 726.7917573187041
+        },
+        {
+          "held_out": "UConn_ISU_cell_05",
+          "baseline_ape": 41.591926806644665,
+          "method_ape": 41.591926806644665,
+          "baseline_ae": 1310.5616136773726,
+          "method_ae": 1310.5616136773726
+        },
+        {
+          "held_out": "UConn_ISU_cell_06",
+          "baseline_ape": 20.530224763933553,
+          "method_ape": 20.530224763933553,
+          "baseline_ae": 787.3341196968518,
+          "method_ae": 787.3341196968518
+        },
+        {
+          "held_out": "UConn_ISU_cell_07",
+          "baseline_ape": 9.305530478497518,
+          "method_ape": 9.305530478497518,
+          "baseline_ae": 409.62945166346043,
+          "method_ae": 409.62945166346043
+        },
+        {
+          "held_out": "UConn_ISU_cell_08",
+          "baseline_ape": 14.217578594773666,
+          "method_ape": 14.217578594773666,
+          "baseline_ae": 663.6765688040347,
+          "method_ae": 663.6765688040347
+        },
+        {
+          "held_out": "UConn_ISU_cell_09",
+          "baseline_ape": 21.177938620284362,
+          "method_ape": 21.177938620284362,
+          "baseline_ae": 1278.0885957341613,
+          "method_ae": 1278.0885957341613
+        },
+        {
+          "held_out": "UConn_ISU_cell_10",
+          "baseline_ape": 24.54824224193211,
+          "method_ape": 24.54824224193211,
+          "baseline_ae": 991.9944689964765,
+          "method_ae": 991.9944689964765
+        },
+        {
+          "held_out": "UConn_ISU_cell_11",
+          "baseline_ape": 15.952817636293691,
+          "method_ape": 15.952817636293691,
+          "baseline_ae": 693.7880390024127,
+          "method_ae": 693.7880390024127
+        },
+        {
+          "held_out": "UConn_ISU_cell_12",
+          "baseline_ape": 11.463158255588409,
+          "method_ape": 11.463158255588409,
+          "baseline_ae": 563.5288598447264,
+          "method_ae": 563.5288598447264
+        },
+        {
+          "held_out": "UConn_ISU_cell_13",
+          "baseline_ape": 13.047177864024109,
+          "method_ape": 13.047177864024109,
+          "baseline_ae": 611.7821700440904,
+          "method_ae": 611.7821700440904
+        },
+        {
+          "held_out": "UConn_ISU_cell_14",
+          "baseline_ape": 63.437410087573554,
+          "method_ape": 63.437410087573554,
+          "baseline_ae": 1641.7601730664037,
+          "method_ae": 1641.7601730664037
+        },
+        {
+          "held_out": "UConn_ISU_cell_15",
+          "baseline_ape": 35.83303397187654,
+          "method_ape": 35.83303397187654,
+          "baseline_ae": 940.6171417617592,
+          "method_ae": 940.6171417617592
+        },
+        {
+          "held_out": "UConn_ISU_cell_16",
+          "baseline_ape": 54.606461683270744,
+          "method_ape": 54.606461683270744,
+          "baseline_ae": 1447.6172992235072,
+          "method_ae": 1447.6172992235072
+        },
+        {
+          "held_out": "UConn_ISU_cell_17",
+          "baseline_ape": 28.387189682739333,
+          "method_ape": 28.387189682739333,
+          "baseline_ae": 763.6154024656881,
+          "method_ae": 763.6154024656881
+        },
+        {
+          "held_out": "UConn_ISU_cell_18",
+          "baseline_ape": 46.252250238013566,
+          "method_ape": 46.252250238013566,
+          "baseline_ae": 1256.673638966828,
+          "method_ae": 1256.673638966828
+        },
+        {
+          "held_out": "UConn_ISU_cell_19",
+          "baseline_ape": 51.93513520202525,
+          "method_ape": 51.93513520202525,
+          "baseline_ae": 1352.9102720127576,
+          "method_ae": 1352.9102720127576
+        },
+        {
+          "held_out": "UConn_ISU_cell_20",
+          "baseline_ape": 12.384424112002032,
+          "method_ape": 12.384424112002032,
+          "baseline_ae": 585.9071047388161,
+          "method_ae": 585.9071047388161
+        },
+        {
+          "held_out": "UConn_ISU_cell_21",
+          "baseline_ape": 19.869187696449536,
+          "method_ape": 19.869187696449536,
+          "baseline_ae": 1053.0669479118255,
+          "method_ae": 1053.0669479118255
+        },
+        {
+          "held_out": "UConn_ISU_cell_22",
+          "baseline_ape": 12.906206653241595,
+          "method_ape": 12.906206653241595,
+          "baseline_ae": 633.9528708072271,
+          "method_ae": 633.9528708072271
+        },
+        {
+          "held_out": "UConn_ISU_cell_23",
+          "baseline_ape": 11.166764793882537,
+          "method_ape": 11.166764793882537,
+          "baseline_ae": 464.87241836933,
+          "method_ae": 464.87241836933
+        },
+        {
+          "held_out": "UConn_ISU_cell_24",
+          "baseline_ape": 8.716763868001431,
+          "method_ape": 8.716763868001431,
+          "baseline_ae": 368.28327342306056,
+          "method_ae": 368.28327342306056
+        },
+        {
+          "held_out": "UConn_ISU_cell_25",
+          "baseline_ape": 22.96125715071008,
+          "method_ape": 22.96125715071008,
+          "baseline_ae": 1231.8714461355953,
+          "method_ae": 1231.8714461355953
+        },
+        {
+          "held_out": "UConn_ISU_cell_26",
+          "baseline_ape": 30.291788825192192,
+          "method_ape": 30.291788825192192,
+          "baseline_ae": 2110.1260095628877,
+          "method_ae": 2110.1260095628877
+        },
+        {
+          "held_out": "UConn_ISU_cell_27",
+          "baseline_ape": 19.875585379855913,
+          "method_ape": 19.875585379855913,
+          "baseline_ae": 1244.0128889251819,
+          "method_ae": 1244.0128889251819
+        },
+        {
+          "held_out": "UConn_ISU_cell_28",
+          "baseline_ape": 22.7577388186879,
+          "method_ape": 22.7577388186879,
+          "baseline_ae": 1483.804570978451,
+          "method_ae": 1483.804570978451
+        },
+        {
+          "held_out": "UConn_ISU_cell_29",
+          "baseline_ape": 36.64484128956041,
+          "method_ape": 36.64484128956041,
+          "baseline_ae": 2661.5148228607727,
+          "method_ae": 2661.5148228607727
+        },
+        {
+          "held_out": "UConn_ISU_cell_30",
+          "baseline_ape": 30.12140250132294,
+          "method_ape": 30.12140250132294,
+          "baseline_ae": 2056.9905768153435,
+          "method_ae": 2056.9905768153435
+        },
+        {
+          "held_out": "UConn_ISU_cell_31",
+          "baseline_ape": 47.49317053782154,
+          "method_ape": 47.49317053782154,
+          "baseline_ae": 4019.8219543212135,
+          "method_ae": 4019.8219543212135
+        },
+        {
+          "held_out": "UConn_ISU_cell_32",
+          "baseline_ape": 17.097209664596157,
+          "method_ape": 17.097209664596157,
+          "baseline_ae": 571.5597190874495,
+          "method_ae": 571.5597190874495
+        },
+        {
+          "held_out": "UConn_ISU_cell_33",
+          "baseline_ape": 18.646035225038975,
+          "method_ape": 18.646035225038975,
+          "baseline_ae": 649.4414068881075,
+          "method_ae": 649.4414068881075
+        },
+        {
+          "held_out": "UConn_ISU_cell_34",
+          "baseline_ape": 27.91662011549823,
+          "method_ape": 27.91662011549823,
+          "baseline_ae": 989.085850692102,
+          "method_ae": 989.085850692102
+        },
+        {
+          "held_out": "UConn_ISU_cell_35",
+          "baseline_ape": 35.23795492775683,
+          "method_ape": 35.23795492775683,
+          "baseline_ae": 1082.50997538069,
+          "method_ae": 1082.50997538069
+        },
+        {
+          "held_out": "UConn_ISU_cell_36",
+          "baseline_ape": 21.729309243587462,
+          "method_ape": 21.729309243587462,
+          "baseline_ae": 790.5122702817118,
+          "method_ae": 790.5122702817118
+        },
+        {
+          "held_out": "UConn_ISU_cell_37",
+          "baseline_ape": 59.727651065965055,
+          "method_ape": 59.727651065965055,
+          "baseline_ae": 1720.1563506997938,
+          "method_ae": 1720.1563506997938
+        },
+        {
+          "held_out": "UConn_ISU_cell_38",
+          "baseline_ape": 7.822338565593317,
+          "method_ape": 7.822338565593317,
+          "baseline_ae": 307.7307991704412,
+          "method_ae": 307.7307991704412
+        },
+        {
+          "held_out": "UConn_ISU_cell_39",
+          "baseline_ape": 9.492944070385194,
+          "method_ape": 9.492944070385194,
+          "baseline_ae": 406.01321789037485,
+          "method_ae": 406.01321789037485
+        },
+        {
+          "held_out": "UConn_ISU_cell_40",
+          "baseline_ape": 8.43548804223789,
+          "method_ape": 8.43548804223789,
+          "baseline_ae": 332.4425837445953,
+          "method_ae": 332.4425837445953
+        },
+        {
+          "held_out": "UConn_ISU_cell_41",
+          "baseline_ape": 10.07413626038218,
+          "method_ape": 10.07413626038218,
+          "baseline_ae": 372.74304163414064,
+          "method_ae": 372.74304163414064
+        },
+        {
+          "held_out": "UConn_ISU_cell_42",
+          "baseline_ape": 14.460515744929275,
+          "method_ape": 14.460515744929275,
+          "baseline_ae": 527.3750092175706,
+          "method_ae": 527.3750092175706
+        },
+        {
+          "held_out": "UConn_ISU_cell_43",
+          "baseline_ape": 9.401535332444196,
+          "method_ape": 9.401535332444196,
+          "baseline_ae": 366.94192402529694,
+          "method_ae": 366.94192402529694
+        },
+        {
+          "held_out": "UConn_ISU_cell_44",
+          "baseline_ape": 45.88210500427839,
+          "method_ape": 45.88210500427839,
+          "baseline_ae": 1604.0383909495727,
+          "method_ae": 1604.0383909495727
+        },
+        {
+          "held_out": "UConn_ISU_cell_45",
+          "baseline_ape": 25.593120789568694,
+          "method_ape": 25.593120789568694,
+          "baseline_ae": 1024.7485564143303,
+          "method_ae": 1024.7485564143303
+        },
+        {
+          "held_out": "UConn_ISU_cell_46",
+          "baseline_ape": 34.204594449674914,
+          "method_ape": 34.204594449674914,
+          "baseline_ae": 1215.6312867414465,
+          "method_ae": 1215.6312867414465
+        },
+        {
+          "held_out": "UConn_ISU_cell_47",
+          "baseline_ape": 16.03196530476642,
+          "method_ape": 16.03196530476642,
+          "baseline_ae": 750.7769352222114,
+          "method_ae": 750.7769352222114
+        },
+        {
+          "held_out": "UConn_ISU_cell_48",
+          "baseline_ape": 38.30576325927068,
+          "method_ape": 38.30576325927068,
+          "baseline_ae": 1329.2099850966927,
+          "method_ae": 1329.2099850966927
+        },
+        {
+          "held_out": "UConn_ISU_cell_49",
+          "baseline_ape": 23.235239058668945,
+          "method_ape": 23.235239058668945,
+          "baseline_ae": 1021.1887566285004,
+          "method_ae": 1021.1887566285004
+        },
+        {
+          "held_out": "UConn_ISU_cell_50",
+          "baseline_ape": 13.853804960020893,
+          "method_ape": 13.853804960020893,
+          "baseline_ae": 516.0542347607785,
+          "method_ae": 516.0542347607785
+        },
+        {
+          "held_out": "UConn_ISU_cell_51",
+          "baseline_ape": 8.91688736468134,
+          "method_ape": 8.91688736468134,
+          "baseline_ae": 338.57421323695036,
+          "method_ae": 338.57421323695036
+        },
+        {
+          "held_out": "UConn_ISU_cell_52",
+          "baseline_ape": 8.017220417478825,
+          "method_ape": 8.017220417478825,
+          "baseline_ae": 309.46470811468294,
+          "method_ae": 309.46470811468294
+        },
+        {
+          "held_out": "UConn_ISU_cell_53",
+          "baseline_ape": 11.93430066404618,
+          "method_ape": 11.93430066404618,
+          "baseline_ae": 461.38006367202513,
+          "method_ae": 461.38006367202513
+        },
+        {
+          "held_out": "UConn_ISU_cell_54",
+          "baseline_ape": 11.552024578679928,
+          "method_ape": 11.552024578679928,
+          "baseline_ae": 447.40991193227353,
+          "method_ae": 447.40991193227353
+        },
+        {
+          "held_out": "UConn_ISU_cell_55",
+          "baseline_ape": 17.078872959494213,
+          "method_ape": 17.078872959494213,
+          "baseline_ae": 652.2421583230837,
+          "method_ae": 652.2421583230837
+        },
+        {
+          "held_out": "UConn_ISU_cell_56",
+          "baseline_ape": 19.495903766035237,
+          "method_ape": 19.495903766035237,
+          "baseline_ae": 1182.6215224476975,
+          "method_ae": 1182.6215224476975
+        },
+        {
+          "held_out": "UConn_ISU_cell_57",
+          "baseline_ape": 27.12261251433942,
+          "method_ape": 27.12261251433942,
+          "baseline_ae": 1787.108938569824,
+          "method_ae": 1787.108938569824
+        },
+        {
+          "held_out": "UConn_ISU_cell_58",
+          "baseline_ape": 27.85520601515509,
+          "method_ape": 27.85520601515509,
+          "baseline_ae": 1831.201243436296,
+          "method_ae": 1831.201243436296
+        },
+        {
+          "held_out": "UConn_ISU_cell_59",
+          "baseline_ape": 21.104897359255023,
+          "method_ape": 21.104897359255023,
+          "baseline_ae": 1227.24978144068,
+          "method_ae": 1227.24978144068
+        },
+        {
+          "held_out": "UConn_ISU_cell_60",
+          "baseline_ape": 34.52404011213516,
+          "method_ape": 34.52404011213516,
+          "baseline_ae": 2420.480452261795,
+          "method_ae": 2420.480452261795
+        },
+        {
+          "held_out": "UConn_ISU_cell_61",
+          "baseline_ape": 25.034370963646435,
+          "method_ape": 25.034370963646435,
+          "baseline_ae": 1592.6866807071865,
+          "method_ae": 1592.6866807071865
+        },
+        {
+          "held_out": "UConn_ISU_cell_62",
+          "baseline_ape": 24.864793256465305,
+          "method_ape": 24.864793256465305,
+          "baseline_ae": 740.7221911101011,
+          "method_ae": 740.7221911101011
+        },
+        {
+          "held_out": "UConn_ISU_cell_63",
+          "baseline_ape": 19.935480961287922,
+          "method_ape": 19.935480961287922,
+          "baseline_ae": 631.5560368536014,
+          "method_ae": 631.5560368536014
+        },
+        {
+          "held_out": "UConn_ISU_cell_64",
+          "baseline_ape": 25.018398820165036,
+          "method_ape": 25.018398820165036,
+          "baseline_ae": 776.5710993779229,
+          "method_ae": 776.5710993779229
+        },
+        {
+          "held_out": "UConn_ISU_cell_65",
+          "baseline_ape": 43.92154086762771,
+          "method_ape": 43.92154086762771,
+          "baseline_ae": 1191.1521883300638,
+          "method_ae": 1191.1521883300638
+        }
+      ]
+    },
+    {
+      "horizon": 50,
+      "label_budget_k": 1,
+      "protocol_dispersion": 0.602637817413133,
+      "route_counts": {
+        "fallback_stability_or_coverage": 100
+      },
+      "baseline": {
+        "mae": 1529.7366326587044,
+        "mape": 36.540741079755804,
+        "n_cells": 64
+      },
+      "method": {
+        "mae": 1529.7366326587044,
+        "mape": 36.540741079755804,
+        "n_cells": 64
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        64,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "UConn_ISU_cell_02",
+          "baseline_ape": 20.317545748116235,
+          "method_ape": 20.317545748116235,
+          "baseline_ae": 754.9999999999994,
+          "method_ae": 754.9999999999994
+        },
+        {
+          "held_out": "UConn_ISU_cell_03",
+          "baseline_ape": 22.19709932371873,
+          "method_ape": 22.19709932371873,
+          "baseline_ae": 908.0833333333331,
+          "method_ae": 908.0833333333331
+        },
+        {
+          "held_out": "UConn_ISU_cell_04",
+          "baseline_ape": 23.929937465849072,
+          "method_ape": 23.929937465849072,
+          "baseline_ae": 909.5769230769237,
+          "method_ae": 909.5769230769237
+        },
+        {
+          "held_out": "UConn_ISU_cell_05",
+          "baseline_ape": 41.744917579853244,
+          "method_ape": 41.744917579853244,
+          "baseline_ae": 1315.3823529411754,
+          "method_ae": 1315.3823529411754
+        },
+        {
+          "held_out": "UConn_ISU_cell_06",
+          "baseline_ape": 29.98082675051767,
+          "method_ape": 29.98082675051767,
+          "baseline_ae": 1149.7647058823522,
+          "method_ae": 1149.7647058823522
+        },
+        {
+          "held_out": "UConn_ISU_cell_07",
+          "baseline_ape": 25.614720581553833,
+          "method_ape": 25.614720581553833,
+          "baseline_ae": 1127.56,
+          "method_ae": 1127.56
+        },
+        {
+          "held_out": "UConn_ISU_cell_08",
+          "baseline_ape": 22.701578350885917,
+          "method_ape": 22.701578350885917,
+          "baseline_ae": 1059.7096774193544,
+          "method_ae": 1059.7096774193544
+        },
+        {
+          "held_out": "UConn_ISU_cell_09",
+          "baseline_ape": 33.91666889381832,
+          "method_ape": 33.91666889381832,
+          "baseline_ae": 2046.8709677419354,
+          "method_ae": 2046.8709677419354
+        },
+        {
+          "held_out": "UConn_ISU_cell_10",
+          "baseline_ape": 26.009403612967084,
+          "method_ape": 26.009403612967084,
+          "baseline_ae": 1051.04,
+          "method_ae": 1051.04
+        },
+        {
+          "held_out": "UConn_ISU_cell_11",
+          "baseline_ape": 20.75496282670346,
+          "method_ape": 20.75496282670346,
+          "baseline_ae": 902.6333333333333,
+          "method_ae": 902.6333333333333
+        },
+        {
+          "held_out": "UConn_ISU_cell_12",
+          "baseline_ape": 24.774445986694104,
+          "method_ape": 24.774445986694104,
+          "baseline_ae": 1217.9117647058824,
+          "method_ae": 1217.9117647058824
+        },
+        {
+          "held_out": "UConn_ISU_cell_13",
+          "baseline_ape": 23.659628918746005,
+          "method_ape": 23.659628918746005,
+          "baseline_ae": 1109.4000000000005,
+          "method_ae": 1109.4000000000005
+        },
+        {
+          "held_out": "UConn_ISU_cell_14",
+          "baseline_ape": 71.37451367052178,
+          "method_ape": 71.37451367052178,
+          "baseline_ae": 1847.172413793103,
+          "method_ae": 1847.172413793103
+        },
+        {
+          "held_out": "UConn_ISU_cell_15",
+          "baseline_ape": 79.05916305916304,
+          "method_ape": 79.05916305916304,
+          "baseline_ae": 2075.30303030303,
+          "method_ae": 2075.30303030303
+        },
+        {
+          "held_out": "UConn_ISU_cell_16",
+          "baseline_ape": 69.25133689839572,
+          "method_ape": 69.25133689839572,
+          "baseline_ae": 1835.8529411764705,
+          "method_ae": 1835.8529411764705
+        },
+        {
+          "held_out": "UConn_ISU_cell_17",
+          "baseline_ape": 81.88577222034472,
+          "method_ape": 81.88577222034472,
+          "baseline_ae": 2202.7272727272725,
+          "method_ae": 2202.7272727272725
+        },
+        {
+          "held_out": "UConn_ISU_cell_18",
+          "baseline_ape": 65.42372101582623,
+          "method_ape": 65.42372101582623,
+          "baseline_ae": 1777.5624999999989,
+          "method_ae": 1777.5624999999989
+        },
+        {
+          "held_out": "UConn_ISU_cell_19",
+          "baseline_ape": 86.904990403071,
+          "method_ape": 86.904990403071,
+          "baseline_ae": 2263.874999999999,
+          "method_ae": 2263.874999999999
+        },
+        {
+          "held_out": "UConn_ISU_cell_20",
+          "baseline_ape": 26.08156666495284,
+          "method_ape": 26.08156666495284,
+          "baseline_ae": 1233.9189189189192,
+          "method_ae": 1233.9189189189192
+        },
+        {
+          "held_out": "UConn_ISU_cell_21",
+          "baseline_ape": 26.895877009084543,
+          "method_ape": 26.895877009084543,
+          "baseline_ae": 1425.4814814814806,
+          "method_ae": 1425.4814814814806
+        },
+        {
+          "held_out": "UConn_ISU_cell_22",
+          "baseline_ape": 26.958759888320134,
+          "method_ape": 26.958759888320134,
+          "baseline_ae": 1324.214285714286,
+          "method_ae": 1324.214285714286
+        },
+        {
+          "held_out": "UConn_ISU_cell_23",
+          "baseline_ape": 31.356593802546243,
+          "method_ape": 31.356593802546243,
+          "baseline_ae": 1305.3750000000002,
+          "method_ae": 1305.3750000000002
+        },
+        {
+          "held_out": "UConn_ISU_cell_24",
+          "baseline_ape": 29.235207100591705,
+          "method_ape": 29.235207100591705,
+          "baseline_ae": 1235.1875,
+          "method_ae": 1235.1875
+        },
+        {
+          "held_out": "UConn_ISU_cell_25",
+          "baseline_ape": 27.731112647686615,
+          "method_ape": 27.731112647686615,
+          "baseline_ae": 1487.7741935483866,
+          "method_ae": 1487.7741935483866
+        },
+        {
+          "held_out": "UConn_ISU_cell_26",
+          "baseline_ape": 36.55034128902598,
+          "method_ape": 36.55034128902598,
+          "baseline_ae": 2546.096774193549,
+          "method_ae": 2546.096774193549
+        },
+        {
+          "held_out": "UConn_ISU_cell_27",
+          "baseline_ape": 36.41542385860913,
+          "method_ape": 36.41542385860913,
+          "baseline_ae": 2279.241379310345,
+          "method_ae": 2279.241379310345
+        },
+        {
+          "held_out": "UConn_ISU_cell_28",
+          "baseline_ape": 38.020665159832085,
+          "method_ape": 38.020665159832085,
+          "baseline_ae": 2478.947368421053,
+          "method_ae": 2478.947368421053
+        },
+        {
+          "held_out": "UConn_ISU_cell_29",
+          "baseline_ape": 40.60384335477272,
+          "method_ape": 40.60384335477272,
+          "baseline_ae": 2949.057142857143,
+          "method_ae": 2949.057142857143
+        },
+        {
+          "held_out": "UConn_ISU_cell_30",
+          "baseline_ape": 39.79306999560697,
+          "method_ape": 39.79306999560697,
+          "baseline_ae": 2717.4687499999995,
+          "method_ae": 2717.4687499999995
+        },
+        {
+          "held_out": "UConn_ISU_cell_31",
+          "baseline_ape": 49.301415345838784,
+          "method_ape": 49.301415345838784,
+          "baseline_ae": 4172.871794871795,
+          "method_ae": 4172.871794871795
+        },
+        {
+          "held_out": "UConn_ISU_cell_32",
+          "baseline_ape": 45.06231927410509,
+          "method_ape": 45.06231927410509,
+          "baseline_ae": 1506.433333333333,
+          "method_ae": 1506.433333333333
+        },
+        {
+          "held_out": "UConn_ISU_cell_33",
+          "baseline_ape": 26.18432385874244,
+          "method_ape": 26.18432385874244,
+          "baseline_ae": 911.9999999999992,
+          "method_ae": 911.9999999999992
+        },
+        {
+          "held_out": "UConn_ISU_cell_34",
+          "baseline_ape": 31.77984758679083,
+          "method_ape": 31.77984758679083,
+          "baseline_ae": 1125.959999999999,
+          "method_ae": 1125.959999999999
+        },
+        {
+          "held_out": "UConn_ISU_cell_35",
+          "baseline_ape": 54.32710193452379,
+          "method_ape": 54.32710193452379,
+          "baseline_ae": 1668.9285714285713,
+          "method_ae": 1668.9285714285713
+        },
+        {
+          "held_out": "UConn_ISU_cell_36",
+          "baseline_ape": 38.036990497133445,
+          "method_ape": 38.036990497133445,
+          "baseline_ae": 1383.7857142857142,
+          "method_ae": 1383.7857142857142
+        },
+        {
+          "held_out": "UConn_ISU_cell_37",
+          "baseline_ape": 53.36388888888889,
+          "method_ape": 53.36388888888889,
+          "baseline_ae": 1536.8799999999994,
+          "method_ae": 1536.8799999999994
+        },
+        {
+          "held_out": "UConn_ISU_cell_38",
+          "baseline_ape": 19.932105547993512,
+          "method_ape": 19.932105547993512,
+          "baseline_ae": 784.1290322580645,
+          "method_ae": 784.1290322580645
+        },
+        {
+          "held_out": "UConn_ISU_cell_39",
+          "baseline_ape": 30.47495424604742,
+          "method_ape": 30.47495424604742,
+          "baseline_ae": 1303.413793103448,
+          "method_ae": 1303.413793103448
+        },
+        {
+          "held_out": "UConn_ISU_cell_40",
+          "baseline_ape": 21.713658820544204,
+          "method_ape": 21.713658820544204,
+          "baseline_ae": 855.7352941176466,
+          "method_ae": 855.7352941176466
+        },
+        {
+          "held_out": "UConn_ISU_cell_41",
+          "baseline_ape": 32.56548856548854,
+          "method_ape": 32.56548856548854,
+          "baseline_ae": 1204.9230769230765,
+          "method_ae": 1204.9230769230765
+        },
+        {
+          "held_out": "UConn_ISU_cell_42",
+          "baseline_ape": 28.758944603164768,
+          "method_ape": 28.758944603164768,
+          "baseline_ae": 1048.838709677419,
+          "method_ae": 1048.838709677419
+        },
+        {
+          "held_out": "UConn_ISU_cell_43",
+          "baseline_ape": 28.122889152866072,
+          "method_ape": 28.122889152866072,
+          "baseline_ae": 1097.6363636363628,
+          "method_ae": 1097.6363636363628
+        },
+        {
+          "held_out": "UConn_ISU_cell_44",
+          "baseline_ape": 31.595449744763236,
+          "method_ape": 31.595449744763236,
+          "baseline_ae": 1104.5769230769224,
+          "method_ae": 1104.5769230769224
+        },
+        {
+          "held_out": "UConn_ISU_cell_45",
+          "baseline_ape": 27.60118669209578,
+          "method_ape": 27.60118669209578,
+          "baseline_ae": 1105.1515151515152,
+          "method_ae": 1105.1515151515152
+        },
+        {
+          "held_out": "UConn_ISU_cell_46",
+          "baseline_ape": 33.06623278118958,
+          "method_ape": 33.06623278118958,
+          "baseline_ae": 1175.1739130434778,
+          "method_ae": 1175.1739130434778
+        },
+        {
+          "held_out": "UConn_ISU_cell_47",
+          "baseline_ape": 29.530284557045732,
+          "method_ape": 29.530284557045732,
+          "baseline_ae": 1382.9032258064512,
+          "method_ae": 1382.9032258064512
+        },
+        {
+          "held_out": "UConn_ISU_cell_48",
+          "baseline_ape": 37.72503814205797,
+          "method_ape": 37.72503814205797,
+          "baseline_ae": 1309.058823529411,
+          "method_ae": 1309.058823529411
+        },
+        {
+          "held_out": "UConn_ISU_cell_49",
+          "baseline_ape": 22.472980659840736,
+          "method_ape": 22.472980659840736,
+          "baseline_ae": 987.6875000000005,
+          "method_ae": 987.6875000000005
+        },
+        {
+          "held_out": "UConn_ISU_cell_50",
+          "baseline_ape": 26.571812080536912,
+          "method_ape": 26.571812080536912,
+          "baseline_ae": 989.8,
+          "method_ae": 989.8
+        },
+        {
+          "held_out": "UConn_ISU_cell_51",
+          "baseline_ape": 23.030964295120192,
+          "method_ape": 23.030964295120192,
+          "baseline_ae": 874.4857142857137,
+          "method_ae": 874.4857142857137
+        },
+        {
+          "held_out": "UConn_ISU_cell_52",
+          "baseline_ape": 26.650059784774797,
+          "method_ape": 26.650059784774797,
+          "baseline_ae": 1028.692307692307,
+          "method_ae": 1028.692307692307
+        },
+        {
+          "held_out": "UConn_ISU_cell_53",
+          "baseline_ape": 29.560435892728993,
+          "method_ape": 29.560435892728993,
+          "baseline_ae": 1142.8064516129032,
+          "method_ae": 1142.8064516129032
+        },
+        {
+          "held_out": "UConn_ISU_cell_54",
+          "baseline_ape": 28.831224718134084,
+          "method_ape": 28.831224718134084,
+          "baseline_ae": 1116.6333333333328,
+          "method_ae": 1116.6333333333328
+        },
+        {
+          "held_out": "UConn_ISU_cell_55",
+          "baseline_ape": 21.630194890210607,
+          "method_ape": 21.630194890210607,
+          "baseline_ae": 826.0571428571429,
+          "method_ae": 826.0571428571429
+        },
+        {
+          "held_out": "UConn_ISU_cell_56",
+          "baseline_ape": 29.92571905122088,
+          "method_ape": 29.92571905122088,
+          "baseline_ae": 1815.2941176470586,
+          "method_ae": 1815.2941176470586
+        },
+        {
+          "held_out": "UConn_ISU_cell_57",
+          "baseline_ape": 36.92075175798049,
+          "method_ape": 36.92075175798049,
+          "baseline_ae": 2432.708333333334,
+          "method_ae": 2432.708333333334
+        },
+        {
+          "held_out": "UConn_ISU_cell_58",
+          "baseline_ape": 38.47595209779573,
+          "method_ape": 38.47595209779573,
+          "baseline_ae": 2529.409090909091,
+          "method_ae": 2529.409090909091
+        },
+        {
+          "held_out": "UConn_ISU_cell_59",
+          "baseline_ape": 30.421878900507583,
+          "method_ape": 30.421878900507583,
+          "baseline_ae": 1769.0322580645154,
+          "method_ae": 1769.0322580645154
+        },
+        {
+          "held_out": "UConn_ISU_cell_60",
+          "baseline_ape": 41.799150785030115,
+          "method_ape": 41.799150785030115,
+          "baseline_ae": 2930.5384615384614,
+          "method_ae": 2930.5384615384614
+        },
+        {
+          "held_out": "UConn_ISU_cell_61",
+          "baseline_ape": 38.21605714485313,
+          "method_ape": 38.21605714485313,
+          "baseline_ae": 2431.305555555556,
+          "method_ae": 2431.305555555556
+        },
+        {
+          "held_out": "UConn_ISU_cell_62",
+          "baseline_ape": 48.6628622580284,
+          "method_ape": 48.6628622580284,
+          "baseline_ae": 1449.6666666666658,
+          "method_ae": 1449.6666666666658
+        },
+        {
+          "held_out": "UConn_ISU_cell_63",
+          "baseline_ape": 45.85227272727273,
+          "method_ape": 45.85227272727273,
+          "baseline_ae": 1452.5999999999997,
+          "method_ae": 1452.5999999999997
+        },
+        {
+          "held_out": "UConn_ISU_cell_64",
+          "baseline_ape": 41.47997620935768,
+          "method_ape": 41.47997620935768,
+          "baseline_ae": 1287.538461538462,
+          "method_ae": 1287.538461538462
+        },
+        {
+          "held_out": "UConn_ISU_cell_65",
+          "baseline_ape": 59.81932153392331,
+          "method_ape": 59.81932153392331,
+          "baseline_ae": 1622.2999999999995,
+          "method_ae": 1622.2999999999995
+        }
+      ]
+    },
+    {
+      "horizon": 50,
+      "label_budget_k": 3,
+      "protocol_dispersion": 0.602637817413133,
+      "route_counts": {
+        "active_w0.5": 100
+      },
+      "baseline": {
+        "mae": 1397.346596852095,
+        "mape": 33.69140786913192,
+        "n_cells": 64
+      },
+      "method": {
+        "mae": 1162.3701868529515,
+        "mape": 25.748115822182672,
+        "n_cells": 64
+      },
+      "relative_mape_reduction_percent": 23.576610623704138,
+      "paired_wilcoxon_p": 0.04006637632873668,
+      "improved_same_worse_cells": [
+        43,
+        0,
+        21
+      ],
+      "per_cell": [
+        {
+          "held_out": "UConn_ISU_cell_02",
+          "baseline_ape": 33.69758074283836,
+          "method_ape": 27.585916939222333,
+          "baseline_ae": 1252.2021004038734,
+          "method_ae": 1025.0926734615025
+        },
+        {
+          "held_out": "UConn_ISU_cell_03",
+          "baseline_ape": 20.354791976548217,
+          "method_ape": 17.94475234058278,
+          "baseline_ae": 832.7145397605874,
+          "method_ae": 734.1198182532419
+        },
+        {
+          "held_out": "UConn_ISU_cell_04",
+          "baseline_ape": 24.91563300111889,
+          "method_ape": 22.083051308173104,
+          "baseline_ae": 947.0432103725287,
+          "method_ae": 839.3767802236596
+        },
+        {
+          "held_out": "UConn_ISU_cell_05",
+          "baseline_ape": 46.00568675653954,
+          "method_ape": 51.00522744670786,
+          "baseline_ae": 1449.639189698561,
+          "method_ae": 1607.1747168457648
+        },
+        {
+          "held_out": "UConn_ISU_cell_06",
+          "baseline_ape": 20.943985868765562,
+          "method_ape": 25.321276259866938,
+          "baseline_ae": 803.2018580671595,
+          "method_ae": 971.0709445658964
+        },
+        {
+          "held_out": "UConn_ISU_cell_07",
+          "baseline_ape": 20.146649631505166,
+          "method_ape": 7.05071506506767,
+          "baseline_ae": 886.8555167788571,
+          "method_ae": 310.3724771642788
+        },
+        {
+          "held_out": "UConn_ISU_cell_08",
+          "baseline_ape": 19.510435461965763,
+          "method_ape": 8.59550761840745,
+          "baseline_ae": 910.747127364562,
+          "method_ae": 401.23829562725984
+        },
+        {
+          "held_out": "UConn_ISU_cell_09",
+          "baseline_ape": 29.321100338283838,
+          "method_ape": 22.51252282603489,
+          "baseline_ae": 1769.5284054154295,
+          "method_ae": 1358.6307525512048
+        },
+        {
+          "held_out": "UConn_ISU_cell_10",
+          "baseline_ape": 27.849425024511056,
+          "method_ape": 21.259496725030093,
+          "baseline_ae": 1125.3952652404919,
+          "method_ae": 859.0962626584665
+        },
+        {
+          "held_out": "UConn_ISU_cell_11",
+          "baseline_ape": 24.19996501984346,
+          "method_ape": 9.546655686948242,
+          "baseline_ae": 1052.4564787129925,
+          "method_ae": 415.1840558253792
+        },
+        {
+          "held_out": "UConn_ISU_cell_12",
+          "baseline_ape": 26.135281061724957,
+          "method_ape": 15.111608660486274,
+          "baseline_ae": 1284.8104169943988,
+          "method_ae": 742.8866817495057
+        },
+        {
+          "held_out": "UConn_ISU_cell_13",
+          "baseline_ape": 22.446464797496855,
+          "method_ape": 6.174309360787049,
+          "baseline_ae": 1052.5147343546273,
+          "method_ae": 289.5133659273048
+        },
+        {
+          "held_out": "UConn_ISU_cell_14",
+          "baseline_ape": 72.81012517388464,
+          "method_ape": 7.662660297320156,
+          "baseline_ae": 1884.3260395001348,
+          "method_ae": 198.30964849464567
+        },
+        {
+          "held_out": "UConn_ISU_cell_15",
+          "baseline_ape": 79.55813660747167,
+          "method_ape": 4.574311687336809,
+          "baseline_ae": 2088.401085946132,
+          "method_ae": 120.0756817925912
+        },
+        {
+          "held_out": "UConn_ISU_cell_16",
+          "baseline_ape": 69.22084097756156,
+          "method_ape": 3.868084702285592,
+          "baseline_ae": 1835.0444943151567,
+          "method_ae": 102.542925457591
+        },
+        {
+          "held_out": "UConn_ISU_cell_17",
+          "baseline_ape": 81.11178966818697,
+          "method_ape": 0.6239745574462502,
+          "baseline_ae": 2181.90714207423,
+          "method_ae": 16.78491559530413
+        },
+        {
+          "held_out": "UConn_ISU_cell_18",
+          "baseline_ape": 67.84529524035248,
+          "method_ape": 1.548299158189796,
+          "baseline_ae": 1843.3566716803764,
+          "method_ae": 42.06728812801676
+        },
+        {
+          "held_out": "UConn_ISU_cell_19",
+          "baseline_ape": 72.22018367916591,
+          "method_ape": 5.247802218727397,
+          "baseline_ae": 1881.3357848422727,
+          "method_ae": 136.7052477978487
+        },
+        {
+          "held_out": "UConn_ISU_cell_20",
+          "baseline_ape": 16.77527695449061,
+          "method_ape": 7.134921677566089,
+          "baseline_ae": 793.6383527169507,
+          "method_ae": 337.5531445656517
+        },
+        {
+          "held_out": "UConn_ISU_cell_21",
+          "baseline_ape": 20.671480351390276,
+          "method_ape": 11.666843794417455,
+          "baseline_ae": 1095.5884586236846,
+          "method_ae": 618.3427211041252
+        },
+        {
+          "held_out": "UConn_ISU_cell_22",
+          "baseline_ape": 19.686795415555192,
+          "method_ape": 6.904658406936407,
+          "baseline_ae": 967.0153908120708,
+          "method_ae": 339.1568209487163
+        },
+        {
+          "held_out": "UConn_ISU_cell_23",
+          "baseline_ape": 16.377112515076096,
+          "method_ape": 15.279371611000965,
+          "baseline_ae": 681.7791940026182,
+          "method_ae": 636.0802401659694
+        },
+        {
+          "held_out": "UConn_ISU_cell_24",
+          "baseline_ape": 19.303056343526848,
+          "method_ape": 14.017220355023067,
+          "baseline_ae": 815.5541305140094,
+          "method_ae": 592.2275599997248
+        },
+        {
+          "held_out": "UConn_ISU_cell_25",
+          "baseline_ape": 22.96185124198266,
+          "method_ape": 12.032190325243379,
+          "baseline_ae": 1231.9033191323697,
+          "method_ae": 645.5270109493074
+        },
+        {
+          "held_out": "UConn_ISU_cell_26",
+          "baseline_ape": 33.25422033747184,
+          "method_ape": 28.27306544404492,
+          "baseline_ae": 2316.4889887082877,
+          "method_ae": 1969.5017388321708
+        },
+        {
+          "held_out": "UConn_ISU_cell_27",
+          "baseline_ape": 33.94851360950932,
+          "method_ape": 21.230422520686226,
+          "baseline_ae": 2124.837466819188,
+          "method_ae": 1328.8121455697508
+        },
+        {
+          "held_out": "UConn_ISU_cell_28",
+          "baseline_ape": 29.35891284916047,
+          "method_ape": 23.048439199008303,
+          "baseline_ae": 1914.2011177652628,
+          "method_ae": 1502.7582357753417
+        },
+        {
+          "held_out": "UConn_ISU_cell_29",
+          "baseline_ape": 35.883758910282154,
+          "method_ape": 31.21918548172151,
+          "baseline_ae": 2606.2374096537933,
+          "method_ae": 2267.449441537433
+        },
+        {
+          "held_out": "UConn_ISU_cell_30",
+          "baseline_ape": 30.015555767401338,
+          "method_ape": 26.210026553385777,
+          "baseline_ae": 2049.7623033558384,
+          "method_ae": 1789.8827133307148
+        },
+        {
+          "held_out": "UConn_ISU_cell_31",
+          "baseline_ape": 45.52644521073521,
+          "method_ape": 40.51874266969852,
+          "baseline_ae": 3853.3583226366286,
+          "method_ae": 3429.5063795632814
+        },
+        {
+          "held_out": "UConn_ISU_cell_32",
+          "baseline_ape": 42.687493424743195,
+          "method_ape": 32.9456800470027,
+          "baseline_ae": 1427.0429051891651,
+          "method_ae": 1101.3740839713007
+        },
+        {
+          "held_out": "UConn_ISU_cell_33",
+          "baseline_ape": 41.30576245712209,
+          "method_ape": 26.096383763660018,
+          "baseline_ae": 1438.6797063815623,
+          "method_ae": 908.9370464882778
+        },
+        {
+          "held_out": "UConn_ISU_cell_34",
+          "baseline_ape": 26.7578824939593,
+          "method_ape": 25.31351527036148,
+          "baseline_ae": 948.0317767609776,
+          "method_ae": 896.857846028908
+        },
+        {
+          "held_out": "UConn_ISU_cell_35",
+          "baseline_ape": 53.44850859211507,
+          "method_ape": 42.896674643074654,
+          "baseline_ae": 1641.938183949775,
+          "method_ae": 1317.7858450352526
+        },
+        {
+          "held_out": "UConn_ISU_cell_36",
+          "baseline_ape": 33.32616922480559,
+          "method_ape": 24.553573667672207,
+          "baseline_ae": 1212.4060363984272,
+          "method_ae": 893.2590100299151
+        },
+        {
+          "held_out": "UConn_ISU_cell_37",
+          "baseline_ape": 49.97381999461867,
+          "method_ape": 50.483571611938785,
+          "baseline_ae": 1439.2460158450174,
+          "method_ae": 1453.9268624238366
+        },
+        {
+          "held_out": "UConn_ISU_cell_38",
+          "baseline_ape": 16.794388087982696,
+          "method_ape": 30.178802996330848,
+          "baseline_ae": 660.6912273812392,
+          "method_ae": 1187.2341098756558
+        },
+        {
+          "held_out": "UConn_ISU_cell_39",
+          "baseline_ape": 18.7237447776644,
+          "method_ape": 15.900503092173201,
+          "baseline_ae": 800.8145641407066,
+          "method_ae": 680.0645172522478
+        },
+        {
+          "held_out": "UConn_ISU_cell_40",
+          "baseline_ape": 16.19108698624701,
+          "method_ape": 25.50630061371932,
+          "baseline_ae": 638.0907381279947,
+          "method_ae": 1005.2033071866779
+        },
+        {
+          "held_out": "UConn_ISU_cell_41",
+          "baseline_ape": 24.19192954447573,
+          "method_ape": 35.276246200450956,
+          "baseline_ae": 895.1013931456022,
+          "method_ae": 1305.221109416686
+        },
+        {
+          "held_out": "UConn_ISU_cell_42",
+          "baseline_ape": 23.729682070084728,
+          "method_ape": 33.04355732834156,
+          "baseline_ae": 865.42150509599,
+          "method_ae": 1205.0985357646166
+        },
+        {
+          "held_out": "UConn_ISU_cell_43",
+          "baseline_ape": 22.65245193282738,
+          "method_ape": 24.401912611568022,
+          "baseline_ae": 884.1251989382522,
+          "method_ae": 952.4066492294994
+        },
+        {
+          "held_out": "UConn_ISU_cell_44",
+          "baseline_ape": 26.11512861049348,
+          "method_ape": 44.846939978308,
+          "baseline_ae": 912.9848962228518,
+          "method_ae": 1567.8490216416485
+        },
+        {
+          "held_out": "UConn_ISU_cell_45",
+          "baseline_ape": 30.84189090555523,
+          "method_ape": 24.307312140699203,
+          "baseline_ae": 1234.9093118584312,
+          "method_ae": 973.2647781135962
+        },
+        {
+          "held_out": "UConn_ISU_cell_46",
+          "baseline_ape": 38.447746982456664,
+          "method_ape": 39.96066077005329,
+          "baseline_ae": 1366.4329277565098,
+          "method_ae": 1420.201883767694
+        },
+        {
+          "held_out": "UConn_ISU_cell_47",
+          "baseline_ape": 16.017126598615945,
+          "method_ape": 8.198982014086237,
+          "baseline_ae": 750.0820386131845,
+          "method_ae": 383.9583277196585
+        },
+        {
+          "held_out": "UConn_ISU_cell_48",
+          "baseline_ape": 35.972229105619206,
+          "method_ape": 46.74497533480674,
+          "baseline_ae": 1248.2363499649866,
+          "method_ae": 1622.050644117792
+        },
+        {
+          "held_out": "UConn_ISU_cell_49",
+          "baseline_ape": 34.90854740620876,
+          "method_ape": 18.047750445137112,
+          "baseline_ae": 1534.2306585028753,
+          "method_ae": 793.1986320637761
+        },
+        {
+          "held_out": "UConn_ISU_cell_50",
+          "baseline_ape": 22.279784428373432,
+          "method_ape": 3.84876957494409,
+          "baseline_ae": 829.9219699569105,
+          "method_ae": 143.36666666666736
+        },
+        {
+          "held_out": "UConn_ISU_cell_51",
+          "baseline_ape": 20.406291820525233,
+          "method_ape": 1.9338575567177225,
+          "baseline_ae": 774.8269004253428,
+          "method_ae": 73.42857142857194
+        },
+        {
+          "held_out": "UConn_ISU_cell_52",
+          "baseline_ape": 20.21868332825357,
+          "method_ape": 0.34288326729657786,
+          "baseline_ae": 780.4411764705877,
+          "method_ae": 13.235294117647902
+        },
+        {
+          "held_out": "UConn_ISU_cell_53",
+          "baseline_ape": 19.161924469736142,
+          "method_ape": 0.3379893085014952,
+          "baseline_ae": 740.7999999999995,
+          "method_ae": 13.066666666667803
+        },
+        {
+          "held_out": "UConn_ISU_cell_54",
+          "baseline_ape": 15.318845180682585,
+          "method_ape": 0.39375161373612505,
+          "baseline_ae": 593.2988738478365,
+          "method_ae": 15.25000000000013
+        },
+        {
+          "held_out": "UConn_ISU_cell_55",
+          "baseline_ape": 18.312198406463924,
+          "method_ape": 1.3189690644521967,
+          "baseline_ae": 699.3428571428573,
+          "method_ae": 50.37142857142939
+        },
+        {
+          "held_out": "UConn_ISU_cell_56",
+          "baseline_ape": 38.417400065484415,
+          "method_ape": 50.86599323566284,
+          "baseline_ae": 2330.399487972285,
+          "method_ae": 3085.5311496753056
+        },
+        {
+          "held_out": "UConn_ISU_cell_57",
+          "baseline_ape": 35.45592007120508,
+          "method_ape": 55.205245538029445,
+          "baseline_ae": 2336.190573491702,
+          "method_ae": 3637.4736285007602
+        },
+        {
+          "held_out": "UConn_ISU_cell_58",
+          "baseline_ape": 35.858347022329525,
+          "method_ape": 54.722629426591155,
+          "baseline_ae": 2357.327733247943,
+          "method_ae": 3597.4656585041025
+        },
+        {
+          "held_out": "UConn_ISU_cell_59",
+          "baseline_ape": 28.29878742720518,
+          "method_ape": 48.33753938758543,
+          "baseline_ae": 1645.5744888919814,
+          "method_ae": 2810.8279153880926
+        },
+        {
+          "held_out": "UConn_ISU_cell_60",
+          "baseline_ape": 39.23137065722318,
+          "method_ape": 58.70411275942238,
+          "baseline_ae": 2750.5113967779166,
+          "method_ae": 4115.745345563106
+        },
+        {
+          "held_out": "UConn_ISU_cell_61",
+          "baseline_ape": 40.824893573300244,
+          "method_ape": 53.29700890208357,
+          "baseline_ae": 2597.2797291333623,
+          "method_ae": 3390.7557063505587
+        },
+        {
+          "held_out": "UConn_ISU_cell_62",
+          "baseline_ape": 47.348330313861666,
+          "method_ape": 68.51798933129008,
+          "baseline_ae": 1410.5067600499399,
+          "method_ae": 2041.1509021791314
+        },
+        {
+          "held_out": "UConn_ISU_cell_63",
+          "baseline_ape": 36.030033242801316,
+          "method_ape": 59.78346495632756,
+          "baseline_ae": 1141.4314531319455,
+          "method_ae": 1893.9401698164572
+        },
+        {
+          "held_out": "UConn_ISU_cell_64",
+          "baseline_ape": 42.32164541834151,
+          "method_ape": 63.035169806333535,
+          "baseline_ae": 1313.6638737853202,
+          "method_ae": 1956.6116707885922
+        },
+        {
+          "held_out": "UConn_ISU_cell_65",
+          "baseline_ape": 62.62370846871387,
+          "method_ape": 83.27943546397914,
+          "baseline_ae": 1698.35497367152,
+          "method_ae": 2258.5382897831137
+        }
+      ]
+    },
+    {
+      "horizon": 50,
+      "label_budget_k": 5,
+      "protocol_dispersion": 0.602637817413133,
+      "route_counts": {
+        "fallback_stability_or_coverage": 100
+      },
+      "baseline": {
+        "mae": 1302.5060508602105,
+        "mape": 30.930508616274672,
+        "n_cells": 64
+      },
+      "method": {
+        "mae": 1302.5060508602105,
+        "mape": 30.930508616274672,
+        "n_cells": 64
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        64,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "UConn_ISU_cell_02",
+          "baseline_ape": 26.851858031656324,
+          "method_ape": 26.851858031656324,
+          "baseline_ae": 997.8150444563494,
+          "method_ae": 997.8150444563494
+        },
+        {
+          "held_out": "UConn_ISU_cell_03",
+          "baseline_ape": 18.130410925976527,
+          "method_ape": 18.130410925976527,
+          "baseline_ae": 741.7151109816999,
+          "method_ae": 741.7151109816999
+        },
+        {
+          "held_out": "UConn_ISU_cell_04",
+          "baseline_ape": 28.391897372808902,
+          "method_ape": 28.391897372808902,
+          "baseline_ae": 1079.1760191404662,
+          "method_ae": 1079.1760191404662
+        },
+        {
+          "held_out": "UConn_ISU_cell_05",
+          "baseline_ape": 57.367641221062144,
+          "method_ape": 57.367641221062144,
+          "baseline_ae": 1807.6543748756678,
+          "method_ae": 1807.6543748756678
+        },
+        {
+          "held_out": "UConn_ISU_cell_06",
+          "baseline_ape": 20.18626596630448,
+          "method_ape": 20.18626596630448,
+          "baseline_ae": 774.1432998077767,
+          "method_ae": 774.1432998077767
+        },
+        {
+          "held_out": "UConn_ISU_cell_07",
+          "baseline_ape": 20.07703404931592,
+          "method_ape": 20.07703404931592,
+          "baseline_ae": 883.7910388508869,
+          "method_ae": 883.7910388508869
+        },
+        {
+          "held_out": "UConn_ISU_cell_08",
+          "baseline_ape": 18.372993629659437,
+          "method_ape": 18.372993629659437,
+          "baseline_ae": 857.6513426325024,
+          "method_ae": 857.6513426325024
+        },
+        {
+          "held_out": "UConn_ISU_cell_09",
+          "baseline_ape": 24.80215678865186,
+          "method_ape": 24.80215678865186,
+          "baseline_ae": 1496.8101621951398,
+          "method_ae": 1496.8101621951398
+        },
+        {
+          "held_out": "UConn_ISU_cell_10",
+          "baseline_ape": 31.055021347600285,
+          "method_ape": 31.055021347600285,
+          "baseline_ae": 1254.9334126565277,
+          "method_ae": 1254.9334126565277
+        },
+        {
+          "held_out": "UConn_ISU_cell_11",
+          "baseline_ape": 27.948584612388355,
+          "method_ape": 27.948584612388355,
+          "baseline_ae": 1215.4839447927695,
+          "method_ae": 1215.4839447927695
+        },
+        {
+          "held_out": "UConn_ISU_cell_12",
+          "baseline_ape": 22.001257710940457,
+          "method_ape": 22.001257710940457,
+          "baseline_ae": 1081.5818290698335,
+          "method_ae": 1081.5818290698335
+        },
+        {
+          "held_out": "UConn_ISU_cell_13",
+          "baseline_ape": 17.051585928243814,
+          "method_ape": 17.051585928243814,
+          "baseline_ae": 799.5488641753526,
+          "method_ae": 799.5488641753526
+        },
+        {
+          "held_out": "UConn_ISU_cell_14",
+          "baseline_ape": 53.46189049138147,
+          "method_ape": 53.46189049138147,
+          "baseline_ae": 1383.5937259169527,
+          "method_ae": 1383.5937259169527
+        },
+        {
+          "held_out": "UConn_ISU_cell_15",
+          "baseline_ape": 57.39726327378023,
+          "method_ape": 57.39726327378023,
+          "baseline_ae": 1506.678160936731,
+          "method_ae": 1506.678160936731
+        },
+        {
+          "held_out": "UConn_ISU_cell_16",
+          "baseline_ape": 53.61681957093536,
+          "method_ape": 53.61681957093536,
+          "baseline_ae": 1421.3818868254962,
+          "method_ae": 1421.3818868254962
+        },
+        {
+          "held_out": "UConn_ISU_cell_17",
+          "baseline_ape": 40.33367461766765,
+          "method_ape": 40.33367461766765,
+          "baseline_ae": 1084.9758472152598,
+          "method_ae": 1084.9758472152598
+        },
+        {
+          "held_out": "UConn_ISU_cell_18",
+          "baseline_ape": 39.71551647163291,
+          "method_ape": 39.71551647163291,
+          "baseline_ae": 1079.0705825342661,
+          "method_ae": 1079.0705825342661
+        },
+        {
+          "held_out": "UConn_ISU_cell_19",
+          "baseline_ape": 58.97459788478799,
+          "method_ape": 58.97459788478799,
+          "baseline_ae": 1536.2882748987272,
+          "method_ae": 1536.2882748987272
+        },
+        {
+          "held_out": "UConn_ISU_cell_20",
+          "baseline_ape": 16.391359193743074,
+          "method_ape": 16.391359193743074,
+          "baseline_ae": 775.4752034559847,
+          "method_ae": 775.4752034559847
+        },
+        {
+          "held_out": "UConn_ISU_cell_21",
+          "baseline_ape": 23.61787750145777,
+          "method_ape": 23.61787750145777,
+          "baseline_ae": 1251.7475075772618,
+          "method_ae": 1251.7475075772618
+        },
+        {
+          "held_out": "UConn_ISU_cell_22",
+          "baseline_ape": 15.501468963427632,
+          "method_ape": 15.501468963427632,
+          "baseline_ae": 761.4321554835652,
+          "method_ae": 761.4321554835652
+        },
+        {
+          "held_out": "UConn_ISU_cell_23",
+          "baseline_ape": 12.225740127002936,
+          "method_ape": 12.225740127002936,
+          "baseline_ae": 508.9575614871322,
+          "method_ae": 508.9575614871322
+        },
+        {
+          "held_out": "UConn_ISU_cell_24",
+          "baseline_ape": 12.871608485938085,
+          "method_ape": 12.871608485938085,
+          "baseline_ae": 543.8254585308841,
+          "method_ae": 543.8254585308841
+        },
+        {
+          "held_out": "UConn_ISU_cell_25",
+          "baseline_ape": 21.08381446384573,
+          "method_ape": 21.08381446384573,
+          "baseline_ae": 1131.1466459853232,
+          "method_ae": 1131.1466459853232
+        },
+        {
+          "held_out": "UConn_ISU_cell_26",
+          "baseline_ape": 32.80434516597394,
+          "method_ape": 32.80434516597394,
+          "baseline_ae": 2285.1506842617446,
+          "method_ae": 2285.1506842617446
+        },
+        {
+          "held_out": "UConn_ISU_cell_27",
+          "baseline_ape": 26.294494037204494,
+          "method_ape": 26.294494037204494,
+          "baseline_ae": 1645.7723817886292,
+          "method_ae": 1645.7723817886292
+        },
+        {
+          "held_out": "UConn_ISU_cell_28",
+          "baseline_ape": 31.139208650066283,
+          "method_ape": 31.139208650066283,
+          "baseline_ae": 2030.276403984322,
+          "method_ae": 2030.276403984322
+        },
+        {
+          "held_out": "UConn_ISU_cell_29",
+          "baseline_ape": 34.22678941622367,
+          "method_ape": 34.22678941622367,
+          "baseline_ae": 2485.8917153003254,
+          "method_ae": 2485.8917153003254
+        },
+        {
+          "held_out": "UConn_ISU_cell_30",
+          "baseline_ape": 30.08028214222789,
+          "method_ape": 30.08028214222789,
+          "baseline_ae": 2054.182467492743,
+          "method_ae": 2054.182467492743
+        },
+        {
+          "held_out": "UConn_ISU_cell_31",
+          "baseline_ape": 45.016526610154045,
+          "method_ape": 45.016526610154045,
+          "baseline_ae": 3810.198812283439,
+          "method_ae": 3810.198812283439
+        },
+        {
+          "held_out": "UConn_ISU_cell_32",
+          "baseline_ape": 41.71224789819256,
+          "method_ape": 41.71224789819256,
+          "baseline_ae": 1394.4404472365768,
+          "method_ae": 1394.4404472365768
+        },
+        {
+          "held_out": "UConn_ISU_cell_33",
+          "baseline_ape": 34.521287025273914,
+          "method_ape": 34.521287025273914,
+          "baseline_ae": 1202.3764270902907,
+          "method_ae": 1202.3764270902907
+        },
+        {
+          "held_out": "UConn_ISU_cell_34",
+          "baseline_ape": 27.920904139742827,
+          "method_ape": 27.920904139742827,
+          "baseline_ae": 989.2376336710887,
+          "method_ae": 989.2376336710887
+        },
+        {
+          "held_out": "UConn_ISU_cell_35",
+          "baseline_ape": 63.51778747424473,
+          "method_ape": 63.51778747424473,
+          "baseline_ae": 1951.2664312087977,
+          "method_ae": 1951.2664312087977
+        },
+        {
+          "held_out": "UConn_ISU_cell_36",
+          "baseline_ape": 40.52932870027777,
+          "method_ape": 40.52932870027777,
+          "baseline_ae": 1474.4569781161056,
+          "method_ae": 1474.4569781161056
+        },
+        {
+          "held_out": "UConn_ISU_cell_37",
+          "baseline_ape": 53.955574710759464,
+          "method_ape": 53.955574710759464,
+          "baseline_ae": 1553.9205516698726,
+          "method_ae": 1553.9205516698726
+        },
+        {
+          "held_out": "UConn_ISU_cell_38",
+          "baseline_ape": 12.071867388122538,
+          "method_ape": 12.071867388122538,
+          "baseline_ae": 474.9072630487407,
+          "method_ae": 474.9072630487407
+        },
+        {
+          "held_out": "UConn_ISU_cell_39",
+          "baseline_ape": 13.039330920371638,
+          "method_ape": 13.039330920371638,
+          "baseline_ae": 557.6921834642948,
+          "method_ae": 557.6921834642948
+        },
+        {
+          "held_out": "UConn_ISU_cell_40",
+          "baseline_ape": 14.007261484035261,
+          "method_ape": 14.007261484035261,
+          "baseline_ae": 552.0261750858294,
+          "method_ae": 552.0261750858294
+        },
+        {
+          "held_out": "UConn_ISU_cell_41",
+          "baseline_ape": 18.049285795449855,
+          "method_ape": 18.049285795449855,
+          "baseline_ae": 667.8235744316449,
+          "method_ae": 667.8235744316449
+        },
+        {
+          "held_out": "UConn_ISU_cell_42",
+          "baseline_ape": 23.112440941626673,
+          "method_ape": 23.112440941626673,
+          "baseline_ae": 842.9107211411243,
+          "method_ae": 842.9107211411243
+        },
+        {
+          "held_out": "UConn_ISU_cell_43",
+          "baseline_ape": 14.171160096842026,
+          "method_ape": 14.171160096842026,
+          "baseline_ae": 553.1003785797444,
+          "method_ae": 553.1003785797444
+        },
+        {
+          "held_out": "UConn_ISU_cell_44",
+          "baseline_ape": 39.628609228371545,
+          "method_ape": 39.628609228371545,
+          "baseline_ae": 1385.416178623869,
+          "method_ae": 1385.416178623869
+        },
+        {
+          "held_out": "UConn_ISU_cell_45",
+          "baseline_ape": 26.241360863898173,
+          "method_ape": 26.241360863898173,
+          "baseline_ae": 1050.7040889904827,
+          "method_ae": 1050.7040889904827
+        },
+        {
+          "held_out": "UConn_ISU_cell_46",
+          "baseline_ape": 52.456876574289176,
+          "method_ape": 52.456876574289176,
+          "baseline_ae": 1864.3173934502374,
+          "method_ae": 1864.3173934502374
+        },
+        {
+          "held_out": "UConn_ISU_cell_47",
+          "baseline_ape": 24.392558618708634,
+          "method_ape": 24.392558618708634,
+          "baseline_ae": 1142.3035201141251,
+          "method_ae": 1142.3035201141251
+        },
+        {
+          "held_out": "UConn_ISU_cell_48",
+          "baseline_ape": 42.45929356575492,
+          "method_ape": 42.45929356575492,
+          "baseline_ae": 1473.337486731696,
+          "method_ae": 1473.337486731696
+        },
+        {
+          "held_out": "UConn_ISU_cell_49",
+          "baseline_ape": 25.217185698436086,
+          "method_ape": 25.217185698436086,
+          "baseline_ae": 1108.295311446266,
+          "method_ae": 1108.295311446266
+        },
+        {
+          "held_out": "UConn_ISU_cell_50",
+          "baseline_ape": 17.093269486843067,
+          "method_ape": 17.093269486843067,
+          "baseline_ae": 636.7242883849042,
+          "method_ae": 636.7242883849042
+        },
+        {
+          "held_out": "UConn_ISU_cell_51",
+          "baseline_ape": 15.452745344765356,
+          "method_ape": 15.452745344765356,
+          "baseline_ae": 586.7407407407406,
+          "method_ae": 586.7407407407406
+        },
+        {
+          "held_out": "UConn_ISU_cell_52",
+          "baseline_ape": 19.93868739205524,
+          "method_ape": 19.93868739205524,
+          "baseline_ae": 769.6333333333322,
+          "method_ae": 769.6333333333322
+        },
+        {
+          "held_out": "UConn_ISU_cell_53",
+          "baseline_ape": 18.082225130093416,
+          "method_ape": 18.082225130093416,
+          "baseline_ae": 699.0588235294117,
+          "method_ae": 699.0588235294117
+        },
+        {
+          "held_out": "UConn_ISU_cell_54",
+          "baseline_ape": 12.451060215747324,
+          "method_ape": 12.451060215747324,
+          "baseline_ae": 482.22956215589386,
+          "method_ae": 482.22956215589386
+        },
+        {
+          "held_out": "UConn_ISU_cell_55",
+          "baseline_ape": 17.668179888656915,
+          "method_ape": 17.668179888656915,
+          "baseline_ae": 674.7477899478072,
+          "method_ae": 674.7477899478072
+        },
+        {
+          "held_out": "UConn_ISU_cell_56",
+          "baseline_ape": 34.319814555787424,
+          "method_ape": 34.319814555787424,
+          "baseline_ae": 2081.839950954065,
+          "method_ae": 2081.839950954065
+        },
+        {
+          "held_out": "UConn_ISU_cell_57",
+          "baseline_ape": 37.407520449967365,
+          "method_ape": 37.407520449967365,
+          "baseline_ae": 2464.781522448351,
+          "method_ae": 2464.781522448351
+        },
+        {
+          "held_out": "UConn_ISU_cell_58",
+          "baseline_ape": 31.82541233776464,
+          "method_ape": 31.82541233776464,
+          "baseline_ae": 2092.2026070846473,
+          "method_ae": 2092.2026070846473
+        },
+        {
+          "held_out": "UConn_ISU_cell_59",
+          "baseline_ape": 34.57008547422416,
+          "method_ape": 34.57008547422416,
+          "baseline_ae": 2010.2504703261345,
+          "method_ae": 2010.2504703261345
+        },
+        {
+          "held_out": "UConn_ISU_cell_60",
+          "baseline_ape": 38.44278269621858,
+          "method_ape": 38.44278269621858,
+          "baseline_ae": 2695.223494831885,
+          "method_ae": 2695.223494831885
+        },
+        {
+          "held_out": "UConn_ISU_cell_61",
+          "baseline_ape": 35.054794740060544,
+          "method_ape": 35.054794740060544,
+          "baseline_ae": 2230.1860413626514,
+          "method_ae": 2230.1860413626514
+        },
+        {
+          "held_out": "UConn_ISU_cell_62",
+          "baseline_ape": 53.95313558098726,
+          "method_ape": 53.95313558098726,
+          "baseline_ae": 1607.2639089576107,
+          "method_ae": 1607.2639089576107
+        },
+        {
+          "held_out": "UConn_ISU_cell_63",
+          "baseline_ape": 34.36098725146127,
+          "method_ape": 34.36098725146127,
+          "baseline_ae": 1088.556076126293,
+          "method_ae": 1088.556076126293
+        },
+        {
+          "held_out": "UConn_ISU_cell_64",
+          "baseline_ape": 36.0614393641681,
+          "method_ape": 36.0614393641681,
+          "baseline_ae": 1119.3470778637777,
+          "method_ae": 1119.3470778637777
+        },
+        {
+          "held_out": "UConn_ISU_cell_65",
+          "baseline_ape": 58.87606575632097,
+          "method_ape": 58.87606575632097,
+          "baseline_ae": 1596.7189033114246,
+          "method_ae": 1596.7189033114246
+        }
+      ]
+    },
+    {
+      "horizon": 50,
+      "label_budget_k": 10,
+      "protocol_dispersion": 0.602637817413133,
+      "route_counts": {
+        "fallback_stability_or_coverage": 100
+      },
+      "baseline": {
+        "mae": 1045.6414432603483,
+        "mape": 24.87698706942671,
+        "n_cells": 64
+      },
+      "method": {
+        "mae": 1045.6414432603483,
+        "mape": 24.87698706942671,
+        "n_cells": 64
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        64,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "UConn_ISU_cell_02",
+          "baseline_ape": 26.642686962372427,
+          "method_ape": 26.642686962372427,
+          "baseline_ae": 990.0422475217597,
+          "method_ae": 990.0422475217597
+        },
+        {
+          "held_out": "UConn_ISU_cell_03",
+          "baseline_ape": 14.687146867720985,
+          "method_ape": 14.687146867720985,
+          "baseline_ae": 600.8511783584653,
+          "method_ae": 600.8511783584653
+        },
+        {
+          "held_out": "UConn_ISU_cell_04",
+          "baseline_ape": 23.693869076041178,
+          "method_ape": 23.693869076041178,
+          "baseline_ae": 900.6039635803251,
+          "method_ae": 900.6039635803251
+        },
+        {
+          "held_out": "UConn_ISU_cell_05",
+          "baseline_ape": 44.3641367836204,
+          "method_ape": 44.3641367836204,
+          "baseline_ae": 1397.9139500518788,
+          "method_ae": 1397.9139500518788
+        },
+        {
+          "held_out": "UConn_ISU_cell_06",
+          "baseline_ape": 16.900850152796146,
+          "method_ape": 16.900850152796146,
+          "baseline_ae": 648.1476033597323,
+          "method_ae": 648.1476033597323
+        },
+        {
+          "held_out": "UConn_ISU_cell_07",
+          "baseline_ape": 11.612893682830858,
+          "method_ape": 11.612893682830858,
+          "baseline_ae": 511.1995799182142,
+          "method_ae": 511.1995799182142
+        },
+        {
+          "held_out": "UConn_ISU_cell_08",
+          "baseline_ape": 13.572540694708042,
+          "method_ape": 13.572540694708042,
+          "baseline_ae": 633.5661996289716,
+          "method_ae": 633.5661996289716
+        },
+        {
+          "held_out": "UConn_ISU_cell_09",
+          "baseline_ape": 20.270662484206067,
+          "method_ape": 20.270662484206067,
+          "baseline_ae": 1223.3344809218363,
+          "method_ae": 1223.3344809218363
+        },
+        {
+          "held_out": "UConn_ISU_cell_10",
+          "baseline_ape": 22.482982879742423,
+          "method_ape": 22.482982879742423,
+          "baseline_ae": 908.5373381703911,
+          "method_ae": 908.5373381703911
+        },
+        {
+          "held_out": "UConn_ISU_cell_11",
+          "baseline_ape": 15.151889955928795,
+          "method_ape": 15.151889955928795,
+          "baseline_ae": 658.9556941833436,
+          "method_ae": 658.9556941833436
+        },
+        {
+          "held_out": "UConn_ISU_cell_12",
+          "baseline_ape": 13.289495328527119,
+          "method_ape": 13.289495328527119,
+          "baseline_ae": 653.311590350393,
+          "method_ae": 653.311590350393
+        },
+        {
+          "held_out": "UConn_ISU_cell_13",
+          "baseline_ape": 10.72748634553504,
+          "method_ape": 10.72748634553504,
+          "baseline_ae": 503.011834742138,
+          "method_ae": 503.011834742138
+        },
+        {
+          "held_out": "UConn_ISU_cell_14",
+          "baseline_ape": 54.31935888164814,
+          "method_ape": 54.31935888164814,
+          "baseline_ae": 1405.7850078570543,
+          "method_ae": 1405.7850078570543
+        },
+        {
+          "held_out": "UConn_ISU_cell_15",
+          "baseline_ape": 44.76491699623183,
+          "method_ape": 44.76491699623183,
+          "baseline_ae": 1175.0790711510856,
+          "method_ae": 1175.0790711510856
+        },
+        {
+          "held_out": "UConn_ISU_cell_16",
+          "baseline_ape": 40.273455063119606,
+          "method_ape": 40.273455063119606,
+          "baseline_ae": 1067.649293723301,
+          "method_ae": 1067.649293723301
+        },
+        {
+          "held_out": "UConn_ISU_cell_17",
+          "baseline_ape": 41.816106758832454,
+          "method_ape": 41.816106758832454,
+          "baseline_ae": 1124.8532718125928,
+          "method_ae": 1124.8532718125928
+        },
+        {
+          "held_out": "UConn_ISU_cell_18",
+          "baseline_ape": 43.60111618825835,
+          "method_ape": 43.60111618825835,
+          "baseline_ae": 1184.6423268349793,
+          "method_ae": 1184.6423268349793
+        },
+        {
+          "held_out": "UConn_ISU_cell_19",
+          "baseline_ape": 38.91376211923345,
+          "method_ape": 38.91376211923345,
+          "baseline_ae": 1013.7035032060313,
+          "method_ae": 1013.7035032060313
+        },
+        {
+          "held_out": "UConn_ISU_cell_20",
+          "baseline_ape": 12.49178558967114,
+          "method_ape": 12.49178558967114,
+          "baseline_ae": 590.9863762473417,
+          "method_ae": 590.9863762473417
+        },
+        {
+          "held_out": "UConn_ISU_cell_21",
+          "baseline_ape": 18.461850789055056,
+          "method_ape": 18.461850789055056,
+          "baseline_ae": 978.4780918199178,
+          "method_ae": 978.4780918199178
+        },
+        {
+          "held_out": "UConn_ISU_cell_22",
+          "baseline_ape": 15.287378417588847,
+          "method_ape": 15.287378417588847,
+          "baseline_ae": 750.9160278719642,
+          "method_ae": 750.9160278719642
+        },
+        {
+          "held_out": "UConn_ISU_cell_23",
+          "baseline_ape": 7.67025205893621,
+          "method_ape": 7.67025205893621,
+          "baseline_ae": 319.3125932135144,
+          "method_ae": 319.3125932135144
+        },
+        {
+          "held_out": "UConn_ISU_cell_24",
+          "baseline_ape": 8.44259531472758,
+          "method_ape": 8.44259531472758,
+          "baseline_ae": 356.69965204724025,
+          "method_ae": 356.69965204724025
+        },
+        {
+          "held_out": "UConn_ISU_cell_25",
+          "baseline_ape": 22.011115284157263,
+          "method_ape": 22.011115284157263,
+          "baseline_ae": 1180.8963349950368,
+          "method_ae": 1180.8963349950368
+        },
+        {
+          "held_out": "UConn_ISU_cell_26",
+          "baseline_ape": 28.547985372401037,
+          "method_ape": 28.547985372401037,
+          "baseline_ae": 1988.6526610414573,
+          "method_ae": 1988.6526610414573
+        },
+        {
+          "held_out": "UConn_ISU_cell_27",
+          "baseline_ape": 20.057063965678484,
+          "method_ape": 20.057063965678484,
+          "baseline_ae": 1255.3716336118164,
+          "method_ae": 1255.3716336118164
+        },
+        {
+          "held_out": "UConn_ISU_cell_28",
+          "baseline_ape": 25.320970997921773,
+          "method_ape": 25.320970997921773,
+          "baseline_ae": 1650.9273090644997,
+          "method_ae": 1650.9273090644997
+        },
+        {
+          "held_out": "UConn_ISU_cell_29",
+          "baseline_ape": 31.288336612376156,
+          "method_ape": 31.288336612376156,
+          "baseline_ae": 2272.471888156881,
+          "method_ae": 2272.471888156881
+        },
+        {
+          "held_out": "UConn_ISU_cell_30",
+          "baseline_ape": 27.357323705034716,
+          "method_ape": 27.357323705034716,
+          "baseline_ae": 1868.2316358168207,
+          "method_ae": 1868.2316358168207
+        },
+        {
+          "held_out": "UConn_ISU_cell_31",
+          "baseline_ape": 44.22354324170339,
+          "method_ape": 44.22354324170339,
+          "baseline_ae": 3743.080699977776,
+          "method_ae": 3743.080699977776
+        },
+        {
+          "held_out": "UConn_ISU_cell_32",
+          "baseline_ape": 35.22202158705422,
+          "method_ape": 35.22202158705422,
+          "baseline_ae": 1177.4721816552226,
+          "method_ae": 1177.4721816552226
+        },
+        {
+          "held_out": "UConn_ISU_cell_33",
+          "baseline_ape": 25.45660723209714,
+          "method_ape": 25.45660723209714,
+          "baseline_ae": 886.6536298939436,
+          "method_ae": 886.6536298939436
+        },
+        {
+          "held_out": "UConn_ISU_cell_34",
+          "baseline_ape": 28.795290268593714,
+          "method_ape": 28.795290268593714,
+          "baseline_ae": 1020.2171342162753,
+          "method_ae": 1020.2171342162753
+        },
+        {
+          "held_out": "UConn_ISU_cell_35",
+          "baseline_ape": 44.94344921317647,
+          "method_ape": 44.94344921317647,
+          "baseline_ae": 1380.6627598287807,
+          "method_ae": 1380.6627598287807
+        },
+        {
+          "held_out": "UConn_ISU_cell_36",
+          "baseline_ape": 16.414754123496024,
+          "method_ape": 16.414754123496024,
+          "baseline_ae": 597.1687550127855,
+          "method_ae": 597.1687550127855
+        },
+        {
+          "held_out": "UConn_ISU_cell_37",
+          "baseline_ape": 54.02665688486655,
+          "method_ape": 54.02665688486655,
+          "baseline_ae": 1555.9677182841558,
+          "method_ae": 1555.9677182841558
+        },
+        {
+          "held_out": "UConn_ISU_cell_38",
+          "baseline_ape": 12.05612752066582,
+          "method_ape": 12.05612752066582,
+          "baseline_ae": 474.2880566629935,
+          "method_ae": 474.2880566629935
+        },
+        {
+          "held_out": "UConn_ISU_cell_39",
+          "baseline_ape": 11.315869564287192,
+          "method_ape": 11.315869564287192,
+          "baseline_ae": 483.9797412645632,
+          "method_ae": 483.9797412645632
+        },
+        {
+          "held_out": "UConn_ISU_cell_40",
+          "baseline_ape": 11.269922972644887,
+          "method_ape": 11.269922972644887,
+          "baseline_ae": 444.14766435193496,
+          "method_ae": 444.14766435193496
+        },
+        {
+          "held_out": "UConn_ISU_cell_41",
+          "baseline_ape": 11.663276727151796,
+          "method_ape": 11.663276727151796,
+          "baseline_ae": 431.5412389046164,
+          "method_ae": 431.5412389046164
+        },
+        {
+          "held_out": "UConn_ISU_cell_42",
+          "baseline_ape": 17.124366344222615,
+          "method_ape": 17.124366344222615,
+          "baseline_ae": 624.5256405737986,
+          "method_ae": 624.5256405737986
+        },
+        {
+          "held_out": "UConn_ISU_cell_43",
+          "baseline_ape": 5.757189906701833,
+          "method_ape": 5.757189906701833,
+          "baseline_ae": 224.70312205857255,
+          "method_ae": 224.70312205857255
+        },
+        {
+          "held_out": "UConn_ISU_cell_44",
+          "baseline_ape": 37.495169167727425,
+          "method_ape": 37.495169167727425,
+          "baseline_ae": 1310.831114103751,
+          "method_ae": 1310.831114103751
+        },
+        {
+          "held_out": "UConn_ISU_cell_45",
+          "baseline_ape": 21.994017076628577,
+          "method_ape": 21.994017076628577,
+          "baseline_ae": 880.6404437482079,
+          "method_ae": 880.6404437482079
+        },
+        {
+          "held_out": "UConn_ISU_cell_46",
+          "baseline_ape": 41.72555982871973,
+          "method_ape": 41.72555982871973,
+          "baseline_ae": 1482.9263963126996,
+          "method_ae": 1482.9263963126996
+        },
+        {
+          "held_out": "UConn_ISU_cell_47",
+          "baseline_ape": 15.08833535275974,
+          "method_ape": 15.08833535275974,
+          "baseline_ae": 706.5867445697386,
+          "method_ae": 706.5867445697386
+        },
+        {
+          "held_out": "UConn_ISU_cell_48",
+          "baseline_ape": 34.7193606126967,
+          "method_ape": 34.7193606126967,
+          "baseline_ae": 1204.7618132605753,
+          "method_ae": 1204.7618132605753
+        },
+        {
+          "held_out": "UConn_ISU_cell_49",
+          "baseline_ape": 18.056869692301703,
+          "method_ape": 18.056869692301703,
+          "baseline_ae": 793.5994229766599,
+          "method_ae": 793.5994229766599
+        },
+        {
+          "held_out": "UConn_ISU_cell_50",
+          "baseline_ape": 20.636315073376434,
+          "method_ape": 20.636315073376434,
+          "baseline_ae": 768.7027364832721,
+          "method_ae": 768.7027364832721
+        },
+        {
+          "held_out": "UConn_ISU_cell_51",
+          "baseline_ape": 17.86005835218475,
+          "method_ape": 17.86005835218475,
+          "baseline_ae": 678.1464156324548,
+          "method_ae": 678.1464156324548
+        },
+        {
+          "held_out": "UConn_ISU_cell_52",
+          "baseline_ape": 14.614614928707796,
+          "method_ape": 14.614614928707796,
+          "baseline_ae": 564.124136248121,
+          "method_ae": 564.124136248121
+        },
+        {
+          "held_out": "UConn_ISU_cell_53",
+          "baseline_ape": 16.51959852760567,
+          "method_ape": 16.51959852760567,
+          "baseline_ae": 638.6476790772349,
+          "method_ae": 638.6476790772349
+        },
+        {
+          "held_out": "UConn_ISU_cell_54",
+          "baseline_ape": 17.883573341794264,
+          "method_ape": 17.883573341794264,
+          "baseline_ae": 692.6307955276918,
+          "method_ae": 692.6307955276918
+        },
+        {
+          "held_out": "UConn_ISU_cell_55",
+          "baseline_ape": 12.031145545514933,
+          "method_ape": 12.031145545514933,
+          "baseline_ae": 459.4694483832152,
+          "method_ae": 459.4694483832152
+        },
+        {
+          "held_out": "UConn_ISU_cell_56",
+          "baseline_ape": 27.77383422306112,
+          "method_ape": 27.77383422306112,
+          "baseline_ae": 1684.7607839708876,
+          "method_ae": 1684.7607839708876
+        },
+        {
+          "held_out": "UConn_ISU_cell_57",
+          "baseline_ape": 26.784704050807665,
+          "method_ape": 26.784704050807665,
+          "baseline_ae": 1764.8441499077169,
+          "method_ae": 1764.8441499077169
+        },
+        {
+          "held_out": "UConn_ISU_cell_58",
+          "baseline_ape": 26.946985969790003,
+          "method_ape": 26.946985969790003,
+          "baseline_ae": 1771.4948576539948,
+          "method_ae": 1771.4948576539948
+        },
+        {
+          "held_out": "UConn_ISU_cell_59",
+          "baseline_ape": 18.72854944138383,
+          "method_ape": 18.72854944138383,
+          "baseline_ae": 1089.0651500164702,
+          "method_ae": 1089.0651500164702
+        },
+        {
+          "held_out": "UConn_ISU_cell_60",
+          "baseline_ape": 30.01774135521556,
+          "method_ape": 30.01774135521556,
+          "baseline_ae": 2104.5438464141625,
+          "method_ae": 2104.5438464141625
+        },
+        {
+          "held_out": "UConn_ISU_cell_61",
+          "baseline_ape": 21.548648239131857,
+          "method_ape": 21.548648239131857,
+          "baseline_ae": 1370.9250009735692,
+          "method_ae": 1370.9250009735692
+        },
+        {
+          "held_out": "UConn_ISU_cell_62",
+          "baseline_ape": 34.31228333948252,
+          "method_ape": 34.31228333948252,
+          "baseline_ae": 1022.1629206831849,
+          "method_ae": 1022.1629206831849
+        },
+        {
+          "held_out": "UConn_ISU_cell_63",
+          "baseline_ape": 25.175333524556297,
+          "method_ape": 25.175333524556297,
+          "baseline_ae": 797.5545660579437,
+          "method_ae": 797.5545660579437
+        },
+        {
+          "held_out": "UConn_ISU_cell_64",
+          "baseline_ape": 27.69670759544201,
+          "method_ape": 27.69670759544201,
+          "baseline_ae": 859.70580376252,
+          "method_ae": 859.70580376252
+        },
+        {
+          "held_out": "UConn_ISU_cell_65",
+          "baseline_ape": 52.22667628885757,
+          "method_ape": 52.22667628885757,
+          "baseline_ae": 1416.3874609538175,
+          "method_ae": 1416.3874609538175
+        }
+      ]
+    }
+  ]
+}

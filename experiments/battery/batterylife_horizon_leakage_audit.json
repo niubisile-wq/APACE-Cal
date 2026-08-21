@@ -1,0 +1,169 @@
+{
+  "protocol": "poison every cycle after H and require identical features; poison cycle H and require changed features",
+  "rows": [
+    {
+      "dataset": "CALB",
+      "file": "CALB_0_B182.pkl",
+      "horizon": 10,
+      "tail_from_cycle": 11,
+      "tail_invariant": true,
+      "last_visible_cycle_sensitive": true,
+      "passed": true
+    },
+    {
+      "dataset": "CALB",
+      "file": "CALB_0_B182.pkl",
+      "horizon": 20,
+      "tail_from_cycle": 21,
+      "tail_invariant": true,
+      "last_visible_cycle_sensitive": true,
+      "passed": true
+    },
+    {
+      "dataset": "CALB",
+      "file": "CALB_0_B182.pkl",
+      "horizon": 50,
+      "tail_from_cycle": 51,
+      "tail_invariant": true,
+      "last_visible_cycle_sensitive": true,
+      "passed": true
+    },
+    {
+      "dataset": "HNEI",
+      "file": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_a.pkl",
+      "horizon": 10,
+      "tail_from_cycle": 11,
+      "tail_invariant": true,
+      "last_visible_cycle_sensitive": true,
+      "passed": true
+    },
+    {
+      "dataset": "HNEI",
+      "file": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_a.pkl",
+      "horizon": 20,
+      "tail_from_cycle": 21,
+      "tail_invariant": true,
+      "last_visible_cycle_sensitive": true,
+      "passed": true
+    },
+    {
+      "dataset": "HNEI",
+      "file": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_a.pkl",
+      "horizon": 50,
+      "tail_from_cycle": 51,
+      "tail_invariant": true,
+      "last_visible_cycle_sensitive": true,
+      "passed": true
+    },
+    {
+      "dataset": "MICH_EXP",
+      "file": "MICH_01R_pouch_NMC_25C_0-100_0.2-0.2C.pkl",
+      "horizon": 10,
+      "tail_from_cycle": 11,
+      "tail_invariant": true,
+      "last_visible_cycle_sensitive": true,
+      "passed": true
+    },
+    {
+      "dataset": "MICH_EXP",
+      "file": "MICH_01R_pouch_NMC_25C_0-100_0.2-0.2C.pkl",
+      "horizon": 20,
+      "tail_from_cycle": 21,
+      "tail_invariant": true,
+      "last_visible_cycle_sensitive": true,
+      "passed": true
+    },
+    {
+      "dataset": "MICH_EXP",
+      "file": "MICH_01R_pouch_NMC_25C_0-100_0.2-0.2C.pkl",
+      "horizon": 50,
+      "tail_from_cycle": 51,
+      "tail_invariant": true,
+      "last_visible_cycle_sensitive": true,
+      "passed": true
+    },
+    {
+      "dataset": "CALCE",
+      "file": "CALCE_CS2_33.pkl",
+      "horizon": 10,
+      "tail_from_cycle": 11,
+      "tail_invariant": true,
+      "last_visible_cycle_sensitive": true,
+      "passed": true
+    },
+    {
+      "dataset": "CALCE",
+      "file": "CALCE_CS2_33.pkl",
+      "horizon": 20,
+      "tail_from_cycle": 21,
+      "tail_invariant": true,
+      "last_visible_cycle_sensitive": true,
+      "passed": true
+    },
+    {
+      "dataset": "CALCE",
+      "file": "CALCE_CS2_33.pkl",
+      "horizon": 50,
+      "tail_from_cycle": 51,
+      "tail_invariant": true,
+      "last_visible_cycle_sensitive": true,
+      "passed": true
+    },
+    {
+      "dataset": "MICH",
+      "file": "MICH_BLForm10_pouch_NMC_25C_0-100_1-1C_j.pkl",
+      "horizon": 10,
+      "tail_from_cycle": 11,
+      "tail_invariant": true,
+      "last_visible_cycle_sensitive": true,
+      "passed": true
+    },
+    {
+      "dataset": "MICH",
+      "file": "MICH_BLForm10_pouch_NMC_25C_0-100_1-1C_j.pkl",
+      "horizon": 20,
+      "tail_from_cycle": 21,
+      "tail_invariant": true,
+      "last_visible_cycle_sensitive": true,
+      "passed": true
+    },
+    {
+      "dataset": "MICH",
+      "file": "MICH_BLForm10_pouch_NMC_25C_0-100_1-1C_j.pkl",
+      "horizon": 50,
+      "tail_from_cycle": 51,
+      "tail_invariant": true,
+      "last_visible_cycle_sensitive": true,
+      "passed": true
+    },
+    {
+      "dataset": "SNL",
+      "file": "SNL_18650_LFP_15C_0-100_0.5-2C_b.pkl",
+      "horizon": 10,
+      "tail_from_cycle": 11,
+      "tail_invariant": true,
+      "last_visible_cycle_sensitive": true,
+      "passed": true
+    },
+    {
+      "dataset": "SNL",
+      "file": "SNL_18650_LFP_15C_0-100_0.5-2C_b.pkl",
+      "horizon": 20,
+      "tail_from_cycle": 21,
+      "tail_invariant": true,
+      "last_visible_cycle_sensitive": true,
+      "passed": true
+    },
+    {
+      "dataset": "SNL",
+      "file": "SNL_18650_LFP_15C_0-100_0.5-2C_b.pkl",
+      "horizon": 50,
+      "tail_from_cycle": 51,
+      "tail_invariant": true,
+      "last_visible_cycle_sensitive": true,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "n_checks": 18
+}

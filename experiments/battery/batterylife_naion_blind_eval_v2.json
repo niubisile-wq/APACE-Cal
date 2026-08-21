@@ -1,0 +1,3190 @@
+{
+  "phase": "ONE_SHOT_LABEL_OPENED_EVALUATION_V2",
+  "manifest": "experiments/battery/batterylife_naion_prelabel_manifest_v2.json",
+  "manifest_sha256": "649d583a7c4f932c01b8aa0a3ed5f464c48a210b3eca708e2e97b927defe478b",
+  "dataset": "NA-ion",
+  "label_file_sha256": "2b1ac109f4b06f762bf93d2ec39158135cc529427c39fa30e6248639743c8258",
+  "active_settings_frozen_prelabel": [],
+  "results": [
+    {
+      "horizon": 10,
+      "label_budget_k": 1,
+      "protocol_dispersion": 0.0,
+      "route_counts": {
+        "fallback_zero_protocol_dispersion": 100
+      },
+      "baseline": {
+        "mae": 61.195197766464645,
+        "mape": 35.539655376841246,
+        "n_cells": 34
+      },
+      "method": {
+        "mae": 61.195197766464645,
+        "mape": 35.539655376841246,
+        "n_cells": 34
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        34,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "NA-ion_270040-1-2-63.pkl",
+          "baseline_ape": 23.951378188666325,
+          "method_ape": 23.951378188666325,
+          "baseline_ae": 42.393939393939384,
+          "method_ae": 42.393939393939384
+        },
+        {
+          "held_out": "NA-ion_270040-1-3-62.pkl",
+          "baseline_ape": 32.89179104477613,
+          "method_ape": 32.89179104477613,
+          "baseline_ae": 88.15,
+          "method_ae": 88.15
+        },
+        {
+          "held_out": "NA-ion_270040-1-5-60.pkl",
+          "baseline_ape": 28.262626262626252,
+          "method_ape": 28.262626262626252,
+          "baseline_ae": 46.63333333333332,
+          "method_ae": 46.63333333333332
+        },
+        {
+          "held_out": "NA-ion_270040-1-6-59.pkl",
+          "baseline_ape": 25.186567164179095,
+          "method_ape": 25.186567164179095,
+          "baseline_ae": 50.62499999999999,
+          "method_ae": 50.62499999999999
+        },
+        {
+          "held_out": "NA-ion_270040-1-7-58.pkl",
+          "baseline_ape": 25.625565269822136,
+          "method_ape": 25.625565269822136,
+          "baseline_ae": 54.83870967741935,
+          "method_ae": 54.83870967741935
+        },
+        {
+          "held_out": "NA-ion_270040-1-8-57.pkl",
+          "baseline_ape": 42.40143771762329,
+          "method_ape": 42.40143771762329,
+          "baseline_ae": 130.17241379310346,
+          "method_ae": 130.17241379310346
+        },
+        {
+          "held_out": "NA-ion_270040-2-2-12.pkl",
+          "baseline_ape": 24.63291139240506,
+          "method_ape": 24.63291139240506,
+          "baseline_ae": 38.92,
+          "method_ae": 38.92
+        },
+        {
+          "held_out": "NA-ion_270040-2-5-12.pkl",
+          "baseline_ape": 46.43036701860231,
+          "method_ape": 46.43036701860231,
+          "baseline_ae": 54.323529411764696,
+          "method_ae": 54.323529411764696
+        },
+        {
+          "held_out": "NA-ion_270040-3-1-56.pkl",
+          "baseline_ape": 46.469907407407405,
+          "method_ape": 46.469907407407405,
+          "baseline_ae": 59.48148148148148,
+          "method_ae": 59.48148148148148
+        },
+        {
+          "held_out": "NA-ion_270040-3-2-55.pkl",
+          "baseline_ape": 25.903225806451612,
+          "method_ape": 25.903225806451612,
+          "baseline_ae": 51.806451612903224,
+          "method_ae": 51.806451612903224
+        },
+        {
+          "held_out": "NA-ion_270040-3-3-54.pkl",
+          "baseline_ape": 43.434343434343425,
+          "method_ape": 43.434343434343425,
+          "baseline_ae": 57.33333333333333,
+          "method_ae": 57.33333333333333
+        },
+        {
+          "held_out": "NA-ion_270040-3-4-53.pkl",
+          "baseline_ape": 21.75787106446776,
+          "method_ape": 21.75787106446776,
+          "baseline_ae": 40.034482758620676,
+          "method_ae": 40.034482758620676
+        },
+        {
+          "held_out": "NA-ion_270040-3-5-52.pkl",
+          "baseline_ape": 32.33883233883235,
+          "method_ape": 32.33883233883235,
+          "baseline_ae": 74.70270270270271,
+          "method_ae": 74.70270270270271
+        },
+        {
+          "held_out": "NA-ion_270040-3-7-50.pkl",
+          "baseline_ape": 66.54719235364395,
+          "method_ape": 66.54719235364395,
+          "baseline_ae": 71.87096774193549,
+          "method_ae": 71.87096774193549
+        },
+        {
+          "held_out": "NA-ion_270040-3-8-49.pkl",
+          "baseline_ape": 34.777556440903055,
+          "method_ape": 34.777556440903055,
+          "baseline_ae": 87.29166666666667,
+          "method_ae": 87.29166666666667
+        },
+        {
+          "held_out": "NA-ion_270040-4-1-48.pkl",
+          "baseline_ape": 32.71685761047463,
+          "method_ape": 32.71685761047463,
+          "baseline_ae": 76.88461538461539,
+          "method_ae": 76.88461538461539
+        },
+        {
+          "held_out": "NA-ion_270040-4-2-47.pkl",
+          "baseline_ape": 25.707702435813033,
+          "method_ape": 25.707702435813033,
+          "baseline_ae": 50.38709677419355,
+          "method_ae": 50.38709677419355
+        },
+        {
+          "held_out": "NA-ion_270040-4-3-46.pkl",
+          "baseline_ape": 27.83340008009611,
+          "method_ape": 27.83340008009611,
+          "baseline_ae": 63.18181818181818,
+          "method_ae": 63.18181818181818
+        },
+        {
+          "held_out": "NA-ion_270040-4-6-43.pkl",
+          "baseline_ape": 35.052248977737385,
+          "method_ape": 35.052248977737385,
+          "baseline_ae": 49.77419354838709,
+          "method_ae": 49.77419354838709
+        },
+        {
+          "held_out": "NA-ion_270040-5-1-39.pkl",
+          "baseline_ape": 42.82670454545455,
+          "method_ape": 42.82670454545455,
+          "baseline_ae": 54.81818181818182,
+          "method_ae": 54.81818181818182
+        },
+        {
+          "held_out": "NA-ion_270040-5-2-38.pkl",
+          "baseline_ape": 64.49999999999999,
+          "method_ape": 64.49999999999999,
+          "baseline_ae": 77.39999999999999,
+          "method_ae": 77.39999999999999
+        },
+        {
+          "held_out": "NA-ion_270040-5-3-37.pkl",
+          "baseline_ape": 36.43036701860231,
+          "method_ape": 36.43036701860231,
+          "baseline_ae": 92.8974358974359,
+          "method_ae": 92.8974358974359
+        },
+        {
+          "held_out": "NA-ion_270040-5-5-35.pkl",
+          "baseline_ape": 25.023148148148138,
+          "method_ape": 25.023148148148138,
+          "baseline_ae": 45.041666666666636,
+          "method_ae": 45.041666666666636
+        },
+        {
+          "held_out": "NA-ion_270040-5-6-34.pkl",
+          "baseline_ape": 38.138578978273614,
+          "method_ape": 38.138578978273614,
+          "baseline_ae": 49.961538461538446,
+          "method_ae": 49.961538461538446
+        },
+        {
+          "held_out": "NA-ion_270040-5-7-33.pkl",
+          "baseline_ape": 30.532015065913356,
+          "method_ape": 30.532015065913356,
+          "baseline_ae": 54.04166666666666,
+          "method_ae": 54.04166666666666
+        },
+        {
+          "held_out": "NA-ion_270040-5-8-32.pkl",
+          "baseline_ape": 75.78728461081401,
+          "method_ape": 75.78728461081401,
+          "baseline_ae": 77.3030303030303,
+          "method_ae": 77.3030303030303
+        },
+        {
+          "held_out": "NA-ion_270040-6-2-30.pkl",
+          "baseline_ape": 31.57768157768156,
+          "method_ape": 31.57768157768156,
+          "baseline_ae": 48.629629629629626,
+          "method_ae": 48.629629629629626
+        },
+        {
+          "held_out": "NA-ion_270040-6-6-26.pkl",
+          "baseline_ape": 31.623563218390814,
+          "method_ape": 31.623563218390814,
+          "baseline_ae": 73.36666666666666,
+          "method_ae": 73.36666666666666
+        },
+        {
+          "held_out": "NA-ion_270040-6-8-24.pkl",
+          "baseline_ape": 36.86935740839086,
+          "method_ape": 36.86935740839086,
+          "baseline_ae": 99.17857142857143,
+          "method_ae": 99.17857142857143
+        },
+        {
+          "held_out": "NA-ion_270040-7-1-23.pkl",
+          "baseline_ape": 20.7018787663949,
+          "method_ape": 20.7018787663949,
+          "baseline_ae": 37.677419354838705,
+          "method_ae": 37.677419354838705
+        },
+        {
+          "held_out": "NA-ion_270040-8-5-16.pkl",
+          "baseline_ape": 25.5358807082945,
+          "method_ape": 25.5358807082945,
+          "baseline_ae": 37.79310344827584,
+          "method_ae": 37.79310344827584
+        },
+        {
+          "held_out": "NA-ion_4000-30_20250115110206_DefaultGroup_45_1.pkl",
+          "baseline_ape": 44.57983193277311,
+          "method_ape": 44.57983193277311,
+          "baseline_ae": 53.04999999999999,
+          "method_ae": 53.04999999999999
+        },
+        {
+          "held_out": "NA-ion_4500-30_20250114232539_DefaultGroup_45_8.pkl",
+          "baseline_ape": 22.6441241685144,
+          "method_ape": 22.6441241685144,
+          "baseline_ae": 37.13636363636362,
+          "method_ae": 37.13636363636362
+        },
+        {
+          "held_out": "NA-ion_5000-25_20250115110326_DefaultGroup_38_1.pkl",
+          "baseline_ape": 39.65608465608465,
+          "method_ape": 39.65608465608465,
+          "baseline_ae": 53.53571428571428,
+          "method_ae": 53.53571428571428
+        }
+      ]
+    },
+    {
+      "horizon": 10,
+      "label_budget_k": 3,
+      "protocol_dispersion": 0.0,
+      "route_counts": {
+        "fallback_zero_protocol_dispersion": 100
+      },
+      "baseline": {
+        "mae": 51.08573627948303,
+        "mape": 30.67774165411234,
+        "n_cells": 34
+      },
+      "method": {
+        "mae": 51.08573627948303,
+        "mape": 30.67774165411234,
+        "n_cells": 34
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        34,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "NA-ion_270040-1-2-63.pkl",
+          "baseline_ape": 20.043017797249867,
+          "method_ape": 20.043017797249867,
+          "baseline_ae": 35.47614150113226,
+          "method_ae": 35.47614150113226
+        },
+        {
+          "held_out": "NA-ion_270040-1-3-62.pkl",
+          "baseline_ape": 36.474204877105414,
+          "method_ape": 36.474204877105414,
+          "baseline_ae": 97.75086907064248,
+          "method_ae": 97.75086907064248
+        },
+        {
+          "held_out": "NA-ion_270040-1-5-60.pkl",
+          "baseline_ape": 21.067470480909364,
+          "method_ape": 21.067470480909364,
+          "baseline_ae": 34.761326293500424,
+          "method_ae": 34.761326293500424
+        },
+        {
+          "held_out": "NA-ion_270040-1-6-59.pkl",
+          "baseline_ape": 18.84657734519138,
+          "method_ape": 18.84657734519138,
+          "baseline_ae": 37.881620463834686,
+          "method_ae": 37.881620463834686
+        },
+        {
+          "held_out": "NA-ion_270040-1-7-58.pkl",
+          "baseline_ape": 19.763363842554188,
+          "method_ape": 19.763363842554188,
+          "baseline_ae": 42.29359862306597,
+          "method_ae": 42.29359862306597
+        },
+        {
+          "held_out": "NA-ion_270040-1-8-57.pkl",
+          "baseline_ape": 38.21669052289693,
+          "method_ape": 38.21669052289693,
+          "baseline_ae": 117.3252399052936,
+          "method_ae": 117.3252399052936
+        },
+        {
+          "held_out": "NA-ion_270040-2-2-12.pkl",
+          "baseline_ape": 19.24519456165025,
+          "method_ape": 19.24519456165025,
+          "baseline_ae": 30.407407407407398,
+          "method_ae": 30.407407407407398
+        },
+        {
+          "held_out": "NA-ion_270040-2-5-12.pkl",
+          "baseline_ape": 49.21373208134068,
+          "method_ape": 49.21373208134068,
+          "baseline_ae": 57.58006653516859,
+          "method_ae": 57.58006653516859
+        },
+        {
+          "held_out": "NA-ion_270040-3-1-56.pkl",
+          "baseline_ape": 36.80047242033086,
+          "method_ape": 36.80047242033086,
+          "baseline_ae": 47.104604698023486,
+          "method_ae": 47.104604698023486
+        },
+        {
+          "held_out": "NA-ion_270040-3-2-55.pkl",
+          "baseline_ape": 14.75861354435014,
+          "method_ape": 14.75861354435014,
+          "baseline_ae": 29.51722708870028,
+          "method_ae": 29.51722708870028
+        },
+        {
+          "held_out": "NA-ion_270040-3-3-54.pkl",
+          "baseline_ape": 46.58049469286331,
+          "method_ape": 46.58049469286331,
+          "baseline_ae": 61.48625299457958,
+          "method_ae": 61.48625299457958
+        },
+        {
+          "held_out": "NA-ion_270040-3-4-53.pkl",
+          "baseline_ape": 19.393411113325957,
+          "method_ape": 19.393411113325957,
+          "baseline_ae": 35.68387644851975,
+          "method_ae": 35.68387644851975
+        },
+        {
+          "held_out": "NA-ion_270040-3-5-52.pkl",
+          "baseline_ape": 20.736519611072932,
+          "method_ape": 20.736519611072932,
+          "baseline_ae": 47.901360301578464,
+          "method_ae": 47.901360301578464
+        },
+        {
+          "held_out": "NA-ion_270040-3-7-50.pkl",
+          "baseline_ape": 48.15068640527421,
+          "method_ape": 48.15068640527421,
+          "baseline_ae": 52.00274131769613,
+          "method_ae": 52.00274131769613
+        },
+        {
+          "held_out": "NA-ion_270040-3-8-49.pkl",
+          "baseline_ape": 23.024370029312962,
+          "method_ape": 23.024370029312962,
+          "baseline_ae": 57.79116877357554,
+          "method_ae": 57.79116877357554
+        },
+        {
+          "held_out": "NA-ion_270040-4-1-48.pkl",
+          "baseline_ape": 15.790110452263518,
+          "method_ape": 15.790110452263518,
+          "baseline_ae": 37.10675956281928,
+          "method_ae": 37.10675956281928
+        },
+        {
+          "held_out": "NA-ion_270040-4-2-47.pkl",
+          "baseline_ape": 13.069644730528026,
+          "method_ape": 13.069644730528026,
+          "baseline_ae": 25.616503671834938,
+          "method_ae": 25.616503671834938
+        },
+        {
+          "held_out": "NA-ion_270040-4-3-46.pkl",
+          "baseline_ape": 15.554935648209323,
+          "method_ape": 15.554935648209323,
+          "baseline_ae": 35.30970392143517,
+          "method_ae": 35.30970392143517
+        },
+        {
+          "held_out": "NA-ion_270040-4-6-43.pkl",
+          "baseline_ape": 31.982579222721956,
+          "method_ape": 31.982579222721956,
+          "baseline_ae": 45.41526249626517,
+          "method_ae": 45.41526249626517
+        },
+        {
+          "held_out": "NA-ion_270040-5-1-39.pkl",
+          "baseline_ape": 44.3080357142857,
+          "method_ape": 44.3080357142857,
+          "baseline_ae": 56.71428571428571,
+          "method_ae": 56.71428571428571
+        },
+        {
+          "held_out": "NA-ion_270040-5-2-38.pkl",
+          "baseline_ape": 41.13770911348406,
+          "method_ape": 41.13770911348406,
+          "baseline_ae": 49.365250936180864,
+          "method_ae": 49.365250936180864
+        },
+        {
+          "held_out": "NA-ion_270040-5-3-37.pkl",
+          "baseline_ape": 26.953171373329038,
+          "method_ape": 26.953171373329038,
+          "baseline_ae": 68.73058700198904,
+          "method_ae": 68.73058700198904
+        },
+        {
+          "held_out": "NA-ion_270040-5-5-35.pkl",
+          "baseline_ape": 21.962298390998065,
+          "method_ape": 21.962298390998065,
+          "baseline_ae": 39.5321371037965,
+          "method_ae": 39.5321371037965
+        },
+        {
+          "held_out": "NA-ion_270040-5-6-34.pkl",
+          "baseline_ape": 41.94051770914985,
+          "method_ape": 41.94051770914985,
+          "baseline_ae": 54.942078198986295,
+          "method_ae": 54.942078198986295
+        },
+        {
+          "held_out": "NA-ion_270040-5-7-33.pkl",
+          "baseline_ape": 14.821452230087282,
+          "method_ape": 14.821452230087282,
+          "baseline_ae": 26.233970447254492,
+          "method_ae": 26.233970447254492
+        },
+        {
+          "held_out": "NA-ion_270040-5-8-32.pkl",
+          "baseline_ape": 69.46431685348233,
+          "method_ape": 69.46431685348233,
+          "baseline_ae": 70.85360319055196,
+          "method_ae": 70.85360319055196
+        },
+        {
+          "held_out": "NA-ion_270040-6-2-30.pkl",
+          "baseline_ape": 20.93289655279836,
+          "method_ape": 20.93289655279836,
+          "baseline_ae": 32.23666069130947,
+          "method_ae": 32.23666069130947
+        },
+        {
+          "held_out": "NA-ion_270040-6-6-26.pkl",
+          "baseline_ape": 17.633816092823913,
+          "method_ape": 17.633816092823913,
+          "baseline_ae": 40.91045333535147,
+          "method_ae": 40.91045333535147
+        },
+        {
+          "held_out": "NA-ion_270040-6-8-24.pkl",
+          "baseline_ape": 30.725859585244507,
+          "method_ape": 30.725859585244507,
+          "baseline_ae": 82.6525622843077,
+          "method_ae": 82.6525622843077
+        },
+        {
+          "held_out": "NA-ion_270040-7-1-23.pkl",
+          "baseline_ape": 21.38725472561385,
+          "method_ape": 21.38725472561385,
+          "baseline_ae": 38.924803600617196,
+          "method_ae": 38.924803600617196
+        },
+        {
+          "held_out": "NA-ion_270040-8-5-16.pkl",
+          "baseline_ape": 29.801499107080787,
+          "method_ape": 29.801499107080787,
+          "baseline_ae": 44.106218678479564,
+          "method_ae": 44.106218678479564
+        },
+        {
+          "held_out": "NA-ion_4000-30_20250115110206_DefaultGroup_45_1.pkl",
+          "baseline_ape": 70.2581032412965,
+          "method_ape": 70.2581032412965,
+          "baseline_ae": 83.60714285714285,
+          "method_ae": 83.60714285714285
+        },
+        {
+          "held_out": "NA-ion_4500-30_20250114232539_DefaultGroup_45_8.pkl",
+          "baseline_ape": 26.337529504327293,
+          "method_ape": 26.337529504327293,
+          "baseline_ae": 43.19354838709676,
+          "method_ae": 43.19354838709676
+        },
+        {
+          "held_out": "NA-ion_5000-25_20250115110326_DefaultGroup_38_1.pkl",
+          "baseline_ape": 56.666666666666636,
+          "method_ape": 56.666666666666636,
+          "baseline_ae": 76.49999999999999,
+          "method_ae": 76.49999999999999
+        }
+      ]
+    },
+    {
+      "horizon": 10,
+      "label_budget_k": 5,
+      "protocol_dispersion": 0.0,
+      "route_counts": {
+        "fallback_zero_protocol_dispersion": 100
+      },
+      "baseline": {
+        "mae": 45.02554092115254,
+        "mape": 27.150046590117817,
+        "n_cells": 34
+      },
+      "method": {
+        "mae": 45.02554092115254,
+        "mape": 27.150046590117817,
+        "n_cells": 34
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        34,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "NA-ion_270040-1-2-63.pkl",
+          "baseline_ape": 17.070339275351753,
+          "method_ape": 17.070339275351753,
+          "baseline_ae": 30.214500517372603,
+          "method_ae": 30.214500517372603
+        },
+        {
+          "held_out": "NA-ion_270040-1-3-62.pkl",
+          "baseline_ape": 41.03892695327326,
+          "method_ape": 41.03892695327326,
+          "baseline_ae": 109.98432423477233,
+          "method_ae": 109.98432423477233
+        },
+        {
+          "held_out": "NA-ion_270040-1-5-60.pkl",
+          "baseline_ape": 17.09446513249286,
+          "method_ape": 17.09446513249286,
+          "baseline_ae": 28.205867468613224,
+          "method_ae": 28.205867468613224
+        },
+        {
+          "held_out": "NA-ion_270040-1-6-59.pkl",
+          "baseline_ape": 11.96470701000961,
+          "method_ape": 11.96470701000961,
+          "baseline_ae": 24.049061090119316,
+          "method_ae": 24.049061090119316
+        },
+        {
+          "held_out": "NA-ion_270040-1-7-58.pkl",
+          "baseline_ape": 16.926264123995807,
+          "method_ape": 16.926264123995807,
+          "baseline_ae": 36.22220522535103,
+          "method_ae": 36.22220522535103
+        },
+        {
+          "held_out": "NA-ion_270040-1-8-57.pkl",
+          "baseline_ape": 35.880702685061685,
+          "method_ape": 35.880702685061685,
+          "baseline_ae": 110.15375724313937,
+          "method_ae": 110.15375724313937
+        },
+        {
+          "held_out": "NA-ion_270040-2-2-12.pkl",
+          "baseline_ape": 21.753398968588836,
+          "method_ape": 21.753398968588836,
+          "baseline_ae": 34.37037037037036,
+          "method_ae": 34.37037037037036
+        },
+        {
+          "held_out": "NA-ion_270040-2-5-12.pkl",
+          "baseline_ape": 47.90703289846243,
+          "method_ape": 47.90703289846243,
+          "baseline_ae": 56.05122849120107,
+          "method_ae": 56.05122849120107
+        },
+        {
+          "held_out": "NA-ion_270040-3-1-56.pkl",
+          "baseline_ape": 31.264111114108378,
+          "method_ape": 31.264111114108378,
+          "baseline_ae": 40.01806222605873,
+          "method_ae": 40.01806222605873
+        },
+        {
+          "held_out": "NA-ion_270040-3-2-55.pkl",
+          "baseline_ape": 13.190017461088289,
+          "method_ape": 13.190017461088289,
+          "baseline_ae": 26.380034922176577,
+          "method_ae": 26.380034922176577
+        },
+        {
+          "held_out": "NA-ion_270040-3-3-54.pkl",
+          "baseline_ape": 35.985087806568366,
+          "method_ape": 35.985087806568366,
+          "baseline_ae": 47.50031590467024,
+          "method_ae": 47.50031590467024
+        },
+        {
+          "held_out": "NA-ion_270040-3-4-53.pkl",
+          "baseline_ape": 12.112576191304441,
+          "method_ape": 12.112576191304441,
+          "baseline_ae": 22.287140192000166,
+          "method_ae": 22.287140192000166
+        },
+        {
+          "held_out": "NA-ion_270040-3-5-52.pkl",
+          "baseline_ape": 15.184219512765274,
+          "method_ape": 15.184219512765274,
+          "baseline_ae": 35.075547074487766,
+          "method_ae": 35.075547074487766
+        },
+        {
+          "held_out": "NA-ion_270040-3-7-50.pkl",
+          "baseline_ape": 43.816507906494415,
+          "method_ape": 43.816507906494415,
+          "baseline_ae": 47.321828539013964,
+          "method_ae": 47.321828539013964
+        },
+        {
+          "held_out": "NA-ion_270040-3-8-49.pkl",
+          "baseline_ape": 23.125475764831858,
+          "method_ape": 23.125475764831858,
+          "baseline_ae": 58.04494416972796,
+          "method_ae": 58.04494416972796
+        },
+        {
+          "held_out": "NA-ion_270040-4-1-48.pkl",
+          "baseline_ape": 9.76915879738422,
+          "method_ape": 9.76915879738422,
+          "baseline_ae": 22.95752317385291,
+          "method_ae": 22.95752317385291
+        },
+        {
+          "held_out": "NA-ion_270040-4-2-47.pkl",
+          "baseline_ape": 13.588519445402728,
+          "method_ape": 13.588519445402728,
+          "baseline_ae": 26.633498112989347,
+          "method_ae": 26.633498112989347
+        },
+        {
+          "held_out": "NA-ion_270040-4-3-46.pkl",
+          "baseline_ape": 11.788776159259562,
+          "method_ape": 11.788776159259562,
+          "baseline_ae": 26.760521881519217,
+          "method_ae": 26.760521881519217
+        },
+        {
+          "held_out": "NA-ion_270040-4-6-43.pkl",
+          "baseline_ape": 27.714685440419117,
+          "method_ape": 27.714685440419117,
+          "baseline_ae": 39.35485332539511,
+          "method_ae": 39.35485332539511
+        },
+        {
+          "held_out": "NA-ion_270040-5-1-39.pkl",
+          "baseline_ape": 28.566576086956513,
+          "method_ape": 28.566576086956513,
+          "baseline_ae": 36.56521739130434,
+          "method_ae": 36.56521739130434
+        },
+        {
+          "held_out": "NA-ion_270040-5-2-38.pkl",
+          "baseline_ape": 49.980225310372866,
+          "method_ape": 49.980225310372866,
+          "baseline_ae": 59.976270372447445,
+          "method_ae": 59.976270372447445
+        },
+        {
+          "held_out": "NA-ion_270040-5-3-37.pkl",
+          "baseline_ape": 25.667027405354236,
+          "method_ape": 25.667027405354236,
+          "baseline_ae": 65.45091988365331,
+          "method_ae": 65.45091988365331
+        },
+        {
+          "held_out": "NA-ion_270040-5-5-35.pkl",
+          "baseline_ape": 13.448802539892784,
+          "method_ape": 13.448802539892784,
+          "baseline_ae": 24.207844571807012,
+          "method_ae": 24.207844571807012
+        },
+        {
+          "held_out": "NA-ion_270040-5-6-34.pkl",
+          "baseline_ape": 48.48656333906658,
+          "method_ape": 48.48656333906658,
+          "baseline_ae": 63.51739797417721,
+          "method_ae": 63.51739797417721
+        },
+        {
+          "held_out": "NA-ion_270040-5-7-33.pkl",
+          "baseline_ape": 10.162917365841599,
+          "method_ape": 10.162917365841599,
+          "baseline_ae": 17.988363737539625,
+          "method_ae": 17.988363737539625
+        },
+        {
+          "held_out": "NA-ion_270040-5-8-32.pkl",
+          "baseline_ape": 57.66549080594668,
+          "method_ape": 57.66549080594668,
+          "baseline_ae": 58.81880062206561,
+          "method_ae": 58.81880062206561
+        },
+        {
+          "held_out": "NA-ion_270040-6-2-30.pkl",
+          "baseline_ape": 22.20989682259392,
+          "method_ape": 22.20989682259392,
+          "baseline_ae": 34.20324110679464,
+          "method_ae": 34.20324110679464
+        },
+        {
+          "held_out": "NA-ion_270040-6-6-26.pkl",
+          "baseline_ape": 16.82969492268384,
+          "method_ape": 16.82969492268384,
+          "baseline_ae": 39.044892220626494,
+          "method_ae": 39.044892220626494
+        },
+        {
+          "held_out": "NA-ion_270040-6-8-24.pkl",
+          "baseline_ape": 24.548405386270804,
+          "method_ape": 24.548405386270804,
+          "baseline_ae": 66.03521048906843,
+          "method_ae": 66.03521048906843
+        },
+        {
+          "held_out": "NA-ion_270040-7-1-23.pkl",
+          "baseline_ape": 12.271765251451699,
+          "method_ape": 12.271765251451699,
+          "baseline_ae": 22.334612757642095,
+          "method_ae": 22.334612757642095
+        },
+        {
+          "held_out": "NA-ion_270040-8-5-16.pkl",
+          "baseline_ape": 14.983811303771358,
+          "method_ape": 14.983811303771358,
+          "baseline_ae": 22.176040729581597,
+          "method_ae": 22.176040729581597
+        },
+        {
+          "held_out": "NA-ion_4000-30_20250115110206_DefaultGroup_45_1.pkl",
+          "baseline_ape": 80.45305078553157,
+          "method_ape": 80.45305078553157,
+          "baseline_ae": 95.7391304347826,
+          "method_ae": 95.7391304347826
+        },
+        {
+          "held_out": "NA-ion_4500-30_20250114232539_DefaultGroup_45_8.pkl",
+          "baseline_ape": 27.048780487804855,
+          "method_ape": 27.048780487804855,
+          "baseline_ae": 44.359999999999985,
+          "method_ae": 44.359999999999985
+        },
+        {
+          "held_out": "NA-ion_5000-25_20250115110326_DefaultGroup_38_1.pkl",
+          "baseline_ape": 43.60360360360359,
+          "method_ape": 43.60360360360359,
+          "baseline_ae": 58.864864864864856,
+          "method_ae": 58.864864864864856
+        }
+      ]
+    },
+    {
+      "horizon": 10,
+      "label_budget_k": 10,
+      "protocol_dispersion": 0.0,
+      "route_counts": {
+        "fallback_zero_protocol_dispersion": 100
+      },
+      "baseline": {
+        "mae": 39.218138013131025,
+        "mape": 23.051229309668408,
+        "n_cells": 34
+      },
+      "method": {
+        "mae": 39.218138013131025,
+        "mape": 23.051229309668408,
+        "n_cells": 34
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        34,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "NA-ion_270040-1-2-63.pkl",
+          "baseline_ape": 7.116097963960559,
+          "method_ape": 7.116097963960559,
+          "baseline_ae": 12.59549339621019,
+          "method_ae": 12.59549339621019
+        },
+        {
+          "held_out": "NA-ion_270040-1-3-62.pkl",
+          "baseline_ape": 43.16854768274048,
+          "method_ape": 43.16854768274048,
+          "baseline_ae": 115.69170778974448,
+          "method_ae": 115.69170778974448
+        },
+        {
+          "held_out": "NA-ion_270040-1-5-60.pkl",
+          "baseline_ape": 15.03137377853405,
+          "method_ape": 15.03137377853405,
+          "baseline_ae": 24.801766734581182,
+          "method_ae": 24.801766734581182
+        },
+        {
+          "held_out": "NA-ion_270040-1-6-59.pkl",
+          "baseline_ape": 6.608715205608934,
+          "method_ape": 6.608715205608934,
+          "baseline_ae": 13.283517563273962,
+          "method_ae": 13.283517563273962
+        },
+        {
+          "held_out": "NA-ion_270040-1-7-58.pkl",
+          "baseline_ape": 17.13944114937936,
+          "method_ape": 17.13944114937936,
+          "baseline_ae": 36.67840405967182,
+          "method_ae": 36.67840405967182
+        },
+        {
+          "held_out": "NA-ion_270040-1-8-57.pkl",
+          "baseline_ape": 36.557512439697604,
+          "method_ape": 36.557512439697604,
+          "baseline_ae": 112.23156318987161,
+          "method_ae": 112.23156318987161
+        },
+        {
+          "held_out": "NA-ion_270040-2-2-12.pkl",
+          "baseline_ape": 11.844484629294765,
+          "method_ape": 11.844484629294765,
+          "baseline_ae": 18.714285714285726,
+          "method_ae": 18.714285714285726
+        },
+        {
+          "held_out": "NA-ion_270040-2-5-12.pkl",
+          "baseline_ape": 28.95822877153176,
+          "method_ape": 28.95822877153176,
+          "baseline_ae": 33.88112766269216,
+          "method_ae": 33.88112766269216
+        },
+        {
+          "held_out": "NA-ion_270040-3-1-56.pkl",
+          "baseline_ape": 22.032473193184437,
+          "method_ape": 22.032473193184437,
+          "baseline_ae": 28.201565687276076,
+          "method_ae": 28.201565687276076
+        },
+        {
+          "held_out": "NA-ion_270040-3-2-55.pkl",
+          "baseline_ape": 10.100112018671366,
+          "method_ape": 10.100112018671366,
+          "baseline_ae": 20.200224037342732,
+          "method_ae": 20.200224037342732
+        },
+        {
+          "held_out": "NA-ion_270040-3-3-54.pkl",
+          "baseline_ape": 36.9213286066109,
+          "method_ape": 36.9213286066109,
+          "baseline_ae": 48.73615376072637,
+          "method_ae": 48.73615376072637
+        },
+        {
+          "held_out": "NA-ion_270040-3-4-53.pkl",
+          "baseline_ape": 8.983414740936649,
+          "method_ape": 8.983414740936649,
+          "baseline_ae": 16.529483123323434,
+          "method_ae": 16.529483123323434
+        },
+        {
+          "held_out": "NA-ion_270040-3-5-52.pkl",
+          "baseline_ape": 11.023499708559884,
+          "method_ape": 11.023499708559884,
+          "baseline_ae": 25.46428432677332,
+          "method_ae": 25.46428432677332
+        },
+        {
+          "held_out": "NA-ion_270040-3-7-50.pkl",
+          "baseline_ape": 41.05256437811201,
+          "method_ape": 41.05256437811201,
+          "baseline_ae": 44.33676952836098,
+          "method_ae": 44.33676952836098
+        },
+        {
+          "held_out": "NA-ion_270040-3-8-49.pkl",
+          "baseline_ape": 21.93798171208846,
+          "method_ape": 21.93798171208846,
+          "baseline_ae": 55.06433409734204,
+          "method_ae": 55.06433409734204
+        },
+        {
+          "held_out": "NA-ion_270040-4-1-48.pkl",
+          "baseline_ape": 8.239613632726225,
+          "method_ape": 8.239613632726225,
+          "baseline_ae": 19.363092036906636,
+          "method_ae": 19.363092036906636
+        },
+        {
+          "held_out": "NA-ion_270040-4-2-47.pkl",
+          "baseline_ape": 9.174075751418123,
+          "method_ape": 9.174075751418123,
+          "baseline_ae": 17.98118847277952,
+          "method_ae": 17.98118847277952
+        },
+        {
+          "held_out": "NA-ion_270040-4-3-46.pkl",
+          "baseline_ape": 10.025460103068342,
+          "method_ape": 10.025460103068342,
+          "baseline_ae": 22.757794433965135,
+          "method_ae": 22.757794433965135
+        },
+        {
+          "held_out": "NA-ion_270040-4-6-43.pkl",
+          "baseline_ape": 13.523857125077518,
+          "method_ape": 13.523857125077518,
+          "baseline_ae": 19.203877117610073,
+          "method_ae": 19.203877117610073
+        },
+        {
+          "held_out": "NA-ion_270040-5-1-39.pkl",
+          "baseline_ape": 29.52008928571428,
+          "method_ape": 29.52008928571428,
+          "baseline_ae": 37.78571428571428,
+          "method_ae": 37.78571428571428
+        },
+        {
+          "held_out": "NA-ion_270040-5-2-38.pkl",
+          "baseline_ape": 43.749666982690954,
+          "method_ape": 43.749666982690954,
+          "baseline_ae": 52.499600379229136,
+          "method_ae": 52.499600379229136
+        },
+        {
+          "held_out": "NA-ion_270040-5-3-37.pkl",
+          "baseline_ape": 28.480787792357784,
+          "method_ape": 28.480787792357784,
+          "baseline_ae": 72.62600887051234,
+          "method_ae": 72.62600887051234
+        },
+        {
+          "held_out": "NA-ion_270040-5-5-35.pkl",
+          "baseline_ape": 9.327449955417253,
+          "method_ape": 9.327449955417253,
+          "baseline_ae": 16.789409919751062,
+          "method_ae": 16.789409919751062
+        },
+        {
+          "held_out": "NA-ion_270040-5-6-34.pkl",
+          "baseline_ape": 43.803107965826875,
+          "method_ape": 43.803107965826875,
+          "baseline_ae": 57.382071435233186,
+          "method_ae": 57.382071435233186
+        },
+        {
+          "held_out": "NA-ion_270040-5-7-33.pkl",
+          "baseline_ape": 9.537451004028139,
+          "method_ape": 9.537451004028139,
+          "baseline_ae": 16.8812882771298,
+          "method_ae": 16.8812882771298
+        },
+        {
+          "held_out": "NA-ion_270040-5-8-32.pkl",
+          "baseline_ape": 36.09131947270543,
+          "method_ape": 36.09131947270543,
+          "baseline_ae": 36.81314586215953,
+          "method_ae": 36.81314586215953
+        },
+        {
+          "held_out": "NA-ion_270040-6-2-30.pkl",
+          "baseline_ape": 20.83881553288912,
+          "method_ape": 20.83881553288912,
+          "baseline_ae": 32.091775920649255,
+          "method_ae": 32.091775920649255
+        },
+        {
+          "held_out": "NA-ion_270040-6-6-26.pkl",
+          "baseline_ape": 13.408615628620682,
+          "method_ape": 13.408615628620682,
+          "baseline_ae": 31.10798825839999,
+          "method_ae": 31.10798825839999
+        },
+        {
+          "held_out": "NA-ion_270040-6-8-24.pkl",
+          "baseline_ape": 24.313828489062008,
+          "method_ape": 24.313828489062008,
+          "baseline_ae": 65.40419863557682,
+          "method_ae": 65.40419863557682
+        },
+        {
+          "held_out": "NA-ion_270040-7-1-23.pkl",
+          "baseline_ape": 14.702619990813142,
+          "method_ape": 14.702619990813142,
+          "baseline_ae": 26.758768383279918,
+          "method_ae": 26.758768383279918
+        },
+        {
+          "held_out": "NA-ion_270040-8-5-16.pkl",
+          "baseline_ape": 19.39098079566599,
+          "method_ape": 19.39098079566599,
+          "baseline_ae": 28.698651577585657,
+          "method_ae": 28.698651577585657
+        },
+        {
+          "held_out": "NA-ion_4000-30_20250115110206_DefaultGroup_45_1.pkl",
+          "baseline_ape": 72.02174987642113,
+          "method_ape": 72.02174987642113,
+          "baseline_ae": 85.70588235294115,
+          "method_ae": 85.70588235294115
+        },
+        {
+          "held_out": "NA-ion_4500-30_20250114232539_DefaultGroup_45_8.pkl",
+          "baseline_ape": 25.338753387533853,
+          "method_ape": 25.338753387533853,
+          "baseline_ae": 41.55555555555554,
+          "method_ae": 41.55555555555554
+        },
+        {
+          "held_out": "NA-ion_5000-25_20250115110326_DefaultGroup_38_1.pkl",
+          "baseline_ape": 33.77777777777778,
+          "method_ape": 33.77777777777778,
+          "baseline_ae": 45.6,
+          "method_ae": 45.6
+        }
+      ]
+    },
+    {
+      "horizon": 20,
+      "label_budget_k": 1,
+      "protocol_dispersion": 0.0,
+      "route_counts": {
+        "fallback_zero_protocol_dispersion": 100
+      },
+      "baseline": {
+        "mae": 60.79625160749817,
+        "mape": 35.72059624011095,
+        "n_cells": 34
+      },
+      "method": {
+        "mae": 60.79625160749817,
+        "mape": 35.72059624011095,
+        "n_cells": 34
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        34,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "NA-ion_270040-1-2-63.pkl",
+          "baseline_ape": 25.273069679849336,
+          "method_ape": 25.273069679849336,
+          "baseline_ae": 44.733333333333334,
+          "method_ae": 44.733333333333334
+        },
+        {
+          "held_out": "NA-ion_270040-1-3-62.pkl",
+          "baseline_ape": 33.83084577114428,
+          "method_ape": 33.83084577114428,
+          "baseline_ae": 90.66666666666669,
+          "method_ae": 90.66666666666669
+        },
+        {
+          "held_out": "NA-ion_270040-1-5-60.pkl",
+          "baseline_ape": 26.382575757575754,
+          "method_ape": 26.382575757575754,
+          "baseline_ae": 43.531249999999986,
+          "method_ae": 43.531249999999986
+        },
+        {
+          "held_out": "NA-ion_270040-1-6-59.pkl",
+          "baseline_ape": 22.799794132784353,
+          "method_ape": 22.799794132784353,
+          "baseline_ae": 45.827586206896555,
+          "method_ae": 45.827586206896555
+        },
+        {
+          "held_out": "NA-ion_270040-1-7-58.pkl",
+          "baseline_ape": 24.52041318248893,
+          "method_ape": 24.52041318248893,
+          "baseline_ae": 52.473684210526315,
+          "method_ae": 52.473684210526315
+        },
+        {
+          "held_out": "NA-ion_270040-1-8-57.pkl",
+          "baseline_ape": 43.25732899022802,
+          "method_ape": 43.25732899022802,
+          "baseline_ae": 132.8,
+          "method_ae": 132.8
+        },
+        {
+          "held_out": "NA-ion_270040-2-2-12.pkl",
+          "baseline_ape": 29.27801218940458,
+          "method_ape": 29.27801218940458,
+          "baseline_ae": 46.25925925925923,
+          "method_ae": 46.25925925925923
+        },
+        {
+          "held_out": "NA-ion_270040-2-5-12.pkl",
+          "baseline_ape": 60.22970085470083,
+          "method_ape": 60.22970085470083,
+          "baseline_ae": 70.46874999999997,
+          "method_ae": 70.46874999999997
+        },
+        {
+          "held_out": "NA-ion_270040-3-1-56.pkl",
+          "baseline_ape": 53.77604166666666,
+          "method_ape": 53.77604166666666,
+          "baseline_ae": 68.83333333333331,
+          "method_ae": 68.83333333333331
+        },
+        {
+          "held_out": "NA-ion_270040-3-2-55.pkl",
+          "baseline_ape": 25.983870967741932,
+          "method_ape": 25.983870967741932,
+          "baseline_ae": 51.96774193548387,
+          "method_ae": 51.96774193548387
+        },
+        {
+          "held_out": "NA-ion_270040-3-3-54.pkl",
+          "baseline_ape": 49.73484848484845,
+          "method_ape": 49.73484848484845,
+          "baseline_ae": 65.64999999999995,
+          "method_ae": 65.64999999999995
+        },
+        {
+          "held_out": "NA-ion_270040-3-4-53.pkl",
+          "baseline_ape": 22.475455820476864,
+          "method_ape": 22.475455820476864,
+          "baseline_ae": 41.354838709677416,
+          "method_ae": 41.354838709677416
+        },
+        {
+          "held_out": "NA-ion_270040-3-5-52.pkl",
+          "baseline_ape": 26.55750047054395,
+          "method_ape": 26.55750047054395,
+          "baseline_ae": 61.347826086956545,
+          "method_ae": 61.347826086956545
+        },
+        {
+          "held_out": "NA-ion_270040-3-7-50.pkl",
+          "baseline_ape": 54.56989247311825,
+          "method_ape": 54.56989247311825,
+          "baseline_ae": 58.93548387096773,
+          "method_ae": 58.93548387096773
+        },
+        {
+          "held_out": "NA-ion_270040-3-8-49.pkl",
+          "baseline_ape": 30.267166627607224,
+          "method_ape": 30.267166627607224,
+          "baseline_ae": 75.97058823529413,
+          "method_ae": 75.97058823529413
+        },
+        {
+          "held_out": "NA-ion_270040-4-1-48.pkl",
+          "baseline_ape": 28.976063829787236,
+          "method_ape": 28.976063829787236,
+          "baseline_ae": 68.09375,
+          "method_ae": 68.09375
+        },
+        {
+          "held_out": "NA-ion_270040-4-2-47.pkl",
+          "baseline_ape": 24.635568513119534,
+          "method_ape": 24.635568513119534,
+          "baseline_ae": 48.28571428571429,
+          "method_ae": 48.28571428571429
+        },
+        {
+          "held_out": "NA-ion_270040-4-3-46.pkl",
+          "baseline_ape": 25.426762114537436,
+          "method_ape": 25.426762114537436,
+          "baseline_ae": 57.71875000000001,
+          "method_ae": 57.71875000000001
+        },
+        {
+          "held_out": "NA-ion_270040-4-6-43.pkl",
+          "baseline_ape": 36.00938967136149,
+          "method_ape": 36.00938967136149,
+          "baseline_ae": 51.13333333333331,
+          "method_ae": 51.13333333333331
+        },
+        {
+          "held_out": "NA-ion_270040-5-1-39.pkl",
+          "baseline_ape": 42.22146739130432,
+          "method_ape": 42.22146739130432,
+          "baseline_ae": 54.04347826086955,
+          "method_ae": 54.04347826086955
+        },
+        {
+          "held_out": "NA-ion_270040-5-2-38.pkl",
+          "baseline_ape": 50.15873015873012,
+          "method_ape": 50.15873015873012,
+          "baseline_ae": 60.19047619047617,
+          "method_ae": 60.19047619047617
+        },
+        {
+          "held_out": "NA-ion_270040-5-3-37.pkl",
+          "baseline_ape": 34.6286393345217,
+          "method_ape": 34.6286393345217,
+          "baseline_ae": 88.30303030303031,
+          "method_ae": 88.30303030303031
+        },
+        {
+          "held_out": "NA-ion_270040-5-5-35.pkl",
+          "baseline_ape": 20.218253968253965,
+          "method_ape": 20.218253968253965,
+          "baseline_ae": 36.392857142857146,
+          "method_ae": 36.392857142857146
+        },
+        {
+          "held_out": "NA-ion_270040-5-6-34.pkl",
+          "baseline_ape": 47.978512864009026,
+          "method_ape": 47.978512864009026,
+          "baseline_ae": 62.85185185185183,
+          "method_ae": 62.85185185185183
+        },
+        {
+          "held_out": "NA-ion_270040-5-7-33.pkl",
+          "baseline_ape": 28.027511667894856,
+          "method_ape": 28.027511667894856,
+          "baseline_ae": 49.6086956521739,
+          "method_ae": 49.6086956521739
+        },
+        {
+          "held_out": "NA-ion_270040-5-8-32.pkl",
+          "baseline_ape": 76.79738562091504,
+          "method_ape": 76.79738562091504,
+          "baseline_ae": 78.33333333333331,
+          "method_ae": 78.33333333333331
+        },
+        {
+          "held_out": "NA-ion_270040-6-2-30.pkl",
+          "baseline_ape": 34.58498023715413,
+          "method_ape": 34.58498023715413,
+          "baseline_ae": 53.26086956521736,
+          "method_ae": 53.26086956521736
+        },
+        {
+          "held_out": "NA-ion_270040-6-6-26.pkl",
+          "baseline_ape": 28.36538461538461,
+          "method_ape": 28.36538461538461,
+          "baseline_ae": 65.80769230769232,
+          "method_ae": 65.80769230769232
+        },
+        {
+          "held_out": "NA-ion_270040-6-8-24.pkl",
+          "baseline_ape": 34.369719499831035,
+          "method_ape": 34.369719499831035,
+          "baseline_ae": 92.45454545454547,
+          "method_ae": 92.45454545454547
+        },
+        {
+          "held_out": "NA-ion_270040-7-1-23.pkl",
+          "baseline_ape": 24.297924297924286,
+          "method_ape": 24.297924297924286,
+          "baseline_ae": 44.22222222222221,
+          "method_ae": 44.22222222222221
+        },
+        {
+          "held_out": "NA-ion_270040-8-5-16.pkl",
+          "baseline_ape": 37.227550130775924,
+          "method_ape": 37.227550130775924,
+          "baseline_ae": 55.096774193548356,
+          "method_ae": 55.096774193548356
+        },
+        {
+          "held_out": "NA-ion_4000-30_20250115110206_DefaultGroup_45_1.pkl",
+          "baseline_ape": 46.21848739495795,
+          "method_ape": 46.21848739495795,
+          "baseline_ae": 54.999999999999964,
+          "method_ae": 54.999999999999964
+        },
+        {
+          "held_out": "NA-ion_4500-30_20250114232539_DefaultGroup_45_8.pkl",
+          "baseline_ape": 24.606608969315484,
+          "method_ape": 24.606608969315484,
+          "baseline_ae": 40.354838709677395,
+          "method_ae": 40.354838709677395
+        },
+        {
+          "held_out": "NA-ion_5000-25_20250115110326_DefaultGroup_38_1.pkl",
+          "baseline_ape": 40.814814814814795,
+          "method_ape": 40.814814814814795,
+          "baseline_ae": 55.09999999999997,
+          "method_ae": 55.09999999999997
+        }
+      ]
+    },
+    {
+      "horizon": 20,
+      "label_budget_k": 3,
+      "protocol_dispersion": 0.0,
+      "route_counts": {
+        "fallback_zero_protocol_dispersion": 100
+      },
+      "baseline": {
+        "mae": 51.963617827083176,
+        "mape": 32.60282820682905,
+        "n_cells": 34
+      },
+      "method": {
+        "mae": 51.963617827083176,
+        "mape": 32.60282820682905,
+        "n_cells": 34
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        34,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "NA-ion_270040-1-2-63.pkl",
+          "baseline_ape": 22.128978723251866,
+          "method_ape": 22.128978723251866,
+          "baseline_ae": 39.16829234015581,
+          "method_ae": 39.16829234015581
+        },
+        {
+          "held_out": "NA-ion_270040-1-3-62.pkl",
+          "baseline_ape": 34.53555212825481,
+          "method_ape": 34.53555212825481,
+          "baseline_ae": 92.55527970372286,
+          "method_ae": 92.55527970372286
+        },
+        {
+          "held_out": "NA-ion_270040-1-5-60.pkl",
+          "baseline_ape": 26.01608490553494,
+          "method_ape": 26.01608490553494,
+          "baseline_ae": 42.92654009413263,
+          "method_ae": 42.92654009413263
+        },
+        {
+          "held_out": "NA-ion_270040-1-6-59.pkl",
+          "baseline_ape": 13.545944541906803,
+          "method_ape": 13.545944541906803,
+          "baseline_ae": 27.227348529232675,
+          "method_ae": 27.227348529232675
+        },
+        {
+          "held_out": "NA-ion_270040-1-7-58.pkl",
+          "baseline_ape": 15.458272620521127,
+          "method_ape": 15.458272620521127,
+          "baseline_ae": 33.080703407915216,
+          "method_ae": 33.080703407915216
+        },
+        {
+          "held_out": "NA-ion_270040-1-8-57.pkl",
+          "baseline_ape": 34.415726770479374,
+          "method_ape": 34.415726770479374,
+          "baseline_ae": 105.65628118537168,
+          "method_ae": 105.65628118537168
+        },
+        {
+          "held_out": "NA-ion_270040-2-2-12.pkl",
+          "baseline_ape": 23.53074141048824,
+          "method_ape": 23.53074141048824,
+          "baseline_ae": 37.17857142857141,
+          "method_ae": 37.17857142857141
+        },
+        {
+          "held_out": "NA-ion_270040-2-5-12.pkl",
+          "baseline_ape": 53.97628410126168,
+          "method_ape": 53.97628410126168,
+          "baseline_ae": 63.15225239847618,
+          "method_ae": 63.15225239847618
+        },
+        {
+          "held_out": "NA-ion_270040-3-1-56.pkl",
+          "baseline_ape": 53.00483978407546,
+          "method_ape": 53.00483978407546,
+          "baseline_ae": 67.84619492361658,
+          "method_ae": 67.84619492361658
+        },
+        {
+          "held_out": "NA-ion_270040-3-2-55.pkl",
+          "baseline_ape": 12.251704182029577,
+          "method_ape": 12.251704182029577,
+          "baseline_ae": 24.50340836405915,
+          "method_ae": 24.50340836405915
+        },
+        {
+          "held_out": "NA-ion_270040-3-3-54.pkl",
+          "baseline_ape": 49.817166286891016,
+          "method_ape": 49.817166286891016,
+          "baseline_ae": 65.75865949869616,
+          "method_ae": 65.75865949869616
+        },
+        {
+          "held_out": "NA-ion_270040-3-4-53.pkl",
+          "baseline_ape": 13.68397894393827,
+          "method_ape": 13.68397894393827,
+          "baseline_ae": 25.178521256846413,
+          "method_ae": 25.178521256846413
+        },
+        {
+          "held_out": "NA-ion_270040-3-5-52.pkl",
+          "baseline_ape": 15.531898662766103,
+          "method_ape": 15.531898662766103,
+          "baseline_ae": 35.8786859109897,
+          "method_ae": 35.8786859109897
+        },
+        {
+          "held_out": "NA-ion_270040-3-7-50.pkl",
+          "baseline_ape": 70.57450553075836,
+          "method_ape": 70.57450553075836,
+          "baseline_ae": 76.22046597321902,
+          "method_ae": 76.22046597321902
+        },
+        {
+          "held_out": "NA-ion_270040-3-8-49.pkl",
+          "baseline_ape": 19.594859445461655,
+          "method_ape": 19.594859445461655,
+          "baseline_ae": 49.18309720810875,
+          "method_ae": 49.18309720810875
+        },
+        {
+          "held_out": "NA-ion_270040-4-1-48.pkl",
+          "baseline_ape": 12.609706351196456,
+          "method_ape": 12.609706351196456,
+          "baseline_ae": 29.632809925311665,
+          "method_ae": 29.632809925311665
+        },
+        {
+          "held_out": "NA-ion_270040-4-2-47.pkl",
+          "baseline_ape": 16.2229461162514,
+          "method_ape": 16.2229461162514,
+          "baseline_ae": 31.796974387852742,
+          "method_ae": 31.796974387852742
+        },
+        {
+          "held_out": "NA-ion_270040-4-3-46.pkl",
+          "baseline_ape": 13.167127609933825,
+          "method_ape": 13.167127609933825,
+          "baseline_ae": 29.889379674549794,
+          "method_ae": 29.889379674549794
+        },
+        {
+          "held_out": "NA-ion_270040-4-6-43.pkl",
+          "baseline_ape": 29.643883532758355,
+          "method_ape": 29.643883532758355,
+          "baseline_ae": 42.094314616516876,
+          "method_ae": 42.094314616516876
+        },
+        {
+          "held_out": "NA-ion_270040-5-1-39.pkl",
+          "baseline_ape": 70.31249999999997,
+          "method_ape": 70.31249999999997,
+          "baseline_ae": 89.99999999999999,
+          "method_ae": 89.99999999999999
+        },
+        {
+          "held_out": "NA-ion_270040-5-2-38.pkl",
+          "baseline_ape": 50.09542206305934,
+          "method_ape": 50.09542206305934,
+          "baseline_ae": 60.114506475671206,
+          "method_ae": 60.114506475671206
+        },
+        {
+          "held_out": "NA-ion_270040-5-3-37.pkl",
+          "baseline_ape": 21.342110660979916,
+          "method_ape": 21.342110660979916,
+          "baseline_ae": 54.42238218549879,
+          "method_ae": 54.42238218549879
+        },
+        {
+          "held_out": "NA-ion_270040-5-5-35.pkl",
+          "baseline_ape": 18.193521345847866,
+          "method_ape": 18.193521345847866,
+          "baseline_ae": 32.74833842252619,
+          "method_ae": 32.74833842252619
+        },
+        {
+          "held_out": "NA-ion_270040-5-6-34.pkl",
+          "baseline_ape": 44.99366780381879,
+          "method_ape": 44.99366780381879,
+          "baseline_ae": 58.94170482300263,
+          "method_ae": 58.94170482300263
+        },
+        {
+          "held_out": "NA-ion_270040-5-7-33.pkl",
+          "baseline_ape": 16.787529492858027,
+          "method_ape": 16.787529492858027,
+          "baseline_ae": 29.713927202358704,
+          "method_ae": 29.713927202358704
+        },
+        {
+          "held_out": "NA-ion_270040-5-8-32.pkl",
+          "baseline_ape": 71.1650224359005,
+          "method_ape": 71.1650224359005,
+          "baseline_ae": 72.5883228846185,
+          "method_ae": 72.5883228846185
+        },
+        {
+          "held_out": "NA-ion_270040-6-2-30.pkl",
+          "baseline_ape": 26.692216595952694,
+          "method_ape": 26.692216595952694,
+          "baseline_ae": 41.10601355776714,
+          "method_ae": 41.10601355776714
+        },
+        {
+          "held_out": "NA-ion_270040-6-6-26.pkl",
+          "baseline_ape": 20.0498424790549,
+          "method_ape": 20.0498424790549,
+          "baseline_ae": 46.515634551407395,
+          "method_ae": 46.515634551407395
+        },
+        {
+          "held_out": "NA-ion_270040-6-8-24.pkl",
+          "baseline_ape": 22.239755418124798,
+          "method_ape": 22.239755418124798,
+          "baseline_ae": 59.82494207475571,
+          "method_ae": 59.82494207475571
+        },
+        {
+          "held_out": "NA-ion_270040-7-1-23.pkl",
+          "baseline_ape": 20.297623478114584,
+          "method_ape": 20.297623478114584,
+          "baseline_ae": 36.94167473016854,
+          "method_ae": 36.94167473016854
+        },
+        {
+          "held_out": "NA-ion_270040-8-5-16.pkl",
+          "baseline_ape": 32.51869272828308,
+          "method_ape": 32.51869272828308,
+          "baseline_ae": 48.127665237858956,
+          "method_ae": 48.127665237858956
+        },
+        {
+          "held_out": "NA-ion_4000-30_20250115110206_DefaultGroup_45_1.pkl",
+          "baseline_ape": 85.71823479252812,
+          "method_ape": 85.71823479252812,
+          "baseline_ae": 102.0046994031085,
+          "method_ae": 102.0046994031085
+        },
+        {
+          "held_out": "NA-ion_4500-30_20250114232539_DefaultGroup_45_8.pkl",
+          "baseline_ape": 30.940204563335943,
+          "method_ape": 30.940204563335943,
+          "baseline_ae": 50.741935483870954,
+          "method_ae": 50.741935483870954
+        },
+        {
+          "held_out": "NA-ion_5000-25_20250115110326_DefaultGroup_38_1.pkl",
+          "baseline_ape": 47.43961352657003,
+          "method_ape": 47.43961352657003,
+          "baseline_ae": 64.04347826086955,
+          "method_ae": 64.04347826086955
+        }
+      ]
+    },
+    {
+      "horizon": 20,
+      "label_budget_k": 5,
+      "protocol_dispersion": 0.0,
+      "route_counts": {
+        "fallback_zero_protocol_dispersion": 100
+      },
+      "baseline": {
+        "mae": 47.58139102132593,
+        "mape": 29.583008395175458,
+        "n_cells": 34
+      },
+      "method": {
+        "mae": 47.58139102132593,
+        "mape": 29.583008395175458,
+        "n_cells": 34
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        34,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "NA-ion_270040-1-2-63.pkl",
+          "baseline_ape": 19.73502861617584,
+          "method_ape": 19.73502861617584,
+          "baseline_ae": 34.93100065063123,
+          "method_ae": 34.93100065063123
+        },
+        {
+          "held_out": "NA-ion_270040-1-3-62.pkl",
+          "baseline_ape": 33.86438054033298,
+          "method_ape": 33.86438054033298,
+          "baseline_ae": 90.75653984809236,
+          "method_ae": 90.75653984809236
+        },
+        {
+          "held_out": "NA-ion_270040-1-5-60.pkl",
+          "baseline_ape": 25.218812080958404,
+          "method_ape": 25.218812080958404,
+          "baseline_ae": 41.61103993358138,
+          "method_ae": 41.61103993358138
+        },
+        {
+          "held_out": "NA-ion_270040-1-6-59.pkl",
+          "baseline_ape": 13.815138842742364,
+          "method_ape": 13.815138842742364,
+          "baseline_ae": 27.76842907391215,
+          "method_ae": 27.76842907391215
+        },
+        {
+          "held_out": "NA-ion_270040-1-7-58.pkl",
+          "baseline_ape": 11.50471557652048,
+          "method_ape": 11.50471557652048,
+          "baseline_ae": 24.62009133375382,
+          "method_ae": 24.62009133375382
+        },
+        {
+          "held_out": "NA-ion_270040-1-8-57.pkl",
+          "baseline_ape": 35.01620066240634,
+          "method_ape": 35.01620066240634,
+          "baseline_ae": 107.4997360335875,
+          "method_ae": 107.4997360335875
+        },
+        {
+          "held_out": "NA-ion_270040-2-2-12.pkl",
+          "baseline_ape": 20.624181580096025,
+          "method_ape": 20.624181580096025,
+          "baseline_ae": 32.586206896551715,
+          "method_ae": 32.586206896551715
+        },
+        {
+          "held_out": "NA-ion_270040-2-5-12.pkl",
+          "baseline_ape": 46.63261913591254,
+          "method_ape": 46.63261913591254,
+          "baseline_ae": 54.56016438901768,
+          "method_ae": 54.56016438901768
+        },
+        {
+          "held_out": "NA-ion_270040-3-1-56.pkl",
+          "baseline_ape": 34.4095292268493,
+          "method_ape": 34.4095292268493,
+          "baseline_ae": 44.04419741036709,
+          "method_ae": 44.04419741036709
+        },
+        {
+          "held_out": "NA-ion_270040-3-2-55.pkl",
+          "baseline_ape": 10.766370693334869,
+          "method_ape": 10.766370693334869,
+          "baseline_ae": 21.532741386669738,
+          "method_ae": 21.532741386669738
+        },
+        {
+          "held_out": "NA-ion_270040-3-3-54.pkl",
+          "baseline_ape": 44.8426639746494,
+          "method_ape": 44.8426639746494,
+          "baseline_ae": 59.19231644653721,
+          "method_ae": 59.19231644653721
+        },
+        {
+          "held_out": "NA-ion_270040-3-4-53.pkl",
+          "baseline_ape": 14.129859318841117,
+          "method_ape": 14.129859318841117,
+          "baseline_ae": 25.998941146667647,
+          "method_ae": 25.998941146667647
+        },
+        {
+          "held_out": "NA-ion_270040-3-5-52.pkl",
+          "baseline_ape": 10.78709222818299,
+          "method_ape": 10.78709222818299,
+          "baseline_ae": 24.91818304710271,
+          "method_ae": 24.91818304710271
+        },
+        {
+          "held_out": "NA-ion_270040-3-7-50.pkl",
+          "baseline_ape": 46.215335575054596,
+          "method_ape": 46.215335575054596,
+          "baseline_ae": 49.912562421058944,
+          "method_ae": 49.912562421058944
+        },
+        {
+          "held_out": "NA-ion_270040-3-8-49.pkl",
+          "baseline_ape": 19.303066095342302,
+          "method_ape": 19.303066095342302,
+          "baseline_ae": 48.4506958993092,
+          "method_ae": 48.4506958993092
+        },
+        {
+          "held_out": "NA-ion_270040-4-1-48.pkl",
+          "baseline_ape": 11.081143567372324,
+          "method_ape": 11.081143567372324,
+          "baseline_ae": 26.04068738332496,
+          "method_ae": 26.04068738332496
+        },
+        {
+          "held_out": "NA-ion_270040-4-2-47.pkl",
+          "baseline_ape": 14.001084298030298,
+          "method_ape": 14.001084298030298,
+          "baseline_ae": 27.442125224139374,
+          "method_ae": 27.442125224139374
+        },
+        {
+          "held_out": "NA-ion_270040-4-3-46.pkl",
+          "baseline_ape": 9.577755201587992,
+          "method_ape": 9.577755201587992,
+          "baseline_ae": 21.74150430760475,
+          "method_ae": 21.74150430760475
+        },
+        {
+          "held_out": "NA-ion_270040-4-6-43.pkl",
+          "baseline_ape": 26.402047515858097,
+          "method_ape": 26.402047515858097,
+          "baseline_ae": 37.490907472518494,
+          "method_ae": 37.490907472518494
+        },
+        {
+          "held_out": "NA-ion_270040-5-1-39.pkl",
+          "baseline_ape": 45.20089285714285,
+          "method_ape": 45.20089285714285,
+          "baseline_ae": 57.85714285714285,
+          "method_ae": 57.85714285714285
+        },
+        {
+          "held_out": "NA-ion_270040-5-2-38.pkl",
+          "baseline_ape": 54.300532579121956,
+          "method_ape": 54.300532579121956,
+          "baseline_ae": 65.16063909494635,
+          "method_ae": 65.16063909494635
+        },
+        {
+          "held_out": "NA-ion_270040-5-3-37.pkl",
+          "baseline_ape": 21.548012119032194,
+          "method_ape": 21.548012119032194,
+          "baseline_ae": 54.94743090353208,
+          "method_ae": 54.94743090353208
+        },
+        {
+          "held_out": "NA-ion_270040-5-5-35.pkl",
+          "baseline_ape": 16.774887316456088,
+          "method_ape": 16.774887316456088,
+          "baseline_ae": 30.19479716962095,
+          "method_ae": 30.19479716962095
+        },
+        {
+          "held_out": "NA-ion_270040-5-6-34.pkl",
+          "baseline_ape": 49.69746891996182,
+          "method_ape": 49.69746891996182,
+          "baseline_ae": 65.10368428514998,
+          "method_ae": 65.10368428514998
+        },
+        {
+          "held_out": "NA-ion_270040-5-7-33.pkl",
+          "baseline_ape": 15.232438859498492,
+          "method_ape": 15.232438859498492,
+          "baseline_ae": 26.961416781312344,
+          "method_ae": 26.961416781312344
+        },
+        {
+          "held_out": "NA-ion_270040-5-8-32.pkl",
+          "baseline_ape": 65.17991091882195,
+          "method_ape": 65.17991091882195,
+          "baseline_ae": 66.48350913719837,
+          "method_ae": 66.48350913719837
+        },
+        {
+          "held_out": "NA-ion_270040-6-2-30.pkl",
+          "baseline_ape": 24.939890460492926,
+          "method_ape": 24.939890460492926,
+          "baseline_ae": 38.4074313091591,
+          "method_ae": 38.4074313091591
+        },
+        {
+          "held_out": "NA-ion_270040-6-6-26.pkl",
+          "baseline_ape": 16.908927371280107,
+          "method_ape": 16.908927371280107,
+          "baseline_ae": 39.22871150136986,
+          "method_ae": 39.22871150136986
+        },
+        {
+          "held_out": "NA-ion_270040-6-8-24.pkl",
+          "baseline_ape": 21.753429855212303,
+          "method_ape": 21.753429855212303,
+          "baseline_ae": 58.516726310521086,
+          "method_ae": 58.516726310521086
+        },
+        {
+          "held_out": "NA-ion_270040-7-1-23.pkl",
+          "baseline_ape": 20.532813479797255,
+          "method_ape": 20.532813479797255,
+          "baseline_ae": 37.369720533231,
+          "method_ae": 37.369720533231
+        },
+        {
+          "held_out": "NA-ion_270040-8-5-16.pkl",
+          "baseline_ape": 26.4576972042126,
+          "method_ape": 26.4576972042126,
+          "baseline_ae": 39.157391862234654,
+          "method_ae": 39.157391862234654
+        },
+        {
+          "held_out": "NA-ion_4000-30_20250115110206_DefaultGroup_45_1.pkl",
+          "baseline_ape": 91.06354846658394,
+          "method_ape": 91.06354846658394,
+          "baseline_ae": 108.36562267523492,
+          "method_ae": 108.36562267523492
+        },
+        {
+          "held_out": "NA-ion_4500-30_20250114232539_DefaultGroup_45_8.pkl",
+          "baseline_ape": 33.460365853658516,
+          "method_ape": 33.460365853658516,
+          "baseline_ae": 54.874999999999986,
+          "method_ae": 54.874999999999986
+        },
+        {
+          "held_out": "NA-ion_5000-25_20250115110326_DefaultGroup_38_1.pkl",
+          "baseline_ape": 54.844444444444434,
+          "method_ape": 54.844444444444434,
+          "baseline_ae": 74.03999999999998,
+          "method_ae": 74.03999999999998
+        }
+      ]
+    },
+    {
+      "horizon": 20,
+      "label_budget_k": 10,
+      "protocol_dispersion": 0.0,
+      "route_counts": {
+        "fallback_zero_protocol_dispersion": 100
+      },
+      "baseline": {
+        "mae": 37.4396531001018,
+        "mape": 22.39465625221708,
+        "n_cells": 34
+      },
+      "method": {
+        "mae": 37.4396531001018,
+        "mape": 22.39465625221708,
+        "n_cells": 34
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        34,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "NA-ion_270040-1-2-63.pkl",
+          "baseline_ape": 11.77469213220194,
+          "method_ape": 11.77469213220194,
+          "baseline_ae": 20.84120507399744,
+          "method_ae": 20.84120507399744
+        },
+        {
+          "held_out": "NA-ion_270040-1-3-62.pkl",
+          "baseline_ape": 33.98614275140938,
+          "method_ape": 33.98614275140938,
+          "baseline_ae": 91.08286257377713,
+          "method_ae": 91.08286257377713
+        },
+        {
+          "held_out": "NA-ion_270040-1-5-60.pkl",
+          "baseline_ape": 15.933862825587676,
+          "method_ape": 15.933862825587676,
+          "baseline_ae": 26.290873662219663,
+          "method_ae": 26.290873662219663
+        },
+        {
+          "held_out": "NA-ion_270040-1-6-59.pkl",
+          "baseline_ape": 8.363022179604908,
+          "method_ape": 8.363022179604908,
+          "baseline_ae": 16.809674581005865,
+          "method_ae": 16.809674581005865
+        },
+        {
+          "held_out": "NA-ion_270040-1-7-58.pkl",
+          "baseline_ape": 11.18445482457271,
+          "method_ape": 11.18445482457271,
+          "baseline_ae": 23.93473332458561,
+          "method_ae": 23.93473332458561
+        },
+        {
+          "held_out": "NA-ion_270040-1-8-57.pkl",
+          "baseline_ape": 35.96071083243949,
+          "method_ape": 35.96071083243949,
+          "baseline_ae": 110.39938225558922,
+          "method_ae": 110.39938225558922
+        },
+        {
+          "held_out": "NA-ion_270040-2-2-12.pkl",
+          "baseline_ape": 11.555737035524713,
+          "method_ape": 11.555737035524713,
+          "baseline_ae": 18.25806451612904,
+          "method_ae": 18.25806451612904
+        },
+        {
+          "held_out": "NA-ion_270040-2-5-12.pkl",
+          "baseline_ape": 33.496918171118,
+          "method_ape": 33.496918171118,
+          "baseline_ae": 39.19139426020805,
+          "method_ae": 39.19139426020805
+        },
+        {
+          "held_out": "NA-ion_270040-3-1-56.pkl",
+          "baseline_ape": 25.666600726670126,
+          "method_ape": 25.666600726670126,
+          "baseline_ae": 32.85324893013775,
+          "method_ae": 32.85324893013775
+        },
+        {
+          "held_out": "NA-ion_270040-3-2-55.pkl",
+          "baseline_ape": 7.116886533119648,
+          "method_ape": 7.116886533119648,
+          "baseline_ae": 14.233773066239294,
+          "method_ae": 14.233773066239294
+        },
+        {
+          "held_out": "NA-ion_270040-3-3-54.pkl",
+          "baseline_ape": 38.135734252076524,
+          "method_ape": 38.135734252076524,
+          "baseline_ae": 50.33916921274101,
+          "method_ae": 50.33916921274101
+        },
+        {
+          "held_out": "NA-ion_270040-3-4-53.pkl",
+          "baseline_ape": 7.107053193399267,
+          "method_ape": 7.107053193399267,
+          "baseline_ae": 13.076977875854647,
+          "method_ae": 13.076977875854647
+        },
+        {
+          "held_out": "NA-ion_270040-3-5-52.pkl",
+          "baseline_ape": 10.619701478115005,
+          "method_ape": 10.619701478115005,
+          "baseline_ae": 24.53151041444566,
+          "method_ae": 24.53151041444566
+        },
+        {
+          "held_out": "NA-ion_270040-3-7-50.pkl",
+          "baseline_ape": 28.109734254794418,
+          "method_ape": 28.109734254794418,
+          "baseline_ae": 30.358512995177964,
+          "method_ae": 30.358512995177964
+        },
+        {
+          "held_out": "NA-ion_270040-3-8-49.pkl",
+          "baseline_ape": 19.57872087224562,
+          "method_ape": 19.57872087224562,
+          "baseline_ae": 49.1425893893365,
+          "method_ae": 49.1425893893365
+        },
+        {
+          "held_out": "NA-ion_270040-4-1-48.pkl",
+          "baseline_ape": 7.634371341826292,
+          "method_ape": 7.634371341826292,
+          "baseline_ae": 17.940772653291788,
+          "method_ae": 17.940772653291788
+        },
+        {
+          "held_out": "NA-ion_270040-4-2-47.pkl",
+          "baseline_ape": 6.932992428979436,
+          "method_ape": 6.932992428979436,
+          "baseline_ae": 13.588665160799696,
+          "method_ae": 13.588665160799696
+        },
+        {
+          "held_out": "NA-ion_270040-4-3-46.pkl",
+          "baseline_ape": 7.722977821981126,
+          "method_ape": 7.722977821981126,
+          "baseline_ae": 17.53115965589716,
+          "method_ae": 17.53115965589716
+        },
+        {
+          "held_out": "NA-ion_270040-4-6-43.pkl",
+          "baseline_ape": 14.617185836437402,
+          "method_ape": 14.617185836437402,
+          "baseline_ae": 20.75640388774112,
+          "method_ae": 20.75640388774112
+        },
+        {
+          "held_out": "NA-ion_270040-5-1-39.pkl",
+          "baseline_ape": 36.83035714285715,
+          "method_ape": 36.83035714285715,
+          "baseline_ae": 47.142857142857146,
+          "method_ae": 47.142857142857146
+        },
+        {
+          "held_out": "NA-ion_270040-5-2-38.pkl",
+          "baseline_ape": 37.13630665665643,
+          "method_ape": 37.13630665665643,
+          "baseline_ae": 44.563567987987724,
+          "method_ae": 44.563567987987724
+        },
+        {
+          "held_out": "NA-ion_270040-5-3-37.pkl",
+          "baseline_ape": 23.36503110147143,
+          "method_ape": 23.36503110147143,
+          "baseline_ae": 59.58082930875216,
+          "method_ae": 59.58082930875216
+        },
+        {
+          "held_out": "NA-ion_270040-5-5-35.pkl",
+          "baseline_ape": 11.694492662126299,
+          "method_ape": 11.694492662126299,
+          "baseline_ae": 21.050086791827333,
+          "method_ae": 21.050086791827333
+        },
+        {
+          "held_out": "NA-ion_270040-5-6-34.pkl",
+          "baseline_ape": 35.24595480016683,
+          "method_ape": 35.24595480016683,
+          "baseline_ae": 46.17220078821857,
+          "method_ae": 46.17220078821857
+        },
+        {
+          "held_out": "NA-ion_270040-5-7-33.pkl",
+          "baseline_ape": 8.023306848337489,
+          "method_ape": 8.023306848337489,
+          "baseline_ae": 14.20125312155735,
+          "method_ae": 14.20125312155735
+        },
+        {
+          "held_out": "NA-ion_270040-5-8-32.pkl",
+          "baseline_ape": 37.10522787114935,
+          "method_ape": 37.10522787114935,
+          "baseline_ae": 37.84733242857233,
+          "method_ae": 37.84733242857233
+        },
+        {
+          "held_out": "NA-ion_270040-6-2-30.pkl",
+          "baseline_ape": 10.50635472941619,
+          "method_ape": 10.50635472941619,
+          "baseline_ae": 16.179786283300935,
+          "method_ae": 16.179786283300935
+        },
+        {
+          "held_out": "NA-ion_270040-6-6-26.pkl",
+          "baseline_ape": 15.414968668934932,
+          "method_ape": 15.414968668934932,
+          "baseline_ae": 35.762727311929055,
+          "method_ae": 35.762727311929055
+        },
+        {
+          "held_out": "NA-ion_270040-6-8-24.pkl",
+          "baseline_ape": 23.10496417749964,
+          "method_ape": 23.10496417749964,
+          "baseline_ae": 62.15235363747402,
+          "method_ae": 62.15235363747402
+        },
+        {
+          "held_out": "NA-ion_270040-7-1-23.pkl",
+          "baseline_ape": 17.557400863874218,
+          "method_ape": 17.557400863874218,
+          "baseline_ae": 31.95446957225108,
+          "method_ae": 31.95446957225108
+        },
+        {
+          "held_out": "NA-ion_270040-8-5-16.pkl",
+          "baseline_ape": 8.344302874153483,
+          "method_ape": 8.344302874153483,
+          "baseline_ae": 12.349568253747151,
+          "method_ae": 12.349568253747151
+        },
+        {
+          "held_out": "NA-ion_4000-30_20250115110206_DefaultGroup_45_1.pkl",
+          "baseline_ape": 91.87229813751865,
+          "method_ape": 91.87229813751865,
+          "baseline_ae": 109.32803478364721,
+          "method_ae": 109.32803478364721
+        },
+        {
+          "held_out": "NA-ion_4500-30_20250114232539_DefaultGroup_45_8.pkl",
+          "baseline_ape": 32.34610917537745,
+          "method_ape": 32.34610917537745,
+          "baseline_ae": 53.04761904761902,
+          "method_ae": 53.04761904761902
+        },
+        {
+          "held_out": "NA-ion_5000-25_20250115110326_DefaultGroup_38_1.pkl",
+          "baseline_ape": 37.373737373737384,
+          "method_ape": 37.373737373737384,
+          "baseline_ae": 50.45454545454546,
+          "method_ae": 50.45454545454546
+        }
+      ]
+    },
+    {
+      "horizon": 50,
+      "label_budget_k": 1,
+      "protocol_dispersion": 0.0,
+      "route_counts": {
+        "fallback_zero_protocol_dispersion": 100
+      },
+      "baseline": {
+        "mae": 59.69648337168869,
+        "mape": 35.20086401737107,
+        "n_cells": 34
+      },
+      "method": {
+        "mae": 59.69648337168869,
+        "mape": 35.20086401737107,
+        "n_cells": 34
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        34,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "NA-ion_270040-1-2-63.pkl",
+          "baseline_ape": 30.713918849512048,
+          "method_ape": 30.713918849512048,
+          "baseline_ae": 54.363636363636346,
+          "method_ae": 54.363636363636346
+        },
+        {
+          "held_out": "NA-ion_270040-1-3-62.pkl",
+          "baseline_ape": 34.45752009184845,
+          "method_ape": 34.45752009184845,
+          "baseline_ae": 92.34615384615384,
+          "method_ae": 92.34615384615384
+        },
+        {
+          "held_out": "NA-ion_270040-1-5-60.pkl",
+          "baseline_ape": 30.156739811912225,
+          "method_ape": 30.156739811912225,
+          "baseline_ae": 49.75862068965517,
+          "method_ae": 49.75862068965517
+        },
+        {
+          "held_out": "NA-ion_270040-1-6-59.pkl",
+          "baseline_ape": 24.339839265212415,
+          "method_ape": 24.339839265212415,
+          "baseline_ae": 48.92307692307695,
+          "method_ae": 48.92307692307695
+        },
+        {
+          "held_out": "NA-ion_270040-1-7-58.pkl",
+          "baseline_ape": 23.130841121495322,
+          "method_ape": 23.130841121495322,
+          "baseline_ae": 49.500000000000014,
+          "method_ae": 49.500000000000014
+        },
+        {
+          "held_out": "NA-ion_270040-1-8-57.pkl",
+          "baseline_ape": 41.09850612153208,
+          "method_ape": 41.09850612153208,
+          "baseline_ae": 126.17241379310344,
+          "method_ae": 126.17241379310344
+        },
+        {
+          "held_out": "NA-ion_270040-2-2-12.pkl",
+          "baseline_ape": 25.7120253164557,
+          "method_ape": 25.7120253164557,
+          "baseline_ae": 40.62499999999999,
+          "method_ae": 40.62499999999999
+        },
+        {
+          "held_out": "NA-ion_270040-2-5-12.pkl",
+          "baseline_ape": 61.95107574417919,
+          "method_ape": 61.95107574417919,
+          "baseline_ae": 72.48275862068964,
+          "method_ae": 72.48275862068964
+        },
+        {
+          "held_out": "NA-ion_270040-3-1-56.pkl",
+          "baseline_ape": 38.56770833333333,
+          "method_ape": 38.56770833333333,
+          "baseline_ae": 49.36666666666666,
+          "method_ae": 49.36666666666666
+        },
+        {
+          "held_out": "NA-ion_270040-3-2-55.pkl",
+          "baseline_ape": 26.51785714285714,
+          "method_ape": 26.51785714285714,
+          "baseline_ae": 53.03571428571427,
+          "method_ae": 53.03571428571427
+        },
+        {
+          "held_out": "NA-ion_270040-3-3-54.pkl",
+          "baseline_ape": 49.968434343434325,
+          "method_ape": 49.968434343434325,
+          "baseline_ae": 65.95833333333333,
+          "method_ae": 65.95833333333333
+        },
+        {
+          "held_out": "NA-ion_270040-3-4-53.pkl",
+          "baseline_ape": 19.50698757763976,
+          "method_ape": 19.50698757763976,
+          "baseline_ae": 35.892857142857146,
+          "method_ae": 35.892857142857146
+        },
+        {
+          "held_out": "NA-ion_270040-3-5-52.pkl",
+          "baseline_ape": 27.322677322677325,
+          "method_ape": 27.322677322677325,
+          "baseline_ae": 63.11538461538461,
+          "method_ae": 63.11538461538461
+        },
+        {
+          "held_out": "NA-ion_270040-3-7-50.pkl",
+          "baseline_ape": 74.45721583652615,
+          "method_ape": 74.45721583652615,
+          "baseline_ae": 80.41379310344826,
+          "method_ae": 80.41379310344826
+        },
+        {
+          "held_out": "NA-ion_270040-3-8-49.pkl",
+          "baseline_ape": 28.26270674876254,
+          "method_ape": 28.26270674876254,
+          "baseline_ae": 70.93939393939395,
+          "method_ae": 70.93939393939395
+        },
+        {
+          "held_out": "NA-ion_270040-4-1-48.pkl",
+          "baseline_ape": 26.436170212765955,
+          "method_ape": 26.436170212765955,
+          "baseline_ae": 62.125,
+          "method_ae": 62.125
+        },
+        {
+          "held_out": "NA-ion_270040-4-2-47.pkl",
+          "baseline_ape": 25.686813186813183,
+          "method_ape": 25.686813186813183,
+          "baseline_ae": 50.34615384615384,
+          "method_ae": 50.34615384615384
+        },
+        {
+          "held_out": "NA-ion_270040-4-3-46.pkl",
+          "baseline_ape": 30.824047680746304,
+          "method_ape": 30.824047680746304,
+          "baseline_ae": 69.97058823529412,
+          "method_ae": 69.97058823529412
+        },
+        {
+          "held_out": "NA-ion_270040-4-6-43.pkl",
+          "baseline_ape": 33.699759532806574,
+          "method_ape": 33.699759532806574,
+          "baseline_ae": 47.85365853658536,
+          "method_ae": 47.85365853658536
+        },
+        {
+          "held_out": "NA-ion_270040-5-1-39.pkl",
+          "baseline_ape": 49.16294642857141,
+          "method_ape": 49.16294642857141,
+          "baseline_ae": 62.928571428571395,
+          "method_ae": 62.928571428571395
+        },
+        {
+          "held_out": "NA-ion_270040-5-2-38.pkl",
+          "baseline_ape": 47.901234567901206,
+          "method_ape": 47.901234567901206,
+          "baseline_ae": 57.48148148148147,
+          "method_ae": 57.48148148148147
+        },
+        {
+          "held_out": "NA-ion_270040-5-3-37.pkl",
+          "baseline_ape": 30.65584854631508,
+          "method_ape": 30.65584854631508,
+          "baseline_ae": 78.17241379310344,
+          "method_ae": 78.17241379310344
+        },
+        {
+          "held_out": "NA-ion_270040-5-5-35.pkl",
+          "baseline_ape": 24.247311827956985,
+          "method_ape": 24.247311827956985,
+          "baseline_ae": 43.64516129032258,
+          "method_ae": 43.64516129032258
+        },
+        {
+          "held_out": "NA-ion_270040-5-6-34.pkl",
+          "baseline_ape": 38.907442748091604,
+          "method_ape": 38.907442748091604,
+          "baseline_ae": 50.968749999999986,
+          "method_ae": 50.968749999999986
+        },
+        {
+          "held_out": "NA-ion_270040-5-7-33.pkl",
+          "baseline_ape": 25.94834543987086,
+          "method_ape": 25.94834543987086,
+          "baseline_ae": 45.92857142857143,
+          "method_ae": 45.92857142857143
+        },
+        {
+          "held_out": "NA-ion_270040-5-8-32.pkl",
+          "baseline_ape": 68.55482933914305,
+          "method_ape": 68.55482933914305,
+          "baseline_ae": 69.92592592592592,
+          "method_ae": 69.92592592592592
+        },
+        {
+          "held_out": "NA-ion_270040-6-2-30.pkl",
+          "baseline_ape": 30.654761904761898,
+          "method_ape": 30.654761904761898,
+          "baseline_ae": 47.208333333333314,
+          "method_ae": 47.208333333333314
+        },
+        {
+          "held_out": "NA-ion_270040-6-6-26.pkl",
+          "baseline_ape": 23.802681992337156,
+          "method_ape": 23.802681992337156,
+          "baseline_ae": 55.22222222222222,
+          "method_ae": 55.22222222222222
+        },
+        {
+          "held_out": "NA-ion_270040-6-8-24.pkl",
+          "baseline_ape": 32.26765799256506,
+          "method_ape": 32.26765799256506,
+          "baseline_ae": 86.8,
+          "method_ae": 86.8
+        },
+        {
+          "held_out": "NA-ion_270040-7-1-23.pkl",
+          "baseline_ape": 24.855407750144586,
+          "method_ape": 24.855407750144586,
+          "baseline_ae": 45.23684210526316,
+          "method_ae": 45.23684210526316
+        },
+        {
+          "held_out": "NA-ion_270040-8-5-16.pkl",
+          "baseline_ape": 34.86486486486487,
+          "method_ape": 34.86486486486487,
+          "baseline_ae": 51.59999999999999,
+          "method_ae": 51.59999999999999
+        },
+        {
+          "held_out": "NA-ion_4000-30_20250115110206_DefaultGroup_45_1.pkl",
+          "baseline_ape": 48.128342245989295,
+          "method_ape": 48.128342245989295,
+          "baseline_ae": 57.27272727272726,
+          "method_ae": 57.27272727272726
+        },
+        {
+          "held_out": "NA-ion_4500-30_20250114232539_DefaultGroup_45_8.pkl",
+          "baseline_ape": 26.241289198606268,
+          "method_ape": 26.241289198606268,
+          "baseline_ae": 43.03571428571427,
+          "method_ae": 43.03571428571427
+        },
+        {
+          "held_out": "NA-ion_5000-25_20250115110326_DefaultGroup_38_1.pkl",
+          "baseline_ape": 37.82556750298685,
+          "method_ape": 37.82556750298685,
+          "baseline_ae": 51.06451612903224,
+          "method_ae": 51.06451612903224
+        }
+      ]
+    },
+    {
+      "horizon": 50,
+      "label_budget_k": 3,
+      "protocol_dispersion": 0.0,
+      "route_counts": {
+        "fallback_zero_protocol_dispersion": 100
+      },
+      "baseline": {
+        "mae": 49.553592409941984,
+        "mape": 30.593673957663928,
+        "n_cells": 34
+      },
+      "method": {
+        "mae": 49.553592409941984,
+        "mape": 30.593673957663928,
+        "n_cells": 34
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        34,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "NA-ion_270040-1-2-63.pkl",
+          "baseline_ape": 14.112466439030554,
+          "method_ape": 14.112466439030554,
+          "baseline_ae": 24.979065597084084,
+          "method_ae": 24.979065597084084
+        },
+        {
+          "held_out": "NA-ion_270040-1-3-62.pkl",
+          "baseline_ape": 28.93112747473432,
+          "method_ape": 28.93112747473432,
+          "baseline_ae": 77.53542163228798,
+          "method_ae": 77.53542163228798
+        },
+        {
+          "held_out": "NA-ion_270040-1-5-60.pkl",
+          "baseline_ape": 23.472306230324488,
+          "method_ape": 23.472306230324488,
+          "baseline_ae": 38.7293052800354,
+          "method_ae": 38.7293052800354
+        },
+        {
+          "held_out": "NA-ion_270040-1-6-59.pkl",
+          "baseline_ape": 11.10400824546809,
+          "method_ape": 11.10400824546809,
+          "baseline_ae": 22.31905657339086,
+          "method_ae": 22.31905657339086
+        },
+        {
+          "held_out": "NA-ion_270040-1-7-58.pkl",
+          "baseline_ape": 14.502075610148964,
+          "method_ape": 14.502075610148964,
+          "baseline_ae": 31.03444180571879,
+          "method_ae": 31.03444180571879
+        },
+        {
+          "held_out": "NA-ion_270040-1-8-57.pkl",
+          "baseline_ape": 34.06792566566208,
+          "method_ape": 34.06792566566208,
+          "baseline_ae": 104.58853179358263,
+          "method_ae": 104.58853179358263
+        },
+        {
+          "held_out": "NA-ion_270040-2-2-12.pkl",
+          "baseline_ape": 25.138449367088597,
+          "method_ape": 25.138449367088597,
+          "baseline_ae": 39.71874999999999,
+          "method_ae": 39.71874999999999
+        },
+        {
+          "held_out": "NA-ion_270040-2-5-12.pkl",
+          "baseline_ape": 57.45341510255976,
+          "method_ape": 57.45341510255976,
+          "baseline_ae": 67.22049566999492,
+          "method_ae": 67.22049566999492
+        },
+        {
+          "held_out": "NA-ion_270040-3-1-56.pkl",
+          "baseline_ape": 36.64355284111352,
+          "method_ape": 36.64355284111352,
+          "baseline_ae": 46.90374763662531,
+          "method_ae": 46.90374763662531
+        },
+        {
+          "held_out": "NA-ion_270040-3-2-55.pkl",
+          "baseline_ape": 16.472031682781953,
+          "method_ape": 16.472031682781953,
+          "baseline_ae": 32.944063365563906,
+          "method_ae": 32.944063365563906
+        },
+        {
+          "held_out": "NA-ion_270040-3-3-54.pkl",
+          "baseline_ape": 31.955717216290285,
+          "method_ape": 31.955717216290285,
+          "baseline_ae": 42.18154672550317,
+          "method_ae": 42.18154672550317
+        },
+        {
+          "held_out": "NA-ion_270040-3-4-53.pkl",
+          "baseline_ape": 15.673753579261827,
+          "method_ape": 15.673753579261827,
+          "baseline_ae": 28.839706585841764,
+          "method_ae": 28.839706585841764
+        },
+        {
+          "held_out": "NA-ion_270040-3-5-52.pkl",
+          "baseline_ape": 15.845333675255922,
+          "method_ape": 15.845333675255922,
+          "baseline_ae": 36.602720789841186,
+          "method_ae": 36.602720789841186
+        },
+        {
+          "held_out": "NA-ion_270040-3-7-50.pkl",
+          "baseline_ape": 48.9053509764353,
+          "method_ape": 48.9053509764353,
+          "baseline_ae": 52.81777905455014,
+          "method_ae": 52.81777905455014
+        },
+        {
+          "held_out": "NA-ion_270040-3-8-49.pkl",
+          "baseline_ape": 20.225069223779144,
+          "method_ape": 20.225069223779144,
+          "baseline_ae": 50.76492375168562,
+          "method_ae": 50.76492375168562
+        },
+        {
+          "held_out": "NA-ion_270040-4-1-48.pkl",
+          "baseline_ape": 19.4731199450116,
+          "method_ape": 19.4731199450116,
+          "baseline_ae": 45.76183187077726,
+          "method_ae": 45.76183187077726
+        },
+        {
+          "held_out": "NA-ion_270040-4-2-47.pkl",
+          "baseline_ape": 14.214501359662572,
+          "method_ape": 14.214501359662572,
+          "baseline_ae": 27.86042266493864,
+          "method_ae": 27.86042266493864
+        },
+        {
+          "held_out": "NA-ion_270040-4-3-46.pkl",
+          "baseline_ape": 16.047437578476814,
+          "method_ape": 16.047437578476814,
+          "baseline_ae": 36.42768330314236,
+          "method_ae": 36.42768330314236
+        },
+        {
+          "held_out": "NA-ion_270040-4-6-43.pkl",
+          "baseline_ape": 27.11287817056499,
+          "method_ape": 27.11287817056499,
+          "baseline_ae": 38.500287002202285,
+          "method_ae": 38.500287002202285
+        },
+        {
+          "held_out": "NA-ion_270040-5-1-39.pkl",
+          "baseline_ape": 64.99495967741935,
+          "method_ape": 64.99495967741935,
+          "baseline_ae": 83.19354838709675,
+          "method_ae": 83.19354838709675
+        },
+        {
+          "held_out": "NA-ion_270040-5-2-38.pkl",
+          "baseline_ape": 54.11230598795918,
+          "method_ape": 54.11230598795918,
+          "baseline_ae": 64.93476718555104,
+          "method_ae": 64.93476718555104
+        },
+        {
+          "held_out": "NA-ion_270040-5-3-37.pkl",
+          "baseline_ape": 25.64437189406379,
+          "method_ape": 25.64437189406379,
+          "baseline_ae": 65.39314832986265,
+          "method_ae": 65.39314832986265
+        },
+        {
+          "held_out": "NA-ion_270040-5-5-35.pkl",
+          "baseline_ape": 18.122346872650912,
+          "method_ape": 18.122346872650912,
+          "baseline_ae": 32.620224370771645,
+          "method_ae": 32.620224370771645
+        },
+        {
+          "held_out": "NA-ion_270040-5-6-34.pkl",
+          "baseline_ape": 42.86795416792064,
+          "method_ape": 42.86795416792064,
+          "baseline_ae": 56.15701995997605,
+          "method_ae": 56.15701995997605
+        },
+        {
+          "held_out": "NA-ion_270040-5-7-33.pkl",
+          "baseline_ape": 17.44917695017689,
+          "method_ape": 17.44917695017689,
+          "baseline_ae": 30.8850432018131,
+          "method_ae": 30.8850432018131
+        },
+        {
+          "held_out": "NA-ion_270040-5-8-32.pkl",
+          "baseline_ape": 69.96598434703553,
+          "method_ape": 69.96598434703553,
+          "baseline_ae": 71.36530403397626,
+          "method_ae": 71.36530403397626
+        },
+        {
+          "held_out": "NA-ion_270040-6-2-30.pkl",
+          "baseline_ape": 18.72275245507895,
+          "method_ape": 18.72275245507895,
+          "baseline_ae": 28.833038780821575,
+          "method_ae": 28.833038780821575
+        },
+        {
+          "held_out": "NA-ion_270040-6-6-26.pkl",
+          "baseline_ape": 22.040145819097788,
+          "method_ape": 22.040145819097788,
+          "baseline_ae": 51.13313830030686,
+          "method_ae": 51.13313830030686
+        },
+        {
+          "held_out": "NA-ion_270040-6-8-24.pkl",
+          "baseline_ape": 22.211811086693352,
+          "method_ape": 22.211811086693352,
+          "baseline_ae": 59.74977182320513,
+          "method_ae": 59.74977182320513
+        },
+        {
+          "held_out": "NA-ion_270040-7-1-23.pkl",
+          "baseline_ape": 21.023158057821178,
+          "method_ape": 21.023158057821178,
+          "baseline_ae": 38.26214766523454,
+          "method_ae": 38.26214766523454
+        },
+        {
+          "held_out": "NA-ion_270040-8-5-16.pkl",
+          "baseline_ape": 24.03910908195127,
+          "method_ape": 24.03910908195127,
+          "baseline_ae": 35.577881441287886,
+          "method_ae": 35.577881441287886
+        },
+        {
+          "held_out": "NA-ion_4000-30_20250115110206_DefaultGroup_45_1.pkl",
+          "baseline_ape": 82.57863643307387,
+          "method_ape": 82.57863643307387,
+          "baseline_ae": 98.26857735535789,
+          "method_ae": 98.26857735535789
+        },
+        {
+          "held_out": "NA-ion_4500-30_20250114232539_DefaultGroup_45_8.pkl",
+          "baseline_ape": 27.191310975609735,
+          "method_ape": 27.191310975609735,
+          "baseline_ae": 44.59374999999996,
+          "method_ae": 44.59374999999996
+        },
+        {
+          "held_out": "NA-ion_5000-25_20250115110326_DefaultGroup_38_1.pkl",
+          "baseline_ape": 57.870370370370345,
+          "method_ape": 57.870370370370345,
+          "baseline_ae": 78.12499999999999,
+          "method_ae": 78.12499999999999
+        }
+      ]
+    },
+    {
+      "horizon": 50,
+      "label_budget_k": 5,
+      "protocol_dispersion": 0.0,
+      "route_counts": {
+        "fallback_zero_protocol_dispersion": 100
+      },
+      "baseline": {
+        "mae": 44.07271825726758,
+        "mape": 26.767029002570368,
+        "n_cells": 34
+      },
+      "method": {
+        "mae": 44.07271825726758,
+        "mape": 26.767029002570368,
+        "n_cells": 34
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        34,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "NA-ion_270040-1-2-63.pkl",
+          "baseline_ape": 12.577361155555533,
+          "method_ape": 12.577361155555533,
+          "baseline_ae": 22.261929245333288,
+          "method_ae": 22.261929245333288
+        },
+        {
+          "held_out": "NA-ion_270040-1-3-62.pkl",
+          "baseline_ape": 33.009840380795616,
+          "method_ape": 33.009840380795616,
+          "baseline_ae": 88.46637222053226,
+          "method_ae": 88.46637222053226
+        },
+        {
+          "held_out": "NA-ion_270040-1-5-60.pkl",
+          "baseline_ape": 14.56566755051791,
+          "method_ape": 14.56566755051791,
+          "baseline_ae": 24.033351458354552,
+          "method_ae": 24.033351458354552
+        },
+        {
+          "held_out": "NA-ion_270040-1-6-59.pkl",
+          "baseline_ape": 8.427384765862028,
+          "method_ape": 8.427384765862028,
+          "baseline_ae": 16.939043379382678,
+          "method_ae": 16.939043379382678
+        },
+        {
+          "held_out": "NA-ion_270040-1-7-58.pkl",
+          "baseline_ape": 14.746238254433612,
+          "method_ape": 14.746238254433612,
+          "baseline_ae": 31.55694986448793,
+          "method_ae": 31.55694986448793
+        },
+        {
+          "held_out": "NA-ion_270040-1-8-57.pkl",
+          "baseline_ape": 36.484282238490536,
+          "method_ape": 36.484282238490536,
+          "baseline_ae": 112.00674647216594,
+          "method_ae": 112.00674647216594
+        },
+        {
+          "held_out": "NA-ion_270040-2-2-12.pkl",
+          "baseline_ape": 28.664761126990594,
+          "method_ape": 28.664761126990594,
+          "baseline_ae": 45.29032258064513,
+          "method_ae": 45.29032258064513
+        },
+        {
+          "held_out": "NA-ion_270040-2-5-12.pkl",
+          "baseline_ape": 46.62807866422968,
+          "method_ape": 46.62807866422968,
+          "baseline_ae": 54.55485203714872,
+          "method_ae": 54.55485203714872
+        },
+        {
+          "held_out": "NA-ion_270040-3-1-56.pkl",
+          "baseline_ape": 19.665543746849128,
+          "method_ape": 19.665543746849128,
+          "baseline_ae": 25.17189599596688,
+          "method_ae": 25.17189599596688
+        },
+        {
+          "held_out": "NA-ion_270040-3-2-55.pkl",
+          "baseline_ape": 10.990655960110445,
+          "method_ape": 10.990655960110445,
+          "baseline_ae": 21.98131192022089,
+          "method_ae": 21.98131192022089
+        },
+        {
+          "held_out": "NA-ion_270040-3-3-54.pkl",
+          "baseline_ape": 24.673639437171325,
+          "method_ape": 24.673639437171325,
+          "baseline_ae": 32.56920405706616,
+          "method_ae": 32.56920405706616
+        },
+        {
+          "held_out": "NA-ion_270040-3-4-53.pkl",
+          "baseline_ape": 9.962045263852966,
+          "method_ape": 9.962045263852966,
+          "baseline_ae": 18.330163285489455,
+          "method_ae": 18.330163285489455
+        },
+        {
+          "held_out": "NA-ion_270040-3-5-52.pkl",
+          "baseline_ape": 12.0045074946687,
+          "method_ape": 12.0045074946687,
+          "baseline_ae": 27.730412312684695,
+          "method_ae": 27.730412312684695
+        },
+        {
+          "held_out": "NA-ion_270040-3-7-50.pkl",
+          "baseline_ape": 35.600552935193285,
+          "method_ape": 35.600552935193285,
+          "baseline_ae": 38.44859717000875,
+          "method_ae": 38.44859717000875
+        },
+        {
+          "held_out": "NA-ion_270040-3-8-49.pkl",
+          "baseline_ape": 18.890915712236726,
+          "method_ape": 18.890915712236726,
+          "baseline_ae": 47.41619843771418,
+          "method_ae": 47.41619843771418
+        },
+        {
+          "held_out": "NA-ion_270040-4-1-48.pkl",
+          "baseline_ape": 12.301444849726307,
+          "method_ape": 12.301444849726307,
+          "baseline_ae": 28.90839539685683,
+          "method_ae": 28.90839539685683
+        },
+        {
+          "held_out": "NA-ion_270040-4-2-47.pkl",
+          "baseline_ape": 12.300514301821721,
+          "method_ape": 12.300514301821721,
+          "baseline_ae": 24.10900803157058,
+          "method_ae": 24.10900803157058
+        },
+        {
+          "held_out": "NA-ion_270040-4-3-46.pkl",
+          "baseline_ape": 10.33591340306787,
+          "method_ape": 10.33591340306787,
+          "baseline_ae": 23.462523424964054,
+          "method_ae": 23.462523424964054
+        },
+        {
+          "held_out": "NA-ion_270040-4-6-43.pkl",
+          "baseline_ape": 20.251186455132636,
+          "method_ape": 20.251186455132636,
+          "baseline_ae": 28.756684766288338,
+          "method_ae": 28.756684766288338
+        },
+        {
+          "held_out": "NA-ion_270040-5-1-39.pkl",
+          "baseline_ape": 68.0889423076923,
+          "method_ape": 68.0889423076923,
+          "baseline_ae": 87.15384615384613,
+          "method_ae": 87.15384615384613
+        },
+        {
+          "held_out": "NA-ion_270040-5-2-38.pkl",
+          "baseline_ape": 39.19460641610454,
+          "method_ape": 39.19460641610454,
+          "baseline_ae": 47.03352769932545,
+          "method_ae": 47.03352769932545
+        },
+        {
+          "held_out": "NA-ion_270040-5-3-37.pkl",
+          "baseline_ape": 22.38698662599442,
+          "method_ape": 22.38698662599442,
+          "baseline_ae": 57.08681589628577,
+          "method_ae": 57.08681589628577
+        },
+        {
+          "held_out": "NA-ion_270040-5-5-35.pkl",
+          "baseline_ape": 11.991079053666551,
+          "method_ape": 11.991079053666551,
+          "baseline_ae": 21.583942296599798,
+          "method_ae": 21.583942296599798
+        },
+        {
+          "held_out": "NA-ion_270040-5-6-34.pkl",
+          "baseline_ape": 31.821069941742337,
+          "method_ape": 31.821069941742337,
+          "baseline_ae": 41.68560162368247,
+          "method_ae": 41.68560162368247
+        },
+        {
+          "held_out": "NA-ion_270040-5-7-33.pkl",
+          "baseline_ape": 13.77596307409428,
+          "method_ape": 13.77596307409428,
+          "baseline_ae": 24.383454641146876,
+          "method_ae": 24.383454641146876
+        },
+        {
+          "held_out": "NA-ion_270040-5-8-32.pkl",
+          "baseline_ape": 42.772486416448594,
+          "method_ape": 42.772486416448594,
+          "baseline_ae": 43.62793614477757,
+          "method_ae": 43.62793614477757
+        },
+        {
+          "held_out": "NA-ion_270040-6-2-30.pkl",
+          "baseline_ape": 19.34115546180595,
+          "method_ape": 19.34115546180595,
+          "baseline_ae": 29.785379411181157,
+          "method_ae": 29.785379411181157
+        },
+        {
+          "held_out": "NA-ion_270040-6-6-26.pkl",
+          "baseline_ape": 18.175879573814214,
+          "method_ape": 18.175879573814214,
+          "baseline_ae": 42.168040611248976,
+          "method_ae": 42.168040611248976
+        },
+        {
+          "held_out": "NA-ion_270040-6-8-24.pkl",
+          "baseline_ape": 24.019166877173507,
+          "method_ape": 24.019166877173507,
+          "baseline_ae": 64.61155889959673,
+          "method_ae": 64.61155889959673
+        },
+        {
+          "held_out": "NA-ion_270040-7-1-23.pkl",
+          "baseline_ape": 17.23674889017186,
+          "method_ape": 17.23674889017186,
+          "baseline_ae": 31.370882980112786,
+          "method_ae": 31.370882980112786
+        },
+        {
+          "held_out": "NA-ion_270040-8-5-16.pkl",
+          "baseline_ape": 23.738704961841762,
+          "method_ape": 23.738704961841762,
+          "baseline_ae": 35.133283343525804,
+          "method_ae": 35.133283343525804
+        },
+        {
+          "held_out": "NA-ion_4000-30_20250115110206_DefaultGroup_45_1.pkl",
+          "baseline_ape": 91.4115416471698,
+          "method_ape": 91.4115416471698,
+          "baseline_ae": 108.77973456013206,
+          "method_ae": 108.77973456013206
+        },
+        {
+          "held_out": "NA-ion_4500-30_20250114232539_DefaultGroup_45_8.pkl",
+          "baseline_ape": 40.05134788189985,
+          "method_ape": 40.05134788189985,
+          "baseline_ae": 65.68421052631574,
+          "method_ae": 65.68421052631574
+        },
+        {
+          "held_out": "NA-ion_5000-25_20250115110326_DefaultGroup_38_1.pkl",
+          "baseline_ape": 63.99277326106591,
+          "method_ape": 63.99277326106591,
+          "baseline_ae": 86.39024390243901,
+          "method_ae": 86.39024390243901
+        }
+      ]
+    },
+    {
+      "horizon": 50,
+      "label_budget_k": 10,
+      "protocol_dispersion": 0.0,
+      "route_counts": {
+        "fallback_zero_protocol_dispersion": 100
+      },
+      "baseline": {
+        "mae": 37.928146794729955,
+        "mape": 23.118718745532217,
+        "n_cells": 34
+      },
+      "method": {
+        "mae": 37.928146794729955,
+        "mape": 23.118718745532217,
+        "n_cells": 34
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        34,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "NA-ion_270040-1-2-63.pkl",
+          "baseline_ape": 10.886672190697976,
+          "method_ape": 10.886672190697976,
+          "baseline_ae": 19.26940977753541,
+          "method_ae": 19.26940977753541
+        },
+        {
+          "held_out": "NA-ion_270040-1-3-62.pkl",
+          "baseline_ape": 34.40569702748987,
+          "method_ape": 34.40569702748987,
+          "baseline_ae": 92.20726803367286,
+          "method_ae": 92.20726803367286
+        },
+        {
+          "held_out": "NA-ion_270040-1-5-60.pkl",
+          "baseline_ape": 16.173321896349364,
+          "method_ape": 16.173321896349364,
+          "baseline_ae": 26.68598112897645,
+          "method_ae": 26.68598112897645
+        },
+        {
+          "held_out": "NA-ion_270040-1-6-59.pkl",
+          "baseline_ape": 5.927001711044363,
+          "method_ape": 5.927001711044363,
+          "baseline_ae": 11.913273439199168,
+          "method_ae": 11.913273439199168
+        },
+        {
+          "held_out": "NA-ion_270040-1-7-58.pkl",
+          "baseline_ape": 8.372071922058986,
+          "method_ape": 8.372071922058986,
+          "baseline_ae": 17.916233913206227,
+          "method_ae": 17.916233913206227
+        },
+        {
+          "held_out": "NA-ion_270040-1-8-57.pkl",
+          "baseline_ape": 34.14816440053452,
+          "method_ape": 34.14816440053452,
+          "baseline_ae": 104.834864709641,
+          "method_ae": 104.834864709641
+        },
+        {
+          "held_out": "NA-ion_270040-2-2-12.pkl",
+          "baseline_ape": 20.527426160337544,
+          "method_ape": 20.527426160337544,
+          "baseline_ae": 32.43333333333332,
+          "method_ae": 32.43333333333332
+        },
+        {
+          "held_out": "NA-ion_270040-2-5-12.pkl",
+          "baseline_ape": 53.88723675519068,
+          "method_ape": 53.88723675519068,
+          "baseline_ae": 63.048067003573095,
+          "method_ae": 63.048067003573095
+        },
+        {
+          "held_out": "NA-ion_270040-3-1-56.pkl",
+          "baseline_ape": 26.879517951371014,
+          "method_ape": 26.879517951371014,
+          "baseline_ae": 34.405782977754896,
+          "method_ae": 34.405782977754896
+        },
+        {
+          "held_out": "NA-ion_270040-3-2-55.pkl",
+          "baseline_ape": 6.450442699261843,
+          "method_ape": 6.450442699261843,
+          "baseline_ae": 12.900885398523686,
+          "method_ae": 12.900885398523686
+        },
+        {
+          "held_out": "NA-ion_270040-3-3-54.pkl",
+          "baseline_ape": 26.41743960551796,
+          "method_ape": 26.41743960551796,
+          "baseline_ae": 34.87102027928372,
+          "method_ae": 34.87102027928372
+        },
+        {
+          "held_out": "NA-ion_270040-3-4-53.pkl",
+          "baseline_ape": 7.082624193045666,
+          "method_ape": 7.082624193045666,
+          "baseline_ae": 13.032028515204024,
+          "method_ae": 13.032028515204024
+        },
+        {
+          "held_out": "NA-ion_270040-3-5-52.pkl",
+          "baseline_ape": 7.203146175307969,
+          "method_ape": 7.203146175307969,
+          "baseline_ae": 16.639267664961416,
+          "method_ae": 16.639267664961416
+        },
+        {
+          "held_out": "NA-ion_270040-3-7-50.pkl",
+          "baseline_ape": 30.375196025827872,
+          "method_ape": 30.375196025827872,
+          "baseline_ae": 32.80521170789411,
+          "method_ae": 32.80521170789411
+        },
+        {
+          "held_out": "NA-ion_270040-3-8-49.pkl",
+          "baseline_ape": 15.68603779032442,
+          "method_ape": 15.68603779032442,
+          "baseline_ae": 39.37195485371429,
+          "method_ae": 39.37195485371429
+        },
+        {
+          "held_out": "NA-ion_270040-4-1-48.pkl",
+          "baseline_ape": 8.767515471560232,
+          "method_ape": 8.767515471560232,
+          "baseline_ae": 20.60366135816655,
+          "method_ae": 20.60366135816655
+        },
+        {
+          "held_out": "NA-ion_270040-4-2-47.pkl",
+          "baseline_ape": 5.517828155512534,
+          "method_ape": 5.517828155512534,
+          "baseline_ae": 10.814943184804568,
+          "method_ae": 10.814943184804568
+        },
+        {
+          "held_out": "NA-ion_270040-4-3-46.pkl",
+          "baseline_ape": 9.356316909662295,
+          "method_ape": 9.356316909662295,
+          "baseline_ae": 21.238839384933414,
+          "method_ae": 21.238839384933414
+        },
+        {
+          "held_out": "NA-ion_270040-4-6-43.pkl",
+          "baseline_ape": 12.620687841746399,
+          "method_ape": 12.620687841746399,
+          "baseline_ae": 17.921376735279885,
+          "method_ae": 17.921376735279885
+        },
+        {
+          "held_out": "NA-ion_270040-5-1-39.pkl",
+          "baseline_ape": 43.28703703703702,
+          "method_ape": 43.28703703703702,
+          "baseline_ae": 55.407407407407376,
+          "method_ae": 55.407407407407376
+        },
+        {
+          "held_out": "NA-ion_270040-5-2-38.pkl",
+          "baseline_ape": 38.35008404891224,
+          "method_ape": 38.35008404891224,
+          "baseline_ae": 46.02010085869468,
+          "method_ae": 46.02010085869468
+        },
+        {
+          "held_out": "NA-ion_270040-5-3-37.pkl",
+          "baseline_ape": 18.993308480957758,
+          "method_ape": 18.993308480957758,
+          "baseline_ae": 48.43293662644228,
+          "method_ae": 48.43293662644228
+        },
+        {
+          "held_out": "NA-ion_270040-5-5-35.pkl",
+          "baseline_ape": 11.671372282362425,
+          "method_ape": 11.671372282362425,
+          "baseline_ae": 21.008470108252357,
+          "method_ae": 21.008470108252357
+        },
+        {
+          "held_out": "NA-ion_270040-5-6-34.pkl",
+          "baseline_ape": 26.298379671879058,
+          "method_ape": 26.298379671879058,
+          "baseline_ae": 34.45087737016157,
+          "method_ae": 34.45087737016157
+        },
+        {
+          "held_out": "NA-ion_270040-5-7-33.pkl",
+          "baseline_ape": 14.248325947891328,
+          "method_ape": 14.248325947891328,
+          "baseline_ae": 25.21953692776765,
+          "method_ae": 25.21953692776765
+        },
+        {
+          "held_out": "NA-ion_270040-5-8-32.pkl",
+          "baseline_ape": 33.460198428421506,
+          "method_ape": 33.460198428421506,
+          "baseline_ae": 34.129402396989924,
+          "method_ae": 34.129402396989924
+        },
+        {
+          "held_out": "NA-ion_270040-6-2-30.pkl",
+          "baseline_ape": 13.112500936414529,
+          "method_ape": 13.112500936414529,
+          "baseline_ae": 20.19325144207838,
+          "method_ae": 20.19325144207838
+        },
+        {
+          "held_out": "NA-ion_270040-6-6-26.pkl",
+          "baseline_ape": 15.400586218289464,
+          "method_ape": 15.400586218289464,
+          "baseline_ae": 35.72936002643155,
+          "method_ae": 35.72936002643155
+        },
+        {
+          "held_out": "NA-ion_270040-6-8-24.pkl",
+          "baseline_ape": 21.513041509164026,
+          "method_ape": 21.513041509164026,
+          "baseline_ae": 57.87008165965125,
+          "method_ae": 57.87008165965125
+        },
+        {
+          "held_out": "NA-ion_270040-7-1-23.pkl",
+          "baseline_ape": 16.40825157634649,
+          "method_ape": 16.40825157634649,
+          "baseline_ae": 29.863017868950614,
+          "method_ae": 29.863017868950614
+        },
+        {
+          "held_out": "NA-ion_270040-8-5-16.pkl",
+          "baseline_ape": 20.72439552993879,
+          "method_ape": 20.72439552993879,
+          "baseline_ae": 30.672105384309408,
+          "method_ae": 30.672105384309408
+        },
+        {
+          "held_out": "NA-ion_4000-30_20250115110206_DefaultGroup_45_1.pkl",
+          "baseline_ape": 89.43580366747881,
+          "method_ape": 89.43580366747881,
+          "baseline_ae": 106.4286063642998,
+          "method_ae": 106.4286063642998
+        },
+        {
+          "held_out": "NA-ion_4500-30_20250114232539_DefaultGroup_45_8.pkl",
+          "baseline_ape": 34.18118466898952,
+          "method_ape": 34.18118466898952,
+          "baseline_ae": 56.05714285714283,
+          "method_ae": 56.05714285714283
+        },
+        {
+          "held_out": "NA-ion_5000-25_20250115110326_DefaultGroup_38_1.pkl",
+          "baseline_ape": 48.26762246117081,
+          "method_ape": 48.26762246117081,
+          "baseline_ae": 65.16129032258063,
+          "method_ae": 65.16129032258063
+        }
+      ]
+    }
+  ]
+}

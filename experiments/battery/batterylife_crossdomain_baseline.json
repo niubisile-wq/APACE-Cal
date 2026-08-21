@@ -1,0 +1,793 @@
+{
+  "dataset_versions": "BatteryLife v12",
+  "datasets": {
+    "CALB": 27,
+    "HNEI": 14
+  },
+  "cells": 41,
+  "checkpoints": 17586,
+  "results": [
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_0_B182.pkl",
+      "held_out_dataset": "CALB",
+      "model": "ridge",
+      "n_test": 91,
+      "mae": 59.354599664243594,
+      "p95_abs_error": 74.86138769571606
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_0_B182.pkl",
+      "held_out_dataset": "CALB",
+      "model": "rf",
+      "n_test": 91,
+      "mae": 5.243332897261466,
+      "p95_abs_error": 33.178714285714264
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_0_B183.pkl",
+      "held_out_dataset": "CALB",
+      "model": "ridge",
+      "n_test": 91,
+      "mae": 66.1958275837044,
+      "p95_abs_error": 76.3965395233988
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_0_B183.pkl",
+      "held_out_dataset": "CALB",
+      "model": "rf",
+      "n_test": 91,
+      "mae": 8.63931600674458,
+      "p95_abs_error": 26.088109126984108
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_0_B184.pkl",
+      "held_out_dataset": "CALB",
+      "model": "ridge",
+      "n_test": 91,
+      "mae": 3.711137062760172,
+      "p95_abs_error": 7.415366144271289
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_0_B184.pkl",
+      "held_out_dataset": "CALB",
+      "model": "rf",
+      "n_test": 91,
+      "mae": 21.010097214954364,
+      "p95_abs_error": 50.34402380952381
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_0_B185.pkl",
+      "held_out_dataset": "CALB",
+      "model": "ridge",
+      "n_test": 91,
+      "mae": 16.881827008721306,
+      "p95_abs_error": 19.87893784822633
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_0_B185.pkl",
+      "held_out_dataset": "CALB",
+      "model": "rf",
+      "n_test": 91,
+      "mae": 10.81480507587649,
+      "p95_abs_error": 24.519944444444448
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_0_B187.pkl",
+      "held_out_dataset": "CALB",
+      "model": "ridge",
+      "n_test": 91,
+      "mae": 13.986454414938493,
+      "p95_abs_error": 20.132414777585325
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_0_B187.pkl",
+      "held_out_dataset": "CALB",
+      "model": "rf",
+      "n_test": 91,
+      "mae": 31.87122168440027,
+      "p95_abs_error": 55.986926587301596
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_0_B188.pkl",
+      "held_out_dataset": "CALB",
+      "model": "ridge",
+      "n_test": 199,
+      "mae": 76.77977941348928,
+      "p95_abs_error": 64.7726503685302
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_0_B188.pkl",
+      "held_out_dataset": "CALB",
+      "model": "rf",
+      "n_test": 199,
+      "mae": 17.27730832735105,
+      "p95_abs_error": 18.910000000000004
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_0_B189.pkl",
+      "held_out_dataset": "CALB",
+      "model": "ridge",
+      "n_test": 91,
+      "mae": 13.031942636604773,
+      "p95_abs_error": 19.67375731400635
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_0_B189.pkl",
+      "held_out_dataset": "CALB",
+      "model": "rf",
+      "n_test": 91,
+      "mae": 7.5132437205651526,
+      "p95_abs_error": 12.689833333333297
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_0_B190.pkl",
+      "held_out_dataset": "CALB",
+      "model": "ridge",
+      "n_test": 91,
+      "mae": 68.54160889899585,
+      "p95_abs_error": 80.53383499898547
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_0_B190.pkl",
+      "held_out_dataset": "CALB",
+      "model": "rf",
+      "n_test": 91,
+      "mae": 5.991216684109541,
+      "p95_abs_error": 15.620059523809516
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_25_T25-1.pkl",
+      "held_out_dataset": "CALB",
+      "model": "ridge",
+      "n_test": 90,
+      "mae": 277.9774455229632,
+      "p95_abs_error": 281.9477633322859
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_25_T25-1.pkl",
+      "held_out_dataset": "CALB",
+      "model": "rf",
+      "n_test": 90,
+      "mae": 295.790775308642,
+      "p95_abs_error": 483.54858333333334
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_25_T25-2.pkl",
+      "held_out_dataset": "CALB",
+      "model": "ridge",
+      "n_test": 90,
+      "mae": 47.43259589078372,
+      "p95_abs_error": 50.58878945711882
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_25_T25-2.pkl",
+      "held_out_dataset": "CALB",
+      "model": "rf",
+      "n_test": 90,
+      "mae": 172.938012345679,
+      "p95_abs_error": 190.0
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_35_B173.pkl",
+      "held_out_dataset": "CALB",
+      "model": "ridge",
+      "n_test": 90,
+      "mae": 66.16151776388043,
+      "p95_abs_error": 67.82028065194729
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_35_B173.pkl",
+      "held_out_dataset": "CALB",
+      "model": "rf",
+      "n_test": 90,
+      "mae": 44.58145291005289,
+      "p95_abs_error": 61.453333333333376
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_35_B174.pkl",
+      "held_out_dataset": "CALB",
+      "model": "ridge",
+      "n_test": 90,
+      "mae": 111.83650546859995,
+      "p95_abs_error": 113.74303615985093
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_35_B174.pkl",
+      "held_out_dataset": "CALB",
+      "model": "rf",
+      "n_test": 90,
+      "mae": 70.52965537918871,
+      "p95_abs_error": 80.0
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_35_B175.pkl",
+      "held_out_dataset": "CALB",
+      "model": "ridge",
+      "n_test": 90,
+      "mae": 195.74483451761503,
+      "p95_abs_error": 197.26904118281385
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_35_B175.pkl",
+      "held_out_dataset": "CALB",
+      "model": "rf",
+      "n_test": 90,
+      "mae": 80.11883518518522,
+      "p95_abs_error": 80.65563888888859
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_35_B222.pkl",
+      "held_out_dataset": "CALB",
+      "model": "ridge",
+      "n_test": 90,
+      "mae": 97.55035205871329,
+      "p95_abs_error": 100.03566285812941
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_35_B222.pkl",
+      "held_out_dataset": "CALB",
+      "model": "rf",
+      "n_test": 90,
+      "mae": 38.345982186948845,
+      "p95_abs_error": 53.09499444444464
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_35_B223.pkl",
+      "held_out_dataset": "CALB",
+      "model": "ridge",
+      "n_test": 90,
+      "mae": 108.99393974352967,
+      "p95_abs_error": 110.01725188796004
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_35_B223.pkl",
+      "held_out_dataset": "CALB",
+      "model": "rf",
+      "n_test": 90,
+      "mae": 31.219437962963074,
+      "p95_abs_error": 34.398236111111245
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_35_B224.pkl",
+      "held_out_dataset": "CALB",
+      "model": "ridge",
+      "n_test": 90,
+      "mae": 118.40541371032133,
+      "p95_abs_error": 119.58901229475362
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_35_B224.pkl",
+      "held_out_dataset": "CALB",
+      "model": "rf",
+      "n_test": 90,
+      "mae": 85.56381543209874,
+      "p95_abs_error": 96.22641666666671
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_35_B227.pkl",
+      "held_out_dataset": "CALB",
+      "model": "ridge",
+      "n_test": 90,
+      "mae": 77.5085854117557,
+      "p95_abs_error": 79.03780827975365
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_35_B227.pkl",
+      "held_out_dataset": "CALB",
+      "model": "rf",
+      "n_test": 90,
+      "mae": 58.06840873015848,
+      "p95_abs_error": 108.96748333333328
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_35_B228.pkl",
+      "held_out_dataset": "CALB",
+      "model": "ridge",
+      "n_test": 90,
+      "mae": 78.91400000234864,
+      "p95_abs_error": 80.68216565975187
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_35_B228.pkl",
+      "held_out_dataset": "CALB",
+      "model": "rf",
+      "n_test": 90,
+      "mae": 62.510241446208255,
+      "p95_abs_error": 72.73301666666671
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_35_B229.pkl",
+      "held_out_dataset": "CALB",
+      "model": "ridge",
+      "n_test": 90,
+      "mae": 1.1052526672012568,
+      "p95_abs_error": 3.6171688619809963
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_35_B229.pkl",
+      "held_out_dataset": "CALB",
+      "model": "rf",
+      "n_test": 90,
+      "mae": 72.4530164462081,
+      "p95_abs_error": 85.97215277777792
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_35_B230.pkl",
+      "held_out_dataset": "CALB",
+      "model": "ridge",
+      "n_test": 90,
+      "mae": 91.6605577155833,
+      "p95_abs_error": 92.92270132649293
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_35_B230.pkl",
+      "held_out_dataset": "CALB",
+      "model": "rf",
+      "n_test": 90,
+      "mae": 91.205382686655,
+      "p95_abs_error": 394.4248796296296
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_35_B247.pkl",
+      "held_out_dataset": "CALB",
+      "model": "ridge",
+      "n_test": 90,
+      "mae": 268.71286204457016,
+      "p95_abs_error": 269.7625159624725
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_35_B247.pkl",
+      "held_out_dataset": "CALB",
+      "model": "rf",
+      "n_test": 90,
+      "mae": 110.24764828042325,
+      "p95_abs_error": 112.55338888888892
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_35_B248.pkl",
+      "held_out_dataset": "CALB",
+      "model": "ridge",
+      "n_test": 90,
+      "mae": 158.90697581775865,
+      "p95_abs_error": 161.06924592914808
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_35_B248.pkl",
+      "held_out_dataset": "CALB",
+      "model": "rf",
+      "n_test": 90,
+      "mae": 68.21422962962963,
+      "p95_abs_error": 74.75020833333335
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_35_B249.pkl",
+      "held_out_dataset": "CALB",
+      "model": "ridge",
+      "n_test": 90,
+      "mae": 144.56244015776272,
+      "p95_abs_error": 147.02995362502594
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_35_B249.pkl",
+      "held_out_dataset": "CALB",
+      "model": "rf",
+      "n_test": 90,
+      "mae": 24.68738377425039,
+      "p95_abs_error": 36.22952380952364
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_35_B250.pkl",
+      "held_out_dataset": "CALB",
+      "model": "ridge",
+      "n_test": 90,
+      "mae": 92.41434113989322,
+      "p95_abs_error": 93.19496080691934
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_35_B250.pkl",
+      "held_out_dataset": "CALB",
+      "model": "rf",
+      "n_test": 90,
+      "mae": 17.920456790123467,
+      "p95_abs_error": 19.287222222222226
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_45_B253.pkl",
+      "held_out_dataset": "CALB",
+      "model": "ridge",
+      "n_test": 91,
+      "mae": 409.3813729533646,
+      "p95_abs_error": 411.4455493833111
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_45_B253.pkl",
+      "held_out_dataset": "CALB",
+      "model": "rf",
+      "n_test": 91,
+      "mae": 10.827168091168076,
+      "p95_abs_error": 12.30499999999995
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_45_B255.pkl",
+      "held_out_dataset": "CALB",
+      "model": "ridge",
+      "n_test": 91,
+      "mae": 395.2966507541124,
+      "p95_abs_error": 397.9951849437939
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_45_B255.pkl",
+      "held_out_dataset": "CALB",
+      "model": "rf",
+      "n_test": 91,
+      "mae": 11.901391941391957,
+      "p95_abs_error": 11.960000000000036
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_45_B256.pkl",
+      "held_out_dataset": "CALB",
+      "model": "ridge",
+      "n_test": 90,
+      "mae": 403.7859170267626,
+      "p95_abs_error": 408.3569354491553
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "CALB_45_B256.pkl",
+      "held_out_dataset": "CALB",
+      "model": "rf",
+      "n_test": 90,
+      "mae": 5.9772555555555575,
+      "p95_abs_error": 6.0
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_a.pkl",
+      "held_out_dataset": "HNEI",
+      "model": "ridge",
+      "n_test": 1077,
+      "mae": 18.392116756734474,
+      "p95_abs_error": 21.817060556202442
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_a.pkl",
+      "held_out_dataset": "HNEI",
+      "model": "rf",
+      "n_test": 1077,
+      "mae": 10.191198037656488,
+      "p95_abs_error": 20.204165079365023
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_b.pkl",
+      "held_out_dataset": "HNEI",
+      "model": "ridge",
+      "n_test": 1071,
+      "mae": 31.229119658275444,
+      "p95_abs_error": 35.734621268589876
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_b.pkl",
+      "held_out_dataset": "HNEI",
+      "model": "rf",
+      "n_test": 1071,
+      "mae": 33.23536597354992,
+      "p95_abs_error": 45.78661904761904
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_c.pkl",
+      "held_out_dataset": "HNEI",
+      "model": "ridge",
+      "n_test": 1072,
+      "mae": 10.413014638123569,
+      "p95_abs_error": 13.714182840591938
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_c.pkl",
+      "held_out_dataset": "HNEI",
+      "model": "rf",
+      "n_test": 1072,
+      "mae": 5.540971078163477,
+      "p95_abs_error": 14.06699206349203
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_d.pkl",
+      "held_out_dataset": "HNEI",
+      "model": "ridge",
+      "n_test": 1072,
+      "mae": 11.000406109900787,
+      "p95_abs_error": 13.836407447590666
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_d.pkl",
+      "held_out_dataset": "HNEI",
+      "model": "rf",
+      "n_test": 1072,
+      "mae": 2.9704523315959857,
+      "p95_abs_error": 5.823916666666628
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_e.pkl",
+      "held_out_dataset": "HNEI",
+      "model": "ridge",
+      "n_test": 1098,
+      "mae": 9.994767913225296,
+      "p95_abs_error": 13.442442105095981
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_e.pkl",
+      "held_out_dataset": "HNEI",
+      "model": "rf",
+      "n_test": 1098,
+      "mae": 7.613890388552959,
+      "p95_abs_error": 19.804617460317477
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_f.pkl",
+      "held_out_dataset": "HNEI",
+      "model": "ridge",
+      "n_test": 1066,
+      "mae": 14.095333150802345,
+      "p95_abs_error": 20.122951075402327
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_f.pkl",
+      "held_out_dataset": "HNEI",
+      "model": "rf",
+      "n_test": 1066,
+      "mae": 5.504060978091462,
+      "p95_abs_error": 10.88166937229434
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_g.pkl",
+      "held_out_dataset": "HNEI",
+      "model": "ridge",
+      "n_test": 1073,
+      "mae": 3.5736999766424336,
+      "p95_abs_error": 8.24665124386517
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_g.pkl",
+      "held_out_dataset": "HNEI",
+      "model": "rf",
+      "n_test": 1073,
+      "mae": 9.626494408201305,
+      "p95_abs_error": 18.235588888888856
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_j.pkl",
+      "held_out_dataset": "HNEI",
+      "model": "ridge",
+      "n_test": 1067,
+      "mae": 16.00109853431223,
+      "p95_abs_error": 18.78026953648305
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_j.pkl",
+      "held_out_dataset": "HNEI",
+      "model": "rf",
+      "n_test": 1067,
+      "mae": 13.01397741202357,
+      "p95_abs_error": 23.270944444444428
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_l.pkl",
+      "held_out_dataset": "HNEI",
+      "model": "ridge",
+      "n_test": 1072,
+      "mae": 29.202506524647546,
+      "p95_abs_error": 31.798863785892095
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_l.pkl",
+      "held_out_dataset": "HNEI",
+      "model": "rf",
+      "n_test": 1072,
+      "mae": 13.872882909361923,
+      "p95_abs_error": 31.046571031745987
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_n.pkl",
+      "held_out_dataset": "HNEI",
+      "model": "ridge",
+      "n_test": 1073,
+      "mae": 6.623195495785629,
+      "p95_abs_error": 12.826961526361197
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_n.pkl",
+      "held_out_dataset": "HNEI",
+      "model": "rf",
+      "n_test": 1073,
+      "mae": 8.238977032002898,
+      "p95_abs_error": 15.823333333333323
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_o.pkl",
+      "held_out_dataset": "HNEI",
+      "model": "ridge",
+      "n_test": 1073,
+      "mae": 23.38586887027357,
+      "p95_abs_error": 27.27382386530827
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_o.pkl",
+      "held_out_dataset": "HNEI",
+      "model": "rf",
+      "n_test": 1073,
+      "mae": 11.756090147917734,
+      "p95_abs_error": 27.05128888888887
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_p.pkl",
+      "held_out_dataset": "HNEI",
+      "model": "ridge",
+      "n_test": 1071,
+      "mae": 19.515238158660527,
+      "p95_abs_error": 23.06228516057257
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_p.pkl",
+      "held_out_dataset": "HNEI",
+      "model": "rf",
+      "n_test": 1071,
+      "mae": 9.148190659661953,
+      "p95_abs_error": 25.81214880952382
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_s.pkl",
+      "held_out_dataset": "HNEI",
+      "model": "ridge",
+      "n_test": 1079,
+      "mae": 18.166519408503156,
+      "p95_abs_error": 22.94353316500361
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_s.pkl",
+      "held_out_dataset": "HNEI",
+      "model": "rf",
+      "n_test": 1079,
+      "mae": 13.11411561140778,
+      "p95_abs_error": 29.810879365079355
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_t.pkl",
+      "held_out_dataset": "HNEI",
+      "model": "ridge",
+      "n_test": 1074,
+      "mae": 15.560240350235814,
+      "p95_abs_error": 23.321883196623062
+    },
+    {
+      "protocol": "pooled_loco",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_t.pkl",
+      "held_out_dataset": "HNEI",
+      "model": "rf",
+      "n_test": 1074,
+      "mae": 6.157767675200177,
+      "p95_abs_error": 12.650063888888896
+    },
+    {
+      "protocol": "dataset_transfer",
+      "train_dataset": "CALB",
+      "test_dataset": "HNEI",
+      "model": "ridge",
+      "n_test": 15038,
+      "mae": 393.3714846944648,
+      "p95_abs_error": 704.8952864098237
+    },
+    {
+      "protocol": "dataset_transfer",
+      "train_dataset": "CALB",
+      "test_dataset": "HNEI",
+      "model": "rf",
+      "n_test": 15038,
+      "mae": 30.790303191702748,
+      "p95_abs_error": 58.97017063492069
+    },
+    {
+      "protocol": "dataset_transfer",
+      "train_dataset": "HNEI",
+      "test_dataset": "CALB",
+      "model": "ridge",
+      "n_test": 2548,
+      "mae": 4326.388983138231,
+      "p95_abs_error": 4725.148204548295
+    },
+    {
+      "protocol": "dataset_transfer",
+      "train_dataset": "HNEI",
+      "test_dataset": "CALB",
+      "model": "rf",
+      "n_test": 2548,
+      "mae": 669.3353499248295,
+      "p95_abs_error": 1105.4208267195768
+    }
+  ],
+  "pooled_loco_ridge_mean_mae": 90.04848445358782,
+  "pooled_loco_ridge_worst_mae": 409.3813729533646,
+  "pooled_loco_rf_mean_mae": 39.303549422858076,
+  "pooled_loco_rf_worst_mae": 295.790775308642,
+  "dataset_transfer_ridge_mean_mae": 2359.880233916348,
+  "dataset_transfer_ridge_worst_mae": 4326.388983138231,
+  "dataset_transfer_rf_mean_mae": 350.0628265582661,
+  "dataset_transfer_rf_worst_mae": 669.3353499248295
+}

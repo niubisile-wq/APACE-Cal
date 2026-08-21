@@ -1,0 +1,55 @@
+{
+  "theory": {
+    "geometry": "O(n^2 d)",
+    "facility_selection": "O(K n_a n)",
+    "distance_memory": "O(n^2)"
+  },
+  "implementation": "NumPy CPU geometry; no learned model or GPU dependency",
+  "rows": [
+    {
+      "n": 30,
+      "geometry_seconds": 0.02076043700799346,
+      "selection_seconds": 0.0018301939126104116,
+      "distance_matrix_bytes_each": 7200,
+      "distance_matrix_bytes_both": 14400,
+      "rss_kb_after": 150656,
+      "support_size": 10
+    },
+    {
+      "n": 60,
+      "geometry_seconds": 0.08490165905095637,
+      "selection_seconds": 0.004135058959946036,
+      "distance_matrix_bytes_each": 28800,
+      "distance_matrix_bytes_both": 57600,
+      "rss_kb_after": 150656,
+      "support_size": 10
+    },
+    {
+      "n": 120,
+      "geometry_seconds": 0.3142558990512043,
+      "selection_seconds": 0.005709548015147448,
+      "distance_matrix_bytes_each": 115200,
+      "distance_matrix_bytes_both": 230400,
+      "rss_kb_after": 151680,
+      "support_size": 10
+    },
+    {
+      "n": 240,
+      "geometry_seconds": 0.9601620859466493,
+      "selection_seconds": 0.015357784926891327,
+      "distance_matrix_bytes_each": 460800,
+      "distance_matrix_bytes_both": 921600,
+      "rss_kb_after": 153784,
+      "support_size": 10
+    },
+    {
+      "n": 500,
+      "geometry_seconds": 4.175507640000433,
+      "selection_seconds": 0.03977292403578758,
+      "distance_matrix_bytes_each": 2000000,
+      "distance_matrix_bytes_both": 4000000,
+      "rss_kb_after": 161532,
+      "support_size": 10
+    }
+  ]
+}

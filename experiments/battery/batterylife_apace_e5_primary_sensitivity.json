@@ -1,0 +1,2840 @@
+{
+  "protocol": "fast exact-seed E4/E5; baseline predictors frozen from v2 development selection",
+  "variants": {
+    "E5_low_0.2": {
+      "spec": {
+        "name": "E5_low_0.2",
+        "family": "E5",
+        "low": 0.2
+      },
+      "macro": {
+        "h50_k3": {
+          "baseline_mape": 48.53519919661475,
+          "method_mape": 22.942158458396133,
+          "improved_same_worse_domains": [
+            3,
+            3,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        }
+      },
+      "rows": [
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "winf_bw0.5",
+          "baseline_mape": 151.74064659030924,
+          "method_mape": 24.261121415690337,
+          "relative_reduction_percent": 84.011455097332,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.876287304152498,
+          "method_mape": 5.876287304152498,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 32.48187085687663,
+          "method_mape": 27.768625712243683,
+          "relative_reduction_percent": 14.510386933685883,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.97350992044221,
+          "method_mape": 14.97350992044221,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 15.358032326284928,
+          "method_mape": 15.358032326284928,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 70.78084818162297,
+          "method_mape": 49.41537407156314,
+          "relative_reduction_percent": 30.18538864529601,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        }
+      ]
+    },
+    "E5_low_0.25": {
+      "spec": {
+        "name": "E5_low_0.25",
+        "family": "E5",
+        "low": 0.25
+      },
+      "macro": {
+        "h50_k3": {
+          "baseline_mape": 48.53519919661475,
+          "method_mape": 22.942158458396133,
+          "improved_same_worse_domains": [
+            3,
+            3,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        }
+      },
+      "rows": [
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "winf_bw0.5",
+          "baseline_mape": 151.74064659030924,
+          "method_mape": 24.261121415690337,
+          "relative_reduction_percent": 84.011455097332,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.876287304152498,
+          "method_mape": 5.876287304152498,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 32.48187085687663,
+          "method_mape": 27.768625712243683,
+          "relative_reduction_percent": 14.510386933685883,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.97350992044221,
+          "method_mape": 14.97350992044221,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 15.358032326284928,
+          "method_mape": 15.358032326284928,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 70.78084818162297,
+          "method_mape": 49.41537407156314,
+          "relative_reduction_percent": 30.18538864529601,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        }
+      ]
+    },
+    "E5_low_0.3": {
+      "spec": {
+        "name": "E5_low_0.3",
+        "family": "E5",
+        "low": 0.3
+      },
+      "macro": {
+        "h50_k3": {
+          "baseline_mape": 48.53519919661475,
+          "method_mape": 22.942158458396133,
+          "improved_same_worse_domains": [
+            3,
+            3,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        }
+      },
+      "rows": [
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "winf_bw0.5",
+          "baseline_mape": 151.74064659030924,
+          "method_mape": 24.261121415690337,
+          "relative_reduction_percent": 84.011455097332,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.876287304152498,
+          "method_mape": 5.876287304152498,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 32.48187085687663,
+          "method_mape": 27.768625712243683,
+          "relative_reduction_percent": 14.510386933685883,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.97350992044221,
+          "method_mape": 14.97350992044221,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 15.358032326284928,
+          "method_mape": 15.358032326284928,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 70.78084818162297,
+          "method_mape": 49.41537407156314,
+          "relative_reduction_percent": 30.18538864529601,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        }
+      ]
+    },
+    "E5_low_0.35": {
+      "spec": {
+        "name": "E5_low_0.35",
+        "family": "E5",
+        "low": 0.35
+      },
+      "macro": {
+        "h50_k3": {
+          "baseline_mape": 48.53519919661475,
+          "method_mape": 22.942158458396133,
+          "improved_same_worse_domains": [
+            3,
+            3,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        }
+      },
+      "rows": [
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "winf_bw0.5",
+          "baseline_mape": 151.74064659030924,
+          "method_mape": 24.261121415690337,
+          "relative_reduction_percent": 84.011455097332,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.876287304152498,
+          "method_mape": 5.876287304152498,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 32.48187085687663,
+          "method_mape": 27.768625712243683,
+          "relative_reduction_percent": 14.510386933685883,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.97350992044221,
+          "method_mape": 14.97350992044221,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 15.358032326284928,
+          "method_mape": 15.358032326284928,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 70.78084818162297,
+          "method_mape": 49.41537407156314,
+          "relative_reduction_percent": 30.18538864529601,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        }
+      ]
+    },
+    "E5_low_0.4": {
+      "spec": {
+        "name": "E5_low_0.4",
+        "family": "E5",
+        "low": 0.4
+      },
+      "macro": {
+        "h50_k3": {
+          "baseline_mape": 48.53519919661475,
+          "method_mape": 22.942158458396133,
+          "improved_same_worse_domains": [
+            3,
+            3,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        }
+      },
+      "rows": [
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "winf_bw0.5",
+          "baseline_mape": 151.74064659030924,
+          "method_mape": 24.261121415690337,
+          "relative_reduction_percent": 84.011455097332,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.876287304152498,
+          "method_mape": 5.876287304152498,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 32.48187085687663,
+          "method_mape": 27.768625712243683,
+          "relative_reduction_percent": 14.510386933685883,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.97350992044221,
+          "method_mape": 14.97350992044221,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 15.358032326284928,
+          "method_mape": 15.358032326284928,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 70.78084818162297,
+          "method_mape": 49.41537407156314,
+          "relative_reduction_percent": 30.18538864529601,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        }
+      ]
+    },
+    "E5_high_0.5": {
+      "spec": {
+        "name": "E5_high_0.5",
+        "family": "E5",
+        "high": 0.5
+      },
+      "macro": {
+        "h50_k3": {
+          "baseline_mape": 48.53519919661475,
+          "method_mape": 22.803929778934926,
+          "improved_same_worse_domains": [
+            4,
+            2,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        }
+      },
+      "rows": [
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "winf_bw0.5",
+          "baseline_mape": 151.74064659030924,
+          "method_mape": 24.261121415690337,
+          "relative_reduction_percent": 84.011455097332,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.876287304152498,
+          "method_mape": 5.876287304152498,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 32.48187085687663,
+          "method_mape": 27.768625712243683,
+          "relative_reduction_percent": 14.510386933685883,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.97350992044221,
+          "method_mape": 14.14413784367496,
+          "relative_reduction_percent": 5.538928956362931,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 15.358032326284928,
+          "method_mape": 15.358032326284928,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 70.78084818162297,
+          "method_mape": 49.41537407156314,
+          "relative_reduction_percent": 30.18538864529601,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        }
+      ]
+    },
+    "E5_high_0.55": {
+      "spec": {
+        "name": "E5_high_0.55",
+        "family": "E5",
+        "high": 0.55
+      },
+      "macro": {
+        "h50_k3": {
+          "baseline_mape": 48.53519919661475,
+          "method_mape": 22.942158458396133,
+          "improved_same_worse_domains": [
+            3,
+            3,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        }
+      },
+      "rows": [
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "winf_bw0.5",
+          "baseline_mape": 151.74064659030924,
+          "method_mape": 24.261121415690337,
+          "relative_reduction_percent": 84.011455097332,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.876287304152498,
+          "method_mape": 5.876287304152498,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 32.48187085687663,
+          "method_mape": 27.768625712243683,
+          "relative_reduction_percent": 14.510386933685883,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.97350992044221,
+          "method_mape": 14.97350992044221,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 15.358032326284928,
+          "method_mape": 15.358032326284928,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 70.78084818162297,
+          "method_mape": 49.41537407156314,
+          "relative_reduction_percent": 30.18538864529601,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        }
+      ]
+    },
+    "E5_high_0.6": {
+      "spec": {
+        "name": "E5_high_0.6",
+        "family": "E5",
+        "high": 0.6
+      },
+      "macro": {
+        "h50_k3": {
+          "baseline_mape": 48.53519919661475,
+          "method_mape": 22.942158458396133,
+          "improved_same_worse_domains": [
+            3,
+            3,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        }
+      },
+      "rows": [
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "winf_bw0.5",
+          "baseline_mape": 151.74064659030924,
+          "method_mape": 24.261121415690337,
+          "relative_reduction_percent": 84.011455097332,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.876287304152498,
+          "method_mape": 5.876287304152498,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 32.48187085687663,
+          "method_mape": 27.768625712243683,
+          "relative_reduction_percent": 14.510386933685883,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.97350992044221,
+          "method_mape": 14.97350992044221,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 15.358032326284928,
+          "method_mape": 15.358032326284928,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 70.78084818162297,
+          "method_mape": 49.41537407156314,
+          "relative_reduction_percent": 30.18538864529601,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        }
+      ]
+    },
+    "E5_high_0.65": {
+      "spec": {
+        "name": "E5_high_0.65",
+        "family": "E5",
+        "high": 0.65
+      },
+      "macro": {
+        "h50_k3": {
+          "baseline_mape": 48.53519919661475,
+          "method_mape": 27.2886116675116,
+          "improved_same_worse_domains": [
+            1,
+            5,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        }
+      },
+      "rows": [
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "winf_bw0.5",
+          "baseline_mape": 151.74064659030924,
+          "method_mape": 24.261121415690337,
+          "relative_reduction_percent": 84.011455097332,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.876287304152498,
+          "method_mape": 5.876287304152498,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 32.48187085687663,
+          "method_mape": 32.48187085687663,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.97350992044221,
+          "method_mape": 14.97350992044221,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 15.358032326284928,
+          "method_mape": 15.358032326284928,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 70.78084818162297,
+          "method_mape": 70.78084818162297,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        }
+      ]
+    },
+    "E5_high_0.7": {
+      "spec": {
+        "name": "E5_high_0.7",
+        "family": "E5",
+        "high": 0.7
+      },
+      "macro": {
+        "h50_k3": {
+          "baseline_mape": 48.53519919661475,
+          "method_mape": 27.2886116675116,
+          "improved_same_worse_domains": [
+            1,
+            5,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        }
+      },
+      "rows": [
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "winf_bw0.5",
+          "baseline_mape": 151.74064659030924,
+          "method_mape": 24.261121415690337,
+          "relative_reduction_percent": 84.011455097332,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.876287304152498,
+          "method_mape": 5.876287304152498,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 32.48187085687663,
+          "method_mape": 32.48187085687663,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.97350992044221,
+          "method_mape": 14.97350992044221,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 15.358032326284928,
+          "method_mape": 15.358032326284928,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 70.78084818162297,
+          "method_mape": 70.78084818162297,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        }
+      ]
+    },
+    "E5_rho_0.2": {
+      "spec": {
+        "name": "E5_rho_0.2",
+        "family": "E5",
+        "rho": 0.2
+      },
+      "macro": {
+        "h50_k3": {
+          "baseline_mape": 48.53519919661475,
+          "method_mape": 22.942158458396133,
+          "improved_same_worse_domains": [
+            3,
+            3,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        }
+      },
+      "rows": [
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "winf_bw0.5",
+          "baseline_mape": 151.74064659030924,
+          "method_mape": 24.261121415690337,
+          "relative_reduction_percent": 84.011455097332,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.876287304152498,
+          "method_mape": 5.876287304152498,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 32.48187085687663,
+          "method_mape": 27.768625712243683,
+          "relative_reduction_percent": 14.510386933685883,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.97350992044221,
+          "method_mape": 14.97350992044221,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 15.358032326284928,
+          "method_mape": 15.358032326284928,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 70.78084818162297,
+          "method_mape": 49.41537407156314,
+          "relative_reduction_percent": 30.18538864529601,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        }
+      ]
+    },
+    "E5_rho_0.25": {
+      "spec": {
+        "name": "E5_rho_0.25",
+        "family": "E5",
+        "rho": 0.25
+      },
+      "macro": {
+        "h50_k3": {
+          "baseline_mape": 48.53519919661475,
+          "method_mape": 22.942158458396133,
+          "improved_same_worse_domains": [
+            3,
+            3,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        }
+      },
+      "rows": [
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "winf_bw0.5",
+          "baseline_mape": 151.74064659030924,
+          "method_mape": 24.261121415690337,
+          "relative_reduction_percent": 84.011455097332,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.876287304152498,
+          "method_mape": 5.876287304152498,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 32.48187085687663,
+          "method_mape": 27.768625712243683,
+          "relative_reduction_percent": 14.510386933685883,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.97350992044221,
+          "method_mape": 14.97350992044221,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 15.358032326284928,
+          "method_mape": 15.358032326284928,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 70.78084818162297,
+          "method_mape": 49.41537407156314,
+          "relative_reduction_percent": 30.18538864529601,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        }
+      ]
+    },
+    "E5_rho_0.3": {
+      "spec": {
+        "name": "E5_rho_0.3",
+        "family": "E5",
+        "rho": 0.3
+      },
+      "macro": {
+        "h50_k3": {
+          "baseline_mape": 48.53519919661475,
+          "method_mape": 22.942158458396133,
+          "improved_same_worse_domains": [
+            3,
+            3,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        }
+      },
+      "rows": [
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "winf_bw0.5",
+          "baseline_mape": 151.74064659030924,
+          "method_mape": 24.261121415690337,
+          "relative_reduction_percent": 84.011455097332,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.876287304152498,
+          "method_mape": 5.876287304152498,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 32.48187085687663,
+          "method_mape": 27.768625712243683,
+          "relative_reduction_percent": 14.510386933685883,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.97350992044221,
+          "method_mape": 14.97350992044221,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 15.358032326284928,
+          "method_mape": 15.358032326284928,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 70.78084818162297,
+          "method_mape": 49.41537407156314,
+          "relative_reduction_percent": 30.18538864529601,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        }
+      ]
+    },
+    "E5_rho_0.35": {
+      "spec": {
+        "name": "E5_rho_0.35",
+        "family": "E5",
+        "rho": 0.35
+      },
+      "macro": {
+        "h50_k3": {
+          "baseline_mape": 48.53519919661475,
+          "method_mape": 22.942158458396133,
+          "improved_same_worse_domains": [
+            3,
+            3,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        }
+      },
+      "rows": [
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "winf_bw0.5",
+          "baseline_mape": 151.74064659030924,
+          "method_mape": 24.261121415690337,
+          "relative_reduction_percent": 84.011455097332,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.876287304152498,
+          "method_mape": 5.876287304152498,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 32.48187085687663,
+          "method_mape": 27.768625712243683,
+          "relative_reduction_percent": 14.510386933685883,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.97350992044221,
+          "method_mape": 14.97350992044221,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 15.358032326284928,
+          "method_mape": 15.358032326284928,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 70.78084818162297,
+          "method_mape": 49.41537407156314,
+          "relative_reduction_percent": 30.18538864529601,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        }
+      ]
+    },
+    "E5_rho_0.4": {
+      "spec": {
+        "name": "E5_rho_0.4",
+        "family": "E5",
+        "rho": 0.4
+      },
+      "macro": {
+        "h50_k3": {
+          "baseline_mape": 48.53519919661475,
+          "method_mape": 22.942158458396133,
+          "improved_same_worse_domains": [
+            3,
+            3,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        }
+      },
+      "rows": [
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "winf_bw0.5",
+          "baseline_mape": 151.74064659030924,
+          "method_mape": 24.261121415690337,
+          "relative_reduction_percent": 84.011455097332,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.876287304152498,
+          "method_mape": 5.876287304152498,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 32.48187085687663,
+          "method_mape": 27.768625712243683,
+          "relative_reduction_percent": 14.510386933685883,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.97350992044221,
+          "method_mape": 14.97350992044221,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 15.358032326284928,
+          "method_mape": 15.358032326284928,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 70.78084818162297,
+          "method_mape": 49.41537407156314,
+          "relative_reduction_percent": 30.18538864529601,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        }
+      ]
+    },
+    "E5_rho_0.45": {
+      "spec": {
+        "name": "E5_rho_0.45",
+        "family": "E5",
+        "rho": 0.45
+      },
+      "macro": {
+        "h50_k3": {
+          "baseline_mape": 48.53519919661475,
+          "method_mape": 22.942158458396133,
+          "improved_same_worse_domains": [
+            3,
+            3,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        }
+      },
+      "rows": [
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "winf_bw0.5",
+          "baseline_mape": 151.74064659030924,
+          "method_mape": 24.261121415690337,
+          "relative_reduction_percent": 84.011455097332,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.876287304152498,
+          "method_mape": 5.876287304152498,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 32.48187085687663,
+          "method_mape": 27.768625712243683,
+          "relative_reduction_percent": 14.510386933685883,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.97350992044221,
+          "method_mape": 14.97350992044221,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 15.358032326284928,
+          "method_mape": 15.358032326284928,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 70.78084818162297,
+          "method_mape": 49.41537407156314,
+          "relative_reduction_percent": 30.18538864529601,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        }
+      ]
+    },
+    "E5_rho_0.5": {
+      "spec": {
+        "name": "E5_rho_0.5",
+        "family": "E5",
+        "rho": 0.5
+      },
+      "macro": {
+        "h50_k3": {
+          "baseline_mape": 48.53519919661475,
+          "method_mape": 29.122359640359402,
+          "improved_same_worse_domains": [
+            2,
+            3,
+            1
+          ],
+          "worst_relative_change_percent": -22.20336911108124
+        }
+      },
+      "rows": [
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "winf_bw0.5",
+          "baseline_mape": 151.74064659030924,
+          "method_mape": 24.261121415690337,
+          "relative_reduction_percent": 84.011455097332,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.876287304152498,
+          "method_mape": 5.876287304152498,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 32.48187085687663,
+          "method_mape": 27.768625712243683,
+          "relative_reduction_percent": 14.510386933685883,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.97350992044221,
+          "method_mape": 14.97350992044221,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 15.358032326284928,
+          "method_mape": 15.358032326284928,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 70.78084818162297,
+          "method_mape": 86.49658116334275,
+          "relative_reduction_percent": -22.20336911108124,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        }
+      ]
+    },
+    "E5_bw_0.25": {
+      "spec": {
+        "name": "E5_bw_0.25",
+        "family": "E5",
+        "bw": 0.25
+      },
+      "macro": {
+        "h50_k3": {
+          "baseline_mape": 48.53519919661475,
+          "method_mape": 23.352031977556923,
+          "improved_same_worse_domains": [
+            3,
+            3,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        }
+      },
+      "rows": [
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "winf_bw0.5",
+          "baseline_mape": 151.74064659030924,
+          "method_mape": 29.42839416020042,
+          "relative_reduction_percent": 80.60612313083432,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.876287304152498,
+          "method_mape": 5.876287304152498,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 32.48187085687663,
+          "method_mape": 28.13931930774226,
+          "relative_reduction_percent": 13.369154653279542,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.97350992044221,
+          "method_mape": 14.97350992044221,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 15.358032326284928,
+          "method_mape": 15.358032326284928,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 70.78084818162297,
+          "method_mape": 46.336648846519225,
+          "relative_reduction_percent": 34.53504720991781,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        }
+      ]
+    },
+    "E5_bw_0.5": {
+      "spec": {
+        "name": "E5_bw_0.5",
+        "family": "E5",
+        "bw": 0.5
+      },
+      "macro": {
+        "h50_k3": {
+          "baseline_mape": 48.53519919661475,
+          "method_mape": 22.942158458396133,
+          "improved_same_worse_domains": [
+            3,
+            3,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        }
+      },
+      "rows": [
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "winf_bw0.5",
+          "baseline_mape": 151.74064659030924,
+          "method_mape": 24.261121415690337,
+          "relative_reduction_percent": 84.011455097332,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.876287304152498,
+          "method_mape": 5.876287304152498,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 32.48187085687663,
+          "method_mape": 27.768625712243683,
+          "relative_reduction_percent": 14.510386933685883,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.97350992044221,
+          "method_mape": 14.97350992044221,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 15.358032326284928,
+          "method_mape": 15.358032326284928,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 70.78084818162297,
+          "method_mape": 49.41537407156314,
+          "relative_reduction_percent": 30.18538864529601,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        }
+      ]
+    },
+    "E5_bw_1": {
+      "spec": {
+        "name": "E5_bw_1",
+        "family": "E5",
+        "bw": 1.0
+      },
+      "macro": {
+        "h50_k3": {
+          "baseline_mape": 48.53519919661475,
+          "method_mape": 31.766033202204245,
+          "improved_same_worse_domains": [
+            3,
+            3,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        }
+      },
+      "rows": [
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "winf_bw0.5",
+          "baseline_mape": 151.74064659030924,
+          "method_mape": 55.99004294172684,
+          "relative_reduction_percent": 63.101486516729665,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.876287304152498,
+          "method_mape": 5.876287304152498,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 32.48187085687663,
+          "method_mape": 32.47553597583517,
+          "relative_reduction_percent": 0.01950282072536417,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.97350992044221,
+          "method_mape": 14.97350992044221,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 15.358032326284928,
+          "method_mape": 15.358032326284928,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 70.78084818162297,
+          "method_mape": 65.92279074478384,
+          "relative_reduction_percent": 6.863519669011883,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        }
+      ]
+    },
+    "E5_bw_2": {
+      "spec": {
+        "name": "E5_bw_2",
+        "family": "E5",
+        "bw": 2.0
+      },
+      "macro": {
+        "h50_k3": {
+          "baseline_mape": 48.53519919661475,
+          "method_mape": 41.557761412057154,
+          "improved_same_worse_domains": [
+            1,
+            3,
+            2
+          ],
+          "worst_relative_change_percent": -17.97469110478158
+        }
+      },
+      "rows": [
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "winf_bw0.5",
+          "baseline_mape": 151.74064659030924,
+          "method_mape": 94.35518532625146,
+          "relative_reduction_percent": 37.818120954100806,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.876287304152498,
+          "method_mape": 5.876287304152498,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 32.48187085687663,
+          "method_mape": 35.280066591597716,
+          "relative_reduction_percent": -8.61463844570605,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.97350992044221,
+          "method_mape": 14.97350992044221,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 15.358032326284928,
+          "method_mape": 15.358032326284928,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 70.78084818162297,
+          "method_mape": 83.50348700361411,
+          "relative_reduction_percent": -17.97469110478158,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        }
+      ]
+    },
+    "E5_weight_0": {
+      "spec": {
+        "name": "E5_weight_0",
+        "family": "E5",
+        "pred_weight": 0.0
+      },
+      "macro": {
+        "h50_k3": {
+          "baseline_mape": 48.53519919661475,
+          "method_mape": 37.941592023337954,
+          "improved_same_worse_domains": [
+            2,
+            3,
+            1
+          ],
+          "worst_relative_change_percent": -4.94575262382106
+        }
+      },
+      "rows": [
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "winf_bw0.5",
+          "baseline_mape": 151.74064659030924,
+          "method_mape": 87.52397238546666,
+          "relative_reduction_percent": 42.320021462821224,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.876287304152498,
+          "method_mape": 5.876287304152498,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 32.48187085687663,
+          "method_mape": 29.636256365953038,
+          "relative_reduction_percent": 8.760623744432992,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.97350992044221,
+          "method_mape": 14.97350992044221,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 15.358032326284928,
+          "method_mape": 15.358032326284928,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 70.78084818162297,
+          "method_mape": 74.28149383772839,
+          "relative_reduction_percent": -4.94575262382106,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        }
+      ]
+    },
+    "E5_weight_0.125": {
+      "spec": {
+        "name": "E5_weight_0.125",
+        "family": "E5",
+        "pred_weight": 0.125
+      },
+      "macro": {
+        "h50_k3": {
+          "baseline_mape": 48.53519919661475,
+          "method_mape": 31.83181809480904,
+          "improved_same_worse_domains": [
+            3,
+            3,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        }
+      },
+      "rows": [
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "winf_bw0.5",
+          "baseline_mape": 151.74064659030924,
+          "method_mape": 62.54376885494418,
+          "relative_reduction_percent": 58.78245528779863,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.876287304152498,
+          "method_mape": 5.876287304152498,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 32.48187085687663,
+          "method_mape": 29.081762347983563,
+          "relative_reduction_percent": 10.46771143163154,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.97350992044221,
+          "method_mape": 14.97350992044221,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 15.358032326284928,
+          "method_mape": 15.358032326284928,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 70.78084818162297,
+          "method_mape": 63.1575478150469,
+          "relative_reduction_percent": 10.770286825349649,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        }
+      ]
+    },
+    "E5_weight_0.5": {
+      "spec": {
+        "name": "E5_weight_0.5",
+        "family": "E5",
+        "pred_weight": 0.5
+      },
+      "macro": {
+        "h50_k3": {
+          "baseline_mape": 48.53519919661475,
+          "method_mape": 25.805011171935487,
+          "improved_same_worse_domains": [
+            3,
+            3,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        }
+      },
+      "rows": [
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "winf_bw0.5",
+          "baseline_mape": 151.74064659030924,
+          "method_mape": 41.43823769692644,
+          "relative_reduction_percent": 72.69140561341666,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.876287304152498,
+          "method_mape": 5.876287304152498,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 32.48187085687663,
+          "method_mape": 27.768625712243683,
+          "relative_reduction_percent": 14.510386933685883,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.97350992044221,
+          "method_mape": 14.97350992044221,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 15.358032326284928,
+          "method_mape": 15.358032326284928,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 70.78084818162297,
+          "method_mape": 49.41537407156314,
+          "relative_reduction_percent": 30.18538864529601,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        }
+      ]
+    },
+    "E5_weight_1": {
+      "spec": {
+        "name": "E5_weight_1",
+        "family": "E5",
+        "pred_weight": 1.0
+      },
+      "macro": {
+        "h50_k3": {
+          "baseline_mape": 48.53519919661475,
+          "method_mape": 23.09611027279053,
+          "improved_same_worse_domains": [
+            3,
+            3,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        }
+      },
+      "rows": [
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "winf_bw0.5",
+          "baseline_mape": 151.74064659030924,
+          "method_mape": 29.78712707089753,
+          "relative_reduction_percent": 80.36971125388636,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.876287304152498,
+          "method_mape": 5.876287304152498,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 32.48187085687663,
+          "method_mape": 26.999256062539835,
+          "relative_reduction_percent": 16.87899942246119,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.97350992044221,
+          "method_mape": 14.97350992044221,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 15.358032326284928,
+          "method_mape": 15.358032326284928,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 70.78084818162297,
+          "method_mape": 45.5824489524262,
+          "relative_reduction_percent": 35.60058953311484,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        }
+      ]
+    },
+    "E5_weight_2": {
+      "spec": {
+        "name": "E5_weight_2",
+        "family": "E5",
+        "pred_weight": 2.0
+      },
+      "macro": {
+        "h50_k3": {
+          "baseline_mape": 48.53519919661475,
+          "method_mape": 22.04262857643098,
+          "improved_same_worse_domains": [
+            3,
+            3,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        }
+      },
+      "rows": [
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "winf_bw0.5",
+          "baseline_mape": 151.74064659030924,
+          "method_mape": 24.261121415690337,
+          "relative_reduction_percent": 84.011455097332,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.876287304152498,
+          "method_mape": 5.876287304152498,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 32.48187085687663,
+          "method_mape": 27.40673602461046,
+          "relative_reduction_percent": 15.624515147629596,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.97350992044221,
+          "method_mape": 14.97350992044221,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 15.358032326284928,
+          "method_mape": 15.358032326284928,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 70.78084818162297,
+          "method_mape": 44.380084467405446,
+          "relative_reduction_percent": 37.29930396775328,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        }
+      ]
+    },
+    "E5_weight_inf": {
+      "spec": {
+        "name": "E5_weight_inf",
+        "family": "E5",
+        "pred_weight": Infinity
+      },
+      "macro": {
+        "h50_k3": {
+          "baseline_mape": 48.53519919661475,
+          "method_mape": 24.79555122374316,
+          "improved_same_worse_domains": [
+            3,
+            3,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        }
+      },
+      "rows": [
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "winf_bw0.5",
+          "baseline_mape": 151.74064659030924,
+          "method_mape": 39.935077379523676,
+          "relative_reduction_percent": 73.68201712798415,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.876287304152498,
+          "method_mape": 5.876287304152498,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 32.48187085687663,
+          "method_mape": 27.58985573864767,
+          "relative_reduction_percent": 15.060755397324316,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.97350992044221,
+          "method_mape": 14.97350992044221,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 15.358032326284928,
+          "method_mape": 15.358032326284928,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 70.78084818162297,
+          "method_mape": 45.04054467340799,
+          "relative_reduction_percent": 36.3661981588093,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        }
+      ]
+    }
+  }
+}

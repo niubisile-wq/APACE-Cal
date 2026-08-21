@@ -1,0 +1,5702 @@
+{
+  "protocol": "fast exact-seed E4/E5; baseline predictors frozen from v2 development selection",
+  "variants": {
+    "A3_fixed_concat": {
+      "spec": {
+        "name": "A3_fixed_concat",
+        "family": "E4",
+        "fixed_weight": 1.0,
+        "disable_fallback": true
+      },
+      "macro": {
+        "h10_k1": {
+          "baseline_mape": 78.03057156465657,
+          "method_mape": 64.64434997315611,
+          "improved_same_worse_domains": [
+            5,
+            0,
+            1
+          ],
+          "worst_relative_change_percent": -32.2811883396696
+        },
+        "h10_k3": {
+          "baseline_mape": 43.286276868289995,
+          "method_mape": 23.32742299274453,
+          "improved_same_worse_domains": [
+            5,
+            0,
+            1
+          ],
+          "worst_relative_change_percent": -6.562980466555998
+        },
+        "h10_k5": {
+          "baseline_mape": 33.85362858087627,
+          "method_mape": 22.946727598697905,
+          "improved_same_worse_domains": [
+            4,
+            0,
+            2
+          ],
+          "worst_relative_change_percent": -10.743838704381636
+        },
+        "h10_k10": {
+          "baseline_mape": 27.031493089137456,
+          "method_mape": 21.10596995720344,
+          "improved_same_worse_domains": [
+            2,
+            2,
+            2
+          ],
+          "worst_relative_change_percent": -3.4953671956970727
+        },
+        "h20_k1": {
+          "baseline_mape": 74.13447703726348,
+          "method_mape": 65.67030337743095,
+          "improved_same_worse_domains": [
+            3,
+            0,
+            3
+          ],
+          "worst_relative_change_percent": -36.183130519661006
+        },
+        "h20_k3": {
+          "baseline_mape": 44.44869213312489,
+          "method_mape": 24.452845511247205,
+          "improved_same_worse_domains": [
+            3,
+            0,
+            3
+          ],
+          "worst_relative_change_percent": -12.979574955784203
+        },
+        "h20_k5": {
+          "baseline_mape": 33.65970557530451,
+          "method_mape": 20.797821084200876,
+          "improved_same_worse_domains": [
+            4,
+            0,
+            2
+          ],
+          "worst_relative_change_percent": -15.451717832540163
+        },
+        "h20_k10": {
+          "baseline_mape": 28.71752083109762,
+          "method_mape": 22.68610078520318,
+          "improved_same_worse_domains": [
+            2,
+            2,
+            2
+          ],
+          "worst_relative_change_percent": -13.603426551742514
+        },
+        "h50_k1": {
+          "baseline_mape": 80.0138093198553,
+          "method_mape": 64.4897696343674,
+          "improved_same_worse_domains": [
+            5,
+            0,
+            1
+          ],
+          "worst_relative_change_percent": -30.811274150129236
+        },
+        "h50_k3": {
+          "baseline_mape": 48.53519919661475,
+          "method_mape": 22.837807058342175,
+          "improved_same_worse_domains": [
+            5,
+            0,
+            1
+          ],
+          "worst_relative_change_percent": -0.22128594221960948
+        },
+        "h50_k5": {
+          "baseline_mape": 31.032952332838807,
+          "method_mape": 21.580731969460686,
+          "improved_same_worse_domains": [
+            5,
+            0,
+            1
+          ],
+          "worst_relative_change_percent": -8.044878534342653
+        },
+        "h50_k10": {
+          "baseline_mape": 23.559062574425894,
+          "method_mape": 19.590369332543744,
+          "improved_same_worse_domains": [
+            2,
+            2,
+            2
+          ],
+          "worst_relative_change_percent": -10.664151564803632
+        }
+      },
+      "rows": [
+        {
+          "target": "CALB",
+          "horizon": 10,
+          "K": 1,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.6938045136389934,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 194.69384433954752,
+          "method_mape": 257.54333091654,
+          "relative_reduction_percent": -32.2811883396696,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 10,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.6938045136389934,
+          "baseline_predictor": "w2_bw1",
+          "baseline_mape": 117.36670043013636,
+          "method_mape": 21.55479973516952,
+          "relative_reduction_percent": 81.63465475626946,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 10,
+          "K": 5,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.6938045136389934,
+          "baseline_predictor": "w0.5_bw0.5",
+          "baseline_mape": 82.82772467501563,
+          "method_mape": 20.929457171084575,
+          "relative_reduction_percent": 74.73133874773963,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 10,
+          "K": 10,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.6938045136389934,
+          "baseline_predictor": "w0.5_bw0.5",
+          "baseline_mape": 53.78446383135328,
+          "method_mape": 17.15374577225052,
+          "relative_reduction_percent": 68.10650409003267,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 10,
+          "K": 1,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 7.15484641313215,
+          "method_mape": 7.06772280738627,
+          "relative_reduction_percent": 1.217686596122759,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 10,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 6.477460524963751,
+          "method_mape": 6.902574993945998,
+          "relative_reduction_percent": -6.562980466555998,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 10,
+          "K": 5,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 6.205000327711398,
+          "method_mape": 6.871655554527062,
+          "relative_reduction_percent": -10.743838704381636,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 10,
+          "K": 10,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.5668441997508396,
+          "method_mape": 5.566844199750832,
+          "relative_reduction_percent": 1.4359312907767214e-13,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 10,
+          "K": 1,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.2754730678115244,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 47.420540255076716,
+          "method_mape": 43.619431635160225,
+          "relative_reduction_percent": 8.015742965959891,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 10,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.2754730678115244,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 42.88365783431521,
+          "method_mape": 33.51354390230002,
+          "relative_reduction_percent": 21.850080905452252,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 10,
+          "K": 5,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.2754730678115244,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 39.139159317116835,
+          "method_mape": 41.93068417534178,
+          "relative_reduction_percent": -7.132306638492669,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 10,
+          "K": 10,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.2754730678115244,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 37.328312324023024,
+          "method_mape": 38.63307390770427,
+          "relative_reduction_percent": -3.4953671956970727,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 10,
+          "K": 1,
+          "protocol_dispersion": 0.5,
+          "rho": 0.42720978218888145,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 20.630111280984377,
+          "method_mape": 12.768002477096527,
+          "relative_reduction_percent": 38.10987103658854,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 10,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.42720978218888145,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 17.043368857888446,
+          "method_mape": 15.363892048100205,
+          "relative_reduction_percent": 9.854136372873858,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 10,
+          "K": 5,
+          "protocol_dispersion": 0.5,
+          "rho": 0.42720978218888145,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.059009202901944,
+          "method_mape": 13.875988128284918,
+          "relative_reduction_percent": 1.3018063504734592,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 10,
+          "K": 10,
+          "protocol_dispersion": 0.5,
+          "rho": 0.42720978218888145,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 12.869970029660035,
+          "method_mape": 12.869970029660019,
+          "relative_reduction_percent": 1.2422104727329006e-13,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 10,
+          "K": 1,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.7202347270504956,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 18.701245837940444,
+          "method_mape": 15.734859997851029,
+          "relative_reduction_percent": 15.861969121176484,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 10,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.7202347270504956,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 16.652854459247582,
+          "method_mape": 14.885684400844202,
+          "relative_reduction_percent": 10.611814705568653,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 10,
+          "K": 5,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.7202347270504956,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.830694812634073,
+          "method_mape": 14.320972175981245,
+          "relative_reduction_percent": 3.4369437379198327,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 10,
+          "K": 10,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.7202347270504956,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 13.740631840645113,
+          "method_mape": 13.86832967239128,
+          "relative_reduction_percent": -0.9293446853617995,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 10,
+          "K": 1,
+          "protocol_dispersion": 0.640708946721129,
+          "rho": 0.44658197543310946,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 179.58284126125824,
+          "method_mape": 51.13275200490262,
+          "relative_reduction_percent": 71.52692782574123,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 10,
+          "K": 3,
+          "protocol_dispersion": 0.640708946721129,
+          "rho": 0.44658197543310946,
+          "baseline_predictor": "w1_bw0.5",
+          "baseline_mape": 59.29361910318862,
+          "method_mape": 47.74404287610724,
+          "relative_reduction_percent": 19.47861574612551,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 10,
+          "K": 5,
+          "protocol_dispersion": 0.640708946721129,
+          "rho": 0.44658197543310946,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 46.06018314987776,
+          "method_mape": 39.75160838696787,
+          "relative_reduction_percent": 13.696373595350401,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 10,
+          "K": 10,
+          "protocol_dispersion": 0.640708946721129,
+          "rho": 0.44658197543310946,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 38.89873630939243,
+          "method_mape": 38.543856161463694,
+          "relative_reduction_percent": 0.9123179352308426,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 20,
+          "K": 1,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.6983141308496803,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 189.6701955355395,
+          "method_mape": 258.29880994306,
+          "relative_reduction_percent": -36.183130519661006,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 20,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.6983141308496803,
+          "baseline_predictor": "w2_bw1",
+          "baseline_mape": 129.38192747547276,
+          "method_mape": 18.81519474331227,
+          "relative_reduction_percent": 85.45763298596775,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 20,
+          "K": 5,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.6983141308496803,
+          "baseline_predictor": "w0.5_bw0.5",
+          "baseline_mape": 81.64494287685591,
+          "method_mape": 17.096267417210566,
+          "relative_reduction_percent": 79.06022490211468,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 20,
+          "K": 10,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.6983141308496803,
+          "baseline_predictor": "w0.5_bw0.5",
+          "baseline_mape": 60.39665024202909,
+          "method_mape": 15.512821442863018,
+          "relative_reduction_percent": 74.31509631627237,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 20,
+          "K": 1,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 7.226715283286291,
+          "method_mape": 7.64979785775428,
+          "relative_reduction_percent": -5.854424283830306,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 20,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 7.543530620550128,
+          "method_mape": 8.335282071396602,
+          "relative_reduction_percent": -10.49576770709434,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 20,
+          "K": 5,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 6.930923805683785,
+          "method_mape": 8.001870595326398,
+          "relative_reduction_percent": -15.451717832540163,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 20,
+          "K": 10,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 6.485852864896734,
+          "method_mape": 6.485852864896738,
+          "relative_reduction_percent": -5.4776353284681954e-14,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 20,
+          "K": 1,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.0925163906498431,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 47.64158765725993,
+          "method_mape": 50.82344427406928,
+          "relative_reduction_percent": -6.678737576295856,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 20,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.0925163906498431,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 39.90076220596811,
+          "method_mape": 45.07971154442095,
+          "relative_reduction_percent": -12.979574955784203,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 20,
+          "K": 5,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.0925163906498431,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 36.48614125670104,
+          "method_mape": 34.75539531698914,
+          "relative_reduction_percent": 4.743570791811352,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 20,
+          "K": 10,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.0925163906498431,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 36.46759889858956,
+          "method_mape": 39.459098589139835,
+          "relative_reduction_percent": -8.203171530072902,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 20,
+          "K": 1,
+          "protocol_dispersion": 0.5,
+          "rho": 0.35657776486698634,
+          "baseline_predictor": "support_median",
+          "baseline_mape": 20.75665512413878,
+          "method_mape": 12.104324289630746,
+          "relative_reduction_percent": 41.684610467155075,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 20,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.35657776486698634,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 12.813287853737762,
+          "method_mape": 11.434547175938734,
+          "relative_reduction_percent": 10.760241192871009,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 20,
+          "K": 5,
+          "protocol_dispersion": 0.5,
+          "rho": 0.35657776486698634,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 11.500430730478236,
+          "method_mape": 9.857430455531235,
+          "relative_reduction_percent": 14.28642381709018,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 20,
+          "K": 10,
+          "protocol_dispersion": 0.5,
+          "rho": 0.35657776486698634,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 9.511744766108833,
+          "method_mape": 9.511744766108826,
+          "relative_reduction_percent": 7.470161923307964e-14,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 20,
+          "K": 1,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.7589970138607034,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 18.30929595054419,
+          "method_mape": 15.333261077225188,
+          "relative_reduction_percent": 16.2542288974828,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 20,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.7589970138607034,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 16.86555297014548,
+          "method_mape": 17.39187651809113,
+          "relative_reduction_percent": -3.1207014017110595,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 20,
+          "K": 5,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.7589970138607034,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.904465857569557,
+          "method_mape": 15.007936833361066,
+          "relative_reduction_percent": -0.6942280037426471,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 20,
+          "K": 10,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.7589970138607034,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.363620295750547,
+          "method_mape": 13.935050974183048,
+          "relative_reduction_percent": 2.98371380434145,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 20,
+          "K": 1,
+          "protocol_dispersion": 0.639787269104916,
+          "rho": 0.4048303388598272,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 161.20241267281213,
+          "method_mape": 49.812182822846246,
+          "relative_reduction_percent": 69.09960465421284,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 20,
+          "K": 3,
+          "protocol_dispersion": 0.639787269104916,
+          "rho": 0.4048303388598272,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 60.18709167287506,
+          "method_mape": 45.660461014323545,
+          "relative_reduction_percent": 24.135791005662327,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 20,
+          "K": 5,
+          "protocol_dispersion": 0.639787269104916,
+          "rho": 0.4048303388598272,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 50.49132892453853,
+          "method_mape": 40.06802588678685,
+          "relative_reduction_percent": 20.643748658962327,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 20,
+          "K": 10,
+          "protocol_dispersion": 0.639787269104916,
+          "rho": 0.4048303388598272,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 45.07965791921097,
+          "method_mape": 51.212036074027615,
+          "relative_reduction_percent": -13.603426551742514,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 1,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 196.61307703881243,
+          "method_mape": 257.19207122024574,
+          "relative_reduction_percent": -30.811274150129236,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "winf_bw0.5",
+          "baseline_mape": 151.74064659030924,
+          "method_mape": 24.361226574694182,
+          "relative_reduction_percent": 83.94548387521502,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 5,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 73.35077940563643,
+          "method_mape": 15.942388163058219,
+          "relative_reduction_percent": 78.26555042463097,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 10,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 44.00726170813945,
+          "method_mape": 14.398718876277327,
+          "relative_reduction_percent": 67.28103881634111,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 1,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "support_median",
+          "baseline_mape": 6.948683307923455,
+          "method_mape": 6.8970408845215925,
+          "relative_reduction_percent": 0.7431972521035072,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.876287304152498,
+          "method_mape": 4.757750394389484,
+          "relative_reduction_percent": 19.034755311786682,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 5,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.4584713632405535,
+          "method_mape": 4.5475258579435724,
+          "relative_reduction_percent": 16.688655938210808,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 10,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 4.251249580861046,
+          "method_mape": 4.251249580861048,
+          "relative_reduction_percent": -4.178434612254565e-14,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 1,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 52.450900560720854,
+          "method_mape": 43.20492540690554,
+          "relative_reduction_percent": 17.627867310136125,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 32.48187085687663,
+          "method_mape": 28.357811296826274,
+          "relative_reduction_percent": 12.696496387852818,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 5,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 30.2968611643351,
+          "method_mape": 29.552038713606237,
+          "relative_reduction_percent": 2.4584145753212634,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 10,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 25.954205334505005,
+          "method_mape": 27.55186564195356,
+          "relative_reduction_percent": -6.1556895572700725,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 1,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 19.741861715749636,
+          "method_mape": 13.959292267549323,
+          "relative_reduction_percent": 29.29090240555734,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.97350992044221,
+          "method_mape": 14.590442716170294,
+          "relative_reduction_percent": 2.5582993320019276,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 5,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 13.870397699615335,
+          "method_mape": 13.393229338360207,
+          "relative_reduction_percent": 3.4401923548908844,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 10,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 12.273204494266452,
+          "method_mape": 12.27320449426646,
+          "relative_reduction_percent": -7.236727947579188e-14,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 1,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 18.860939825117775,
+          "method_mape": 15.762135516970698,
+          "relative_reduction_percent": 16.429744948447855,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 15.358032326284928,
+          "method_mape": 15.39201749282454,
+          "relative_reduction_percent": -0.22128594221960948,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 5,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.708957328112314,
+          "method_mape": 13.634211359368795,
+          "relative_reduction_percent": 7.306744759463163,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 10,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 13.468414330960803,
+          "method_mape": 13.252174390824337,
+          "relative_reduction_percent": 1.605533768287631,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 1,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 185.46739347080768,
+          "method_mape": 49.92315251001155,
+          "relative_reduction_percent": 73.0825178616265,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 70.78084818162297,
+          "method_mape": 49.56759387514826,
+          "relative_reduction_percent": 29.97033074828618,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 5,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 48.512247036093136,
+          "method_mape": 52.41499838442707,
+          "relative_reduction_percent": -8.044878534342653,
+          "route_counts": {
+            "active_w1": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 10,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 41.40003999782261,
+          "method_mape": 45.81500301107974,
+          "relative_reduction_percent": -10.664151564803632,
+          "route_counts": {
+            "active_w1": 100
+          }
+        }
+      ]
+    },
+    "A7_all_median": {
+      "spec": {
+        "name": "A7_all_median",
+        "family": "E4",
+        "all_median": true
+      },
+      "macro": {
+        "h10_k1": {
+          "baseline_mape": 78.03057156465657,
+          "method_mape": 78.03057156465657,
+          "improved_same_worse_domains": [
+            0,
+            6,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        },
+        "h10_k3": {
+          "baseline_mape": 43.286276868289995,
+          "method_mape": 65.45856278682176,
+          "improved_same_worse_domains": [
+            1,
+            3,
+            2
+          ],
+          "worst_relative_change_percent": -98.46543324864578
+        },
+        "h10_k5": {
+          "baseline_mape": 33.85362858087627,
+          "method_mape": 54.90629655630346,
+          "improved_same_worse_domains": [
+            0,
+            5,
+            1
+          ],
+          "worst_relative_change_percent": -152.50450057414818
+        },
+        "h10_k10": {
+          "baseline_mape": 27.031493089137456,
+          "method_mape": 52.84189264173125,
+          "improved_same_worse_domains": [
+            0,
+            5,
+            1
+          ],
+          "worst_relative_change_percent": -287.9314699522706
+        },
+        "h20_k1": {
+          "baseline_mape": 74.13447703726348,
+          "method_mape": 74.13447703726348,
+          "improved_same_worse_domains": [
+            0,
+            6,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        },
+        "h20_k3": {
+          "baseline_mape": 44.44869213312489,
+          "method_mape": 64.83443262304604,
+          "improved_same_worse_domains": [
+            1,
+            3,
+            2
+          ],
+          "worst_relative_change_percent": -85.34962841472125
+        },
+        "h20_k5": {
+          "baseline_mape": 33.65970557530451,
+          "method_mape": 57.58481222679412,
+          "improved_same_worse_domains": [
+            0,
+            5,
+            1
+          ],
+          "worst_relative_change_percent": -175.82306368375242
+        },
+        "h20_k10": {
+          "baseline_mape": 28.71752083109762,
+          "method_mape": 52.96753590867746,
+          "improved_same_worse_domains": [
+            0,
+            5,
+            1
+          ],
+          "worst_relative_change_percent": -240.90755014129533
+        },
+        "h50_k1": {
+          "baseline_mape": 80.0138093198553,
+          "method_mape": 80.0138093198553,
+          "improved_same_worse_domains": [
+            0,
+            6,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        },
+        "h50_k3": {
+          "baseline_mape": 48.53519919661475,
+          "method_mape": 65.64083498979043,
+          "improved_same_worse_domains": [
+            0,
+            3,
+            3
+          ],
+          "worst_relative_change_percent": -50.963997415267855
+        },
+        "h50_k5": {
+          "baseline_mape": 31.032952332838807,
+          "method_mape": 50.247056834551664,
+          "improved_same_worse_domains": [
+            0,
+            5,
+            1
+          ],
+          "worst_relative_change_percent": -157.16891891869713
+        },
+        "h50_k10": {
+          "baseline_mape": 23.559062574425894,
+          "method_mape": 49.20953053971129,
+          "improved_same_worse_domains": [
+            0,
+            5,
+            1
+          ],
+          "worst_relative_change_percent": -349.72139101135434
+        }
+      },
+      "rows": [
+        {
+          "target": "CALB",
+          "horizon": 10,
+          "K": 1,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.6938045136389934,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 194.69384433954752,
+          "method_mape": 194.69384433954752,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 10,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.6938045136389934,
+          "baseline_predictor": "w2_bw1",
+          "baseline_mape": 117.36670043013636,
+          "method_mape": 232.93233049831034,
+          "relative_reduction_percent": -98.46543324864578,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 10,
+          "K": 5,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.6938045136389934,
+          "baseline_predictor": "w0.5_bw0.5",
+          "baseline_mape": 82.82772467501563,
+          "method_mape": 209.14373252757872,
+          "relative_reduction_percent": -152.50450057414818,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 10,
+          "K": 10,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.6938045136389934,
+          "baseline_predictor": "w0.5_bw0.5",
+          "baseline_mape": 53.78446383135328,
+          "method_mape": 208.6468611469161,
+          "relative_reduction_percent": -287.9314699522706,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 10,
+          "K": 1,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 7.15484641313215,
+          "method_mape": 7.15484641313215,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 10,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 6.477460524963751,
+          "method_mape": 6.477460524963751,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 10,
+          "K": 5,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 6.205000327711398,
+          "method_mape": 6.205000327711398,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 10,
+          "K": 10,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.5668441997508396,
+          "method_mape": 5.5668441997508396,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 10,
+          "K": 1,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.2754730678115244,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 47.420540255076716,
+          "method_mape": 47.420540255076716,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 10,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.2754730678115244,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 42.88365783431521,
+          "method_mape": 35.30452360722883,
+          "relative_reduction_percent": 17.67371210816258,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 10,
+          "K": 5,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.2754730678115244,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 39.139159317116835,
+          "method_mape": 39.139159317116835,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 10,
+          "K": 10,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.2754730678115244,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 37.328312324023024,
+          "method_mape": 37.328312324023024,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 10,
+          "K": 1,
+          "protocol_dispersion": 0.5,
+          "rho": 0.42720978218888145,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 20.630111280984377,
+          "method_mape": 20.630111280984377,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 10,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.42720978218888145,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 17.043368857888446,
+          "method_mape": 17.043368857888446,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 10,
+          "K": 5,
+          "protocol_dispersion": 0.5,
+          "rho": 0.42720978218888145,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.059009202901944,
+          "method_mape": 14.059009202901944,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 10,
+          "K": 10,
+          "protocol_dispersion": 0.5,
+          "rho": 0.42720978218888145,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 12.869970029660035,
+          "method_mape": 12.869970029660035,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 10,
+          "K": 1,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.7202347270504956,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 18.701245837940444,
+          "method_mape": 18.701245837940444,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 10,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.7202347270504956,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 16.652854459247582,
+          "method_mape": 16.652854459247582,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 10,
+          "K": 5,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.7202347270504956,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.830694812634073,
+          "method_mape": 14.830694812634073,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 10,
+          "K": 10,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.7202347270504956,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 13.740631840645113,
+          "method_mape": 13.740631840645113,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 10,
+          "K": 1,
+          "protocol_dispersion": 0.640708946721129,
+          "rho": 0.44658197543310946,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 179.58284126125824,
+          "method_mape": 179.58284126125824,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 10,
+          "K": 3,
+          "protocol_dispersion": 0.640708946721129,
+          "rho": 0.44658197543310946,
+          "baseline_predictor": "w1_bw0.5",
+          "baseline_mape": 59.29361910318862,
+          "method_mape": 84.3408387732916,
+          "relative_reduction_percent": -42.24268993686037,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 10,
+          "K": 5,
+          "protocol_dispersion": 0.640708946721129,
+          "rho": 0.44658197543310946,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 46.06018314987776,
+          "method_mape": 46.06018314987776,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 10,
+          "K": 10,
+          "protocol_dispersion": 0.640708946721129,
+          "rho": 0.44658197543310946,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 38.89873630939243,
+          "method_mape": 38.89873630939243,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 20,
+          "K": 1,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.6983141308496803,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 189.6701955355395,
+          "method_mape": 189.6701955355395,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 20,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.6983141308496803,
+          "baseline_predictor": "w2_bw1",
+          "baseline_mape": 129.38192747547276,
+          "method_mape": 239.8089218115929,
+          "relative_reduction_percent": -85.34962841472125,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 20,
+          "K": 5,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.6983141308496803,
+          "baseline_predictor": "w0.5_bw0.5",
+          "baseline_mape": 81.64494287685591,
+          "method_mape": 225.19558278579356,
+          "relative_reduction_percent": -175.82306368375242,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 20,
+          "K": 10,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.6983141308496803,
+          "baseline_predictor": "w0.5_bw0.5",
+          "baseline_mape": 60.39665024202909,
+          "method_mape": 205.8967407075081,
+          "relative_reduction_percent": -240.90755014129533,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 20,
+          "K": 1,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 7.226715283286291,
+          "method_mape": 7.226715283286291,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 20,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 7.543530620550128,
+          "method_mape": 7.543530620550128,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 20,
+          "K": 5,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 6.930923805683785,
+          "method_mape": 6.930923805683785,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 20,
+          "K": 10,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 6.485852864896734,
+          "method_mape": 6.485852864896734,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 20,
+          "K": 1,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.0925163906498431,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 47.64158765725993,
+          "method_mape": 47.64158765725993,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 20,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.0925163906498431,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 39.90076220596811,
+          "method_mape": 33.11663111041199,
+          "relative_reduction_percent": 17.002510028596376,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 20,
+          "K": 5,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.0925163906498431,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 36.48614125670104,
+          "method_mape": 36.48614125670104,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 20,
+          "K": 10,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.0925163906498431,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 36.46759889858956,
+          "method_mape": 36.46759889858956,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 20,
+          "K": 1,
+          "protocol_dispersion": 0.5,
+          "rho": 0.35657776486698634,
+          "baseline_predictor": "support_median",
+          "baseline_mape": 20.75665512413878,
+          "method_mape": 20.75665512413878,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 20,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.35657776486698634,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 12.813287853737762,
+          "method_mape": 12.813287853737762,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 20,
+          "K": 5,
+          "protocol_dispersion": 0.5,
+          "rho": 0.35657776486698634,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 11.500430730478236,
+          "method_mape": 11.500430730478236,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 20,
+          "K": 10,
+          "protocol_dispersion": 0.5,
+          "rho": 0.35657776486698634,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 9.511744766108833,
+          "method_mape": 9.511744766108833,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 20,
+          "K": 1,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.7589970138607034,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 18.30929595054419,
+          "method_mape": 18.30929595054419,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 20,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.7589970138607034,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 16.86555297014548,
+          "method_mape": 16.86555297014548,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 20,
+          "K": 5,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.7589970138607034,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.904465857569557,
+          "method_mape": 14.904465857569557,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 20,
+          "K": 10,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.7589970138607034,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.363620295750547,
+          "method_mape": 14.363620295750547,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 20,
+          "K": 1,
+          "protocol_dispersion": 0.639787269104916,
+          "rho": 0.4048303388598272,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 161.20241267281213,
+          "method_mape": 161.20241267281213,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 20,
+          "K": 3,
+          "protocol_dispersion": 0.639787269104916,
+          "rho": 0.4048303388598272,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 60.18709167287506,
+          "method_mape": 78.85867137183803,
+          "relative_reduction_percent": -31.022565104899087,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 20,
+          "K": 5,
+          "protocol_dispersion": 0.639787269104916,
+          "rho": 0.4048303388598272,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 50.49132892453853,
+          "method_mape": 50.49132892453853,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 20,
+          "K": 10,
+          "protocol_dispersion": 0.639787269104916,
+          "rho": 0.4048303388598272,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 45.07965791921097,
+          "method_mape": 45.07965791921097,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 1,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 196.61307703881243,
+          "method_mape": 196.61307703881243,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "winf_bw0.5",
+          "baseline_mape": 151.74064659030924,
+          "method_mape": 229.07374579650516,
+          "relative_reduction_percent": -50.963997415267855,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 5,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 73.35077940563643,
+          "method_mape": 188.63540641591354,
+          "relative_reduction_percent": -157.16891891869713,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 10,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 44.00726170813945,
+          "method_mape": 197.91006949985183,
+          "relative_reduction_percent": -349.72139101135434,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 1,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "support_median",
+          "baseline_mape": 6.948683307923455,
+          "method_mape": 6.948683307923455,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.876287304152498,
+          "method_mape": 5.876287304152498,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 5,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.4584713632405535,
+          "method_mape": 5.4584713632405535,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 10,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 4.251249580861046,
+          "method_mape": 4.251249580861046,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 1,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 52.450900560720854,
+          "method_mape": 52.450900560720854,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 32.48187085687663,
+          "method_mape": 42.06685342801506,
+          "relative_reduction_percent": -29.50871460998134,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 5,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 30.2968611643351,
+          "method_mape": 30.2968611643351,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 10,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 25.954205334505005,
+          "method_mape": 25.954205334505005,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 1,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 19.741861715749636,
+          "method_mape": 19.741861715749636,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.97350992044221,
+          "method_mape": 14.97350992044221,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 5,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 13.870397699615335,
+          "method_mape": 13.870397699615335,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 10,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 12.273204494266452,
+          "method_mape": 12.273204494266452,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 1,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 18.860939825117775,
+          "method_mape": 18.860939825117775,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 15.358032326284928,
+          "method_mape": 15.358032326284928,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 5,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.708957328112314,
+          "method_mape": 14.708957328112314,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 10,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 13.468414330960803,
+          "method_mape": 13.468414330960803,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 1,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 185.46739347080768,
+          "method_mape": 185.46739347080768,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 70.78084818162297,
+          "method_mape": 86.49658116334275,
+          "relative_reduction_percent": -22.20336911108124,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 5,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 48.512247036093136,
+          "method_mape": 48.512247036093136,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 10,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 41.40003999782261,
+          "method_mape": 41.40003999782261,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        }
+      ]
+    },
+    "A8_mismatched_evidence": {
+      "spec": {
+        "name": "A8_mismatched_evidence",
+        "family": "E4",
+        "acq_weight": 0.0,
+        "pred_weight": 2.0
+      },
+      "macro": {
+        "h10_k1": {
+          "baseline_mape": 78.03057156465657,
+          "method_mape": 78.03057156465657,
+          "improved_same_worse_domains": [
+            0,
+            6,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        },
+        "h10_k3": {
+          "baseline_mape": 43.286276868289995,
+          "method_mape": 26.52514932630251,
+          "improved_same_worse_domains": [
+            2,
+            3,
+            1
+          ],
+          "worst_relative_change_percent": -25.11483993421578
+        },
+        "h10_k5": {
+          "baseline_mape": 33.85362858087627,
+          "method_mape": 23.28168774288331,
+          "improved_same_worse_domains": [
+            1,
+            5,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        },
+        "h10_k10": {
+          "baseline_mape": 27.031493089137456,
+          "method_mape": 20.976546542984565,
+          "improved_same_worse_domains": [
+            1,
+            5,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        },
+        "h20_k1": {
+          "baseline_mape": 74.13447703726348,
+          "method_mape": 74.13447703726348,
+          "improved_same_worse_domains": [
+            0,
+            6,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        },
+        "h20_k3": {
+          "baseline_mape": 44.44869213312489,
+          "method_mape": 24.034607238557886,
+          "improved_same_worse_domains": [
+            2,
+            3,
+            1
+          ],
+          "worst_relative_change_percent": -3.683263863995122
+        },
+        "h20_k5": {
+          "baseline_mape": 33.65970557530451,
+          "method_mape": 23.183902393276185,
+          "improved_same_worse_domains": [
+            1,
+            5,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        },
+        "h20_k10": {
+          "baseline_mape": 28.71752083109762,
+          "method_mape": 21.57030352609067,
+          "improved_same_worse_domains": [
+            1,
+            5,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        },
+        "h50_k1": {
+          "baseline_mape": 80.0138093198553,
+          "method_mape": 80.0138093198553,
+          "improved_same_worse_domains": [
+            0,
+            6,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        },
+        "h50_k3": {
+          "baseline_mape": 48.53519919661475,
+          "method_mape": 30.502898826850423,
+          "improved_same_worse_domains": [
+            2,
+            3,
+            1
+          ],
+          "worst_relative_change_percent": -12.055056185822437
+        },
+        "h50_k5": {
+          "baseline_mape": 31.032952332838807,
+          "method_mape": 27.114340354923197,
+          "improved_same_worse_domains": [
+            1,
+            5,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        },
+        "h50_k10": {
+          "baseline_mape": 23.559062574425894,
+          "method_mape": 21.893845772282152,
+          "improved_same_worse_domains": [
+            1,
+            5,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        }
+      },
+      "rows": [
+        {
+          "target": "CALB",
+          "horizon": 10,
+          "K": 1,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.6938045136389934,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 194.69384433954752,
+          "method_mape": 194.69384433954752,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 10,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.6938045136389934,
+          "baseline_predictor": "w2_bw1",
+          "baseline_mape": 117.36670043013636,
+          "method_mape": 17.56466711153864,
+          "relative_reduction_percent": 85.03436916334358,
+          "route_counts": {
+            "active_w0": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 10,
+          "K": 5,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.6938045136389934,
+          "baseline_predictor": "w0.5_bw0.5",
+          "baseline_mape": 82.82772467501563,
+          "method_mape": 19.396079647057856,
+          "relative_reduction_percent": 76.58262408733226,
+          "route_counts": {
+            "active_w0": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 10,
+          "K": 10,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.6938045136389934,
+          "baseline_predictor": "w0.5_bw0.5",
+          "baseline_mape": 53.78446383135328,
+          "method_mape": 17.45478455443595,
+          "relative_reduction_percent": 67.54679081831657,
+          "route_counts": {
+            "active_w0": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 10,
+          "K": 1,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 7.15484641313215,
+          "method_mape": 7.15484641313215,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 10,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 6.477460524963751,
+          "method_mape": 6.477460524963751,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 10,
+          "K": 5,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 6.205000327711398,
+          "method_mape": 6.205000327711398,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 10,
+          "K": 10,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.5668441997508396,
+          "method_mape": 5.5668441997508396,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 10,
+          "K": 1,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.2754730678115244,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 47.420540255076716,
+          "method_mape": 47.420540255076716,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 10,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.2754730678115244,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 42.88365783431521,
+          "method_mape": 53.65381985734026,
+          "relative_reduction_percent": -25.11483993421578,
+          "route_counts": {
+            "active_w0": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 10,
+          "K": 5,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.2754730678115244,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 39.139159317116835,
+          "method_mape": 39.139159317116835,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 10,
+          "K": 10,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.2754730678115244,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 37.328312324023024,
+          "method_mape": 37.328312324023024,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 10,
+          "K": 1,
+          "protocol_dispersion": 0.5,
+          "rho": 0.42720978218888145,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 20.630111280984377,
+          "method_mape": 20.630111280984377,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 10,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.42720978218888145,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 17.043368857888446,
+          "method_mape": 17.043368857888446,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 10,
+          "K": 5,
+          "protocol_dispersion": 0.5,
+          "rho": 0.42720978218888145,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.059009202901944,
+          "method_mape": 14.059009202901944,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 10,
+          "K": 10,
+          "protocol_dispersion": 0.5,
+          "rho": 0.42720978218888145,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 12.869970029660035,
+          "method_mape": 12.869970029660035,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 10,
+          "K": 1,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.7202347270504956,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 18.701245837940444,
+          "method_mape": 18.701245837940444,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 10,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.7202347270504956,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 16.652854459247582,
+          "method_mape": 16.652854459247582,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 10,
+          "K": 5,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.7202347270504956,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.830694812634073,
+          "method_mape": 14.830694812634073,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 10,
+          "K": 10,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.7202347270504956,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 13.740631840645113,
+          "method_mape": 13.740631840645113,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 10,
+          "K": 1,
+          "protocol_dispersion": 0.640708946721129,
+          "rho": 0.44658197543310946,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 179.58284126125824,
+          "method_mape": 179.58284126125824,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 10,
+          "K": 3,
+          "protocol_dispersion": 0.640708946721129,
+          "rho": 0.44658197543310946,
+          "baseline_predictor": "w1_bw0.5",
+          "baseline_mape": 59.29361910318862,
+          "method_mape": 47.75872514683639,
+          "relative_reduction_percent": 19.4538537718166,
+          "route_counts": {
+            "active_w0": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 10,
+          "K": 5,
+          "protocol_dispersion": 0.640708946721129,
+          "rho": 0.44658197543310946,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 46.06018314987776,
+          "method_mape": 46.06018314987776,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 10,
+          "K": 10,
+          "protocol_dispersion": 0.640708946721129,
+          "rho": 0.44658197543310946,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 38.89873630939243,
+          "method_mape": 38.89873630939243,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 20,
+          "K": 1,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.6983141308496803,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 189.6701955355395,
+          "method_mape": 189.6701955355395,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 20,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.6983141308496803,
+          "baseline_predictor": "w2_bw1",
+          "baseline_mape": 129.38192747547276,
+          "method_mape": 19.711774764897363,
+          "relative_reduction_percent": 84.76466137928406,
+          "route_counts": {
+            "active_w0": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 20,
+          "K": 5,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.6983141308496803,
+          "baseline_predictor": "w0.5_bw0.5",
+          "baseline_mape": 81.64494287685591,
+          "method_mape": 18.79012378468595,
+          "relative_reduction_percent": 76.98556319277868,
+          "route_counts": {
+            "active_w0": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 20,
+          "K": 10,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.6983141308496803,
+          "baseline_predictor": "w0.5_bw0.5",
+          "baseline_mape": 60.39665024202909,
+          "method_mape": 17.513346411987378,
+          "relative_reduction_percent": 71.00278518459935,
+          "route_counts": {
+            "active_w0": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 20,
+          "K": 1,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 7.226715283286291,
+          "method_mape": 7.226715283286291,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 20,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 7.543530620550128,
+          "method_mape": 7.543530620550128,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 20,
+          "K": 5,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 6.930923805683785,
+          "method_mape": 6.930923805683785,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 20,
+          "K": 10,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 6.485852864896734,
+          "method_mape": 6.485852864896734,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 20,
+          "K": 1,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.0925163906498431,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 47.64158765725993,
+          "method_mape": 47.64158765725993,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 20,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.0925163906498431,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 39.90076220596811,
+          "method_mape": 41.37041256175915,
+          "relative_reduction_percent": -3.683263863995122,
+          "route_counts": {
+            "active_w0": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 20,
+          "K": 5,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.0925163906498431,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 36.48614125670104,
+          "method_mape": 36.48614125670104,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 20,
+          "K": 10,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.0925163906498431,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 36.46759889858956,
+          "method_mape": 36.46759889858956,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 20,
+          "K": 1,
+          "protocol_dispersion": 0.5,
+          "rho": 0.35657776486698634,
+          "baseline_predictor": "support_median",
+          "baseline_mape": 20.75665512413878,
+          "method_mape": 20.75665512413878,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 20,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.35657776486698634,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 12.813287853737762,
+          "method_mape": 12.813287853737762,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 20,
+          "K": 5,
+          "protocol_dispersion": 0.5,
+          "rho": 0.35657776486698634,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 11.500430730478236,
+          "method_mape": 11.500430730478236,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 20,
+          "K": 10,
+          "protocol_dispersion": 0.5,
+          "rho": 0.35657776486698634,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 9.511744766108833,
+          "method_mape": 9.511744766108833,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 20,
+          "K": 1,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.7589970138607034,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 18.30929595054419,
+          "method_mape": 18.30929595054419,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 20,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.7589970138607034,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 16.86555297014548,
+          "method_mape": 16.86555297014548,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 20,
+          "K": 5,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.7589970138607034,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.904465857569557,
+          "method_mape": 14.904465857569557,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 20,
+          "K": 10,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.7589970138607034,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.363620295750547,
+          "method_mape": 14.363620295750547,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 20,
+          "K": 1,
+          "protocol_dispersion": 0.639787269104916,
+          "rho": 0.4048303388598272,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 161.20241267281213,
+          "method_mape": 161.20241267281213,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 20,
+          "K": 3,
+          "protocol_dispersion": 0.639787269104916,
+          "rho": 0.4048303388598272,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 60.18709167287506,
+          "method_mape": 45.90308466025745,
+          "relative_reduction_percent": 23.73267525577264,
+          "route_counts": {
+            "active_w0": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 20,
+          "K": 5,
+          "protocol_dispersion": 0.639787269104916,
+          "rho": 0.4048303388598272,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 50.49132892453853,
+          "method_mape": 50.49132892453853,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 20,
+          "K": 10,
+          "protocol_dispersion": 0.639787269104916,
+          "rho": 0.4048303388598272,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 45.07965791921097,
+          "method_mape": 45.07965791921097,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 1,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 196.61307703881243,
+          "method_mape": 196.61307703881243,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "winf_bw0.5",
+          "baseline_mape": 151.74064659030924,
+          "method_mape": 65.08755057964035,
+          "relative_reduction_percent": 57.10605428262548,
+          "route_counts": {
+            "active_w0": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 5,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 73.35077940563643,
+          "method_mape": 49.83910753814271,
+          "relative_reduction_percent": 32.05374511083522,
+          "route_counts": {
+            "active_w0": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 10,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 44.00726170813945,
+          "method_mape": 34.015960895277004,
+          "relative_reduction_percent": 22.703754846474546,
+          "route_counts": {
+            "active_w0": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 1,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "support_median",
+          "baseline_mape": 6.948683307923455,
+          "method_mape": 6.948683307923455,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.876287304152498,
+          "method_mape": 5.876287304152498,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 5,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.4584713632405535,
+          "method_mape": 5.4584713632405535,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 10,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 4.251249580861046,
+          "method_mape": 4.251249580861046,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 1,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 52.450900560720854,
+          "method_mape": 52.450900560720854,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 32.48187085687663,
+          "method_mape": 36.397578638879395,
+          "relative_reduction_percent": -12.055056185822437,
+          "route_counts": {
+            "active_w0": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 5,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 30.2968611643351,
+          "method_mape": 30.2968611643351,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 10,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 25.954205334505005,
+          "method_mape": 25.954205334505005,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 1,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 19.741861715749636,
+          "method_mape": 19.741861715749636,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.97350992044221,
+          "method_mape": 14.97350992044221,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 5,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 13.870397699615335,
+          "method_mape": 13.870397699615335,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 10,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 12.273204494266452,
+          "method_mape": 12.273204494266452,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 1,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 18.860939825117775,
+          "method_mape": 18.860939825117775,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 15.358032326284928,
+          "method_mape": 15.358032326284928,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 5,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.708957328112314,
+          "method_mape": 14.708957328112314,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 10,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 13.468414330960803,
+          "method_mape": 13.468414330960803,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 1,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 185.46739347080768,
+          "method_mape": 185.46739347080768,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 70.78084818162297,
+          "method_mape": 45.32443419170315,
+          "relative_reduction_percent": 35.9651157677553,
+          "route_counts": {
+            "active_w0": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 5,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 48.512247036093136,
+          "method_mape": 48.512247036093136,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 10,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 41.40003999782261,
+          "method_mape": 41.40003999782261,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        }
+      ]
+    },
+    "A9_fixed_predictor": {
+      "spec": {
+        "name": "A9_fixed_predictor",
+        "family": "E4",
+        "fixed_predictor": "logmean"
+      },
+      "macro": {
+        "h10_k1": {
+          "baseline_mape": 78.03057156465657,
+          "method_mape": 78.03057156465657,
+          "improved_same_worse_domains": [
+            0,
+            6,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        },
+        "h10_k3": {
+          "baseline_mape": 57.69735132819153,
+          "method_mape": 23.782904837647816,
+          "improved_same_worse_domains": [
+            3,
+            3,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        },
+        "h10_k5": {
+          "baseline_mape": 54.46747537840025,
+          "method_mape": 32.01601259624324,
+          "improved_same_worse_domains": [
+            1,
+            5,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        },
+        "h10_k10": {
+          "baseline_mape": 51.72714680682183,
+          "method_mape": 28.95265693295471,
+          "improved_same_worse_domains": [
+            1,
+            5,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        },
+        "h20_k1": {
+          "baseline_mape": 74.13447703726348,
+          "method_mape": 74.13447703726348,
+          "improved_same_worse_domains": [
+            0,
+            6,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        },
+        "h20_k3": {
+          "baseline_mape": 56.542380132065595,
+          "method_mape": 22.395549707363127,
+          "improved_same_worse_domains": [
+            3,
+            3,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        },
+        "h20_k5": {
+          "baseline_mape": 54.409903420637704,
+          "method_mape": 30.456591153495026,
+          "improved_same_worse_domains": [
+            1,
+            5,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        },
+        "h20_k10": {
+          "baseline_mape": 51.74779794436004,
+          "method_mape": 28.27167087577438,
+          "improved_same_worse_domains": [
+            1,
+            5,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        },
+        "h50_k1": {
+          "baseline_mape": 80.0138093198553,
+          "method_mape": 80.0138093198553,
+          "improved_same_worse_domains": [
+            0,
+            6,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        },
+        "h50_k3": {
+          "baseline_mape": 59.426307730457324,
+          "method_mape": 23.031134645368287,
+          "improved_same_worse_domains": [
+            3,
+            3,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        },
+        "h50_k5": {
+          "baseline_mape": 53.97458929140813,
+          "method_mape": 29.508325376817726,
+          "improved_same_worse_domains": [
+            1,
+            5,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        },
+        "h50_k10": {
+          "baseline_mape": 51.47811318506739,
+          "method_mape": 27.384145356170873,
+          "improved_same_worse_domains": [
+            1,
+            5,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        }
+      },
+      "rows": [
+        {
+          "target": "CALB",
+          "horizon": 10,
+          "K": 1,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.6938045136389934,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 194.69384433954752,
+          "method_mape": 194.69384433954752,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 10,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.6938045136389934,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 162.27566229030958,
+          "method_mape": 22.614969191899498,
+          "relative_reduction_percent": 86.06385648179236,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 10,
+          "K": 5,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.6938045136389934,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 156.5840680901008,
+          "method_mape": 21.875291397158758,
+          "relative_reduction_percent": 86.02968254434967,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 10,
+          "K": 10,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.6938045136389934,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 153.85206454165743,
+          "method_mape": 17.205125298454682,
+          "relative_reduction_percent": 88.81709819773256,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 10,
+          "K": 1,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 7.15484641313215,
+          "method_mape": 7.15484641313215,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 10,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 5.979138764007368,
+          "method_mape": 5.979138764007368,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 10,
+          "K": 5,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 6.022054078622955,
+          "method_mape": 6.022054078622955,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 10,
+          "K": 10,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 5.8932031825067765,
+          "method_mape": 5.8932031825067765,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 10,
+          "K": 1,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.2754730678115244,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 47.420540255076716,
+          "method_mape": 47.420540255076716,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 10,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.2754730678115244,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 39.76098199392342,
+          "method_mape": 35.30452360722883,
+          "relative_reduction_percent": 11.20811952626236,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 10,
+          "K": 5,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.2754730678115244,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 37.87099428807582,
+          "method_mape": 37.87099428807582,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 10,
+          "K": 10,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.2754730678115244,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 37.947733071693456,
+          "method_mape": 37.947733071693456,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 10,
+          "K": 1,
+          "protocol_dispersion": 0.5,
+          "rho": 0.42720978218888145,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 20.630111280984377,
+          "method_mape": 20.630111280984377,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 10,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.42720978218888145,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 15.630528349979524,
+          "method_mape": 15.630528349979524,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 10,
+          "K": 5,
+          "protocol_dispersion": 0.5,
+          "rho": 0.42720978218888145,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 14.36206002372565,
+          "method_mape": 14.36206002372565,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 10,
+          "K": 10,
+          "protocol_dispersion": 0.5,
+          "rho": 0.42720978218888145,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 12.88513938705922,
+          "method_mape": 12.88513938705922,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 10,
+          "K": 1,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.7202347270504956,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 18.701245837940444,
+          "method_mape": 18.701245837940444,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 10,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.7202347270504956,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 15.597844360245313,
+          "method_mape": 15.597844360245313,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 10,
+          "K": 5,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.7202347270504956,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 14.271949402002681,
+          "method_mape": 14.271949402002681,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 10,
+          "K": 10,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.7202347270504956,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 13.660160491961978,
+          "method_mape": 13.660160491961978,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 10,
+          "K": 1,
+          "protocol_dispersion": 0.640708946721129,
+          "rho": 0.44658197543310946,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 179.58284126125824,
+          "method_mape": 179.58284126125824,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 10,
+          "K": 3,
+          "protocol_dispersion": 0.640708946721129,
+          "rho": 0.44658197543310946,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 106.93995221068397,
+          "method_mape": 47.57042475252635,
+          "relative_reduction_percent": 55.51669533309014,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 10,
+          "K": 5,
+          "protocol_dispersion": 0.640708946721129,
+          "rho": 0.44658197543310946,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 97.6937263878736,
+          "method_mape": 97.6937263878736,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 10,
+          "K": 10,
+          "protocol_dispersion": 0.640708946721129,
+          "rho": 0.44658197543310946,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 86.12458016605214,
+          "method_mape": 86.12458016605214,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 20,
+          "K": 1,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.6983141308496803,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 189.6701955355395,
+          "method_mape": 189.6701955355395,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 20,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.6983141308496803,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 167.94564752641892,
+          "method_mape": 18.81519474331227,
+          "relative_reduction_percent": 88.79685480366348,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 20,
+          "K": 5,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.6983141308496803,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 160.8078190140421,
+          "method_mape": 17.087945411186045,
+          "relative_reduction_percent": 89.37368498872938,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 20,
+          "K": 10,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.6983141308496803,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 156.37885344251703,
+          "method_mape": 15.522091031003086,
+          "relative_reduction_percent": 90.07404729648513,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 20,
+          "K": 1,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 7.226715283286291,
+          "method_mape": 7.226715283286291,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 20,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 6.7129636834733075,
+          "method_mape": 6.7129636834733075,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 20,
+          "K": 5,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 6.031089393987933,
+          "method_mape": 6.031089393987933,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 20,
+          "K": 10,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 5.77964671641345,
+          "method_mape": 5.77964671641345,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 20,
+          "K": 1,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.0925163906498431,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 47.64158765725993,
+          "method_mape": 47.64158765725993,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 20,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.0925163906498431,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 38.541973081209846,
+          "method_mape": 33.11663111041199,
+          "relative_reduction_percent": 14.076451040444647,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 20,
+          "K": 5,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.0925163906498431,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 37.83204557755869,
+          "method_mape": 37.83204557755869,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 20,
+          "K": 10,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.0925163906498431,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 37.78717700806721,
+          "method_mape": 37.78717700806721,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 20,
+          "K": 1,
+          "protocol_dispersion": 0.5,
+          "rho": 0.35657776486698634,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 20.75665512413878,
+          "method_mape": 20.75665512413878,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 20,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.35657776486698634,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 14.273538078088906,
+          "method_mape": 14.273538078088906,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 20,
+          "K": 5,
+          "protocol_dispersion": 0.5,
+          "rho": 0.35657776486698634,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 13.81412123133688,
+          "method_mape": 13.81412123133688,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 20,
+          "K": 10,
+          "protocol_dispersion": 0.5,
+          "rho": 0.35657776486698634,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 12.782709405284605,
+          "method_mape": 12.782709405284605,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 20,
+          "K": 1,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.7589970138607034,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 18.30929595054419,
+          "method_mape": 18.30929595054419,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 20,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.7589970138607034,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 15.794509614568739,
+          "method_mape": 15.794509614568739,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 20,
+          "K": 5,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.7589970138607034,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 14.229130624734774,
+          "method_mape": 14.229130624734774,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 20,
+          "K": 10,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.7589970138607034,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 14.040522822634177,
+          "method_mape": 14.040522822634177,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 20,
+          "K": 1,
+          "protocol_dispersion": 0.639787269104916,
+          "rho": 0.4048303388598272,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 161.20241267281213,
+          "method_mape": 161.20241267281213,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 20,
+          "K": 3,
+          "protocol_dispersion": 0.639787269104916,
+          "rho": 0.4048303388598272,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 95.98564880863385,
+          "method_mape": 45.660461014323545,
+          "relative_reduction_percent": 52.42990844875509,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 20,
+          "K": 5,
+          "protocol_dispersion": 0.639787269104916,
+          "rho": 0.4048303388598272,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 93.74521468216582,
+          "method_mape": 93.74521468216582,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 20,
+          "K": 10,
+          "protocol_dispersion": 0.639787269104916,
+          "rho": 0.4048303388598272,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 83.71787827124378,
+          "method_mape": 83.71787827124378,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 1,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 196.61307703881243,
+          "method_mape": 196.61307703881243,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 180.41262235387168,
+          "method_mape": 24.261121415690337,
+          "relative_reduction_percent": 86.55242571215268,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 5,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 163.0090826255739,
+          "method_mape": 16.2114991380315,
+          "relative_reduction_percent": 90.05484916735054,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 10,
+          "protocol_dispersion": 0.1649572197684645,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 158.95994297634297,
+          "method_mape": 14.39613600296387,
+          "relative_reduction_percent": 90.94354481172257,
+          "route_counts": {
+            "active_w2": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 1,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 6.948683307923452,
+          "method_mape": 6.948683307923452,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 6.266450364555525,
+          "method_mape": 6.266450364555525,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 5,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 6.147307140551937,
+          "method_mape": 6.147307140551937,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 10,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 5.934448010417772,
+          "method_mape": 5.934448010417772,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 1,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 52.450900560720854,
+          "method_mape": 52.450900560720854,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 41.87059932216581,
+          "method_mape": 27.768625712243683,
+          "relative_reduction_percent": 33.67989433687591,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 5,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 39.6953794342263,
+          "method_mape": 39.6953794342263,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 10,
+          "protocol_dispersion": 0.6324555320336759,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 37.62406940689933,
+          "method_mape": 37.62406940689933,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 1,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 19.741861715749636,
+          "method_mape": 19.741861715749636,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 15.649529745840796,
+          "method_mape": 15.649529745840796,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 5,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 13.558860038699855,
+          "method_mape": 13.558860038699855,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 10,
+          "protocol_dispersion": 0.5,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 12.742111734548843,
+          "method_mape": 12.742111734548843,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 1,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 18.860939825117775,
+          "method_mape": 18.860939825117775,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 14.825706562316253,
+          "method_mape": 14.825706562316253,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 5,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 14.292100126778944,
+          "method_mape": 14.292100126778944,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 10,
+          "protocol_dispersion": 0.4472135954999579,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 13.68905430518834,
+          "method_mape": 13.68905430518834,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 1,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 185.46739347080768,
+          "method_mape": 185.46739347080768,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 97.53293803399386,
+          "method_mape": 49.41537407156314,
+          "relative_reduction_percent": 49.3346811163014,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 5,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 87.14480638261784,
+          "method_mape": 87.14480638261784,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 10,
+          "protocol_dispersion": 0.6356600922448741,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 79.91905267700707,
+          "method_mape": 79.91905267700707,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        }
+      ]
+    },
+    "A10_no_robust_scaling": {
+      "spec": {
+        "name": "A10_no_robust_scaling",
+        "family": "E4",
+        "no_robust": true
+      },
+      "macro": {
+        "h10_k1": {
+          "baseline_mape": 78.03057156465657,
+          "method_mape": 78.03057156465657,
+          "improved_same_worse_domains": [
+            0,
+            6,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        },
+        "h10_k3": {
+          "baseline_mape": 49.95009310368596,
+          "method_mape": 42.34030491069932,
+          "improved_same_worse_domains": [
+            2,
+            2,
+            2
+          ],
+          "worst_relative_change_percent": -51.74151529967544
+        },
+        "h10_k5": {
+          "baseline_mape": 36.59253354380677,
+          "method_mape": 36.59253354380677,
+          "improved_same_worse_domains": [
+            0,
+            6,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        },
+        "h10_k10": {
+          "baseline_mape": 25.13704683831946,
+          "method_mape": 25.13704683831946,
+          "improved_same_worse_domains": [
+            0,
+            6,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        },
+        "h20_k1": {
+          "baseline_mape": 74.13447703726348,
+          "method_mape": 74.13447703726348,
+          "improved_same_worse_domains": [
+            0,
+            6,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        },
+        "h20_k3": {
+          "baseline_mape": 47.34380875248139,
+          "method_mape": 43.15032629782093,
+          "improved_same_worse_domains": [
+            2,
+            2,
+            2
+          ],
+          "worst_relative_change_percent": -35.867915558320476
+        },
+        "h20_k5": {
+          "baseline_mape": 34.36413773146152,
+          "method_mape": 34.36413773146152,
+          "improved_same_worse_domains": [
+            0,
+            6,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        },
+        "h20_k10": {
+          "baseline_mape": 24.489730359079903,
+          "method_mape": 24.489730359079903,
+          "improved_same_worse_domains": [
+            0,
+            6,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        },
+        "h50_k1": {
+          "baseline_mape": 80.0138093198553,
+          "method_mape": 80.0138093198553,
+          "improved_same_worse_domains": [
+            0,
+            6,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        },
+        "h50_k3": {
+          "baseline_mape": 48.222934769103176,
+          "method_mape": 42.86041376420332,
+          "improved_same_worse_domains": [
+            2,
+            2,
+            2
+          ],
+          "worst_relative_change_percent": -30.50702399405028
+        },
+        "h50_k5": {
+          "baseline_mape": 29.01868260869624,
+          "method_mape": 29.01868260869624,
+          "improved_same_worse_domains": [
+            0,
+            6,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        },
+        "h50_k10": {
+          "baseline_mape": 21.529501857858108,
+          "method_mape": 21.529501857858108,
+          "improved_same_worse_domains": [
+            0,
+            6,
+            0
+          ],
+          "worst_relative_change_percent": 0.0
+        }
+      },
+      "rows": [
+        {
+          "target": "CALB",
+          "horizon": 10,
+          "K": 1,
+          "protocol_dispersion": 0.3441236008058427,
+          "rho": 0.6938045136389934,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 194.69384433954752,
+          "method_mape": 194.69384433954752,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 10,
+          "K": 3,
+          "protocol_dispersion": 0.3441236008058427,
+          "rho": 0.6938045136389934,
+          "baseline_predictor": "w2_bw1",
+          "baseline_mape": 97.07438697159505,
+          "method_mape": 97.07438697159505,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 10,
+          "K": 5,
+          "protocol_dispersion": 0.3441236008058427,
+          "rho": 0.6938045136389934,
+          "baseline_predictor": "w0.5_bw0.5",
+          "baseline_mape": 57.64970643435094,
+          "method_mape": 57.64970643435094,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 10,
+          "K": 10,
+          "protocol_dispersion": 0.3441236008058427,
+          "rho": 0.6938045136389934,
+          "baseline_predictor": "w0.5_bw0.5",
+          "baseline_mape": 20.83866966713023,
+          "method_mape": 20.83866966713023,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 10,
+          "K": 1,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 7.15484641313215,
+          "method_mape": 7.15484641313215,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 10,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 6.563173804566367,
+          "method_mape": 6.563173804566367,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 10,
+          "K": 5,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 6.290155348122079,
+          "method_mape": 6.290155348122079,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 10,
+          "K": 10,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 6.050229547892933,
+          "method_mape": 6.050229547892933,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 10,
+          "K": 1,
+          "protocol_dispersion": 1.0679769421729628,
+          "rho": 0.2754730678115244,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 47.420540255076716,
+          "method_mape": 47.420540255076716,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 10,
+          "K": 3,
+          "protocol_dispersion": 1.0679769421729628,
+          "rho": 0.2754730678115244,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 44.843204813593964,
+          "method_mape": 68.04575849308448,
+          "relative_reduction_percent": -51.74151529967544,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 10,
+          "K": 5,
+          "protocol_dispersion": 1.0679769421729628,
+          "rho": 0.2754730678115244,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 48.08189833183831,
+          "method_mape": 48.08189833183831,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 10,
+          "K": 10,
+          "protocol_dispersion": 1.0679769421729628,
+          "rho": 0.2754730678115244,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 50.41287987577091,
+          "method_mape": 50.41287987577091,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 10,
+          "K": 1,
+          "protocol_dispersion": 1.0277402395547233,
+          "rho": 0.42720978218888145,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 20.630111280984377,
+          "method_mape": 20.630111280984377,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 10,
+          "K": 3,
+          "protocol_dispersion": 1.0277402395547233,
+          "rho": 0.42720978218888145,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 16.44811824519885,
+          "method_mape": 19.26594830487703,
+          "relative_reduction_percent": -17.131625743879212,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 10,
+          "K": 5,
+          "protocol_dispersion": 1.0277402395547233,
+          "rho": 0.42720978218888145,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 15.19545382428377,
+          "method_mape": 15.19545382428377,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 10,
+          "K": 10,
+          "protocol_dispersion": 1.0277402395547233,
+          "rho": 0.42720978218888145,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 12.537707827139773,
+          "method_mape": 12.537707827139773,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 10,
+          "K": 1,
+          "protocol_dispersion": 0.8955473256792901,
+          "rho": 0.7202347270504956,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 18.701245837940444,
+          "method_mape": 18.701245837940444,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 10,
+          "K": 3,
+          "protocol_dispersion": 0.8955473256792901,
+          "rho": 0.7202347270504956,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 17.207114807066123,
+          "method_mape": 14.34918152131072,
+          "relative_reduction_percent": 16.60902084864215,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 10,
+          "K": 5,
+          "protocol_dispersion": 0.8955473256792901,
+          "rho": 0.7202347270504956,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 15.427949281290498,
+          "method_mape": 15.427949281290498,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 10,
+          "K": 10,
+          "protocol_dispersion": 0.8955473256792901,
+          "rho": 0.7202347270504956,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 13.852492026756707,
+          "method_mape": 13.852492026756707,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 10,
+          "K": 1,
+          "protocol_dispersion": 0.8844634811602008,
+          "rho": 0.44658197543310946,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 179.58284126125824,
+          "method_mape": 179.58284126125824,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 10,
+          "K": 3,
+          "protocol_dispersion": 0.8844634811602008,
+          "rho": 0.44658197543310946,
+          "baseline_predictor": "w1_bw0.5",
+          "baseline_mape": 117.56455998009537,
+          "method_mape": 48.74338036876225,
+          "relative_reduction_percent": 58.539052604785915,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 10,
+          "K": 5,
+          "protocol_dispersion": 0.8844634811602008,
+          "rho": 0.44658197543310946,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 76.91003804295505,
+          "method_mape": 76.91003804295505,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 10,
+          "K": 10,
+          "protocol_dispersion": 0.8844634811602008,
+          "rho": 0.44658197543310946,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 47.13030208522621,
+          "method_mape": 47.13030208522621,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 20,
+          "K": 1,
+          "protocol_dispersion": 0.3441236008058427,
+          "rho": 0.6983141308496803,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 189.6701955355395,
+          "method_mape": 189.6701955355395,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 20,
+          "K": 3,
+          "protocol_dispersion": 0.3441236008058427,
+          "rho": 0.6983141308496803,
+          "baseline_predictor": "w2_bw1",
+          "baseline_mape": 105.88543773147956,
+          "method_mape": 105.88543773147956,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 20,
+          "K": 5,
+          "protocol_dispersion": 0.3441236008058427,
+          "rho": 0.6983141308496803,
+          "baseline_predictor": "w0.5_bw0.5",
+          "baseline_mape": 56.81444122334409,
+          "method_mape": 56.81444122334409,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 20,
+          "K": 10,
+          "protocol_dispersion": 0.3441236008058427,
+          "rho": 0.6983141308496803,
+          "baseline_predictor": "w0.5_bw0.5",
+          "baseline_mape": 23.60222507427157,
+          "method_mape": 23.60222507427157,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 20,
+          "K": 1,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 7.226715283286291,
+          "method_mape": 7.226715283286291,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 20,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 7.285352994049951,
+          "method_mape": 7.285352994049951,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 20,
+          "K": 5,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 6.7102915220540424,
+          "method_mape": 6.7102915220540424,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 20,
+          "K": 10,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 6.055944188958596,
+          "method_mape": 6.055944188958596,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 20,
+          "K": 1,
+          "protocol_dispersion": 1.0679769421729628,
+          "rho": 0.0925163906498431,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 47.64158765725993,
+          "method_mape": 47.64158765725993,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 20,
+          "K": 3,
+          "protocol_dispersion": 1.0679769421729628,
+          "rho": 0.0925163906498431,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 42.58047257413674,
+          "method_mape": 57.56463265766339,
+          "relative_reduction_percent": -35.190215555822604,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 20,
+          "K": 5,
+          "protocol_dispersion": 1.0679769421729628,
+          "rho": 0.0925163906498431,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 41.57329339720637,
+          "method_mape": 41.57329339720637,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 20,
+          "K": 10,
+          "protocol_dispersion": 1.0679769421729628,
+          "rho": 0.0925163906498431,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 44.85948526744813,
+          "method_mape": 44.85948526744813,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 20,
+          "K": 1,
+          "protocol_dispersion": 1.0277402395547233,
+          "rho": 0.35657776486698634,
+          "baseline_predictor": "support_median",
+          "baseline_mape": 20.75665512413878,
+          "method_mape": 20.75665512413878,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 20,
+          "K": 3,
+          "protocol_dispersion": 1.0277402395547233,
+          "rho": 0.35657776486698634,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 13.714555196940246,
+          "method_mape": 18.633680274178026,
+          "relative_reduction_percent": -35.867915558320476,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 20,
+          "K": 5,
+          "protocol_dispersion": 1.0277402395547233,
+          "rho": 0.35657776486698634,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 13.2956748577334,
+          "method_mape": 13.2956748577334,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 20,
+          "K": 10,
+          "protocol_dispersion": 1.0277402395547233,
+          "rho": 0.35657776486698634,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 11.535343217529128,
+          "method_mape": 11.535343217529128,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 20,
+          "K": 1,
+          "protocol_dispersion": 0.8955473256792901,
+          "rho": 0.7589970138607034,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 18.30929595054419,
+          "method_mape": 18.30929595054419,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 20,
+          "K": 3,
+          "protocol_dispersion": 0.8955473256792901,
+          "rho": 0.7589970138607034,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 17.29585292595271,
+          "method_mape": 15.09299979769836,
+          "relative_reduction_percent": 12.736308164074012,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 20,
+          "K": 5,
+          "protocol_dispersion": 0.8955473256792901,
+          "rho": 0.7589970138607034,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 15.178920327443796,
+          "method_mape": 15.178920327443796,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 20,
+          "K": 10,
+          "protocol_dispersion": 0.8955473256792901,
+          "rho": 0.7589970138607034,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.268026573770038,
+          "method_mape": 14.268026573770038,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 20,
+          "K": 1,
+          "protocol_dispersion": 0.8850530802078762,
+          "rho": 0.4048303388598272,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 161.20241267281213,
+          "method_mape": 161.20241267281213,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 20,
+          "K": 3,
+          "protocol_dispersion": 0.8850530802078762,
+          "rho": 0.4048303388598272,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 97.30118109232912,
+          "method_mape": 54.43985433185629,
+          "relative_reduction_percent": 44.0501608298071,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 20,
+          "K": 5,
+          "protocol_dispersion": 0.8850530802078762,
+          "rho": 0.4048303388598272,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 72.61220506098742,
+          "method_mape": 72.61220506098742,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 20,
+          "K": 10,
+          "protocol_dispersion": 0.8850530802078762,
+          "rho": 0.4048303388598272,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 46.61735783250194,
+          "method_mape": 46.61735783250194,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 1,
+          "protocol_dispersion": 0.3441236008058427,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 196.61307703881243,
+          "method_mape": 196.61307703881243,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.3441236008058427,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "winf_bw0.5",
+          "baseline_mape": 124.5188455073492,
+          "method_mape": 124.5188455073492,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 5,
+          "protocol_dispersion": 0.3441236008058427,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 46.85186703000615,
+          "method_mape": 46.85186703000615,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALB",
+          "horizon": 50,
+          "K": 10,
+          "protocol_dispersion": 0.3441236008058427,
+          "rho": 0.5592977764053793,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 26.263954346809058,
+          "method_mape": 26.263954346809058,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_medium_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 1,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "support_median",
+          "baseline_mape": 6.948683307923455,
+          "method_mape": 6.948683307923455,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.954990693286403,
+          "method_mape": 5.954990693286403,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 5,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 5.189450427305803,
+          "method_mape": 5.189450427305803,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "HNEI",
+          "horizon": 50,
+          "K": 10,
+          "protocol_dispersion": 0.0,
+          "rho": 0.0,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 4.878470438963477,
+          "method_mape": 4.878470438963477,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_zero_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 1,
+          "protocol_dispersion": 1.0679769421729628,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 52.450900560720854,
+          "method_mape": 52.450900560720854,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 1.0679769421729628,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 37.88909975796604,
+          "method_mape": 42.933148467346285,
+          "relative_reduction_percent": -13.312664438061127,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 5,
+          "protocol_dispersion": 1.0679769421729628,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 33.43871418617894,
+          "method_mape": 33.43871418617894,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH_EXP",
+          "horizon": 50,
+          "K": 10,
+          "protocol_dispersion": 1.0679769421729628,
+          "rho": 0.6220527023497164,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 30.06812677617029,
+          "method_mape": 30.06812677617029,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 1,
+          "protocol_dispersion": 1.0277402395547233,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 19.741861715749636,
+          "method_mape": 19.741861715749636,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 1.0277402395547233,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.796655630850454,
+          "method_mape": 19.310674914470994,
+          "relative_reduction_percent": -30.50702399405028,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 5,
+          "protocol_dispersion": 1.0277402395547233,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.69524017149331,
+          "method_mape": 14.69524017149331,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "CALCE",
+          "horizon": 50,
+          "K": 10,
+          "protocol_dispersion": 1.0277402395547233,
+          "rho": 0.49898102559661356,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 12.596176484785474,
+          "method_mape": 12.596176484785474,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 1,
+          "protocol_dispersion": 0.8955473256792901,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 18.860939825117775,
+          "method_mape": 18.860939825117775,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.8955473256792901,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 15.738096251015381,
+          "method_mape": 15.123471177027056,
+          "relative_reduction_percent": 3.905333047818099,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 5,
+          "protocol_dispersion": 0.8955473256792901,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 14.981775177144087,
+          "method_mape": 14.981775177144087,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "MICH",
+          "horizon": 50,
+          "K": 10,
+          "protocol_dispersion": 0.8955473256792901,
+          "rho": 0.6790120658791347,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 13.369542442136481,
+          "method_mape": 13.369542442136481,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 1,
+          "protocol_dispersion": 0.8836159082323896,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "logmean",
+          "baseline_mape": 185.46739347080768,
+          "method_mape": 185.46739347080768,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_one_label_unidentifiable": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 3,
+          "protocol_dispersion": 0.8836159082323896,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 90.43992077415162,
+          "method_mape": 49.32135182573999,
+          "relative_reduction_percent": 45.465065201786,
+          "route_counts": {
+            "active_w0.5": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 5,
+          "protocol_dispersion": 0.8836159082323896,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 58.95504866004915,
+          "method_mape": 58.95504866004915,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        },
+        {
+          "target": "SNL",
+          "horizon": 50,
+          "K": 10,
+          "protocol_dispersion": 0.8836159082323896,
+          "rho": 0.49427783384535806,
+          "baseline_predictor": "w2_bw0.5",
+          "baseline_mape": 42.000740658283874,
+          "method_mape": 42.000740658283874,
+          "relative_reduction_percent": 0.0,
+          "route_counts": {
+            "fallback_large_budget_high_protocol_dispersion": 100
+          }
+        }
+      ]
+    }
+  }
+}

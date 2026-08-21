@@ -1,0 +1,3607 @@
+{
+  "development_source": "batterylife_curve_aware_support.json",
+  "external_dataset": "BatteryLife v12 NA-ion",
+  "protocol": "six-domain-frozen curve weight; NA-ion cell-level leave-one-out; support selection uses first-H-cycle curves and metadata but no life labels",
+  "results": {
+    "h10_k1": {
+      "n_cells": 34,
+      "frozen_weight": 0.125,
+      "development_candidates": [
+        {
+          "weight": 0.0,
+          "macro_mape": 23.137562746236497,
+          "macro_mae": 101.91057619386787
+        },
+        {
+          "weight": 0.125,
+          "macro_mape": 18.808845691067553,
+          "macro_mae": 76.59598765432101
+        },
+        {
+          "weight": 0.25,
+          "macro_mape": 18.985441098124817,
+          "macro_mae": 77.56464862298198
+        },
+        {
+          "weight": 0.5,
+          "macro_mape": 20.764954725452462,
+          "macro_mae": 80.95806030389365
+        },
+        {
+          "weight": 1.0,
+          "macro_mape": 23.637855545779345,
+          "macro_mae": 85.85466524216527
+        },
+        {
+          "weight": 2.0,
+          "macro_mape": 22.601131180558326,
+          "macro_mae": 83.43016381766384
+        },
+        {
+          "weight": "inf",
+          "macro_mape": 22.702951241534794,
+          "macro_mae": 82.36677350427352
+        }
+      ],
+      "protocol_only": {
+        "mae": 61.56470588235293,
+        "mape": 36.336044920960006,
+        "median_ae": 51.99999999999994,
+        "n_evaluations": 3400
+      },
+      "curve_aware": {
+        "mae": 39.11764705882353,
+        "mape": 22.269729065047336,
+        "median_ae": 30.0,
+        "n_evaluations": 3400
+      },
+      "ape_improved_same_worse": [
+        25,
+        0,
+        9
+      ],
+      "ape_wilcoxon_p": 0.00019341206643730402,
+      "ae_wilcoxon_p": 0.0002683886559680104,
+      "per_cell": [
+        {
+          "held_out": "NA-ion_270040-1-2-63.pkl",
+          "baseline_ae": 45.29999999999999,
+          "baseline_ape": 25.593220338983052,
+          "method_ae": 3.0,
+          "method_ape": 1.6949152542372874
+        },
+        {
+          "held_out": "NA-ion_270040-1-3-62.pkl",
+          "baseline_ae": 97.26,
+          "baseline_ape": 36.291044776119406,
+          "method_ae": 125.99999999999999,
+          "method_ape": 47.01492537313431
+        },
+        {
+          "held_out": "NA-ion_270040-1-5-60.pkl",
+          "baseline_ae": 50.21999999999997,
+          "baseline_ape": 30.436363636363616,
+          "method_ae": 15.0,
+          "method_ape": 9.090909090909093
+        },
+        {
+          "held_out": "NA-ion_270040-1-6-59.pkl",
+          "baseline_ae": 53.32999999999999,
+          "baseline_ape": 26.532338308457703,
+          "method_ae": 30.999999999999982,
+          "method_ape": 15.422885572139284
+        },
+        {
+          "held_out": "NA-ion_270040-1-7-58.pkl",
+          "baseline_ae": 56.35,
+          "baseline_ape": 26.331775700934582,
+          "method_ae": 94.00000000000001,
+          "method_ape": 43.92523364485983
+        },
+        {
+          "held_out": "NA-ion_270040-1-8-57.pkl",
+          "baseline_ae": 141.57,
+          "baseline_ape": 46.11400651465799,
+          "method_ae": 127.0,
+          "method_ape": 41.36807817589577
+        },
+        {
+          "held_out": "NA-ion_270040-2-2-12.pkl",
+          "baseline_ae": 50.539999999999985,
+          "baseline_ape": 31.98734177215188,
+          "method_ae": 6.000000000000054,
+          "method_ape": 3.7974683544304146
+        },
+        {
+          "held_out": "NA-ion_270040-2-5-12.pkl",
+          "baseline_ae": 59.68999999999998,
+          "baseline_ape": 51.01709401709399,
+          "method_ae": 30.999999999999947,
+          "method_ape": 26.495726495726455
+        },
+        {
+          "held_out": "NA-ion_270040-3-1-56.pkl",
+          "baseline_ae": 60.969999999999985,
+          "baseline_ape": 47.63281249999998,
+          "method_ae": 14.000000000000027,
+          "method_ape": 10.937500000000023
+        },
+        {
+          "held_out": "NA-ion_270040-3-2-55.pkl",
+          "baseline_ae": 43.62,
+          "baseline_ape": 21.81,
+          "method_ae": 23.000000000000053,
+          "method_ape": 11.500000000000025
+        },
+        {
+          "held_out": "NA-ion_270040-3-3-54.pkl",
+          "baseline_ae": 56.55999999999998,
+          "baseline_ape": 42.84848484848483,
+          "method_ae": 81.99999999999996,
+          "method_ape": 62.12121212121208
+        },
+        {
+          "held_out": "NA-ion_270040-3-4-53.pkl",
+          "baseline_ae": 45.9,
+          "baseline_ape": 24.945652173913047,
+          "method_ae": 7.000000000000054,
+          "method_ape": 3.8043478260869885
+        },
+        {
+          "held_out": "NA-ion_270040-3-5-52.pkl",
+          "baseline_ae": 63.06,
+          "baseline_ape": 27.298701298701292,
+          "method_ae": 19.99999999999989,
+          "method_ape": 8.65800865800861
+        },
+        {
+          "held_out": "NA-ion_270040-3-7-50.pkl",
+          "baseline_ae": 76.88999999999999,
+          "baseline_ape": 71.19444444444443,
+          "method_ae": 46.00000000000006,
+          "method_ape": 42.592592592592666
+        },
+        {
+          "held_out": "NA-ion_270040-3-8-49.pkl",
+          "baseline_ae": 68.84,
+          "baseline_ape": 27.42629482071714,
+          "method_ae": 74.00000000000004,
+          "method_ape": 29.48207171314743
+        },
+        {
+          "held_out": "NA-ion_270040-4-1-48.pkl",
+          "baseline_ae": 67.63,
+          "baseline_ape": 28.778723404255317,
+          "method_ae": 4.000000000000057,
+          "method_ape": 1.7021276595744927
+        },
+        {
+          "held_out": "NA-ion_270040-4-2-47.pkl",
+          "baseline_ae": 48.72999999999998,
+          "baseline_ape": 24.862244897959176,
+          "method_ae": 53.99999999999999,
+          "method_ape": 27.551020408163254
+        },
+        {
+          "held_out": "NA-ion_270040-4-3-46.pkl",
+          "baseline_ae": 63.09,
+          "baseline_ape": 27.792951541850215,
+          "method_ae": 42.0,
+          "method_ape": 18.50220264317181
+        },
+        {
+          "held_out": "NA-ion_270040-4-6-43.pkl",
+          "baseline_ae": 51.41999999999999,
+          "baseline_ape": 36.211267605633786,
+          "method_ae": 12.000000000000055,
+          "method_ape": 8.450704225352155
+        },
+        {
+          "held_out": "NA-ion_270040-5-1-39.pkl",
+          "baseline_ae": 50.80999999999998,
+          "baseline_ape": 39.69531249999999,
+          "method_ae": 19.999999999999947,
+          "method_ape": 15.624999999999954
+        },
+        {
+          "held_out": "NA-ion_270040-5-2-38.pkl",
+          "baseline_ae": 68.28999999999998,
+          "baseline_ape": 56.908333333333324,
+          "method_ae": 93.99999999999996,
+          "method_ape": 78.33333333333326
+        },
+        {
+          "held_out": "NA-ion_270040-5-3-37.pkl",
+          "baseline_ae": 77.04,
+          "baseline_ape": 30.21176470588236,
+          "method_ae": 41.00000000000006,
+          "method_ape": 16.078431372549034
+        },
+        {
+          "held_out": "NA-ion_270040-5-5-35.pkl",
+          "baseline_ae": 48.21,
+          "baseline_ape": 26.78333333333332,
+          "method_ae": 3.000000000000057,
+          "method_ape": 1.666666666666698
+        },
+        {
+          "held_out": "NA-ion_270040-5-6-34.pkl",
+          "baseline_ae": 54.81999999999998,
+          "baseline_ape": 41.847328244274784,
+          "method_ae": 11.000000000000027,
+          "method_ape": 8.39694656488552
+        },
+        {
+          "held_out": "NA-ion_270040-5-7-33.pkl",
+          "baseline_ae": 42.57,
+          "baseline_ape": 24.050847457627118,
+          "method_ae": 7.000000000000054,
+          "method_ape": 3.9548022598870394
+        },
+        {
+          "held_out": "NA-ion_270040-5-8-32.pkl",
+          "baseline_ae": 90.93999999999997,
+          "baseline_ape": 89.15686274509801,
+          "method_ae": 6.0000000000000275,
+          "method_ape": 5.882352941176497
+        },
+        {
+          "held_out": "NA-ion_270040-6-2-30.pkl",
+          "baseline_ae": 51.05999999999998,
+          "baseline_ape": 33.155844155844136,
+          "method_ae": 45.99999999999998,
+          "method_ape": 29.870129870129855
+        },
+        {
+          "held_out": "NA-ion_270040-6-6-26.pkl",
+          "baseline_ae": 60.79,
+          "baseline_ape": 26.202586206896548,
+          "method_ae": 4.999999999999943,
+          "method_ape": 2.155172413793079
+        },
+        {
+          "held_out": "NA-ion_270040-6-8-24.pkl",
+          "baseline_ae": 94.34000000000003,
+          "baseline_ape": 35.07063197026022,
+          "method_ae": 41.99999999999994,
+          "method_ape": 15.613382899628231
+        },
+        {
+          "held_out": "NA-ion_270040-7-1-23.pkl",
+          "baseline_ae": 44.77999999999998,
+          "baseline_ape": 24.604395604395595,
+          "method_ae": 87.0,
+          "method_ape": 47.80219780219781
+        },
+        {
+          "held_out": "NA-ion_270040-8-5-16.pkl",
+          "baseline_ae": 46.30999999999998,
+          "baseline_ape": 31.29054054054053,
+          "method_ae": 6.000000000000054,
+          "method_ape": 4.0540540540540935
+        },
+        {
+          "held_out": "NA-ion_4000-30_20250115110206_DefaultGroup_45_1.pkl",
+          "baseline_ae": 68.15999999999998,
+          "baseline_ape": 57.27731092436974,
+          "method_ae": 76.9999999999999,
+          "method_ape": 64.70588235294112
+        },
+        {
+          "held_out": "NA-ion_4500-30_20250114232539_DefaultGroup_45_8.pkl",
+          "baseline_ae": 43.09999999999998,
+          "baseline_ape": 26.28048780487803,
+          "method_ae": 44.99999999999998,
+          "method_ape": 27.439024390243897
+        },
+        {
+          "held_out": "NA-ion_5000-25_20250115110326_DefaultGroup_38_1.pkl",
+          "baseline_ae": 51.009999999999984,
+          "baseline_ape": 37.78518518518517,
+          "method_ae": 29.000000000000053,
+          "method_ape": 21.481481481481534
+        }
+      ]
+    },
+    "h10_k3": {
+      "n_cells": 34,
+      "frozen_weight": 1.0,
+      "development_candidates": [
+        {
+          "weight": 0.0,
+          "macro_mape": 20.731484444080206,
+          "macro_mae": 103.51618856386176
+        },
+        {
+          "weight": 0.125,
+          "macro_mape": 17.565827283819267,
+          "macro_mae": 83.52035675527287
+        },
+        {
+          "weight": 0.25,
+          "macro_mape": 17.570968869722005,
+          "macro_mae": 90.7718657257747
+        },
+        {
+          "weight": 0.5,
+          "macro_mape": 17.334839363936567,
+          "macro_mae": 85.72877266772055
+        },
+        {
+          "weight": 1.0,
+          "macro_mape": 17.085958210074228,
+          "macro_mae": 76.76236813544763
+        },
+        {
+          "weight": 2.0,
+          "macro_mape": 17.490747493080892,
+          "macro_mae": 74.42727968421012
+        },
+        {
+          "weight": "inf",
+          "macro_mape": 18.914216362467034,
+          "macro_mae": 74.20543698965508
+        }
+      ],
+      "protocol_only": {
+        "mae": 49.74929589413187,
+        "mape": 28.933620664997964,
+        "median_ae": 43.526175091186815,
+        "n_evaluations": 3400
+      },
+      "curve_aware": {
+        "mae": 37.38590193163531,
+        "mape": 21.127265025124228,
+        "median_ae": 26.221523560724776,
+        "n_evaluations": 3400
+      },
+      "ape_improved_same_worse": [
+        23,
+        0,
+        11
+      ],
+      "ape_wilcoxon_p": 0.014553519897162914,
+      "ae_wilcoxon_p": 0.013829763396643102,
+      "per_cell": [
+        {
+          "held_out": "NA-ion_270040-1-2-63.pkl",
+          "baseline_ae": 23.656266201684517,
+          "baseline_ape": 13.36512214784436,
+          "method_ae": 31.285357841827263,
+          "method_ape": 17.67534341346174
+        },
+        {
+          "held_out": "NA-ion_270040-1-3-62.pkl",
+          "baseline_ae": 95.76445326115956,
+          "baseline_ape": 35.73300494819386,
+          "method_ae": 134.82860771826338,
+          "method_ape": 50.309181984426644
+        },
+        {
+          "held_out": "NA-ion_270040-1-5-60.pkl",
+          "baseline_ae": 22.71287648232792,
+          "baseline_ape": 13.765379686259342,
+          "method_ae": 48.03616393168126,
+          "method_ape": 29.11282662526135
+        },
+        {
+          "held_out": "NA-ion_270040-1-6-59.pkl",
+          "baseline_ae": 32.028901349194804,
+          "baseline_ape": 15.93477679064418,
+          "method_ae": 9.456512551203105,
+          "method_ape": 4.704732612538857
+        },
+        {
+          "held_out": "NA-ion_270040-1-7-58.pkl",
+          "baseline_ae": 37.923577037394345,
+          "baseline_ape": 17.721297681025394,
+          "method_ae": 67.1315907590008,
+          "method_ape": 31.36990222383216
+        },
+        {
+          "held_out": "NA-ion_270040-1-8-57.pkl",
+          "baseline_ae": 134.83113814065268,
+          "baseline_ape": 43.91893750509859,
+          "method_ae": 87.31104562325872,
+          "method_ape": 28.440080007576125
+        },
+        {
+          "held_out": "NA-ion_270040-2-2-12.pkl",
+          "baseline_ae": 29.388234277098523,
+          "baseline_ape": 18.600148276644635,
+          "method_ae": 19.884784310660333,
+          "method_ape": 12.585306525734396
+        },
+        {
+          "held_out": "NA-ion_270040-2-5-12.pkl",
+          "baseline_ae": 58.555807232853255,
+          "baseline_ape": 50.047698489618185,
+          "method_ae": 65.79840840562258,
+          "method_ape": 56.23795590224151
+        },
+        {
+          "held_out": "NA-ion_270040-3-1-56.pkl",
+          "baseline_ae": 47.83482347407634,
+          "baseline_ape": 37.370955839122146,
+          "method_ae": 9.931492986981565,
+          "method_ape": 7.758978896079352
+        },
+        {
+          "held_out": "NA-ion_270040-3-2-55.pkl",
+          "baseline_ae": 31.87431922819012,
+          "baseline_ape": 15.93715961409506,
+          "method_ae": 11.438321539147692,
+          "method_ape": 5.719160769573846
+        },
+        {
+          "held_out": "NA-ion_270040-3-3-54.pkl",
+          "baseline_ae": 41.00327433922534,
+          "baseline_ape": 31.06308662062526,
+          "method_ae": 40.534124733826935,
+          "method_ape": 30.707670252899188
+        },
+        {
+          "held_out": "NA-ion_270040-3-4-53.pkl",
+          "baseline_ae": 23.94774283372551,
+          "baseline_ape": 13.015077627024736,
+          "method_ae": 18.350767281292036,
+          "method_ape": 9.973243087658716
+        },
+        {
+          "held_out": "NA-ion_270040-3-5-52.pkl",
+          "baseline_ae": 61.20182515175431,
+          "baseline_ape": 26.494296602491055,
+          "method_ae": 31.599152263535707,
+          "method_ape": 13.679286694171296
+        },
+        {
+          "held_out": "NA-ion_270040-3-7-50.pkl",
+          "baseline_ae": 69.11920912155841,
+          "baseline_ape": 63.99926770514668,
+          "method_ae": 22.658122214198638,
+          "method_ape": 20.979742790924664
+        },
+        {
+          "held_out": "NA-ion_270040-3-8-49.pkl",
+          "baseline_ae": 76.99601270223489,
+          "baseline_ape": 30.675702271806728,
+          "method_ae": 77.12255955255637,
+          "method_ape": 30.726119343647948
+        },
+        {
+          "held_out": "NA-ion_270040-4-1-48.pkl",
+          "baseline_ae": 62.7423876361372,
+          "baseline_ape": 26.698888355803064,
+          "method_ae": 15.747460901811765,
+          "method_ape": 6.701047192260326
+        },
+        {
+          "held_out": "NA-ion_270040-4-2-47.pkl",
+          "baseline_ae": 29.56970659861898,
+          "baseline_ape": 15.086584999295397,
+          "method_ae": 24.697433864930698,
+          "method_ape": 12.600731563740148
+        },
+        {
+          "held_out": "NA-ion_270040-4-3-46.pkl",
+          "baseline_ae": 52.32637658530893,
+          "baseline_ape": 23.05126721819777,
+          "method_ae": 5.3514787369741725,
+          "method_ape": 2.3574796198124104
+        },
+        {
+          "held_out": "NA-ion_270040-4-6-43.pkl",
+          "baseline_ae": 38.40152339749465,
+          "baseline_ape": 27.04332633626384,
+          "method_ae": 13.35739813683128,
+          "method_ape": 9.40661840621921
+        },
+        {
+          "held_out": "NA-ion_270040-5-1-39.pkl",
+          "baseline_ae": 51.0594312905072,
+          "baseline_ape": 39.89018069570875,
+          "method_ae": 7.021231228725696,
+          "method_ape": 5.48533689744195
+        },
+        {
+          "held_out": "NA-ion_270040-5-2-38.pkl",
+          "baseline_ae": 53.50779984945913,
+          "baseline_ape": 44.58983320788262,
+          "method_ae": 34.67483689829998,
+          "method_ape": 28.89569741524999
+        },
+        {
+          "held_out": "NA-ion_270040-5-3-37.pkl",
+          "baseline_ae": 82.3638267575281,
+          "baseline_ape": 32.29953990491299,
+          "method_ae": 84.43649507740463,
+          "method_ape": 33.11235101074691
+        },
+        {
+          "held_out": "NA-ion_270040-5-5-35.pkl",
+          "baseline_ae": 22.405264531042935,
+          "baseline_ape": 12.447369183912738,
+          "method_ae": 27.745613256518855,
+          "method_ape": 15.414229586954916
+        },
+        {
+          "held_out": "NA-ion_270040-5-6-34.pkl",
+          "baseline_ae": 48.661033025705166,
+          "baseline_ape": 37.14582673717951,
+          "method_ae": 44.616330207818685,
+          "method_ape": 34.05826733421276
+        },
+        {
+          "held_out": "NA-ion_270040-5-7-33.pkl",
+          "baseline_ae": 23.893515272067283,
+          "baseline_ape": 13.499161170659482,
+          "method_ae": 21.954544637580593,
+          "method_ape": 12.40369753535627
+        },
+        {
+          "held_out": "NA-ion_270040-5-8-32.pkl",
+          "baseline_ae": 78.91386603787342,
+          "baseline_ape": 77.36653533124846,
+          "method_ae": 16.37817956786249,
+          "method_ape": 16.05703879202204
+        },
+        {
+          "held_out": "NA-ion_270040-6-2-30.pkl",
+          "baseline_ae": 28.030903064482082,
+          "baseline_ape": 18.201885106806543,
+          "method_ae": 28.78951728937193,
+          "method_ape": 18.694491746345417
+        },
+        {
+          "held_out": "NA-ion_270040-6-6-26.pkl",
+          "baseline_ae": 60.079001780358894,
+          "baseline_ape": 25.89612145705124,
+          "method_ae": 1.3298499102313883,
+          "method_ape": 0.5732111682031846
+        },
+        {
+          "held_out": "NA-ion_270040-6-8-24.pkl",
+          "baseline_ae": 93.5613444546753,
+          "baseline_ape": 34.78116894225847,
+          "method_ae": 56.580160338497464,
+          "method_ape": 21.033516854460036
+        },
+        {
+          "held_out": "NA-ion_270040-7-1-23.pkl",
+          "baseline_ae": 25.093041682973727,
+          "baseline_ape": 13.78738554009546,
+          "method_ae": 59.96657325799344,
+          "method_ape": 32.94866662527112
+        },
+        {
+          "held_out": "NA-ion_270040-8-5-16.pkl",
+          "baseline_ae": 31.793687049753775,
+          "baseline_ape": 21.482220979563365,
+          "method_ae": 21.023513645308814,
+          "method_ape": 14.20507678737082
+        },
+        {
+          "held_out": "NA-ion_4000-30_20250115110206_DefaultGroup_45_1.pkl",
+          "baseline_ae": 57.977193012938315,
+          "baseline_ape": 48.72033026297336,
+          "method_ae": 93.50047889165417,
+          "method_ape": 78.57183100139002
+        },
+        {
+          "held_out": "NA-ion_4500-30_20250114232539_DefaultGroup_45_8.pkl",
+          "baseline_ae": 26.60410423175499,
+          "baseline_ape": 16.222014775460362,
+          "method_ae": 21.006145633895585,
+          "method_ape": 12.8086253865217
+        },
+        {
+          "held_out": "NA-ion_5000-25_20250115110326_DefaultGroup_38_1.pkl",
+          "baseline_ae": 37.65359330867309,
+          "baseline_ape": 27.8915505990171,
+          "method_ae": 17.57641248083246,
+          "method_ape": 13.019564800616635
+        }
+      ]
+    },
+    "h10_k5": {
+      "n_cells": 34,
+      "frozen_weight": 1.0,
+      "development_candidates": [
+        {
+          "weight": 0.0,
+          "macro_mape": 23.072933236761145,
+          "macro_mae": 129.64566202543702
+        },
+        {
+          "weight": 0.125,
+          "macro_mape": 17.510737786438195,
+          "macro_mae": 95.63498646191037
+        },
+        {
+          "weight": 0.25,
+          "macro_mape": 17.234235129502974,
+          "macro_mae": 92.27180595051821
+        },
+        {
+          "weight": 0.5,
+          "macro_mape": 16.923831049303455,
+          "macro_mae": 85.52806961366458
+        },
+        {
+          "weight": 1.0,
+          "macro_mape": 16.654980571318955,
+          "macro_mae": 75.3917954091323
+        },
+        {
+          "weight": 2.0,
+          "macro_mape": 17.370472345340822,
+          "macro_mae": 77.40992225489417
+        },
+        {
+          "weight": "inf",
+          "macro_mape": 17.67861689408891,
+          "macro_mae": 77.75914309230696
+        }
+      ],
+      "protocol_only": {
+        "mae": 48.30857521214025,
+        "mape": 27.951329717830706,
+        "median_ae": 43.98711984657457,
+        "n_evaluations": 3400
+      },
+      "curve_aware": {
+        "mae": 35.34966297039534,
+        "mape": 20.347774891189037,
+        "median_ae": 24.316944527069282,
+        "n_evaluations": 3400
+      },
+      "ape_improved_same_worse": [
+        26,
+        0,
+        8
+      ],
+      "ape_wilcoxon_p": 0.002328513073734939,
+      "ae_wilcoxon_p": 0.0021831230260431767,
+      "per_cell": [
+        {
+          "held_out": "NA-ion_270040-1-2-63.pkl",
+          "baseline_ae": 17.234062897928617,
+          "baseline_ape": 9.736758699394697,
+          "method_ae": 16.97559851223761,
+          "method_ape": 9.590733622733111
+        },
+        {
+          "held_out": "NA-ion_270040-1-3-62.pkl",
+          "baseline_ae": 101.15913203993257,
+          "baseline_ape": 37.74594479101961,
+          "method_ae": 115.70262016378341,
+          "method_ape": 43.17261946409829
+        },
+        {
+          "held_out": "NA-ion_270040-1-5-60.pkl",
+          "baseline_ae": 20.33018026464516,
+          "baseline_ape": 12.321321372512216,
+          "method_ae": 47.801502179171024,
+          "method_ape": 28.970607381315766
+        },
+        {
+          "held_out": "NA-ion_270040-1-6-59.pkl",
+          "baseline_ae": 29.58259183353207,
+          "baseline_ape": 14.717707379866704,
+          "method_ae": 2.4291534455947215,
+          "method_ape": 1.2085340525346875
+        },
+        {
+          "held_out": "NA-ion_270040-1-7-58.pkl",
+          "baseline_ae": 43.28638182085619,
+          "baseline_ape": 20.22728122469916,
+          "method_ae": 46.13434108544187,
+          "method_ape": 21.558103310954163
+        },
+        {
+          "held_out": "NA-ion_270040-1-8-57.pkl",
+          "baseline_ae": 137.53680506585633,
+          "baseline_ape": 44.800262236435294,
+          "method_ae": 117.2709441713432,
+          "method_ape": 38.199004616072685
+        },
+        {
+          "held_out": "NA-ion_270040-2-2-12.pkl",
+          "baseline_ae": 24.21519095870919,
+          "baseline_ape": 15.326070227031135,
+          "method_ae": 7.807421627649178,
+          "method_ape": 4.941406093448847
+        },
+        {
+          "held_out": "NA-ion_270040-2-5-12.pkl",
+          "baseline_ae": 58.0122715110633,
+          "baseline_ape": 49.58313804364385,
+          "method_ae": 39.432096599840406,
+          "method_ape": 33.702646666530256
+        },
+        {
+          "held_out": "NA-ion_270040-3-1-56.pkl",
+          "baseline_ae": 47.35940553317527,
+          "baseline_ape": 36.99953557279318,
+          "method_ae": 15.405420740483406,
+          "method_ape": 12.035484953502662
+        },
+        {
+          "held_out": "NA-ion_270040-3-2-55.pkl",
+          "baseline_ae": 29.27100416160895,
+          "baseline_ape": 14.635502080804475,
+          "method_ae": 25.27686557957387,
+          "method_ape": 12.638432789786934
+        },
+        {
+          "held_out": "NA-ion_270040-3-3-54.pkl",
+          "baseline_ae": 44.09858861865082,
+          "baseline_ape": 33.40802168079607,
+          "method_ae": 39.876477743676894,
+          "method_ape": 30.20945283611887
+        },
+        {
+          "held_out": "NA-ion_270040-3-4-53.pkl",
+          "baseline_ae": 19.579228032197413,
+          "baseline_ape": 10.640884800107292,
+          "method_ae": 9.693208203000127,
+          "method_ape": 5.2680479364131125
+        },
+        {
+          "held_out": "NA-ion_270040-3-5-52.pkl",
+          "baseline_ae": 61.253954120178996,
+          "baseline_ape": 26.51686325548875,
+          "method_ae": 5.977914117372793,
+          "method_ape": 2.58784160925229
+        },
+        {
+          "held_out": "NA-ion_270040-3-7-50.pkl",
+          "baseline_ae": 68.17901934479792,
+          "baseline_ape": 63.128721615553644,
+          "method_ae": 42.22797047725655,
+          "method_ape": 39.09997266412644
+        },
+        {
+          "held_out": "NA-ion_270040-3-8-49.pkl",
+          "baseline_ae": 81.36516762211109,
+          "baseline_ape": 32.416401443072154,
+          "method_ae": 68.08767276551055,
+          "method_ape": 27.126562854785092
+        },
+        {
+          "held_out": "NA-ion_270040-4-1-48.pkl",
+          "baseline_ae": 63.657660252951786,
+          "baseline_ape": 27.088366065085864,
+          "method_ae": 3.9984830308880235,
+          "method_ape": 1.701482140803415
+        },
+        {
+          "held_out": "NA-ion_270040-4-2-47.pkl",
+          "baseline_ae": 25.585288523713654,
+          "baseline_ape": 13.053718634547783,
+          "method_ae": 2.0681626650174394,
+          "method_ape": 1.0551850331721635
+        },
+        {
+          "held_out": "NA-ion_270040-4-3-46.pkl",
+          "baseline_ae": 53.8100443483782,
+          "baseline_ape": 23.70486535170846,
+          "method_ae": 17.445884099077265,
+          "method_ape": 7.685411497390863
+        },
+        {
+          "held_out": "NA-ion_270040-4-6-43.pkl",
+          "baseline_ae": 33.901477262815035,
+          "baseline_ape": 23.874279762545797,
+          "method_ae": 20.072399621280002,
+          "method_ape": 14.135492691042252
+        },
+        {
+          "held_out": "NA-ion_270040-5-1-39.pkl",
+          "baseline_ae": 48.17482056942419,
+          "baseline_ape": 37.63657856986264,
+          "method_ae": 18.415896666416703,
+          "method_ape": 14.387419270638045
+        },
+        {
+          "held_out": "NA-ion_270040-5-2-38.pkl",
+          "baseline_ae": 52.77372630992848,
+          "baseline_ape": 43.978105258273736,
+          "method_ae": 44.51671075757522,
+          "method_ape": 37.09725896464603
+        },
+        {
+          "held_out": "NA-ion_270040-5-3-37.pkl",
+          "baseline_ae": 82.64972034317731,
+          "baseline_ape": 32.41165503654012,
+          "method_ae": 97.06997463424021,
+          "method_ape": 38.06665671930988
+        },
+        {
+          "held_out": "NA-ion_270040-5-5-35.pkl",
+          "baseline_ae": 18.584807658320052,
+          "baseline_ape": 10.32489314351114,
+          "method_ae": 16.747000762199914,
+          "method_ape": 9.303889312333284
+        },
+        {
+          "held_out": "NA-ion_270040-5-6-34.pkl",
+          "baseline_ae": 46.273806626438635,
+          "baseline_ape": 35.32351650873178,
+          "method_ae": 52.60148700057647,
+          "method_ape": 40.15380687066907
+        },
+        {
+          "held_out": "NA-ion_270040-5-7-33.pkl",
+          "baseline_ae": 17.000910166665882,
+          "baseline_ape": 9.605033992466598,
+          "method_ae": 11.97162762865898,
+          "method_ape": 6.763631428620893
+        },
+        {
+          "held_out": "NA-ion_270040-5-8-32.pkl",
+          "baseline_ae": 75.80345777342039,
+          "baseline_ape": 74.31711546413763,
+          "method_ae": 27.39717868391239,
+          "method_ape": 26.859979101874902
+        },
+        {
+          "held_out": "NA-ion_270040-6-2-30.pkl",
+          "baseline_ae": 23.07661687814399,
+          "baseline_ape": 14.984816154638958,
+          "method_ae": 14.063371230100984,
+          "method_ape": 9.132059240325317
+        },
+        {
+          "held_out": "NA-ion_270040-6-6-26.pkl",
+          "baseline_ae": 60.71135421966798,
+          "baseline_ape": 26.16868716364999,
+          "method_ae": 23.357023474564702,
+          "method_ape": 10.067682532139958
+        },
+        {
+          "held_out": "NA-ion_270040-6-8-24.pkl",
+          "baseline_ae": 90.65753253744886,
+          "baseline_ape": 33.70168495815942,
+          "method_ae": 61.43111298995186,
+          "method_ape": 22.83684497767726
+        },
+        {
+          "held_out": "NA-ion_270040-7-1-23.pkl",
+          "baseline_ae": 20.691559459586916,
+          "baseline_ape": 11.368988714058744,
+          "method_ae": 36.803304567143385,
+          "method_ape": 20.22159591601285
+        },
+        {
+          "held_out": "NA-ion_270040-8-5-16.pkl",
+          "baseline_ae": 25.548101067930535,
+          "baseline_ape": 17.262230451304415,
+          "method_ae": 1.2487475316175392,
+          "method_ape": 0.8437483321740128
+        },
+        {
+          "held_out": "NA-ion_4000-30_20250115110206_DefaultGroup_45_1.pkl",
+          "baseline_ae": 62.411600140370226,
+          "baseline_ape": 52.44672280703381,
+          "method_ae": 93.72920566845075,
+          "method_ape": 78.76403837684937
+        },
+        {
+          "held_out": "NA-ion_4500-30_20250114232539_DefaultGroup_45_8.pkl",
+          "baseline_ae": 19.879135704990148,
+          "baseline_ape": 12.121424210359852,
+          "method_ae": 8.819241162624254,
+          "method_ape": 5.377586074770886
+        },
+        {
+          "held_out": "NA-ion_5000-25_20250115110326_DefaultGroup_38_1.pkl",
+          "baseline_ae": 38.836953544152195,
+          "baseline_ape": 28.768113736409028,
+          "method_ae": 50.03252140720995,
+          "method_ape": 37.061126968303654
+        }
+      ]
+    },
+    "h10_k10": {
+      "n_cells": 34,
+      "frozen_weight": 0.5,
+      "development_candidates": [
+        {
+          "weight": 0.0,
+          "macro_mape": 24.07811876455587,
+          "macro_mae": 140.1764720023647
+        },
+        {
+          "weight": 0.125,
+          "macro_mape": 19.879512091508005,
+          "macro_mae": 111.81290260150887
+        },
+        {
+          "weight": 0.25,
+          "macro_mape": 19.56775800788081,
+          "macro_mae": 104.78299645391303
+        },
+        {
+          "weight": 0.5,
+          "macro_mape": 19.394618626435328,
+          "macro_mae": 102.08259081504251
+        },
+        {
+          "weight": 1.0,
+          "macro_mape": 19.538306669695945,
+          "macro_mae": 101.25167030433975
+        },
+        {
+          "weight": 2.0,
+          "macro_mape": 19.63339034917569,
+          "macro_mae": 100.70881277726646
+        },
+        {
+          "weight": "inf",
+          "macro_mape": 19.579460705571744,
+          "macro_mae": 101.1113308448602
+        }
+      ],
+      "protocol_only": {
+        "mae": 46.353537479546915,
+        "mape": 26.701551265119125,
+        "median_ae": 43.18030745710415,
+        "n_evaluations": 3400
+      },
+      "curve_aware": {
+        "mae": 34.852980913556905,
+        "mape": 20.82692830198894,
+        "median_ae": 28.04399000392918,
+        "n_evaluations": 3400
+      },
+      "ape_improved_same_worse": [
+        26,
+        0,
+        8
+      ],
+      "ape_wilcoxon_p": 0.0013714433880522847,
+      "ae_wilcoxon_p": 0.00072716164868325,
+      "per_cell": [
+        {
+          "held_out": "NA-ion_270040-1-2-63.pkl",
+          "baseline_ae": 10.045405711098143,
+          "baseline_ape": 5.67537045824754,
+          "method_ae": 0.40197296564980434,
+          "method_ape": 0.22710337042361828
+        },
+        {
+          "held_out": "NA-ion_270040-1-3-62.pkl",
+          "baseline_ae": 99.79274380774203,
+          "baseline_ape": 37.236098435724635,
+          "method_ae": 105.75828999102208,
+          "method_ape": 39.46204850411272
+        },
+        {
+          "held_out": "NA-ion_270040-1-5-60.pkl",
+          "baseline_ae": 12.904108161013548,
+          "baseline_ape": 7.8206716127354845,
+          "method_ae": 23.151129187239803,
+          "method_ape": 14.030987386205936
+        },
+        {
+          "held_out": "NA-ion_270040-1-6-59.pkl",
+          "baseline_ae": 29.83271620312387,
+          "baseline_ape": 14.842147364738244,
+          "method_ae": 8.678680141038713,
+          "method_ape": 4.317751313949607
+        },
+        {
+          "held_out": "NA-ion_270040-1-7-58.pkl",
+          "baseline_ae": 40.89338903800903,
+          "baseline_ape": 19.109060298135056,
+          "method_ae": 40.119104952845994,
+          "method_ape": 18.74724530506822
+        },
+        {
+          "held_out": "NA-ion_270040-1-8-57.pkl",
+          "baseline_ae": 137.6372077400659,
+          "baseline_ape": 44.83296669057521,
+          "method_ae": 110.15115277355763,
+          "method_ape": 35.87985432363439
+        },
+        {
+          "held_out": "NA-ion_270040-2-2-12.pkl",
+          "baseline_ae": 16.836344990702568,
+          "baseline_ape": 10.655914551077572,
+          "method_ae": 3.9783696760387968,
+          "method_ape": 2.5179554911637956
+        },
+        {
+          "held_out": "NA-ion_270040-2-5-12.pkl",
+          "baseline_ae": 59.034426479990806,
+          "baseline_ape": 50.45677476922292,
+          "method_ae": 42.74265523134267,
+          "method_ape": 36.53218395841254
+        },
+        {
+          "held_out": "NA-ion_270040-3-1-56.pkl",
+          "baseline_ae": 46.9166075049849,
+          "baseline_ape": 36.65359961326946,
+          "method_ae": 28.205142109978116,
+          "method_ape": 22.035267273420395
+        },
+        {
+          "held_out": "NA-ion_270040-3-2-55.pkl",
+          "baseline_ae": 28.31146924410386,
+          "baseline_ape": 14.15573462205193,
+          "method_ae": 17.67666878483945,
+          "method_ape": 8.838334392419725
+        },
+        {
+          "held_out": "NA-ion_270040-3-3-54.pkl",
+          "baseline_ae": 45.93984547108204,
+          "baseline_ape": 34.80291323566821,
+          "method_ae": 42.62232657919241,
+          "method_ape": 32.28964134787304
+        },
+        {
+          "held_out": "NA-ion_270040-3-4-53.pkl",
+          "baseline_ae": 15.215350724113396,
+          "baseline_ape": 8.269212350061629,
+          "method_ae": 0.26122628509492074,
+          "method_ape": 0.14197080711680468
+        },
+        {
+          "held_out": "NA-ion_270040-3-5-52.pkl",
+          "baseline_ae": 60.02115990445775,
+          "baseline_ape": 25.98318610582586,
+          "method_ae": 27.882837897880243,
+          "method_ape": 12.070492596484954
+        },
+        {
+          "held_out": "NA-ion_270040-3-7-50.pkl",
+          "baseline_ae": 65.86467864686607,
+          "baseline_ape": 60.98581356191303,
+          "method_ae": 48.82497569363526,
+          "method_ape": 45.20831082744005
+        },
+        {
+          "held_out": "NA-ion_270040-3-8-49.pkl",
+          "baseline_ae": 79.80762914286676,
+          "baseline_ape": 31.795868184409073,
+          "method_ae": 53.80054315337196,
+          "method_ape": 21.434479343972885
+        },
+        {
+          "held_out": "NA-ion_270040-4-1-48.pkl",
+          "baseline_ae": 62.11552259518923,
+          "baseline_ape": 26.432137274548612,
+          "method_ae": 12.76096553003009,
+          "method_ape": 5.430198097885146
+        },
+        {
+          "held_out": "NA-ion_270040-4-2-47.pkl",
+          "baseline_ae": 23.600341715114443,
+          "baseline_ape": 12.04099067097676,
+          "method_ae": 9.625480948113763,
+          "method_ape": 4.910959667404981
+        },
+        {
+          "held_out": "NA-ion_270040-4-3-46.pkl",
+          "baseline_ae": 55.22471920764162,
+          "baseline_ape": 24.32807013552494,
+          "method_ae": 18.50081363638441,
+          "method_ape": 8.150138165808107
+        },
+        {
+          "held_out": "NA-ion_270040-4-6-43.pkl",
+          "baseline_ae": 31.739714024354786,
+          "baseline_ape": 22.351911284756895,
+          "method_ae": 32.32849358143687,
+          "method_ape": 22.76654477565978
+        },
+        {
+          "held_out": "NA-ion_270040-5-1-39.pkl",
+          "baseline_ae": 48.05222580078681,
+          "baseline_ape": 37.540801406864695,
+          "method_ae": 21.965264715661114,
+          "method_ape": 17.160363059110242
+        },
+        {
+          "held_out": "NA-ion_270040-5-2-38.pkl",
+          "baseline_ae": 54.62436837078429,
+          "baseline_ape": 45.520306975653575,
+          "method_ae": 46.34202228117929,
+          "method_ape": 38.618351900982724
+        },
+        {
+          "held_out": "NA-ion_270040-5-3-37.pkl",
+          "baseline_ae": 82.514794809854,
+          "baseline_ape": 32.35874306268784,
+          "method_ae": 72.48382946279689,
+          "method_ape": 28.42503116188113
+        },
+        {
+          "held_out": "NA-ion_270040-5-5-35.pkl",
+          "baseline_ae": 13.000723642602145,
+          "baseline_ape": 7.222624245890081,
+          "method_ae": 4.858472288960343,
+          "method_ape": 2.699151271644634
+        },
+        {
+          "held_out": "NA-ion_270040-5-6-34.pkl",
+          "baseline_ae": 43.027485355673704,
+          "baseline_ape": 32.84540866845321,
+          "method_ae": 53.38977363398755,
+          "method_ape": 40.7555523923569
+        },
+        {
+          "held_out": "NA-ion_270040-5-7-33.pkl",
+          "baseline_ae": 10.551428961079516,
+          "baseline_ape": 5.961259300044926,
+          "method_ae": 3.188055291993605,
+          "method_ape": 1.8011611819172912
+        },
+        {
+          "held_out": "NA-ion_270040-5-8-32.pkl",
+          "baseline_ae": 73.07412790472468,
+          "baseline_ape": 71.64130186737712,
+          "method_ae": 50.08401361096663,
+          "method_ape": 49.10197412839869
+        },
+        {
+          "held_out": "NA-ion_270040-6-2-30.pkl",
+          "baseline_ae": 19.337264565487352,
+          "baseline_ape": 12.556665302264513,
+          "method_ae": 7.659844711902051,
+          "method_ape": 4.973925137598735
+        },
+        {
+          "held_out": "NA-ion_270040-6-6-26.pkl",
+          "baseline_ae": 61.609080083795696,
+          "baseline_ape": 26.555637967153316,
+          "method_ae": 32.63329956835589,
+          "method_ape": 14.066077400153397
+        },
+        {
+          "held_out": "NA-ion_270040-6-8-24.pkl",
+          "baseline_ae": 99.2863533053009,
+          "baseline_ape": 36.90942502055796,
+          "method_ae": 60.89078200049446,
+          "method_ape": 22.63597843884552
+        },
+        {
+          "held_out": "NA-ion_270040-7-1-23.pkl",
+          "baseline_ae": 12.158274325636176,
+          "baseline_ape": 6.680370508591303,
+          "method_ae": 17.36409901229752,
+          "method_ape": 9.540713743020616
+        },
+        {
+          "held_out": "NA-ion_270040-8-5-16.pkl",
+          "baseline_ae": 27.248896161824458,
+          "baseline_ape": 18.41141632555706,
+          "method_ae": 5.32065745833313,
+          "method_ape": 3.595038823198061
+        },
+        {
+          "held_out": "NA-ion_4000-30_20250115110206_DefaultGroup_45_1.pkl",
+          "baseline_ae": 55.88800967256097,
+          "baseline_ape": 46.96471401055545,
+          "method_ae": 88.1778756081619,
+          "method_ape": 74.09905513290913
+        },
+        {
+          "held_out": "NA-ion_4500-30_20250114232539_DefaultGroup_45_8.pkl",
+          "baseline_ae": 12.830253862413231,
+          "baseline_ape": 7.823325525861726,
+          "method_ae": 25.68979814461315,
+          "method_ape": 15.664511063788504
+        },
+        {
+          "held_out": "NA-ion_5000-25_20250115110326_DefaultGroup_38_1.pkl",
+          "baseline_ae": 41.0836071695505,
+          "baseline_ape": 30.432301607074443,
+          "method_ae": 67.48273415253846,
+          "method_ape": 49.98721048336179
+        }
+      ]
+    },
+    "h20_k1": {
+      "n_cells": 34,
+      "frozen_weight": 0.125,
+      "development_candidates": [
+        {
+          "weight": 0.0,
+          "macro_mape": 22.904716316762443,
+          "macro_mae": 101.3785249118166
+        },
+        {
+          "weight": 0.125,
+          "macro_mape": 20.08858980287715,
+          "macro_mae": 100.83664869081537
+        },
+        {
+          "weight": 0.25,
+          "macro_mape": 20.281604857670626,
+          "macro_mae": 102.08629256545925
+        },
+        {
+          "weight": 0.5,
+          "macro_mape": 20.752339625446606,
+          "macro_mae": 99.67090795007461
+        },
+        {
+          "weight": 1.0,
+          "macro_mape": 22.087148617029968,
+          "macro_mae": 101.96257461674128
+        },
+        {
+          "weight": 2.0,
+          "macro_mape": 21.95078140968546,
+          "macro_mae": 100.65167718084383
+        },
+        {
+          "weight": "inf",
+          "macro_mape": 22.171563735510727,
+          "macro_mae": 101.8253951295618
+        }
+      ],
+      "protocol_only": {
+        "mae": 61.56470588235293,
+        "mape": 36.336044920960006,
+        "median_ae": 51.99999999999994,
+        "n_evaluations": 3400
+      },
+      "curve_aware": {
+        "mae": 40.05882352941178,
+        "mape": 22.967605398666215,
+        "median_ae": 30.999999999999957,
+        "n_evaluations": 3400
+      },
+      "ape_improved_same_worse": [
+        28,
+        0,
+        6
+      ],
+      "ape_wilcoxon_p": 7.422419730573893e-05,
+      "ae_wilcoxon_p": 0.0001264970051124692,
+      "per_cell": [
+        {
+          "held_out": "NA-ion_270040-1-2-63.pkl",
+          "baseline_ae": 45.29999999999999,
+          "baseline_ape": 25.593220338983052,
+          "method_ae": 54.99999999999999,
+          "method_ape": 31.0734463276836
+        },
+        {
+          "held_out": "NA-ion_270040-1-3-62.pkl",
+          "baseline_ae": 97.26,
+          "baseline_ape": 36.291044776119406,
+          "method_ae": 72.0000000000001,
+          "method_ape": 26.865671641791067
+        },
+        {
+          "held_out": "NA-ion_270040-1-5-60.pkl",
+          "baseline_ae": 50.21999999999997,
+          "baseline_ape": 30.436363636363616,
+          "method_ae": 48.99999999999994,
+          "method_ape": 29.696969696969663
+        },
+        {
+          "held_out": "NA-ion_270040-1-6-59.pkl",
+          "baseline_ae": 53.32999999999999,
+          "baseline_ape": 26.532338308457703,
+          "method_ae": 26.000000000000053,
+          "method_ape": 12.935323383084603
+        },
+        {
+          "held_out": "NA-ion_270040-1-7-58.pkl",
+          "baseline_ae": 56.35,
+          "baseline_ape": 26.331775700934582,
+          "method_ae": 49.00000000000006,
+          "method_ape": 22.897196261682275
+        },
+        {
+          "held_out": "NA-ion_270040-1-8-57.pkl",
+          "baseline_ae": 141.57,
+          "baseline_ape": 46.11400651465799,
+          "method_ae": 75.00000000000001,
+          "method_ape": 24.4299674267101
+        },
+        {
+          "held_out": "NA-ion_270040-2-2-12.pkl",
+          "baseline_ae": 50.539999999999985,
+          "baseline_ape": 31.98734177215188,
+          "method_ae": 6.000000000000054,
+          "method_ape": 3.7974683544304146
+        },
+        {
+          "held_out": "NA-ion_270040-2-5-12.pkl",
+          "baseline_ae": 59.68999999999998,
+          "baseline_ape": 51.01709401709399,
+          "method_ae": 30.999999999999947,
+          "method_ape": 26.495726495726455
+        },
+        {
+          "held_out": "NA-ion_270040-3-1-56.pkl",
+          "baseline_ae": 60.969999999999985,
+          "baseline_ape": 47.63281249999998,
+          "method_ae": 14.000000000000027,
+          "method_ape": 10.937500000000023
+        },
+        {
+          "held_out": "NA-ion_270040-3-2-55.pkl",
+          "baseline_ae": 43.62,
+          "baseline_ape": 21.81,
+          "method_ae": 23.000000000000053,
+          "method_ape": 11.500000000000025
+        },
+        {
+          "held_out": "NA-ion_270040-3-3-54.pkl",
+          "baseline_ae": 56.55999999999998,
+          "baseline_ape": 42.84848484848483,
+          "method_ae": 48.0,
+          "method_ape": 36.363636363636374
+        },
+        {
+          "held_out": "NA-ion_270040-3-4-53.pkl",
+          "baseline_ae": 45.9,
+          "baseline_ape": 24.945652173913047,
+          "method_ae": 7.000000000000054,
+          "method_ape": 3.8043478260869885
+        },
+        {
+          "held_out": "NA-ion_270040-3-5-52.pkl",
+          "baseline_ae": 63.06,
+          "baseline_ape": 27.298701298701292,
+          "method_ae": 4.0,
+          "method_ape": 1.7316017316017314
+        },
+        {
+          "held_out": "NA-ion_270040-3-7-50.pkl",
+          "baseline_ae": 76.88999999999999,
+          "baseline_ape": 71.19444444444443,
+          "method_ae": 46.00000000000006,
+          "method_ape": 42.592592592592666
+        },
+        {
+          "held_out": "NA-ion_270040-3-8-49.pkl",
+          "baseline_ae": 68.84,
+          "baseline_ape": 27.42629482071714,
+          "method_ae": 86.00000000000004,
+          "method_ape": 34.262948207171334
+        },
+        {
+          "held_out": "NA-ion_270040-4-1-48.pkl",
+          "baseline_ae": 67.63,
+          "baseline_ape": 28.778723404255317,
+          "method_ae": 4.000000000000057,
+          "method_ape": 1.7021276595744927
+        },
+        {
+          "held_out": "NA-ion_270040-4-2-47.pkl",
+          "baseline_ae": 48.72999999999998,
+          "baseline_ape": 24.862244897959176,
+          "method_ae": 19.000000000000053,
+          "method_ape": 9.693877551020439
+        },
+        {
+          "held_out": "NA-ion_270040-4-3-46.pkl",
+          "baseline_ae": 63.09,
+          "baseline_ape": 27.792951541850215,
+          "method_ae": 26.0,
+          "method_ape": 11.45374449339207
+        },
+        {
+          "held_out": "NA-ion_270040-4-6-43.pkl",
+          "baseline_ae": 51.41999999999999,
+          "baseline_ape": 36.211267605633786,
+          "method_ae": 12.000000000000055,
+          "method_ape": 8.450704225352155
+        },
+        {
+          "held_out": "NA-ion_270040-5-1-39.pkl",
+          "baseline_ae": 50.80999999999998,
+          "baseline_ape": 39.69531249999999,
+          "method_ae": 36.00000000000006,
+          "method_ape": 28.12500000000005
+        },
+        {
+          "held_out": "NA-ion_270040-5-2-38.pkl",
+          "baseline_ae": 68.28999999999998,
+          "baseline_ape": 56.908333333333324,
+          "method_ae": 11.999999999999973,
+          "method_ape": 9.999999999999977
+        },
+        {
+          "held_out": "NA-ion_270040-5-3-37.pkl",
+          "baseline_ae": 77.04,
+          "baseline_ape": 30.21176470588236,
+          "method_ae": 78.00000000000004,
+          "method_ape": 30.58823529411767
+        },
+        {
+          "held_out": "NA-ion_270040-5-5-35.pkl",
+          "baseline_ae": 48.21,
+          "baseline_ape": 26.78333333333332,
+          "method_ae": 48.00000000000002,
+          "method_ape": 26.666666666666675
+        },
+        {
+          "held_out": "NA-ion_270040-5-6-34.pkl",
+          "baseline_ae": 54.81999999999998,
+          "baseline_ape": 41.847328244274784,
+          "method_ae": 11.000000000000027,
+          "method_ape": 8.39694656488552
+        },
+        {
+          "held_out": "NA-ion_270040-5-7-33.pkl",
+          "baseline_ae": 42.57,
+          "baseline_ape": 24.050847457627118,
+          "method_ae": 22.99999999999992,
+          "method_ape": 12.99435028248583
+        },
+        {
+          "held_out": "NA-ion_270040-5-8-32.pkl",
+          "baseline_ae": 90.93999999999997,
+          "baseline_ape": 89.15686274509801,
+          "method_ae": 6.0000000000000275,
+          "method_ape": 5.882352941176497
+        },
+        {
+          "held_out": "NA-ion_270040-6-2-30.pkl",
+          "baseline_ae": 51.05999999999998,
+          "baseline_ape": 33.155844155844136,
+          "method_ae": 11.999999999999973,
+          "method_ape": 7.792207792207777
+        },
+        {
+          "held_out": "NA-ion_270040-6-6-26.pkl",
+          "baseline_ae": 60.79,
+          "baseline_ape": 26.202586206896548,
+          "method_ae": 55.00000000000006,
+          "method_ape": 23.706896551724164
+        },
+        {
+          "held_out": "NA-ion_270040-6-8-24.pkl",
+          "baseline_ae": 94.34000000000003,
+          "baseline_ape": 35.07063197026022,
+          "method_ae": 87.00000000000001,
+          "method_ape": 32.34200743494426
+        },
+        {
+          "held_out": "NA-ion_270040-7-1-23.pkl",
+          "baseline_ae": 44.77999999999998,
+          "baseline_ape": 24.604395604395595,
+          "method_ae": 87.0,
+          "method_ape": 47.80219780219781
+        },
+        {
+          "held_out": "NA-ion_270040-8-5-16.pkl",
+          "baseline_ae": 46.30999999999998,
+          "baseline_ape": 31.29054054054053,
+          "method_ae": 30.999999999999982,
+          "method_ape": 20.945945945945926
+        },
+        {
+          "held_out": "NA-ion_4000-30_20250115110206_DefaultGroup_45_1.pkl",
+          "baseline_ae": 68.15999999999998,
+          "baseline_ape": 57.27731092436974,
+          "method_ae": 150.0,
+          "method_ape": 126.0504201680672
+        },
+        {
+          "held_out": "NA-ion_4500-30_20250114232539_DefaultGroup_45_8.pkl",
+          "baseline_ae": 43.09999999999998,
+          "baseline_ape": 26.28048780487803,
+          "method_ae": 44.99999999999998,
+          "method_ape": 27.439024390243897
+        },
+        {
+          "held_out": "NA-ion_5000-25_20250115110326_DefaultGroup_38_1.pkl",
+          "baseline_ae": 51.009999999999984,
+          "baseline_ape": 37.78518518518517,
+          "method_ae": 29.000000000000053,
+          "method_ape": 21.481481481481534
+        }
+      ]
+    },
+    "h20_k3": {
+      "n_cells": 34,
+      "frozen_weight": 0.125,
+      "development_candidates": [
+        {
+          "weight": 0.0,
+          "macro_mape": 20.72271525180649,
+          "macro_mae": 103.49197576726225
+        },
+        {
+          "weight": 0.125,
+          "macro_mape": 16.085822208286817,
+          "macro_mae": 97.94047038592014
+        },
+        {
+          "weight": 0.25,
+          "macro_mape": 16.128742928487302,
+          "macro_mae": 93.69987324338155
+        },
+        {
+          "weight": 0.5,
+          "macro_mape": 16.674325706069368,
+          "macro_mae": 84.6752322570701
+        },
+        {
+          "weight": 1.0,
+          "macro_mape": 16.795806310977344,
+          "macro_mae": 85.24273789301125
+        },
+        {
+          "weight": 2.0,
+          "macro_mape": 16.23048221244067,
+          "macro_mae": 83.14078184986725
+        },
+        {
+          "weight": "inf",
+          "macro_mape": 16.95477820198907,
+          "macro_mae": 84.73153993590404
+        }
+      ],
+      "protocol_only": {
+        "mae": 49.74929589413187,
+        "mape": 28.933620664997964,
+        "median_ae": 43.526175091186815,
+        "n_evaluations": 3400
+      },
+      "curve_aware": {
+        "mae": 31.05144471692108,
+        "mape": 17.742059797296562,
+        "median_ae": 23.02060795037523,
+        "n_evaluations": 3400
+      },
+      "ape_improved_same_worse": [
+        24,
+        0,
+        10
+      ],
+      "ape_wilcoxon_p": 0.0003984919749200344,
+      "ae_wilcoxon_p": 0.0002683886559680104,
+      "per_cell": [
+        {
+          "held_out": "NA-ion_270040-1-2-63.pkl",
+          "baseline_ae": 23.656266201684517,
+          "baseline_ape": 13.36512214784436,
+          "method_ae": 25.89133287939079,
+          "method_ape": 14.627871683271643
+        },
+        {
+          "held_out": "NA-ion_270040-1-3-62.pkl",
+          "baseline_ae": 95.76445326115956,
+          "baseline_ape": 35.73300494819386,
+          "method_ae": 97.84715015846388,
+          "method_ape": 36.51013065614324
+        },
+        {
+          "held_out": "NA-ion_270040-1-5-60.pkl",
+          "baseline_ae": 22.71287648232792,
+          "baseline_ape": 13.765379686259342,
+          "method_ae": 22.13652607327822,
+          "method_ape": 13.416076408047411
+        },
+        {
+          "held_out": "NA-ion_270040-1-6-59.pkl",
+          "baseline_ae": 32.028901349194804,
+          "baseline_ape": 15.93477679064418,
+          "method_ae": 30.05347237592803,
+          "method_ape": 14.951976306431861
+        },
+        {
+          "held_out": "NA-ion_270040-1-7-58.pkl",
+          "baseline_ae": 37.923577037394345,
+          "baseline_ape": 17.721297681025394,
+          "method_ae": 10.599801022926277,
+          "method_ape": 4.953178048096389
+        },
+        {
+          "held_out": "NA-ion_270040-1-8-57.pkl",
+          "baseline_ae": 134.83113814065268,
+          "baseline_ape": 43.91893750509859,
+          "method_ae": 103.77107692585903,
+          "method_ape": 33.80165372177818
+        },
+        {
+          "held_out": "NA-ion_270040-2-2-12.pkl",
+          "baseline_ae": 29.388234277098523,
+          "baseline_ape": 18.600148276644635,
+          "method_ae": 19.884784310660333,
+          "method_ape": 12.585306525734396
+        },
+        {
+          "held_out": "NA-ion_270040-2-5-12.pkl",
+          "baseline_ae": 58.555807232853255,
+          "baseline_ape": 50.047698489618185,
+          "method_ae": 60.92143989397654,
+          "method_ape": 52.06960674698851
+        },
+        {
+          "held_out": "NA-ion_270040-3-1-56.pkl",
+          "baseline_ae": 47.83482347407634,
+          "baseline_ape": 37.370955839122146,
+          "method_ae": 5.454383225257234,
+          "method_ape": 4.261236894732214
+        },
+        {
+          "held_out": "NA-ion_270040-3-2-55.pkl",
+          "baseline_ae": 31.87431922819012,
+          "baseline_ape": 15.93715961409506,
+          "method_ae": 37.39957607804692,
+          "method_ape": 18.69978803902346
+        },
+        {
+          "held_out": "NA-ion_270040-3-3-54.pkl",
+          "baseline_ae": 41.00327433922534,
+          "baseline_ape": 31.06308662062526,
+          "method_ae": 30.86505699569432,
+          "method_ape": 23.382618936132058
+        },
+        {
+          "held_out": "NA-ion_270040-3-4-53.pkl",
+          "baseline_ae": 23.94774283372551,
+          "baseline_ape": 13.015077627024736,
+          "method_ae": 24.216183025101973,
+          "method_ape": 13.160969035381497
+        },
+        {
+          "held_out": "NA-ion_270040-3-5-52.pkl",
+          "baseline_ae": 61.20182515175431,
+          "baseline_ape": 26.494296602491055,
+          "method_ae": 4.916984591047508,
+          "method_ape": 2.1285647580292246
+        },
+        {
+          "held_out": "NA-ion_270040-3-7-50.pkl",
+          "baseline_ae": 69.11920912155841,
+          "baseline_ape": 63.99926770514668,
+          "method_ae": 18.214801153622158,
+          "method_ape": 16.865556623724217
+        },
+        {
+          "held_out": "NA-ion_270040-3-8-49.pkl",
+          "baseline_ae": 76.99601270223489,
+          "baseline_ape": 30.675702271806728,
+          "method_ae": 49.413288227836475,
+          "method_ape": 19.686569015074305
+        },
+        {
+          "held_out": "NA-ion_270040-4-1-48.pkl",
+          "baseline_ae": 62.7423876361372,
+          "baseline_ape": 26.698888355803064,
+          "method_ae": 10.536765924392684,
+          "method_ape": 4.483730180592632
+        },
+        {
+          "held_out": "NA-ion_270040-4-2-47.pkl",
+          "baseline_ae": 29.56970659861898,
+          "baseline_ape": 15.086584999295397,
+          "method_ae": 15.696016211155092,
+          "method_ape": 8.008171536303621
+        },
+        {
+          "held_out": "NA-ion_270040-4-3-46.pkl",
+          "baseline_ae": 52.32637658530893,
+          "baseline_ape": 23.05126721819777,
+          "method_ae": 12.70769556775488,
+          "method_ape": 5.598103774341355
+        },
+        {
+          "held_out": "NA-ion_270040-4-6-43.pkl",
+          "baseline_ae": 38.40152339749465,
+          "baseline_ape": 27.04332633626384,
+          "method_ae": 9.670570013188126,
+          "method_ape": 6.810260572667696
+        },
+        {
+          "held_out": "NA-ion_270040-5-1-39.pkl",
+          "baseline_ae": 51.0594312905072,
+          "baseline_ape": 39.89018069570875,
+          "method_ae": 10.115215689339665,
+          "method_ape": 7.902512257296612
+        },
+        {
+          "held_out": "NA-ion_270040-5-2-38.pkl",
+          "baseline_ae": 53.50779984945913,
+          "baseline_ape": 44.58983320788262,
+          "method_ae": 21.832706509494873,
+          "method_ape": 18.19392209124572
+        },
+        {
+          "held_out": "NA-ion_270040-5-3-37.pkl",
+          "baseline_ae": 82.3638267575281,
+          "baseline_ape": 32.29953990491299,
+          "method_ae": 63.98464164142445,
+          "method_ape": 25.092016329970352
+        },
+        {
+          "held_out": "NA-ion_270040-5-5-35.pkl",
+          "baseline_ae": 22.405264531042935,
+          "baseline_ape": 12.447369183912738,
+          "method_ae": 12.853943744699508,
+          "method_ape": 7.141079858166395
+        },
+        {
+          "held_out": "NA-ion_270040-5-6-34.pkl",
+          "baseline_ae": 48.661033025705166,
+          "baseline_ape": 37.14582673717951,
+          "method_ae": 10.799890056100084,
+          "method_ape": 8.244190882519145
+        },
+        {
+          "held_out": "NA-ion_270040-5-7-33.pkl",
+          "baseline_ae": 23.893515272067283,
+          "baseline_ape": 13.499161170659482,
+          "method_ae": 33.925619358293424,
+          "method_ape": 19.167016586606458
+        },
+        {
+          "held_out": "NA-ion_270040-5-8-32.pkl",
+          "baseline_ae": 78.91386603787342,
+          "baseline_ape": 77.36653533124846,
+          "method_ae": 23.90468982747224,
+          "method_ape": 23.43597041909044
+        },
+        {
+          "held_out": "NA-ion_270040-6-2-30.pkl",
+          "baseline_ae": 28.030903064482082,
+          "baseline_ape": 18.201885106806543,
+          "method_ae": 37.91642962292943,
+          "method_ape": 24.621058196707423
+        },
+        {
+          "held_out": "NA-ion_270040-6-6-26.pkl",
+          "baseline_ae": 60.079001780358894,
+          "baseline_ape": 25.89612145705124,
+          "method_ae": 0.4027203159862722,
+          "method_ape": 0.17358634309753118
+        },
+        {
+          "held_out": "NA-ion_270040-6-8-24.pkl",
+          "baseline_ae": 93.5613444546753,
+          "baseline_ape": 34.78116894225847,
+          "method_ae": 56.8858008177106,
+          "method_ape": 21.147137850450044
+        },
+        {
+          "held_out": "NA-ion_270040-7-1-23.pkl",
+          "baseline_ae": 25.093041682973727,
+          "baseline_ape": 13.78738554009546,
+          "method_ae": 48.28697637751386,
+          "method_ape": 26.531305701930687
+        },
+        {
+          "held_out": "NA-ion_270040-8-5-16.pkl",
+          "baseline_ae": 31.793687049753775,
+          "baseline_ape": 21.482220979563365,
+          "method_ae": 11.227649991640956,
+          "method_ape": 7.586249994352
+        },
+        {
+          "held_out": "NA-ion_4000-30_20250115110206_DefaultGroup_45_1.pkl",
+          "baseline_ae": 57.977193012938315,
+          "baseline_ape": 48.72033026297336,
+          "method_ae": 93.50047889165417,
+          "method_ape": 78.57183100139002
+        },
+        {
+          "held_out": "NA-ion_4500-30_20250114232539_DefaultGroup_45_8.pkl",
+          "baseline_ae": 26.60410423175499,
+          "baseline_ape": 16.222014775460362,
+          "method_ae": 1.116283521093976,
+          "method_ape": 0.6806606835938878
+        },
+        {
+          "held_out": "NA-ion_5000-25_20250115110326_DefaultGroup_38_1.pkl",
+          "baseline_ae": 37.65359330867309,
+          "baseline_ape": 27.8915505990171,
+          "method_ae": 38.79916935638286,
+          "method_ape": 28.74012544917248
+        }
+      ]
+    },
+    "h20_k5": {
+      "n_cells": 34,
+      "frozen_weight": "inf",
+      "development_candidates": [
+        {
+          "weight": 0.0,
+          "macro_mape": 23.039075065156936,
+          "macro_mae": 129.38752280718515
+        },
+        {
+          "weight": 0.125,
+          "macro_mape": 18.2941238062121,
+          "macro_mae": 109.308177983615
+        },
+        {
+          "weight": 0.25,
+          "macro_mape": 17.902790344021607,
+          "macro_mae": 103.06664458141451
+        },
+        {
+          "weight": 0.5,
+          "macro_mape": 17.15206096917017,
+          "macro_mae": 100.63576061052827
+        },
+        {
+          "weight": 1.0,
+          "macro_mape": 17.186059681239918,
+          "macro_mae": 101.9955066465733
+        },
+        {
+          "weight": 2.0,
+          "macro_mape": 17.46621288311223,
+          "macro_mae": 103.4621587452749
+        },
+        {
+          "weight": "inf",
+          "macro_mape": 17.010652990873457,
+          "macro_mae": 93.2065765929252
+        }
+      ],
+      "protocol_only": {
+        "mae": 48.30857521214025,
+        "mape": 27.951329717830706,
+        "median_ae": 43.98711984657457,
+        "n_evaluations": 3400
+      },
+      "curve_aware": {
+        "mae": 31.05151764828165,
+        "mape": 18.21553168187496,
+        "median_ae": 23.78727990643469,
+        "n_evaluations": 3400
+      },
+      "ape_improved_same_worse": [
+        28,
+        0,
+        6
+      ],
+      "ape_wilcoxon_p": 7.422419730573893e-05,
+      "ae_wilcoxon_p": 5.123112350702286e-05,
+      "per_cell": [
+        {
+          "held_out": "NA-ion_270040-1-2-63.pkl",
+          "baseline_ae": 17.234062897928617,
+          "baseline_ape": 9.736758699394697,
+          "method_ae": 8.828403107314584,
+          "method_ape": 4.987798365714455
+        },
+        {
+          "held_out": "NA-ion_270040-1-3-62.pkl",
+          "baseline_ae": 101.15913203993257,
+          "baseline_ape": 37.74594479101961,
+          "method_ae": 98.57743786191766,
+          "method_ape": 36.78262606787974
+        },
+        {
+          "held_out": "NA-ion_270040-1-5-60.pkl",
+          "baseline_ae": 20.33018026464516,
+          "baseline_ape": 12.321321372512216,
+          "method_ae": 31.2567196234893,
+          "method_ape": 18.943466438478357
+        },
+        {
+          "held_out": "NA-ion_270040-1-6-59.pkl",
+          "baseline_ae": 29.58259183353207,
+          "baseline_ape": 14.717707379866704,
+          "method_ae": 18.978176573719193,
+          "method_ape": 9.441878892397613
+        },
+        {
+          "held_out": "NA-ion_270040-1-7-58.pkl",
+          "baseline_ae": 43.28638182085619,
+          "baseline_ape": 20.22728122469916,
+          "method_ae": 7.68052613813964,
+          "method_ape": 3.5890309056727308
+        },
+        {
+          "held_out": "NA-ion_270040-1-8-57.pkl",
+          "baseline_ae": 137.53680506585633,
+          "baseline_ape": 44.800262236435294,
+          "method_ae": 93.83353810689665,
+          "method_ape": 30.56467039312594
+        },
+        {
+          "held_out": "NA-ion_270040-2-2-12.pkl",
+          "baseline_ae": 24.21519095870919,
+          "baseline_ape": 15.326070227031135,
+          "method_ae": 7.807421627649178,
+          "method_ape": 4.941406093448847
+        },
+        {
+          "held_out": "NA-ion_270040-2-5-12.pkl",
+          "baseline_ae": 58.0122715110633,
+          "baseline_ape": 49.58313804364385,
+          "method_ae": 39.432096599840534,
+          "method_ape": 33.70264666653037
+        },
+        {
+          "held_out": "NA-ion_270040-3-1-56.pkl",
+          "baseline_ae": 47.35940553317527,
+          "baseline_ape": 36.99953557279318,
+          "method_ae": 17.397926347114716,
+          "method_ape": 13.592129958683381
+        },
+        {
+          "held_out": "NA-ion_270040-3-2-55.pkl",
+          "baseline_ae": 29.27100416160895,
+          "baseline_ape": 14.635502080804475,
+          "method_ae": 30.846131282596108,
+          "method_ape": 15.423065641298056
+        },
+        {
+          "held_out": "NA-ion_270040-3-3-54.pkl",
+          "baseline_ae": 44.09858861865082,
+          "baseline_ape": 33.40802168079607,
+          "method_ae": 34.030620690907526,
+          "method_ape": 25.780773250687513
+        },
+        {
+          "held_out": "NA-ion_270040-3-4-53.pkl",
+          "baseline_ae": 19.579228032197413,
+          "baseline_ape": 10.640884800107292,
+          "method_ae": 7.120040777395757,
+          "method_ape": 3.869587379019435
+        },
+        {
+          "held_out": "NA-ion_270040-3-5-52.pkl",
+          "baseline_ae": 61.253954120178996,
+          "baseline_ape": 26.51686325548875,
+          "method_ae": 8.25517488525918,
+          "method_ape": 3.5736687814974806
+        },
+        {
+          "held_out": "NA-ion_270040-3-7-50.pkl",
+          "baseline_ae": 68.17901934479792,
+          "baseline_ape": 63.128721615553644,
+          "method_ae": 19.926374089334796,
+          "method_ape": 18.450346379013702
+        },
+        {
+          "held_out": "NA-ion_270040-3-8-49.pkl",
+          "baseline_ae": 81.36516762211109,
+          "baseline_ape": 32.416401443072154,
+          "method_ae": 48.03842982505294,
+          "method_ape": 19.13881666336769
+        },
+        {
+          "held_out": "NA-ion_270040-4-1-48.pkl",
+          "baseline_ae": 63.657660252951786,
+          "baseline_ape": 27.088366065085864,
+          "method_ae": 8.540836907712988,
+          "method_ape": 3.6343986841331866
+        },
+        {
+          "held_out": "NA-ion_270040-4-2-47.pkl",
+          "baseline_ae": 25.585288523713654,
+          "baseline_ape": 13.053718634547783,
+          "method_ae": 9.03865111011592,
+          "method_ape": 4.611556688834653
+        },
+        {
+          "held_out": "NA-ion_270040-4-3-46.pkl",
+          "baseline_ae": 53.8100443483782,
+          "baseline_ape": 23.70486535170846,
+          "method_ae": 6.953322461245734,
+          "method_ape": 3.0631376481258727
+        },
+        {
+          "held_out": "NA-ion_270040-4-6-43.pkl",
+          "baseline_ae": 33.901477262815035,
+          "baseline_ape": 23.874279762545797,
+          "method_ae": 4.171087747699148,
+          "method_ape": 2.9373857378163013
+        },
+        {
+          "held_out": "NA-ion_270040-5-1-39.pkl",
+          "baseline_ae": 48.17482056942419,
+          "baseline_ape": 37.63657856986264,
+          "method_ae": 44.50514632690351,
+          "method_ape": 34.76964556789335
+        },
+        {
+          "held_out": "NA-ion_270040-5-2-38.pkl",
+          "baseline_ae": 52.77372630992848,
+          "baseline_ape": 43.978105258273736,
+          "method_ae": 36.70537745263491,
+          "method_ape": 30.58781454386241
+        },
+        {
+          "held_out": "NA-ion_270040-5-3-37.pkl",
+          "baseline_ae": 82.64972034317731,
+          "baseline_ape": 32.41165503654012,
+          "method_ae": 67.78365577422616,
+          "method_ape": 26.581825793814172
+        },
+        {
+          "held_out": "NA-ion_270040-5-5-35.pkl",
+          "baseline_ae": 18.584807658320052,
+          "baseline_ape": 10.32489314351114,
+          "method_ae": 21.778051120171796,
+          "method_ape": 12.098917288984323
+        },
+        {
+          "held_out": "NA-ion_270040-5-6-34.pkl",
+          "baseline_ae": 46.273806626438635,
+          "baseline_ape": 35.32351650873178,
+          "method_ae": 43.33989342730359,
+          "method_ape": 33.08388811244549
+        },
+        {
+          "held_out": "NA-ion_270040-5-7-33.pkl",
+          "baseline_ae": 17.000910166665882,
+          "baseline_ape": 9.605033992466598,
+          "method_ae": 12.253360714100582,
+          "method_ape": 6.922802663333659
+        },
+        {
+          "held_out": "NA-ion_270040-5-8-32.pkl",
+          "baseline_ae": 75.80345777342039,
+          "baseline_ape": 74.31711546413763,
+          "method_ae": 28.195987392493297,
+          "method_ape": 27.643124894601275
+        },
+        {
+          "held_out": "NA-ion_270040-6-2-30.pkl",
+          "baseline_ae": 23.07661687814399,
+          "baseline_ape": 14.984816154638958,
+          "method_ae": 14.063371230100984,
+          "method_ape": 9.132059240325317
+        },
+        {
+          "held_out": "NA-ion_270040-6-6-26.pkl",
+          "baseline_ae": 60.71135421966798,
+          "baseline_ape": 26.16868716364999,
+          "method_ae": 25.79650869269758,
+          "method_ape": 11.119184781335168
+        },
+        {
+          "held_out": "NA-ion_270040-6-8-24.pkl",
+          "baseline_ae": 90.65753253744886,
+          "baseline_ape": 33.70168495815942,
+          "method_ae": 55.57492577877592,
+          "method_ape": 20.659823709582128
+        },
+        {
+          "held_out": "NA-ion_270040-7-1-23.pkl",
+          "baseline_ae": 20.691559459586916,
+          "baseline_ape": 11.368988714058744,
+          "method_ae": 42.24524045717486,
+          "method_ape": 23.2116705808653
+        },
+        {
+          "held_out": "NA-ion_270040-8-5-16.pkl",
+          "baseline_ae": 25.548101067930535,
+          "baseline_ape": 17.262230451304415,
+          "method_ae": 19.25637584759076,
+          "method_ape": 13.011064761885645
+        },
+        {
+          "held_out": "NA-ion_4000-30_20250115110206_DefaultGroup_45_1.pkl",
+          "baseline_ae": 62.411600140370226,
+          "baseline_ape": 52.44672280703381,
+          "method_ae": 83.40283920471505,
+          "method_ape": 70.08641949976051
+        },
+        {
+          "held_out": "NA-ion_4500-30_20250114232539_DefaultGroup_45_8.pkl",
+          "baseline_ae": 19.879135704990148,
+          "baseline_ape": 12.121424210359852,
+          "method_ae": 8.819241162624254,
+          "method_ape": 5.377586074770886
+        },
+        {
+          "held_out": "NA-ion_5000-25_20250115110326_DefaultGroup_38_1.pkl",
+          "baseline_ae": 38.836953544152195,
+          "baseline_ape": 28.768113736409028,
+          "method_ae": 51.31870969666108,
+          "method_ape": 38.01385903456376
+        }
+      ]
+    },
+    "h20_k10": {
+      "n_cells": 34,
+      "frozen_weight": 1.0,
+      "development_candidates": [
+        {
+          "weight": 0.0,
+          "macro_mape": 24.095939724404975,
+          "macro_mae": 140.28186774247612
+        },
+        {
+          "weight": 0.125,
+          "macro_mape": 20.305903385890204,
+          "macro_mae": 122.61822016892349
+        },
+        {
+          "weight": 0.25,
+          "macro_mape": 20.192591464274283,
+          "macro_mae": 120.5225386177176
+        },
+        {
+          "weight": 0.5,
+          "macro_mape": 20.10181989750734,
+          "macro_mae": 120.2613752376836
+        },
+        {
+          "weight": 1.0,
+          "macro_mape": 19.99448103988252,
+          "macro_mae": 120.07892441244627
+        },
+        {
+          "weight": 2.0,
+          "macro_mape": 20.2319481807435,
+          "macro_mae": 120.70737874548364
+        },
+        {
+          "weight": "inf",
+          "macro_mape": 20.06674407405924,
+          "macro_mae": 120.21725040212387
+        }
+      ],
+      "protocol_only": {
+        "mae": 46.353537479546915,
+        "mape": 26.701551265119125,
+        "median_ae": 43.18030745710415,
+        "n_evaluations": 3400
+      },
+      "curve_aware": {
+        "mae": 34.05936503499677,
+        "mape": 20.955578622191393,
+        "median_ae": 32.79352345940981,
+        "n_evaluations": 3400
+      },
+      "ape_improved_same_worse": [
+        26,
+        0,
+        8
+      ],
+      "ape_wilcoxon_p": 0.0118404800305143,
+      "ae_wilcoxon_p": 0.006879202323034406,
+      "per_cell": [
+        {
+          "held_out": "NA-ion_270040-1-2-63.pkl",
+          "baseline_ae": 10.045405711098143,
+          "baseline_ape": 5.67537045824754,
+          "method_ae": 14.559867129304513,
+          "method_ape": 8.225913632375423
+        },
+        {
+          "held_out": "NA-ion_270040-1-3-62.pkl",
+          "baseline_ae": 99.79274380774203,
+          "baseline_ape": 37.236098435724635,
+          "method_ae": 97.70518393244598,
+          "method_ape": 36.45715818374849
+        },
+        {
+          "held_out": "NA-ion_270040-1-5-60.pkl",
+          "baseline_ae": 12.904108161013548,
+          "baseline_ape": 7.8206716127354845,
+          "method_ae": 34.21796431620944,
+          "method_ape": 20.73816019164209
+        },
+        {
+          "held_out": "NA-ion_270040-1-6-59.pkl",
+          "baseline_ae": 29.83271620312387,
+          "baseline_ape": 14.842147364738244,
+          "method_ae": 4.064891219905435,
+          "method_ape": 2.02233394025146
+        },
+        {
+          "held_out": "NA-ion_270040-1-7-58.pkl",
+          "baseline_ae": 40.89338903800903,
+          "baseline_ape": 19.109060298135056,
+          "method_ae": 22.061299488324174,
+          "method_ape": 10.309018452487935
+        },
+        {
+          "held_out": "NA-ion_270040-1-8-57.pkl",
+          "baseline_ae": 137.6372077400659,
+          "baseline_ape": 44.83296669057521,
+          "method_ae": 112.1196327317985,
+          "method_ape": 36.52105300710048
+        },
+        {
+          "held_out": "NA-ion_270040-2-2-12.pkl",
+          "baseline_ae": 16.836344990702568,
+          "baseline_ape": 10.655914551077572,
+          "method_ae": 3.9783696760389375,
+          "method_ape": 2.5179554911638853
+        },
+        {
+          "held_out": "NA-ion_270040-2-5-12.pkl",
+          "baseline_ae": 59.034426479990806,
+          "baseline_ape": 50.45677476922292,
+          "method_ae": 42.74265523134267,
+          "method_ape": 36.53218395841254
+        },
+        {
+          "held_out": "NA-ion_270040-3-1-56.pkl",
+          "baseline_ae": 46.9166075049849,
+          "baseline_ape": 36.65359961326946,
+          "method_ae": 33.30317497009668,
+          "method_ape": 26.018105445388013
+        },
+        {
+          "held_out": "NA-ion_270040-3-2-55.pkl",
+          "baseline_ae": 28.31146924410386,
+          "baseline_ape": 14.15573462205193,
+          "method_ae": 14.16394814430907,
+          "method_ape": 7.081974072154535
+        },
+        {
+          "held_out": "NA-ion_270040-3-3-54.pkl",
+          "baseline_ae": 45.93984547108204,
+          "baseline_ape": 34.80291323566821,
+          "method_ae": 42.86001450008034,
+          "method_ape": 32.469707954606335
+        },
+        {
+          "held_out": "NA-ion_270040-3-4-53.pkl",
+          "baseline_ae": 15.215350724113396,
+          "baseline_ape": 8.269212350061629,
+          "method_ae": 0.4014028584866196,
+          "method_ape": 0.2181537274383802
+        },
+        {
+          "held_out": "NA-ion_270040-3-5-52.pkl",
+          "baseline_ae": 60.02115990445775,
+          "baseline_ape": 25.98318610582586,
+          "method_ae": 8.379102226008909,
+          "method_ape": 3.6273169809562393
+        },
+        {
+          "held_out": "NA-ion_270040-3-7-50.pkl",
+          "baseline_ae": 65.86467864686607,
+          "baseline_ape": 60.98581356191303,
+          "method_ae": 33.34878225345026,
+          "method_ape": 30.878502086528005
+        },
+        {
+          "held_out": "NA-ion_270040-3-8-49.pkl",
+          "baseline_ae": 79.80762914286676,
+          "baseline_ape": 31.795868184409073,
+          "method_ae": 35.36960946402802,
+          "method_ape": 14.091477874114744
+        },
+        {
+          "held_out": "NA-ion_270040-4-1-48.pkl",
+          "baseline_ae": 62.11552259518923,
+          "baseline_ape": 26.432137274548612,
+          "method_ae": 12.409314230501368,
+          "method_ape": 5.2805592470218565
+        },
+        {
+          "held_out": "NA-ion_270040-4-2-47.pkl",
+          "baseline_ae": 23.600341715114443,
+          "baseline_ape": 12.04099067097676,
+          "method_ae": 11.828340710057036,
+          "method_ape": 6.034867709212774
+        },
+        {
+          "held_out": "NA-ion_270040-4-3-46.pkl",
+          "baseline_ae": 55.22471920764162,
+          "baseline_ape": 24.32807013552494,
+          "method_ae": 14.266852587568192,
+          "method_ape": 6.284957087034446
+        },
+        {
+          "held_out": "NA-ion_270040-4-6-43.pkl",
+          "baseline_ae": 31.739714024354786,
+          "baseline_ape": 22.351911284756895,
+          "method_ae": 17.975212601963957,
+          "method_ape": 12.658600423918278
+        },
+        {
+          "held_out": "NA-ion_270040-5-1-39.pkl",
+          "baseline_ae": 48.05222580078681,
+          "baseline_ape": 37.540801406864695,
+          "method_ae": 69.51177604142555,
+          "method_ape": 54.306075032363715
+        },
+        {
+          "held_out": "NA-ion_270040-5-2-38.pkl",
+          "baseline_ae": 54.62436837078429,
+          "baseline_ape": 45.520306975653575,
+          "method_ae": 47.69086239631601,
+          "method_ape": 39.74238533026334
+        },
+        {
+          "held_out": "NA-ion_270040-5-3-37.pkl",
+          "baseline_ae": 82.514794809854,
+          "baseline_ape": 32.35874306268784,
+          "method_ae": 49.49218801040146,
+          "method_ape": 19.408701180549595
+        },
+        {
+          "held_out": "NA-ion_270040-5-5-35.pkl",
+          "baseline_ae": 13.000723642602145,
+          "baseline_ape": 7.222624245890081,
+          "method_ae": 8.386362451443146,
+          "method_ape": 4.659090250801748
+        },
+        {
+          "held_out": "NA-ion_270040-5-6-34.pkl",
+          "baseline_ae": 43.027485355673704,
+          "baseline_ape": 32.84540866845321,
+          "method_ae": 47.83974464263627,
+          "method_ape": 36.51888904018036
+        },
+        {
+          "held_out": "NA-ion_270040-5-7-33.pkl",
+          "baseline_ae": 10.551428961079516,
+          "baseline_ape": 5.961259300044926,
+          "method_ae": 3.325133203967539,
+          "method_ape": 1.8786063299251625
+        },
+        {
+          "held_out": "NA-ion_270040-5-8-32.pkl",
+          "baseline_ae": 73.07412790472468,
+          "baseline_ape": 71.64130186737712,
+          "method_ae": 42.92023674281507,
+          "method_ape": 42.078663473348094
+        },
+        {
+          "held_out": "NA-ion_270040-6-2-30.pkl",
+          "baseline_ae": 19.337264565487352,
+          "baseline_ape": 12.556665302264513,
+          "method_ae": 4.609379970498794,
+          "method_ape": 2.9931038769472673
+        },
+        {
+          "held_out": "NA-ion_270040-6-6-26.pkl",
+          "baseline_ae": 61.609080083795696,
+          "baseline_ape": 26.555637967153316,
+          "method_ae": 29.270923820552543,
+          "method_ape": 12.616777508858856
+        },
+        {
+          "held_out": "NA-ion_270040-6-8-24.pkl",
+          "baseline_ae": 99.2863533053009,
+          "baseline_ape": 36.90942502055796,
+          "method_ae": 55.47543983753771,
+          "method_ape": 20.622840088303974
+        },
+        {
+          "held_out": "NA-ion_270040-7-1-23.pkl",
+          "baseline_ae": 12.158274325636176,
+          "baseline_ape": 6.680370508591303,
+          "method_ae": 32.51856643969277,
+          "method_ape": 17.867344197633383
+        },
+        {
+          "held_out": "NA-ion_270040-8-5-16.pkl",
+          "baseline_ae": 27.248896161824458,
+          "baseline_ape": 18.41141632555706,
+          "method_ae": 8.031870063264877,
+          "method_ape": 5.426939231935728
+        },
+        {
+          "held_out": "NA-ion_4000-30_20250115110206_DefaultGroup_45_1.pkl",
+          "baseline_ae": 55.88800967256097,
+          "baseline_ape": 46.96471401055545,
+          "method_ae": 102.63909466575322,
+          "method_ape": 86.25134005525474
+        },
+        {
+          "held_out": "NA-ion_4500-30_20250114232539_DefaultGroup_45_8.pkl",
+          "baseline_ae": 12.830253862413231,
+          "baseline_ape": 7.823325525861726,
+          "method_ae": 33.06848047912685,
+          "method_ape": 20.163707609223696
+        },
+        {
+          "held_out": "NA-ion_5000-25_20250115110326_DefaultGroup_38_1.pkl",
+          "baseline_ae": 41.0836071695505,
+          "baseline_ape": 30.432301607074443,
+          "method_ae": 67.48273415253846,
+          "method_ape": 49.98721048336179
+        }
+      ]
+    },
+    "h50_k1": {
+      "n_cells": 34,
+      "frozen_weight": 0.125,
+      "development_candidates": [
+        {
+          "weight": 0.0,
+          "macro_mape": 22.34406014266428,
+          "macro_mae": 99.17878132207296
+        },
+        {
+          "weight": 0.125,
+          "macro_mape": 15.492291209743053,
+          "macro_mae": 72.04776658526657
+        },
+        {
+          "weight": 0.25,
+          "macro_mape": 15.708459185280175,
+          "macro_mae": 73.48580077330077
+        },
+        {
+          "weight": 0.5,
+          "macro_mape": 15.789934440904034,
+          "macro_mae": 74.04509564509563
+        },
+        {
+          "weight": 1.0,
+          "macro_mape": 17.438756894903122,
+          "macro_mae": 77.22137769637769
+        },
+        {
+          "weight": 2.0,
+          "macro_mape": 17.345320056582022,
+          "macro_mae": 76.36560846560845
+        },
+        {
+          "weight": "inf",
+          "macro_mape": 17.626120670922763,
+          "macro_mae": 78.31112128612126
+        }
+      ],
+      "protocol_only": {
+        "mae": 61.56470588235293,
+        "mape": 36.336044920960006,
+        "median_ae": 51.99999999999994,
+        "n_evaluations": 3400
+      },
+      "curve_aware": {
+        "mae": 30.500000000000018,
+        "mape": 17.67070307468683,
+        "median_ae": 17.00000000000003,
+        "n_evaluations": 3400
+      },
+      "ape_improved_same_worse": [
+        30,
+        0,
+        4
+      ],
+      "ape_wilcoxon_p": 1.1542579159140587e-06,
+      "ae_wilcoxon_p": 1.1542579159140587e-06,
+      "per_cell": [
+        {
+          "held_out": "NA-ion_270040-1-2-63.pkl",
+          "baseline_ae": 45.29999999999999,
+          "baseline_ape": 25.593220338983052,
+          "method_ae": 4.9999999999999725,
+          "method_ape": 2.824858757062131
+        },
+        {
+          "held_out": "NA-ion_270040-1-3-62.pkl",
+          "baseline_ae": 97.26,
+          "baseline_ape": 36.291044776119406,
+          "method_ae": 72.0000000000001,
+          "method_ape": 26.865671641791067
+        },
+        {
+          "held_out": "NA-ion_270040-1-5-60.pkl",
+          "baseline_ae": 50.21999999999997,
+          "baseline_ape": 30.436363636363616,
+          "method_ae": 15.0,
+          "method_ape": 9.090909090909093
+        },
+        {
+          "held_out": "NA-ion_270040-1-6-59.pkl",
+          "baseline_ae": 53.32999999999999,
+          "baseline_ape": 26.532338308457703,
+          "method_ae": 26.000000000000053,
+          "method_ape": 12.935323383084603
+        },
+        {
+          "held_out": "NA-ion_270040-1-7-58.pkl",
+          "baseline_ae": 56.35,
+          "baseline_ape": 26.331775700934582,
+          "method_ae": 14.000000000000082,
+          "method_ape": 6.542056074766394
+        },
+        {
+          "held_out": "NA-ion_270040-1-8-57.pkl",
+          "baseline_ae": 141.57,
+          "baseline_ape": 46.11400651465799,
+          "method_ae": 75.00000000000001,
+          "method_ape": 24.4299674267101
+        },
+        {
+          "held_out": "NA-ion_270040-2-2-12.pkl",
+          "baseline_ae": 50.539999999999985,
+          "baseline_ape": 31.98734177215188,
+          "method_ae": 6.000000000000054,
+          "method_ape": 3.7974683544304146
+        },
+        {
+          "held_out": "NA-ion_270040-2-5-12.pkl",
+          "baseline_ae": 59.68999999999998,
+          "baseline_ape": 51.01709401709399,
+          "method_ae": 30.999999999999947,
+          "method_ape": 26.495726495726455
+        },
+        {
+          "held_out": "NA-ion_270040-3-1-56.pkl",
+          "baseline_ae": 60.969999999999985,
+          "baseline_ape": 47.63281249999998,
+          "method_ae": 14.000000000000027,
+          "method_ape": 10.937500000000023
+        },
+        {
+          "held_out": "NA-ion_270040-3-2-55.pkl",
+          "baseline_ae": 43.62,
+          "baseline_ape": 21.81,
+          "method_ae": 13.999999999999945,
+          "method_ape": 6.9999999999999725
+        },
+        {
+          "held_out": "NA-ion_270040-3-3-54.pkl",
+          "baseline_ae": 56.55999999999998,
+          "baseline_ape": 42.84848484848483,
+          "method_ae": 32.99999999999994,
+          "method_ape": 24.999999999999954
+        },
+        {
+          "held_out": "NA-ion_270040-3-4-53.pkl",
+          "baseline_ae": 45.9,
+          "baseline_ape": 24.945652173913047,
+          "method_ae": 7.000000000000054,
+          "method_ape": 3.8043478260869885
+        },
+        {
+          "held_out": "NA-ion_270040-3-5-52.pkl",
+          "baseline_ae": 63.06,
+          "baseline_ape": 27.298701298701292,
+          "method_ae": 4.0,
+          "method_ape": 1.7316017316017314
+        },
+        {
+          "held_out": "NA-ion_270040-3-7-50.pkl",
+          "baseline_ae": 76.88999999999999,
+          "baseline_ape": 71.19444444444443,
+          "method_ae": 46.00000000000006,
+          "method_ape": 42.592592592592666
+        },
+        {
+          "held_out": "NA-ion_270040-3-8-49.pkl",
+          "baseline_ae": 68.84,
+          "baseline_ape": 27.42629482071714,
+          "method_ae": 20.000000000000053,
+          "method_ape": 7.968127490039861
+        },
+        {
+          "held_out": "NA-ion_270040-4-1-48.pkl",
+          "baseline_ae": 67.63,
+          "baseline_ape": 28.778723404255317,
+          "method_ae": 4.000000000000057,
+          "method_ape": 1.7021276595744927
+        },
+        {
+          "held_out": "NA-ion_270040-4-2-47.pkl",
+          "baseline_ae": 48.72999999999998,
+          "baseline_ape": 24.862244897959176,
+          "method_ae": 19.000000000000053,
+          "method_ape": 9.693877551020439
+        },
+        {
+          "held_out": "NA-ion_270040-4-3-46.pkl",
+          "baseline_ae": 63.09,
+          "baseline_ape": 27.792951541850215,
+          "method_ae": 26.0,
+          "method_ape": 11.45374449339207
+        },
+        {
+          "held_out": "NA-ion_270040-4-6-43.pkl",
+          "baseline_ae": 51.41999999999999,
+          "baseline_ape": 36.211267605633786,
+          "method_ae": 14.00000000000004,
+          "method_ape": 9.859154929577498
+        },
+        {
+          "held_out": "NA-ion_270040-5-1-39.pkl",
+          "baseline_ae": 50.80999999999998,
+          "baseline_ape": 39.69531249999999,
+          "method_ae": 7.0000000000000275,
+          "method_ape": 5.468750000000021
+        },
+        {
+          "held_out": "NA-ion_270040-5-2-38.pkl",
+          "baseline_ae": 68.28999999999998,
+          "baseline_ape": 56.908333333333324,
+          "method_ae": 10.999999999999945,
+          "method_ape": 9.166666666666618
+        },
+        {
+          "held_out": "NA-ion_270040-5-3-37.pkl",
+          "baseline_ae": 77.04,
+          "baseline_ape": 30.21176470588236,
+          "method_ae": 59.0000000000001,
+          "method_ape": 23.137254901960816
+        },
+        {
+          "held_out": "NA-ion_270040-5-5-35.pkl",
+          "baseline_ae": 48.21,
+          "baseline_ape": 26.78333333333332,
+          "method_ae": 51.99999999999999,
+          "method_ape": 28.888888888888864
+        },
+        {
+          "held_out": "NA-ion_270040-5-6-34.pkl",
+          "baseline_ae": 54.81999999999998,
+          "baseline_ape": 41.847328244274784,
+          "method_ae": 11.000000000000027,
+          "method_ape": 8.39694656488552
+        },
+        {
+          "held_out": "NA-ion_270040-5-7-33.pkl",
+          "baseline_ae": 42.57,
+          "baseline_ape": 24.050847457627118,
+          "method_ae": 36.99999999999994,
+          "method_ape": 20.90395480225985
+        },
+        {
+          "held_out": "NA-ion_270040-5-8-32.pkl",
+          "baseline_ae": 90.93999999999997,
+          "baseline_ape": 89.15686274509801,
+          "method_ae": 6.0000000000000275,
+          "method_ape": 5.882352941176497
+        },
+        {
+          "held_out": "NA-ion_270040-6-2-30.pkl",
+          "baseline_ae": 51.05999999999998,
+          "baseline_ape": 33.155844155844136,
+          "method_ae": 11.999999999999973,
+          "method_ape": 7.792207792207777
+        },
+        {
+          "held_out": "NA-ion_270040-6-6-26.pkl",
+          "baseline_ae": 60.79,
+          "baseline_ape": 26.202586206896548,
+          "method_ae": 74.99999999999989,
+          "method_ape": 32.3275862068965
+        },
+        {
+          "held_out": "NA-ion_270040-6-8-24.pkl",
+          "baseline_ae": 94.34000000000003,
+          "baseline_ape": 35.07063197026022,
+          "method_ae": 87.00000000000001,
+          "method_ape": 32.34200743494426
+        },
+        {
+          "held_out": "NA-ion_270040-7-1-23.pkl",
+          "baseline_ae": 44.77999999999998,
+          "baseline_ape": 24.604395604395595,
+          "method_ae": 5.000000000000057,
+          "method_ape": 2.7472527472527792
+        },
+        {
+          "held_out": "NA-ion_270040-8-5-16.pkl",
+          "baseline_ae": 46.30999999999998,
+          "baseline_ape": 31.29054054054053,
+          "method_ae": 6.000000000000054,
+          "method_ape": 4.0540540540540935
+        },
+        {
+          "held_out": "NA-ion_4000-30_20250115110206_DefaultGroup_45_1.pkl",
+          "baseline_ae": 68.15999999999998,
+          "baseline_ape": 57.27731092436974,
+          "method_ae": 150.0,
+          "method_ape": 126.0504201680672
+        },
+        {
+          "held_out": "NA-ion_4500-30_20250114232539_DefaultGroup_45_8.pkl",
+          "baseline_ae": 43.09999999999998,
+          "baseline_ape": 26.28048780487803,
+          "method_ae": 44.99999999999998,
+          "method_ape": 27.439024390243897
+        },
+        {
+          "held_out": "NA-ion_5000-25_20250115110326_DefaultGroup_38_1.pkl",
+          "baseline_ae": 51.009999999999984,
+          "baseline_ape": 37.78518518518517,
+          "method_ae": 29.000000000000053,
+          "method_ape": 21.481481481481534
+        }
+      ]
+    },
+    "h50_k3": {
+      "n_cells": 34,
+      "frozen_weight": 1.0,
+      "development_candidates": [
+        {
+          "weight": 0.0,
+          "macro_mape": 20.684769412823783,
+          "macro_mae": 103.34793671922576
+        },
+        {
+          "weight": 0.125,
+          "macro_mape": 16.664521717052683,
+          "macro_mae": 86.61685199581046
+        },
+        {
+          "weight": 0.25,
+          "macro_mape": 16.425871082030863,
+          "macro_mae": 86.30064996578199
+        },
+        {
+          "weight": 0.5,
+          "macro_mape": 16.017482995984544,
+          "macro_mae": 76.2192820746534
+        },
+        {
+          "weight": 1.0,
+          "macro_mape": 14.807035833259038,
+          "macro_mae": 67.98802424939304
+        },
+        {
+          "weight": 2.0,
+          "macro_mape": 14.811907638230627,
+          "macro_mae": 67.61237661660233
+        },
+        {
+          "weight": "inf",
+          "macro_mape": 15.97717988224204,
+          "macro_mae": 68.60064911186186
+        }
+      ],
+      "protocol_only": {
+        "mae": 49.74929589413187,
+        "mape": 28.933620664997964,
+        "median_ae": 43.526175091186815,
+        "n_evaluations": 3400
+      },
+      "curve_aware": {
+        "mae": 27.14032797575894,
+        "mape": 16.08153523436653,
+        "median_ae": 18.59882077642333,
+        "n_evaluations": 3400
+      },
+      "ape_improved_same_worse": [
+        25,
+        0,
+        9
+      ],
+      "ape_wilcoxon_p": 3.163795918226242e-05,
+      "ae_wilcoxon_p": 3.4899450838565826e-05,
+      "per_cell": [
+        {
+          "held_out": "NA-ion_270040-1-2-63.pkl",
+          "baseline_ae": 23.656266201684517,
+          "baseline_ape": 13.36512214784436,
+          "method_ae": 26.640016168252068,
+          "method_ape": 15.050856592232801
+        },
+        {
+          "held_out": "NA-ion_270040-1-3-62.pkl",
+          "baseline_ae": 95.76445326115956,
+          "baseline_ape": 35.73300494819386,
+          "method_ae": 103.63357757993381,
+          "method_ape": 38.66924536564694
+        },
+        {
+          "held_out": "NA-ion_270040-1-5-60.pkl",
+          "baseline_ae": 22.71287648232792,
+          "baseline_ape": 13.765379686259342,
+          "method_ae": 32.50226990928484,
+          "method_ape": 19.69834539956657
+        },
+        {
+          "held_out": "NA-ion_270040-1-6-59.pkl",
+          "baseline_ae": 32.028901349194804,
+          "baseline_ape": 15.93477679064418,
+          "method_ae": 10.638877318395261,
+          "method_ape": 5.292973790246399
+        },
+        {
+          "held_out": "NA-ion_270040-1-7-58.pkl",
+          "baseline_ae": 37.923577037394345,
+          "baseline_ape": 17.721297681025394,
+          "method_ae": 23.269662268534884,
+          "method_ape": 10.873673957259292
+        },
+        {
+          "held_out": "NA-ion_270040-1-8-57.pkl",
+          "baseline_ae": 134.83113814065268,
+          "baseline_ape": 43.91893750509859,
+          "method_ae": 103.77107692585922,
+          "method_ape": 33.80165372177822
+        },
+        {
+          "held_out": "NA-ion_270040-2-2-12.pkl",
+          "baseline_ae": 29.388234277098523,
+          "baseline_ape": 18.600148276644635,
+          "method_ae": 19.884784310660333,
+          "method_ape": 12.585306525734396
+        },
+        {
+          "held_out": "NA-ion_270040-2-5-12.pkl",
+          "baseline_ae": 58.555807232853255,
+          "baseline_ape": 50.047698489618185,
+          "method_ae": 65.79840840562258,
+          "method_ape": 56.23795590224151
+        },
+        {
+          "held_out": "NA-ion_270040-3-1-56.pkl",
+          "baseline_ae": 47.83482347407634,
+          "baseline_ape": 37.370955839122146,
+          "method_ae": 14.383937505670474,
+          "method_ape": 11.237451176305058
+        },
+        {
+          "held_out": "NA-ion_270040-3-2-55.pkl",
+          "baseline_ae": 31.87431922819012,
+          "baseline_ape": 15.93715961409506,
+          "method_ae": 4.919270770047233,
+          "method_ape": 2.4596353850236166
+        },
+        {
+          "held_out": "NA-ion_270040-3-3-54.pkl",
+          "baseline_ae": 41.00327433922534,
+          "baseline_ape": 31.06308662062526,
+          "method_ae": 4.340553668698845,
+          "method_ape": 3.2882982338627613
+        },
+        {
+          "held_out": "NA-ion_270040-3-4-53.pkl",
+          "baseline_ae": 23.94774283372551,
+          "baseline_ape": 13.015077627024736,
+          "method_ae": 12.398882250362904,
+          "method_ape": 6.738522962153752
+        },
+        {
+          "held_out": "NA-ion_270040-3-5-52.pkl",
+          "baseline_ae": 61.20182515175431,
+          "baseline_ape": 26.494296602491055,
+          "method_ae": 2.9767067503737237,
+          "method_ape": 1.2886176408544252
+        },
+        {
+          "held_out": "NA-ion_270040-3-7-50.pkl",
+          "baseline_ae": 69.11920912155841,
+          "baseline_ape": 63.99926770514668,
+          "method_ae": 18.214801153622158,
+          "method_ape": 16.865556623724217
+        },
+        {
+          "held_out": "NA-ion_270040-3-8-49.pkl",
+          "baseline_ae": 76.99601270223489,
+          "baseline_ape": 30.675702271806728,
+          "method_ae": 18.982840399224497,
+          "method_ape": 7.56288462120498
+        },
+        {
+          "held_out": "NA-ion_270040-4-1-48.pkl",
+          "baseline_ae": 62.7423876361372,
+          "baseline_ape": 26.698888355803064,
+          "method_ae": 0.4292186638412545,
+          "method_ape": 0.18264623993244872
+        },
+        {
+          "held_out": "NA-ion_270040-4-2-47.pkl",
+          "baseline_ae": 29.56970659861898,
+          "baseline_ape": 15.086584999295397,
+          "method_ae": 0.39888225036290237,
+          "method_ape": 0.20351135222597058
+        },
+        {
+          "held_out": "NA-ion_270040-4-3-46.pkl",
+          "baseline_ae": 52.32637658530893,
+          "baseline_ape": 23.05126721819777,
+          "method_ae": 11.925599933120312,
+          "method_ape": 5.253568252475909
+        },
+        {
+          "held_out": "NA-ion_270040-4-6-43.pkl",
+          "baseline_ae": 38.40152339749465,
+          "baseline_ape": 27.04332633626384,
+          "method_ae": 4.458146074633732,
+          "method_ape": 3.1395394891786834
+        },
+        {
+          "held_out": "NA-ion_270040-5-1-39.pkl",
+          "baseline_ae": 51.0594312905072,
+          "baseline_ape": 39.89018069570875,
+          "method_ae": 10.115215689339665,
+          "method_ape": 7.902512257296612
+        },
+        {
+          "held_out": "NA-ion_270040-5-2-38.pkl",
+          "baseline_ae": 53.50779984945913,
+          "baseline_ape": 44.58983320788262,
+          "method_ae": 10.322198813460913,
+          "method_ape": 8.60183234455076
+        },
+        {
+          "held_out": "NA-ion_270040-5-3-37.pkl",
+          "baseline_ae": 82.3638267575281,
+          "baseline_ape": 32.29953990491299,
+          "method_ae": 30.71130972267787,
+          "method_ape": 12.04365087163838
+        },
+        {
+          "held_out": "NA-ion_270040-5-5-35.pkl",
+          "baseline_ae": 22.405264531042935,
+          "baseline_ape": 12.447369183912738,
+          "method_ae": 9.226402071302518,
+          "method_ape": 5.125778928501397
+        },
+        {
+          "held_out": "NA-ion_270040-5-6-34.pkl",
+          "baseline_ae": 48.661033025705166,
+          "baseline_ape": 37.14582673717951,
+          "method_ae": 23.317218728167546,
+          "method_ape": 17.7994036092882
+        },
+        {
+          "held_out": "NA-ion_270040-5-7-33.pkl",
+          "baseline_ae": 23.893515272067283,
+          "baseline_ape": 13.499161170659482,
+          "method_ae": 26.18888483644236,
+          "method_ape": 14.795980133583253
+        },
+        {
+          "held_out": "NA-ion_270040-5-8-32.pkl",
+          "baseline_ae": 78.91386603787342,
+          "baseline_ape": 77.36653533124846,
+          "method_ae": 26.64260186316872,
+          "method_ape": 26.120197905067368
+        },
+        {
+          "held_out": "NA-ion_270040-6-2-30.pkl",
+          "baseline_ae": 28.030903064482082,
+          "baseline_ape": 18.201885106806543,
+          "method_ae": 28.78951728937193,
+          "method_ape": 18.694491746345417
+        },
+        {
+          "held_out": "NA-ion_270040-6-6-26.pkl",
+          "baseline_ae": 60.079001780358894,
+          "baseline_ape": 25.89612145705124,
+          "method_ae": 18.14074529611753,
+          "method_ape": 7.819286765567899
+        },
+        {
+          "held_out": "NA-ion_270040-6-8-24.pkl",
+          "baseline_ae": 93.5613444546753,
+          "baseline_ape": 34.78116894225847,
+          "method_ae": 50.93281256178366,
+          "method_ape": 18.934131063860097
+        },
+        {
+          "held_out": "NA-ion_270040-7-1-23.pkl",
+          "baseline_ae": 25.093041682973727,
+          "baseline_ape": 13.78738554009546,
+          "method_ae": 34.79359137839707,
+          "method_ape": 19.117357900218163
+        },
+        {
+          "held_out": "NA-ion_270040-8-5-16.pkl",
+          "baseline_ae": 31.793687049753775,
+          "baseline_ape": 21.482220979563365,
+          "method_ae": 16.573443675722782,
+          "method_ape": 11.19827275386675
+        },
+        {
+          "held_out": "NA-ion_4000-30_20250115110206_DefaultGroup_45_1.pkl",
+          "baseline_ae": 57.977193012938315,
+          "baseline_ape": 48.72033026297336,
+          "method_ae": 117.53424406587348,
+          "method_ape": 98.76827232426344
+        },
+        {
+          "held_out": "NA-ion_4500-30_20250114232539_DefaultGroup_45_8.pkl",
+          "baseline_ae": 26.60410423175499,
+          "baseline_ape": 16.222014775460362,
+          "method_ae": 1.116283521093976,
+          "method_ape": 0.6806606835938878
+        },
+        {
+          "held_out": "NA-ion_5000-25_20250115110326_DefaultGroup_38_1.pkl",
+          "baseline_ae": 37.65359330867309,
+          "baseline_ape": 27.8915505990171,
+          "method_ae": 38.79916935638286,
+          "method_ape": 28.74012544917248
+        }
+      ]
+    },
+    "h50_k5": {
+      "n_cells": 34,
+      "frozen_weight": "inf",
+      "development_candidates": [
+        {
+          "weight": 0.0,
+          "macro_mape": 23.25554490887343,
+          "macro_mae": 130.35340474883392
+        },
+        {
+          "weight": 0.125,
+          "macro_mape": 19.594288400637506,
+          "macro_mae": 112.36558057656414
+        },
+        {
+          "weight": 0.25,
+          "macro_mape": 18.75862330738199,
+          "macro_mae": 91.85995657264307
+        },
+        {
+          "weight": 0.5,
+          "macro_mape": 18.630657624466863,
+          "macro_mae": 84.85861523479423
+        },
+        {
+          "weight": 1.0,
+          "macro_mape": 18.680928872016878,
+          "macro_mae": 82.69859904300723
+        },
+        {
+          "weight": 2.0,
+          "macro_mape": 18.202861686693733,
+          "macro_mae": 74.4538021399893
+        },
+        {
+          "weight": "inf",
+          "macro_mape": 18.068688476446876,
+          "macro_mae": 71.38801189820907
+        }
+      ],
+      "protocol_only": {
+        "mae": 48.30857521214025,
+        "mape": 27.951329717830706,
+        "median_ae": 43.98711984657457,
+        "n_evaluations": 3400
+      },
+      "curve_aware": {
+        "mae": 28.47568532588946,
+        "mape": 16.744598201845086,
+        "median_ae": 21.25764249414604,
+        "n_evaluations": 3400
+      },
+      "ape_improved_same_worse": [
+        29,
+        0,
+        5
+      ],
+      "ape_wilcoxon_p": 4.660175181925297e-05,
+      "ae_wilcoxon_p": 2.8655631467700005e-05,
+      "per_cell": [
+        {
+          "held_out": "NA-ion_270040-1-2-63.pkl",
+          "baseline_ae": 17.234062897928617,
+          "baseline_ape": 9.736758699394697,
+          "method_ae": 23.657376336117842,
+          "method_ape": 13.365749342439448
+        },
+        {
+          "held_out": "NA-ion_270040-1-3-62.pkl",
+          "baseline_ae": 101.15913203993257,
+          "baseline_ape": 37.74594479101961,
+          "method_ae": 99.72163450460492,
+          "method_ape": 37.20956511365854
+        },
+        {
+          "held_out": "NA-ion_270040-1-5-60.pkl",
+          "baseline_ae": 20.33018026464516,
+          "baseline_ape": 12.321321372512216,
+          "method_ae": 13.25950422780792,
+          "method_ape": 8.03606316836844
+        },
+        {
+          "held_out": "NA-ion_270040-1-6-59.pkl",
+          "baseline_ae": 29.58259183353207,
+          "baseline_ape": 14.717707379866704,
+          "method_ae": 0.9100432631946092,
+          "method_ape": 0.45275784238537775
+        },
+        {
+          "held_out": "NA-ion_270040-1-7-58.pkl",
+          "baseline_ae": 43.28638182085619,
+          "baseline_ape": 20.22728122469916,
+          "method_ae": 27.850961409796156,
+          "method_ape": 13.014467948502872
+        },
+        {
+          "held_out": "NA-ion_270040-1-8-57.pkl",
+          "baseline_ae": 137.53680506585633,
+          "baseline_ape": 44.800262236435294,
+          "method_ae": 96.33302454778725,
+          "method_ape": 31.378835357585434
+        },
+        {
+          "held_out": "NA-ion_270040-2-2-12.pkl",
+          "baseline_ae": 24.21519095870919,
+          "baseline_ape": 15.326070227031135,
+          "method_ae": 7.807421627649178,
+          "method_ape": 4.941406093448847
+        },
+        {
+          "held_out": "NA-ion_270040-2-5-12.pkl",
+          "baseline_ae": 58.0122715110633,
+          "baseline_ape": 49.58313804364385,
+          "method_ae": 36.21814182925351,
+          "method_ape": 30.955676777139743
+        },
+        {
+          "held_out": "NA-ion_270040-3-1-56.pkl",
+          "baseline_ae": 47.35940553317527,
+          "baseline_ape": 36.99953557279318,
+          "method_ae": 2.1959873924932936,
+          "method_ape": 1.7156151503853858
+        },
+        {
+          "held_out": "NA-ion_270040-3-2-55.pkl",
+          "baseline_ae": 29.27100416160895,
+          "baseline_ape": 14.635502080804475,
+          "method_ae": 14.979408801513582,
+          "method_ape": 7.489704400756792
+        },
+        {
+          "held_out": "NA-ion_270040-3-3-54.pkl",
+          "baseline_ae": 44.09858861865082,
+          "baseline_ape": 33.40802168079607,
+          "method_ae": 10.982798231771685,
+          "method_ape": 8.320301690736118
+        },
+        {
+          "held_out": "NA-ion_270040-3-4-53.pkl",
+          "baseline_ae": 19.579228032197413,
+          "baseline_ape": 10.640884800107292,
+          "method_ae": 19.108355573956914,
+          "method_ape": 10.384975855411367
+        },
+        {
+          "held_out": "NA-ion_270040-3-5-52.pkl",
+          "baseline_ae": 61.253954120178996,
+          "baseline_ape": 26.51686325548875,
+          "method_ae": 0.18198366542850408,
+          "method_ape": 0.07878080754480699
+        },
+        {
+          "held_out": "NA-ion_270040-3-7-50.pkl",
+          "baseline_ae": 68.17901934479792,
+          "baseline_ape": 63.128721615553644,
+          "method_ae": 19.926374089334796,
+          "method_ape": 18.450346379013702
+        },
+        {
+          "held_out": "NA-ion_270040-3-8-49.pkl",
+          "baseline_ae": 81.36516762211109,
+          "baseline_ape": 32.416401443072154,
+          "method_ae": 23.6997101289679,
+          "method_ape": 9.442115589230237
+        },
+        {
+          "held_out": "NA-ion_270040-4-1-48.pkl",
+          "baseline_ae": 63.657660252951786,
+          "baseline_ape": 27.088366065085864,
+          "method_ae": 8.065169720690987,
+          "method_ape": 3.4319871151876553
+        },
+        {
+          "held_out": "NA-ion_270040-4-2-47.pkl",
+          "baseline_ae": 25.585288523713654,
+          "baseline_ape": 13.053718634547783,
+          "method_ae": 24.200551309709308,
+          "method_ape": 12.347220055974132
+        },
+        {
+          "held_out": "NA-ion_270040-4-3-46.pkl",
+          "baseline_ae": 53.8100443483782,
+          "baseline_ape": 23.70486535170846,
+          "method_ae": 16.462176443220816,
+          "method_ape": 7.252060107145735
+        },
+        {
+          "held_out": "NA-ion_270040-4-6-43.pkl",
+          "baseline_ae": 33.901477262815035,
+          "baseline_ape": 23.874279762545797,
+          "method_ae": 1.331489225278574,
+          "method_ape": 0.9376684685060378
+        },
+        {
+          "held_out": "NA-ion_270040-5-1-39.pkl",
+          "baseline_ae": 48.17482056942419,
+          "baseline_ape": 37.63657856986264,
+          "method_ae": 45.09847124776481,
+          "method_ape": 35.23318066231626
+        },
+        {
+          "held_out": "NA-ion_270040-5-2-38.pkl",
+          "baseline_ae": 52.77372630992848,
+          "baseline_ape": 43.978105258273736,
+          "method_ae": 39.336266011567204,
+          "method_ape": 32.780221676306006
+        },
+        {
+          "held_out": "NA-ion_270040-5-3-37.pkl",
+          "baseline_ae": 82.64972034317731,
+          "baseline_ape": 32.41165503654012,
+          "method_ae": 45.93319739247117,
+          "method_ape": 18.013018585282822
+        },
+        {
+          "held_out": "NA-ion_270040-5-5-35.pkl",
+          "baseline_ae": 18.584807658320052,
+          "baseline_ape": 10.32489314351114,
+          "method_ae": 13.657468176624743,
+          "method_ape": 7.587482320347082
+        },
+        {
+          "held_out": "NA-ion_270040-5-6-34.pkl",
+          "baseline_ae": 46.273806626438635,
+          "baseline_ape": 35.32351650873178,
+          "method_ae": 22.301049264082767,
+          "method_ape": 17.023701728307458
+        },
+        {
+          "held_out": "NA-ion_270040-5-7-33.pkl",
+          "baseline_ae": 17.000910166665882,
+          "baseline_ape": 9.605033992466598,
+          "method_ae": 21.76629573516777,
+          "method_ape": 12.297342223258632
+        },
+        {
+          "held_out": "NA-ion_270040-5-8-32.pkl",
+          "baseline_ae": 75.80345777342039,
+          "baseline_ape": 74.31711546413763,
+          "method_ae": 27.39717868391239,
+          "method_ape": 26.859979101874902
+        },
+        {
+          "held_out": "NA-ion_270040-6-2-30.pkl",
+          "baseline_ae": 23.07661687814399,
+          "baseline_ape": 14.984816154638958,
+          "method_ae": 14.063371230100984,
+          "method_ape": 9.132059240325317
+        },
+        {
+          "held_out": "NA-ion_270040-6-6-26.pkl",
+          "baseline_ae": 60.71135421966798,
+          "baseline_ape": 26.16868716364999,
+          "method_ae": 20.74898925312431,
+          "method_ape": 8.94352985048462
+        },
+        {
+          "held_out": "NA-ion_270040-6-8-24.pkl",
+          "baseline_ae": 90.65753253744886,
+          "baseline_ape": 33.70168495815942,
+          "method_ae": 55.264747057661125,
+          "method_ape": 20.544515634818264
+        },
+        {
+          "held_out": "NA-ion_270040-7-1-23.pkl",
+          "baseline_ae": 20.691559459586916,
+          "baseline_ape": 11.368988714058744,
+          "method_ae": 34.237723245716296,
+          "method_ape": 18.811935849294677
+        },
+        {
+          "held_out": "NA-ion_270040-8-5-16.pkl",
+          "baseline_ae": 25.548101067930535,
+          "baseline_ape": 17.262230451304415,
+          "method_ae": 1.2487475316176813,
+          "method_ape": 0.8437483321741093
+        },
+        {
+          "held_out": "NA-ion_4000-30_20250115110206_DefaultGroup_45_1.pkl",
+          "baseline_ae": 62.411600140370226,
+          "baseline_ape": 52.44672280703381,
+          "method_ae": 108.8550866553639,
+          "method_ape": 91.47486273559994
+        },
+        {
+          "held_out": "NA-ion_4500-30_20250114232539_DefaultGroup_45_8.pkl",
+          "baseline_ae": 19.879135704990148,
+          "baseline_ape": 12.121424210359852,
+          "method_ae": 17.58318267651066,
+          "method_ape": 10.721452851530882
+        },
+        {
+          "held_out": "NA-ion_5000-25_20250115110326_DefaultGroup_38_1.pkl",
+          "baseline_ae": 38.836953544152195,
+          "baseline_ape": 28.768113736409028,
+          "method_ae": 53.78941458997815,
+          "method_ape": 39.84401080739123
+        }
+      ]
+    },
+    "h50_k10": {
+      "n_cells": 34,
+      "frozen_weight": 0.5,
+      "development_candidates": [
+        {
+          "weight": 0.0,
+          "macro_mape": 24.194150013371665,
+          "macro_mae": 140.67705917368312
+        },
+        {
+          "weight": 0.125,
+          "macro_mape": 21.67706365528906,
+          "macro_mae": 126.30361291620638
+        },
+        {
+          "weight": 0.25,
+          "macro_mape": 21.106365131537927,
+          "macro_mae": 119.63999204283202
+        },
+        {
+          "weight": 0.5,
+          "macro_mape": 20.66292428701932,
+          "macro_mae": 112.25514651757881
+        },
+        {
+          "weight": 1.0,
+          "macro_mape": 20.79600846976877,
+          "macro_mae": 105.22302010978011
+        },
+        {
+          "weight": 2.0,
+          "macro_mape": 20.931014141162876,
+          "macro_mae": 100.58292279969761
+        },
+        {
+          "weight": "inf",
+          "macro_mape": 20.679779472627313,
+          "macro_mae": 99.58498464077739
+        }
+      ],
+      "protocol_only": {
+        "mae": 46.353537479546915,
+        "mape": 26.701551265119125,
+        "median_ae": 43.18030745710415,
+        "n_evaluations": 3400
+      },
+      "curve_aware": {
+        "mae": 35.356458856589946,
+        "mape": 21.64341851510751,
+        "median_ae": 31.021701351190714,
+        "n_evaluations": 3400
+      },
+      "ape_improved_same_worse": [
+        23,
+        0,
+        11
+      ],
+      "ape_wilcoxon_p": 0.0444720279192552,
+      "ae_wilcoxon_p": 0.016922200680710375,
+      "per_cell": [
+        {
+          "held_out": "NA-ion_270040-1-2-63.pkl",
+          "baseline_ae": 10.045405711098143,
+          "baseline_ape": 5.67537045824754,
+          "method_ae": 22.722959823083592,
+          "method_ape": 12.837830408521798
+        },
+        {
+          "held_out": "NA-ion_270040-1-3-62.pkl",
+          "baseline_ae": 99.79274380774203,
+          "baseline_ape": 37.236098435724635,
+          "method_ae": 91.78974241543686,
+          "method_ape": 34.24990388635705
+        },
+        {
+          "held_out": "NA-ion_270040-1-5-60.pkl",
+          "baseline_ae": 12.904108161013548,
+          "baseline_ape": 7.8206716127354845,
+          "method_ae": 16.279416365912457,
+          "method_ape": 9.866312949037848
+        },
+        {
+          "held_out": "NA-ion_270040-1-6-59.pkl",
+          "baseline_ae": 29.83271620312387,
+          "baseline_ape": 14.842147364738244,
+          "method_ae": 16.105029606507852,
+          "method_ape": 8.01245254055117
+        },
+        {
+          "held_out": "NA-ion_270040-1-7-58.pkl",
+          "baseline_ae": 40.89338903800903,
+          "baseline_ape": 19.109060298135056,
+          "method_ae": 20.851810075407656,
+          "method_ape": 9.743836483835354
+        },
+        {
+          "held_out": "NA-ion_270040-1-8-57.pkl",
+          "baseline_ae": 137.6372077400659,
+          "baseline_ape": 44.83296669057521,
+          "method_ae": 105.34462240913375,
+          "method_ape": 34.31420925378952
+        },
+        {
+          "held_out": "NA-ion_270040-2-2-12.pkl",
+          "baseline_ae": 16.836344990702568,
+          "baseline_ape": 10.655914551077572,
+          "method_ae": 25.247126710087286,
+          "method_ape": 15.979194120308412
+        },
+        {
+          "held_out": "NA-ion_270040-2-5-12.pkl",
+          "baseline_ae": 59.034426479990806,
+          "baseline_ape": 50.45677476922292,
+          "method_ae": 31.144320230600805,
+          "method_ape": 26.619077120171642
+        },
+        {
+          "held_out": "NA-ion_270040-3-1-56.pkl",
+          "baseline_ae": 46.9166075049849,
+          "baseline_ape": 36.65359961326946,
+          "method_ae": 22.909307889820493,
+          "method_ape": 17.89789678892226
+        },
+        {
+          "held_out": "NA-ion_270040-3-2-55.pkl",
+          "baseline_ae": 28.31146924410386,
+          "baseline_ape": 14.15573462205193,
+          "method_ae": 10.113273348230083,
+          "method_ape": 5.056636674115041
+        },
+        {
+          "held_out": "NA-ion_270040-3-3-54.pkl",
+          "baseline_ae": 45.93984547108204,
+          "baseline_ape": 34.80291323566821,
+          "method_ae": 32.95338516105185,
+          "method_ape": 24.964685728069576
+        },
+        {
+          "held_out": "NA-ion_270040-3-4-53.pkl",
+          "baseline_ae": 15.215350724113396,
+          "baseline_ape": 8.269212350061629,
+          "method_ae": 12.359106789581238,
+          "method_ape": 6.716905863902843
+        },
+        {
+          "held_out": "NA-ion_270040-3-5-52.pkl",
+          "baseline_ae": 60.02115990445775,
+          "baseline_ape": 25.98318610582586,
+          "method_ae": 13.413433473518607,
+          "method_ape": 5.806681157367365
+        },
+        {
+          "held_out": "NA-ion_270040-3-7-50.pkl",
+          "baseline_ae": 65.86467864686607,
+          "baseline_ape": 60.98581356191303,
+          "method_ae": 36.16260233296996,
+          "method_ape": 33.48389104904625
+        },
+        {
+          "held_out": "NA-ion_270040-3-8-49.pkl",
+          "baseline_ae": 79.80762914286676,
+          "baseline_ape": 31.795868184409073,
+          "method_ae": 35.0252004326695,
+          "method_ape": 13.954263120585455
+        },
+        {
+          "held_out": "NA-ion_270040-4-1-48.pkl",
+          "baseline_ae": 62.11552259518923,
+          "baseline_ape": 26.432137274548612,
+          "method_ae": 12.760965530030289,
+          "method_ape": 5.430198097885228
+        },
+        {
+          "held_out": "NA-ion_270040-4-2-47.pkl",
+          "baseline_ae": 23.600341715114443,
+          "baseline_ape": 12.04099067097676,
+          "method_ae": 9.787537882058446,
+          "method_ape": 4.99364177656043
+        },
+        {
+          "held_out": "NA-ion_270040-4-3-46.pkl",
+          "baseline_ae": 55.22471920764162,
+          "baseline_ape": 24.32807013552494,
+          "method_ae": 18.50833376004667,
+          "method_ape": 8.15345099561527
+        },
+        {
+          "held_out": "NA-ion_270040-4-6-43.pkl",
+          "baseline_ae": 31.739714024354786,
+          "baseline_ape": 22.351911284756895,
+          "method_ae": 20.07753395590342,
+          "method_ape": 14.139108419650292
+        },
+        {
+          "held_out": "NA-ion_270040-5-1-39.pkl",
+          "baseline_ae": 48.05222580078681,
+          "baseline_ape": 37.540801406864695,
+          "method_ae": 76.05761999338098,
+          "method_ape": 59.42001561982885
+        },
+        {
+          "held_out": "NA-ion_270040-5-2-38.pkl",
+          "baseline_ae": 54.62436837078429,
+          "baseline_ape": 45.520306975653575,
+          "method_ae": 47.690862396316135,
+          "method_ape": 39.74238533026345
+        },
+        {
+          "held_out": "NA-ion_270040-5-3-37.pkl",
+          "baseline_ae": 82.514794809854,
+          "baseline_ape": 32.35874306268784,
+          "method_ae": 38.242473071424335,
+          "method_ape": 14.997048263303666
+        },
+        {
+          "held_out": "NA-ion_270040-5-5-35.pkl",
+          "baseline_ae": 13.000723642602145,
+          "baseline_ape": 7.222624245890081,
+          "method_ae": 19.387565011424922,
+          "method_ape": 10.770869450791627
+        },
+        {
+          "held_out": "NA-ion_270040-5-6-34.pkl",
+          "baseline_ae": 43.027485355673704,
+          "baseline_ape": 32.84540866845321,
+          "method_ae": 45.874748921895424,
+          "method_ape": 35.0188923067904
+        },
+        {
+          "held_out": "NA-ion_270040-5-7-33.pkl",
+          "baseline_ae": 10.551428961079516,
+          "baseline_ape": 5.961259300044926,
+          "method_ae": 43.16187244245397,
+          "method_ape": 24.385238668053095
+        },
+        {
+          "held_out": "NA-ion_270040-5-8-32.pkl",
+          "baseline_ae": 73.07412790472468,
+          "baseline_ape": 71.64130186737712,
+          "method_ae": 41.90639791827526,
+          "method_ape": 41.08470384144632
+        },
+        {
+          "held_out": "NA-ion_270040-6-2-30.pkl",
+          "baseline_ae": 19.337264565487352,
+          "baseline_ape": 12.556665302264513,
+          "method_ae": 9.142363704328973,
+          "method_ape": 5.936599808005822
+        },
+        {
+          "held_out": "NA-ion_270040-6-6-26.pkl",
+          "baseline_ae": 61.609080083795696,
+          "baseline_ape": 26.555637967153316,
+          "method_ae": 31.82194960669345,
+          "method_ape": 13.716357589091999
+        },
+        {
+          "held_out": "NA-ion_270040-6-8-24.pkl",
+          "baseline_ae": 99.2863533053009,
+          "baseline_ape": 36.90942502055796,
+          "method_ae": 50.64567800567855,
+          "method_ape": 18.827389593189054
+        },
+        {
+          "held_out": "NA-ion_270040-7-1-23.pkl",
+          "baseline_ae": 12.158274325636176,
+          "baseline_ape": 6.680370508591303,
+          "method_ae": 38.795494752724665,
+          "method_ape": 21.31620590809047
+        },
+        {
+          "held_out": "NA-ion_270040-8-5-16.pkl",
+          "baseline_ae": 27.248896161824458,
+          "baseline_ape": 18.41141632555706,
+          "method_ae": 3.2970382810036654,
+          "method_ape": 2.2277285682457193
+        },
+        {
+          "held_out": "NA-ion_4000-30_20250115110206_DefaultGroup_45_1.pkl",
+          "baseline_ae": 55.88800967256097,
+          "baseline_ape": 46.96471401055545,
+          "method_ae": 102.7198167368179,
+          "method_ape": 86.31917372841838
+        },
+        {
+          "held_out": "NA-ion_4500-30_20250114232539_DefaultGroup_45_8.pkl",
+          "baseline_ae": 12.830253862413231,
+          "baseline_ape": 7.823325525861726,
+          "method_ae": 30.89908247178062,
+          "method_ape": 18.840903946207693
+        },
+        {
+          "held_out": "NA-ion_5000-25_20250115110326_DefaultGroup_38_1.pkl",
+          "baseline_ae": 41.0836071695505,
+          "baseline_ape": 30.432301607074443,
+          "method_ae": 68.92092961780851,
+          "method_ape": 51.05254045763591
+        }
+      ]
+    }
+  }
+}

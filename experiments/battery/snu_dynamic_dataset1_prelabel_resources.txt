@@ -1,0 +1,18 @@
+{
+  "command": [
+    "python",
+    "experiments/battery/batterylife_snu_dynamic_blind.py",
+    "prelabel",
+    "--archive",
+    "data/external_blind/snu_dynamic_rul_raw.zip",
+    "--subset",
+    "1",
+    "--output",
+    "experiments/battery/snu_dynamic_dataset1_reproduction_prelabel.json"
+  ],
+  "returncode": 0,
+  "wall_seconds": 74.66869500884786,
+  "child_max_rss_kib": 175056,
+  "stdout": "{\n  \"subset\": 1,\n  \"cells\": 90,\n  \"active_settings\": [\n    \"h50_k3\"\n  ],\n  \"unlabeled_diagnostics\": {\n    \"h10\": {\n      \"protocol_dispersion\": 0.48448140836589537,\n      \"rho\": 0.34402463607311506\n    },\n    \"h20\": {\n      \"protocol_dispersion\": 0.44721360567546625,\n      \"rho\": 0.17008667982184394\n    },\n    \"h50\": {\n      \"protocol_dispersion\": 0.6474264419469958,\n      \"rho\": 0.250092369786443\n    }\n  }\n}\n",
+  "stderr": ""
+}

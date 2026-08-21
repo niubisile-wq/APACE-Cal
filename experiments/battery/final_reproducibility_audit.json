@@ -1,0 +1,127 @@
+{
+  "passed": true,
+  "container_runtime_present": false,
+  "note": "Container build/run is not asserted when no runtime is present; lockfile and Dockerfile are hashed below.",
+  "checks": [
+    {
+      "command": [
+        "/root/miniconda3/bin/python",
+        "/root/819/论文4号/experiments/battery/batterylife_verify_apace_v2_artifacts.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"passed\": true,\n  \"checks\": [\n    {\n      \"check\": \"sha256:METHOD_FREEZE_V2.md\",\n      \"passed\": true,\n      \"expected\": \"2afc722a5a77472b779a112304f616a53df26779d4cfb1151f7089064243d1ba\",\n      \"actual\": \"2afc722a5a77472b779a112304f616a53df26779d4cfb1151f7089064243d1ba\"\n    },\n    {\n      \"check\": \"sha256:CONFIRMATION_FREEZE_SNU.md\",\n      \"passed\": true,\n      \"expected\": \"def4183ec017c12bb0c3bf2f8b1100f0c0961d3b8abb5e485e8316075f69a4c5\",\n      \"actual\": \"def4183ec017c12bb0c3bf2f8b1100f0c0961d3b8abb5e485e8316075f69a4c5\"\n    },\n    {\n      \"check\": \"sha256:experiments/battery/batterylife_asymmetric_cohort_router_v2.py\",\n      \"passed\": true,\n      \"expected\": \"438a0eeff5091e7bc65c2ed79eafafc9100e007c23800630c36adf90f6f9549b\",\n      \"actual\": \"438a0eeff5091e7bc65c2ed79eafafc9100e007c23800630c36adf90f6f9549b\"\n    },\n    {\n      \"check\": \"sha256:experiments/battery/batterylife_asymmetric_cohort_router_v2.json\",\n      \"passed\": true,\n      \"expected\": \"101c0d9b3161fb32c3ac80df8efc2a08089caddea82facfaba68bfbe323bbd65\",\n      \"actual\": \"101c0d9b3161fb32c3ac80df8efc2a08089caddea82facfaba68bfbe323bbd65\"\n    },\n    {\n      \"check\": \"sha256:experiments/battery/batterylife_apace_v2_postblind_audit.json\",\n      \"passed\": true,\n      \"expected\": \"5b83cf7bde0c135aff10c544be909e7a30babf275eca2548440696acfe93daaf\",\n      \"actual\": \"5b83cf7bde0c135aff10c544be909e7a30babf275eca2548440696acfe93daaf\"\n    },\n    {\n      \"check\": \"sha256:experiments/battery/batterylife_snu_dynamic_blind.py\",\n      \"passed\": true,\n      \"expected\": \"b195ddadb59fe8fe0f57232a9f30c941929149db166e2e1ed02b4784beda8e99\",\n      \"actual\": \"b195ddadb59fe8fe0f57232a9f30c941929149db166e2e1ed02b4784beda8e99\"\n    },\n    {\n      \"check\": \"sha256:experiments/battery/snu_dynamic_dataset1_frozen_prelabel_manifest.json\",\n      \"passed\": true,\n      \"expected\": \"a5115c810617f069a6245a2dcfa44c27ddc0e7c558138f2b81edd1813d783095\",\n      \"actual\": \"a5115c810617f069a6245a2dcfa44c27ddc0e7c558138f2b81edd1813d783095\"\n    },\n    {\n      \"check\": \"sha256:experiments/battery/snu_dynamic_dataset1_blind_eval.json\",\n      \"passed\": true,\n      \"expected\": \"655fd2f8bbc829d738635cc6159a66d039069a84dbd8f3507c7ec1f25fa1af7d\",\n      \"actual\": \"655fd2f8bbc829d738635cc6159a66d039069a84dbd8f3507c7ec1f25fa1af7d\"\n    },\n    {\n      \"check\": \"sha256:experiments/battery/snu_dynamic_dataset1_blind_stats.json\",\n      \"passed\": true,\n      \"expected\": \"72d52bd10fbe458dc5e7b45d1f67b8ad5e931f8d2e0624911c9791eb01ca9557\",\n      \"actual\": \"72d52bd10fbe458dc5e7b45d1f67b8ad5e931f8d2e0624911c9791eb01ca9557\"\n    },\n    {\n      \"check\": \"active setting equals frozen H50/K3\",\n      \"passed\": true,\n      \"actual\": [\n        [\n          50,\n          3\n        ]\n      ]\n    },\n    {\n      \"check\": \"active relative improvement >=10%\",\n      \"passed\": true,\n      \"actual\": 30.924600779191206\n    },\n    {\n      \"check\": \"all 11 fallback settings bit-identical\",\n      \"passed\": true\n    },\n    {\n      \"check\": \"manifest declares hard early-information barrier\",\n      \"passed\": true\n    }\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/root/miniconda3/bin/python",
+        "/root/819/论文4号/experiments/battery/verify_experiment_execution_artifacts.py"
+      ],
+      "returncode": 0,
+      "stdout": "tratified_audit.json\",\n      \"passed\": true\n    },\n    {\n      \"check\": \"artifact exists:batterylife_eol_definition_audit.json\",\n      \"passed\": true\n    },\n    {\n      \"check\": \"paper figure manifest exists\",\n      \"passed\": true\n    },\n    {\n      \"check\": \"E0 audit passed\",\n      \"passed\": true\n    },\n    {\n      \"check\": \"NA-ion has twelve blind settings\",\n      \"passed\": true\n    },\n    {\n      \"check\": \"NA-ion zero-dispersion fallback is exact\",\n      \"passed\": true\n    },\n    {\n      \"check\": \"three primary K3 statistical rows\",\n      \"passed\": true\n    },\n    {\n      \"check\": \"primary bootstrap lower bounds positive\",\n      \"passed\": true\n    },\n    {\n      \"check\": \"primary paired tests significant\",\n      \"passed\": true\n    },\n    {\n      \"check\": \"E2 rankboard has rows\",\n      \"passed\": true\n    },\n    {\n      \"check\": \"all rankboard values finite\",\n      \"passed\": true\n    },\n    {\n      \"check\": \"JSON numeric values valid:batterylife_e0_data_audit.json\",\n      \"passed\": true\n    },\n    {\n      \"check\": \"JSON numeric values valid:batterylife_e2_rankboard.json\",\n      \"passed\": true\n    },\n    {\n      \"check\": \"JSON numeric values valid:batterylife_apace_v2_stats.json\",\n      \"passed\": true\n    },\n    {\n      \"check\": \"JSON numeric values valid:batterylife_apace_cost_audit.json\",\n      \"passed\": true\n    },\n    {\n      \"check\": \"JSON numeric values valid:batterylife_apace_v2_curve_missing20.json\",\n      \"passed\": true\n    },\n    {\n      \"check\": \"JSON numeric values valid:batterylife_apace_v2_curve_missing10.json\",\n      \"passed\": true\n    },\n    {\n      \"check\": \"JSON numeric values valid:batterylife_apace_v2_curve_missing30.json\",\n      \"passed\": true\n    },\n    {\n      \"check\": \"JSON numeric values valid:batterylife_apace_v2_curve_noise0.5pct.json\",\n      \"passed\": true\n    },\n    {\n      \"check\": \"JSON numeric values valid:batterylife_apace_v2_curve_noise2pct.json\",\n      \"passed\": true\n    },\n    {\n      \"check\": \"JSON numeric values valid:batterylife_apace_v2_protocol_missing25.json\",\n      \"passed\": true\n    },\n    {\n      \"check\": \"JSON numeric values valid:batterylife_apace_v2_protocol_missing10.json\",\n      \"passed\": true\n    },\n    {\n      \"check\": \"JSON numeric values valid:batterylife_apace_v2_protocol_missing50.json\",\n      \"passed\": true\n    },\n    {\n      \"check\": \"JSON numeric values valid:batterylife_apace_v2_curve_noise1pct.json\",\n      \"passed\": true\n    },\n    {\n      \"check\": \"JSON numeric values valid:batterylife_apace_pbt_fixed_pool_plugin.json\",\n      \"passed\": true\n    },\n    {\n      \"check\": \"JSON numeric values valid:batterylife_apace_classical_backbone_plugin.json\",\n      \"passed\": true\n    },\n    {\n      \"check\": \"JSON numeric values valid:batterylife_apace_support_stability.json\",\n      \"passed\": true\n    },\n    {\n      \"check\": \"JSON numeric values valid:snu_dynamic_dataset1_blind_eval.json\",\n      \"passed\": true\n    },\n    {\n      \"check\": \"JSON numeric values valid:batterylife_naion_prelabel_manifest_v2.json\",\n      \"passed\": true\n    },\n    {\n      \"check\": \"JSON numeric values valid:batterylife_naion_blind_eval_v2.json\",\n      \"passed\": true\n    },\n    {\n      \"check\": \"JSON numeric values valid:batterylife_apace_e4_missing_ablation.json\",\n      \"passed\": true\n    },\n    {\n      \"check\": \"JSON numeric values valid:batterylife_apace_e5_primary_sensitivity.json\",\n      \"passed\": true\n    },\n    {\n      \"check\": \"JSON numeric values valid:batterylife_apace_route_stability_full.json\",\n      \"passed\": true\n    },\n    {\n      \"check\": \"JSON numeric values valid:batterylife_apace_efficiency_audit.json\",\n      \"passed\": true\n    },\n    {\n      \"check\": \"JSON numeric values valid:batterylife_apace_label_queue_robustness.json\",\n      \"passed\": true\n    },\n    {\n      \"check\": \"JSON numeric values valid:batterylife_apace_stratified_audit.json\",\n      \"passed\": true\n    },\n    {\n      \"check\": \"JSON numeric values valid:batterylife_eol_definition_audit.json\",\n      \"passed\": true\n    }\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/root/miniconda3/bin/python",
+        "-m",
+        "compileall",
+        "-q",
+        "/root/819/论文4号/experiments/battery"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "required_files": [
+    {
+      "path": "METHOD_FREEZE_V2.md",
+      "exists": true,
+      "sha256": "2afc722a5a77472b779a112304f616a53df26779d4cfb1151f7089064243d1ba"
+    },
+    {
+      "path": "requirements-battery-experiments.lock",
+      "exists": true,
+      "sha256": "c1ae9d7f822b3498327f00c6c1e474f9774a04d58f6dc764130dd7cb9c3697a7"
+    },
+    {
+      "path": "Dockerfile.battery-experiments",
+      "exists": true,
+      "sha256": "91373b6f225c06d500181918c63e0b958edc9b4915a2010393bfe42ce6f45572"
+    },
+    {
+      "path": "MANUSCRIPT_DRAFT_CN.md",
+      "exists": true,
+      "sha256": "b980a6f3ee9a574fc8c9abcbec356a5c33824d110e5a23dea727a3b7ff7eef5f"
+    },
+    {
+      "path": "experiments/battery/paper_figures/manifest.json",
+      "exists": true,
+      "sha256": "d1f08f8937e70eb58a970007c28837dc6454efc1a5e1c3b4add8373516565112"
+    }
+  ],
+  "lockfile_matches_current_environment": true,
+  "dependencies": [
+    {
+      "package": "numpy",
+      "expected": "2.3.2",
+      "installed": "2.3.2",
+      "match": true
+    },
+    {
+      "package": "scipy",
+      "expected": "1.18.0",
+      "installed": "1.18.0",
+      "match": true
+    },
+    {
+      "package": "scikit-learn",
+      "expected": "1.9.0",
+      "installed": "1.9.0",
+      "match": true
+    },
+    {
+      "package": "pandas",
+      "expected": "2.3.3",
+      "installed": "2.3.3",
+      "match": true
+    },
+    {
+      "package": "matplotlib",
+      "expected": "3.10.5",
+      "installed": "3.10.5",
+      "match": true
+    },
+    {
+      "package": "joblib",
+      "expected": "1.5.3",
+      "installed": "1.5.3",
+      "match": true
+    },
+    {
+      "package": "threadpoolctl",
+      "expected": "3.6.0",
+      "installed": "3.6.0",
+      "match": true
+    },
+    {
+      "package": "pillow",
+      "expected": "11.3.0",
+      "installed": "11.3.0",
+      "match": true
+    },
+    {
+      "package": "python-dateutil",
+      "expected": "2.9.0.post0",
+      "installed": "2.9.0.post0",
+      "match": true
+    },
+    {
+      "package": "six",
+      "expected": "1.17.0",
+      "installed": "1.17.0",
+      "match": true
+    }
+  ]
+}

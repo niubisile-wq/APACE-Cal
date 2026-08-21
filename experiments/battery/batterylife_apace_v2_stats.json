@@ -1,0 +1,330 @@
+{
+  "source": "batterylife_asymmetric_cohort_router_v2.json",
+  "unit": "one prediction per cell; domain macro first; paired hierarchical domain/cell bootstrap",
+  "multiple_comparison_plan": "H50/K3 primary; remaining 11 settings secondary and Holm-corrected",
+  "results": {
+    "h10_k1": {
+      "macro_baseline_mape": 78.03057156465657,
+      "macro_method_mape": 78.03057156465657,
+      "relative_reduction_percent": 0.0,
+      "hierarchical_ci95_percent": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_probability_nonpositive": 1.0,
+      "pooled_cell_wilcoxon_p": 1.0,
+      "domain_relative_reductions_percent": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "improved_same_worse_domains": [
+        0,
+        6,
+        0
+      ],
+      "n_domains": 6,
+      "n_cells": 155,
+      "holm_p_upper_bound": 1.0
+    },
+    "h10_k3": {
+      "macro_baseline_mape": 43.286276868289995,
+      "macro_method_mape": 24.27726689895908,
+      "relative_reduction_percent": 19.696082796646674,
+      "hierarchical_ci95_percent": [
+        0.9173097040793364,
+        70.3779652898482
+      ],
+      "bootstrap_probability_nonpositive": 0.0231,
+      "pooled_cell_wilcoxon_p": 4.3581985230376654e-08,
+      "domain_relative_reductions_percent": [
+        80.73135812030323,
+        0.0,
+        17.673712108162565,
+        0.0,
+        0.0,
+        19.77142655141425
+      ],
+      "improved_same_worse_domains": [
+        3,
+        3,
+        0
+      ],
+      "n_domains": 6,
+      "n_cells": 155,
+      "holm_p_upper_bound": 4.3581985230376654e-07
+    },
+    "h10_k5": {
+      "macro_baseline_mape": 33.85362858087627,
+      "macro_method_mape": 23.69488970123346,
+      "relative_reduction_percent": 12.264901540518979,
+      "hierarchical_ci95_percent": [
+        0.0,
+        61.7830062522661
+      ],
+      "bootstrap_probability_nonpositive": 0.3259,
+      "pooled_cell_wilcoxon_p": 7.366569781092995e-05,
+      "domain_relative_reductions_percent": [
+        73.58940924311388,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "improved_same_worse_domains": [
+        1,
+        5,
+        0
+      ],
+      "n_domains": 6,
+      "n_cells": 155,
+      "holm_p_upper_bound": 0.0005156598846765097
+    },
+    "h10_k10": {
+      "macro_baseline_mape": 27.031493089137456,
+      "macro_method_mape": 20.934936666987685,
+      "relative_reduction_percent": 11.33516258759434,
+      "hierarchical_ci95_percent": [
+        0.0,
+        53.59663831260679
+      ],
+      "bootstrap_probability_nonpositive": 0.331,
+      "pooled_cell_wilcoxon_p": 0.0002604088128417571,
+      "domain_relative_reductions_percent": [
+        68.01097552556604,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "improved_same_worse_domains": [
+        1,
+        5,
+        0
+      ],
+      "n_domains": 6,
+      "n_cells": 155,
+      "holm_p_upper_bound": 0.0015624528770505426
+    },
+    "h20_k1": {
+      "macro_baseline_mape": 74.13447703726348,
+      "macro_method_mape": 74.13447703726348,
+      "relative_reduction_percent": 0.0,
+      "hierarchical_ci95_percent": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_probability_nonpositive": 1.0,
+      "pooled_cell_wilcoxon_p": 1.0,
+      "domain_relative_reductions_percent": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "improved_same_worse_domains": [
+        0,
+        6,
+        0
+      ],
+      "n_domains": 6,
+      "n_cells": 155,
+      "holm_p_upper_bound": 1.0
+    },
+    "h20_k3": {
+      "macro_baseline_mape": 44.44869213312489,
+      "macro_method_mape": 22.46910971874686,
+      "relative_reduction_percent": 21.099322336704414,
+      "hierarchical_ci95_percent": [
+        2.8823258840193735,
+        76.14215778565989
+      ],
+      "bootstrap_probability_nonpositive": 0.0201,
+      "pooled_cell_wilcoxon_p": 5.089550246663145e-10,
+      "domain_relative_reductions_percent": [
+        85.45763298596776,
+        0.0,
+        17.002510028596394,
+        0.0,
+        0.0,
+        24.135791005662337
+      ],
+      "improved_same_worse_domains": [
+        3,
+        3,
+        0
+      ],
+      "n_domains": 6,
+      "n_cells": 155,
+      "holm_p_upper_bound": 5.59850527132946e-09
+    },
+    "h20_k5": {
+      "macro_baseline_mape": 33.65970557530451,
+      "macro_method_mape": 22.900205997692865,
+      "relative_reduction_percent": 13.17840297082462,
+      "hierarchical_ci95_percent": [
+        0.0,
+        65.70530530749535
+      ],
+      "bootstrap_probability_nonpositive": 0.3382,
+      "pooled_cell_wilcoxon_p": 6.659060245127125e-05,
+      "domain_relative_reductions_percent": [
+        79.07041782494773,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "improved_same_worse_domains": [
+        1,
+        5,
+        0
+      ],
+      "n_domains": 6,
+      "n_cells": 155,
+      "holm_p_upper_bound": 0.00053272481961017
+    },
+    "h20_k10": {
+      "macro_baseline_mape": 28.71752083109762,
+      "macro_method_mape": 21.238427629259956,
+      "relative_reduction_percent": 12.383291410809209,
+      "hierarchical_ci95_percent": [
+        0.0,
+        59.57321265977317
+      ],
+      "bootstrap_probability_nonpositive": 0.3304,
+      "pooled_cell_wilcoxon_p": 2.353592662196361e-05,
+      "domain_relative_reductions_percent": [
+        74.29974846485526,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "improved_same_worse_domains": [
+        1,
+        5,
+        0
+      ],
+      "n_domains": 6,
+      "n_cells": 155,
+      "holm_p_upper_bound": 0.00021182333959767247
+    },
+    "h50_k1": {
+      "macro_baseline_mape": 80.0138093198553,
+      "macro_method_mape": 80.0138093198553,
+      "relative_reduction_percent": 0.0,
+      "hierarchical_ci95_percent": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_probability_nonpositive": 1.0,
+      "pooled_cell_wilcoxon_p": 1.0,
+      "domain_relative_reductions_percent": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "improved_same_worse_domains": [
+        0,
+        6,
+        0
+      ],
+      "n_domains": 6,
+      "n_cells": 155,
+      "holm_p_upper_bound": 1.0
+    },
+    "h50_k3": {
+      "macro_baseline_mape": 48.53519919661475,
+      "macro_method_mape": 22.942158458396136,
+      "relative_reduction_percent": 21.451205112718977,
+      "hierarchical_ci95_percent": [
+        0.8609320679254351,
+        76.66250597818838
+      ],
+      "bootstrap_probability_nonpositive": 0.0232,
+      "pooled_cell_wilcoxon_p": 9.130283470945498e-09,
+      "domain_relative_reductions_percent": [
+        84.011455097332,
+        0.0,
+        14.51038693368586,
+        0.0,
+        0.0,
+        30.185388645295994
+      ],
+      "improved_same_worse_domains": [
+        3,
+        3,
+        0
+      ],
+      "n_domains": 6,
+      "n_cells": 155
+    },
+    "h50_k5": {
+      "macro_baseline_mape": 31.032952332838807,
+      "macro_method_mape": 21.509738954904652,
+      "relative_reduction_percent": 12.983111365824657,
+      "hierarchical_ci95_percent": [
+        0.0,
+        65.3717005599042
+      ],
+      "bootstrap_probability_nonpositive": 0.339,
+      "pooled_cell_wilcoxon_p": 0.025461702630548314,
+      "domain_relative_reductions_percent": [
+        77.89866819494794,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "improved_same_worse_domains": [
+        1,
+        5,
+        0
+      ],
+      "n_domains": 6,
+      "n_cells": 155,
+      "holm_p_upper_bound": 0.12730851315274158
+    },
+    "h50_k10": {
+      "macro_baseline_mape": 23.559062574425894,
+      "macro_method_mape": 18.62387495689663,
+      "relative_reduction_percent": 11.21448466905285,
+      "hierarchical_ci95_percent": [
+        0.0,
+        53.4904045916003
+      ],
+      "bootstrap_probability_nonpositive": 0.3274,
+      "pooled_cell_wilcoxon_p": 0.04358085639260924,
+      "domain_relative_reductions_percent": [
+        67.28690801431709,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "improved_same_worse_domains": [
+        1,
+        5,
+        0
+      ],
+      "n_domains": 6,
+      "n_cells": 155,
+      "holm_p_upper_bound": 0.17432342557043695
+    }
+  }
+}

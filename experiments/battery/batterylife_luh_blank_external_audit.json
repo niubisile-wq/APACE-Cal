@@ -1,0 +1,19 @@
+{
+  "dataset": "Luh-Blank NMC/C-SiO result-data v2",
+  "source": "KIT RADAR DOI 10.35097/1969",
+  "pre_registered_role": "external_candidate_BC",
+  "archive": "/autodl-fs/data/battery_external_luh_blank/result_v2/luh_result_v2.tar",
+  "archive_sha256": "not_recorded_in_workspace_manifest",
+  "archive_size_bytes": 333400000,
+  "inspection": {
+    "eocv_csv_files": 240,
+    "pls_csv_files": 228,
+    "eocv_max_checkup_index": 28,
+    "pls_observed_cyc_charged_range_in_representative_files": [0, 2],
+    "has_raw_first_50_cycle_curve_for_at_least_30_cells": false,
+    "has_common_official_eol_label_usable_for_apace": false
+  },
+  "decision": "technical_failure",
+  "failure_reason": "The result-data archive contains checkup/EOCV records and short pulse-load streams, but does not expose the required first-50-cycle curve and a common cell-level EOL label under the frozen APACE input contract.",
+  "action": "Excluded before label-based modeling; no threshold relaxation, cell dropping, or post-hoc conversion was performed."
+}

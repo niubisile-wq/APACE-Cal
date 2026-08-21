@@ -1,0 +1,1342 @@
+{
+  "phase": "SNU_DYNAMIC_ONE_SHOT_EVALUATION",
+  "manifest": "experiments/battery/snu_dynamic_dataset2_dryrun_prelabel.json",
+  "manifest_sha256": "84b3673d844ea4357ff1f7e6660e4d90ed31b4cf090c6c34cfceec67a913330a",
+  "subset": 2,
+  "eol_definition": "maximum numeric TotCycle",
+  "active_settings_frozen_prelabel": [],
+  "results": [
+    {
+      "horizon": 10,
+      "label_budget_k": 1,
+      "protocol_dispersion": 0.44721806762100585,
+      "route_counts": {
+        "fallback_medium_protocol_dispersion": 100
+      },
+      "baseline": {
+        "mae": 4.536919859158759,
+        "mape": 0.4267620160322372,
+        "n_cells": 12
+      },
+      "method": {
+        "mae": 4.536919859158759,
+        "mape": 0.4267620160322372,
+        "n_cells": 12
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        12,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "Fast_01.csv",
+          "baseline_ape": 0.0519696497245644,
+          "method_ape": 0.0519696497245644,
+          "baseline_ae": 0.5555555555555934,
+          "method_ae": 0.5555555555555934
+        },
+        {
+          "held_out": "Fast_02.csv",
+          "baseline_ape": 0.22866645878807013,
+          "method_ape": 0.22866645878807013,
+          "baseline_ae": 2.4444444444444695,
+          "method_ae": 2.4444444444444695
+        },
+        {
+          "held_out": "Fast_03.csv",
+          "baseline_ape": 0.5644402634054532,
+          "method_ape": 0.5644402634054532,
+          "baseline_ae": 5.999999999999965,
+          "method_ae": 5.999999999999965
+        },
+        {
+          "held_out": "Fast_04.csv",
+          "baseline_ape": 0.16214530714063696,
+          "method_ape": 0.16214530714063696,
+          "baseline_ae": 1.733333333333409,
+          "method_ae": 1.733333333333409
+        },
+        {
+          "held_out": "Fast_05.csv",
+          "baseline_ape": 0.8411949685534564,
+          "method_ape": 0.8411949685534564,
+          "baseline_ae": 8.916666666666638,
+          "method_ae": 8.916666666666638
+        },
+        {
+          "held_out": "Fast_06.csv",
+          "baseline_ape": 0.4121188705367239,
+          "method_ape": 0.4121188705367239,
+          "baseline_ae": 4.413793103448315,
+          "method_ae": 4.413793103448315
+        },
+        {
+          "held_out": "Slow_01.csv",
+          "baseline_ape": 0.22369544881441783,
+          "method_ape": 0.22369544881441783,
+          "baseline_ae": 2.3913043478261264,
+          "method_ae": 2.3913043478261264
+        },
+        {
+          "held_out": "Slow_02.csv",
+          "baseline_ape": 0.3903099900003292,
+          "method_ape": 0.3903099900003292,
+          "baseline_ae": 4.172413793103519,
+          "method_ae": 4.172413793103519
+        },
+        {
+          "held_out": "Slow_03.csv",
+          "baseline_ape": 0.28843155597131626,
+          "method_ape": 0.28843155597131626,
+          "baseline_ae": 3.0833333333333712,
+          "method_ae": 3.0833333333333712
+        },
+        {
+          "held_out": "Slow_04.csv",
+          "baseline_ape": 0.40447815095702505,
+          "method_ape": 0.40447815095702505,
+          "baseline_ae": 4.307692307692316,
+          "method_ae": 4.307692307692316
+        },
+        {
+          "held_out": "Slow_05.csv",
+          "baseline_ape": 1.2298826340572022,
+          "method_ape": 1.2298826340572022,
+          "baseline_ae": 12.962962962962912,
+          "method_ae": 12.962962962962912
+        },
+        {
+          "held_out": "Slow_06.csv",
+          "baseline_ape": 0.32381089443765,
+          "method_ape": 0.32381089443765,
+          "baseline_ae": 3.461538461538479,
+          "method_ae": 3.461538461538479
+        }
+      ]
+    },
+    {
+      "horizon": 10,
+      "label_budget_k": 3,
+      "protocol_dispersion": 0.44721806762100585,
+      "route_counts": {
+        "fallback_medium_protocol_dispersion": 100
+      },
+      "baseline": {
+        "mae": 5.5939009449168156,
+        "mape": 0.5256562473710032,
+        "n_cells": 12
+      },
+      "method": {
+        "mae": 5.5939009449168156,
+        "mape": 0.5256562473710032,
+        "n_cells": 12
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        12,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "Fast_01.csv",
+          "baseline_ape": 0.3086997193639099,
+          "method_ape": 0.3086997193639099,
+          "baseline_ae": 3.300000000000197,
+          "method_ae": 3.300000000000197
+        },
+        {
+          "held_out": "Fast_02.csv",
+          "baseline_ape": 0.3835257940445312,
+          "method_ape": 0.3835257940445312,
+          "baseline_ae": 4.099890738336039,
+          "method_ae": 4.099890738336039
+        },
+        {
+          "held_out": "Fast_03.csv",
+          "baseline_ape": 0.5050145332387272,
+          "method_ape": 0.5050145332387272,
+          "baseline_ae": 5.368304488327672,
+          "method_ae": 5.368304488327672
+        },
+        {
+          "held_out": "Fast_04.csv",
+          "baseline_ape": 0.581362830574241,
+          "method_ape": 0.581362830574241,
+          "baseline_ae": 6.214768658838636,
+          "method_ae": 6.214768658838636
+        },
+        {
+          "held_out": "Fast_05.csv",
+          "baseline_ape": 0.6886670367380223,
+          "method_ape": 0.6886670367380223,
+          "baseline_ae": 7.299870589423038,
+          "method_ae": 7.299870589423038
+        },
+        {
+          "held_out": "Fast_06.csv",
+          "baseline_ape": 0.5499134711053779,
+          "method_ape": 0.5499134711053779,
+          "baseline_ae": 5.8895732755385986,
+          "method_ae": 5.8895732755385986
+        },
+        {
+          "held_out": "Slow_01.csv",
+          "baseline_ape": 0.5026629122091072,
+          "method_ape": 0.5026629122091072,
+          "baseline_ae": 5.373466531515358,
+          "method_ae": 5.373466531515358
+        },
+        {
+          "held_out": "Slow_02.csv",
+          "baseline_ape": 0.31181789834737755,
+          "method_ape": 0.31181789834737755,
+          "baseline_ae": 3.333333333333466,
+          "method_ae": 3.333333333333466
+        },
+        {
+          "held_out": "Slow_03.csv",
+          "baseline_ape": 0.2845338322419733,
+          "method_ape": 0.2845338322419733,
+          "baseline_ae": 3.041666666666695,
+          "method_ae": 3.041666666666695
+        },
+        {
+          "held_out": "Slow_04.csv",
+          "baseline_ape": 0.3728384205871822,
+          "method_ape": 0.3728384205871822,
+          "baseline_ae": 3.970729179253491,
+          "method_ae": 3.970729179253491
+        },
+        {
+          "held_out": "Slow_05.csv",
+          "baseline_ape": 1.3878393403224378,
+          "method_ape": 1.3878393403224378,
+          "baseline_ae": 14.627826646998493,
+          "method_ae": 14.627826646998493
+        },
+        {
+          "held_out": "Slow_06.csv",
+          "baseline_ape": 0.4309991796791505,
+          "method_ape": 0.4309991796791505,
+          "baseline_ae": 4.607381230770118,
+          "method_ae": 4.607381230770118
+        }
+      ]
+    },
+    {
+      "horizon": 10,
+      "label_budget_k": 5,
+      "protocol_dispersion": 0.44721806762100585,
+      "route_counts": {
+        "fallback_medium_protocol_dispersion": 100
+      },
+      "baseline": {
+        "mae": 5.023515300630257,
+        "mape": 0.4721427986844738,
+        "n_cells": 12
+      },
+      "method": {
+        "mae": 5.023515300630257,
+        "mape": 0.4721427986844738,
+        "n_cells": 12
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        12,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "Fast_01.csv",
+          "baseline_ape": 0.1726991437000898,
+          "method_ape": 0.1726991437000898,
+          "baseline_ae": 1.84615384615396,
+          "method_ae": 1.84615384615396
+        },
+        {
+          "held_out": "Fast_02.csv",
+          "baseline_ape": 0.35724874386669825,
+          "method_ape": 0.35724874386669825,
+          "baseline_ae": 3.8189890719350035,
+          "method_ae": 3.8189890719350035
+        },
+        {
+          "held_out": "Fast_03.csv",
+          "baseline_ape": 0.33953073211859436,
+          "method_ape": 0.33953073211859436,
+          "baseline_ae": 3.6092116824206566,
+          "method_ae": 3.6092116824206566
+        },
+        {
+          "held_out": "Fast_04.csv",
+          "baseline_ape": 0.7089842795122433,
+          "method_ape": 0.7089842795122433,
+          "baseline_ae": 7.579041947985881,
+          "method_ae": 7.579041947985881
+        },
+        {
+          "held_out": "Fast_05.csv",
+          "baseline_ape": 0.5540188521736963,
+          "method_ape": 0.5540188521736963,
+          "baseline_ae": 5.87259983304118,
+          "method_ae": 5.87259983304118
+        },
+        {
+          "held_out": "Fast_06.csv",
+          "baseline_ape": 0.6612144123336321,
+          "method_ape": 0.6612144123336321,
+          "baseline_ae": 7.0816063560932,
+          "method_ae": 7.0816063560932
+        },
+        {
+          "held_out": "Slow_01.csv",
+          "baseline_ape": 0.424900975708607,
+          "method_ape": 0.424900975708607,
+          "baseline_ae": 4.542191430325008,
+          "method_ae": 4.542191430325008
+        },
+        {
+          "held_out": "Slow_02.csv",
+          "baseline_ape": 0.09354536950421856,
+          "method_ape": 0.09354536950421856,
+          "baseline_ae": 1.0000000000000961,
+          "method_ae": 1.0000000000000961
+        },
+        {
+          "held_out": "Slow_03.csv",
+          "baseline_ape": 0.28843155597131626,
+          "method_ape": 0.28843155597131626,
+          "baseline_ae": 3.0833333333333712,
+          "method_ae": 3.0833333333333712
+        },
+        {
+          "held_out": "Slow_04.csv",
+          "baseline_ape": 0.24846196444440538,
+          "method_ape": 0.24846196444440538,
+          "baseline_ae": 2.6461199213329176,
+          "method_ae": 2.6461199213329176
+        },
+        {
+          "held_out": "Slow_05.csv",
+          "baseline_ape": 1.448979178182411,
+          "method_ape": 1.448979178182411,
+          "baseline_ae": 15.272240538042613,
+          "method_ae": 15.272240538042613
+        },
+        {
+          "held_out": "Slow_06.csv",
+          "baseline_ape": 0.36769837669777333,
+          "method_ape": 0.36769837669777333,
+          "baseline_ae": 3.9306956468991965,
+          "method_ae": 3.9306956468991965
+        }
+      ]
+    },
+    {
+      "horizon": 10,
+      "label_budget_k": 10,
+      "protocol_dispersion": 0.44721806762100585,
+      "route_counts": {
+        "fallback_medium_protocol_dispersion": 100
+      },
+      "baseline": {
+        "mae": 4.726914953089176,
+        "mape": 0.4442699404417103,
+        "n_cells": 12
+      },
+      "method": {
+        "mae": 4.726914953089176,
+        "mape": 0.4442699404417103,
+        "n_cells": 12
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        12,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "Fast_01.csv",
+          "baseline_ape": 0.022010675177463572,
+          "method_ape": 0.022010675177463572,
+          "baseline_ae": 0.23529411764708558,
+          "method_ae": 0.23529411764708558
+        },
+        {
+          "held_out": "Fast_02.csv",
+          "baseline_ape": 0.41976021153107645,
+          "method_ape": 0.41976021153107645,
+          "baseline_ae": 4.4872366612672066,
+          "method_ae": 4.4872366612672066
+        },
+        {
+          "held_out": "Fast_03.csv",
+          "baseline_ape": 0.28483631215689914,
+          "method_ape": 0.28483631215689914,
+          "baseline_ae": 3.0278099982278377,
+          "method_ae": 3.0278099982278377
+        },
+        {
+          "held_out": "Fast_04.csv",
+          "baseline_ape": 1.154941822526651,
+          "method_ape": 1.154941822526651,
+          "baseline_ae": 12.346328082809903,
+          "method_ae": 12.346328082809903
+        },
+        {
+          "held_out": "Fast_05.csv",
+          "baseline_ape": 0.48426403515479705,
+          "method_ape": 0.48426403515479705,
+          "baseline_ae": 5.133198772640848,
+          "method_ae": 5.133198772640848
+        },
+        {
+          "held_out": "Fast_06.csv",
+          "baseline_ape": 0.7201926796923989,
+          "method_ape": 0.7201926796923989,
+          "baseline_ae": 7.713263599505591,
+          "method_ae": 7.713263599505591
+        },
+        {
+          "held_out": "Slow_01.csv",
+          "baseline_ape": 0.36354091624677093,
+          "method_ape": 0.36354091624677093,
+          "baseline_ae": 3.8862523946779817,
+          "method_ae": 3.8862523946779817
+        },
+        {
+          "held_out": "Slow_02.csv",
+          "baseline_ape": 0.03118178983474006,
+          "method_ape": 0.03118178983474006,
+          "baseline_ae": 0.33333333333337123,
+          "method_ae": 0.33333333333337123
+        },
+        {
+          "held_out": "Slow_03.csv",
+          "baseline_ape": 0.0,
+          "method_ape": 0.0,
+          "baseline_ae": 0.0,
+          "method_ae": 0.0
+        },
+        {
+          "held_out": "Slow_04.csv",
+          "baseline_ape": 0.08423772862325077,
+          "method_ape": 0.08423772862325077,
+          "baseline_ae": 0.8971318098376206,
+          "method_ae": 0.8971318098376206
+        },
+        {
+          "held_out": "Slow_05.csv",
+          "baseline_ape": 1.455526168986994,
+          "method_ape": 1.455526168986994,
+          "baseline_ae": 15.34124582112292,
+          "method_ae": 15.34124582112292
+        },
+        {
+          "held_out": "Slow_06.csv",
+          "baseline_ape": 0.3107469453694811,
+          "method_ape": 0.3107469453694811,
+          "baseline_ae": 3.3218848459997528,
+          "method_ae": 3.3218848459997528
+        }
+      ]
+    },
+    {
+      "horizon": 20,
+      "label_budget_k": 1,
+      "protocol_dispersion": 0.4472143409329701,
+      "route_counts": {
+        "fallback_medium_protocol_dispersion": 100
+      },
+      "baseline": {
+        "mae": 5.052299583692515,
+        "mape": 0.4750248741439664,
+        "n_cells": 12
+      },
+      "method": {
+        "mae": 5.052299583692515,
+        "mape": 0.4750248741439664,
+        "n_cells": 12
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        12,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "Fast_01.csv",
+          "baseline_ape": 0.3310066920918249,
+          "method_ape": 0.3310066920918249,
+          "baseline_ae": 3.5384615384616085,
+          "method_ae": 3.5384615384616085
+        },
+        {
+          "held_out": "Fast_02.csv",
+          "baseline_ape": 0.22647826301019486,
+          "method_ape": 0.22647826301019486,
+          "baseline_ae": 2.4210526315789833,
+          "method_ae": 2.4210526315789833
+        },
+        {
+          "held_out": "Fast_03.csv",
+          "baseline_ape": 0.5719661335841838,
+          "method_ape": 0.5719661335841838,
+          "baseline_ae": 6.079999999999873,
+          "method_ae": 6.079999999999873
+        },
+        {
+          "held_out": "Fast_04.csv",
+          "baseline_ape": 0.38754510223172456,
+          "method_ape": 0.38754510223172456,
+          "baseline_ae": 4.142857142857134,
+          "method_ae": 4.142857142857134
+        },
+        {
+          "held_out": "Fast_05.csv",
+          "baseline_ape": 0.761455525606461,
+          "method_ape": 0.761455525606461,
+          "baseline_ae": 8.07142857142849,
+          "method_ae": 8.07142857142849
+        },
+        {
+          "held_out": "Fast_06.csv",
+          "baseline_ape": 0.3688141923436116,
+          "method_ape": 0.3688141923436116,
+          "baseline_ae": 3.9500000000000797,
+          "method_ae": 3.9500000000000797
+        },
+        {
+          "held_out": "Slow_01.csv",
+          "baseline_ape": 0.31805425631431594,
+          "method_ape": 0.31805425631431594,
+          "baseline_ae": 3.400000000000038,
+          "method_ae": 3.400000000000038
+        },
+        {
+          "held_out": "Slow_02.csv",
+          "baseline_ape": 0.37418147801684454,
+          "method_ape": 0.37418147801684454,
+          "baseline_ae": 4.0000000000000675,
+          "method_ae": 4.0000000000000675
+        },
+        {
+          "held_out": "Slow_03.csv",
+          "baseline_ape": 0.2954064300133011,
+          "method_ape": 0.2954064300133011,
+          "baseline_ae": 3.1578947368421892,
+          "method_ae": 3.1578947368421892
+        },
+        {
+          "held_out": "Slow_04.csv",
+          "baseline_ape": 0.5842462180490302,
+          "method_ape": 0.5842462180490302,
+          "baseline_ae": 6.222222222222172,
+          "method_ae": 6.222222222222172
+        },
+        {
+          "held_out": "Slow_05.csv",
+          "baseline_ape": 1.2650221378874096,
+          "method_ape": 1.2650221378874096,
+          "baseline_ae": 13.3333333333333,
+          "method_ae": 13.3333333333333
+        },
+        {
+          "held_out": "Slow_06.csv",
+          "baseline_ape": 0.21612206057869393,
+          "method_ape": 0.21612206057869393,
+          "baseline_ae": 2.3103448275862384,
+          "method_ae": 2.3103448275862384
+        }
+      ]
+    },
+    {
+      "horizon": 20,
+      "label_budget_k": 3,
+      "protocol_dispersion": 0.4472143409329701,
+      "route_counts": {
+        "fallback_medium_protocol_dispersion": 100
+      },
+      "baseline": {
+        "mae": 5.005216898151462,
+        "mape": 0.47052171209851584,
+        "n_cells": 12
+      },
+      "method": {
+        "mae": 5.005216898151462,
+        "mape": 0.47052171209851584,
+        "n_cells": 12
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        12,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "Fast_01.csv",
+          "baseline_ape": 0.2884579036053013,
+          "method_ape": 0.2884579036053013,
+          "baseline_ae": 3.083614989540671,
+          "method_ae": 3.083614989540671
+        },
+        {
+          "held_out": "Fast_02.csv",
+          "baseline_ape": 0.34987438281372873,
+          "method_ape": 0.34987438281372873,
+          "baseline_ae": 3.74015715227876,
+          "method_ae": 3.74015715227876
+        },
+        {
+          "held_out": "Fast_03.csv",
+          "baseline_ape": 0.4730641687158275,
+          "method_ape": 0.4730641687158275,
+          "baseline_ae": 5.028672113449246,
+          "method_ae": 5.028672113449246
+        },
+        {
+          "held_out": "Fast_04.csv",
+          "baseline_ape": 0.46584188116493813,
+          "method_ape": 0.46584188116493813,
+          "baseline_ae": 4.979849709653189,
+          "method_ae": 4.979849709653189
+        },
+        {
+          "held_out": "Fast_05.csv",
+          "baseline_ape": 0.7292734415240082,
+          "method_ape": 0.7292734415240082,
+          "baseline_ae": 7.730298480154488,
+          "method_ae": 7.730298480154488
+        },
+        {
+          "held_out": "Fast_06.csv",
+          "baseline_ape": 0.46113796686299524,
+          "method_ape": 0.46113796686299524,
+          "baseline_ae": 4.938787625102679,
+          "method_ae": 4.938787625102679
+        },
+        {
+          "held_out": "Slow_01.csv",
+          "baseline_ape": 0.30893033296362993,
+          "method_ape": 0.30893033296362993,
+          "baseline_ae": 3.302465259381203,
+          "method_ae": 3.302465259381203
+        },
+        {
+          "held_out": "Slow_02.csv",
+          "baseline_ape": 0.37360799325807054,
+          "method_ape": 0.37360799325807054,
+          "baseline_ae": 3.9938694479287733,
+          "method_ae": 3.9938694479287733
+        },
+        {
+          "held_out": "Slow_03.csv",
+          "baseline_ape": 0.27284066105394716,
+          "method_ape": 0.27284066105394716,
+          "baseline_ae": 2.916666666666695,
+          "method_ae": 2.916666666666695
+        },
+        {
+          "held_out": "Slow_04.csv",
+          "baseline_ape": 0.3187412994875571,
+          "method_ape": 0.3187412994875571,
+          "baseline_ae": 3.394594839542483,
+          "method_ae": 3.394594839542483
+        },
+        {
+          "held_out": "Slow_05.csv",
+          "baseline_ape": 1.3225139845181442,
+          "method_ape": 1.3225139845181442,
+          "baseline_ae": 13.939297396821237,
+          "method_ae": 13.939297396821237
+        },
+        {
+          "held_out": "Slow_06.csv",
+          "baseline_ape": 0.28197652921404254,
+          "method_ape": 0.28197652921404254,
+          "baseline_ae": 3.014329097298114,
+          "method_ae": 3.014329097298114
+        }
+      ]
+    },
+    {
+      "horizon": 20,
+      "label_budget_k": 5,
+      "protocol_dispersion": 0.4472143409329701,
+      "route_counts": {
+        "fallback_medium_protocol_dispersion": 100
+      },
+      "baseline": {
+        "mae": 5.14344275802051,
+        "mape": 0.4835621716352947,
+        "n_cells": 12
+      },
+      "method": {
+        "mae": 5.14344275802051,
+        "mape": 0.4835621716352947,
+        "n_cells": 12
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        12,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "Fast_01.csv",
+          "baseline_ape": 0.2923086191707272,
+          "method_ape": 0.2923086191707272,
+          "baseline_ae": 3.124779138935074,
+          "method_ae": 3.124779138935074
+        },
+        {
+          "held_out": "Fast_02.csv",
+          "baseline_ape": 0.35872639517627347,
+          "method_ape": 0.35872639517627347,
+          "baseline_ae": 3.8347851644343627,
+          "method_ae": 3.8347851644343627
+        },
+        {
+          "held_out": "Fast_03.csv",
+          "baseline_ape": 0.5026542707123165,
+          "method_ape": 0.5026542707123165,
+          "baseline_ae": 5.343214897671924,
+          "method_ae": 5.343214897671924
+        },
+        {
+          "held_out": "Fast_04.csv",
+          "baseline_ape": 0.5183257512470335,
+          "method_ape": 0.5183257512470335,
+          "baseline_ae": 5.540902280830789,
+          "method_ae": 5.540902280830789
+        },
+        {
+          "held_out": "Fast_05.csv",
+          "baseline_ape": 0.7158479332262513,
+          "method_ape": 0.7158479332262513,
+          "baseline_ae": 7.587988092198265,
+          "method_ae": 7.587988092198265
+        },
+        {
+          "held_out": "Fast_06.csv",
+          "baseline_ape": 0.5658642705735171,
+          "method_ape": 0.5658642705735171,
+          "baseline_ae": 6.060406337842367,
+          "method_ae": 6.060406337842367
+        },
+        {
+          "held_out": "Slow_01.csv",
+          "baseline_ape": 0.35102759109262216,
+          "method_ape": 0.35102759109262216,
+          "baseline_ae": 3.752484948780131,
+          "method_ae": 3.752484948780131
+        },
+        {
+          "held_out": "Slow_02.csv",
+          "baseline_ape": 0.32064910575189615,
+          "method_ape": 0.32064910575189615,
+          "baseline_ae": 3.427738940487769,
+          "method_ae": 3.427738940487769
+        },
+        {
+          "held_out": "Slow_03.csv",
+          "baseline_ape": 0.3442469597754903,
+          "method_ape": 0.3442469597754903,
+          "baseline_ae": 3.679999999999991,
+          "method_ae": 3.679999999999991
+        },
+        {
+          "held_out": "Slow_04.csv",
+          "baseline_ape": 0.24070948294196118,
+          "method_ape": 0.24070948294196118,
+          "baseline_ae": 2.563555993331887,
+          "method_ae": 2.563555993331887
+        },
+        {
+          "held_out": "Slow_05.csv",
+          "baseline_ape": 1.4476374466013096,
+          "method_ape": 1.4476374466013096,
+          "baseline_ae": 15.258098687177803,
+          "method_ae": 15.258098687177803
+        },
+        {
+          "held_out": "Slow_06.csv",
+          "baseline_ape": 0.14474823335413878,
+          "method_ape": 0.14474823335413878,
+          "baseline_ae": 1.5473586145557436,
+          "method_ae": 1.5473586145557436
+        }
+      ]
+    },
+    {
+      "horizon": 20,
+      "label_budget_k": 10,
+      "protocol_dispersion": 0.4472143409329701,
+      "route_counts": {
+        "fallback_medium_protocol_dispersion": 100
+      },
+      "baseline": {
+        "mae": 4.520087965399262,
+        "mape": 0.42522610802237376,
+        "n_cells": 12
+      },
+      "method": {
+        "mae": 4.520087965399262,
+        "mape": 0.42522610802237376,
+        "n_cells": 12
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        12,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "Fast_01.csv",
+          "baseline_ape": 0.2259236697786025,
+          "method_ape": 0.2259236697786025,
+          "baseline_ae": 2.4151240299332613,
+          "method_ae": 2.4151240299332613
+        },
+        {
+          "held_out": "Fast_02.csv",
+          "baseline_ape": 0.3160468713069465,
+          "method_ape": 0.3160468713069465,
+          "baseline_ae": 3.3785410542712575,
+          "method_ae": 3.3785410542712575
+        },
+        {
+          "held_out": "Fast_03.csv",
+          "baseline_ape": 0.55686453446647,
+          "method_ape": 0.55686453446647,
+          "baseline_ae": 5.919470001378575,
+          "method_ae": 5.919470001378575
+        },
+        {
+          "held_out": "Fast_04.csv",
+          "baseline_ape": 0.44885809027002116,
+          "method_ape": 0.44885809027002116,
+          "baseline_ae": 4.798292984986524,
+          "method_ae": 4.798292984986524
+        },
+        {
+          "held_out": "Fast_05.csv",
+          "baseline_ape": 0.7226129514410572,
+          "method_ape": 0.7226129514410572,
+          "baseline_ae": 7.659697285275206,
+          "method_ae": 7.659697285275206
+        },
+        {
+          "held_out": "Fast_06.csv",
+          "baseline_ape": 0.5507112196199305,
+          "method_ape": 0.5507112196199305,
+          "baseline_ae": 5.898117162129457,
+          "method_ae": 5.898117162129457
+        },
+        {
+          "held_out": "Slow_01.csv",
+          "baseline_ape": 0.3109335302507325,
+          "method_ape": 0.3109335302507325,
+          "baseline_ae": 3.32387943838033,
+          "method_ae": 3.32387943838033
+        },
+        {
+          "held_out": "Slow_02.csv",
+          "baseline_ape": 0.29060101633316016,
+          "method_ape": 0.29060101633316016,
+          "baseline_ae": 3.1065248646014822,
+          "method_ae": 3.1065248646014822
+        },
+        {
+          "held_out": "Slow_03.csv",
+          "baseline_ape": 0.008909082809924718,
+          "method_ape": 0.008909082809924718,
+          "baseline_ae": 0.09523809523809523,
+          "method_ae": 0.09523809523809523
+        },
+        {
+          "held_out": "Slow_04.csv",
+          "baseline_ape": 0.11726959841524932,
+          "method_ape": 0.11726959841524932,
+          "baseline_ae": 1.2489212231224054,
+          "method_ae": 1.2489212231224054
+        },
+        {
+          "held_out": "Slow_05.csv",
+          "baseline_ape": 1.4321730338471172,
+          "method_ape": 1.4321730338471172,
+          "baseline_ae": 15.095103776748617,
+          "method_ae": 15.095103776748617
+        },
+        {
+          "held_out": "Slow_06.csv",
+          "baseline_ape": 0.12180969772927364,
+          "method_ape": 0.12180969772927364,
+          "baseline_ae": 1.3021456687259356,
+          "method_ae": 1.3021456687259356
+        }
+      ]
+    },
+    {
+      "horizon": 50,
+      "label_budget_k": 1,
+      "protocol_dispersion": 0.44721955844728045,
+      "route_counts": {
+        "fallback_medium_protocol_dispersion": 100
+      },
+      "baseline": {
+        "mae": 4.8440761107933215,
+        "mape": 0.4555979963179315,
+        "n_cells": 12
+      },
+      "method": {
+        "mae": 4.8440761107933215,
+        "mape": 0.4555979963179315,
+        "n_cells": 12
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        12,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "Fast_01.csv",
+          "baseline_ape": 0.19984692575899796,
+          "method_ape": 0.19984692575899796,
+          "baseline_ae": 2.136363636363688,
+          "method_ae": 2.136363636363688
+        },
+        {
+          "held_out": "Fast_02.csv",
+          "baseline_ape": 0.18709073900842316,
+          "method_ape": 0.18709073900842316,
+          "baseline_ae": 2.0000000000000435,
+          "method_ae": 2.0000000000000435
+        },
+        {
+          "held_out": "Fast_03.csv",
+          "baseline_ape": 0.5427310225052375,
+          "method_ape": 0.5427310225052375,
+          "baseline_ae": 5.769230769230673,
+          "method_ae": 5.769230769230673
+        },
+        {
+          "held_out": "Fast_04.csv",
+          "baseline_ape": 0.347454229587065,
+          "method_ape": 0.347454229587065,
+          "baseline_ae": 3.714285714285725,
+          "method_ae": 3.714285714285725
+        },
+        {
+          "held_out": "Fast_05.csv",
+          "baseline_ape": 0.7769145394006595,
+          "method_ape": 0.7769145394006595,
+          "baseline_ae": 8.235294117646992,
+          "method_ae": 8.235294117646992
+        },
+        {
+          "held_out": "Fast_06.csv",
+          "baseline_ape": 0.422197864653115,
+          "method_ape": 0.422197864653115,
+          "baseline_ae": 4.521739130434861,
+          "method_ae": 4.521739130434861
+        },
+        {
+          "held_out": "Slow_01.csv",
+          "baseline_ape": 0.1423516492455418,
+          "method_ape": 0.1423516492455418,
+          "baseline_ae": 1.521739130434842,
+          "method_ae": 1.521739130434842
+        },
+        {
+          "held_out": "Slow_02.csv",
+          "baseline_ape": 0.3322473468597845,
+          "method_ape": 0.3322473468597845,
+          "baseline_ae": 3.5517241379310973,
+          "method_ae": 3.5517241379310973
+        },
+        {
+          "held_out": "Slow_03.csv",
+          "baseline_ape": 0.3710632990333695,
+          "method_ape": 0.3710632990333695,
+          "baseline_ae": 3.9666666666667196,
+          "method_ae": 3.9666666666667196
+        },
+        {
+          "held_out": "Slow_04.csv",
+          "baseline_ape": 0.41444066699044924,
+          "method_ape": 0.41444066699044924,
+          "baseline_ae": 4.413793103448284,
+          "method_ae": 4.413793103448284
+        },
+        {
+          "held_out": "Slow_05.csv",
+          "baseline_ape": 1.3638519924098644,
+          "method_ape": 1.3638519924098644,
+          "baseline_ae": 14.374999999999972,
+          "method_ae": 14.374999999999972
+        },
+        {
+          "held_out": "Slow_06.csv",
+          "baseline_ape": 0.36698568036267143,
+          "method_ape": 0.36698568036267143,
+          "baseline_ae": 3.923076923076958,
+          "method_ae": 3.923076923076958
+        }
+      ]
+    },
+    {
+      "horizon": 50,
+      "label_budget_k": 3,
+      "protocol_dispersion": 0.44721955844728045,
+      "route_counts": {
+        "fallback_medium_protocol_dispersion": 100
+      },
+      "baseline": {
+        "mae": 4.626292550318481,
+        "mape": 0.4350519862677689,
+        "n_cells": 12
+      },
+      "method": {
+        "mae": 4.626292550318481,
+        "mape": 0.4350519862677689,
+        "n_cells": 12
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        12,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "Fast_01.csv",
+          "baseline_ape": 0.4989086373557953,
+          "method_ape": 0.4989086373557953,
+          "baseline_ae": 5.333333333333451,
+          "method_ae": 5.333333333333451
+        },
+        {
+          "held_out": "Fast_02.csv",
+          "baseline_ape": 0.1664416839665486,
+          "method_ape": 0.1664416839665486,
+          "baseline_ae": 1.779261601602405,
+          "method_ae": 1.779261601602405
+        },
+        {
+          "held_out": "Fast_03.csv",
+          "baseline_ape": 0.47361539923553225,
+          "method_ape": 0.47361539923553225,
+          "baseline_ae": 5.034531693873707,
+          "method_ae": 5.034531693873707
+        },
+        {
+          "held_out": "Fast_04.csv",
+          "baseline_ape": 0.15476533595041195,
+          "method_ape": 0.15476533595041195,
+          "baseline_ae": 1.654441441309904,
+          "method_ae": 1.654441441309904
+        },
+        {
+          "held_out": "Fast_05.csv",
+          "baseline_ape": 0.7547169811320641,
+          "method_ape": 0.7547169811320641,
+          "baseline_ae": 7.999999999999879,
+          "method_ae": 7.999999999999879
+        },
+        {
+          "held_out": "Fast_06.csv",
+          "baseline_ape": 0.4320200533257277,
+          "method_ape": 0.4320200533257277,
+          "baseline_ae": 4.6269347711185445,
+          "method_ae": 4.6269347711185445
+        },
+        {
+          "held_out": "Slow_01.csv",
+          "baseline_ape": 0.19598591443642613,
+          "method_ape": 0.19598591443642613,
+          "baseline_ae": 2.095089425325395,
+          "method_ae": 2.095089425325395
+        },
+        {
+          "held_out": "Slow_02.csv",
+          "baseline_ape": 0.3949664110739123,
+          "method_ape": 0.3949664110739123,
+          "baseline_ae": 4.222190934380122,
+          "method_ae": 4.222190934380122
+        },
+        {
+          "held_out": "Slow_03.csv",
+          "baseline_ape": 0.3580529660333545,
+          "method_ape": 0.3580529660333545,
+          "baseline_ae": 3.8275862068965596,
+          "method_ae": 3.8275862068965596
+        },
+        {
+          "held_out": "Slow_04.csv",
+          "baseline_ape": 0.38801338116355677,
+          "method_ape": 0.38801338116355677,
+          "baseline_ae": 4.132342509391879,
+          "method_ae": 4.132342509391879
+        },
+        {
+          "held_out": "Slow_05.csv",
+          "baseline_ape": 1.2649107211439927,
+          "method_ape": 1.2649107211439927,
+          "baseline_ae": 13.332159000857684,
+          "method_ae": 13.332159000857684
+        },
+        {
+          "held_out": "Slow_06.csv",
+          "baseline_ape": 0.1382263503959057,
+          "method_ape": 0.1382263503959057,
+          "baseline_ae": 1.477639685732232,
+          "method_ae": 1.477639685732232
+        }
+      ]
+    },
+    {
+      "horizon": 50,
+      "label_budget_k": 5,
+      "protocol_dispersion": 0.44721955844728045,
+      "route_counts": {
+        "fallback_medium_protocol_dispersion": 100
+      },
+      "baseline": {
+        "mae": 4.7305507148971175,
+        "mape": 0.44475595815292546,
+        "n_cells": 12
+      },
+      "method": {
+        "mae": 4.7305507148971175,
+        "mape": 0.44475595815292546,
+        "n_cells": 12
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        12,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "Fast_01.csv",
+          "baseline_ape": 0.5768631119426338,
+          "method_ape": 0.5768631119426338,
+          "baseline_ae": 6.166666666666755,
+          "method_ae": 6.166666666666755
+        },
+        {
+          "held_out": "Fast_02.csv",
+          "baseline_ape": 0.1896667410382252,
+          "method_ape": 0.1896667410382252,
+          "baseline_ae": 2.0275374616986275,
+          "method_ae": 2.0275374616986275
+        },
+        {
+          "held_out": "Fast_03.csv",
+          "baseline_ape": 0.46026699533188775,
+          "method_ape": 0.46026699533188775,
+          "baseline_ae": 4.892638160377967,
+          "method_ae": 4.892638160377967
+        },
+        {
+          "held_out": "Fast_04.csv",
+          "baseline_ape": 0.2525941767212536,
+          "method_ape": 0.2525941767212536,
+          "baseline_ae": 2.7002317491502006,
+          "method_ae": 2.7002317491502006
+        },
+        {
+          "held_out": "Fast_05.csv",
+          "baseline_ape": 0.6778476589797171,
+          "method_ape": 0.6778476589797171,
+          "baseline_ae": 7.1851851851849995,
+          "method_ae": 7.1851851851849995
+        },
+        {
+          "held_out": "Fast_06.csv",
+          "baseline_ape": 0.3993833596556664,
+          "method_ape": 0.3993833596556664,
+          "baseline_ae": 4.277395781912186,
+          "method_ae": 4.277395781912186
+        },
+        {
+          "held_out": "Slow_01.csv",
+          "baseline_ape": 0.26097939647108837,
+          "method_ape": 0.26097939647108837,
+          "baseline_ae": 2.7898697482759354,
+          "method_ae": 2.7898697482759354
+        },
+        {
+          "held_out": "Slow_02.csv",
+          "baseline_ape": 0.29682531162899184,
+          "method_ape": 0.29682531162899184,
+          "baseline_ae": 3.1730625813139226,
+          "method_ae": 3.1730625813139226
+        },
+        {
+          "held_out": "Slow_03.csv",
+          "baseline_ape": 0.4794200187090765,
+          "method_ape": 0.4794200187090765,
+          "baseline_ae": 5.125000000000028,
+          "method_ae": 5.125000000000028
+        },
+        {
+          "held_out": "Slow_04.csv",
+          "baseline_ape": 0.3233773413743992,
+          "method_ape": 0.3233773413743992,
+          "baseline_ae": 3.4439686856373517,
+          "method_ae": 3.4439686856373517
+        },
+        {
+          "held_out": "Slow_05.csv",
+          "baseline_ape": 1.2874399840127566,
+          "method_ape": 1.2874399840127566,
+          "baseline_ae": 13.569617431494455,
+          "method_ae": 13.569617431494455
+        },
+        {
+          "held_out": "Slow_06.csv",
+          "baseline_ape": 0.13240740196940898,
+          "method_ape": 0.13240740196940898,
+          "baseline_ae": 1.415435127052982,
+          "method_ae": 1.415435127052982
+        }
+      ]
+    },
+    {
+      "horizon": 50,
+      "label_budget_k": 10,
+      "protocol_dispersion": 0.44721955844728045,
+      "route_counts": {
+        "fallback_medium_protocol_dispersion": 100
+      },
+      "baseline": {
+        "mae": 4.024101046002989,
+        "mape": 0.3786058680676346,
+        "n_cells": 12
+      },
+      "method": {
+        "mae": 4.024101046002989,
+        "mape": 0.3786058680676346,
+        "n_cells": 12
+      },
+      "relative_mape_reduction_percent": 0.0,
+      "paired_wilcoxon_p": 1.0,
+      "improved_same_worse_cells": [
+        0,
+        12,
+        0
+      ],
+      "per_cell": [
+        {
+          "held_out": "Fast_01.csv",
+          "baseline_ape": 0.7542095416276976,
+          "method_ape": 0.7542095416276976,
+          "baseline_ae": 8.062500000000085,
+          "method_ae": 8.062500000000085
+        },
+        {
+          "held_out": "Fast_02.csv",
+          "baseline_ape": 0.09731294251198509,
+          "method_ape": 0.09731294251198509,
+          "baseline_ae": 1.0402753554531208,
+          "method_ae": 1.0402753554531208
+        },
+        {
+          "held_out": "Fast_03.csv",
+          "baseline_ape": 0.49835828425081025,
+          "method_ape": 0.49835828425081025,
+          "baseline_ae": 5.297548561586113,
+          "method_ae": 5.297548561586113
+        },
+        {
+          "held_out": "Fast_04.csv",
+          "baseline_ape": 0.07661554647390992,
+          "method_ape": 0.07661554647390992,
+          "baseline_ae": 0.8190201918060969,
+          "method_ae": 0.8190201918060969
+        },
+        {
+          "held_out": "Fast_05.csv",
+          "baseline_ape": 0.7735849056603687,
+          "method_ape": 0.7735849056603687,
+          "baseline_ae": 8.199999999999909,
+          "method_ae": 8.199999999999909
+        },
+        {
+          "held_out": "Fast_06.csv",
+          "baseline_ape": 0.36880513454421476,
+          "method_ape": 0.36880513454421476,
+          "baseline_ae": 3.9499029909685395,
+          "method_ae": 3.9499029909685395
+        },
+        {
+          "held_out": "Slow_01.csv",
+          "baseline_ape": 0.2075490657373565,
+          "method_ape": 0.2075490657373565,
+          "baseline_ae": 2.2186995127323406,
+          "method_ae": 2.2186995127323406
+        },
+        {
+          "held_out": "Slow_02.csv",
+          "baseline_ape": 0.29306408144473683,
+          "method_ape": 0.29306408144473683,
+          "baseline_ae": 3.1328550306442366,
+          "method_ae": 3.1328550306442366
+        },
+        {
+          "held_out": "Slow_03.csv",
+          "baseline_ape": 0.12027261793398826,
+          "method_ape": 0.12027261793398826,
+          "baseline_ae": 1.2857142857143344,
+          "method_ae": 1.2857142857143344
+        },
+        {
+          "held_out": "Slow_04.csv",
+          "baseline_ape": 0.040540255843296666,
+          "method_ape": 0.040540255843296666,
+          "baseline_ae": 0.4317537247311094,
+          "method_ae": 0.4317537247311094
+        },
+        {
+          "held_out": "Slow_05.csv",
+          "baseline_ape": 1.2305237171531007,
+          "method_ape": 1.2305237171531007,
+          "baseline_ae": 12.969719978793682,
+          "method_ae": 12.969719978793682
+        },
+        {
+          "held_out": "Slow_06.csv",
+          "baseline_ape": 0.08243432363015009,
+          "method_ape": 0.08243432363015009,
+          "baseline_ae": 0.8812229196063046,
+          "method_ae": 0.8812229196063046
+        }
+      ]
+    }
+  ]
+}

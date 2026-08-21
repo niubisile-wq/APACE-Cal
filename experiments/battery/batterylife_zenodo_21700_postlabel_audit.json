@@ -1,0 +1,83 @@
+{
+  "phase": "POSTLABEL_INPUT_CONTRACT_AUDIT",
+  "manifest": "batterylife_zenodo_21700_expt4_prelabel.json",
+  "manifest_sha256": "b7e7a2d216aa4901548b369971a64746a08afce83a807c2ec4220a08c1d5d2ca",
+  "archive_size_bytes": 11376117549,
+  "label_opening": "processed performance summaries opened only after prelabel manifest freeze",
+  "rows": [
+    {
+      "cell": "A",
+      "performance_member": "Expt 4 - Drive Cycle Aging (Control)/Summary Data/Performance Summary/Expt 4 - cell A (10degC) - Processed Data.csv",
+      "n_age_sets": 10,
+      "max_ageing_cycles": 4653.0,
+      "min_soh": 0.8816842959533118,
+      "eol_80_reached": false,
+      "eol_90_reached": true
+    },
+    {
+      "cell": "B",
+      "performance_member": "Expt 4 - Drive Cycle Aging (Control)/Summary Data/Performance Summary/Expt 4 - cell B (10degC) - Processed Data.csv",
+      "n_age_sets": 10,
+      "max_ageing_cycles": 4653.0,
+      "min_soh": 0.6260949526376781,
+      "eol_80_reached": true,
+      "eol_90_reached": true
+    },
+    {
+      "cell": "C",
+      "performance_member": "Expt 4 - Drive Cycle Aging (Control)/Summary Data/Performance Summary/Expt 4 - cell C (10degC) - Processed Data.csv",
+      "n_age_sets": 10,
+      "max_ageing_cycles": 4653.0,
+      "min_soh": 0.6073825547340734,
+      "eol_80_reached": true,
+      "eol_90_reached": true
+    },
+    {
+      "cell": "D",
+      "performance_member": "Expt 4 - Drive Cycle Aging (Control)/Summary Data/Performance Summary/Expt 4 - cell D (25degC) - Processed Data.csv",
+      "n_age_sets": 10,
+      "max_ageing_cycles": 4653.0,
+      "min_soh": 0.8644340021369644,
+      "eol_80_reached": false,
+      "eol_90_reached": true
+    },
+    {
+      "cell": "E",
+      "performance_member": "Expt 4 - Drive Cycle Aging (Control)/Summary Data/Performance Summary/Expt 4 - cell E (25degC) - Processed Data.csv",
+      "n_age_sets": 10,
+      "max_ageing_cycles": 4653.0,
+      "min_soh": 0.8664159936425992,
+      "eol_80_reached": false,
+      "eol_90_reached": true
+    },
+    {
+      "cell": "F",
+      "performance_member": "Expt 4 - Drive Cycle Aging (Control)/Summary Data/Performance Summary/Expt 4 - cell F (40degC) - Processed Data.csv",
+      "n_age_sets": 10,
+      "max_ageing_cycles": 4653.0,
+      "min_soh": 0.8292556317145784,
+      "eol_80_reached": false,
+      "eol_90_reached": true
+    },
+    {
+      "cell": "G",
+      "performance_member": "Expt 4 - Drive Cycle Aging (Control)/Summary Data/Performance Summary/Expt 4 - cell G (40degC) - Processed Data.csv",
+      "n_age_sets": 10,
+      "max_ageing_cycles": 4653.0,
+      "min_soh": 0.8235565481058378,
+      "eol_80_reached": false,
+      "eol_90_reached": true
+    },
+    {
+      "cell": "H",
+      "performance_member": "Expt 4 - Drive Cycle Aging (Control)/Summary Data/Performance Summary/Expt 4 - cell H (40degC) - Processed Data.csv",
+      "n_age_sets": 10,
+      "max_ageing_cycles": 4653.0,
+      "min_soh": 0.8271359538646168,
+      "eol_80_reached": false,
+      "eol_90_reached": true
+    }
+  ],
+  "decision": "technical_failure_no_common_80_percent_eol",
+  "reason": "All eight cells stop near 4653 ageing cycles and minimum SoH is above 0.80; maximum observed cycle is not used as a life label."
+}

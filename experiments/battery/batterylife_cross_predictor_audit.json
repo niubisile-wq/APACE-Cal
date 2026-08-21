@@ -1,0 +1,981 @@
+{
+  "protocol": "H50/K3; six development domains; 100 fixed episodes; identical random/router supports per episode; all frozen predictor interfaces",
+  "records": [
+    {
+      "target": "CALB",
+      "horizon": 50,
+      "label_budget_k": 3,
+      "protocol_dispersion": 0.1649572197684645,
+      "rho": 0.5592977764053793,
+      "active": true,
+      "selected_baseline_predictor": "winf_bw0.5",
+      "selected_method_predictor": "w2_bw0.5",
+      "all_predictor_rows": [
+        {
+          "predictor": "logmean",
+          "baseline_mape": 180.41262235387168,
+          "router_mape": 134.79200480693905,
+          "relative_reduction_percent": 25.286821371871497
+        },
+        {
+          "predictor": "w0_bw0.5",
+          "baseline_mape": 158.370238608487,
+          "router_mape": 87.52397238546666,
+          "relative_reduction_percent": 44.73458324335928
+        },
+        {
+          "predictor": "w0_bw1",
+          "baseline_mape": 173.20292304593164,
+          "router_mape": 119.45937712586691,
+          "relative_reduction_percent": 31.029237252429336
+        },
+        {
+          "predictor": "w0_bw2",
+          "baseline_mape": 178.5499919680468,
+          "router_mape": 130.91286539250575,
+          "relative_reduction_percent": 26.679993681582562
+        },
+        {
+          "predictor": "w0.125_bw0.5",
+          "baseline_mape": 154.0471921768539,
+          "router_mape": 62.543768854944204,
+          "relative_reduction_percent": 59.39960477621636
+        },
+        {
+          "predictor": "w0.125_bw1",
+          "baseline_mape": 170.29754441683087,
+          "router_mape": 96.16762889328558,
+          "relative_reduction_percent": 43.52964440996301
+        },
+        {
+          "predictor": "w0.125_bw2",
+          "baseline_mape": 177.24213283039592,
+          "router_mape": 118.35764379104658,
+          "relative_reduction_percent": 33.222624947588656
+        },
+        {
+          "predictor": "w0.5_bw0.5",
+          "baseline_mape": 147.73932154110048,
+          "router_mape": 41.43823769692644,
+          "relative_reduction_percent": 71.95178828176864
+        },
+        {
+          "predictor": "w0.5_bw1",
+          "baseline_mape": 166.9362819124172,
+          "router_mape": 85.60585944909393,
+          "relative_reduction_percent": 48.71944045452811
+        },
+        {
+          "predictor": "w0.5_bw2",
+          "baseline_mape": 175.42549760486236,
+          "router_mape": 105.4123722289101,
+          "relative_reduction_percent": 39.91046132509968
+        },
+        {
+          "predictor": "w1_bw0.5",
+          "baseline_mape": 144.43223880319576,
+          "router_mape": 29.787127070897526,
+          "relative_reduction_percent": 79.37640009064344
+        },
+        {
+          "predictor": "w1_bw1",
+          "baseline_mape": 163.20227691060848,
+          "router_mape": 74.3374388061384,
+          "relative_reduction_percent": 54.45073425853269
+        },
+        {
+          "predictor": "w1_bw2",
+          "baseline_mape": 174.08908184593216,
+          "router_mape": 100.850260493441,
+          "relative_reduction_percent": 42.06973842122225
+        },
+        {
+          "predictor": "w2_bw0.5",
+          "baseline_mape": 142.73515542157097,
+          "router_mape": 24.261121415690337,
+          "relative_reduction_percent": 83.00270081043828
+        },
+        {
+          "predictor": "w2_bw1",
+          "baseline_mape": 156.90073714000042,
+          "router_mape": 55.99004294172684,
+          "relative_reduction_percent": 64.31499050780897
+        },
+        {
+          "predictor": "w2_bw2",
+          "baseline_mape": 171.8012081264515,
+          "router_mape": 94.35518532625144,
+          "relative_reduction_percent": 45.078858085326836
+        },
+        {
+          "predictor": "winf_bw0.5",
+          "baseline_mape": 151.74064659030924,
+          "router_mape": 39.93507737952367,
+          "relative_reduction_percent": 73.68201712798415
+        },
+        {
+          "predictor": "winf_bw1",
+          "baseline_mape": 169.3283019883205,
+          "router_mape": 85.39991799140951,
+          "relative_reduction_percent": 49.565479019980955
+        },
+        {
+          "predictor": "winf_bw2",
+          "baseline_mape": 175.87659987165316,
+          "router_mape": 103.83508365933012,
+          "relative_reduction_percent": 40.96139922246376
+        },
+        {
+          "predictor": "support_median",
+          "baseline_mape": 217.89114490697207,
+          "router_mape": 229.07374579650514,
+          "relative_reduction_percent": -5.13219612220012
+        },
+        {
+          "predictor": "binary_loo_w0.5",
+          "baseline_mape": 166.61923947039202,
+          "router_mape": 68.28278413496929,
+          "relative_reduction_percent": 59.01866774088653
+        },
+        {
+          "predictor": "binary_loo_w2",
+          "baseline_mape": 164.1598461588909,
+          "router_mape": 91.79170611241646,
+          "relative_reduction_percent": 44.08394728661542
+        }
+      ]
+    },
+    {
+      "target": "HNEI",
+      "horizon": 50,
+      "label_budget_k": 3,
+      "protocol_dispersion": 0.0,
+      "rho": 0.0,
+      "active": false,
+      "selected_baseline_predictor": "w2_bw0.5",
+      "selected_method_predictor": "w2_bw0.5",
+      "all_predictor_rows": [
+        {
+          "predictor": "logmean",
+          "baseline_mape": 6.266450364555524,
+          "router_mape": 6.266450364555524,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w0_bw0.5",
+          "baseline_mape": 6.2664503645555225,
+          "router_mape": 6.2664503645555225,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w0_bw1",
+          "baseline_mape": 6.2664503645555225,
+          "router_mape": 6.2664503645555225,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w0_bw2",
+          "baseline_mape": 6.2664503645555225,
+          "router_mape": 6.2664503645555225,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w0.125_bw0.5",
+          "baseline_mape": 5.83465318967532,
+          "router_mape": 5.83465318967532,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w0.125_bw1",
+          "baseline_mape": 5.8979954673928034,
+          "router_mape": 5.8979954673928034,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w0.125_bw2",
+          "baseline_mape": 5.908828437392032,
+          "router_mape": 5.908828437392032,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w0.5_bw0.5",
+          "baseline_mape": 5.768587662401635,
+          "router_mape": 5.768587662401635,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w0.5_bw1",
+          "baseline_mape": 5.83465318967532,
+          "router_mape": 5.83465318967532,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w0.5_bw2",
+          "baseline_mape": 5.8979954673928034,
+          "router_mape": 5.8979954673928034,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w1_bw0.5",
+          "baseline_mape": 5.830089587281483,
+          "router_mape": 5.830089587281483,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w1_bw1",
+          "baseline_mape": 5.790724180392958,
+          "router_mape": 5.790724180392958,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w1_bw2",
+          "baseline_mape": 5.876381534390715,
+          "router_mape": 5.876381534390715,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w2_bw0.5",
+          "baseline_mape": 5.876287304152498,
+          "router_mape": 5.876287304152498,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w2_bw1",
+          "baseline_mape": 5.768587662401635,
+          "router_mape": 5.768587662401635,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w2_bw2",
+          "baseline_mape": 5.83465318967532,
+          "router_mape": 5.83465318967532,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "winf_bw0.5",
+          "baseline_mape": 5.830089587281483,
+          "router_mape": 5.830089587281483,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "winf_bw1",
+          "baseline_mape": 5.790724180392958,
+          "router_mape": 5.790724180392958,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "winf_bw2",
+          "baseline_mape": 5.876381534390715,
+          "router_mape": 5.876381534390715,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "support_median",
+          "baseline_mape": 6.744278123921475,
+          "router_mape": 6.744278123921475,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "binary_loo_w0.5",
+          "baseline_mape": 6.102886248816493,
+          "router_mape": 6.102886248816493,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "binary_loo_w2",
+          "baseline_mape": 6.1165449112667085,
+          "router_mape": 6.1165449112667085,
+          "relative_reduction_percent": 0.0
+        }
+      ]
+    },
+    {
+      "target": "MICH_EXP",
+      "horizon": 50,
+      "label_budget_k": 3,
+      "protocol_dispersion": 0.6324555320336759,
+      "rho": 0.6220527023497164,
+      "active": true,
+      "selected_baseline_predictor": "w2_bw0.5",
+      "selected_method_predictor": "w0.5_bw0.5",
+      "all_predictor_rows": [
+        {
+          "predictor": "logmean",
+          "baseline_mape": 41.8705993221658,
+          "router_mape": 36.3931999444951,
+          "relative_reduction_percent": 13.08173149260615
+        },
+        {
+          "predictor": "w0_bw0.5",
+          "baseline_mape": 37.89746893259385,
+          "router_mape": 29.636256365953038,
+          "relative_reduction_percent": 21.798850422793617
+        },
+        {
+          "predictor": "w0_bw1",
+          "baseline_mape": 40.420693775188454,
+          "router_mape": 34.00858960329005,
+          "relative_reduction_percent": 15.863419385033827
+        },
+        {
+          "predictor": "w0_bw2",
+          "baseline_mape": 41.43486374306654,
+          "router_mape": 35.75107516161098,
+          "relative_reduction_percent": 13.7174062323462
+        },
+        {
+          "predictor": "w0.125_bw0.5",
+          "baseline_mape": 36.7283406357684,
+          "router_mape": 29.081762347983563,
+          "relative_reduction_percent": 20.819286021155307
+        },
+        {
+          "predictor": "w0.125_bw1",
+          "baseline_mape": 39.98088328469815,
+          "router_mape": 33.60446694298839,
+          "relative_reduction_percent": 15.948663005527452
+        },
+        {
+          "predictor": "w0.125_bw2",
+          "baseline_mape": 41.32382307137104,
+          "router_mape": 35.6321141462452,
+          "relative_reduction_percent": 13.773432616085874
+        },
+        {
+          "predictor": "w0.5_bw0.5",
+          "baseline_mape": 34.493614360883804,
+          "router_mape": 27.76862571224369,
+          "relative_reduction_percent": 19.49632931556844
+        },
+        {
+          "predictor": "w0.5_bw1",
+          "baseline_mape": 38.75224648046332,
+          "router_mape": 32.47553597583517,
+          "relative_reduction_percent": 16.19702359137427
+        },
+        {
+          "predictor": "w0.5_bw2",
+          "baseline_mape": 40.99116789741866,
+          "router_mape": 35.280066591597716,
+          "relative_reduction_percent": 13.932516682894002
+        },
+        {
+          "predictor": "w1_bw0.5",
+          "baseline_mape": 32.86231360233763,
+          "router_mape": 26.999256062539835,
+          "relative_reduction_percent": 17.841280473267503
+        },
+        {
+          "predictor": "w1_bw1",
+          "baseline_mape": 37.25191223166004,
+          "router_mape": 31.15363403170152,
+          "relative_reduction_percent": 16.370376269639262
+        },
+        {
+          "predictor": "w1_bw2",
+          "baseline_mape": 40.55116614859505,
+          "router_mape": 34.82224005204494,
+          "relative_reduction_percent": 14.127648205127135
+        },
+        {
+          "predictor": "w2_bw0.5",
+          "baseline_mape": 32.48187085687663,
+          "router_mape": 27.40673602461046,
+          "relative_reduction_percent": 15.624515147629596
+        },
+        {
+          "predictor": "w2_bw1",
+          "baseline_mape": 34.906583211712224,
+          "router_mape": 29.305313327643262,
+          "relative_reduction_percent": 16.046457053950686
+        },
+        {
+          "predictor": "w2_bw2",
+          "baseline_mape": 39.70527158300564,
+          "router_mape": 33.9476450952739,
+          "relative_reduction_percent": 14.500911990225696
+        },
+        {
+          "predictor": "winf_bw0.5",
+          "baseline_mape": 32.354174985471005,
+          "router_mape": 27.58985573864767,
+          "relative_reduction_percent": 14.725516100975542
+        },
+        {
+          "predictor": "winf_bw1",
+          "baseline_mape": 38.37986698588925,
+          "router_mape": 32.83022396134231,
+          "relative_reduction_percent": 14.45977659742104
+        },
+        {
+          "predictor": "winf_bw2",
+          "baseline_mape": 40.93903045514355,
+          "router_mape": 35.42183911917897,
+          "relative_reduction_percent": 13.476604781858986
+        },
+        {
+          "predictor": "support_median",
+          "baseline_mape": 50.98005993711574,
+          "router_mape": 42.06685342801506,
+          "relative_reduction_percent": 17.483711317905833
+        },
+        {
+          "predictor": "binary_loo_w0.5",
+          "baseline_mape": 46.80391198509628,
+          "router_mape": 31.899908078350418,
+          "relative_reduction_percent": 31.843500414007547
+        },
+        {
+          "predictor": "binary_loo_w2",
+          "baseline_mape": 48.14774915722986,
+          "router_mape": 31.363502436191936,
+          "relative_reduction_percent": 34.859878218248134
+        }
+      ]
+    },
+    {
+      "target": "CALCE",
+      "horizon": 50,
+      "label_budget_k": 3,
+      "protocol_dispersion": 0.5,
+      "rho": 0.49898102559661356,
+      "active": false,
+      "selected_baseline_predictor": "w2_bw0.5",
+      "selected_method_predictor": "w2_bw0.5",
+      "all_predictor_rows": [
+        {
+          "predictor": "logmean",
+          "baseline_mape": 15.649529745840796,
+          "router_mape": 15.649529745840796,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w0_bw0.5",
+          "baseline_mape": 15.25692002300471,
+          "router_mape": 15.25692002300471,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w0_bw1",
+          "baseline_mape": 15.516858417585066,
+          "router_mape": 15.516858417585066,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w0_bw2",
+          "baseline_mape": 15.614028651097275,
+          "router_mape": 15.614028651097275,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w0.125_bw0.5",
+          "baseline_mape": 14.794514518161765,
+          "router_mape": 14.794514518161765,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w0.125_bw1",
+          "baseline_mape": 15.590032061026726,
+          "router_mape": 15.590032061026726,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w0.125_bw2",
+          "baseline_mape": 15.72695199477526,
+          "router_mape": 15.72695199477526,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w0.5_bw0.5",
+          "baseline_mape": 14.49941692939376,
+          "router_mape": 14.49941692939376,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w0.5_bw1",
+          "baseline_mape": 14.966008477455862,
+          "router_mape": 14.966008477455862,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w0.5_bw2",
+          "baseline_mape": 15.686343524825995,
+          "router_mape": 15.686343524825995,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w1_bw0.5",
+          "baseline_mape": 14.692418810988737,
+          "router_mape": 14.692418810988737,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w1_bw1",
+          "baseline_mape": 14.61435112705529,
+          "router_mape": 14.61435112705529,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w1_bw2",
+          "baseline_mape": 15.410693542207385,
+          "router_mape": 15.410693542207385,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w2_bw0.5",
+          "baseline_mape": 14.97350992044221,
+          "router_mape": 14.97350992044221,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w2_bw1",
+          "baseline_mape": 14.596100599084338,
+          "router_mape": 14.596100599084338,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w2_bw2",
+          "baseline_mape": 15.030999884639355,
+          "router_mape": 15.030999884639355,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "winf_bw0.5",
+          "baseline_mape": 14.807582801896523,
+          "router_mape": 14.807582801896523,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "winf_bw1",
+          "baseline_mape": 14.698435713259574,
+          "router_mape": 14.698435713259574,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "winf_bw2",
+          "baseline_mape": 15.440629728252581,
+          "router_mape": 15.440629728252581,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "support_median",
+          "baseline_mape": 14.284042542497495,
+          "router_mape": 14.284042542497495,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "binary_loo_w0.5",
+          "baseline_mape": 14.479887962823897,
+          "router_mape": 14.479887962823897,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "binary_loo_w2",
+          "baseline_mape": 14.46619973304267,
+          "router_mape": 14.46619973304267,
+          "relative_reduction_percent": 0.0
+        }
+      ]
+    },
+    {
+      "target": "MICH",
+      "horizon": 50,
+      "label_budget_k": 3,
+      "protocol_dispersion": 0.4472135954999579,
+      "rho": 0.6790120658791347,
+      "active": false,
+      "selected_baseline_predictor": "w2_bw0.5",
+      "selected_method_predictor": "w2_bw0.5",
+      "all_predictor_rows": [
+        {
+          "predictor": "logmean",
+          "baseline_mape": 14.825706562316253,
+          "router_mape": 14.825706562316253,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w0_bw0.5",
+          "baseline_mape": 14.837251096945726,
+          "router_mape": 14.837251096945726,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w0_bw1",
+          "baseline_mape": 14.822653033408287,
+          "router_mape": 14.822653033408287,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w0_bw2",
+          "baseline_mape": 14.824006050782453,
+          "router_mape": 14.824006050782453,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w0.125_bw0.5",
+          "baseline_mape": 14.610547849128228,
+          "router_mape": 14.610547849128228,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w0.125_bw1",
+          "baseline_mape": 14.740339644310819,
+          "router_mape": 14.740339644310819,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w0.125_bw2",
+          "baseline_mape": 14.799799107256472,
+          "router_mape": 14.799799107256472,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w0.5_bw0.5",
+          "baseline_mape": 14.65459692677291,
+          "router_mape": 14.65459692677291,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w0.5_bw1",
+          "baseline_mape": 14.593277676286599,
+          "router_mape": 14.593277676286599,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w0.5_bw2",
+          "baseline_mape": 14.740793407594868,
+          "router_mape": 14.740793407594868,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w1_bw0.5",
+          "baseline_mape": 14.924865129765683,
+          "router_mape": 14.924865129765683,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w1_bw1",
+          "baseline_mape": 14.550328382102231,
+          "router_mape": 14.550328382102231,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w1_bw2",
+          "baseline_mape": 14.67944752662703,
+          "router_mape": 14.67944752662703,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w2_bw0.5",
+          "baseline_mape": 15.358032326284928,
+          "router_mape": 15.358032326284928,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w2_bw1",
+          "baseline_mape": 14.621120048274594,
+          "router_mape": 14.621120048274594,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "w2_bw2",
+          "baseline_mape": 14.593974879827368,
+          "router_mape": 14.593974879827368,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "winf_bw0.5",
+          "baseline_mape": 14.851166651534935,
+          "router_mape": 14.851166651534935,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "winf_bw1",
+          "baseline_mape": 14.554603867158445,
+          "router_mape": 14.554603867158445,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "winf_bw2",
+          "baseline_mape": 14.679043501808446,
+          "router_mape": 14.679043501808446,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "support_median",
+          "baseline_mape": 15.702075880717796,
+          "router_mape": 15.702075880717796,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "binary_loo_w0.5",
+          "baseline_mape": 15.148803066343348,
+          "router_mape": 15.148803066343348,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "predictor": "binary_loo_w2",
+          "baseline_mape": 15.642890964736702,
+          "router_mape": 15.642890964736702,
+          "relative_reduction_percent": 0.0
+        }
+      ]
+    },
+    {
+      "target": "SNL",
+      "horizon": 50,
+      "label_budget_k": 3,
+      "protocol_dispersion": 0.6356600922448741,
+      "rho": 0.49427783384535806,
+      "active": true,
+      "selected_baseline_predictor": "w2_bw0.5",
+      "selected_method_predictor": "w0.5_bw0.5",
+      "all_predictor_rows": [
+        {
+          "predictor": "logmean",
+          "baseline_mape": 97.53293803399387,
+          "router_mape": 103.36030000070699,
+          "relative_reduction_percent": -5.974763074072535
+        },
+        {
+          "predictor": "w0_bw0.5",
+          "baseline_mape": 96.8551592784649,
+          "router_mape": 74.2814938377284,
+          "relative_reduction_percent": 23.306621566576265
+        },
+        {
+          "predictor": "w0_bw1",
+          "baseline_mape": 94.75629574804663,
+          "router_mape": 84.82790317132783,
+          "relative_reduction_percent": 10.477818384878626
+        },
+        {
+          "predictor": "w0_bw2",
+          "baseline_mape": 96.29584386502394,
+          "router_mape": 95.54567756246064,
+          "relative_reduction_percent": 0.7790225127626429
+        },
+        {
+          "predictor": "w0.125_bw0.5",
+          "baseline_mape": 88.10322901483124,
+          "router_mape": 63.1575478150469,
+          "relative_reduction_percent": 28.314150887233662
+        },
+        {
+          "predictor": "w0.125_bw1",
+          "baseline_mape": 91.3185054345209,
+          "router_mape": 76.93681440650204,
+          "relative_reduction_percent": 15.748933865689603
+        },
+        {
+          "predictor": "w0.125_bw2",
+          "baseline_mape": 94.95510980355569,
+          "router_mape": 92.02302257718495,
+          "relative_reduction_percent": 3.087866711372014
+        },
+        {
+          "predictor": "w0.5_bw0.5",
+          "baseline_mape": 76.86454481631854,
+          "router_mape": 49.41537407156314,
+          "relative_reduction_percent": 35.71109516142983
+        },
+        {
+          "predictor": "w0.5_bw1",
+          "baseline_mape": 83.92872677021204,
+          "router_mape": 65.92279074478384,
+          "relative_reduction_percent": 21.453841513319443
+        },
+        {
+          "predictor": "w0.5_bw2",
+          "baseline_mape": 92.20847066346413,
+          "router_mape": 83.50348700361411,
+          "relative_reduction_percent": 9.44054661921554
+        },
+        {
+          "predictor": "w1_bw0.5",
+          "baseline_mape": 72.03742028088995,
+          "router_mape": 45.58244895242619,
+          "relative_reduction_percent": 36.72392934853848
+        },
+        {
+          "predictor": "w1_bw1",
+          "baseline_mape": 77.59545077442753,
+          "router_mape": 56.540675232241306,
+          "relative_reduction_percent": 27.13403341568713
+        },
+        {
+          "predictor": "w1_bw2",
+          "baseline_mape": 89.17427111413645,
+          "router_mape": 77.14108099852673,
+          "relative_reduction_percent": 13.494015667600046
+        },
+        {
+          "predictor": "w2_bw0.5",
+          "baseline_mape": 70.78084818162296,
+          "router_mape": 44.380084467405446,
+          "relative_reduction_percent": 37.29930396775327
+        },
+        {
+          "predictor": "w2_bw1",
+          "baseline_mape": 71.75491010058303,
+          "router_mape": 48.58579388201521,
+          "relative_reduction_percent": 32.28924151126428
+        },
+        {
+          "predictor": "w2_bw2",
+          "baseline_mape": 84.21084409469145,
+          "router_mape": 68.89594901809848,
+          "relative_reduction_percent": 18.186369274926204
+        },
+        {
+          "predictor": "winf_bw0.5",
+          "baseline_mape": 68.6623102524861,
+          "router_mape": 45.04054467340799,
+          "relative_reduction_percent": 34.40281209912073
+        },
+        {
+          "predictor": "winf_bw1",
+          "baseline_mape": 77.57947791889475,
+          "router_mape": 58.584424559360826,
+          "relative_reduction_percent": 24.484636748125904
+        },
+        {
+          "predictor": "winf_bw2",
+          "baseline_mape": 89.54297065958707,
+          "router_mape": 79.49043491361027,
+          "relative_reduction_percent": 11.22649346110398
+        },
+        {
+          "predictor": "support_median",
+          "baseline_mape": 118.21048299844574,
+          "router_mape": 86.49658116334277,
+          "relative_reduction_percent": 26.828332843813822
+        },
+        {
+          "predictor": "binary_loo_w0.5",
+          "baseline_mape": 84.72216606640562,
+          "router_mape": 86.49658116334277,
+          "relative_reduction_percent": -2.094392978038773
+        },
+        {
+          "predictor": "binary_loo_w2",
+          "baseline_mape": 72.3871704310392,
+          "router_mape": 86.49658116334277,
+          "relative_reduction_percent": -19.49159035819079
+        }
+      ]
+    }
+  ],
+  "macro_by_predictor": {
+    "logmean": {
+      "baseline_mape": 59.426307730457324,
+      "router_mape": 51.881198570808955,
+      "relative_reduction_percent": 5.3989649650675196
+    },
+    "w0_bw0.5": {
+      "baseline_mape": 54.913914717341946,
+      "router_mape": 37.967057345609014,
+      "relative_reduction_percent": 14.973342538788195
+    },
+    "w0_bw1": {
+      "baseline_mape": 57.49764573078593,
+      "router_mape": 45.816971952672276,
+      "relative_reduction_percent": 9.561745837056964
+    },
+    "w0_bw2": {
+      "baseline_mape": 58.830864107095415,
+      "router_mape": 49.81901719716876,
+      "relative_reduction_percent": 6.862737071115235
+    },
+    "w0.125_bw0.5": {
+      "baseline_mape": 52.353079564069816,
+      "router_mape": 31.670465762489993,
+      "relative_reduction_percent": 18.088840280767556
+    },
+    "w0.125_bw1": {
+      "baseline_mape": 56.30421671813004,
+      "router_mape": 40.48954623591772,
+      "relative_reduction_percent": 12.537873546863345
+    },
+    "w0.125_bw2": {
+      "baseline_mape": 58.326107540791064,
+      "router_mape": 47.07472667565008,
+      "relative_reduction_percent": 8.347320712507758
+    },
+    "w0.5_bw0.5": {
+      "baseline_mape": 49.00334703947852,
+      "router_mape": 25.5908064998836,
+      "relative_reduction_percent": 21.19320212646115
+    },
+    "w0.5_bw1": {
+      "baseline_mape": 54.16853241775172,
+      "router_mape": 36.566354252188454,
+      "relative_reduction_percent": 14.395050926536973
+    },
+    "w0.5_bw2": {
+      "baseline_mape": 57.49171142759314,
+      "router_mape": 43.42017637065593,
+      "relative_reduction_percent": 10.54725410453487
+    },
+    "w1_bw0.5": {
+      "baseline_mape": 47.463224369076535,
+      "router_mape": 22.969367602316577,
+      "relative_reduction_percent": 22.323601652074903
+    },
+    "w1_bw1": {
+      "baseline_mape": 52.167507267707755,
+      "router_mape": 32.831191959938614,
+      "relative_reduction_percent": 16.325857323976514
+    },
+    "w1_bw2": {
+      "baseline_mape": 56.63017361864812,
+      "router_mape": 41.4633506912063,
+      "relative_reduction_percent": 11.61523371565824
+    },
+    "w2_bw0.5": {
+      "baseline_mape": 47.03428400182503,
+      "router_mape": 22.04262857643098,
+      "relative_reduction_percent": 22.654419987636857
+    },
+    "w2_bw1": {
+      "baseline_mape": 49.758006460342706,
+      "router_mape": 28.144493076857646,
+      "relative_reduction_percent": 18.77511484550399
+    },
+    "w2_bw2": {
+      "baseline_mape": 55.19615862638178,
+      "router_mape": 38.77640123229431,
+      "relative_reduction_percent": 12.96102322507979
+    },
+    "winf_bw0.5": {
+      "baseline_mape": 48.04099514482988,
+      "router_mape": 24.675719472048712,
+      "relative_reduction_percent": 20.468390888013403
+    },
+    "winf_bw1": {
+      "baseline_mape": 53.38856844231926,
+      "router_mape": 35.30972171215394,
+      "relative_reduction_percent": 14.751648727587984
+    },
+    "winf_bw2": {
+      "baseline_mape": 57.05910929180592,
+      "router_mape": 42.45723540942852,
+      "relative_reduction_percent": 10.944082910904456
+    },
+    "support_median": {
+      "baseline_mape": 70.6353473982784,
+      "router_mape": 65.72792948916663,
+      "relative_reduction_percent": 6.529974673253256
+    },
+    "binary_loo_w0.5": {
+      "baseline_mape": 55.646149133312946,
+      "router_mape": 37.0684751091077,
+      "relative_reduction_percent": 14.794629196142552
+    },
+    "binary_loo_w2": {
+      "baseline_mape": 53.48673355936767,
+      "router_mape": 40.979570886832875,
+      "relative_reduction_percent": 9.908705857778793
+    }
+  }
+}

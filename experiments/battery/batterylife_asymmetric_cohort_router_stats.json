@@ -1,0 +1,1158 @@
+{
+  "source": "batterylife_asymmetric_cohort_router.json",
+  "unit": "cell averages first; domain-macro aggregation; paired cell Wilcoxon; hierarchical domain/cell bootstrap",
+  "results": {
+    "h10_k1": {
+      "macro_baseline_mape": 78.03057156465657,
+      "macro_method_mape": 55.97710083319877,
+      "macro_relative_reduction_percent": 28.26260309164104,
+      "pooled_cell_wilcoxon_p": 4.124984265228607e-09,
+      "improved_same_worse_cells": [
+        48,
+        94,
+        13
+      ],
+      "improved_same_worse_domains": [
+        2,
+        4,
+        0
+      ],
+      "per_domain": [
+        {
+          "target": "CALB",
+          "baseline_mape": 194.69384433954752,
+          "method_mape": 194.69384433954752,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            27,
+            0
+          ]
+        },
+        {
+          "target": "HNEI",
+          "baseline_mape": 7.15484641313215,
+          "method_mape": 7.15484641313215,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            14,
+            0
+          ]
+        },
+        {
+          "target": "MICH_EXP",
+          "baseline_mape": 47.420540255076716,
+          "method_mape": 43.619431635160225,
+          "relative_change_percent": -8.015742965959891,
+          "paired_wilcoxon_p": 0.734375,
+          "improved_same_worse_cells": [
+            5,
+            0,
+            4
+          ]
+        },
+        {
+          "target": "CALCE",
+          "baseline_mape": 20.630111280984377,
+          "method_mape": 20.630111280984377,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            13,
+            0
+          ]
+        },
+        {
+          "target": "MICH",
+          "baseline_mape": 18.701245837940444,
+          "method_mape": 18.701245837940444,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            40,
+            0
+          ]
+        },
+        {
+          "target": "SNL",
+          "baseline_mape": 179.58284126125824,
+          "method_mape": 51.06312549242787,
+          "relative_change_percent": -71.56569907581488,
+          "paired_wilcoxon_p": 5.595236475766407e-09,
+          "improved_same_worse_cells": [
+            43,
+            0,
+            9
+          ]
+        }
+      ],
+      "relative_mape_reduction_percentile_95": [
+        -2.927707867471394,
+        63.79340005721862
+      ],
+      "bootstrap_probability_reduction_nonpositive": 0.161,
+      "n_bootstraps": 20000
+    },
+    "h10_k3": {
+      "macro_baseline_mape": 43.286276868289995,
+      "macro_method_mape": 24.04561257907551,
+      "macro_relative_reduction_percent": 44.44980183386832,
+      "pooled_cell_wilcoxon_p": 4.225163334164943e-09,
+      "improved_same_worse_cells": [
+        64,
+        67,
+        24
+      ],
+      "improved_same_worse_domains": [
+        3,
+        3,
+        0
+      ],
+      "per_domain": [
+        {
+          "target": "CALB",
+          "baseline_mape": 117.36670043013636,
+          "method_mape": 22.614969191899498,
+          "relative_change_percent": -80.73135812030323,
+          "paired_wilcoxon_p": 9.5367431640625e-06,
+          "improved_same_worse_cells": [
+            22,
+            0,
+            5
+          ]
+        },
+        {
+          "target": "HNEI",
+          "baseline_mape": 6.477460524963751,
+          "method_mape": 6.477460524963751,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            14,
+            0
+          ]
+        },
+        {
+          "target": "MICH_EXP",
+          "baseline_mape": 42.88365783431521,
+          "method_mape": 33.914597687927426,
+          "relative_change_percent": -20.914867339536514,
+          "paired_wilcoxon_p": 0.07421875,
+          "improved_same_worse_cells": [
+            8,
+            0,
+            1
+          ]
+        },
+        {
+          "target": "CALCE",
+          "baseline_mape": 17.043368857888446,
+          "method_mape": 17.043368857888446,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            13,
+            0
+          ]
+        },
+        {
+          "target": "MICH",
+          "baseline_mape": 16.65285445924758,
+          "method_mape": 16.65285445924758,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            40,
+            0
+          ]
+        },
+        {
+          "target": "SNL",
+          "baseline_mape": 59.29361910318862,
+          "method_mape": 47.57042475252635,
+          "relative_change_percent": -19.77142655141425,
+          "paired_wilcoxon_p": 0.00020270441509022145,
+          "improved_same_worse_cells": [
+            34,
+            0,
+            18
+          ]
+        }
+      ],
+      "relative_mape_reduction_percentile_95": [
+        5.550350935306971,
+        70.79383051450885
+      ],
+      "bootstrap_probability_reduction_nonpositive": 0.01625,
+      "n_bootstraps": 20000
+    },
+    "h10_k5": {
+      "macro_baseline_mape": 33.85362858087627,
+      "macro_method_mape": 23.69488970123346,
+      "macro_relative_reduction_percent": 30.007828718784445,
+      "pooled_cell_wilcoxon_p": 7.366569781092995e-05,
+      "improved_same_worse_cells": [
+        24,
+        128,
+        3
+      ],
+      "improved_same_worse_domains": [
+        1,
+        5,
+        0
+      ],
+      "per_domain": [
+        {
+          "target": "CALB",
+          "baseline_mape": 82.82772467501563,
+          "method_mape": 21.875291397158758,
+          "relative_change_percent": -73.58940924311388,
+          "paired_wilcoxon_p": 1.1354684829711914e-05,
+          "improved_same_worse_cells": [
+            24,
+            0,
+            3
+          ]
+        },
+        {
+          "target": "HNEI",
+          "baseline_mape": 6.205000327711398,
+          "method_mape": 6.205000327711398,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            14,
+            0
+          ]
+        },
+        {
+          "target": "MICH_EXP",
+          "baseline_mape": 39.139159317116835,
+          "method_mape": 39.139159317116835,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            9,
+            0
+          ]
+        },
+        {
+          "target": "CALCE",
+          "baseline_mape": 14.059009202901946,
+          "method_mape": 14.059009202901946,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            13,
+            0
+          ]
+        },
+        {
+          "target": "MICH",
+          "baseline_mape": 14.830694812634073,
+          "method_mape": 14.830694812634073,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            40,
+            0
+          ]
+        },
+        {
+          "target": "SNL",
+          "baseline_mape": 46.06018314987776,
+          "method_mape": 46.06018314987776,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            52,
+            0
+          ]
+        }
+      ],
+      "relative_mape_reduction_percentile_95": [
+        0.0,
+        61.18696774759261
+      ],
+      "bootstrap_probability_reduction_nonpositive": 0.3376,
+      "n_bootstraps": 20000
+    },
+    "h10_k10": {
+      "macro_baseline_mape": 27.031493089137456,
+      "macro_method_mape": 20.934936666987685,
+      "macro_relative_reduction_percent": 22.553531919402772,
+      "pooled_cell_wilcoxon_p": 0.0002604088128417571,
+      "improved_same_worse_cells": [
+        24,
+        128,
+        3
+      ],
+      "improved_same_worse_domains": [
+        1,
+        5,
+        0
+      ],
+      "per_domain": [
+        {
+          "target": "CALB",
+          "baseline_mape": 53.78446383135328,
+          "method_mape": 17.205125298454682,
+          "relative_change_percent": -68.01097552556604,
+          "paired_wilcoxon_p": 8.372962474822998e-05,
+          "improved_same_worse_cells": [
+            24,
+            0,
+            3
+          ]
+        },
+        {
+          "target": "HNEI",
+          "baseline_mape": 5.5668441997508396,
+          "method_mape": 5.5668441997508396,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            14,
+            0
+          ]
+        },
+        {
+          "target": "MICH_EXP",
+          "baseline_mape": 37.328312324023024,
+          "method_mape": 37.328312324023024,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            9,
+            0
+          ]
+        },
+        {
+          "target": "CALCE",
+          "baseline_mape": 12.869970029660037,
+          "method_mape": 12.869970029660037,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            13,
+            0
+          ]
+        },
+        {
+          "target": "MICH",
+          "baseline_mape": 13.740631840645113,
+          "method_mape": 13.740631840645113,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            40,
+            0
+          ]
+        },
+        {
+          "target": "SNL",
+          "baseline_mape": 38.89873630939243,
+          "method_mape": 38.89873630939243,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            52,
+            0
+          ]
+        }
+      ],
+      "relative_mape_reduction_percentile_95": [
+        0.0,
+        53.793929530936566
+      ],
+      "bootstrap_probability_reduction_nonpositive": 0.33525,
+      "n_bootstraps": 20000
+    },
+    "h20_k1": {
+      "macro_baseline_mape": 74.13447703726348,
+      "macro_method_mape": 53.2566524939316,
+      "macro_relative_reduction_percent": 28.16209863170371,
+      "pooled_cell_wilcoxon_p": 1.714703656185638e-09,
+      "improved_same_worse_cells": [
+        48,
+        94,
+        13
+      ],
+      "improved_same_worse_domains": [
+        2,
+        4,
+        0
+      ],
+      "per_domain": [
+        {
+          "target": "CALB",
+          "baseline_mape": 189.6701955355395,
+          "method_mape": 189.6701955355395,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            27,
+            0
+          ]
+        },
+        {
+          "target": "HNEI",
+          "baseline_mape": 7.226715283286292,
+          "method_mape": 7.226715283286292,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            14,
+            0
+          ]
+        },
+        {
+          "target": "MICH_EXP",
+          "baseline_mape": 47.64158765725993,
+          "method_mape": 33.76487024723458,
+          "relative_change_percent": -29.12731941230914,
+          "paired_wilcoxon_p": 0.359375,
+          "improved_same_worse_cells": [
+            5,
+            0,
+            4
+          ]
+        },
+        {
+          "target": "CALCE",
+          "baseline_mape": 20.75665512413878,
+          "method_mape": 20.75665512413878,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            13,
+            0
+          ]
+        },
+        {
+          "target": "MICH",
+          "baseline_mape": 18.309295950544186,
+          "method_mape": 18.309295950544186,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            40,
+            0
+          ]
+        },
+        {
+          "target": "SNL",
+          "baseline_mape": 161.20241267281213,
+          "method_mape": 49.812182822846246,
+          "relative_change_percent": -69.09960465421284,
+          "paired_wilcoxon_p": 5.0159983342029955e-09,
+          "improved_same_worse_cells": [
+            43,
+            0,
+            9
+          ]
+        }
+      ],
+      "relative_mape_reduction_percentile_95": [
+        0.0,
+        62.03449047766014
+      ],
+      "bootstrap_probability_reduction_nonpositive": 0.1002,
+      "n_bootstraps": 20000
+    },
+    "h20_k3": {
+      "macro_baseline_mape": 44.44869213312489,
+      "macro_method_mape": 22.56033918215077,
+      "macro_relative_reduction_percent": 49.24408773472565,
+      "pooled_cell_wilcoxon_p": 5.510329364068027e-10,
+      "improved_same_worse_cells": [
+        68,
+        67,
+        20
+      ],
+      "improved_same_worse_domains": [
+        3,
+        3,
+        0
+      ],
+      "per_domain": [
+        {
+          "target": "CALB",
+          "baseline_mape": 129.3819274754728,
+          "method_mape": 18.815194743312272,
+          "relative_change_percent": -85.45763298596776,
+          "paired_wilcoxon_p": 6.660819053649902e-06,
+          "improved_same_worse_cells": [
+            22,
+            0,
+            5
+          ]
+        },
+        {
+          "target": "HNEI",
+          "baseline_mape": 7.543530620550128,
+          "method_mape": 7.543530620550128,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            14,
+            0
+          ]
+        },
+        {
+          "target": "MICH_EXP",
+          "baseline_mape": 39.90076220596811,
+          "method_mape": 33.664007890835435,
+          "relative_change_percent": -15.630664604697241,
+          "paired_wilcoxon_p": 0.25,
+          "improved_same_worse_cells": [
+            5,
+            0,
+            4
+          ]
+        },
+        {
+          "target": "CALCE",
+          "baseline_mape": 12.813287853737762,
+          "method_mape": 12.813287853737762,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            13,
+            0
+          ]
+        },
+        {
+          "target": "MICH",
+          "baseline_mape": 16.86555297014548,
+          "method_mape": 16.86555297014548,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            40,
+            0
+          ]
+        },
+        {
+          "target": "SNL",
+          "baseline_mape": 60.18709167287507,
+          "method_mape": 45.660461014323545,
+          "relative_change_percent": -24.135791005662337,
+          "paired_wilcoxon_p": 3.120248088981373e-06,
+          "improved_same_worse_cells": [
+            41,
+            0,
+            11
+          ]
+        }
+      ],
+      "relative_mape_reduction_percentile_95": [
+        2.4316974273103034,
+        76.17563921686362
+      ],
+      "bootstrap_probability_reduction_nonpositive": 0.0191,
+      "n_bootstraps": 20000
+    },
+    "h20_k5": {
+      "macro_baseline_mape": 33.65970557530451,
+      "macro_method_mape": 22.900205997692865,
+      "macro_relative_reduction_percent": 31.965518989879946,
+      "pooled_cell_wilcoxon_p": 6.659060245127125e-05,
+      "improved_same_worse_cells": [
+        25,
+        128,
+        2
+      ],
+      "improved_same_worse_domains": [
+        1,
+        5,
+        0
+      ],
+      "per_domain": [
+        {
+          "target": "CALB",
+          "baseline_mape": 81.64494287685591,
+          "method_mape": 17.087945411186045,
+          "relative_change_percent": -79.07041782494773,
+          "paired_wilcoxon_p": 9.5367431640625e-06,
+          "improved_same_worse_cells": [
+            25,
+            0,
+            2
+          ]
+        },
+        {
+          "target": "HNEI",
+          "baseline_mape": 6.930923805683785,
+          "method_mape": 6.930923805683785,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            14,
+            0
+          ]
+        },
+        {
+          "target": "MICH_EXP",
+          "baseline_mape": 36.48614125670104,
+          "method_mape": 36.48614125670104,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            9,
+            0
+          ]
+        },
+        {
+          "target": "CALCE",
+          "baseline_mape": 11.500430730478236,
+          "method_mape": 11.500430730478236,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            13,
+            0
+          ]
+        },
+        {
+          "target": "MICH",
+          "baseline_mape": 14.904465857569557,
+          "method_mape": 14.904465857569557,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            40,
+            0
+          ]
+        },
+        {
+          "target": "SNL",
+          "baseline_mape": 50.49132892453853,
+          "method_mape": 50.49132892453853,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            52,
+            0
+          ]
+        }
+      ],
+      "relative_mape_reduction_percentile_95": [
+        0.0,
+        66.2896705368178
+      ],
+      "bootstrap_probability_reduction_nonpositive": 0.33955,
+      "n_bootstraps": 20000
+    },
+    "h20_k10": {
+      "macro_baseline_mape": 28.71752083109762,
+      "macro_method_mape": 21.238427629259956,
+      "macro_relative_reduction_percent": 26.043659011604877,
+      "pooled_cell_wilcoxon_p": 2.353592662196361e-05,
+      "improved_same_worse_cells": [
+        24,
+        128,
+        3
+      ],
+      "improved_same_worse_domains": [
+        1,
+        5,
+        0
+      ],
+      "per_domain": [
+        {
+          "target": "CALB",
+          "baseline_mape": 60.39665024202908,
+          "method_mape": 15.522091031003086,
+          "relative_change_percent": -74.29974846485526,
+          "paired_wilcoxon_p": 1.3113021850585938e-06,
+          "improved_same_worse_cells": [
+            24,
+            0,
+            3
+          ]
+        },
+        {
+          "target": "HNEI",
+          "baseline_mape": 6.485852864896735,
+          "method_mape": 6.485852864896735,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            14,
+            0
+          ]
+        },
+        {
+          "target": "MICH_EXP",
+          "baseline_mape": 36.46759889858956,
+          "method_mape": 36.46759889858956,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            9,
+            0
+          ]
+        },
+        {
+          "target": "CALCE",
+          "baseline_mape": 9.511744766108835,
+          "method_mape": 9.511744766108835,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            13,
+            0
+          ]
+        },
+        {
+          "target": "MICH",
+          "baseline_mape": 14.363620295750547,
+          "method_mape": 14.363620295750547,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            40,
+            0
+          ]
+        },
+        {
+          "target": "SNL",
+          "baseline_mape": 45.07965791921097,
+          "method_mape": 45.07965791921097,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            52,
+            0
+          ]
+        }
+      ],
+      "relative_mape_reduction_percentile_95": [
+        0.0,
+        59.82894192687361
+      ],
+      "bootstrap_probability_reduction_nonpositive": 0.32655,
+      "n_bootstraps": 20000
+    },
+    "h50_k1": {
+      "macro_baseline_mape": 80.0138093198553,
+      "macro_method_mape": 55.88210663408674,
+      "macro_relative_reduction_percent": 30.15942234333832,
+      "pooled_cell_wilcoxon_p": 1.3725055272751864e-09,
+      "improved_same_worse_cells": [
+        51,
+        94,
+        10
+      ],
+      "improved_same_worse_domains": [
+        2,
+        4,
+        0
+      ],
+      "per_domain": [
+        {
+          "target": "CALB",
+          "baseline_mape": 196.61307703881243,
+          "method_mape": 196.61307703881243,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            27,
+            0
+          ]
+        },
+        {
+          "target": "HNEI",
+          "baseline_mape": 6.948683307923454,
+          "method_mape": 6.948683307923454,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            14,
+            0
+          ]
+        },
+        {
+          "target": "MICH_EXP",
+          "baseline_mape": 52.450900560720854,
+          "method_mape": 43.204925406905545,
+          "relative_change_percent": -17.62786731013611,
+          "paired_wilcoxon_p": 0.0078125,
+          "improved_same_worse_cells": [
+            8,
+            0,
+            1
+          ]
+        },
+        {
+          "target": "CALCE",
+          "baseline_mape": 19.741861715749636,
+          "method_mape": 19.741861715749636,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            13,
+            0
+          ]
+        },
+        {
+          "target": "MICH",
+          "baseline_mape": 18.86093982511777,
+          "method_mape": 18.86093982511777,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            40,
+            0
+          ]
+        },
+        {
+          "target": "SNL",
+          "baseline_mape": 185.46739347080768,
+          "method_mape": 49.92315251001155,
+          "relative_change_percent": -73.0825178616265,
+          "paired_wilcoxon_p": 4.495270820960813e-09,
+          "improved_same_worse_cells": [
+            43,
+            0,
+            9
+          ]
+        }
+      ],
+      "relative_mape_reduction_percentile_95": [
+        0.0,
+        65.3572215806932
+      ],
+      "bootstrap_probability_reduction_nonpositive": 0.08875,
+      "n_bootstraps": 20000
+    },
+    "h50_k3": {
+      "macro_baseline_mape": 48.53519919661475,
+      "macro_method_mape": 22.942158458396136,
+      "macro_relative_reduction_percent": 52.730886370821125,
+      "pooled_cell_wilcoxon_p": 9.130283470945498e-09,
+      "improved_same_worse_cells": [
+        66,
+        67,
+        22
+      ],
+      "improved_same_worse_domains": [
+        3,
+        3,
+        0
+      ],
+      "per_domain": [
+        {
+          "target": "CALB",
+          "baseline_mape": 151.74064659030924,
+          "method_mape": 24.261121415690337,
+          "relative_change_percent": -84.011455097332,
+          "paired_wilcoxon_p": 1.1354684829711914e-05,
+          "improved_same_worse_cells": [
+            24,
+            0,
+            3
+          ]
+        },
+        {
+          "target": "HNEI",
+          "baseline_mape": 5.876287304152498,
+          "method_mape": 5.876287304152498,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            14,
+            0
+          ]
+        },
+        {
+          "target": "MICH_EXP",
+          "baseline_mape": 32.48187085687663,
+          "method_mape": 27.76862571224369,
+          "relative_change_percent": -14.51038693368586,
+          "paired_wilcoxon_p": 0.42578125,
+          "improved_same_worse_cells": [
+            5,
+            0,
+            4
+          ]
+        },
+        {
+          "target": "CALCE",
+          "baseline_mape": 14.97350992044221,
+          "method_mape": 14.97350992044221,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            13,
+            0
+          ]
+        },
+        {
+          "target": "MICH",
+          "baseline_mape": 15.358032326284928,
+          "method_mape": 15.358032326284928,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            40,
+            0
+          ]
+        },
+        {
+          "target": "SNL",
+          "baseline_mape": 70.78084818162296,
+          "method_mape": 49.41537407156314,
+          "relative_change_percent": -30.185388645295994,
+          "paired_wilcoxon_p": 4.165327994475066e-05,
+          "improved_same_worse_cells": [
+            37,
+            0,
+            15
+          ]
+        }
+      ],
+      "relative_mape_reduction_percentile_95": [
+        0.0,
+        76.62592759531952
+      ],
+      "bootstrap_probability_reduction_nonpositive": 0.02615,
+      "n_bootstraps": 20000
+    },
+    "h50_k5": {
+      "macro_baseline_mape": 31.032952332838807,
+      "macro_method_mape": 21.509738954904652,
+      "macro_relative_reduction_percent": 30.687423084321797,
+      "pooled_cell_wilcoxon_p": 0.025461702630548314,
+      "improved_same_worse_cells": [
+        15,
+        128,
+        12
+      ],
+      "improved_same_worse_domains": [
+        1,
+        5,
+        0
+      ],
+      "per_domain": [
+        {
+          "target": "CALB",
+          "baseline_mape": 73.35077940563642,
+          "method_mape": 16.2114991380315,
+          "relative_change_percent": -77.89866819494794,
+          "paired_wilcoxon_p": 0.024539664387702942,
+          "improved_same_worse_cells": [
+            15,
+            0,
+            12
+          ]
+        },
+        {
+          "target": "HNEI",
+          "baseline_mape": 5.458471363240554,
+          "method_mape": 5.458471363240554,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            14,
+            0
+          ]
+        },
+        {
+          "target": "MICH_EXP",
+          "baseline_mape": 30.2968611643351,
+          "method_mape": 30.2968611643351,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            9,
+            0
+          ]
+        },
+        {
+          "target": "CALCE",
+          "baseline_mape": 13.870397699615337,
+          "method_mape": 13.870397699615337,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            13,
+            0
+          ]
+        },
+        {
+          "target": "MICH",
+          "baseline_mape": 14.70895732811231,
+          "method_mape": 14.70895732811231,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            40,
+            0
+          ]
+        },
+        {
+          "target": "SNL",
+          "baseline_mape": 48.512247036093136,
+          "method_mape": 48.512247036093136,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            52,
+            0
+          ]
+        }
+      ],
+      "relative_mape_reduction_percentile_95": [
+        0.0,
+        64.7187479748357
+      ],
+      "bootstrap_probability_reduction_nonpositive": 0.3395,
+      "n_bootstraps": 20000
+    },
+    "h50_k10": {
+      "macro_baseline_mape": 23.559062574425894,
+      "macro_method_mape": 18.62387495689663,
+      "macro_relative_reduction_percent": 20.948149366887662,
+      "pooled_cell_wilcoxon_p": 0.04358085639260924,
+      "improved_same_worse_cells": [
+        14,
+        128,
+        13
+      ],
+      "improved_same_worse_domains": [
+        1,
+        5,
+        0
+      ],
+      "per_domain": [
+        {
+          "target": "CALB",
+          "baseline_mape": 44.00726170813945,
+          "method_mape": 14.396136002963871,
+          "relative_change_percent": -67.28690801431709,
+          "paired_wilcoxon_p": 0.04355788230895996,
+          "improved_same_worse_cells": [
+            14,
+            0,
+            13
+          ]
+        },
+        {
+          "target": "HNEI",
+          "baseline_mape": 4.251249580861046,
+          "method_mape": 4.251249580861046,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            14,
+            0
+          ]
+        },
+        {
+          "target": "MICH_EXP",
+          "baseline_mape": 25.954205334505005,
+          "method_mape": 25.954205334505005,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            9,
+            0
+          ]
+        },
+        {
+          "target": "CALCE",
+          "baseline_mape": 12.273204494266452,
+          "method_mape": 12.273204494266452,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            13,
+            0
+          ]
+        },
+        {
+          "target": "MICH",
+          "baseline_mape": 13.468414330960803,
+          "method_mape": 13.468414330960803,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            40,
+            0
+          ]
+        },
+        {
+          "target": "SNL",
+          "baseline_mape": 41.40003999782261,
+          "method_mape": 41.40003999782261,
+          "relative_change_percent": 0.0,
+          "paired_wilcoxon_p": 1.0,
+          "improved_same_worse_cells": [
+            0,
+            52,
+            0
+          ]
+        }
+      ],
+      "relative_mape_reduction_percentile_95": [
+        0.0,
+        52.64221742052361
+      ],
+      "bootstrap_probability_reduction_nonpositive": 0.33545,
+      "n_bootstraps": 20000
+    }
+  }
+}

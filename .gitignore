@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+
+# Data and generated artifacts
+data/
+datasets/
+results/
+outputs/
+logs/
+*.log
+*.zip
+*.7z
+*.tar
+*.tar.gz
+
+# Local/editor/system files
+.ipynb_checkpoints/
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+.DS_Store
+
+# Secrets
+.env
+*.pem
+*.key
+credentials.*
+
+# Large generated result manifests (kept out of the public source release)
+experiments/battery/batterylife_support_selection_6d.json
+experiments/battery/batterylife_local_calibrator_baselines.json
+experiments/battery/batterylife_local_conformal.json
+experiments/battery/batterylife_multisource_residual.json
+experiments/battery/batterylife_adaptive_calibrator.json
+experiments/battery/batterylife_pooled_log_calibration.json
+experiments/battery/batterylife_relative_residual.json
+experiments/battery/batterylife_clean_horizon.json
+experiments/battery/batterylife_lodo_blend.json
+experiments/battery/batterylife_isu_ilcc_v2_prelabel_manifest.json
+experiments/battery/batterylife_protocol_ablation.json
+experiments/battery/batterylife_protocol_selection.json
+experiments/battery/batterylife_apace_cost_audit.json
+experiments/battery/batterylife_tongji_prelabel_manifest.json
+experiments/battery/batterylife_matr_prelabel_manifest.json

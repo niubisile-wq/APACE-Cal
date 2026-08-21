@@ -1,0 +1,1208 @@
+{
+  "source": "aashay96/scientific-posttrain-battery-pbt-eval derivative of Zenodo 17654407",
+  "sha256": "eaef2350a7c8ee06e959e4c55db66e2f567c65287602b3729871ae435c0d5715",
+  "manifest": {
+    "source_record": "https://zenodo.org/records/17654407",
+    "source_raw_archive_sha256": "12f5dbbc4c00196c23c3b5d1a3df58c9681b1918e1b04253d24f5c6c8811b2e0",
+    "source_labels_sha256": "3274c77e71ef5dd42436e9d09ac08108154b3b87ace6059b7ff985f320cb3086",
+    "batteryml_commit": "235369cf13ebce9b4547a6483245bdaf3aa13601",
+    "batterylife_preprocessing_commit": "9572e47b1d36ecb31fe58f7d2874a7355dbb6fea",
+    "retained_cells": 116,
+    "retained_groups": 33,
+    "exclusions": [
+      {
+        "cell_index": 29,
+        "cycling_seen": 0,
+        "malformed_cycles": 0,
+        "reason": "fewer_than_20_valid_cycling_cycles",
+        "valid_cycles": 0
+      },
+      {
+        "cell_index": 30,
+        "cycling_seen": 0,
+        "malformed_cycles": 0,
+        "reason": "fewer_than_20_valid_cycling_cycles",
+        "valid_cycles": 0
+      },
+      {
+        "cell_index": 31,
+        "cycling_seen": 0,
+        "malformed_cycles": 0,
+        "reason": "fewer_than_20_valid_cycling_cycles",
+        "valid_cycles": 0
+      },
+      {
+        "cell_index": 41,
+        "cycling_seen": 0,
+        "malformed_cycles": 0,
+        "reason": "fewer_than_20_valid_cycling_cycles",
+        "valid_cycles": 0
+      },
+      {
+        "cell_index": 42,
+        "cycling_seen": 0,
+        "malformed_cycles": 0,
+        "reason": "fewer_than_20_valid_cycling_cycles",
+        "valid_cycles": 0
+      },
+      {
+        "cell_index": 111,
+        "cycling_seen": 0,
+        "malformed_cycles": 0,
+        "reason": "fewer_than_20_valid_cycling_cycles",
+        "valid_cycles": 0
+      },
+      {
+        "cell_index": 112,
+        "cycling_seen": 0,
+        "malformed_cycles": 0,
+        "reason": "fewer_than_20_valid_cycling_cycles",
+        "valid_cycles": 0
+      }
+    ],
+    "expert_review_status": "required"
+  },
+  "unit": "material/protocol group; replicate cells aggregated before evaluation",
+  "results": {
+    "h10_k1": {
+      "n_groups": 33,
+      "replicate_counts": [
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        3,
+        1,
+        2,
+        2,
+        23,
+        1,
+        2,
+        2,
+        9,
+        6,
+        1,
+        11,
+        14,
+        3,
+        1,
+        2,
+        3,
+        4,
+        2,
+        1,
+        1
+      ],
+      "query_adaptive": {
+        "effective_k": 1,
+        "weight": "0.25",
+        "protocol_only": {
+          "mae": 302.17667768073807,
+          "mape": 51.53620201725105,
+          "median_ae": 224.54272460937523,
+          "n_evaluations": 3300
+        },
+        "curve_aware": {
+          "mae": 201.14892670602512,
+          "mape": 29.72520687486075,
+          "median_ae": 61.39767456054676,
+          "n_evaluations": 3300
+        },
+        "paired": {
+          "n_groups": 33,
+          "improved_same_worse": [
+            26,
+            0,
+            7
+          ],
+          "wilcoxon_p": 0.001472702482715249
+        }
+      },
+      "fixed_random_pool": {
+        "effective_k": 1,
+        "baseline_candidate": "logmean",
+        "method_candidate": "logmean",
+        "baseline": {
+          "mae": 298.68442825198923,
+          "mape": 51.353715668715914,
+          "n_cells": 33,
+          "mean_test_episodes": 96.96969696969697
+        },
+        "method": {
+          "mae": 298.68442825198923,
+          "mape": 51.353715668715914,
+          "n_cells": 33,
+          "mean_test_episodes": 96.96969696969697
+        }
+      },
+      "active_acquisition": {
+        "effective_k": 1,
+        "baseline_candidate": "protocol_medoid_logmean",
+        "method_candidate": "curve_medoid_w0.125_kernel",
+        "baseline": {
+          "mae": 301.28305031775363,
+          "mape": 51.61779471484156,
+          "n_cells": 33
+        },
+        "method": {
+          "mae": 258.095508393969,
+          "mape": 33.887229986222515,
+          "n_cells": 33
+        }
+      }
+    },
+    "h10_k3": {
+      "n_groups": 33,
+      "replicate_counts": [
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        3,
+        1,
+        2,
+        2,
+        23,
+        1,
+        2,
+        2,
+        9,
+        6,
+        1,
+        11,
+        14,
+        3,
+        1,
+        2,
+        3,
+        4,
+        2,
+        1,
+        1
+      ],
+      "query_adaptive": {
+        "effective_k": 3,
+        "weight": "0.5",
+        "protocol_only": {
+          "mae": 245.45781311149136,
+          "mape": 40.717908504541796,
+          "median_ae": 189.22584574710982,
+          "n_evaluations": 3300
+        },
+        "curve_aware": {
+          "mae": 193.9265272512734,
+          "mape": 29.149239491471285,
+          "median_ae": 112.7612755087921,
+          "n_evaluations": 3300
+        },
+        "paired": {
+          "n_groups": 33,
+          "improved_same_worse": [
+            25,
+            0,
+            8
+          ],
+          "wilcoxon_p": 0.02183601539582014
+        }
+      },
+      "fixed_random_pool": {
+        "effective_k": 3,
+        "baseline_candidate": "protocol_kernel_t0.5",
+        "method_candidate": "hybrid_ridge_a1",
+        "baseline": {
+          "mae": 241.4547278101189,
+          "mape": 39.58155253342317,
+          "n_cells": 33,
+          "mean_test_episodes": 90.9090909090909
+        },
+        "method": {
+          "mae": 267.3771132328247,
+          "mape": 43.18402330943115,
+          "n_cells": 33,
+          "mean_test_episodes": 90.9090909090909
+        }
+      },
+      "active_acquisition": {
+        "effective_k": 3,
+        "baseline_candidate": "protocol_medoid_kernel",
+        "method_candidate": "curve_medoid_w2_kernel",
+        "baseline": {
+          "mae": 250.02903203226595,
+          "mape": 41.794311728178315,
+          "n_cells": 33
+        },
+        "method": {
+          "mae": 297.8969287208962,
+          "mape": 40.28032166074326,
+          "n_cells": 33
+        }
+      }
+    },
+    "h10_k5": {
+      "n_groups": 33,
+      "replicate_counts": [
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        3,
+        1,
+        2,
+        2,
+        23,
+        1,
+        2,
+        2,
+        9,
+        6,
+        1,
+        11,
+        14,
+        3,
+        1,
+        2,
+        3,
+        4,
+        2,
+        1,
+        1
+      ],
+      "query_adaptive": {
+        "effective_k": 3,
+        "weight": "0.5",
+        "protocol_only": {
+          "mae": 245.45781311149136,
+          "mape": 40.717908504541796,
+          "median_ae": 189.22584574710982,
+          "n_evaluations": 3300
+        },
+        "curve_aware": {
+          "mae": 193.9265272512734,
+          "mape": 29.149239491471285,
+          "median_ae": 112.7612755087921,
+          "n_evaluations": 3300
+        },
+        "paired": {
+          "n_groups": 33,
+          "improved_same_worse": [
+            25,
+            0,
+            8
+          ],
+          "wilcoxon_p": 0.02183601539582014
+        }
+      },
+      "fixed_random_pool": {
+        "effective_k": 5,
+        "baseline_candidate": "protocol_kernel_t0.5",
+        "method_candidate": "hybrid_ridge_a10",
+        "baseline": {
+          "mae": 238.00917571923566,
+          "mape": 39.55295639410177,
+          "n_cells": 33,
+          "mean_test_episodes": 84.84848484848484
+        },
+        "method": {
+          "mae": 261.00251808422365,
+          "mape": 42.70936543660262,
+          "n_cells": 33,
+          "mean_test_episodes": 84.84848484848484
+        }
+      },
+      "active_acquisition": {
+        "effective_k": 5,
+        "baseline_candidate": "protocol_medoid_kernel",
+        "method_candidate": "curve_medoid_w2_kernel",
+        "baseline": {
+          "mae": 230.00568290509864,
+          "mape": 37.24087510339877,
+          "n_cells": 33
+        },
+        "method": {
+          "mae": 293.44609957498324,
+          "mape": 41.389531899088205,
+          "n_cells": 33
+        }
+      }
+    },
+    "h10_k10": {
+      "n_groups": 33,
+      "replicate_counts": [
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        3,
+        1,
+        2,
+        2,
+        23,
+        1,
+        2,
+        2,
+        9,
+        6,
+        1,
+        11,
+        14,
+        3,
+        1,
+        2,
+        3,
+        4,
+        2,
+        1,
+        1
+      ],
+      "query_adaptive": {
+        "effective_k": 3,
+        "weight": "0.5",
+        "protocol_only": {
+          "mae": 245.45781311149136,
+          "mape": 40.717908504541796,
+          "median_ae": 189.22584574710982,
+          "n_evaluations": 3300
+        },
+        "curve_aware": {
+          "mae": 193.9265272512734,
+          "mape": 29.149239491471285,
+          "median_ae": 112.7612755087921,
+          "n_evaluations": 3300
+        },
+        "paired": {
+          "n_groups": 33,
+          "improved_same_worse": [
+            25,
+            0,
+            8
+          ],
+          "wilcoxon_p": 0.02183601539582014
+        }
+      },
+      "fixed_random_pool": {
+        "effective_k": 10,
+        "baseline_candidate": "protocol_kernel_t0.5",
+        "method_candidate": "hybrid_ridge_a10",
+        "baseline": {
+          "mae": 227.0209265155654,
+          "mape": 36.34137313724279,
+          "n_cells": 33,
+          "mean_test_episodes": 69.6969696969697
+        },
+        "method": {
+          "mae": 224.10811255017688,
+          "mape": 34.55060451406111,
+          "n_cells": 33,
+          "mean_test_episodes": 69.6969696969697
+        }
+      },
+      "active_acquisition": {
+        "effective_k": 10,
+        "baseline_candidate": "protocol_medoid_kernel",
+        "method_candidate": "curve_medoid_w2_kernel",
+        "baseline": {
+          "mae": 225.72663663976036,
+          "mape": 36.69544509570142,
+          "n_cells": 33
+        },
+        "method": {
+          "mae": 274.56942847457515,
+          "mape": 41.176854998921314,
+          "n_cells": 33
+        }
+      }
+    },
+    "h20_k1": {
+      "n_groups": 33,
+      "replicate_counts": [
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        3,
+        1,
+        2,
+        2,
+        23,
+        1,
+        2,
+        2,
+        9,
+        6,
+        1,
+        11,
+        14,
+        3,
+        1,
+        2,
+        3,
+        4,
+        2,
+        1,
+        1
+      ],
+      "query_adaptive": {
+        "effective_k": 1,
+        "weight": "0.25",
+        "protocol_only": {
+          "mae": 302.17667768073807,
+          "mape": 51.53620201725105,
+          "median_ae": 224.54272460937523,
+          "n_evaluations": 3300
+        },
+        "curve_aware": {
+          "mae": 197.50654185901993,
+          "mape": 29.187856535438492,
+          "median_ae": 63.95111083984381,
+          "n_evaluations": 3300
+        },
+        "paired": {
+          "n_groups": 33,
+          "improved_same_worse": [
+            26,
+            0,
+            7
+          ],
+          "wilcoxon_p": 0.0019478083122521639
+        }
+      },
+      "fixed_random_pool": {
+        "effective_k": 1,
+        "baseline_candidate": "logmean",
+        "method_candidate": "hybrid_kernel_w2",
+        "baseline": {
+          "mae": 304.054139606297,
+          "mape": 51.34033299186259,
+          "n_cells": 33,
+          "mean_test_episodes": 96.96969696969697
+        },
+        "method": {
+          "mae": 382.1800214291749,
+          "mape": 61.09578751553126,
+          "n_cells": 33,
+          "mean_test_episodes": 96.96969696969697
+        }
+      },
+      "active_acquisition": {
+        "effective_k": 1,
+        "baseline_candidate": "protocol_medoid_logmean",
+        "method_candidate": "curve_medoid_w0.5_kernel",
+        "baseline": {
+          "mae": 285.94179682341996,
+          "mape": 49.43949637613459,
+          "n_cells": 33
+        },
+        "method": {
+          "mae": 282.2614879517692,
+          "mape": 39.17821019970012,
+          "n_cells": 33
+        }
+      }
+    },
+    "h20_k3": {
+      "n_groups": 33,
+      "replicate_counts": [
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        3,
+        1,
+        2,
+        2,
+        23,
+        1,
+        2,
+        2,
+        9,
+        6,
+        1,
+        11,
+        14,
+        3,
+        1,
+        2,
+        3,
+        4,
+        2,
+        1,
+        1
+      ],
+      "query_adaptive": {
+        "effective_k": 3,
+        "weight": "0.25",
+        "protocol_only": {
+          "mae": 245.45781311149136,
+          "mape": 40.717908504541796,
+          "median_ae": 189.22584574710982,
+          "n_evaluations": 3300
+        },
+        "curve_aware": {
+          "mae": 187.80995791782624,
+          "mape": 26.938357587491947,
+          "median_ae": 109.62217132775584,
+          "n_evaluations": 3300
+        },
+        "paired": {
+          "n_groups": 33,
+          "improved_same_worse": [
+            25,
+            0,
+            8
+          ],
+          "wilcoxon_p": 0.005826751468703151
+        }
+      },
+      "fixed_random_pool": {
+        "effective_k": 3,
+        "baseline_candidate": "protocol_kernel_t0.5",
+        "method_candidate": "hybrid_ridge_a1",
+        "baseline": {
+          "mae": 252.17763667873032,
+          "mape": 42.9287424681928,
+          "n_cells": 33,
+          "mean_test_episodes": 90.9090909090909
+        },
+        "method": {
+          "mae": 274.12518326714064,
+          "mape": 45.16363402084392,
+          "n_cells": 33,
+          "mean_test_episodes": 90.9090909090909
+        }
+      },
+      "active_acquisition": {
+        "effective_k": 3,
+        "baseline_candidate": "protocol_medoid_kernel",
+        "method_candidate": "curve_medoid_w0.5_kernel",
+        "baseline": {
+          "mae": 244.66535944322294,
+          "mape": 40.52506546772502,
+          "n_cells": 33
+        },
+        "method": {
+          "mae": 262.51766684364077,
+          "mape": 38.205632352530365,
+          "n_cells": 33
+        }
+      }
+    },
+    "h20_k5": {
+      "n_groups": 33,
+      "replicate_counts": [
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        3,
+        1,
+        2,
+        2,
+        23,
+        1,
+        2,
+        2,
+        9,
+        6,
+        1,
+        11,
+        14,
+        3,
+        1,
+        2,
+        3,
+        4,
+        2,
+        1,
+        1
+      ],
+      "query_adaptive": {
+        "effective_k": 3,
+        "weight": "0.25",
+        "protocol_only": {
+          "mae": 245.45781311149136,
+          "mape": 40.717908504541796,
+          "median_ae": 189.22584574710982,
+          "n_evaluations": 3300
+        },
+        "curve_aware": {
+          "mae": 187.80995791782624,
+          "mape": 26.938357587491947,
+          "median_ae": 109.62217132775584,
+          "n_evaluations": 3300
+        },
+        "paired": {
+          "n_groups": 33,
+          "improved_same_worse": [
+            25,
+            0,
+            8
+          ],
+          "wilcoxon_p": 0.005826751468703151
+        }
+      },
+      "fixed_random_pool": {
+        "effective_k": 5,
+        "baseline_candidate": "protocol_kernel_t0.5",
+        "method_candidate": "hybrid_ridge_a10",
+        "baseline": {
+          "mae": 236.8321586087788,
+          "mape": 38.970638615281764,
+          "n_cells": 33,
+          "mean_test_episodes": 84.84848484848484
+        },
+        "method": {
+          "mae": 259.39407727721823,
+          "mape": 42.040222780417565,
+          "n_cells": 33,
+          "mean_test_episodes": 84.84848484848484
+        }
+      },
+      "active_acquisition": {
+        "effective_k": 5,
+        "baseline_candidate": "protocol_medoid_kernel",
+        "method_candidate": "curve_medoid_w2_kernel",
+        "baseline": {
+          "mae": 229.80351683104482,
+          "mape": 37.745914829452225,
+          "n_cells": 33
+        },
+        "method": {
+          "mae": 312.85253299064357,
+          "mape": 45.80518468254705,
+          "n_cells": 33
+        }
+      }
+    },
+    "h20_k10": {
+      "n_groups": 33,
+      "replicate_counts": [
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        3,
+        1,
+        2,
+        2,
+        23,
+        1,
+        2,
+        2,
+        9,
+        6,
+        1,
+        11,
+        14,
+        3,
+        1,
+        2,
+        3,
+        4,
+        2,
+        1,
+        1
+      ],
+      "query_adaptive": {
+        "effective_k": 3,
+        "weight": "0.25",
+        "protocol_only": {
+          "mae": 245.45781311149136,
+          "mape": 40.717908504541796,
+          "median_ae": 189.22584574710982,
+          "n_evaluations": 3300
+        },
+        "curve_aware": {
+          "mae": 187.80995791782624,
+          "mape": 26.938357587491947,
+          "median_ae": 109.62217132775584,
+          "n_evaluations": 3300
+        },
+        "paired": {
+          "n_groups": 33,
+          "improved_same_worse": [
+            25,
+            0,
+            8
+          ],
+          "wilcoxon_p": 0.005826751468703151
+        }
+      },
+      "fixed_random_pool": {
+        "effective_k": 10,
+        "baseline_candidate": "protocol_kernel_t0.5",
+        "method_candidate": "hybrid_ridge_a10",
+        "baseline": {
+          "mae": 229.8790659075911,
+          "mape": 37.461074989166924,
+          "n_cells": 33,
+          "mean_test_episodes": 69.6969696969697
+        },
+        "method": {
+          "mae": 229.77722093777066,
+          "mape": 36.18035154138199,
+          "n_cells": 33,
+          "mean_test_episodes": 69.6969696969697
+        }
+      },
+      "active_acquisition": {
+        "effective_k": 10,
+        "baseline_candidate": "protocol_medoid_kernel",
+        "method_candidate": "curve_medoid_w2_kernel",
+        "baseline": {
+          "mae": 224.6460210408759,
+          "mape": 36.078990175676424,
+          "n_cells": 33
+        },
+        "method": {
+          "mae": 255.26510984054187,
+          "mape": 39.86889409871026,
+          "n_cells": 33
+        }
+      }
+    },
+    "h50_k1": {
+      "n_groups": 33,
+      "replicate_counts": [
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        3,
+        1,
+        2,
+        2,
+        23,
+        1,
+        2,
+        2,
+        9,
+        6,
+        1,
+        11,
+        14,
+        3,
+        1,
+        2,
+        3,
+        4,
+        2,
+        1,
+        1
+      ],
+      "query_adaptive": {
+        "effective_k": 1,
+        "weight": "0.5",
+        "protocol_only": {
+          "mae": 302.17667768073807,
+          "mape": 51.53620201725105,
+          "median_ae": 224.54272460937523,
+          "n_evaluations": 3300
+        },
+        "curve_aware": {
+          "mae": 228.69801006895122,
+          "mape": 35.03695225730623,
+          "median_ae": 77.73001098632807,
+          "n_evaluations": 3300
+        },
+        "paired": {
+          "n_groups": 33,
+          "improved_same_worse": [
+            23,
+            0,
+            10
+          ],
+          "wilcoxon_p": 0.019739565905183554
+        }
+      },
+      "fixed_random_pool": {
+        "effective_k": 1,
+        "baseline_candidate": "logmean",
+        "method_candidate": "logmean",
+        "baseline": {
+          "mae": 324.61794968882907,
+          "mape": 58.08386983790868,
+          "n_cells": 33,
+          "mean_test_episodes": 96.96969696969697
+        },
+        "method": {
+          "mae": 324.61794968882907,
+          "mape": 58.08386983790868,
+          "n_cells": 33,
+          "mean_test_episodes": 96.96969696969697
+        }
+      },
+      "active_acquisition": {
+        "effective_k": 1,
+        "baseline_candidate": "protocol_medoid_logmean",
+        "method_candidate": "curve_medoid_winf_kernel",
+        "baseline": {
+          "mae": 299.3776626619126,
+          "mape": 50.760987083596746,
+          "n_cells": 33
+        },
+        "method": {
+          "mae": 290.2377389684252,
+          "mape": 39.49561456402508,
+          "n_cells": 33
+        }
+      }
+    },
+    "h50_k3": {
+      "n_groups": 33,
+      "replicate_counts": [
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        3,
+        1,
+        2,
+        2,
+        23,
+        1,
+        2,
+        2,
+        9,
+        6,
+        1,
+        11,
+        14,
+        3,
+        1,
+        2,
+        3,
+        4,
+        2,
+        1,
+        1
+      ],
+      "query_adaptive": {
+        "effective_k": 3,
+        "weight": "2.0",
+        "protocol_only": {
+          "mae": 245.45781311149136,
+          "mape": 40.717908504541796,
+          "median_ae": 189.22584574710982,
+          "n_evaluations": 3300
+        },
+        "curve_aware": {
+          "mae": 219.6256983178049,
+          "mape": 31.813675974813414,
+          "median_ae": 157.10468421807184,
+          "n_evaluations": 3300
+        },
+        "paired": {
+          "n_groups": 33,
+          "improved_same_worse": [
+            18,
+            0,
+            15
+          ],
+          "wilcoxon_p": 0.20108755165711045
+        }
+      },
+      "fixed_random_pool": {
+        "effective_k": 3,
+        "baseline_candidate": "protocol_kernel_t0.5",
+        "method_candidate": "hybrid_ridge_a0.1",
+        "baseline": {
+          "mae": 245.67618200006467,
+          "mape": 40.484254679439346,
+          "n_cells": 33,
+          "mean_test_episodes": 90.9090909090909
+        },
+        "method": {
+          "mae": 271.22974133422764,
+          "mape": 44.4083708306354,
+          "n_cells": 33,
+          "mean_test_episodes": 90.9090909090909
+        }
+      },
+      "active_acquisition": {
+        "effective_k": 3,
+        "baseline_candidate": "protocol_medoid_kernel",
+        "method_candidate": "curve_medoid_w2_kernel",
+        "baseline": {
+          "mae": 247.48869554240437,
+          "mape": 40.65801180163191,
+          "n_cells": 33
+        },
+        "method": {
+          "mae": 322.5071422057272,
+          "mape": 45.274518933810405,
+          "n_cells": 33
+        }
+      }
+    },
+    "h50_k5": {
+      "n_groups": 33,
+      "replicate_counts": [
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        3,
+        1,
+        2,
+        2,
+        23,
+        1,
+        2,
+        2,
+        9,
+        6,
+        1,
+        11,
+        14,
+        3,
+        1,
+        2,
+        3,
+        4,
+        2,
+        1,
+        1
+      ],
+      "query_adaptive": {
+        "effective_k": 3,
+        "weight": "2.0",
+        "protocol_only": {
+          "mae": 245.45781311149136,
+          "mape": 40.717908504541796,
+          "median_ae": 189.22584574710982,
+          "n_evaluations": 3300
+        },
+        "curve_aware": {
+          "mae": 219.6256983178049,
+          "mape": 31.813675974813414,
+          "median_ae": 157.10468421807184,
+          "n_evaluations": 3300
+        },
+        "paired": {
+          "n_groups": 33,
+          "improved_same_worse": [
+            18,
+            0,
+            15
+          ],
+          "wilcoxon_p": 0.20108755165711045
+        }
+      },
+      "fixed_random_pool": {
+        "effective_k": 5,
+        "baseline_candidate": "protocol_kernel_t0.5",
+        "method_candidate": "hybrid_ridge_a0.1",
+        "baseline": {
+          "mae": 231.78434317046288,
+          "mape": 37.913040687162884,
+          "n_cells": 33,
+          "mean_test_episodes": 84.84848484848484
+        },
+        "method": {
+          "mae": 251.9515085964743,
+          "mape": 39.45052260536784,
+          "n_cells": 33,
+          "mean_test_episodes": 84.84848484848484
+        }
+      },
+      "active_acquisition": {
+        "effective_k": 5,
+        "baseline_candidate": "protocol_medoid_kernel",
+        "method_candidate": "curve_medoid_w2_kernel",
+        "baseline": {
+          "mae": 232.9433744955252,
+          "mape": 38.110601048110226,
+          "n_cells": 33
+        },
+        "method": {
+          "mae": 313.56938246544195,
+          "mape": 45.24644663175971,
+          "n_cells": 33
+        }
+      }
+    },
+    "h50_k10": {
+      "n_groups": 33,
+      "replicate_counts": [
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        3,
+        1,
+        2,
+        2,
+        23,
+        1,
+        2,
+        2,
+        9,
+        6,
+        1,
+        11,
+        14,
+        3,
+        1,
+        2,
+        3,
+        4,
+        2,
+        1,
+        1
+      ],
+      "query_adaptive": {
+        "effective_k": 3,
+        "weight": "2.0",
+        "protocol_only": {
+          "mae": 245.45781311149136,
+          "mape": 40.717908504541796,
+          "median_ae": 189.22584574710982,
+          "n_evaluations": 3300
+        },
+        "curve_aware": {
+          "mae": 219.6256983178049,
+          "mape": 31.813675974813414,
+          "median_ae": 157.10468421807184,
+          "n_evaluations": 3300
+        },
+        "paired": {
+          "n_groups": 33,
+          "improved_same_worse": [
+            18,
+            0,
+            15
+          ],
+          "wilcoxon_p": 0.20108755165711045
+        }
+      },
+      "fixed_random_pool": {
+        "effective_k": 10,
+        "baseline_candidate": "protocol_kernel_t0.5",
+        "method_candidate": "hybrid_ridge_a1",
+        "baseline": {
+          "mae": 228.72582138853386,
+          "mape": 37.042995953292944,
+          "n_cells": 33,
+          "mean_test_episodes": 69.6969696969697
+        },
+        "method": {
+          "mae": 252.31865911715911,
+          "mape": 40.20362044940698,
+          "n_cells": 33,
+          "mean_test_episodes": 69.6969696969697
+        }
+      },
+      "active_acquisition": {
+        "effective_k": 10,
+        "baseline_candidate": "protocol_medoid_kernel",
+        "method_candidate": "curve_medoid_w2_kernel",
+        "baseline": {
+          "mae": 229.72773169077755,
+          "mape": 37.47067387305675,
+          "n_cells": 33
+        },
+        "method": {
+          "mae": 265.81011495075825,
+          "mape": 40.50161741838626,
+          "n_cells": 33
+        }
+      }
+    }
+  }
+}

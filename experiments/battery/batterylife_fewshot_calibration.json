@@ -1,0 +1,1497 @@
+{
+  "dataset_versions": "BatteryLife v12",
+  "rows": [
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_a.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 43.71049383944234,
+      "mape": 16.619959634768954
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_a.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 19.658800677338636,
+      "mape": 7.4748291548816095
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_a.pkl",
+      "calibration_cells": 13,
+      "mode": "raw",
+      "mae": 43.71049383944234,
+      "mape": 16.619959634768954
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_a.pkl",
+      "calibration_cells": 13,
+      "mode": "calibrated",
+      "mae": 16.437945359249063,
+      "mape": 6.250169338117513
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_b.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 15.551975760674678,
+      "mape": 7.13393383517187
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_b.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 40.33919028727639,
+      "mape": 18.50421572810843
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_b.pkl",
+      "calibration_cells": 13,
+      "mode": "raw",
+      "mae": 15.551975760674678,
+      "mape": 7.13393383517187
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_b.pkl",
+      "calibration_cells": 13,
+      "mode": "calibrated",
+      "mae": 32.06316103895498,
+      "mape": 14.707872036217879
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_c.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 37.217557661839656,
+      "mape": 14.595120651701828
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_c.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 8.97544301382337,
+      "mape": 3.51978157404838
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_c.pkl",
+      "calibration_cells": 13,
+      "mode": "raw",
+      "mae": 37.217557661839656,
+      "mape": 14.595120651701828
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_c.pkl",
+      "calibration_cells": 13,
+      "mode": "calibrated",
+      "mae": 7.807075623404819,
+      "mape": 3.061598283688165
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_d.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 38.57798436389485,
+      "mape": 15.010888857546636
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_d.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 11.631147853348857,
+      "mape": 4.525738464338077
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_d.pkl",
+      "calibration_cells": 13,
+      "mode": "raw",
+      "mae": 38.57798436389485,
+      "mape": 15.010888857546636
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_d.pkl",
+      "calibration_cells": 13,
+      "mode": "calibrated",
+      "mae": 9.964885045279981,
+      "mape": 3.8773871771517436
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_e.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 39.912427588400305,
+      "mape": 15.41020370208506
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_e.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 13.618007520317862,
+      "mape": 5.257917961512688
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_e.pkl",
+      "calibration_cells": 13,
+      "mode": "raw",
+      "mae": 39.912427588400305,
+      "mape": 15.41020370208506
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_e.pkl",
+      "calibration_cells": 13,
+      "mode": "calibrated",
+      "mae": 12.148674267017418,
+      "mape": 4.690607825103251
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_f.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 19.140086404449235,
+      "mape": 8.008404353326041
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_f.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 6.413948251224203,
+      "mape": 2.6836603561607544
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_f.pkl",
+      "calibration_cells": 13,
+      "mode": "raw",
+      "mae": 19.140086404449235,
+      "mape": 8.008404353326041
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_f.pkl",
+      "calibration_cells": 13,
+      "mode": "calibrated",
+      "mae": 9.38062439516,
+      "mape": 3.9249474456736397
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_g.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 26.564103096939334,
+      "mape": 10.754697610096898
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_g.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 1.5906899634624991,
+      "mape": 0.6440040337904854
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_g.pkl",
+      "calibration_cells": 13,
+      "mode": "raw",
+      "mae": 26.564103096939334,
+      "mape": 10.7546976100969
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_g.pkl",
+      "calibration_cells": 13,
+      "mode": "calibrated",
+      "mae": 0.7713362538869392,
+      "mape": 0.3122818841647527
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_j.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 43.599292587137995,
+      "mape": 16.640951369136637
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_j.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 16.609167510049513,
+      "mape": 6.339376912232638
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_j.pkl",
+      "calibration_cells": 13,
+      "mode": "raw",
+      "mae": 43.599292587137995,
+      "mape": 16.640951369136637
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_j.pkl",
+      "calibration_cells": 13,
+      "mode": "calibrated",
+      "mae": 15.357696096484478,
+      "mape": 5.861716067360488
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_l.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 17.026214063610556,
+      "mape": 7.467637747197611
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_l.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 17.375830707210334,
+      "mape": 7.6209783803554085
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_l.pkl",
+      "calibration_cells": 13,
+      "mode": "raw",
+      "mae": 17.026214063610556,
+      "mape": 7.467637747197611
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_l.pkl",
+      "calibration_cells": 13,
+      "mode": "calibrated",
+      "mae": 21.26830060587733,
+      "mape": 9.328202020121635
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_n.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 26.688153064394488,
+      "mape": 10.848842709103451
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_n.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 0.5964484324091391,
+      "mape": 0.24245871236143862
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_n.pkl",
+      "calibration_cells": 13,
+      "mode": "raw",
+      "mae": 26.688153064394488,
+      "mape": 10.848842709103451
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_n.pkl",
+      "calibration_cells": 13,
+      "mode": "calibrated",
+      "mae": 1.8500167703771442,
+      "mape": 0.7520393375516846
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_o.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 45.81738966922592,
+      "mape": 17.22458258241576
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_o.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 20.60332635006525,
+      "mape": 7.745611409798967
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_o.pkl",
+      "calibration_cells": 13,
+      "mode": "raw",
+      "mae": 45.81738966922592,
+      "mape": 17.22458258241576
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_o.pkl",
+      "calibration_cells": 13,
+      "mode": "calibrated",
+      "mae": 19.67775492725866,
+      "mape": 7.397652228292728
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_p.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 43.1519856572259,
+      "mape": 16.407599109211368
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_p.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 17.607790986330684,
+      "mape": 6.694977561342465
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_p.pkl",
+      "calibration_cells": 13,
+      "mode": "raw",
+      "mae": 43.1519856572259,
+      "mape": 16.407599109211368
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_p.pkl",
+      "calibration_cells": 13,
+      "mode": "calibrated",
+      "mae": 16.440146167675906,
+      "mape": 6.251006147405287
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_s.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 17.88145615796522,
+      "mape": 7.7408901116732585
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_s.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 14.418237734420146,
+      "mape": 6.241661356891839
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_s.pkl",
+      "calibration_cells": 13,
+      "mode": "raw",
+      "mae": 17.88145615796522,
+      "mape": 7.7408901116732585
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_s.pkl",
+      "calibration_cells": 13,
+      "mode": "calibrated",
+      "mae": 18.012097545702503,
+      "mape": 7.79744482497944
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_t.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 16.041031997280626,
+      "mape": 6.8551418791797545
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_t.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 11.432562685706396,
+      "mape": 4.885710549447177
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_t.pkl",
+      "calibration_cells": 13,
+      "mode": "raw",
+      "mae": 16.041031997280626,
+      "mape": 6.8551418791797545
+    },
+    {
+      "train_dataset": "CALB",
+      "target_dataset": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_t.pkl",
+      "calibration_cells": 13,
+      "mode": "calibrated",
+      "mae": 14.774901884522055,
+      "mape": 6.314060634411134
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_0_B182.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 138.46376455026456,
+      "mape": 128.2071893983931
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_0_B182.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 38.70337437638766,
+      "mape": 35.836457755914516
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_0_B182.pkl",
+      "calibration_cells": 26,
+      "mode": "raw",
+      "mae": 138.46376455026456,
+      "mape": 128.2071893983931
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_0_B182.pkl",
+      "calibration_cells": 26,
+      "mode": "calibrated",
+      "mae": 664.5990095807616,
+      "mape": 615.36945331552
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_0_B183.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 141.4908613146113,
+      "mape": 134.7532012520107
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_0_B183.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 42.940775483379426,
+      "mape": 40.895976650837554
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_0_B183.pkl",
+      "calibration_cells": 26,
+      "mode": "raw",
+      "mae": 141.4908613146113,
+      "mape": 134.75320125201077
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_0_B183.pkl",
+      "calibration_cells": 26,
+      "mode": "calibrated",
+      "mae": 661.5096337348615,
+      "mape": 630.0091749855825
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_0_B184.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 70.58519434269435,
+      "mape": 40.105224058349066
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_0_B184.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 50.82903491336182,
+      "mape": 28.88013347350103
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_0_B184.pkl",
+      "calibration_cells": 26,
+      "mode": "raw",
+      "mae": 70.58519434269434,
+      "mape": 40.105224058349066
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_0_B184.pkl",
+      "calibration_cells": 26,
+      "mode": "calibrated",
+      "mae": 565.0707683656,
+      "mape": 321.0629365713636
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_0_B185.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 85.54258994708991,
+      "mape": 53.13204344539746
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_0_B185.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 30.99542805724903,
+      "mape": 19.251818669098768
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_0_B185.pkl",
+      "calibration_cells": 26,
+      "mode": "raw",
+      "mae": 85.54258994708992,
+      "mape": 53.13204344539747
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_0_B185.pkl",
+      "calibration_cells": 26,
+      "mode": "calibrated",
+      "mae": 590.8483210412794,
+      "mape": 366.98653480824805
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_0_B187.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 57.479859439502285,
+      "mape": 30.4126240420647
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_0_B187.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 59.71846584354818,
+      "mape": 31.597071874893224
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_0_B187.pkl",
+      "calibration_cells": 26,
+      "mode": "raw",
+      "mae": 57.47985943950229,
+      "mape": 30.412624042064706
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_0_B187.pkl",
+      "calibration_cells": 26,
+      "mode": "calibrated",
+      "mae": 576.5150571274428,
+      "mape": 305.0344217605517
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_0_B188.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 124.47384962510964,
+      "mape": 101.19825172773143
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_0_B188.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 17.738359408521042,
+      "mape": 14.421430413431741
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_0_B188.pkl",
+      "calibration_cells": 26,
+      "mode": "raw",
+      "mae": 124.47384962510965,
+      "mape": 101.19825172773145
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_0_B188.pkl",
+      "calibration_cells": 26,
+      "mode": "calibrated",
+      "mae": 471.24048148223955,
+      "mape": 383.1223426684875
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_0_B189.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 82.56504485725915,
+      "mape": 50.344539547109235
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_0_B189.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 33.73661063069413,
+      "mape": 20.571104043106175
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_0_B189.pkl",
+      "calibration_cells": 26,
+      "mode": "raw",
+      "mae": 82.56504485725912,
+      "mape": 50.344539547109235
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_0_B189.pkl",
+      "calibration_cells": 26,
+      "mode": "calibrated",
+      "mae": 582.4661285249659,
+      "mape": 355.16227349083283
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_0_B190.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 142.48448677248675,
+      "mape": 137.00431420431417
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_0_B190.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 25.334869235765307,
+      "mape": 24.36045118823587
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_0_B190.pkl",
+      "calibration_cells": 26,
+      "mode": "raw",
+      "mae": 142.48448677248675,
+      "mape": 137.00431420431417
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_0_B190.pkl",
+      "calibration_cells": 26,
+      "mode": "calibrated",
+      "mae": 664.0055236651161,
+      "mape": 638.4668496779963
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_25_T25-1.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 546.6716335978836,
+      "mape": 69.02419616134894
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_25_T25-1.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 675.990683919067,
+      "mape": 85.35235908069028
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_25_T25-1.pkl",
+      "calibration_cells": 26,
+      "mode": "raw",
+      "mae": 546.6716335978836,
+      "mape": 69.02419616134894
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_25_T25-1.pkl",
+      "calibration_cells": 26,
+      "mode": "calibrated",
+      "mae": 254.1220201405011,
+      "mape": 32.08611365410368
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_25_T25-2.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 736.4899208112876,
+      "mape": 74.99897360603742
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_25_T25-2.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 863.8962450883383,
+      "mape": 87.97314104769231
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_25_T25-2.pkl",
+      "calibration_cells": 26,
+      "mode": "raw",
+      "mae": 736.4899208112876,
+      "mape": 74.99897360603742
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_25_T25-2.pkl",
+      "calibration_cells": 26,
+      "mode": "calibrated",
+      "mae": 98.48904328858447,
+      "mape": 10.029434143440376
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B173.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 987.8446204585538,
+      "mape": 80.11716305422172
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B173.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 1118.9845468991045,
+      "mape": 90.75300461468814
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B173.pkl",
+      "calibration_cells": 26,
+      "mode": "raw",
+      "mae": 987.8446204585539,
+      "mape": 80.11716305422172
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B173.pkl",
+      "calibration_cells": 26,
+      "mode": "calibrated",
+      "mae": 195.5923045287119,
+      "mape": 15.86312283282335
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B174.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 1025.4139232804232,
+      "mape": 80.61430214468737
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B174.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 1141.4941953887871,
+      "mape": 89.74010970037637
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B174.pkl",
+      "calibration_cells": 26,
+      "mode": "raw",
+      "mae": 1025.4139232804232,
+      "mape": 80.61430214468737
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B174.pkl",
+      "calibration_cells": 26,
+      "mode": "calibrated",
+      "mae": 584.3484626672025,
+      "mape": 45.93934454930839
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B175.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 1105.3410047619047,
+      "mape": 81.75599147647226
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B175.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 1220.653729621213,
+      "mape": 90.28503917316664
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B175.pkl",
+      "calibration_cells": 26,
+      "mode": "raw",
+      "mae": 1105.3410047619047,
+      "mape": 81.75599147647226
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B175.pkl",
+      "calibration_cells": 26,
+      "mode": "calibrated",
+      "mae": 688.4498222701452,
+      "mape": 50.92084484246637
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B222.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 1014.7349730158728,
+      "mape": 80.53452166792643
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B222.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 1144.7207400644684,
+      "mape": 90.85085238606891
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B222.pkl",
+      "calibration_cells": 26,
+      "mode": "raw",
+      "mae": 1014.7349730158728,
+      "mape": 80.53452166792643
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B222.pkl",
+      "calibration_cells": 26,
+      "mode": "calibrated",
+      "mae": 242.88165805224676,
+      "mape": 19.27632206763863
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B223.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 1021.4268744268078,
+      "mape": 80.61774857354442
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B223.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 1148.1695664749898,
+      "mape": 90.62111811168036
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B223.pkl",
+      "calibration_cells": 26,
+      "mode": "raw",
+      "mae": 1021.4268744268078,
+      "mape": 80.61774857354442
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B223.pkl",
+      "calibration_cells": 26,
+      "mode": "calibrated",
+      "mae": 317.8789888594692,
+      "mape": 25.089107250155422
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B224.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 1038.0109653439154,
+      "mape": 80.90498560747588
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B224.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 1170.9018538411224,
+      "mape": 91.26281012011863
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B224.pkl",
+      "calibration_cells": 26,
+      "mode": "raw",
+      "mae": 1038.0109653439154,
+      "mape": 80.90498560747588
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B224.pkl",
+      "calibration_cells": 26,
+      "mode": "calibrated",
+      "mae": 194.29165064224847,
+      "mape": 15.143542528624199
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B227.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 995.4109505291007,
+      "mape": 80.2103908564948
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B227.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 1121.986026118149,
+      "mape": 90.40983288623279
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B227.pkl",
+      "calibration_cells": 26,
+      "mode": "raw",
+      "mae": 995.4109505291007,
+      "mape": 80.2103908564948
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B227.pkl",
+      "calibration_cells": 26,
+      "mode": "calibrated",
+      "mae": 306.5910516711748,
+      "mape": 24.705161295018115
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B228.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 997.7923614638447,
+      "mape": 80.27291725372847
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B228.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 1128.3822047644435,
+      "mape": 90.77893843639929
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B228.pkl",
+      "calibration_cells": 26,
+      "mode": "raw",
+      "mae": 997.7923614638447,
+      "mape": 80.27291725372847
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B228.pkl",
+      "calibration_cells": 26,
+      "mode": "calibrated",
+      "mae": 210.05793351294665,
+      "mape": 16.899270596375434
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B229.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 925.7348811287479,
+      "mape": 79.05507097598188
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B229.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 1055.7196809647407,
+      "mape": 90.15539547094288
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B229.pkl",
+      "calibration_cells": 26,
+      "mode": "raw",
+      "mae": 925.7348811287479,
+      "mape": 79.05507097598188
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B229.pkl",
+      "calibration_cells": 26,
+      "mode": "calibrated",
+      "mae": 149.82472020227627,
+      "mape": 12.794596089007367
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B230.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 1007.6800628747794,
+      "mape": 80.42139368513801
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B230.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 1137.0878405648737,
+      "mape": 90.749229095361
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B230.pkl",
+      "calibration_cells": 26,
+      "mode": "raw",
+      "mae": 1007.6800628747795,
+      "mape": 80.42139368513801
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B230.pkl",
+      "calibration_cells": 26,
+      "mode": "calibrated",
+      "mae": 243.63740325869156,
+      "mape": 19.444325878586717
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B247.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 1164.343570017637,
+      "mape": 82.51903401967658
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B247.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 1279.6832970023336,
+      "mape": 90.69335910718169
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B247.pkl",
+      "calibration_cells": 26,
+      "mode": "raw",
+      "mae": 1164.343570017637,
+      "mape": 82.51903401967658
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B247.pkl",
+      "calibration_cells": 26,
+      "mode": "calibrated",
+      "mae": 750.5444715948572,
+      "mape": 53.19237927674394
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B248.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 1072.76340978836,
+      "mape": 81.39327843614261
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B248.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 1203.0485050040356,
+      "mape": 91.27833877117114
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B248.pkl",
+      "calibration_cells": 26,
+      "mode": "raw",
+      "mae": 1072.76340978836,
+      "mape": 81.39327843614261
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B248.pkl",
+      "calibration_cells": 26,
+      "mode": "calibrated",
+      "mae": 291.4194929853068,
+      "mape": 22.11073543135864
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B249.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 1054.235524250441,
+      "mape": 81.0327074750531
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B249.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 1168.4379512314079,
+      "mape": 89.81075720456633
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B249.pkl",
+      "calibration_cells": 26,
+      "mode": "raw",
+      "mae": 1054.235524250441,
+      "mape": 81.0327074750531
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B249.pkl",
+      "calibration_cells": 26,
+      "mode": "calibrated",
+      "mae": 665.6972623563003,
+      "mape": 51.168121626156825
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B250.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 1014.9211901234567,
+      "mape": 80.54930080344896
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B250.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 1146.867096126557,
+      "mape": 91.02119810528231
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B250.pkl",
+      "calibration_cells": 26,
+      "mode": "raw",
+      "mae": 1014.9211901234567,
+      "mape": 80.54930080344896
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_35_B250.pkl",
+      "calibration_cells": 26,
+      "mode": "calibrated",
+      "mae": 200.47787152688898,
+      "mape": 15.91094218467373
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_45_B253.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 735.4404602011746,
+      "mape": 74.96844650368753
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_45_B253.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 862.3261574002205,
+      "mape": 87.90276833845266
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_45_B253.pkl",
+      "calibration_cells": 26,
+      "mode": "raw",
+      "mae": 735.4404602011746,
+      "mape": 74.96844650368753
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_45_B253.pkl",
+      "calibration_cells": 26,
+      "mode": "calibrated",
+      "mae": 160.3009142261566,
+      "mape": 16.340562102564384
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_45_B255.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 746.6901387289959,
+      "mape": 75.19538154370554
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_45_B255.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 865.677880873855,
+      "mape": 87.17803432767927
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_45_B255.pkl",
+      "calibration_cells": 26,
+      "mode": "raw",
+      "mae": 746.6901387289959,
+      "mape": 75.19538154370554
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_45_B255.pkl",
+      "calibration_cells": 26,
+      "mode": "calibrated",
+      "mae": 274.59647393584123,
+      "mape": 27.65321993311593
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_45_B256.pkl",
+      "calibration_cells": 3,
+      "mode": "raw",
+      "mae": 740.390991005291,
+      "mape": 75.01428480296768
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_45_B256.pkl",
+      "calibration_cells": 3,
+      "mode": "calibrated",
+      "mae": 856.229875808345,
+      "mape": 86.7507472956783
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_45_B256.pkl",
+      "calibration_cells": 26,
+      "mode": "raw",
+      "mae": 740.390991005291,
+      "mape": 75.01428480296768
+    },
+    {
+      "train_dataset": "HNEI",
+      "target_dataset": "CALB",
+      "held_out": "CALB_45_B256.pkl",
+      "calibration_cells": 26,
+      "mode": "calibrated",
+      "mae": 303.5693411844212,
+      "mape": 30.75677215647631
+    }
+  ],
+  "CALB_to_HNEI_k3_raw_mean_mae": 30.777153708034366,
+  "CALB_to_HNEI_k3_raw_mean_mape": 12.194203868043937,
+  "CALB_to_HNEI_k3_calibrated_mean_mae": 14.347899426641662,
+  "CALB_to_HNEI_k3_calibrated_mean_mape": 5.8843515825193125,
+  "CALB_to_HNEI_kall_raw_mean_mae": 30.777153708034366,
+  "CALB_to_HNEI_kall_raw_mean_mape": 12.194203868043937,
+  "CALB_to_HNEI_kall_calibrated_mean_mae": 13.996758284346516,
+  "CALB_to_HNEI_kall_calibrated_mean_mape": 5.751927517874238,
+  "HNEI_to_CALB_k3_raw_mean_mae": 695.3490039502775,
+  "HNEI_to_CALB_k3_raw_mean_mape": 80.53175838233739,
+  "HNEI_to_CALB_k3_calibrated_mean_mae": 763.3427775964801,
+  "HNEI_to_CALB_k3_calibrated_mean_mape": 71.08820286453513,
+  "HNEI_to_CALB_kall_raw_mean_mae": 695.3490039502775,
+  "HNEI_to_CALB_kall_raw_mean_mape": 80.53175838233739,
+  "HNEI_to_CALB_kall_calibrated_mean_mae": 404.03799297874946,
+  "HNEI_to_CALB_kall_calibrated_mean_mape": 152.61251502656373
+}

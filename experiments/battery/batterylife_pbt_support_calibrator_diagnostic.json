@@ -1,0 +1,2531 @@
+{
+  "protocol": "development diagnostic; all calibrators reported; no post-hoc selection",
+  "results": {
+    "CALB_h10": {
+      "protocol_dispersion": 0.1649572197684645,
+      "rows": {
+        "raw": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 157.20299038763798
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 157.20299038763798
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 157.20299038763798
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 157.20299038763798
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 157.20299038763798
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 157.20299038763798
+          }
+        ],
+        "logbias_median": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 216.77499647754448
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 233.5997966537868
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 225.48868797102006
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 238.9544508411852
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 239.9284502169738
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 241.89449659368998
+          }
+        ],
+        "support_median": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 208.70980495626858
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 232.93233049831034
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 220.47217153301332
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 209.14373252757875
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 230.0389558028808
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 208.64686114691605
+          }
+        ],
+        "residual_nearest": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 95.48955484038483
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 16.615598078201884
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 57.52964337279942
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 15.29477971807614
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 15.56351190061735
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 10.916072690032525
+          }
+        ],
+        "residual_kernel_0_0.5": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 132.90124267478674
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 90.66249735678619
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 118.32989152419624
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 102.552757334944
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 102.20080032310189
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 96.32439121707573
+          }
+        ],
+        "residual_kernel_0_1.0": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 154.56806291141055
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 126.75118153811388
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 147.32598606782835
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 142.2184870347059
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 140.23923320693095
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 138.36242238010067
+          }
+        ],
+        "residual_kernel_0_2.0": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 164.03643172952732
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 138.26657108339728
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 157.59005970223586
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 158.07464510594025
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 154.03012561397165
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 155.3445861280444
+          }
+        ],
+        "residual_kernel_2_0.5": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 96.54610072951094
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 18.8496222622428
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 58.913568755195186
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 17.04258926881335
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 17.828372095406955
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 12.455258450323232
+          }
+        ],
+        "residual_kernel_2_1.0": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 118.7080395345769
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 55.185445277798394
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 97.89438114762167
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 64.09264071782047
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 74.2362458136761
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 65.16503866164736
+          }
+        ],
+        "residual_kernel_2_2.0": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 150.94266187647585
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 100.07255580294617
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 141.92612828739172
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 126.32331685068803
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 133.56455072441483
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 130.03034249079593
+          }
+        ],
+        "residual_kernel_inf_0.5": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 108.32888912572825
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 37.19172515780548
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 78.60348140995875
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 41.80385011688747
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 46.60587823477195
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 41.07120329346232
+          }
+        ],
+        "residual_kernel_inf_1.0": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 143.92124265397874
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 88.37795012556177
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 131.84466937142815
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 114.85335815920546
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 120.9243318302164
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 118.1377565852147
+          }
+        ],
+        "residual_kernel_inf_2.0": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 160.12741279810405
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 112.94958819120947
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 152.8434498933063
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 143.73752967747626
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 148.09715949347427
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 147.03845696187298
+          }
+        ]
+      }
+    },
+    "CALB_h20": {
+      "protocol_dispersion": 0.1649572197684645,
+      "rows": {
+        "raw": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 157.01655723334758
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 157.01655723334758
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 157.01655723334758
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 157.01655723334758
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 157.01655723334758
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 157.01655723334758
+          }
+        ],
+        "logbias_median": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 216.77656994814066
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 238.05285318537213
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 228.28133741828174
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 246.14172004161333
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 235.2641141065748
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 243.64780894904405
+          }
+        ],
+        "support_median": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 210.65100991042016
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 239.80892181159288
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 220.80548523301582
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 225.19558278579353
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 228.9699779455191
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 205.89674070750814
+          }
+        ],
+        "residual_nearest": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 102.88248518094876
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 13.153849413984805
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 55.01263033818376
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 12.846942857156481
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 18.360896213141356
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 10.695401026493
+          }
+        ],
+        "residual_kernel_0_0.5": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 141.34533411488982
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 83.96163801596241
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 115.12828246467046
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 100.04440682710992
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 106.13833715047221
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 89.71663005482378
+          }
+        ],
+        "residual_kernel_0_1.0": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 161.87952320306064
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 121.26329500739618
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 148.42390437740866
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 144.73819324562547
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 143.6775808182571
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 131.5066026250323
+          }
+        ],
+        "residual_kernel_0_2.0": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 169.58922238813489
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 132.71540855844177
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 161.05993727811907
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 161.94808060212057
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 156.73556268535108
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 149.00996975150633
+          }
+        ],
+        "residual_kernel_2_0.5": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 104.9774160205158
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 14.667297998610787
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 56.77713467181171
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 14.347462707651548
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 21.503358452086495
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 11.83166680864337
+          }
+        ],
+        "residual_kernel_2_1.0": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 130.97397512626102
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 51.194276513505365
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 99.32445428585197
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 62.68061087795156
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 83.00988569314988
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 61.5634680308333
+          }
+        ],
+        "residual_kernel_2_2.0": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 158.3428220303105
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 92.98181473719855
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 144.66171559177678
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 127.9519866773219
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 137.00346210201621
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 123.37467062090361
+          }
+        ],
+        "residual_kernel_inf_0.5": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 119.4003509966732
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 34.06635565001295
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 79.96251433160077
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 38.343371443732984
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 56.162177651986134
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 38.89470350708713
+          }
+        ],
+        "residual_kernel_inf_1.0": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 152.11165819241393
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 82.18971741271014
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 135.64360407025967
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 116.10306816736816
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 125.7580345196114
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 111.91689060106131
+          }
+        ],
+        "residual_kernel_inf_2.0": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 165.91690881167912
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 103.68614783722039
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 156.53588538804397
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 145.567490194095
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 150.20694424003395
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 140.1872334944243
+          }
+        ]
+      }
+    },
+    "CALB_h50": {
+      "protocol_dispersion": 0.1649572197684645,
+      "rows": {
+        "raw": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 157.71850052667284
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 157.71850052667284
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 157.7185005266729
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 157.7185005266729
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 157.71850052667287
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 157.71850052667287
+          }
+        ],
+        "logbias_median": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 221.58228510086278
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 241.6935844222106
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 237.33535185561462
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 226.97270273330585
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 239.63776732048152
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 234.93158806851508
+          }
+        ],
+        "support_median": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 217.89114490697207
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 229.0737457965052
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 228.55249252017833
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 188.63540641591356
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 234.2313838527045
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 197.91006949985183
+          }
+        ],
+        "residual_nearest": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 140.99432925701504
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 27.442724636286933
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 71.5132914418949
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 13.005041226929583
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 37.550862722542306
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 10.837925696361129
+          }
+        ],
+        "residual_kernel_0_0.5": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 156.6682739344913
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 86.9447311273393
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 118.18579563128176
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 70.64581505099065
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 109.66972439706764
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 74.87177378701546
+          }
+        ],
+        "residual_kernel_0_1.0": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 175.17005619214592
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 123.40025349894088
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 152.16450578509307
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 107.36906953460095
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 146.60926766077023
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 113.31917208969934
+          }
+        ],
+        "residual_kernel_0_2.0": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 181.86007351822366
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 134.63859766546932
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 164.36766418937447
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 123.85592358350074
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 159.40471997573545
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 130.41337343518177
+          }
+        ],
+        "residual_kernel_2_0.5": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 138.8859735778685
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 20.52672212463986
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 71.73935937710438
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 13.89756325631712
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 41.77408882290504
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 12.109043233098724
+          }
+        ],
+        "residual_kernel_2_1.0": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 157.39247848175563
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 57.82382574638036
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 113.89495449732725
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 56.39245811558745
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 100.2387839970109
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 61.42642926397735
+          }
+        ],
+        "residual_kernel_2_2.0": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 174.58558964158377
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 97.1429174346522
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 150.58740608496566
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 97.43928193977362
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 144.42608012993574
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 109.24314820752834
+          }
+        ],
+        "residual_kernel_inf_0.5": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 152.6386760372707
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 40.119975639000806
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 101.85441405412503
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 40.638110804179775
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 78.43115033060096
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 42.177084977569514
+          }
+        ],
+        "residual_kernel_inf_1.0": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 171.63410309935577
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 87.64136651763792
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 144.495097276838
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 90.65672023256572
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 137.1626307271057
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 101.80686782440343
+          }
+        ],
+        "residual_kernel_inf_2.0": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 179.73490804712924
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 107.0839499273864
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 160.6365828239017
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 110.7179100557429
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 154.83999870397514
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 122.83670974092972
+          }
+        ]
+      }
+    },
+    "HNEI_h10": {
+      "protocol_dispersion": 0.0,
+      "rows": {
+        "raw": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 5.865561690466725
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 5.865561690466725
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 5.865561690466727
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 5.865561690466727
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 5.865561690466726
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 5.865561690466726
+          }
+        ],
+        "logbias_median": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 5.97987275373599
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 5.97987275373599
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 5.95454329807071
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 5.95454329807071
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 5.593012727574385
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 5.593012727574385
+          }
+        ],
+        "support_median": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 6.5333079095301345
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 6.5333079095301345
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 6.611280405112852
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 6.611280405112852
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 6.361147797391388
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 6.361147797391388
+          }
+        ],
+        "residual_nearest": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 6.265073009166528
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 6.265073009166528
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 5.8833979273056025
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 5.8833979273056025
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 4.684176868066894
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 4.684176868066894
+          }
+        ],
+        "residual_kernel_0_0.5": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 5.568692570549217
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 5.568692570549217
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 5.5834927245452075
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 5.5834927245452075
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 5.432948176137517
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 5.432948176137517
+          }
+        ],
+        "residual_kernel_0_1.0": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 5.568692570549217
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 5.568692570549217
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 5.5834927245452075
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 5.5834927245452075
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 5.432948176137517
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 5.432948176137517
+          }
+        ],
+        "residual_kernel_0_2.0": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 5.568692570549217
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 5.568692570549217
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 5.5834927245452075
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 5.5834927245452075
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 5.432948176137517
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 5.432948176137517
+          }
+        ],
+        "residual_kernel_2_0.5": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 5.793491379381694
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 5.793491379381694
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 5.480590799123965
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 5.480590799123965
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 4.674849925036415
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 4.674849925036415
+          }
+        ],
+        "residual_kernel_2_1.0": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 5.558242611277587
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 5.558242611277587
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 5.446825709362871
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 5.446825709362871
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 5.155536021428768
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 5.155536021428768
+          }
+        ],
+        "residual_kernel_2_2.0": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 5.538614245867253
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 5.538614245867253
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 5.54465151648103
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 5.54465151648103
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 5.354415087525413
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 5.354415087525413
+          }
+        ],
+        "residual_kernel_inf_0.5": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 5.666156756713245
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 5.666156756713245
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 5.4292682194304485
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 5.4292682194304485
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 4.914869795881344
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 4.914869795881344
+          }
+        ],
+        "residual_kernel_inf_1.0": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 5.525256382789076
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 5.525256382789076
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 5.501534778933698
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 5.501534778933698
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 5.288758770585109
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 5.288758770585109
+          }
+        ],
+        "residual_kernel_inf_2.0": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 5.83670924620142
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 5.83670924620142
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 5.6856033420109995
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 5.6856033420109995
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 5.525996593639923
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 5.525996593639923
+          }
+        ]
+      }
+    },
+    "HNEI_h20": {
+      "protocol_dispersion": 0.0,
+      "rows": {
+        "raw": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 5.592959133846008
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 5.592959133846008
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 5.592959133846007
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 5.592959133846007
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 5.592959133846007
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 5.592959133846007
+          }
+        ],
+        "logbias_median": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 6.6907189815207255
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 6.6907189815207255
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 6.0214005815903535
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 6.0214005815903535
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 5.676803844176415
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 5.676803844176415
+          }
+        ],
+        "support_median": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 7.206782623201442
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 7.206782623201442
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 6.563404423786041
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 6.563404423786041
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 6.228599407201623
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 6.228599407201623
+          }
+        ],
+        "residual_nearest": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 7.619164736092036
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 7.619164736092036
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 7.2454109284286785
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 7.2454109284286785
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 6.870829953832299
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 6.870829953832299
+          }
+        ],
+        "residual_kernel_0_0.5": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 6.36414909137247
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 6.36414909137247
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 5.652800862677551
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 5.652800862677551
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 5.422874742387914
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 5.422874742387914
+          }
+        ],
+        "residual_kernel_0_1.0": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 6.36414909137247
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 6.36414909137247
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 5.652800862677551
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 5.652800862677551
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 5.422874742387914
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 5.422874742387914
+          }
+        ],
+        "residual_kernel_0_2.0": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 6.36414909137247
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 6.36414909137247
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 5.652800862677551
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 5.652800862677551
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 5.422874742387914
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 5.422874742387914
+          }
+        ],
+        "residual_kernel_2_0.5": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 6.797528666464599
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 6.797528666464599
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 6.42227122294076
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 6.42227122294076
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 5.7646296892013975
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 5.7646296892013975
+          }
+        ],
+        "residual_kernel_2_1.0": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 6.397409864272239
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 6.397409864272239
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 5.7508829204649485
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 5.7508829204649485
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 5.457902404190787
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 5.457902404190787
+          }
+        ],
+        "residual_kernel_2_2.0": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 6.638888462832466
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 6.638888462832466
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 5.786259932005165
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 5.786259932005165
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 5.4553282371546965
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 5.4553282371546965
+          }
+        ],
+        "residual_kernel_inf_0.5": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 6.577985811089142
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 6.577985811089142
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 6.060071241845066
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 6.060071241845066
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 5.553800091543501
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 5.553800091543501
+          }
+        ],
+        "residual_kernel_inf_1.0": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 6.363780538344099
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 6.363780538344099
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 5.661584453984423
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 5.661584453984423
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 5.455474349889948
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 5.455474349889948
+          }
+        ],
+        "residual_kernel_inf_2.0": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 6.594010920866344
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 6.594010920866344
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 5.753372271967083
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 5.753372271967083
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 5.563832816156735
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 5.563832816156735
+          }
+        ]
+      }
+    },
+    "HNEI_h50": {
+      "protocol_dispersion": 0.0,
+      "rows": {
+        "raw": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 5.598841468573381
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 5.598841468573381
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 5.598841468573381
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 5.598841468573381
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 5.59884146857338
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 5.59884146857338
+          }
+        ],
+        "logbias_median": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 6.440108829845064
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 6.440108829845064
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 6.323009631851702
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 6.323009631851702
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 6.126465494037702
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 6.126465494037702
+          }
+        ],
+        "support_median": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 6.744278123921475
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 6.744278123921475
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 6.600022968658459
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 6.600022968658459
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 6.42929249553215
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 6.42929249553215
+          }
+        ],
+        "residual_nearest": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 5.702085528178507
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 5.702085528178507
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 5.476486607436434
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 5.476486607436434
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 4.465888478986911
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 4.465888478986911
+          }
+        ],
+        "residual_kernel_0_0.5": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 6.001195693395274
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 6.001195693395274
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 5.8899122213318025
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 5.8899122213318025
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 5.694996889969856
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 5.694996889969856
+          }
+        ],
+        "residual_kernel_0_1.0": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 6.001195693395274
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 6.001195693395274
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 5.8899122213318025
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 5.8899122213318025
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 5.694996889969856
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 5.694996889969856
+          }
+        ],
+        "residual_kernel_0_2.0": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 6.001195693395274
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 6.001195693395274
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 5.8899122213318025
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 5.8899122213318025
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 5.694996889969856
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 5.694996889969856
+          }
+        ],
+        "residual_kernel_2_0.5": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 5.22992444151761
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 5.22992444151761
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 4.793884421589929
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 4.793884421589929
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 4.530919355586432
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 4.530919355586432
+          }
+        ],
+        "residual_kernel_2_1.0": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 5.124711888392426
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 5.124711888392426
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 4.789647847817299
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 4.789647847817299
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 4.581568170779803
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 4.581568170779803
+          }
+        ],
+        "residual_kernel_2_2.0": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 4.948832230648756
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 4.948832230648756
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 4.54334631905238
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 4.54334631905238
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 4.238361905460268
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 4.238361905460268
+          }
+        ],
+        "residual_kernel_inf_0.5": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 5.1787672581611774
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 5.1787672581611774
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 4.775816641609319
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 4.775816641609319
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 4.525130904140367
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 4.525130904140367
+          }
+        ],
+        "residual_kernel_inf_1.0": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 4.902849573129015
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 4.902849573129015
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 4.487024786758851
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 4.487024786758851
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 4.208327253198724
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 4.208327253198724
+          }
+        ],
+        "residual_kernel_inf_2.0": [
+          {
+            "budget": 3,
+            "arm": "random",
+            "mape": 4.989716328439469
+          },
+          {
+            "budget": 3,
+            "arm": "apace",
+            "mape": 4.989716328439469
+          },
+          {
+            "budget": 5,
+            "arm": "random",
+            "mape": 4.579186651127938
+          },
+          {
+            "budget": 5,
+            "arm": "apace",
+            "mape": 4.579186651127938
+          },
+          {
+            "budget": 10,
+            "arm": "random",
+            "mape": 4.258220044236524
+          },
+          {
+            "budget": 10,
+            "arm": "apace",
+            "mape": 4.258220044236524
+          }
+        ]
+      }
+    }
+  }
+}

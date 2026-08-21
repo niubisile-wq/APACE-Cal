@@ -1,0 +1,385 @@
+{
+  "protocol": "unlabeled phase/flip audit; 100 deterministic 1% perturbations",
+  "rows": [
+    {
+      "dataset": "CALB",
+      "horizon": 10,
+      "protocol_dispersion": 0.1649572197684645,
+      "rho": 0.6938045136389934,
+      "base_routes": {
+        "1": "fallback_one_label_unidentifiable",
+        "3": "active_low_or_high_dispersion",
+        "5": "active_low_or_high_dispersion",
+        "10": "active_low_or_high_dispersion"
+      },
+      "route_flip_rate_percent": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 100.0,
+        "10": 100.0
+      }
+    },
+    {
+      "dataset": "HNEI",
+      "horizon": 10,
+      "protocol_dispersion": 0.0,
+      "rho": 0.0,
+      "base_routes": {
+        "1": "fallback_zero_protocol_dispersion",
+        "3": "fallback_zero_protocol_dispersion",
+        "5": "fallback_zero_protocol_dispersion",
+        "10": "fallback_zero_protocol_dispersion"
+      },
+      "route_flip_rate_percent": {
+        "1": 100.0,
+        "3": 100.0,
+        "5": 100.0,
+        "10": 100.0
+      }
+    },
+    {
+      "dataset": "MICH_EXP",
+      "horizon": 10,
+      "protocol_dispersion": 0.6324555320336759,
+      "rho": 0.2754730678115244,
+      "base_routes": {
+        "1": "fallback_one_label_unidentifiable",
+        "3": "active_low_or_high_dispersion",
+        "5": "fallback_large_budget_high_protocol_dispersion",
+        "10": "fallback_large_budget_high_protocol_dispersion"
+      },
+      "route_flip_rate_percent": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      }
+    },
+    {
+      "dataset": "CALCE",
+      "horizon": 10,
+      "protocol_dispersion": 0.5,
+      "rho": 0.42720978218888145,
+      "base_routes": {
+        "1": "fallback_medium_protocol_dispersion",
+        "3": "fallback_medium_protocol_dispersion",
+        "5": "fallback_medium_protocol_dispersion",
+        "10": "fallback_medium_protocol_dispersion"
+      },
+      "route_flip_rate_percent": {
+        "1": 100.0,
+        "3": 100.0,
+        "5": 100.0,
+        "10": 100.0
+      }
+    },
+    {
+      "dataset": "MICH",
+      "horizon": 10,
+      "protocol_dispersion": 0.4472135954999579,
+      "rho": 0.7202347270504956,
+      "base_routes": {
+        "1": "fallback_medium_protocol_dispersion",
+        "3": "fallback_medium_protocol_dispersion",
+        "5": "fallback_medium_protocol_dispersion",
+        "10": "fallback_medium_protocol_dispersion"
+      },
+      "route_flip_rate_percent": {
+        "1": 100.0,
+        "3": 100.0,
+        "5": 100.0,
+        "10": 100.0
+      }
+    },
+    {
+      "dataset": "SNL",
+      "horizon": 10,
+      "protocol_dispersion": 0.640708946721129,
+      "rho": 0.44658197543310946,
+      "base_routes": {
+        "1": "fallback_one_label_unidentifiable",
+        "3": "active_low_or_high_dispersion",
+        "5": "fallback_large_budget_high_protocol_dispersion",
+        "10": "fallback_large_budget_high_protocol_dispersion"
+      },
+      "route_flip_rate_percent": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      }
+    },
+    {
+      "dataset": "CALB",
+      "horizon": 20,
+      "protocol_dispersion": 0.1649572197684645,
+      "rho": 0.6983141308496803,
+      "base_routes": {
+        "1": "fallback_one_label_unidentifiable",
+        "3": "active_low_or_high_dispersion",
+        "5": "active_low_or_high_dispersion",
+        "10": "active_low_or_high_dispersion"
+      },
+      "route_flip_rate_percent": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 100.0,
+        "10": 100.0
+      }
+    },
+    {
+      "dataset": "HNEI",
+      "horizon": 20,
+      "protocol_dispersion": 0.0,
+      "rho": 0.0,
+      "base_routes": {
+        "1": "fallback_zero_protocol_dispersion",
+        "3": "fallback_zero_protocol_dispersion",
+        "5": "fallback_zero_protocol_dispersion",
+        "10": "fallback_zero_protocol_dispersion"
+      },
+      "route_flip_rate_percent": {
+        "1": 100.0,
+        "3": 100.0,
+        "5": 100.0,
+        "10": 100.0
+      }
+    },
+    {
+      "dataset": "MICH_EXP",
+      "horizon": 20,
+      "protocol_dispersion": 0.6324555320336759,
+      "rho": 0.0925163906498431,
+      "base_routes": {
+        "1": "fallback_one_label_unidentifiable",
+        "3": "active_low_or_high_dispersion",
+        "5": "fallback_large_budget_high_protocol_dispersion",
+        "10": "fallback_large_budget_high_protocol_dispersion"
+      },
+      "route_flip_rate_percent": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      }
+    },
+    {
+      "dataset": "CALCE",
+      "horizon": 20,
+      "protocol_dispersion": 0.5,
+      "rho": 0.35657776486698634,
+      "base_routes": {
+        "1": "fallback_medium_protocol_dispersion",
+        "3": "fallback_medium_protocol_dispersion",
+        "5": "fallback_medium_protocol_dispersion",
+        "10": "fallback_medium_protocol_dispersion"
+      },
+      "route_flip_rate_percent": {
+        "1": 100.0,
+        "3": 100.0,
+        "5": 100.0,
+        "10": 100.0
+      }
+    },
+    {
+      "dataset": "MICH",
+      "horizon": 20,
+      "protocol_dispersion": 0.4472135954999579,
+      "rho": 0.7589970138607034,
+      "base_routes": {
+        "1": "fallback_medium_protocol_dispersion",
+        "3": "fallback_medium_protocol_dispersion",
+        "5": "fallback_medium_protocol_dispersion",
+        "10": "fallback_medium_protocol_dispersion"
+      },
+      "route_flip_rate_percent": {
+        "1": 100.0,
+        "3": 100.0,
+        "5": 100.0,
+        "10": 100.0
+      }
+    },
+    {
+      "dataset": "SNL",
+      "horizon": 20,
+      "protocol_dispersion": 0.639787269104916,
+      "rho": 0.4048303388598272,
+      "base_routes": {
+        "1": "fallback_one_label_unidentifiable",
+        "3": "active_low_or_high_dispersion",
+        "5": "fallback_large_budget_high_protocol_dispersion",
+        "10": "fallback_large_budget_high_protocol_dispersion"
+      },
+      "route_flip_rate_percent": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      }
+    },
+    {
+      "dataset": "CALB",
+      "horizon": 50,
+      "protocol_dispersion": 0.1649572197684645,
+      "rho": 0.5592977764053793,
+      "base_routes": {
+        "1": "fallback_one_label_unidentifiable",
+        "3": "active_low_or_high_dispersion",
+        "5": "active_low_or_high_dispersion",
+        "10": "active_low_or_high_dispersion"
+      },
+      "route_flip_rate_percent": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 100.0,
+        "10": 100.0
+      }
+    },
+    {
+      "dataset": "HNEI",
+      "horizon": 50,
+      "protocol_dispersion": 0.0,
+      "rho": 0.0,
+      "base_routes": {
+        "1": "fallback_zero_protocol_dispersion",
+        "3": "fallback_zero_protocol_dispersion",
+        "5": "fallback_zero_protocol_dispersion",
+        "10": "fallback_zero_protocol_dispersion"
+      },
+      "route_flip_rate_percent": {
+        "1": 100.0,
+        "3": 100.0,
+        "5": 100.0,
+        "10": 100.0
+      }
+    },
+    {
+      "dataset": "MICH_EXP",
+      "horizon": 50,
+      "protocol_dispersion": 0.6324555320336759,
+      "rho": 0.6220527023497164,
+      "base_routes": {
+        "1": "fallback_one_label_unidentifiable",
+        "3": "active_low_or_high_dispersion",
+        "5": "fallback_large_budget_high_protocol_dispersion",
+        "10": "fallback_large_budget_high_protocol_dispersion"
+      },
+      "route_flip_rate_percent": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      }
+    },
+    {
+      "dataset": "CALCE",
+      "horizon": 50,
+      "protocol_dispersion": 0.5,
+      "rho": 0.49898102559661356,
+      "base_routes": {
+        "1": "fallback_medium_protocol_dispersion",
+        "3": "fallback_medium_protocol_dispersion",
+        "5": "fallback_medium_protocol_dispersion",
+        "10": "fallback_medium_protocol_dispersion"
+      },
+      "route_flip_rate_percent": {
+        "1": 100.0,
+        "3": 100.0,
+        "5": 100.0,
+        "10": 100.0
+      }
+    },
+    {
+      "dataset": "MICH",
+      "horizon": 50,
+      "protocol_dispersion": 0.4472135954999579,
+      "rho": 0.6790120658791347,
+      "base_routes": {
+        "1": "fallback_medium_protocol_dispersion",
+        "3": "fallback_medium_protocol_dispersion",
+        "5": "fallback_medium_protocol_dispersion",
+        "10": "fallback_medium_protocol_dispersion"
+      },
+      "route_flip_rate_percent": {
+        "1": 100.0,
+        "3": 100.0,
+        "5": 100.0,
+        "10": 100.0
+      }
+    },
+    {
+      "dataset": "SNL",
+      "horizon": 50,
+      "protocol_dispersion": 0.6356600922448741,
+      "rho": 0.49427783384535806,
+      "base_routes": {
+        "1": "fallback_one_label_unidentifiable",
+        "3": "active_low_or_high_dispersion",
+        "5": "fallback_large_budget_high_protocol_dispersion",
+        "10": "fallback_large_budget_high_protocol_dispersion"
+      },
+      "route_flip_rate_percent": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      }
+    }
+  ],
+  "h50_k3_extremes": {
+    "best_5": [
+      {
+        "domain": "CALB",
+        "cell": "CALB_0_B183.pkl",
+        "absolute_mape_change": -559.8231282626997
+      },
+      {
+        "domain": "CALB",
+        "cell": "CALB_0_B190.pkl",
+        "absolute_mape_change": -539.1454762311109
+      },
+      {
+        "domain": "CALB",
+        "cell": "CALB_0_B182.pkl",
+        "absolute_mape_change": -508.7781117816123
+      },
+      {
+        "domain": "CALB",
+        "cell": "CALB_0_B189.pkl",
+        "absolute_mape_change": -385.35948724979033
+      },
+      {
+        "domain": "CALB",
+        "cell": "CALB_0_B188.pkl",
+        "absolute_mape_change": -377.910038939685
+      }
+    ],
+    "worst_5": [
+      {
+        "domain": "MICH_EXP",
+        "cell": "MICH_09H_pouch_NMC_45C_0-100_2-2C.pkl",
+        "absolute_mape_change": 23.878656669050688
+      },
+      {
+        "domain": "CALB",
+        "cell": "CALB_35_B247.pkl",
+        "absolute_mape_change": 23.214426332782097
+      },
+      {
+        "domain": "SNL",
+        "cell": "SNL_18650_NMC_15C_0-100_0.5-2C_b.pkl",
+        "absolute_mape_change": 21.377786501907792
+      },
+      {
+        "domain": "SNL",
+        "cell": "SNL_18650_LFP_35C_0-100_0.5-1C_d.pkl",
+        "absolute_mape_change": 18.849663860658993
+      },
+      {
+        "domain": "SNL",
+        "cell": "SNL_18650_NMC_15C_0-100_0.5-1C_a.pkl",
+        "absolute_mape_change": 15.441695801263137
+      }
+    ]
+  }
+}

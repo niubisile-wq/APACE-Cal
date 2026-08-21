@@ -1,0 +1,563 @@
+%% APACE-Cal manuscript for the Journal of Energy Storage
+%% Based on the official Elsevier elsarticle template.
+\documentclass[preprint,12pt]{elsarticle}
+
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{float}
+\setlength{\emergencystretch}{3em}
+
+\journal{Journal of Energy Storage}
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{Safety-Gated Protocol-Aware Few-Shot Calibration for Cross-Dataset Battery Lifetime Prediction}
+
+\author[inst1]{Zixuan Liu}
+\author[inst2]{Wei Xiong\corref{cor1}}
+\cortext[cor1]{Corresponding author}
+\ead{xw@mail.hbut.edu.cn}
+\address[inst1]{Detroit Green Technology Institute, Hubei University of Technology, Wuhan 430068, China}
+\address[inst2]{School of Electrical and Electronic Engineering, Hubei University of Technology, Wuhan 430068, China; Department of Computer Science and Engineering, University of South Carolina, Columbia, SC 29201, USA}
+
+\begin{abstract}
+Cross-dataset battery lifetime prediction becomes label-limited when the target laboratory or cycling protocol is unseen. We introduce APACE-Cal, a safety-gated few-shot calibration framework that reframes active support acquisition as a selective decision under negative-transfer risk. APACE-Cal combines label-blind protocol dispersion, early-cycle degradation structure and their concordance to either activate structure-aware support selection or abstain and return the matched-random fixed-pool baseline exactly. The episode protocol uses early observations for routing and reserves complete lifetime labels for the selected support cells.
+
+Across six development domains, we evaluate three early-observation horizons, four label budgets and 100 fixed episodes per setting. At the prespecified primary endpoint ($H=50$, $K=3$), APACE-Cal reduces six-domain macro-averaged MAPE from 48.5352\% to 22.9422\%, with a domain-level mean relative reduction of 21.4512\% (hierarchical bootstrap 95\% confidence interval, 0.8609--76.6625\%). Three domains improve through active calibration, whereas the other three preserve the matched-random output through abstention. A full forced-active audit gives a slightly lower macro-average (22.5964\%) but reintroduces one worsened domain, illustrating the utility--risk trade-off of selective routing. At the same active coverage, random gating gives 35.9772\% macro-MAPE, and only 5.9\% of random gates reach or improve on the APACE-Cal macro-average. Support-set stability is higher than random selection across the three horizons, and serial support-label cycle cost is lower at the principal low-budget settings. In external active-branch confirmations, the relative reduction reaches 30.9246\% for SNU Dataset 1 and 47.99\% for the 27-cell MathWorks cohort at $H=50$, $K=3$. These results demonstrate APACE-Cal as a fixed, label-blind selective calibration policy that captures active gains in selected domains while preserving a contract-matched baseline when the action is not taken. The contribution is a utility--risk operating policy for cross-domain calibration, rather than an unconditional selector or a universal predictor.
+\end{abstract}
+
+\begin{highlights}
+\item APACE-Cal treats active support acquisition as a safety-gated selective decision.
+\item Six-domain fixed-pool experiments reduce macro-averaged MAPE at the primary endpoint.
+\item Selection, fine-tuning and domain-alignment controls resolve the source of the calibration gain.
+\item Matched-coverage random gating is less effective than structure-based routing.
+\item External active-branch confirmations show improvement on SNU and MathWorks cohorts; additional audits retain matched performance.
+\end{highlights}
+
+\begin{keyword}
+Battery lifetime prediction \sep cross-domain generalization \sep target-domain calibration \sep few-shot learning \sep selective calibration \sep active learning \sep negative-transfer risk \sep protocol shift
+\end{keyword}
+
+\end{frontmatter}
+
+\section{Introduction}
+\label{sec:introduction}
+
+Reliable battery lifetime prediction supports battery screening, accelerated testing, maintenance planning and data-efficient battery management. Complete lifetime labels require cycling cells to an end-of-life condition, whereas early-cycle observations are available much sooner. A practical transfer setting therefore contains many target cells with early observations and only a small cohort with complete lifetime labels \citep{severson2019,paulson2022features,fei2021early,celik2022early,li2020digital,schmitt2023digital,pradhan2022review,vidal2020stateoftheart,ma2020elm,wang2026bayesian}.
+
+This setting couples distribution shift with a calibration budget measured in complete cells. The selected cells determine both the target-domain reference and the local lifetime correction. Random selection provides a matched reference, whereas active selection can concentrate the budget on representative cells. Its value, however, depends on whether the selection signal transfers across protocols and lifetime distributions \citep{lu2023soh,liu2023transfer,vilsen2022field,zhang2025intercell,sun2024transfer,li2022healthconscious,roman2021pipeline,wang2024pinn}.
+
+Existing data-efficient transfer strategies improve the predictor, align feature distributions or select informative samples. They leave open a related methodological question: how should a calibration policy decide whether active selection is worth the risk for a particular target domain? The answer is a decision problem rather than a requirement that a label-blind signal perfectly predict every counterfactual active gain, because an average improvement can conceal heterogeneous responses across laboratories and protocols \citep{li2019review,che2023prognostics,lanubile2024domain,nascimento2023bayesian,che2023uncertainty,liu2021uncertainty,wang2023ress,xiao2023review,jo2021soh,ezemobi2021generalization,li2020ica,zhou2022tcn}.
+
+APACE-Cal addresses this decision at the episode level. Unlike an unconditional selector, it treats support acquisition as a selective action with an explicit abstention option. The policy uses label-blind target structure to choose between active support selection and an exact matched-random fallback, while keeping the acquisition pool, evaluation pool, label budget and outer predictor protocol fixed across the two routes. This formulation makes route selection part of calibration rather than a separate model-selection heuristic: the method decides not only which support cells to acquire, but also whether active acquisition is justified for the observed target cohort.
+
+We formulate cross-dataset battery lifetime calibration as a safety-gated decision problem. Label-blind protocol and early-curve evidence determine whether the frozen policy takes the active action or abstains; the latter returns the matched branch under the same episode contract. APACE-Cal therefore integrates support selection, selective routing and local calibration within one fixed-budget procedure. In this paper, safety-gated denotes an empirical risk-control mechanism: the policy preserves the matched baseline when the available structure does not justify active calibration, rather than claiming a formal safety guarantee or perfect counterfactual classification.
+
+Here we introduce APACE-Cal, a safety-gated protocol-aware few-shot calibration framework. APACE-Cal combines protocol dispersion, early degradation-curve structure and their concordance to select an active action or an exact baseline-preserving abstention. We evaluate the policy across six development domains, compare it with alternative selection, fine-tuning and domain-alignment strategies, quantify support stability and label-cycle cost, compare it with matched-coverage random routing, and test it on external cohorts. These experiments characterize the utility--risk operating point of a frozen policy and distinguish structure-based selective routing from both unconditional acquisition and random abstention. The resulting contribution is a conditional cross-domain calibration policy that makes the active-versus-abstain decision explicit under a fixed label budget.
+
+\section{Methodology}
+\label{sec:methodology}
+
+\subsection{Problem formulation and episode protocol}
+\label{sec:problem}
+
+Let a target-domain episode contain $N$ battery cells with observations available up to cycle horizon $H$. For cell $i$, the available information is represented by a protocol descriptor $p_i$ and an early degradation representation $c_i(H)$. The episode is divided into an acquisition pool $\mathcal{A}$ and an evaluation pool $\mathcal{E}$. A total of $K$ cells are run to completion and used as support cells. The lifetime labels of cells in $\mathcal{E}$ are reserved for final evaluation.
+
+For each episode, the outer lifetime-prediction interface is selected before target-domain calibration. APACE-Cal uses the permitted early observations to choose a support set $\mathcal{S}\subseteq\mathcal{A}$ with $|\mathcal{S}|=K$, or to return the matched-random support result. The support set is disjoint from the evaluation pool, $\mathcal{S}\cap\mathcal{E}=\varnothing$, and its complete lifetime labels are used by the selected calibration interface.
+
+The comparison uses paired fixed-pool episodes. APACE-Cal and its matched-random baseline share the acquisition pool, evaluation pool, support budget, outer predictor protocol and episode seed. This common episode contract isolates support selection and routing.
+
+The APACE-Cal episode workflow is summarized in Fig.~\ref{fig:framework}. Early target-domain information is converted into structure signals before route selection. Both branches use the same support budget, local calibration interface and evaluation procedure.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.98\linewidth]{figures/draft/Fig1_domain_routing_gpt2_photo_final_4k.png}
+\caption{APACE-Cal workflow for safety-gated few-shot calibration. Early target-domain curves and protocol descriptors are converted into structure signals, which determine whether the episode takes the active action or abstains to matched-random support. Both actions use the same fixed label budget and evaluation contract; the abstention action preserves the matched baseline exactly.}
+\label{fig:framework}
+\end{figure}
+
+\subsection{Input representations}
+
+\subsubsection{Protocol descriptors}
+
+For each target cell, the protocol descriptor is a structured vector of experimental conditions available before the cell reaches its full lifetime. It records the protocol variables used to distinguish target-domain operating conditions. The descriptor is computed before support acquisition and is available for routing and support selection without a lifetime label.
+
+Protocol descriptors are processed as a separate modality from the degradation curve. The protocol modality is summarized at the target-cohort level to obtain the within-cohort dispersion $D_p$. This quantity describes how much the observed target cells differ in their experimental conditions. The routing policy uses $D_p$ as a domain-level signal; it does not use the final lifetime of any acquisition or evaluation cell to calculate it.
+
+\subsubsection{Early degradation-curve representation}
+
+The early degradation representation $c_i(H)$ is computed from the first $H$ cycles and contains the curve information available before the full lifetime is observed. The horizon $H$ is fixed for an episode and is varied only through the prespecified experimental grid. The representation is available for cells in both the acquisition and evaluation pools, consistent with early-cycle and partial-observation battery prognosis studies \citep{zhu2022capacity,bockrath2023partial,zhao2023est,yang2025ultraearlyjps,yang2025visualized,sudarshan2025degradai,liu2025multimodal,tao2024generative}.
+
+Protocol and curve representations are robustly scaled separately so that one modality does not dominate solely because of its numerical scale. Let $D_c(i,q;H)$ denote the early-curve distance between candidate support cell $i$ and evaluation query $q$. Let $\rho$ denote the concordance between protocol-based similarity and curve-based similarity within the target episode. The active-selection representation combines protocol and early-curve evidence. The selector and calibration kernel use this same representation, linking support acquisition to local calibration.
+
+The representation is computed before any support cell is run to completion. Full-lifetime labels enter only after support selection and are used by the calibration interface to estimate the target-domain correction.
+
+For reproducibility, all distances use a column-wise robust scale. For modality $X$, the scale of channel $j$ is its interquartile range; when this range is zero, the channel standard deviation is used, and an all-missing channel is ignored. For two cells $a$ and $b$, the modality distance is
+\begin{equation}
+d_X(a,b)=\left[\frac{1}{|J_{ab}|}\sum_{j\in J_{ab}}\left(\frac{a_j-b_j}{s_{X,j}}\right)^2\right]^{1/2},
+\end{equation}
+where $J_{ab}$ contains the finite channels observed for both cells. The implementation applies a fixed influence cap of $10^9$ before the root-mean-square calculation. The protocol dispersion is the median of the upper-triangular pairwise protocol distances,
+\begin{equation}
+D_p=\operatorname{median}_{i<j}d_p(i,j).
+\end{equation}
+The concordance signal is the Spearman correlation between the upper-triangular protocol-distance and early-curve-distance vectors,
+\begin{equation}
+\rho=\operatorname{Spearman}\!\left(\{d_p(i,j)\}_{i<j},\{d_c(i,j;H)\}_{i<j}\right).
+\end{equation}
+When fewer than three pairs are available or either distance vector is constant, $\rho$ is set to zero. For predictor distance weight $w$, the combined distance used for support acquisition is $d_w=(d_p^2+w d_c^2)^{1/2}$; $w=\infty$ denotes curve distance alone.
+
+\subsection{Protocol-aware routing}
+
+APACE-Cal applies a fixed safety-gated policy to each target-domain episode. The routing input consists of protocol dispersion $D_p$, protocol--curve concordance $\rho$ and support budget $K$. Denoting the policy action by $r$, the policy returns
+
+\begin{equation}
+r(D_p,\rho,K)\in\{\mathrm{active},\mathrm{fallback}\}.
+\end{equation}
+
+The route determines the support-selection operation, but not the evaluation pool, the lifetime metric or the outer predictor protocol. The fallback action is an explicit abstention: it returns the matched-random fixed-pool output under the same episode contract. This separation allows the utility and risk of the selective policy to be compared with active and matched procedures under the same episode.
+
+\subsubsection{Active-support branch}
+
+When $r=\mathrm{active}$, APACE-Cal ranks or selects cells in the acquisition pool using the combined protocol--curve representation. It selects $K$ representative support cells, where $K$ is the total number of cells permitted to obtain complete lifetime labels. The selection is performed only within the acquisition pool, and the selected cells are removed from the evaluation set before prediction.
+
+The selected support cells serve two roles. First, their protocol and early-curve information provides local target-domain reference points. Second, after their lifetime labels become available, they provide the labelled observations used by the calibration interface. The active branch therefore changes the composition of the support set while keeping the total label budget fixed. It does not add labels to the evaluation pool or use evaluation-cell outcomes during acquisition.
+
+Support selection uses greedy facility selection over the acquisition pool. Starting with an empty support set, each step selects the candidate that minimizes the coverage objective $\sum_{q\in\mathcal{C}}\min_{s\in\mathcal{S}}d_w(q,s)$ after adding that candidate, where $\mathcal{C}$ is the full target cohort and $d_w$ is the combined distance. Ties are resolved by a deterministic episode-specific rank. The selected cells are then removed from the evaluation pool.
+
+\subsubsection{Matched-random fallback branch}
+
+When $r=\mathrm{fallback}$, APACE-Cal abstains from active support acquisition and returns the matched-random fixed-pool result exactly. The fallback samples the support cells under the fixed episode contract and uses the same acquisition pool, evaluation pool, support budget and outer predictor protocol as the active branch. No additional calibration operation is imposed after the route has been assigned to fallback.
+
+This branch provides the reference output for episodes in which the active route is not selected. Because both branches share the same pools and budget, the fallback result is evaluated under the same episode contract as the active result.
+
+\subsubsection{Fixed routing policy}
+
+The frozen policy uses low- and high-dispersion thresholds of 0.30 and 0.60 and a protocol--curve concordance threshold of 0.35. Zero-dispersion episodes and $K=1$ episodes use the matched branch. For $0<D_p<0.30$, the active branch uses facility selection with predictor distance weight 2 and a bandwidth of 0.5. For $0.30\leq D_p<0.60$, the matched branch is used. For $D_p\geq0.60$ and $K=3$, the active branch uses distance weight 0.5; $\rho<0.35$ selects the support-lifetime median interface and otherwise uses the distance-weighted kernel interface. Budgets $K\geq5$ at high dispersion use the matched branch. These constants were fixed before the external evaluations.
+
+For each development target domain and each $(H,K)$ setting, that domain is held out. The baseline calibration interface is selected by its mean random-support MAPE across the other five development domains. The selected interface is then applied unchanged to the held-out domain for both the matched-random and routed arms. Target-domain lifetime labels are not used in interface selection. Routing thresholds and branch rules are fixed from the development policy before the external evaluations; they are not re-estimated on external cohorts.
+
+The frozen route contract is summarized in Table~\ref{tab:route_contract}. This table defines the active-versus-abstain decision before any support lifetime label is revealed. In particular, fallback is not a missing or discarded outcome: it is the explicit abstention action of the policy and returns the matched-random result under the same fixed-pool contract.
+
+\begin{table}[t]
+\centering
+\small
+\caption{Frozen APACE-Cal route contract.}
+\label{tab:route_contract}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{3.5cm}p{1.4cm}p{3.8cm}p{3.0cm}}
+\toprule
+\textbf{Target structure} & \textbf{Route} & \textbf{Support selection} & \textbf{Calibration interface} \\
+\midrule
+$D_p=0$ or $K=1$ & Fallback & Matched-random fixed-pool & Matched baseline \\
+$0<D_p<0.30$ & Active & Facility selection, $w=2$ & Fixed kernel, $b=0.5$ \\
+$0.30\leq D_p<0.60$ & Fallback & Matched-random fixed-pool & Matched baseline \\
+$D_p\geq0.60$, $K=3$, $\rho<0.35$ & Active & Facility selection, $w=0.5$ & Support-lifetime median \\
+$D_p\geq0.60$, $K=3$, $\rho\geq0.35$ & Active & Facility selection, $w=0.5$ & Distance-weighted kernel \\
+$D_p\geq0.60$, $K\geq5$ & Fallback & Matched-random fixed-pool & Matched baseline \\
+\bottomrule
+\end{tabular*}
+\end{table}
+
+For each episode, the execution order is: (i) construct the protocol and early-curve representations; (ii) calculate the permitted target-domain structure signals; (iii) apply the frozen routing policy; (iv) select either the active or matched-random support set; (v) obtain the support-cell lifetime labels; (vi) fit the fixed calibration interface; and (vii) predict the evaluation cells. This order prevents the evaluation labels from entering any upstream decision.
+
+\subsection{Local target-domain calibration}
+
+For an active episode, the selected support cells determine the local lifetime prediction. The support-lifetime median interface returns $\hat y_q=\operatorname{median}_{s\in\mathcal{S}}y_s$. The distance-weighted kernel interface uses
+\begin{equation}
+\alpha_{qs}=\frac{\exp[-(d_w(q,s)/b)^2/2]}{\sum_{u\in\mathcal{S}}\exp[-(d_w(q,u)/b)^2/2]},\qquad
+\hat y_q=\exp\!\left(\sum_{s\in\mathcal{S}}\alpha_{qs}\log y_s\right),
+\end{equation}
+where $b=0.5$ in the frozen active branches. If all kernel weights underflow, the nearest support cell receives unit weight. The binary-LOO interfaces compare the kernel and support-median predictions using leave-one-support-out absolute percentage error and select the lower-error interface using only support labels.
+
+The support cohort is selected from the acquisition pool and is disjoint from the evaluation cells. The calibration interface receives only the selected support labels and the early observations permitted by the episode. It produces a prediction for every evaluation cell, including cells whose lifetime labels remain hidden during calibration. The same metric and aggregation protocol is then applied to APACE-Cal and the matched-random baseline.
+
+APACE-Cal operates as a target-domain support-selection and routing layer around a fixed calibration interface. The lifetime-prediction backbone is not changed by the routing decision. Cross-predictor experiments assess whether the selection signal remains useful across several interfaces, while the primary comparison keeps the outer predictor protocol fixed.
+
+\subsection{Label-use protocol}
+
+The episode contract separates early target information from complete lifetime labels. Routing and support selection use protocol and early-curve information, while complete labels enter after support selection.
+
+The outer interface is selected before target calibration. Routing parameters are fixed from development-domain evidence, support labels become available after support selection, and evaluation labels enter in the final metric calculation. APACE-Cal and the matched-random comparison follow this same information flow.
+
+APACE-Cal is a cohort-level transductive calibration policy. It assumes that protocol descriptors and early-cycle observations are available for a target cohort before the $K$ support cells are selected. It is therefore not a zero-history, single-cell online predictor. For sequentially arriving cells, the same policy would require a frozen historical or rolling cohort from which $D_p$ and $\rho$ can be estimated; concept drift or a cold-start cohort is outside the present validation boundary.
+
+\section{Experimental setup}
+\label{sec:experiments}
+
+\subsection{Datasets and domain partition}
+
+The development set contains six battery domains: CALB, HNEI, MICH\allowbreak\_EXP, CALCE, MICH and SNL. Each domain is treated as a separate target-domain episode source so that the method is evaluated under changes in laboratory conditions, cycling protocol and lifetime distribution. The development domains are used for leave-one-domain-out policy development, routing-threshold freezing and primary performance evaluation. The domain identity is retained throughout the analysis because the primary estimand is defined at the domain level rather than by pooling all cells into one sample. The roles of the development and external cohorts are summarized in Table~\ref{tab:cohorts}.
+
+The external evaluation set contains SNU Dataset 1 and the 27-cell MathWorks LFP/Gr cohort. SNU Dataset 1 is obtained from the public Mendeley Data archive (DOI: 10.17632/npjy7vdgky.1), and its prelabel manifest is frozen before complete lifetime labels are read. These cohorts are evaluated after the routing policy, distance weights, kernel bandwidth and predictor choices have been frozen. NA-ion, MATR and HUST+XJTU are included as additional audits of the fallback branch. The NA-ion audit contains 34 cells, while the standardized MATR and HUST+XJTU audits contain 169 and 100 complete-label cells, respectively. These cohorts are analysed separately because their route assignments or development exposure differ.
+
+\begin{table}[t]
+\centering
+\small
+\caption{Cohort roles in the APACE-Cal evaluation.}
+\label{tab:cohorts}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{2.4cm}p{5.0cm}p{4.4cm}}
+\toprule
+\textbf{Cohort group} & \textbf{Cohorts} & \textbf{Evaluation role} \\
+\midrule
+Development & CALB, HNEI, MICH\_EXP, CALCE, MICH, SNL & Policy development and primary evaluation \\
+External active & SNU Dataset 1; MathWorks LFP/Gr & Frozen external active evaluation \\
+Fallback audit & NA-ion; MATR; HUST+XJTU & Matched-branch reference \\
+\bottomrule
+\end{tabular*}
+\end{table}
+
+All cohorts are represented through the information available before the target cell reaches its full lifetime. The early observation horizon is $H\in\{10,20,50\}$ cycles, and the total number of support cells with complete lifetime labels is $K\in\{1,3,5,10\}$. The same horizon and support-budget definitions are used for APACE-Cal and all matched baselines.
+
+\subsection{Episode construction and fixed-pool protocol}
+
+Each experimental setting is evaluated with 100 deterministic fixed-pool episodes. An episode defines the target cohort, the acquisition pool, the evaluation pool, the early-observation horizon, the support budget and the episode seed. The acquisition pool supplies candidate support cells, whereas the evaluation pool supplies the cells on which the calibrated lifetime predictions are scored. The two pools are disjoint.
+
+For every episode, the outer prediction interface is fixed without evaluation-cell lifetime labels. APACE-Cal then constructs protocol and early-curve representations from the permitted observations in the target cohort. The frozen routing policy determines whether the active-support branch or the matched-random branch is used. The support cells are run to completion only after the support set has been fixed, and their lifetime labels are then made available to the calibration interface. Evaluation-cell lifetime labels remain hidden until the final metric calculation.
+
+The matched-random fixed-pool procedure is the primary baseline. It uses the same acquisition pool, evaluation pool, support budget, outer predictor protocol and episode seed as APACE-Cal. In an active episode, support selection is the only changed operation. In a fallback episode, APACE-Cal returns the matched-random result exactly. This paired construction isolates conditional support selection from changes in data partition, label budget or predictor training.
+
+The prespecified primary endpoint is the six-domain macro-averaged MAPE at $H=50$ and $K=3$. The full grid covers all twelve combinations of the three observation horizons and four support budgets. We report the primary endpoint separately from the full grid so that the main claim is tied to a fixed evaluation condition. The complete experimental design is listed in Table~\ref{tab:design}.
+
+\begin{table}[t]
+\centering
+\caption{Experimental design and primary evaluation protocol.}
+\label{tab:design}
+\begin{tabular}{ll}
+\toprule
+\textbf{Item} & \textbf{Specification} \\
+\midrule
+Early-observation horizons & $H\in\{10,20,50\}$ cycles \\
+Support budgets & $K\in\{1,3,5,10\}$ cells \\
+Episodes per setting & 100 deterministic fixed-pool episodes \\
+Primary endpoint & Six-domain macro-MAPE at $H=50$, $K=3$ \\
+Primary baseline & Matched-random fixed-pool procedure \\
+Primary metric & Domain-level macro-averaged MAPE \\
+Controls & Selection, fine-tuning and DANN \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Baselines and control methods}
+
+The first baseline group contains alternative support-selection strategies. Ordinary active selection is evaluated without the APACE-Cal route decision. Medoid and k-center selectors provide coverage-based alternatives that do not use the same conditional policy. Sequential Gaussian-process-regression acquisition provides a posterior-driven active-learning comparison. Its matched-random GPR initialization uses the same fixed-pool and total-budget contract, but the GPR interface is evaluated within its own predictor protocol rather than ranked directly against APACE-Cal across incompatible interfaces.
+
+The second baseline group tests whether the observed effect comes from using the $K$ target labels for further model fitting. It includes source-only prediction, random-$K$ fine-tuning, uncertainty-$K$ fine-tuning and APACE-$K$ fine-tuning. These controls receive the same support-label budget and are evaluated on the same target episodes. Their purpose is to separate the value of support selection and local calibration from the value of simply adding a small number of target labels to model fitting.
+
+The third control is a domain-adversarial neural network (DANN). DANN uses source labels together with unlabeled target acquisition features to test whether generic feature alignment explains the cross-domain result. Target evaluation labels are excluded from this control, as they are from APACE-Cal and the other baselines. The comparison tests unlabeled domain alignment under the same information barrier.
+
+\subsection{Evaluation metrics}
+
+For an evaluation pool containing $n$ cells, the cell-level mean absolute percentage error is calculated as
+
+\begin{equation}
+\mathrm{MAPE}=\frac{100}{n}\sum_{i=1}^{n}\left|\frac{y_i-\hat{y}_i}{y_i}\right|,
+\end{equation}
+
+where $y_i$ is the observed lifetime and $\hat{y}_i$ is the prediction produced without using that cell's lifetime label. A domain-level MAPE is calculated separately for each target domain and episode. The six-domain macro-average is the arithmetic mean of the domain-level values, giving each domain equal weight regardless of its number of cells.
+
+Lifetime is measured in cycles. Accordingly, MAE and RMSE are reported in cycles, whereas MAPE and sMAPE are reported as percentages.
+
+The primary effect size is the arithmetic mean across domains of the domain-level relative reduction in MAPE:
+
+\begin{equation}
+R_{\mathrm{domain}}=\frac{1}{D}\sum_{d=1}^{D}\frac{E_{b,d}-E_{m,d}}{E_{b,d}},
+\end{equation}
+
+where $E_{b,d}$ and $E_{m,d}$ are the baseline and method MAPE values for domain $d$. We also report the raw six-domain macro-average transition. These are different estimands: the primary domain-level effect at $H=50$, $K=3$ is 21.4512\%, whereas directly comparing the two macro-average values gives a ratio-of-macro reduction of 52.7309\%.
+
+To evaluate the selective-policy contribution, we define the active effect for domain $d$ as $\Delta_d=E_{\mathrm{active},d}-E_{\mathrm{random},d}$, where negative values indicate an active benefit. The policy-level analysis reports active coverage, worst-domain relative change, worsened-domain count and macro-MAPE for always-random, always-active, APACE-Cal and coverage-matched random gating. An oracle-gated policy that uses evaluation lifetimes to choose the lower-error action is reported only as a test-aware upper bound. The primary claim concerns the label-blind APACE-Cal policy and its utility--risk operating point, not the oracle.
+
+In addition to predictive error, the analysis records the route assigned to each episode, active coverage, support-set stability and route stability. A domain is classified as improved when its method MAPE is lower than its matched baseline, and a fallback domain is reported separately from an active-gain domain. This keeps active performance and baseline-preserving behavior visible in the same evaluation.
+
+\subsection{Ablation and robustness experiments}
+
+The mechanism analysis includes always-active, no-$\rho$, protocol-only, curve-only and missing-component ablations. The always-active variant removes the nonzero-dispersion fallback gates and applies active selection wherever the protocol geometry is non-degenerate; this audit is used to expose the utility--risk trade-off rather than to define the frozen method. The no-$\rho$ variant removes the protocol--curve concordance signal. The protocol-only and curve-only variants retain one modality while removing the other. Missing-component experiments assess behavior when one part of the target-domain evidence is unavailable.
+
+Sensitivity experiments vary the routing threshold, distance weight and kernel bandwidth. They measure route assignment and predictive error under changes to the frozen policy parameters. Robustness experiments perturb early curves, protocol descriptors, support-label queues and acquisition-pool availability. Support-set stability and route stability are evaluated separately from predictive performance.
+
+\subsection{Statistical analysis and external cohorts}
+
+Hierarchical bootstrap intervals use the domain as the outer resampling unit and cells or episodes as the inner unit. For each setting, predictions are first averaged across the 100 paired episodes at the cell level and then aggregated across the six domains. The reported intervals use 10,000 paired resamples; the primary endpoint is prespecified at $H=50$, $K=3$, and the remaining grid comparisons use Holm correction. This hierarchy preserves dependence among cells from the same target domain while propagating episode-level variation into the uncertainty estimate. Cell-level paired tests are reported as supporting analyses alongside domain-level inference.
+
+SNU Dataset 1 and the 27-cell MathWorks LFP/Gr cohort are evaluated after method freezing and prelabel manifest construction. The frozen policy activates the active branch on these cohorts. NA-ion, MATR and HUST+XJTU provide fallback audits because their frozen routing rules do not activate the active branch or because the cohort had already been exposed during method development. Non-blind audits, post hoc EOL reconstruction and data-contract failures remain in the experiment lineage and are excluded from independent confirmation.
+
+The evaluation protocol follows the same order for every cohort: construct the episode, generate the permitted early representations, apply the frozen route, select the support set, obtain support labels, calibrate the target predictions, and calculate the evaluation metrics only after the evaluation labels are released. This order is preserved across development, external confirmation and fallback audit cohorts.
+
+\section{Results and discussion}
+\label{sec:results}
+
+\subsection{Selective routing improves cross-domain calibration while controlling risk}
+
+The control experiments motivate the route decision. Sequential GPR acquisition produces MAPE values of 66.3126\%, 66.6708\% and 61.7700\% at $H=10$, $20$ and $50$ with $K=3$, compared with 49.4792\%, 50.9977\% and 56.2016\% for its matched-random GPR baseline. This contrast identifies cross-domain protocol shift as a condition under which unconditional posterior-driven acquisition can misallocate the label budget. An earlier APACE-Cal v1 audit on MATR showed the same pattern in two low-budget settings, with approximately 174.94\% and 112.36\% degradation.
+
+\subsection{Overall performance and domain-level routing}
+
+Across the full $H\times K$ grid, APACE-Cal matches or improves domain-level macro-MAPE relative to its matched baselines. The complete six-domain grid is given in Table~\ref{tab:main_results}. This policy-level result combines active-branch improvement with exact matched-random preservation through abstention on fallback domains; all 12 settings contain zero worsened domains, and $K=1$ follows the matched branch under the frozen route. The zero-worsened result is a property of the complete selective policy, not evidence that active selection would necessarily fail in every fallback domain.
+
+At the primary endpoint $H=50$, $K=3$, six-domain macro-averaged MAPE changes from 48.5352\% to 22.9422\%. The corresponding values at $H=10$, $K=3$ and $H=20$, $K=3$ are 43.2863\% to 24.2773\% and 44.4487\% to 22.4691\%, respectively. The domain-level relative reduction averaged across the six domains is 21.4512\%, with a hierarchical bootstrap 95\% confidence interval of [0.8609\%, 76.6625\%]. Three domains improve through active calibration, while three retain the matched baseline through the explicit abstention route. Thus, the primary result measures the outcome of a selective calibration policy, rather than an unconditional support selector. Table~\ref{tab:main_results} reports the complete grid.
+
+\begin{table}[t]
+\centering
+\caption{Six-domain macro-averaged MAPE across the complete $H\times K$ grid. Each cell reports matched-random $\rightarrow$ APACE-Cal (\%).}
+\label{tab:main_results}
+\scriptsize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Horizon} & $K=1$ & $K=3$ & $K=5$ & $K=10$ \\
+\midrule
+$H=10$ & 78.0306 $\rightarrow$ 78.0306 & 43.2863 $\rightarrow$ 24.2773 & 33.8536 $\rightarrow$ 23.6949 & 27.0315 $\rightarrow$ 20.9349 \\
+$H=20$ & 74.1345 $\rightarrow$ 74.1345 & 44.4487 $\rightarrow$ 22.4691 & 33.6597 $\rightarrow$ 22.9002 & 28.7175 $\rightarrow$ 21.2384 \\
+$H=50$ & 80.0138 $\rightarrow$ 80.0138 & 48.5352 $\rightarrow$ 22.9422 & 31.0330 $\rightarrow$ 21.5097 & 23.5591 $\rightarrow$ 18.6239 \\
+\bottomrule
+\end{tabular}
+}%
+\end{table}
+
+The corresponding horizon-wise reductions are visualized in Fig.~\ref{fig:main_performance}.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.96\linewidth]{figures/draft/Fig2_main_performance.pdf}
+\caption{Six-domain macro-averaged MAPE at $K=3$ across early-observation horizons. APACE-Cal reduces MAPE relative to the matched-random procedure at all three horizons; labels above the APACE-Cal bars show the relative reductions.}
+\label{fig:main_performance}
+\end{figure}
+
+\subsubsection{Active-domain improvement and matched-branch completion}
+
+At $H=50$, $K=3$, the router activates in CALB, MICH\_EXP and SNL, while HNEI, CALCE and MICH follow the fallback branch. Within the three active domains, macro-averaged MAPE changes from 85.0011\% to 33.8150\%, corresponding to a ratio-of-macro reduction of 60.2181\%. The active coverage is 3/6, and the other three domains preserve the matched-random result through the fallback branch.
+
+The policy combines active improvement in CALB, MICH\_EXP and SNL with matched-branch preservation in HNEI, CALCE and MICH. The six-domain result reports the policy outcome, while the active-domain result reports the gain from selected support cells. A full forced-active audit provides a counterfactual risk check: at $H=50$, $K=3$, it reaches 22.5964\% macro-MAPE but reintroduces one worsened domain, whereas APACE-Cal reaches 22.9422\% with no worsened domain. The selective policy therefore gives up 0.3458 percentage points of macro-average utility relative to always-active calibration to control the observed domain-level negative transfer. This is the central utility--risk trade-off of APACE-Cal: it does not seek the lowest average error by imposing active calibration everywhere, but selects an operating point that combines active gains with baseline-preserving abstention. The zero-worsened count should be read as a property of this policy-level trade-off, not as a claim that every fallback domain would deteriorate under active selection.
+
+\subsubsection{Counterfactual active audit and matched-coverage routing}
+
+The full forced-active audit evaluates all six development domains across the 12 $H\times K$ settings using the same fixed pools, episode seeds, predictor interfaces and support-label budgets as the frozen policy. At the primary endpoint, forced-active changes the macro-MAPE from 48.5352\% for matched random to 22.5964\%, compared with 22.9422\% for APACE-Cal. Forced-active improves five domains but worsens MICH by 0.32\%. The fallback assignments are therefore heterogeneous rather than a verified negative class: at $H=50$, $K=3$, forced-active improves HNEI by 19.24\% and CALCE by 6.63\%, while slightly worsening MICH. HNEI has zero protocol dispersion; its counterfactual audit uses curve-only facility selection and a fixed curve-only kernel interface, and this diagnostic rule does not modify frozen APACE-Cal v2.
+
+These results distinguish two questions that are often conflated: whether active selection can help a particular domain, and whether it is safe to impose active selection before complete lifetime labels are available. APACE-Cal addresses the second question. Its exact fallback is an abstention action that preserves the matched-random result, whereas forced-active exposes the residual negative-transfer risk of unconditional acquisition.
+
+To test whether the route is more informative than arbitrary abstention, we generated 1,000 coverage-matched random gates at the primary endpoint. Each random gate activates the same fraction of domains as APACE-Cal (0.50). The mean macro-MAPE of these gates is 35.9772\%, and only 5.9\% reach or improve on the APACE-Cal macro-MAPE of 22.9422\%. The test-aware oracle-gated policy reaches 22.5883\% and is reported only as an upper bound. Thus, APACE-Cal is not simply withholding active calibration from a randomly chosen subset of domains; it selects a distinct utility--risk operating point using label-blind cohort structure.
+
+\begin{table}[t]
+\centering
+\small
+\caption{Policy-level utility--risk comparison at the prespecified primary endpoint ($H=50$, $K=3$). The oracle uses evaluation lifetimes and is not an implementable method.}
+\label{tab:policy_risk}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Policy} & \textbf{Active coverage} & \textbf{Macro-MAPE (\%)} & \textbf{Worst-domain change (\%)} & \textbf{Worsened domains} \\
+\midrule
+Always-random & 0.000 & 48.5352 & 0.000 & 0 \\
+APACE-Cal & 0.500 & 22.9422 & 0.000 & 0 \\
+Always-active & 1.000 & 22.5964 & 0.316 & 1 \\
+Coverage-matched random & 0.500 & 35.9772 & 0.153 & -- \\
+Oracle-gated upper bound & 0.833 & 22.5883 & 0.000 & 0 \\
+\bottomrule
+\end{tabular}
+}%
+\end{table}
+
+\subsubsection{Route-signal decomposition and predictor compatibility}
+
+Nested leave-one-domain-out route audits further separate policy value from route classification. At $H=50$, $K=3$, $D_p$-only and $D_p+\rho$ policies reach macro-MAPE values of 22.7848\% but each reintroduces one worsened domain. The $\rho$-only, $K$-only and always-active policies reach 22.5964\% while also producing one worsened domain. APACE-Cal reaches 22.9422\% with zero worsened domains and active coverage of 0.50. These results indicate that the frozen policy selects a conservative operating region: simpler or more aggressive rules can reduce the mean slightly, but they do so at the cost of domain-level negative transfer. The route signals are therefore evaluated as components of a selective policy rather than as a binary classifier with a separately defined classification accuracy.
+
+The same-budget BiLSTM stress test provides an explicit predictor-compatibility boundary. Across five source-training seeds and six leave-one-domain-out targets, the H50/K3 domain-macro MAPE is 70.49\% for source-only prediction, 149.18\% after random-$K$ residual calibration and 161.67\% after APACE-$K$ calibration. Forced-active and coverage-matched random gating are also poor (160.39\% and 163.61\%, respectively). This negative result is retained as a limitation: the current local residual-calibration interface is not an unconditional plug-in for arbitrary deep predictors. It does not alter the primary claim, which concerns the frozen predictor interface and fixed-budget calibration policy evaluated in the main protocol.
+
+\subsubsection{Weighted metrics and deployment boundary}
+
+The primary domain-macro estimand gives each target domain equal weight. At $H=50$, $K=3$, APACE-Cal changes domain-macro/cell-weighted MAPE from 48.54\%/57.81\% to 22.94\%/28.17\%, respectively; the direction is unchanged under cell weighting. The complete weighted MAPE, MAE, RMSE and sMAPE grid is retained in the reproducibility audit. These two aggregation choices answer different questions: the macro estimand evaluates cross-domain fairness, whereas the weighted estimand reflects the cell-level mixture in the evaluated cohorts.
+
+The external boundary audit also illustrates the limits of the current evidence. The preregistered NASA Randomized Battery Usage candidate was screened using only pre-label protocol and early-observation information. The combined cohort contained 11 H50-eligible cells and had $D_p=0.9746$, failing both the minimum-size and prespecified boundary-distance criteria; therefore no lifetime labels were revealed and no performance value is reported. This failed candidate is retained to document the selection contract rather than converted into a post hoc external confirmation. The two successful external active confirmations and the fallback audits consequently remain the principal independent evidence.
+
+\subsection{Support-selection controls and mechanism analysis}
+
+At $H=50$, $K=3$, source-only, random-$K$ fine-tuning, uncertainty-$K$ fine-tuning and APACE-$K$ fine-tuning produce MAPE values of 85.94\%, 36.84\%, 45.97\% and 30.47\%, respectively. APACE-$K$ fine-tuning reduces MAPE by approximately 17.28\% relative to random-$K$ fine-tuning. Across the twelve $H\times K$ settings, APACE-$K$ is not worse than random-$K$ in any setting, with an average relative improvement of approximately 10.25\%.
+
+These controls point to support composition and route selection as the main sources of the calibration gain. The effect is strongest in the low-budget regime, especially $K=3$, whereas $K=1$ follows the matched branch under the frozen policy. The primary-endpoint control comparison is shown in Fig.~\ref{fig:control_comparison}.
+
+To test whether the result is specific to a weak coverage baseline, we also evaluated protocol, curve and hybrid medoid and k-center selectors under a common log-mean calibration interface. Across the 72 domain-by-setting comparisons, these selectors were positive in only 28--36 cases and negative in 27--35 cases, depending on the selector. At $H=50$, $K=3$, the best macro-MAPE among these controls was 51.270\% for protocol medoid, compared with 56.465\% for the corresponding random selector. These results show that coverage-based selection can be useful but does not by itself provide stable cross-domain risk control; the distinctive contribution of APACE-Cal is to couple structure-aware selection to an explicit route decision and exact fallback.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.96\linewidth]{figures/draft/Fig3_control_comparison.pdf}
+\caption{Primary-endpoint comparison of source-only prediction and target-label fine-tuning controls. APACE-$K$ fine-tuning gives the lowest MAPE among the four reported controls at $H=50$ and $K=3$.}
+\label{fig:control_comparison}
+\end{figure}
+
+\subsubsection{Routing ablations}
+
+Removing the concordance route does not produce a uniform macro-average loss. At $K=3$, the no-$\rho$ MAPE values are 24.0456\%, 22.5603\% and 22.9422\% for $H=10$, $20$ and $50$, compared with 24.2773\%, 22.4691\% and 22.9422\% for the frozen method. The comparison places $\rho$ primarily in route assignment rather than in a monotonic error-reduction effect.
+
+The broader ablation set points to the combined structure-evidence, safety-gated routing and exact-fallback system as the operative unit. Always-active, protocol-only and curve-only variants produce domain-dependent outcomes, whereas the frozen policy uses concordance as one component of a conservative action rule. The concordance ablation is shown in Fig.~\ref{fig:routing_ablation}.
+
+The single-factor completion audit gives the same component-level interpretation. At $H=50$, $K=3$, fixed concatenation changes macro-MAPE from 48.535\% to 22.838\% but produces one worsened domain; an all-median interface gives 65.641\%; mismatched acquisition and prediction evidence gives 30.503\%; fixed predictor selection gives 23.031\%; and removing robust scaling gives 42.860\%. These results assign distinct roles to evidence fusion, support--prediction geometry, predictor selection and scaling within the complete policy. The always-active variant reaches 22.5964\% at the same endpoint but reintroduces a worsened domain, while at $K=1$ its worst-domain deterioration reaches 30.30--36.18\% across the three horizons. The route decision determines how the support selector is used across domains, rather than acting as an additional post-processing step.
+
+At $K=3$, the protocol-only and curve-only variants produce macro-MAPE values of 26.442\% and 23.247\% at $H=10$, 25.474\% and 25.138\% at $H=20$, and 30.369\% and 23.861\% at $H=50$, respectively, compared with 24.277\%, 22.469\% and 22.942\% for APACE-Cal. Protocol-only produces one worsened domain at each horizon, whereas curve-only produces no worsened domain in this comparison but is not the best macro-average at every horizon. The result positions protocol information, early-curve information and their concordance as complementary route evidence.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.96\linewidth]{figures/draft/Fig4_routing_ablation.pdf}
+\caption{Effect of removing protocol--curve concordance from the routing policy. The no-$\rho$ variant changes the route-sensitive error pattern across horizons, while the complete APACE-Cal policy retains the fixed routing rule.}
+\label{fig:routing_ablation}
+\end{figure}
+
+\subsection{Calibration-interface compatibility}
+
+The compatibility audit contains 22 interfaces: one log-mean interface, 18 kernel interfaces formed by weights $\{0,0.125,0.5,1,2,\infty\}$ and bandwidths $\{0.5,1,2\}$, one support-lifetime median interface, and two binary-LOO interfaces with weights 0.5 and 2. At $H=50$, $K=3$, the kernel interfaces with weights 0.125, 0.5, 1 and 2 show macro-average relative reductions of 18.09\%, 21.19\%, 22.32\% and 22.65\%, respectively. Binary-LOO interfaces with weights 0.5 and 2 show reductions of 14.79\% and 9.91\%. In active domains, 22/22 interfaces are positive for MICH\_EXP, 21/22 for CALB and 19/22 for SNL.
+
+Support-median, extreme Ridge extrapolation and a PBT global-bias interface show that the magnitude of the gain depends on the interaction between support selection and the downstream calibration interface.
+
+\subsubsection{Additional metrics and alignment control}
+
+At the primary endpoint, MAE changes from 189.2812 cycles to 141.2802 cycles, RMSE from 250.2722 cycles to 153.1716 cycles and sMAPE from 29.4453\% to 22.3307\%. The relative reductions are 25.36\%, 38.80\% and 24.16\%, respectively, while the MAPE ratio-of-macro reduction is 52.73\%. These metrics use the same predictions and provide complementary views of the primary result.
+
+DANN records MAPE values of 122.37\%, 109.27\% and 99.63\% at $K=3$ for $H=10$, $20$ and $50$, compared with source-only values of 87.54\%, 85.94\% and 85.94\%. Under the same information barrier, the route-aware support signal provides a stronger calibration basis than generic unlabeled feature alignment.
+
+\subsection{Robustness and external validation}
+
+Under moderate perturbations, relative improvement is 22.61\% with 10\% label noise. Reducing the acquisition pool to 50\%, 60\% and 80\% of its reference size gives improvements of 21.03\%, 22.14\% and 23.52\%, respectively. With 10\%, 20\% and 30\% early-curve missingness, MAPE improvements are 22.55\%, 22.21\% and 25.40\%.
+
+At 50\% protocol missingness, the route changes to fallback. Across the six development domains at $K=3$, mean pairwise support-set Jaccard values for random selection and APACE-Cal are 0.1125 and 0.2880 at $H=10$, 0.1100 and 0.2819 at $H=20$, and 0.1100 and 0.2913 at $H=50$, respectively. APACE-Cal produces a more stable support queue without selecting an invariant set of cells. The complete robustness and stability audit is summarized in Table~\ref{tab:robustness} and Fig.~\ref{fig:robustness}.
+
+The route-stability audit covers all 18 development-domain/horizon cells, four support budgets and 100 deterministic 1\% input perturbations per row. The active branch remains stable for CALB at $K=3$, while HNEI, CALCE and MICH can cross the hard route boundary under small perturbations in the affected branches. The audit identifies the route-sensitive operating region of the frozen policy and the value of accurate protocol metadata at the routing step.
+
+The domain-level risk control does not imply that every individual cell improves. At $H=50$, $K=3$, the average non-inferior cell fraction is 88.4\% under a 1\% margin and 90.9\% under a 5\% margin, while the largest adverse cell-level relative change is 106.1\%. We therefore interpret zero worsened domains as a policy-level outcome under the fixed contract, not as a per-cell guarantee. This distinction is important for deployment: APACE-Cal controls systematic domain-level negative transfer through abstention, but individual predictions remain sensitive to support composition.
+
+\begin{table}[H]
+\centering
+\small
+\caption{Robustness and support-stability audit at the primary support budget.}
+\label{tab:robustness}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{4.1cm}p{3.0cm}p{5.0cm}}
+\toprule
+\textbf{Audit} & \textbf{Setting} & \textbf{Observed result} \\
+\midrule
+Label noise & 10\% & 22.61\% relative improvement \\
+Acquisition-pool reduction & 50\% / 60\% / 80\% & 21.03\% / 22.14\% / 23.52\% improvement \\
+Early-curve missingness & 10\% / 20\% / 30\% & 22.55\% / 22.21\% / 25.40\% improvement \\
+Protocol missingness & 50\% & Active route changes to fallback \\
+Support Jaccard, $H=10$ & Random / APACE-Cal & 0.1125 / 0.2880 \\
+Support Jaccard, $H=20$ & Random / APACE-Cal & 0.1100 / 0.2819 \\
+Support Jaccard, $H=50$ & Random / APACE-Cal & 0.1100 / 0.2913 \\
+\bottomrule
+\end{tabular*}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.98\linewidth]{figures/draft/Fig6_robustness.pdf}
+\caption{Robustness and support-stability audit. APACE-Cal retains positive relative improvement under label noise, acquisition-pool reduction and early-curve missingness, while the route changes to fallback under substantial protocol missingness. Support-set Jaccard values are higher than random selection but remain below one, indicating stable rather than hard-coded support selection.}
+\label{fig:robustness}
+\end{figure}
+
+\subsubsection{Efficiency and reproducibility audit}
+
+The label-cost audit evaluates the number of cycles assigned to the selected support cells after their identities have been frozen. At $H=50$, $K=3$, the mean serial cycle cost is 1559.62 for matched random and 1519.34 for APACE-Cal; the corresponding parallel-cycle proxy is 742.76 and 746.88. The APACE-Cal route gives a modest serial-cost advantage, while parallel wall-clock time remains similar. The full cost audit is reported in Table~\ref{tab:efficiency}.
+
+\begin{table}[H]
+\centering
+\small
+\caption{Support-label cycle-cost audit across development domains. Serial cost is the sum of support-cell lifetimes; parallel cost is their maximum.}
+\label{tab:efficiency}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lrrrr}
+\toprule
+\textbf{Setting} & \multicolumn{2}{c}{\textbf{Serial cycles}} & \multicolumn{2}{c}{\textbf{Parallel cycles}} \\
+ & Random & APACE-Cal & Random & APACE-Cal \\
+\midrule
+$H=10$, $K=3$ & 1547.56 & 1521.96 & 756.74 & 740.75 \\
+$H=20$, $K=3$ & 1569.56 & 1510.20 & 774.15 & 738.25 \\
+$H=50$, $K=3$ & 1559.62 & 1519.34 & 742.76 & 746.88 \\
+$H=50$, $K=5$ & 2568.96 & 2462.68 & 872.96 & 881.29 \\
+$H=50$, $K=10$ & 5024.18 & 4809.32 & 1006.39 & 1008.49 \\
+\bottomrule
+\end{tabular*}
+\end{table}
+
+For a target queue of size $n$, the frozen implementation uses $O(n^2d)$ time for geometry construction, $O(Kn_an)$ time for greedy facility selection and $O(n^2)$ distance memory. At $n=500$, geometry construction takes 4.18~s and selecting $K=10$ support cells takes 0.040~s on the audit CPU; the two distance matrices occupy 4.0~MB. The target-domain calibration step requires no GPU or learned-model parameter update. On SNU Dataset 1, pre-labelling and manifest construction take 74.67~s, while the 12-by-100-episode evaluator takes 348.02~s with a peak memory use below 172~MiB. The manifests and result files were checked against the archived frozen audit outputs.
+
+The 27-point primary-endpoint sensitivity grid places the frozen constants on a stable performance plateau. Low thresholds from 0.20 to 0.40, high thresholds from 0.55 to 0.60 and concordance thresholds from 0.20 to 0.45 reproduce the primary result and the 3-improved/3-matched/0-worsened domain pattern. Bandwidths from 0.25 to 0.5 and predictor distance weights from 0.5 to 2 remain positive at the primary endpoint. The gain decreases at high thresholds of 0.65--0.70; a concordance threshold of 0.50, bandwidth 2 and distance weight 0 each introduce a worsened domain. The frozen setting lies within this stable region.
+
+\subsubsection{External active-branch confirmations and fallback audits}
+
+On SNU Dataset 1, the only active setting is $H=50$, $K=3$. MAPE changes from 0.4030345\% to 0.2783977\%, an absolute reduction of 0.1246 percentage points and a relative reduction of 30.9246\%, with 83 improved, 2 unchanged and 5 worsened cells. The SNU lifetime coefficient of variation is approximately 1.27\%, so this cohort provides a focused cross-format test of the frozen route rather than a broad-lifetime benchmark. The other 11 SNU settings follow the fallback branch and reproduce the matched baseline under the fixed-pool protocol.
+
+On the 27-cell MathWorks LFP/Gr cohort, the relative reductions at $H=10$, $20$ and $50$ with $K=3$ are approximately 37.72\%, 38.41\% and 47.99\%, respectively. Other budget settings follow the fixed fallback rules. Together, the SNU and MathWorks cohorts extend the active-branch evaluation beyond the development domains.
+
+NA-ion contains 34 cells and follows the zero-dispersion fallback at all twelve settings, producing 0 improved, 34 unchanged and 0 worsened cells. The standardized MATR and HUST+XJTU cohorts contain 169 and 100 complete-label cells, respectively, and follow the fallback branch. The ILCC NMC/Gr audit also follows the fixed fallback contract. The policy thus preserves the matched outcome when the active route is not selected. The external and fallback outcomes are summarized in Table~\ref{tab:external} and Fig.~\ref{fig:external_validation}.
+
+These external results have different evidential roles. SNU Dataset 1 and the MathWorks LFP/Gr cohort are frozen external active confirmations because their route and support manifests were fixed before lifetime labels were opened. NA-ion, MATR, HUST+XJTU and ILCC NMC/Gr are fallback contract audits rather than active-gain confirmations. Other screened candidates, including NASA Randomized Battery Usage and Zenodo 21700 cohorts, did not satisfy the complete active-validation contract and are therefore not converted into performance claims. This separation keeps external active improvement distinct from baseline-preserving abstention.
+
+\begin{table}[t]
+\centering
+\small
+\caption{External active-branch confirmations and fallback audits.}
+\label{tab:external}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{2.5cm}p{4.5cm}p{5.0cm}}
+\toprule
+\textbf{Cohort} & \textbf{Cells and route} & \textbf{Outcome} \\
+\midrule
+SNU Dataset 1 & 90; active at $H=50$, $K=3$ & 30.9246\% reduction \\
+MathWorks LFP/Gr & 27; active at $K=3$ & 47.99\% reduction at $H=50$ \\
+NA-ion & 34; fallback & 0 improved, 34 unchanged \\
+MATR & 169; fallback & Matched outcome preserved \\
+HUST+\\linebreak XJTU & 100; fallback & Matched outcome preserved \\
+ILCC NMC/Gr & fallback & Contract-preserving fallback \\
+\bottomrule
+\end{tabular*}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.98\linewidth]{figures/draft/Fig5_external_validation.pdf}
+\caption{External active-branch evaluations and fallback audits. The active external cohorts show relative MAPE reductions, while the fallback audits follow the matched outcome across all reported cells.}
+\label{fig:external_validation}
+\end{figure}
+
+\subsection{Discussion}
+\label{sec:discussion}
+
+APACE-Cal reframes few-shot cross-dataset battery lifetime prediction as a selective calibration problem. Protocol and early-curve evidence determine whether the frozen policy takes the active action before complete lifetime labels are acquired. The fixed-budget episode consequently uses representative support selection in selected operating regions and exact matched-random abstention in the remaining domains. The method therefore makes the active-versus-abstain decision part of target-domain calibration itself.
+
+Four findings support this interpretation. First, the sequential-GPR, strong-selector and earlier MATR experiments show why unconditional acquisition is insufficient under cross-domain protocol shift. Second, the full forced-active audit demonstrates that active selection can improve most domains but still introduces domain-level negative transfer. Third, the matched-coverage random-gating control shows that APACE-Cal is not merely random abstention: at the primary endpoint it reaches 22.9422\% macro-MAPE versus 35.9772\% for random gates with the same active coverage. Fourth, the fine-tuning, DANN, robustness, efficiency and external audits connect the calibration gain to support composition and selective route choice while preserving the matched procedure in fallback domains.
+
+The route decision is part of the calibration method. Active transfer is applied in the operating regions selected by the frozen policy; when the evidence is insufficient for that action, the policy abstains and uses the same pools, budget and predictor protocol to preserve the matched baseline. This distinction is important: the router is a conservative decision policy, not a claim of perfect classification of counterfactual active effectiveness. The forced-active and matched-coverage controls show that the policy's contribution is not simply lower active coverage: it selects a distinct utility--risk operating point using label-blind cohort structure. Some fallback domains may still benefit from active selection in hindsight, but those gains are not available before complete lifetime labels are acquired.
+
+The study evaluates six development domains and two external active-branch cohorts, with additional cohorts used to examine the fallback route. The reported domain-level comparison concerns macro-MAPE, while the protocol and curve distances describe observed testing structure rather than a causal electrochemical mechanism or a perfect predictor of active treatment effects. A same-budget BiLSTM stress test is negative, showing that the current residual-calibration interface is not an unconditional plug-in for arbitrary deep predictors; this result narrows, rather than obscures, the predictor-compatibility boundary. Predictive intervals are outside the present evaluation, and dataset-specific end-of-life definitions are retained throughout. The route audit identifies an operating boundary for the frozen policy: some low- and medium-dispersion domains change route under small metadata perturbations, whereas support selection remains stable but non-identical. The empirical contribution is a protocol-conditioned, baseline-preserving selective calibration policy whose utility and risk can be evaluated directly. Extension to additional chemistries, including sodium-ion systems, and to application-level battery operation remains a future direction \citep{he2026sodium,yang2018emissions}.
+
+Future studies can extend the routing framework to more laboratories and chemistries, calibrated predictive intervals and explicit decision costs. Route stability under partially observed target protocols also warrants evaluation.
+
+\section{Conclusions}
+\label{sec:conclusion}
+
+APACE-Cal provides a safety-gated few-shot calibration policy for cross-dataset battery lifetime prediction. It treats active support acquisition as a selective action under negative-transfer risk and combines target-domain protocol dispersion, early degradation structure and their concordance to select either active calibration or a baseline-preserving abstention before complete lifetime labels are acquired. Across six development domains, the policy reduces the primary six-domain macro-averaged MAPE from 48.5352\% to 22.9422\% at $H=50$ and $K=3$, with a domain-level mean relative reduction of 21.4512\%. At the same active coverage, APACE-Cal also outperforms random gating (22.9422\% versus 35.9772\%), supporting structure-based selective routing rather than arbitrary abstention. These results establish the active-versus-abstain decision as a central component of fixed-budget cross-domain calibration.
+
+The selective policy separates active improvement from matched-baseline preservation. At the primary endpoint, CALB, MICH\_EXP and SNL enter the active branch, while HNEI, CALCE and MICH follow the matched-random branch. The forced-active audit reaches a slightly lower macro-average (22.5964\%) but reintroduces a worsened domain, supporting the policy's utility--risk trade-off rather than a claim of perfect route classification. External active-branch confirmations show relative reductions of 30.9246\% on SNU Dataset 1 and 47.99\% on the 27-cell MathWorks LFP/Gr cohort at $H=50$ and $K=3$; NA-ion, MATR, HUST+XJTU and ILCC NMC/Gr are reported as fallback audits.
+
+APACE-Cal integrates structure-aware support selection, safety-gated action selection, exact baseline-preserving abstention, local calibration and fixed-budget evaluation into one battery workflow. It improves support-set stability over random selection and lowers serial support-label cycle cost at the principal low-budget settings. The implementation remains computationally compact and requires no GPU-dependent model update. Together, the development, counterfactual, interface, robustness and external results establish a conditional cross-domain calibration policy with an auditable utility--risk operating point. The policy is cohort-level and predictor-compatible rather than a universal oracle: its value depends on the observed target structure, metadata stability and the downstream calibration interface.
+
+\section*{Data availability}
+
+The datasets used in this study are publicly available from their original data providers. The data supporting the findings of this study, including the processed evaluation files and experiment records, are available from the corresponding author upon reasonable request.
+
+\section*{Code availability}
+
+The code supporting the findings of this study, including the frozen APACE-Cal implementation, experiment configurations, evaluation scripts and reproducibility checks, is available from the corresponding author upon reasonable request.
+
+\section*{CRediT authorship contribution statement}
+
+Zixuan Liu: Conceptualization, Methodology, Software, Validation, Formal analysis, Investigation, Data curation, Writing -- original draft. Wei Xiong: Supervision, Project administration, Writing -- review and editing, Funding acquisition.
+
+\section*{Declaration of competing interest}
+
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this article.
+
+\section*{Acknowledgment}
+
+This work was supported in part by the National Natural Science Foundation of China under Grant 62202148, in part by the Natural Science Foundation of Hubei Province under Grants 2022CFB908 and 2019CFB530, and in part by the China Scholarship Council under Grant 201808420418.
+
+\bibliographystyle{elsarticle-num}
+\bibliography{APACE-Cal_references}
+
+\end{document}

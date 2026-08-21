@@ -1,0 +1,1703 @@
+{
+  "source": "batterylife_asymmetric_cohort_router_v2.json",
+  "margins_relative_mape": [
+    0.01,
+    0.02,
+    0.05
+  ],
+  "interpretation": "Margins are descriptive audits on frozen outputs; no threshold or method parameter was tuned here.",
+  "rows": [
+    {
+      "horizon": 10,
+      "target": "CALB",
+      "label_budget_k": 1,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_one_label_unidentifiable": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        27,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 10,
+      "target": "CALB",
+      "label_budget_k": 3,
+      "active_episode_fraction": 1.0,
+      "route_counts": {
+        "active_w2": 100
+      },
+      "mean_relative_change": -0.5692961180849443,
+      "worst_relative_change": 0.9513137229941981,
+      "improved_tied_worse_cells": [
+        22,
+        0,
+        5
+      ],
+      "noninferior_fraction": {
+        "0.01": 0.8148148148148148,
+        "0.02": 0.8148148148148148,
+        "0.05": 0.8148148148148148
+      }
+    },
+    {
+      "horizon": 10,
+      "target": "CALB",
+      "label_budget_k": 5,
+      "active_episode_fraction": 1.0,
+      "route_counts": {
+        "active_w2": 100
+      },
+      "mean_relative_change": -0.5117168156477924,
+      "worst_relative_change": 1.1241106506513334,
+      "improved_tied_worse_cells": [
+        24,
+        0,
+        3
+      ],
+      "noninferior_fraction": {
+        "0.01": 0.8888888888888888,
+        "0.02": 0.8888888888888888,
+        "0.05": 0.8888888888888888
+      }
+    },
+    {
+      "horizon": 10,
+      "target": "CALB",
+      "label_budget_k": 10,
+      "active_episode_fraction": 1.0,
+      "route_counts": {
+        "active_w2": 100
+      },
+      "mean_relative_change": -0.47784503490883107,
+      "worst_relative_change": 0.7973774600328899,
+      "improved_tied_worse_cells": [
+        24,
+        0,
+        3
+      ],
+      "noninferior_fraction": {
+        "0.01": 0.8888888888888888,
+        "0.02": 0.8888888888888888,
+        "0.05": 0.8888888888888888
+      }
+    },
+    {
+      "horizon": 10,
+      "target": "HNEI",
+      "label_budget_k": 1,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_zero_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        14,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 10,
+      "target": "HNEI",
+      "label_budget_k": 3,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_zero_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        14,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 10,
+      "target": "HNEI",
+      "label_budget_k": 5,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_zero_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        14,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 10,
+      "target": "HNEI",
+      "label_budget_k": 10,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_zero_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        14,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 10,
+      "target": "MICH_EXP",
+      "label_budget_k": 1,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_one_label_unidentifiable": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        9,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 10,
+      "target": "MICH_EXP",
+      "label_budget_k": 3,
+      "active_episode_fraction": 1.0,
+      "route_counts": {
+        "active_w0.5": 100
+      },
+      "mean_relative_change": -0.08996911007429326,
+      "worst_relative_change": 0.6228418058299543,
+      "improved_tied_worse_cells": [
+        5,
+        0,
+        4
+      ],
+      "noninferior_fraction": {
+        "0.01": 0.5555555555555556,
+        "0.02": 0.6666666666666666,
+        "0.05": 0.7777777777777778
+      }
+    },
+    {
+      "horizon": 10,
+      "target": "MICH_EXP",
+      "label_budget_k": 5,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_large_budget_high_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        9,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 10,
+      "target": "MICH_EXP",
+      "label_budget_k": 10,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_large_budget_high_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        9,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 10,
+      "target": "CALCE",
+      "label_budget_k": 1,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_medium_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        13,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 10,
+      "target": "CALCE",
+      "label_budget_k": 3,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_medium_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        13,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 10,
+      "target": "CALCE",
+      "label_budget_k": 5,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_medium_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        13,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 10,
+      "target": "CALCE",
+      "label_budget_k": 10,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_medium_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        13,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 10,
+      "target": "MICH",
+      "label_budget_k": 1,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_medium_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        40,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 10,
+      "target": "MICH",
+      "label_budget_k": 3,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_medium_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        40,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 10,
+      "target": "MICH",
+      "label_budget_k": 5,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_medium_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        40,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 10,
+      "target": "MICH",
+      "label_budget_k": 10,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_medium_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        40,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 10,
+      "target": "SNL",
+      "label_budget_k": 1,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_one_label_unidentifiable": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        52,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 10,
+      "target": "SNL",
+      "label_budget_k": 3,
+      "active_episode_fraction": 1.0,
+      "route_counts": {
+        "active_w0.5": 100
+      },
+      "mean_relative_change": -0.24135282449358644,
+      "worst_relative_change": 0.6802466133738045,
+      "improved_tied_worse_cells": [
+        34,
+        0,
+        18
+      ],
+      "noninferior_fraction": {
+        "0.01": 0.6730769230769231,
+        "0.02": 0.6730769230769231,
+        "0.05": 0.75
+      }
+    },
+    {
+      "horizon": 10,
+      "target": "SNL",
+      "label_budget_k": 5,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_large_budget_high_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        52,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 10,
+      "target": "SNL",
+      "label_budget_k": 10,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_large_budget_high_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        52,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 20,
+      "target": "CALB",
+      "label_budget_k": 1,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_one_label_unidentifiable": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        27,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 20,
+      "target": "CALB",
+      "label_budget_k": 3,
+      "active_episode_fraction": 1.0,
+      "route_counts": {
+        "active_w2": 100
+      },
+      "mean_relative_change": -0.5844721307530749,
+      "worst_relative_change": 1.2689924281479659,
+      "improved_tied_worse_cells": [
+        22,
+        0,
+        5
+      ],
+      "noninferior_fraction": {
+        "0.01": 0.8148148148148148,
+        "0.02": 0.8148148148148148,
+        "0.05": 0.8148148148148148
+      }
+    },
+    {
+      "horizon": 20,
+      "target": "CALB",
+      "label_budget_k": 5,
+      "active_episode_fraction": 1.0,
+      "route_counts": {
+        "active_w2": 100
+      },
+      "mean_relative_change": -0.6011415671103029,
+      "worst_relative_change": 1.261817847011228,
+      "improved_tied_worse_cells": [
+        25,
+        0,
+        2
+      ],
+      "noninferior_fraction": {
+        "0.01": 0.9259259259259259,
+        "0.02": 0.9259259259259259,
+        "0.05": 0.9259259259259259
+      }
+    },
+    {
+      "horizon": 20,
+      "target": "CALB",
+      "label_budget_k": 10,
+      "active_episode_fraction": 1.0,
+      "route_counts": {
+        "active_w2": 100
+      },
+      "mean_relative_change": -0.5715695193283782,
+      "worst_relative_change": 0.6012684311581217,
+      "improved_tied_worse_cells": [
+        24,
+        0,
+        3
+      ],
+      "noninferior_fraction": {
+        "0.01": 0.8888888888888888,
+        "0.02": 0.8888888888888888,
+        "0.05": 0.8888888888888888
+      }
+    },
+    {
+      "horizon": 20,
+      "target": "HNEI",
+      "label_budget_k": 1,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_zero_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        14,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 20,
+      "target": "HNEI",
+      "label_budget_k": 3,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_zero_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        14,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 20,
+      "target": "HNEI",
+      "label_budget_k": 5,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_zero_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        14,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 20,
+      "target": "HNEI",
+      "label_budget_k": 10,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_zero_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        14,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 20,
+      "target": "MICH_EXP",
+      "label_budget_k": 1,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_one_label_unidentifiable": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        9,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 20,
+      "target": "MICH_EXP",
+      "label_budget_k": 3,
+      "active_episode_fraction": 1.0,
+      "route_counts": {
+        "active_w0.5": 100
+      },
+      "mean_relative_change": -0.16805522827134053,
+      "worst_relative_change": 0.3995470593527824,
+      "improved_tied_worse_cells": [
+        5,
+        0,
+        4
+      ],
+      "noninferior_fraction": {
+        "0.01": 0.5555555555555556,
+        "0.02": 0.5555555555555556,
+        "0.05": 0.5555555555555556
+      }
+    },
+    {
+      "horizon": 20,
+      "target": "MICH_EXP",
+      "label_budget_k": 5,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_large_budget_high_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        9,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 20,
+      "target": "MICH_EXP",
+      "label_budget_k": 10,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_large_budget_high_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        9,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 20,
+      "target": "CALCE",
+      "label_budget_k": 1,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_medium_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        13,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 20,
+      "target": "CALCE",
+      "label_budget_k": 3,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_medium_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        13,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 20,
+      "target": "CALCE",
+      "label_budget_k": 5,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_medium_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        13,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 20,
+      "target": "CALCE",
+      "label_budget_k": 10,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_medium_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        13,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 20,
+      "target": "MICH",
+      "label_budget_k": 1,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_medium_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        40,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 20,
+      "target": "MICH",
+      "label_budget_k": 3,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_medium_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        40,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 20,
+      "target": "MICH",
+      "label_budget_k": 5,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_medium_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        40,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 20,
+      "target": "MICH",
+      "label_budget_k": 10,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_medium_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        40,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 20,
+      "target": "SNL",
+      "label_budget_k": 1,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_one_label_unidentifiable": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        52,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 20,
+      "target": "SNL",
+      "label_budget_k": 3,
+      "active_episode_fraction": 1.0,
+      "route_counts": {
+        "active_w0.5": 100
+      },
+      "mean_relative_change": -0.3075169528150862,
+      "worst_relative_change": 0.3830633516591905,
+      "improved_tied_worse_cells": [
+        41,
+        0,
+        11
+      ],
+      "noninferior_fraction": {
+        "0.01": 0.8076923076923077,
+        "0.02": 0.8269230769230769,
+        "0.05": 0.8461538461538461
+      }
+    },
+    {
+      "horizon": 20,
+      "target": "SNL",
+      "label_budget_k": 5,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_large_budget_high_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        52,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 20,
+      "target": "SNL",
+      "label_budget_k": 10,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_large_budget_high_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        52,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 50,
+      "target": "CALB",
+      "label_budget_k": 1,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_one_label_unidentifiable": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        27,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 50,
+      "target": "CALB",
+      "label_budget_k": 3,
+      "active_episode_fraction": 1.0,
+      "route_counts": {
+        "active_w2": 100
+      },
+      "mean_relative_change": -0.6147498963065716,
+      "worst_relative_change": 0.7201954397394131,
+      "improved_tied_worse_cells": [
+        24,
+        0,
+        3
+      ],
+      "noninferior_fraction": {
+        "0.01": 0.9259259259259259,
+        "0.02": 0.9259259259259259,
+        "0.05": 0.9259259259259259
+      }
+    },
+    {
+      "horizon": 50,
+      "target": "CALB",
+      "label_budget_k": 5,
+      "active_episode_fraction": 1.0,
+      "route_counts": {
+        "active_w2": 100
+      },
+      "mean_relative_change": -0.1694799784248308,
+      "worst_relative_change": 0.8130486898719863,
+      "improved_tied_worse_cells": [
+        15,
+        0,
+        12
+      ],
+      "noninferior_fraction": {
+        "0.01": 0.5555555555555556,
+        "0.02": 0.5555555555555556,
+        "0.05": 0.5555555555555556
+      }
+    },
+    {
+      "horizon": 50,
+      "target": "CALB",
+      "label_budget_k": 10,
+      "active_episode_fraction": 1.0,
+      "route_counts": {
+        "active_w2": 100
+      },
+      "mean_relative_change": 0.3742063787174524,
+      "worst_relative_change": 2.546836012539232,
+      "improved_tied_worse_cells": [
+        14,
+        0,
+        13
+      ],
+      "noninferior_fraction": {
+        "0.01": 0.5185185185185185,
+        "0.02": 0.5185185185185185,
+        "0.05": 0.5185185185185185
+      }
+    },
+    {
+      "horizon": 50,
+      "target": "HNEI",
+      "label_budget_k": 1,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_zero_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        14,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 50,
+      "target": "HNEI",
+      "label_budget_k": 3,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_zero_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        14,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 50,
+      "target": "HNEI",
+      "label_budget_k": 5,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_zero_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        14,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 50,
+      "target": "HNEI",
+      "label_budget_k": 10,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_zero_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        14,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 50,
+      "target": "MICH_EXP",
+      "label_budget_k": 1,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_one_label_unidentifiable": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        9,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 50,
+      "target": "MICH_EXP",
+      "label_budget_k": 3,
+      "active_episode_fraction": 1.0,
+      "route_counts": {
+        "active_w0.5": 100
+      },
+      "mean_relative_change": -0.11537851002773225,
+      "worst_relative_change": 1.0605413622827544,
+      "improved_tied_worse_cells": [
+        5,
+        0,
+        4
+      ],
+      "noninferior_fraction": {
+        "0.01": 0.6666666666666666,
+        "0.02": 0.6666666666666666,
+        "0.05": 0.7777777777777778
+      }
+    },
+    {
+      "horizon": 50,
+      "target": "MICH_EXP",
+      "label_budget_k": 5,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_large_budget_high_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        9,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 50,
+      "target": "MICH_EXP",
+      "label_budget_k": 10,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_large_budget_high_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        9,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 50,
+      "target": "CALCE",
+      "label_budget_k": 1,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_medium_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        13,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 50,
+      "target": "CALCE",
+      "label_budget_k": 3,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_medium_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        13,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 50,
+      "target": "CALCE",
+      "label_budget_k": 5,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_medium_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        13,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 50,
+      "target": "CALCE",
+      "label_budget_k": 10,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_medium_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        13,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 50,
+      "target": "MICH",
+      "label_budget_k": 1,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_medium_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        40,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 50,
+      "target": "MICH",
+      "label_budget_k": 3,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_medium_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        40,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 50,
+      "target": "MICH",
+      "label_budget_k": 5,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_medium_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        40,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 50,
+      "target": "MICH",
+      "label_budget_k": 10,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_medium_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        40,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 50,
+      "target": "SNL",
+      "label_budget_k": 1,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_one_label_unidentifiable": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        52,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 50,
+      "target": "SNL",
+      "label_budget_k": 3,
+      "active_episode_fraction": 1.0,
+      "route_counts": {
+        "active_w0.5": 100
+      },
+      "mean_relative_change": -0.299513589088901,
+      "worst_relative_change": 0.2697702794187566,
+      "improved_tied_worse_cells": [
+        37,
+        0,
+        15
+      ],
+      "noninferior_fraction": {
+        "0.01": 0.7115384615384616,
+        "0.02": 0.7115384615384616,
+        "0.05": 0.75
+      }
+    },
+    {
+      "horizon": 50,
+      "target": "SNL",
+      "label_budget_k": 5,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_large_budget_high_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        52,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    },
+    {
+      "horizon": 50,
+      "target": "SNL",
+      "label_budget_k": 10,
+      "active_episode_fraction": 0.0,
+      "route_counts": {
+        "fallback_large_budget_high_protocol_dispersion": 100
+      },
+      "mean_relative_change": 0.0,
+      "worst_relative_change": 0.0,
+      "improved_tied_worse_cells": [
+        0,
+        52,
+        0
+      ],
+      "noninferior_fraction": {
+        "0.01": 1.0,
+        "0.02": 1.0,
+        "0.05": 1.0
+      }
+    }
+  ],
+  "macro_h10_k1": {
+    "active_episode_fraction_mean": 0.0,
+    "mean_relative_change": 0.0,
+    "worst_domain_relative_change": 0.0,
+    "cell_rows_improved_tied_worse": [
+      0,
+      6,
+      0
+    ],
+    "mean_noninferior_fraction": {
+      "0.01": 1.0,
+      "0.02": 1.0,
+      "0.05": 1.0
+    }
+  },
+  "macro_h10_k3": {
+    "active_episode_fraction_mean": 0.5,
+    "mean_relative_change": -0.15010300877547064,
+    "worst_domain_relative_change": 0.9513137229941981,
+    "cell_rows_improved_tied_worse": [
+      3,
+      3,
+      0
+    ],
+    "mean_noninferior_fraction": {
+      "0.01": 0.8405745489078823,
+      "0.02": 0.8590930674264007,
+      "0.05": 0.8904320987654321
+    }
+  },
+  "macro_h10_k5": {
+    "active_episode_fraction_mean": 0.16666666666666666,
+    "mean_relative_change": -0.08528613594129873,
+    "worst_domain_relative_change": 1.1241106506513334,
+    "cell_rows_improved_tied_worse": [
+      1,
+      5,
+      0
+    ],
+    "mean_noninferior_fraction": {
+      "0.01": 0.9814814814814815,
+      "0.02": 0.9814814814814815,
+      "0.05": 0.9814814814814815
+    }
+  },
+  "macro_h10_k10": {
+    "active_episode_fraction_mean": 0.16666666666666666,
+    "mean_relative_change": -0.07964083915147184,
+    "worst_domain_relative_change": 0.7973774600328899,
+    "cell_rows_improved_tied_worse": [
+      1,
+      5,
+      0
+    ],
+    "mean_noninferior_fraction": {
+      "0.01": 0.9814814814814815,
+      "0.02": 0.9814814814814815,
+      "0.05": 0.9814814814814815
+    }
+  },
+  "macro_h20_k1": {
+    "active_episode_fraction_mean": 0.0,
+    "mean_relative_change": 0.0,
+    "worst_domain_relative_change": 0.0,
+    "cell_rows_improved_tied_worse": [
+      0,
+      6,
+      0
+    ],
+    "mean_noninferior_fraction": {
+      "0.01": 1.0,
+      "0.02": 1.0,
+      "0.05": 1.0
+    }
+  },
+  "macro_h20_k3": {
+    "active_episode_fraction_mean": 0.5,
+    "mean_relative_change": -0.17667405197325028,
+    "worst_domain_relative_change": 1.2689924281479659,
+    "cell_rows_improved_tied_worse": [
+      3,
+      3,
+      0
+    ],
+    "mean_noninferior_fraction": {
+      "0.01": 0.8630104463437797,
+      "0.02": 0.8662155745489079,
+      "0.05": 0.869420702754036
+    }
+  },
+  "macro_h20_k5": {
+    "active_episode_fraction_mean": 0.16666666666666666,
+    "mean_relative_change": -0.10019026118505048,
+    "worst_domain_relative_change": 1.261817847011228,
+    "cell_rows_improved_tied_worse": [
+      1,
+      5,
+      0
+    ],
+    "mean_noninferior_fraction": {
+      "0.01": 0.9876543209876543,
+      "0.02": 0.9876543209876543,
+      "0.05": 0.9876543209876543
+    }
+  },
+  "macro_h20_k10": {
+    "active_episode_fraction_mean": 0.16666666666666666,
+    "mean_relative_change": -0.0952615865547297,
+    "worst_domain_relative_change": 0.6012684311581217,
+    "cell_rows_improved_tied_worse": [
+      1,
+      5,
+      0
+    ],
+    "mean_noninferior_fraction": {
+      "0.01": 0.9814814814814815,
+      "0.02": 0.9814814814814815,
+      "0.05": 0.9814814814814815
+    }
+  },
+  "macro_h50_k1": {
+    "active_episode_fraction_mean": 0.0,
+    "mean_relative_change": 0.0,
+    "worst_domain_relative_change": 0.0,
+    "cell_rows_improved_tied_worse": [
+      0,
+      6,
+      0
+    ],
+    "mean_noninferior_fraction": {
+      "0.01": 1.0,
+      "0.02": 1.0,
+      "0.05": 1.0
+    }
+  },
+  "macro_h50_k3": {
+    "active_episode_fraction_mean": 0.5,
+    "mean_relative_change": -0.17160699923720082,
+    "worst_domain_relative_change": 1.0605413622827544,
+    "cell_rows_improved_tied_worse": [
+      3,
+      3,
+      0
+    ],
+    "mean_noninferior_fraction": {
+      "0.01": 0.8840218423551757,
+      "0.02": 0.8840218423551757,
+      "0.05": 0.9089506172839507
+    }
+  },
+  "macro_h50_k5": {
+    "active_episode_fraction_mean": 0.16666666666666666,
+    "mean_relative_change": -0.028246663070805134,
+    "worst_domain_relative_change": 0.8130486898719863,
+    "cell_rows_improved_tied_worse": [
+      1,
+      5,
+      0
+    ],
+    "mean_noninferior_fraction": {
+      "0.01": 0.9259259259259259,
+      "0.02": 0.9259259259259259,
+      "0.05": 0.9259259259259259
+    }
+  },
+  "macro_h50_k10": {
+    "active_episode_fraction_mean": 0.16666666666666666,
+    "mean_relative_change": 0.06236772978624206,
+    "worst_domain_relative_change": 2.546836012539232,
+    "cell_rows_improved_tied_worse": [
+      1,
+      5,
+      0
+    ],
+    "mean_noninferior_fraction": {
+      "0.01": 0.9197530864197532,
+      "0.02": 0.9197530864197532,
+      "0.05": 0.9197530864197532
+    }
+  }
+}

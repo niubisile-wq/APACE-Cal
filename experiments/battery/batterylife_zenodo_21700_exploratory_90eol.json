@@ -1,0 +1,237 @@
+{
+  "phase": "EXPLORATORY_NONBLIND_90_PERCENT_EOL",
+  "manifest": "batterylife_zenodo_21700_expt4_prelabel.json",
+  "label_audit": "batterylife_zenodo_21700_postlabel_audit.json",
+  "eol_definition": "first performance-summary Ageing Cycles with SoH <= 0.90",
+  "results": [
+    {
+      "horizon": 10,
+      "label_budget_k": 1,
+      "protocol_dispersion": 0.22360679774997896,
+      "route_counts": {
+        "fallback_one_label_unidentifiable": 100
+      },
+      "summary": {
+        "baseline": {
+          "mae": 656.4254341736693,
+          "mape": 24.504185765215176
+        },
+        "method": {
+          "mae": 656.4254341736693,
+          "mape": 24.504185765215176
+        }
+      },
+      "relative_mape_reduction_percent": 0.0
+    },
+    {
+      "horizon": 10,
+      "label_budget_k": 3,
+      "protocol_dispersion": 0.22360679774997896,
+      "route_counts": {
+        "active_w2": 100
+      },
+      "summary": {
+        "baseline": {
+          "mae": 605.3002172035433,
+          "mape": 23.396140386628257
+        },
+        "method": {
+          "mae": 650.0147566065332,
+          "mape": 27.01966674754724
+        }
+      },
+      "relative_mape_reduction_percent": -15.48770994291845
+    },
+    {
+      "horizon": 10,
+      "label_budget_k": 5,
+      "protocol_dispersion": 0.22360679774997896,
+      "route_counts": {
+        "active_w2": 100
+      },
+      "summary": {
+        "baseline": {
+          "mae": 606.0041836348714,
+          "mape": 22.70560217988381
+        },
+        "method": {
+          "mae": 592.2492577298917,
+          "mape": 23.003551585532037
+        }
+      },
+      "relative_mape_reduction_percent": -1.3122286001830668
+    },
+    {
+      "horizon": 10,
+      "label_budget_k": 10,
+      "protocol_dispersion": 0.22360679774997896,
+      "route_counts": {
+        "active_w2": 100
+      },
+      "summary": {
+        "baseline": {
+          "mae": 640.1816010357751,
+          "mape": 24.086490093509205
+        },
+        "method": {
+          "mae": 640.1816010357759,
+          "mape": 24.086490093509227
+        }
+      },
+      "relative_mape_reduction_percent": -8.849891366508102e-14
+    },
+    {
+      "horizon": 20,
+      "label_budget_k": 1,
+      "protocol_dispersion": 0.22360679774997896,
+      "route_counts": {
+        "fallback_one_label_unidentifiable": 100
+      },
+      "summary": {
+        "baseline": {
+          "mae": 704.0965987426185,
+          "mape": 27.280765678623737
+        },
+        "method": {
+          "mae": 704.0965987426185,
+          "mape": 27.280765678623737
+        }
+      },
+      "relative_mape_reduction_percent": 0.0
+    },
+    {
+      "horizon": 20,
+      "label_budget_k": 3,
+      "protocol_dispersion": 0.22360679774997896,
+      "route_counts": {
+        "active_w2": 100
+      },
+      "summary": {
+        "baseline": {
+          "mae": 609.2352767302905,
+          "mape": 23.106084585815097
+        },
+        "method": {
+          "mae": 685.3077584987407,
+          "mape": 28.588473583753235
+        }
+      },
+      "relative_mape_reduction_percent": -23.7270359570301
+    },
+    {
+      "horizon": 20,
+      "label_budget_k": 5,
+      "protocol_dispersion": 0.22360679774997896,
+      "route_counts": {
+        "active_w2": 100
+      },
+      "summary": {
+        "baseline": {
+          "mae": 596.857729134889,
+          "mape": 22.610449846399913
+        },
+        "method": {
+          "mae": 529.9111447203234,
+          "mape": 20.406461976042017
+        }
+      },
+      "relative_mape_reduction_percent": 9.747651574074363
+    },
+    {
+      "horizon": 20,
+      "label_budget_k": 10,
+      "protocol_dispersion": 0.22360679774997896,
+      "route_counts": {
+        "active_w2": 100
+      },
+      "summary": {
+        "baseline": {
+          "mae": 571.319987767615,
+          "mape": 21.432396218034977
+        },
+        "method": {
+          "mae": 571.3199877676155,
+          "mape": 21.432396218034995
+        }
+      },
+      "relative_mape_reduction_percent": -8.288185890784708e-14
+    },
+    {
+      "horizon": 50,
+      "label_budget_k": 1,
+      "protocol_dispersion": 0.22360679774997896,
+      "route_counts": {
+        "fallback_one_label_unidentifiable": 100
+      },
+      "summary": {
+        "baseline": {
+          "mae": 652.8542662592474,
+          "mape": 25.06123802581672
+        },
+        "method": {
+          "mae": 652.8542662592474,
+          "mape": 25.06123802581672
+        }
+      },
+      "relative_mape_reduction_percent": 0.0
+    },
+    {
+      "horizon": 50,
+      "label_budget_k": 3,
+      "protocol_dispersion": 0.22360679774997896,
+      "route_counts": {
+        "active_w2": 100
+      },
+      "summary": {
+        "baseline": {
+          "mae": 629.0618042894014,
+          "mape": 24.57057047832238
+        },
+        "method": {
+          "mae": 663.3843826708339,
+          "mape": 26.742149922687506
+        }
+      },
+      "relative_mape_reduction_percent": -8.838131968816198
+    },
+    {
+      "horizon": 50,
+      "label_budget_k": 5,
+      "protocol_dispersion": 0.22360679774997896,
+      "route_counts": {
+        "active_w2": 100
+      },
+      "summary": {
+        "baseline": {
+          "mae": 605.340314313565,
+          "mape": 23.2725678325287
+        },
+        "method": {
+          "mae": 520.7463029451229,
+          "mape": 20.25286411864547
+        }
+      },
+      "relative_mape_reduction_percent": 12.97537828920842
+    },
+    {
+      "horizon": 50,
+      "label_budget_k": 10,
+      "protocol_dispersion": 0.22360679774997896,
+      "route_counts": {
+        "active_w2": 100
+      },
+      "summary": {
+        "baseline": {
+          "mae": 578.0349928982715,
+          "mape": 22.260114251847764
+        },
+        "method": {
+          "mae": 578.0349928982715,
+          "mape": 22.260114251847767
+        }
+      },
+      "relative_mape_reduction_percent": -1.5959997503182618e-14
+    }
+  ],
+  "warning": "Not an independent blind confirmation; 90% EOL is dataset-local and not unified with development labels."
+}

@@ -1,0 +1,908 @@
+{
+  "dataset_versions": "BatteryLife v12",
+  "rows": [
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_a.pkl",
+      "threshold": 25,
+      "coverage": 1.0,
+      "selective_mae": 19.95065005117201,
+      "selective_mape": 7.585798498544491
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_a.pkl",
+      "threshold": 50,
+      "coverage": 1.0,
+      "selective_mae": 19.95065005117201,
+      "selective_mape": 7.585798498544491
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_a.pkl",
+      "threshold": 100,
+      "coverage": 1.0,
+      "selective_mae": 19.95065005117201,
+      "selective_mape": 7.585798498544491
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_a.pkl",
+      "threshold": 200,
+      "coverage": 1.0,
+      "selective_mae": 19.95065005117201,
+      "selective_mape": 7.585798498544491
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_a.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 19.95065005117201,
+      "selective_mape": 7.585798498544491
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_b.pkl",
+      "threshold": 25,
+      "coverage": 1.0,
+      "selective_mae": 29.05264115309372,
+      "selective_mape": 13.326899611510882
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_b.pkl",
+      "threshold": 50,
+      "coverage": 1.0,
+      "selective_mae": 29.05264115309372,
+      "selective_mape": 13.326899611510882
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_b.pkl",
+      "threshold": 100,
+      "coverage": 1.0,
+      "selective_mae": 29.05264115309372,
+      "selective_mape": 13.326899611510882
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_b.pkl",
+      "threshold": 200,
+      "coverage": 1.0,
+      "selective_mae": 29.05264115309372,
+      "selective_mape": 13.326899611510882
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_b.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 29.05264115309372,
+      "selective_mape": 13.326899611510882
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_c.pkl",
+      "threshold": 25,
+      "coverage": 1.0,
+      "selective_mae": 10.911278525962517,
+      "selective_mape": 4.278932755279419
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_c.pkl",
+      "threshold": 50,
+      "coverage": 1.0,
+      "selective_mae": 10.911278525962517,
+      "selective_mape": 4.278932755279419
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_c.pkl",
+      "threshold": 100,
+      "coverage": 1.0,
+      "selective_mae": 10.911278525962517,
+      "selective_mape": 4.278932755279419
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_c.pkl",
+      "threshold": 200,
+      "coverage": 1.0,
+      "selective_mae": 10.911278525962517,
+      "selective_mape": 4.278932755279419
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_c.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 10.911278525962517,
+      "selective_mape": 4.278932755279419
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_d.pkl",
+      "threshold": 25,
+      "coverage": 1.0,
+      "selective_mae": 13.262743224150183,
+      "selective_mape": 5.160600476323029
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_d.pkl",
+      "threshold": 50,
+      "coverage": 1.0,
+      "selective_mae": 13.262743224150183,
+      "selective_mape": 5.160600476323029
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_d.pkl",
+      "threshold": 100,
+      "coverage": 1.0,
+      "selective_mae": 13.262743224150183,
+      "selective_mape": 5.160600476323029
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_d.pkl",
+      "threshold": 200,
+      "coverage": 1.0,
+      "selective_mae": 13.262743224150183,
+      "selective_mape": 5.160600476323029
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_d.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 13.262743224150183,
+      "selective_mape": 5.160600476323029
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_e.pkl",
+      "threshold": 25,
+      "coverage": 1.0,
+      "selective_mae": 15.301011492698123,
+      "selective_mape": 5.9077264450571905
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_e.pkl",
+      "threshold": 50,
+      "coverage": 1.0,
+      "selective_mae": 15.301011492698123,
+      "selective_mape": 5.9077264450571905
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_e.pkl",
+      "threshold": 100,
+      "coverage": 1.0,
+      "selective_mae": 15.301011492698123,
+      "selective_mape": 5.9077264450571905
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_e.pkl",
+      "threshold": 200,
+      "coverage": 1.0,
+      "selective_mae": 15.301011492698123,
+      "selective_mape": 5.9077264450571905
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_e.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 15.301011492698123,
+      "selective_mape": 5.9077264450571905
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_f.pkl",
+      "threshold": 25,
+      "coverage": 1.0,
+      "selective_mae": 6.380769459028566,
+      "selective_mape": 2.6697780163299436
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_f.pkl",
+      "threshold": 50,
+      "coverage": 1.0,
+      "selective_mae": 6.380769459028566,
+      "selective_mape": 2.6697780163299436
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_f.pkl",
+      "threshold": 100,
+      "coverage": 1.0,
+      "selective_mae": 6.380769459028566,
+      "selective_mape": 2.6697780163299436
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_f.pkl",
+      "threshold": 200,
+      "coverage": 1.0,
+      "selective_mae": 6.380769459028566,
+      "selective_mape": 2.6697780163299436
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_f.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 6.380769459028566,
+      "selective_mape": 2.6697780163299436
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_g.pkl",
+      "threshold": 25,
+      "coverage": 1.0,
+      "selective_mae": 1.6173199000866394,
+      "selective_mape": 0.6547853846504613
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_g.pkl",
+      "threshold": 50,
+      "coverage": 1.0,
+      "selective_mae": 1.6173199000866394,
+      "selective_mape": 0.6547853846504613
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_g.pkl",
+      "threshold": 100,
+      "coverage": 1.0,
+      "selective_mae": 1.6173199000866394,
+      "selective_mape": 0.6547853846504613
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_g.pkl",
+      "threshold": 200,
+      "coverage": 1.0,
+      "selective_mae": 1.6173199000866394,
+      "selective_mape": 0.6547853846504613
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_g.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 1.6173199000866394,
+      "selective_mape": 0.6547853846504613
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_j.pkl",
+      "threshold": 25,
+      "coverage": 1.0,
+      "selective_mae": 16.616991275523148,
+      "selective_mape": 6.342363082260745
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_j.pkl",
+      "threshold": 50,
+      "coverage": 1.0,
+      "selective_mae": 16.616991275523148,
+      "selective_mape": 6.342363082260745
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_j.pkl",
+      "threshold": 100,
+      "coverage": 1.0,
+      "selective_mae": 16.616991275523148,
+      "selective_mape": 6.342363082260745
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_j.pkl",
+      "threshold": 200,
+      "coverage": 1.0,
+      "selective_mae": 16.616991275523148,
+      "selective_mape": 6.342363082260745
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_j.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 16.616991275523148,
+      "selective_mape": 6.342363082260745
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_l.pkl",
+      "threshold": 25,
+      "coverage": 1.0,
+      "selective_mae": 19.841039757874768,
+      "selective_mape": 8.702210420120513
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_l.pkl",
+      "threshold": 50,
+      "coverage": 1.0,
+      "selective_mae": 19.841039757874768,
+      "selective_mape": 8.702210420120513
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_l.pkl",
+      "threshold": 100,
+      "coverage": 1.0,
+      "selective_mae": 19.841039757874768,
+      "selective_mape": 8.702210420120513
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_l.pkl",
+      "threshold": 200,
+      "coverage": 1.0,
+      "selective_mae": 19.841039757874768,
+      "selective_mape": 8.702210420120513
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_l.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 19.841039757874768,
+      "selective_mape": 8.702210420120513
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_n.pkl",
+      "threshold": 25,
+      "coverage": 1.0,
+      "selective_mae": 1.6380326720803668,
+      "selective_mape": 0.665866939870068
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_n.pkl",
+      "threshold": 50,
+      "coverage": 1.0,
+      "selective_mae": 1.6380326720803668,
+      "selective_mape": 0.665866939870068
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_n.pkl",
+      "threshold": 100,
+      "coverage": 1.0,
+      "selective_mae": 1.6380326720803668,
+      "selective_mape": 0.665866939870068
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_n.pkl",
+      "threshold": 200,
+      "coverage": 1.0,
+      "selective_mae": 1.6380326720803668,
+      "selective_mape": 0.665866939870068
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_n.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 1.6380326720803668,
+      "selective_mape": 0.665866939870068
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_o.pkl",
+      "threshold": 25,
+      "coverage": 1.0,
+      "selective_mae": 18.348111662178773,
+      "selective_mape": 6.897786339164953
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_o.pkl",
+      "threshold": 50,
+      "coverage": 1.0,
+      "selective_mae": 18.348111662178773,
+      "selective_mape": 6.897786339164953
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_o.pkl",
+      "threshold": 100,
+      "coverage": 1.0,
+      "selective_mae": 18.348111662178773,
+      "selective_mape": 6.897786339164953
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_o.pkl",
+      "threshold": 200,
+      "coverage": 1.0,
+      "selective_mae": 18.348111662178773,
+      "selective_mape": 6.897786339164953
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_o.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 18.348111662178773,
+      "selective_mape": 6.897786339164953
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_p.pkl",
+      "threshold": 25,
+      "coverage": 1.0,
+      "selective_mae": 15.339922430378756,
+      "selective_mape": 5.832670125619299
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_p.pkl",
+      "threshold": 50,
+      "coverage": 1.0,
+      "selective_mae": 15.339922430378756,
+      "selective_mape": 5.832670125619299
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_p.pkl",
+      "threshold": 100,
+      "coverage": 1.0,
+      "selective_mae": 15.339922430378756,
+      "selective_mape": 5.832670125619299
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_p.pkl",
+      "threshold": 200,
+      "coverage": 1.0,
+      "selective_mae": 15.339922430378756,
+      "selective_mape": 5.832670125619299
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_p.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 15.339922430378756,
+      "selective_mape": 5.832670125619299
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_s.pkl",
+      "threshold": 25,
+      "coverage": 1.0,
+      "selective_mae": 25.29150029333715,
+      "selective_mape": 10.948701425687078
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_s.pkl",
+      "threshold": 50,
+      "coverage": 1.0,
+      "selective_mae": 25.29150029333715,
+      "selective_mape": 10.948701425687078
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_s.pkl",
+      "threshold": 100,
+      "coverage": 1.0,
+      "selective_mae": 25.29150029333715,
+      "selective_mape": 10.948701425687078
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_s.pkl",
+      "threshold": 200,
+      "coverage": 1.0,
+      "selective_mae": 25.29150029333715,
+      "selective_mape": 10.948701425687078
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_s.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 25.29150029333715,
+      "selective_mape": 10.948701425687078
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_t.pkl",
+      "threshold": 25,
+      "coverage": 1.0,
+      "selective_mae": 21.735353350155965,
+      "selective_mape": 9.288612542801692
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_t.pkl",
+      "threshold": 50,
+      "coverage": 1.0,
+      "selective_mae": 21.735353350155965,
+      "selective_mape": 9.288612542801692
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_t.pkl",
+      "threshold": 100,
+      "coverage": 1.0,
+      "selective_mae": 21.735353350155965,
+      "selective_mape": 9.288612542801692
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_t.pkl",
+      "threshold": 200,
+      "coverage": 1.0,
+      "selective_mae": 21.735353350155965,
+      "selective_mape": 9.288612542801692
+    },
+    {
+      "source": "CALB",
+      "target": "HNEI",
+      "held_out": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_t.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 21.735353350155965,
+      "selective_mape": 9.288612542801692
+    },
+    {
+      "source": "HNEI",
+      "target": "CALB",
+      "held_out": "CALB_0_B182.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 719.397894834199,
+      "selective_mape": 666.1091618835172
+    },
+    {
+      "source": "HNEI",
+      "target": "CALB",
+      "held_out": "CALB_0_B183.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 723.1453768544578,
+      "selective_mape": 688.7098827185312
+    },
+    {
+      "source": "HNEI",
+      "target": "CALB",
+      "held_out": "CALB_0_B184.pkl",
+      "threshold": 500,
+      "coverage": 0.945054945054945,
+      "selective_mae": 658.2195738888904,
+      "selective_mape": 373.9883942550514
+    },
+    {
+      "source": "HNEI",
+      "target": "CALB",
+      "held_out": "CALB_0_B185.pkl",
+      "threshold": 500,
+      "coverage": 0.9340659340659341,
+      "selective_mae": 668.6261482569678,
+      "selective_mape": 415.29574425898625
+    },
+    {
+      "source": "HNEI",
+      "target": "CALB",
+      "held_out": "CALB_0_B187.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 639.249346390518,
+      "selective_mape": 338.2271674023904
+    },
+    {
+      "source": "HNEI",
+      "target": "CALB",
+      "held_out": "CALB_0_B188.pkl",
+      "threshold": 500,
+      "coverage": 0.5477386934673367,
+      "selective_mae": 762.403607058267,
+      "selective_mape": 619.8403309416803
+    },
+    {
+      "source": "HNEI",
+      "target": "CALB",
+      "held_out": "CALB_0_B189.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 650.1571002180491,
+      "selective_mape": 396.43725623051773
+    },
+    {
+      "source": "HNEI",
+      "target": "CALB",
+      "held_out": "CALB_0_B190.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 715.1378031541574,
+      "selective_mape": 687.6325030328435
+    },
+    {
+      "source": "HNEI",
+      "target": "CALB",
+      "held_out": "CALB_25_T25-1.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 156.6519340704398,
+      "selective_mape": 19.779284604853515
+    },
+    {
+      "source": "HNEI",
+      "target": "CALB",
+      "held_out": "CALB_25_T25-2.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 128.18220376357647,
+      "selective_mape": 13.05317757266563
+    },
+    {
+      "source": "HNEI",
+      "target": "CALB",
+      "held_out": "CALB_35_B173.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 364.54266096988124,
+      "selective_mape": 29.56550372829531
+    },
+    {
+      "source": "HNEI",
+      "target": "CALB",
+      "held_out": "CALB_35_B174.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 641.1350798540236,
+      "selective_mape": 50.40370124638549
+    },
+    {
+      "source": "HNEI",
+      "target": "CALB",
+      "held_out": "CALB_35_B175.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 730.8862832777456,
+      "selective_mape": 54.05963633711137
+    },
+    {
+      "source": "HNEI",
+      "target": "CALB",
+      "held_out": "CALB_35_B222.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 357.2233060146833,
+      "selective_mape": 28.351056032911377
+    },
+    {
+      "source": "HNEI",
+      "target": "CALB",
+      "held_out": "CALB_35_B223.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 461.71122112397086,
+      "selective_mape": 36.4412960634547
+    },
+    {
+      "source": "HNEI",
+      "target": "CALB",
+      "held_out": "CALB_35_B224.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 345.25302352424427,
+      "selective_mape": 26.90982256619207
+    },
+    {
+      "source": "HNEI",
+      "target": "CALB",
+      "held_out": "CALB_35_B227.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 437.0355298380118,
+      "selective_mape": 35.21640047042803
+    },
+    {
+      "source": "HNEI",
+      "target": "CALB",
+      "held_out": "CALB_35_B228.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 385.041826829723,
+      "selective_mape": 30.976816317757283
+    },
+    {
+      "source": "HNEI",
+      "target": "CALB",
+      "held_out": "CALB_35_B229.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 324.7810525835184,
+      "selective_mape": 27.735358888430262
+    },
+    {
+      "source": "HNEI",
+      "target": "CALB",
+      "held_out": "CALB_35_B230.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 338.8040208037783,
+      "selective_mape": 27.039427039407688
+    },
+    {
+      "source": "HNEI",
+      "target": "CALB",
+      "held_out": "CALB_35_B247.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 785.6017267636042,
+      "selective_mape": 55.67694732555664
+    },
+    {
+      "source": "HNEI",
+      "target": "CALB",
+      "held_out": "CALB_35_B248.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 408.01910476403225,
+      "selective_mape": 30.95744345705858
+    },
+    {
+      "source": "HNEI",
+      "target": "CALB",
+      "held_out": "CALB_35_B249.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 517.5520985043942,
+      "selective_mape": 39.781099039538375
+    },
+    {
+      "source": "HNEI",
+      "target": "CALB",
+      "held_out": "CALB_35_B250.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 361.78792207660325,
+      "selective_mape": 28.713327148936763
+    },
+    {
+      "source": "HNEI",
+      "target": "CALB",
+      "held_out": "CALB_45_B253.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 111.8428122449682,
+      "selective_mape": 11.400898292045689
+    },
+    {
+      "source": "HNEI",
+      "target": "CALB",
+      "held_out": "CALB_45_B255.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 105.62296847412621,
+      "selective_mape": 10.6367541262967
+    },
+    {
+      "source": "HNEI",
+      "target": "CALB",
+      "held_out": "CALB_45_B256.pkl",
+      "threshold": 500,
+      "coverage": 1.0,
+      "selective_mae": 101.80097810123878,
+      "selective_mape": 10.314182178443648
+    }
+  ],
+  "CALB_to_HNEI_25": {
+    "coverage_mean": 1.0,
+    "mae_mean": 15.377668946265763,
+    "mape_mean": 6.304480861658554
+  },
+  "CALB_to_HNEI_50": {
+    "coverage_mean": 1.0,
+    "mae_mean": 15.377668946265763,
+    "mape_mean": 6.304480861658554
+  },
+  "CALB_to_HNEI_100": {
+    "coverage_mean": 1.0,
+    "mae_mean": 15.377668946265763,
+    "mape_mean": 6.304480861658554
+  },
+  "CALB_to_HNEI_200": {
+    "coverage_mean": 1.0,
+    "mae_mean": 15.377668946265763,
+    "mape_mean": 6.304480861658554
+  },
+  "CALB_to_HNEI_500": {
+    "coverage_mean": 1.0,
+    "mae_mean": 15.377668946265763,
+    "mape_mean": 6.304480861658554
+  },
+  "HNEI_to_CALB_500": {
+    "coverage_mean": 0.9787725767625266,
+    "mae_mean": 466.6597260828915,
+    "mape_mean": 176.04639159849214
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "status": "POST-BLIND INFERENCE; METHOD AND MANIFEST ALREADY FROZEN",
+  "setting": "SNU Dataset 1 H50/K3",
+  "n_cells": 90,
+  "paired_mape_reduction_percentage_points": 0.12463682480164508,
+  "paired_cell_bootstrap_mape_reduction_95_ci": [
+    0.10178736754103988,
+    0.14841502857733538
+  ],
+  "relative_mape_reduction_percent": 30.924600779191195,
+  "paired_cell_bootstrap_relative_reduction_95_ci": [
+    17.455653893274004,
+    65.42444492692981
+  ],
+  "life_distribution_recovered_from_error_identity": {
+    "n_recoverable": 89,
+    "min": 709.9999999999999,
+    "median": 724.0000000000001,
+    "max": 781.0000000000003,
+    "mean": 725.4382022471909,
+    "std": 9.244439636009096,
+    "coefficient_of_variation": 0.012743248987126102
+  },
+  "repetitions": 50000,
+  "seed": 20260820
+}

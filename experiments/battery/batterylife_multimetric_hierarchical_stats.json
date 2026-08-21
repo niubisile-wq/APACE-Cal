@@ -1,0 +1,109 @@
+{
+  "source": "batterylife_multimetric_audit.json",
+  "unit": "domain-level outer bootstrap and cell-level inner bootstrap",
+  "bootstraps": 10000,
+  "results": {
+    "h10_k3": {
+      "mae": {
+        "relative_reduction_percent": 23.331415286985827,
+        "ci95_percent": [
+          -22.316726279628767,
+          59.43004764784313
+        ],
+        "probability_nonpositive": 0.1542
+      },
+      "rmse": {
+        "relative_reduction_percent": 31.018160608120617,
+        "ci95_percent": [
+          -11.135515247521797,
+          64.6410660746913
+        ],
+        "probability_nonpositive": 0.0806
+      },
+      "mape": {
+        "relative_reduction_percent": 37.88089998578889,
+        "ci95_percent": [
+          -0.07273968823192165,
+          71.24430462688754
+        ],
+        "probability_nonpositive": 0.0255
+      },
+      "smape": {
+        "relative_reduction_percent": 20.82431872665851,
+        "ci95_percent": [
+          -6.382736667962804,
+          47.63364064472152
+        ],
+        "probability_nonpositive": 0.0771
+      }
+    },
+    "h20_k3": {
+      "mae": {
+        "relative_reduction_percent": 25.73063715943738,
+        "ci95_percent": [
+          -22.335710146564747,
+          62.36573750496192
+        ],
+        "probability_nonpositive": 0.136
+      },
+      "rmse": {
+        "relative_reduction_percent": 34.16814667728286,
+        "ci95_percent": [
+          -9.663365888215692,
+          67.81193385041244
+        ],
+        "probability_nonpositive": 0.0668
+      },
+      "mape": {
+        "relative_reduction_percent": 41.92274725442112,
+        "ci95_percent": [
+          -0.4118396661936608,
+          76.64994446194062
+        ],
+        "probability_nonpositive": 0.0273
+      },
+      "smape": {
+        "relative_reduction_percent": 22.6701572301675,
+        "ci95_percent": [
+          -9.69817898732313,
+          52.312126498016696
+        ],
+        "probability_nonpositive": 0.089
+      }
+    },
+    "h50_k3": {
+      "mae": {
+        "relative_reduction_percent": 24.18470446752294,
+        "ci95_percent": [
+          -20.282987852785993,
+          60.105701027871675
+        ],
+        "probability_nonpositive": 0.1338
+      },
+      "rmse": {
+        "relative_reduction_percent": 36.436130945311064,
+        "ci95_percent": [
+          -3.7620498409892686,
+          66.69337205312902
+        ],
+        "probability_nonpositive": 0.0406
+      },
+      "mape": {
+        "relative_reduction_percent": 44.311905653701984,
+        "ci95_percent": [
+          0.2162722318764522,
+          77.83071701650236
+        ],
+        "probability_nonpositive": 0.0244
+      },
+      "smape": {
+        "relative_reduction_percent": 22.442106314723134,
+        "ci95_percent": [
+          -4.979676034644715,
+          49.51591744667245
+        ],
+        "probability_nonpositive": 0.0575
+      }
+    }
+  }
+}

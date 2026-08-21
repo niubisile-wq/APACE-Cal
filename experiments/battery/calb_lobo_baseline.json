@@ -1,0 +1,1925 @@
+{
+  "dataset": "BatteryLife v12 CALB",
+  "cells": 27,
+  "checkpoints": 2548,
+  "feature_names": [
+    "cycle",
+    "capacity_last",
+    "capacity_slope_10",
+    "capacity_mean_10",
+    "voltage_mean",
+    "voltage_min",
+    "voltage_max",
+    "current_mean",
+    "temperature_mean",
+    "time_max"
+  ],
+  "results": [
+    {
+      "held_out": "CALB_0_B182.pkl",
+      "model": "ridge",
+      "n_test": 91,
+      "mae": 181.85694488538073,
+      "p95_abs_error": 268.89325930597266
+    },
+    {
+      "held_out": "CALB_0_B182.pkl",
+      "model": "rf",
+      "n_test": 91,
+      "mae": 5.03368756904472,
+      "p95_abs_error": 31.535738095238102
+    },
+    {
+      "held_out": "CALB_0_B183.pkl",
+      "model": "ridge",
+      "n_test": 91,
+      "mae": 77.91589302104887,
+      "p95_abs_error": 115.12355019282114
+    },
+    {
+      "held_out": "CALB_0_B183.pkl",
+      "model": "rf",
+      "n_test": 91,
+      "mae": 8.695258430722719,
+      "p95_abs_error": 26.24840476190475
+    },
+    {
+      "held_out": "CALB_0_B184.pkl",
+      "model": "ridge",
+      "n_test": 91,
+      "mae": 93.09478274183859,
+      "p95_abs_error": 130.4927653071369
+    },
+    {
+      "held_out": "CALB_0_B184.pkl",
+      "model": "rf",
+      "n_test": 91,
+      "mae": 20.877890618640624,
+      "p95_abs_error": 49.04281746031746
+    },
+    {
+      "held_out": "CALB_0_B185.pkl",
+      "model": "ridge",
+      "n_test": 91,
+      "mae": 116.57010015269682,
+      "p95_abs_error": 195.41464673191683
+    },
+    {
+      "held_out": "CALB_0_B185.pkl",
+      "model": "rf",
+      "n_test": 91,
+      "mae": 10.585637231815795,
+      "p95_abs_error": 25.111388888888868
+    },
+    {
+      "held_out": "CALB_0_B187.pkl",
+      "model": "ridge",
+      "n_test": 91,
+      "mae": 112.09437256176838,
+      "p95_abs_error": 169.0943848790701
+    },
+    {
+      "held_out": "CALB_0_B187.pkl",
+      "model": "rf",
+      "n_test": 91,
+      "mae": 32.07497092854236,
+      "p95_abs_error": 57.60505555555555
+    },
+    {
+      "held_out": "CALB_0_B188.pkl",
+      "model": "ridge",
+      "n_test": 199,
+      "mae": 229.0972680083862,
+      "p95_abs_error": 182.17530077108023
+    },
+    {
+      "held_out": "CALB_0_B188.pkl",
+      "model": "rf",
+      "n_test": 199,
+      "mae": 17.889491557112162,
+      "p95_abs_error": 18.914111111111104
+    },
+    {
+      "held_out": "CALB_0_B189.pkl",
+      "model": "ridge",
+      "n_test": 91,
+      "mae": 114.64288032022985,
+      "p95_abs_error": 161.2452888113831
+    },
+    {
+      "held_out": "CALB_0_B189.pkl",
+      "model": "rf",
+      "n_test": 91,
+      "mae": 7.286503916718195,
+      "p95_abs_error": 11.971666666666664
+    },
+    {
+      "held_out": "CALB_0_B190.pkl",
+      "model": "ridge",
+      "n_test": 91,
+      "mae": 114.79461189626912,
+      "p95_abs_error": 158.6167065643021
+    },
+    {
+      "held_out": "CALB_0_B190.pkl",
+      "model": "rf",
+      "n_test": 91,
+      "mae": 6.062596003203148,
+      "p95_abs_error": 16.74266720779223
+    },
+    {
+      "held_out": "CALB_25_T25-1.pkl",
+      "model": "ridge",
+      "n_test": 90,
+      "mae": 410.93266146502395,
+      "p95_abs_error": 434.8014068155212
+    },
+    {
+      "held_out": "CALB_25_T25-1.pkl",
+      "model": "rf",
+      "n_test": 90,
+      "mae": 295.638012345679,
+      "p95_abs_error": 483.4233333333334
+    },
+    {
+      "held_out": "CALB_25_T25-2.pkl",
+      "model": "ridge",
+      "n_test": 90,
+      "mae": 27.964614328573134,
+      "p95_abs_error": 46.75054930690394
+    },
+    {
+      "held_out": "CALB_25_T25-2.pkl",
+      "model": "rf",
+      "n_test": 90,
+      "mae": 173.26032098765427,
+      "p95_abs_error": 190.0
+    },
+    {
+      "held_out": "CALB_35_B173.pkl",
+      "model": "ridge",
+      "n_test": 90,
+      "mae": 29.40505902761021,
+      "p95_abs_error": 48.923533168443306
+    },
+    {
+      "held_out": "CALB_35_B173.pkl",
+      "model": "rf",
+      "n_test": 90,
+      "mae": 42.37201366843032,
+      "p95_abs_error": 61.26999999999998
+    },
+    {
+      "held_out": "CALB_35_B174.pkl",
+      "model": "ridge",
+      "n_test": 90,
+      "mae": 50.7245576846365,
+      "p95_abs_error": 77.3122584446913
+    },
+    {
+      "held_out": "CALB_35_B174.pkl",
+      "model": "rf",
+      "n_test": 90,
+      "mae": 71.44978077601412,
+      "p95_abs_error": 80.0
+    },
+    {
+      "held_out": "CALB_35_B175.pkl",
+      "model": "ridge",
+      "n_test": 90,
+      "mae": 133.76601321564132,
+      "p95_abs_error": 159.6986169711733
+    },
+    {
+      "held_out": "CALB_35_B175.pkl",
+      "model": "rf",
+      "n_test": 90,
+      "mae": 80.10566851851848,
+      "p95_abs_error": 80.73375833333323
+    },
+    {
+      "held_out": "CALB_35_B222.pkl",
+      "model": "ridge",
+      "n_test": 90,
+      "mae": 75.25931133188853,
+      "p95_abs_error": 99.20481616034317
+    },
+    {
+      "held_out": "CALB_35_B222.pkl",
+      "model": "rf",
+      "n_test": 90,
+      "mae": 38.84540902410343,
+      "p95_abs_error": 54.25563888888898
+    },
+    {
+      "held_out": "CALB_35_B223.pkl",
+      "model": "ridge",
+      "n_test": 90,
+      "mae": 71.16280118031956,
+      "p95_abs_error": 97.78077251952827
+    },
+    {
+      "held_out": "CALB_35_B223.pkl",
+      "model": "rf",
+      "n_test": 90,
+      "mae": 31.441294885361533,
+      "p95_abs_error": 34.049999999999955
+    },
+    {
+      "held_out": "CALB_35_B224.pkl",
+      "model": "ridge",
+      "n_test": 90,
+      "mae": 92.518105934626,
+      "p95_abs_error": 115.07647725374542
+    },
+    {
+      "held_out": "CALB_35_B224.pkl",
+      "model": "rf",
+      "n_test": 90,
+      "mae": 84.10721358024686,
+      "p95_abs_error": 94.76286111111101
+    },
+    {
+      "held_out": "CALB_35_B227.pkl",
+      "model": "ridge",
+      "n_test": 90,
+      "mae": 28.216307803116088,
+      "p95_abs_error": 57.44088566002679
+    },
+    {
+      "held_out": "CALB_35_B227.pkl",
+      "model": "rf",
+      "n_test": 90,
+      "mae": 58.36367808641963,
+      "p95_abs_error": 108.89964999999992
+    },
+    {
+      "held_out": "CALB_35_B228.pkl",
+      "model": "ridge",
+      "n_test": 90,
+      "mae": 18.894902430054334,
+      "p95_abs_error": 40.893594607339594
+    },
+    {
+      "held_out": "CALB_35_B228.pkl",
+      "model": "rf",
+      "n_test": 90,
+      "mae": 64.5064233686068,
+      "p95_abs_error": 73.05105555555562
+    },
+    {
+      "held_out": "CALB_35_B229.pkl",
+      "model": "ridge",
+      "n_test": 90,
+      "mae": 49.705583538268534,
+      "p95_abs_error": 80.35339997910017
+    },
+    {
+      "held_out": "CALB_35_B229.pkl",
+      "model": "rf",
+      "n_test": 90,
+      "mae": 73.0600471781305,
+      "p95_abs_error": 85.6065869047619
+    },
+    {
+      "held_out": "CALB_35_B230.pkl",
+      "model": "ridge",
+      "n_test": 90,
+      "mae": 76.15813958246407,
+      "p95_abs_error": 104.15760623762706
+    },
+    {
+      "held_out": "CALB_35_B230.pkl",
+      "model": "rf",
+      "n_test": 90,
+      "mae": 89.26105079365074,
+      "p95_abs_error": 396.20116666666655
+    },
+    {
+      "held_out": "CALB_35_B247.pkl",
+      "model": "ridge",
+      "n_test": 90,
+      "mae": 20.7963365733974,
+      "p95_abs_error": 42.98767854291165
+    },
+    {
+      "held_out": "CALB_35_B247.pkl",
+      "model": "rf",
+      "n_test": 90,
+      "mae": 110.4835180776014,
+      "p95_abs_error": 113.59833333333336
+    },
+    {
+      "held_out": "CALB_35_B248.pkl",
+      "model": "ridge",
+      "n_test": 90,
+      "mae": 111.7037782298163,
+      "p95_abs_error": 141.7633000308936
+    },
+    {
+      "held_out": "CALB_35_B248.pkl",
+      "model": "rf",
+      "n_test": 90,
+      "mae": 68.10015925925934,
+      "p95_abs_error": 74.83047222222228
+    },
+    {
+      "held_out": "CALB_35_B249.pkl",
+      "model": "ridge",
+      "n_test": 90,
+      "mae": 57.182536656354124,
+      "p95_abs_error": 83.15600994158733
+    },
+    {
+      "held_out": "CALB_35_B249.pkl",
+      "model": "rf",
+      "n_test": 90,
+      "mae": 24.47242442680776,
+      "p95_abs_error": 34.95654761904757
+    },
+    {
+      "held_out": "CALB_35_B250.pkl",
+      "model": "ridge",
+      "n_test": 90,
+      "mae": 31.308592691191876,
+      "p95_abs_error": 54.44118750574166
+    },
+    {
+      "held_out": "CALB_35_B250.pkl",
+      "model": "rf",
+      "n_test": 90,
+      "mae": 17.675556437389726,
+      "p95_abs_error": 19.13611111111095
+    },
+    {
+      "held_out": "CALB_45_B253.pkl",
+      "model": "ridge",
+      "n_test": 91,
+      "mae": 210.73271213567452,
+      "p95_abs_error": 249.34907647823866
+    },
+    {
+      "held_out": "CALB_45_B253.pkl",
+      "model": "rf",
+      "n_test": 91,
+      "mae": 10.511346764346758,
+      "p95_abs_error": 11.74333333333334
+    },
+    {
+      "held_out": "CALB_45_B255.pkl",
+      "model": "ridge",
+      "n_test": 91,
+      "mae": 140.13013040494354,
+      "p95_abs_error": 191.40954400218175
+    },
+    {
+      "held_out": "CALB_45_B255.pkl",
+      "model": "rf",
+      "n_test": 91,
+      "mae": 11.82567765567763,
+      "p95_abs_error": 11.919999999999959
+    },
+    {
+      "held_out": "CALB_45_B256.pkl",
+      "model": "ridge",
+      "n_test": 90,
+      "mae": 124.35627790776991,
+      "p95_abs_error": 186.53433989515872
+    },
+    {
+      "held_out": "CALB_45_B256.pkl",
+      "model": "rf",
+      "n_test": 90,
+      "mae": 5.976119576719572,
+      "p95_abs_error": 6.0
+    }
+  ],
+  "horizon_results": [
+    {
+      "held_out": "CALB_0_B182.pkl",
+      "model": "ridge",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 319.6568407843863
+    },
+    {
+      "held_out": "CALB_0_B182.pkl",
+      "model": "ridge",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 63.21892315134524
+    },
+    {
+      "held_out": "CALB_0_B182.pkl",
+      "model": "ridge",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 164.775182694871
+    },
+    {
+      "held_out": "CALB_0_B182.pkl",
+      "model": "ridge",
+      "horizon_cycles": 100,
+      "n": 91,
+      "mae": 181.85694488538073
+    },
+    {
+      "held_out": "CALB_0_B182.pkl",
+      "model": "rf",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 31.388436507936518
+    },
+    {
+      "held_out": "CALB_0_B182.pkl",
+      "model": "rf",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 23.30560245310245
+    },
+    {
+      "held_out": "CALB_0_B182.pkl",
+      "model": "rf",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 8.188382500967874
+    },
+    {
+      "held_out": "CALB_0_B182.pkl",
+      "model": "rf",
+      "horizon_cycles": 100,
+      "n": 91,
+      "mae": 5.03368756904472
+    },
+    {
+      "held_out": "CALB_0_B183.pkl",
+      "model": "ridge",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 243.50477474134732
+    },
+    {
+      "held_out": "CALB_0_B183.pkl",
+      "model": "ridge",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 60.60085690007074
+    },
+    {
+      "held_out": "CALB_0_B183.pkl",
+      "model": "ridge",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 82.16932298698505
+    },
+    {
+      "held_out": "CALB_0_B183.pkl",
+      "model": "ridge",
+      "horizon_cycles": 100,
+      "n": 91,
+      "mae": 77.91589302104887
+    },
+    {
+      "held_out": "CALB_0_B183.pkl",
+      "model": "rf",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 27.69680687830683
+    },
+    {
+      "held_out": "CALB_0_B183.pkl",
+      "model": "rf",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 18.992607984607975
+    },
+    {
+      "held_out": "CALB_0_B183.pkl",
+      "model": "rf",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 14.52761849916118
+    },
+    {
+      "held_out": "CALB_0_B183.pkl",
+      "model": "rf",
+      "horizon_cycles": 100,
+      "n": 91,
+      "mae": 8.695258430722719
+    },
+    {
+      "held_out": "CALB_0_B184.pkl",
+      "model": "ridge",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 374.51496985047766
+    },
+    {
+      "held_out": "CALB_0_B184.pkl",
+      "model": "ridge",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 148.46775219125968
+    },
+    {
+      "held_out": "CALB_0_B184.pkl",
+      "model": "ridge",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 93.63712507889439
+    },
+    {
+      "held_out": "CALB_0_B184.pkl",
+      "model": "ridge",
+      "horizon_cycles": 100,
+      "n": 91,
+      "mae": 93.09478274183859
+    },
+    {
+      "held_out": "CALB_0_B184.pkl",
+      "model": "rf",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 17.121047619047687
+    },
+    {
+      "held_out": "CALB_0_B184.pkl",
+      "model": "rf",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 12.9590621693122
+    },
+    {
+      "held_out": "CALB_0_B184.pkl",
+      "model": "rf",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 23.521254323138493
+    },
+    {
+      "held_out": "CALB_0_B184.pkl",
+      "model": "rf",
+      "horizon_cycles": 100,
+      "n": 91,
+      "mae": 20.877890618640624
+    },
+    {
+      "held_out": "CALB_0_B185.pkl",
+      "model": "ridge",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 334.1200060121747
+    },
+    {
+      "held_out": "CALB_0_B185.pkl",
+      "model": "ridge",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 123.62388440156495
+    },
+    {
+      "held_out": "CALB_0_B185.pkl",
+      "model": "ridge",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 81.15717697242052
+    },
+    {
+      "held_out": "CALB_0_B185.pkl",
+      "model": "ridge",
+      "horizon_cycles": 100,
+      "n": 91,
+      "mae": 116.57010015269682
+    },
+    {
+      "held_out": "CALB_0_B185.pkl",
+      "model": "rf",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 4.802214285714257
+    },
+    {
+      "held_out": "CALB_0_B185.pkl",
+      "model": "rf",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 7.437072150072135
+    },
+    {
+      "held_out": "CALB_0_B185.pkl",
+      "model": "rf",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 7.08551567944249
+    },
+    {
+      "held_out": "CALB_0_B185.pkl",
+      "model": "rf",
+      "horizon_cycles": 100,
+      "n": 91,
+      "mae": 10.585637231815795
+    },
+    {
+      "held_out": "CALB_0_B187.pkl",
+      "model": "ridge",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 287.01264500466493
+    },
+    {
+      "held_out": "CALB_0_B187.pkl",
+      "model": "ridge",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 121.08394724188382
+    },
+    {
+      "held_out": "CALB_0_B187.pkl",
+      "model": "ridge",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 89.78390670545598
+    },
+    {
+      "held_out": "CALB_0_B187.pkl",
+      "model": "ridge",
+      "horizon_cycles": 100,
+      "n": 91,
+      "mae": 112.09437256176838
+    },
+    {
+      "held_out": "CALB_0_B187.pkl",
+      "model": "rf",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 57.246202380952354
+    },
+    {
+      "held_out": "CALB_0_B187.pkl",
+      "model": "rf",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 48.773322631072624
+    },
+    {
+      "held_out": "CALB_0_B187.pkl",
+      "model": "rf",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 37.16596780229707
+    },
+    {
+      "held_out": "CALB_0_B187.pkl",
+      "model": "rf",
+      "horizon_cycles": 100,
+      "n": 91,
+      "mae": 32.07497092854236
+    },
+    {
+      "held_out": "CALB_0_B188.pkl",
+      "model": "ridge",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 191.8052435580214
+    },
+    {
+      "held_out": "CALB_0_B188.pkl",
+      "model": "ridge",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 34.71877440825791
+    },
+    {
+      "held_out": "CALB_0_B188.pkl",
+      "model": "ridge",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 59.94588466243073
+    },
+    {
+      "held_out": "CALB_0_B188.pkl",
+      "model": "ridge",
+      "horizon_cycles": 100,
+      "n": 91,
+      "mae": 58.925979170000616
+    },
+    {
+      "held_out": "CALB_0_B188.pkl",
+      "model": "rf",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 4.487032828282878
+    },
+    {
+      "held_out": "CALB_0_B188.pkl",
+      "model": "rf",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 7.91437876601511
+    },
+    {
+      "held_out": "CALB_0_B188.pkl",
+      "model": "rf",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 15.772464183061738
+    },
+    {
+      "held_out": "CALB_0_B188.pkl",
+      "model": "rf",
+      "horizon_cycles": 100,
+      "n": 91,
+      "mae": 17.295441331155608
+    },
+    {
+      "held_out": "CALB_0_B189.pkl",
+      "model": "ridge",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 412.33888640951204
+    },
+    {
+      "held_out": "CALB_0_B189.pkl",
+      "model": "ridge",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 148.83827209900272
+    },
+    {
+      "held_out": "CALB_0_B189.pkl",
+      "model": "ridge",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 100.75285003618328
+    },
+    {
+      "held_out": "CALB_0_B189.pkl",
+      "model": "ridge",
+      "horizon_cycles": 100,
+      "n": 91,
+      "mae": 114.64288032022985
+    },
+    {
+      "held_out": "CALB_0_B189.pkl",
+      "model": "rf",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 1.597873015873006
+    },
+    {
+      "held_out": "CALB_0_B189.pkl",
+      "model": "rf",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 7.718599206349193
+    },
+    {
+      "held_out": "CALB_0_B189.pkl",
+      "model": "rf",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 7.013034148101207
+    },
+    {
+      "held_out": "CALB_0_B189.pkl",
+      "model": "rf",
+      "horizon_cycles": 100,
+      "n": 91,
+      "mae": 7.286503916718195
+    },
+    {
+      "held_out": "CALB_0_B190.pkl",
+      "model": "ridge",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 193.04271387172105
+    },
+    {
+      "held_out": "CALB_0_B190.pkl",
+      "model": "ridge",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 84.85300127412772
+    },
+    {
+      "held_out": "CALB_0_B190.pkl",
+      "model": "ridge",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 124.24543614819422
+    },
+    {
+      "held_out": "CALB_0_B190.pkl",
+      "model": "ridge",
+      "horizon_cycles": 100,
+      "n": 91,
+      "mae": 114.79461189626912
+    },
+    {
+      "held_out": "CALB_0_B190.pkl",
+      "model": "rf",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 17.40890079365083
+    },
+    {
+      "held_out": "CALB_0_B190.pkl",
+      "model": "rf",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 13.702268234290976
+    },
+    {
+      "held_out": "CALB_0_B190.pkl",
+      "model": "rf",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 7.38561600323796
+    },
+    {
+      "held_out": "CALB_0_B190.pkl",
+      "model": "rf",
+      "horizon_cycles": 100,
+      "n": 91,
+      "mae": 6.062596003203148
+    },
+    {
+      "held_out": "CALB_25_T25-1.pkl",
+      "model": "ridge",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 366.17304196476766
+    },
+    {
+      "held_out": "CALB_25_T25-1.pkl",
+      "model": "ridge",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 376.6477541064909
+    },
+    {
+      "held_out": "CALB_25_T25-1.pkl",
+      "model": "ridge",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 399.43287904732546
+    },
+    {
+      "held_out": "CALB_25_T25-1.pkl",
+      "model": "ridge",
+      "horizon_cycles": 100,
+      "n": 90,
+      "mae": 410.93266146502395
+    },
+    {
+      "held_out": "CALB_25_T25-1.pkl",
+      "model": "rf",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 189.745
+    },
+    {
+      "held_out": "CALB_25_T25-1.pkl",
+      "model": "rf",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 189.87348484848488
+    },
+    {
+      "held_out": "CALB_25_T25-1.pkl",
+      "model": "rf",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 216.14780487804876
+    },
+    {
+      "held_out": "CALB_25_T25-1.pkl",
+      "model": "rf",
+      "horizon_cycles": 100,
+      "n": 90,
+      "mae": 295.638012345679
+    },
+    {
+      "held_out": "CALB_25_T25-2.pkl",
+      "model": "ridge",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 2.4436968198959903
+    },
+    {
+      "held_out": "CALB_25_T25-2.pkl",
+      "model": "ridge",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 1.9039876342739552
+    },
+    {
+      "held_out": "CALB_25_T25-2.pkl",
+      "model": "ridge",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 22.584738527190947
+    },
+    {
+      "held_out": "CALB_25_T25-2.pkl",
+      "model": "ridge",
+      "horizon_cycles": 100,
+      "n": 90,
+      "mae": 27.964614328573134
+    },
+    {
+      "held_out": "CALB_25_T25-2.pkl",
+      "model": "rf",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 180.01666666666665
+    },
+    {
+      "held_out": "CALB_25_T25-2.pkl",
+      "model": "rf",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 179.69424242424242
+    },
+    {
+      "held_out": "CALB_25_T25-2.pkl",
+      "model": "rf",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 180.06674796747967
+    },
+    {
+      "held_out": "CALB_25_T25-2.pkl",
+      "model": "rf",
+      "horizon_cycles": 100,
+      "n": 90,
+      "mae": 173.26032098765427
+    },
+    {
+      "held_out": "CALB_35_B173.pkl",
+      "model": "ridge",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 9.830631992340841
+    },
+    {
+      "held_out": "CALB_35_B173.pkl",
+      "model": "ridge",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 9.97421038814146
+    },
+    {
+      "held_out": "CALB_35_B173.pkl",
+      "model": "ridge",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 20.03331088557954
+    },
+    {
+      "held_out": "CALB_35_B173.pkl",
+      "model": "ridge",
+      "horizon_cycles": 100,
+      "n": 90,
+      "mae": 29.40505902761021
+    },
+    {
+      "held_out": "CALB_35_B173.pkl",
+      "model": "rf",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 16.045277777777983
+    },
+    {
+      "held_out": "CALB_35_B173.pkl",
+      "model": "rf",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 31.76522366522369
+    },
+    {
+      "held_out": "CALB_35_B173.pkl",
+      "model": "rf",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 44.96910452961671
+    },
+    {
+      "held_out": "CALB_35_B173.pkl",
+      "model": "rf",
+      "horizon_cycles": 100,
+      "n": 90,
+      "mae": 42.37201366843032
+    },
+    {
+      "held_out": "CALB_35_B174.pkl",
+      "model": "ridge",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 30.574832393370116
+    },
+    {
+      "held_out": "CALB_35_B174.pkl",
+      "model": "ridge",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 35.670633235819565
+    },
+    {
+      "held_out": "CALB_35_B174.pkl",
+      "model": "ridge",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 44.1880891757716
+    },
+    {
+      "held_out": "CALB_35_B174.pkl",
+      "model": "ridge",
+      "horizon_cycles": 100,
+      "n": 90,
+      "mae": 50.7245576846365
+    },
+    {
+      "held_out": "CALB_35_B174.pkl",
+      "model": "rf",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 69.91861111111143
+    },
+    {
+      "held_out": "CALB_35_B174.pkl",
+      "model": "rf",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 63.23715945165947
+    },
+    {
+      "held_out": "CALB_35_B174.pkl",
+      "model": "rf",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 74.8995929152149
+    },
+    {
+      "held_out": "CALB_35_B174.pkl",
+      "model": "rf",
+      "horizon_cycles": 100,
+      "n": 90,
+      "mae": 71.44978077601412
+    },
+    {
+      "held_out": "CALB_35_B175.pkl",
+      "model": "ridge",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 110.5659805139619
+    },
+    {
+      "held_out": "CALB_35_B175.pkl",
+      "model": "ridge",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 112.43784754628109
+    },
+    {
+      "held_out": "CALB_35_B175.pkl",
+      "model": "ridge",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 120.16873828176777
+    },
+    {
+      "held_out": "CALB_35_B175.pkl",
+      "model": "ridge",
+      "horizon_cycles": 100,
+      "n": 90,
+      "mae": 133.76601321564132
+    },
+    {
+      "held_out": "CALB_35_B175.pkl",
+      "model": "rf",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 89.89222222222179
+    },
+    {
+      "held_out": "CALB_35_B175.pkl",
+      "model": "rf",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 82.82116666666649
+    },
+    {
+      "held_out": "CALB_35_B175.pkl",
+      "model": "rf",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 80.60673712737119
+    },
+    {
+      "held_out": "CALB_35_B175.pkl",
+      "model": "rf",
+      "horizon_cycles": 100,
+      "n": 90,
+      "mae": 80.10566851851848
+    },
+    {
+      "held_out": "CALB_35_B222.pkl",
+      "model": "ridge",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 44.306399176301966
+    },
+    {
+      "held_out": "CALB_35_B222.pkl",
+      "model": "ridge",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 48.977102418937896
+    },
+    {
+      "held_out": "CALB_35_B222.pkl",
+      "model": "ridge",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 63.24111760426244
+    },
+    {
+      "held_out": "CALB_35_B222.pkl",
+      "model": "ridge",
+      "horizon_cycles": 100,
+      "n": 90,
+      "mae": 75.25931133188853
+    },
+    {
+      "held_out": "CALB_35_B222.pkl",
+      "model": "rf",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 1.2167460317461973
+    },
+    {
+      "held_out": "CALB_35_B222.pkl",
+      "model": "rf",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 13.424946608946646
+    },
+    {
+      "held_out": "CALB_35_B222.pkl",
+      "model": "rf",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 36.299431475029
+    },
+    {
+      "held_out": "CALB_35_B222.pkl",
+      "model": "rf",
+      "horizon_cycles": 100,
+      "n": 90,
+      "mae": 38.84540902410343
+    },
+    {
+      "held_out": "CALB_35_B223.pkl",
+      "model": "ridge",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 36.60490770205888
+    },
+    {
+      "held_out": "CALB_35_B223.pkl",
+      "model": "ridge",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 40.964532759068085
+    },
+    {
+      "held_out": "CALB_35_B223.pkl",
+      "model": "ridge",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 56.38115752352018
+    },
+    {
+      "held_out": "CALB_35_B223.pkl",
+      "model": "ridge",
+      "horizon_cycles": 100,
+      "n": 90,
+      "mae": 71.16280118031956
+    },
+    {
+      "held_out": "CALB_35_B223.pkl",
+      "model": "rf",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 31.81111111111113
+    },
+    {
+      "held_out": "CALB_35_B223.pkl",
+      "model": "rf",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 30.28767676767674
+    },
+    {
+      "held_out": "CALB_35_B223.pkl",
+      "model": "rf",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 30.148943089430837
+    },
+    {
+      "held_out": "CALB_35_B223.pkl",
+      "model": "rf",
+      "horizon_cycles": 100,
+      "n": 90,
+      "mae": 31.441294885361533
+    },
+    {
+      "held_out": "CALB_35_B224.pkl",
+      "model": "ridge",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 62.81544455597714
+    },
+    {
+      "held_out": "CALB_35_B224.pkl",
+      "model": "ridge",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 70.7448675944146
+    },
+    {
+      "held_out": "CALB_35_B224.pkl",
+      "model": "ridge",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 82.21040131014527
+    },
+    {
+      "held_out": "CALB_35_B224.pkl",
+      "model": "ridge",
+      "horizon_cycles": 100,
+      "n": 90,
+      "mae": 92.518105934626
+    },
+    {
+      "held_out": "CALB_35_B224.pkl",
+      "model": "rf",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 59.380666666666684
+    },
+    {
+      "held_out": "CALB_35_B224.pkl",
+      "model": "rf",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 64.31532323232314
+    },
+    {
+      "held_out": "CALB_35_B224.pkl",
+      "model": "rf",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 75.40331978319773
+    },
+    {
+      "held_out": "CALB_35_B224.pkl",
+      "model": "rf",
+      "horizon_cycles": 100,
+      "n": 90,
+      "mae": 84.10721358024686
+    },
+    {
+      "held_out": "CALB_35_B227.pkl",
+      "model": "ridge",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 23.94474589312108
+    },
+    {
+      "held_out": "CALB_35_B227.pkl",
+      "model": "ridge",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 14.64646218188132
+    },
+    {
+      "held_out": "CALB_35_B227.pkl",
+      "model": "ridge",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 26.968156009503435
+    },
+    {
+      "held_out": "CALB_35_B227.pkl",
+      "model": "ridge",
+      "horizon_cycles": 100,
+      "n": 90,
+      "mae": 28.216307803116088
+    },
+    {
+      "held_out": "CALB_35_B227.pkl",
+      "model": "rf",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 58.98744444444446
+    },
+    {
+      "held_out": "CALB_35_B227.pkl",
+      "model": "rf",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 49.86927525252523
+    },
+    {
+      "held_out": "CALB_35_B227.pkl",
+      "model": "rf",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 44.38593699186979
+    },
+    {
+      "held_out": "CALB_35_B227.pkl",
+      "model": "rf",
+      "horizon_cycles": 100,
+      "n": 90,
+      "mae": 58.36367808641963
+    },
+    {
+      "held_out": "CALB_35_B228.pkl",
+      "model": "ridge",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 34.157583348699745
+    },
+    {
+      "held_out": "CALB_35_B228.pkl",
+      "model": "ridge",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 31.14384954029509
+    },
+    {
+      "held_out": "CALB_35_B228.pkl",
+      "model": "ridge",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 20.333096406674603
+    },
+    {
+      "held_out": "CALB_35_B228.pkl",
+      "model": "ridge",
+      "horizon_cycles": 100,
+      "n": 90,
+      "mae": 18.894902430054334
+    },
+    {
+      "held_out": "CALB_35_B228.pkl",
+      "model": "rf",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 55.32800793650836
+    },
+    {
+      "held_out": "CALB_35_B228.pkl",
+      "model": "rf",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 63.23732395382413
+    },
+    {
+      "held_out": "CALB_35_B228.pkl",
+      "model": "rf",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 64.05065834301216
+    },
+    {
+      "held_out": "CALB_35_B228.pkl",
+      "model": "rf",
+      "horizon_cycles": 100,
+      "n": 90,
+      "mae": 64.5064233686068
+    },
+    {
+      "held_out": "CALB_35_B229.pkl",
+      "model": "ridge",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 98.14671433776812
+    },
+    {
+      "held_out": "CALB_35_B229.pkl",
+      "model": "ridge",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 75.95422944069527
+    },
+    {
+      "held_out": "CALB_35_B229.pkl",
+      "model": "ridge",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 55.193966909253035
+    },
+    {
+      "held_out": "CALB_35_B229.pkl",
+      "model": "ridge",
+      "horizon_cycles": 100,
+      "n": 90,
+      "mae": 49.705583538268534
+    },
+    {
+      "held_out": "CALB_35_B229.pkl",
+      "model": "rf",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 82.8493333333331
+    },
+    {
+      "held_out": "CALB_35_B229.pkl",
+      "model": "rf",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 72.05511255411255
+    },
+    {
+      "held_out": "CALB_35_B229.pkl",
+      "model": "rf",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 71.50344483159114
+    },
+    {
+      "held_out": "CALB_35_B229.pkl",
+      "model": "rf",
+      "horizon_cycles": 100,
+      "n": 90,
+      "mae": 73.0600471781305
+    },
+    {
+      "held_out": "CALB_35_B230.pkl",
+      "model": "ridge",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 39.2679051032585
+    },
+    {
+      "held_out": "CALB_35_B230.pkl",
+      "model": "ridge",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 50.00403440962546
+    },
+    {
+      "held_out": "CALB_35_B230.pkl",
+      "model": "ridge",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 64.91476693895157
+    },
+    {
+      "held_out": "CALB_35_B230.pkl",
+      "model": "ridge",
+      "horizon_cycles": 100,
+      "n": 90,
+      "mae": 76.15813958246407
+    },
+    {
+      "held_out": "CALB_35_B230.pkl",
+      "model": "rf",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 28.068666666666786
+    },
+    {
+      "held_out": "CALB_35_B230.pkl",
+      "model": "rf",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 26.0639595959596
+    },
+    {
+      "held_out": "CALB_35_B230.pkl",
+      "model": "rf",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 18.407310298102928
+    },
+    {
+      "held_out": "CALB_35_B230.pkl",
+      "model": "rf",
+      "horizon_cycles": 100,
+      "n": 90,
+      "mae": 89.26105079365074
+    },
+    {
+      "held_out": "CALB_35_B247.pkl",
+      "model": "ridge",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 1.760404290972474
+    },
+    {
+      "held_out": "CALB_35_B247.pkl",
+      "model": "ridge",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 11.224889723709834
+    },
+    {
+      "held_out": "CALB_35_B247.pkl",
+      "model": "ridge",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 22.475123229887934
+    },
+    {
+      "held_out": "CALB_35_B247.pkl",
+      "model": "ridge",
+      "horizon_cycles": 100,
+      "n": 90,
+      "mae": 20.7963365733974
+    },
+    {
+      "held_out": "CALB_35_B247.pkl",
+      "model": "rf",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 116.52017460317415
+    },
+    {
+      "held_out": "CALB_35_B247.pkl",
+      "model": "rf",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 111.60414285714275
+    },
+    {
+      "held_out": "CALB_35_B247.pkl",
+      "model": "rf",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 111.22477003484319
+    },
+    {
+      "held_out": "CALB_35_B247.pkl",
+      "model": "rf",
+      "horizon_cycles": 100,
+      "n": 90,
+      "mae": 110.4835180776014
+    },
+    {
+      "held_out": "CALB_35_B248.pkl",
+      "model": "ridge",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 58.238346402383286
+    },
+    {
+      "held_out": "CALB_35_B248.pkl",
+      "model": "ridge",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 69.86261942616889
+    },
+    {
+      "held_out": "CALB_35_B248.pkl",
+      "model": "ridge",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 95.74364110784362
+    },
+    {
+      "held_out": "CALB_35_B248.pkl",
+      "model": "ridge",
+      "horizon_cycles": 100,
+      "n": 90,
+      "mae": 111.7037782298163
+    },
+    {
+      "held_out": "CALB_35_B248.pkl",
+      "model": "rf",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 67.03666666666686
+    },
+    {
+      "held_out": "CALB_35_B248.pkl",
+      "model": "rf",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 72.25190404040426
+    },
+    {
+      "held_out": "CALB_35_B248.pkl",
+      "model": "rf",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 68.37364227642284
+    },
+    {
+      "held_out": "CALB_35_B248.pkl",
+      "model": "rf",
+      "horizon_cycles": 100,
+      "n": 90,
+      "mae": 68.10015925925934
+    },
+    {
+      "held_out": "CALB_35_B249.pkl",
+      "model": "ridge",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 15.391960848638973
+    },
+    {
+      "held_out": "CALB_35_B249.pkl",
+      "model": "ridge",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 28.796032788344746
+    },
+    {
+      "held_out": "CALB_35_B249.pkl",
+      "model": "ridge",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 49.22230424370628
+    },
+    {
+      "held_out": "CALB_35_B249.pkl",
+      "model": "ridge",
+      "horizon_cycles": 100,
+      "n": 90,
+      "mae": 57.182536656354124
+    },
+    {
+      "held_out": "CALB_35_B249.pkl",
+      "model": "rf",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 9.720039682538982
+    },
+    {
+      "held_out": "CALB_35_B249.pkl",
+      "model": "rf",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 26.37984343434331
+    },
+    {
+      "held_out": "CALB_35_B249.pkl",
+      "model": "rf",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 28.576454123112637
+    },
+    {
+      "held_out": "CALB_35_B249.pkl",
+      "model": "rf",
+      "horizon_cycles": 100,
+      "n": 90,
+      "mae": 24.47242442680776
+    },
+    {
+      "held_out": "CALB_35_B250.pkl",
+      "model": "ridge",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 2.713311950465595
+    },
+    {
+      "held_out": "CALB_35_B250.pkl",
+      "model": "ridge",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 8.838017295417144
+    },
+    {
+      "held_out": "CALB_35_B250.pkl",
+      "model": "ridge",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 17.99859180696632
+    },
+    {
+      "held_out": "CALB_35_B250.pkl",
+      "model": "ridge",
+      "horizon_cycles": 100,
+      "n": 90,
+      "mae": 31.308592691191876
+    },
+    {
+      "held_out": "CALB_35_B250.pkl",
+      "model": "rf",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 2.5
+    },
+    {
+      "held_out": "CALB_35_B250.pkl",
+      "model": "rf",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 13.66641414141418
+    },
+    {
+      "held_out": "CALB_35_B250.pkl",
+      "model": "rf",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 16.328252032520336
+    },
+    {
+      "held_out": "CALB_35_B250.pkl",
+      "model": "rf",
+      "horizon_cycles": 100,
+      "n": 90,
+      "mae": 17.675556437389726
+    },
+    {
+      "held_out": "CALB_45_B253.pkl",
+      "model": "ridge",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 406.3602441688049
+    },
+    {
+      "held_out": "CALB_45_B253.pkl",
+      "model": "ridge",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 265.21721238409737
+    },
+    {
+      "held_out": "CALB_45_B253.pkl",
+      "model": "ridge",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 227.97653831902363
+    },
+    {
+      "held_out": "CALB_45_B253.pkl",
+      "model": "ridge",
+      "horizon_cycles": 100,
+      "n": 91,
+      "mae": 210.73271213567452
+    },
+    {
+      "held_out": "CALB_45_B253.pkl",
+      "model": "rf",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 11.74333333333334
+    },
+    {
+      "held_out": "CALB_45_B253.pkl",
+      "model": "rf",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 11.626898989899018
+    },
+    {
+      "held_out": "CALB_45_B253.pkl",
+      "model": "rf",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 11.133558265582659
+    },
+    {
+      "held_out": "CALB_45_B253.pkl",
+      "model": "rf",
+      "horizon_cycles": 100,
+      "n": 91,
+      "mae": 10.511346764346758
+    },
+    {
+      "held_out": "CALB_45_B255.pkl",
+      "model": "ridge",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 344.74719317644644
+    },
+    {
+      "held_out": "CALB_45_B255.pkl",
+      "model": "ridge",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 204.20864749194095
+    },
+    {
+      "held_out": "CALB_45_B255.pkl",
+      "model": "ridge",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 163.7889527807196
+    },
+    {
+      "held_out": "CALB_45_B255.pkl",
+      "model": "ridge",
+      "horizon_cycles": 100,
+      "n": 91,
+      "mae": 140.13013040494354
+    },
+    {
+      "held_out": "CALB_45_B255.pkl",
+      "model": "rf",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 11.896666666666647
+    },
+    {
+      "held_out": "CALB_45_B255.pkl",
+      "model": "rf",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 11.945151515151492
+    },
+    {
+      "held_out": "CALB_45_B255.pkl",
+      "model": "rf",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 11.87747967479672
+    },
+    {
+      "held_out": "CALB_45_B255.pkl",
+      "model": "rf",
+      "horizon_cycles": 100,
+      "n": 91,
+      "mae": 11.82567765567763
+    },
+    {
+      "held_out": "CALB_45_B256.pkl",
+      "model": "ridge",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 236.4436512442578
+    },
+    {
+      "held_out": "CALB_45_B256.pkl",
+      "model": "ridge",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 194.20787346399928
+    },
+    {
+      "held_out": "CALB_45_B256.pkl",
+      "model": "ridge",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 151.8385855165748
+    },
+    {
+      "held_out": "CALB_45_B256.pkl",
+      "model": "ridge",
+      "horizon_cycles": 100,
+      "n": 90,
+      "mae": 124.35627790776991
+    },
+    {
+      "held_out": "CALB_45_B256.pkl",
+      "model": "rf",
+      "horizon_cycles": 10,
+      "n": 1,
+      "mae": 5.352476190476068
+    },
+    {
+      "held_out": "CALB_45_B256.pkl",
+      "model": "rf",
+      "horizon_cycles": 20,
+      "n": 11,
+      "mae": 5.8549177489177175
+    },
+    {
+      "held_out": "CALB_45_B256.pkl",
+      "model": "rf",
+      "horizon_cycles": 50,
+      "n": 41,
+      "mae": 5.953026713124265
+    },
+    {
+      "held_out": "CALB_45_B256.pkl",
+      "model": "rf",
+      "horizon_cycles": 100,
+      "n": 90,
+      "mae": 5.976119576719572
+    }
+  ],
+  "ridge_mean_mae": 103.74019539662919,
+  "ridge_worst_mae": 410.93266146502395,
+  "ridge_mean_p95_abs_error": 136.78114652166073,
+  "ridge_h10_mean_mae": 158.536410226511,
+  "ridge_h20_mean_mae": 90.25297094433763,
+  "ridge_h50_mean_mae": 92.63559410778161,
+  "ridge_h100_mean_mae": 97.43755506928157,
+  "rf_mean_mae": 54.07265746912659,
+  "rf_worst_mae": 295.638012345679,
+  "rf_mean_p95_abs_error": 83.39298882074715,
+  "rf_h10_mean_mae": 46.28806020077314,
+  "rf_h20_mean_mae": 46.69544745717557,
+  "rf_h50_mean_mae": 48.556150684806504,
+  "rf_h100_mean_mae": 54.05065560890598
+}

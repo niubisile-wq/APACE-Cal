@@ -1,0 +1,869 @@
+{
+  "protocol": "Jaccard over 100 same-protocol episode support sets",
+  "summary": {
+    "CALB_h10_k1": {
+      "random": {
+        "mean_jaccard": 0.035555555555555556,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.035555555555555556,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      }
+    },
+    "CALB_h10_k3": {
+      "random": {
+        "mean_jaccard": 0.07086868686868687,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.4290909090909091,
+        "median_jaccard": 0.5,
+        "n_pairs": 4950
+      }
+    },
+    "CALB_h10_k5": {
+      "random": {
+        "mean_jaccard": 0.10977152477152478,
+        "median_jaccard": 0.1111111111111111,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.3656926406926407,
+        "median_jaccard": 0.25,
+        "n_pairs": 4950
+      }
+    },
+    "CALB_h10_k10": {
+      "random": {
+        "mean_jaccard": 0.23490186761600587,
+        "median_jaccard": 0.25,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.3790932709283399,
+        "median_jaccard": 0.3333333333333333,
+        "n_pairs": 4950
+      }
+    },
+    "CALCE_h10_k1": {
+      "random": {
+        "mean_jaccard": 0.08383838383838384,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.08383838383838384,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      }
+    },
+    "CALCE_h10_k3": {
+      "random": {
+        "mean_jaccard": 0.15214141414141413,
+        "median_jaccard": 0.2,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.15214141414141413,
+        "median_jaccard": 0.2,
+        "n_pairs": 4950
+      }
+    },
+    "CALCE_h10_k5": {
+      "random": {
+        "mean_jaccard": 0.25629068462401794,
+        "median_jaccard": 0.25,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.25629068462401794,
+        "median_jaccard": 0.25,
+        "n_pairs": 4950
+      }
+    },
+    "CALCE_h10_k10": {
+      "random": {
+        "mean_jaccard": 0.6297836170563444,
+        "median_jaccard": 0.6666666666666666,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.6297836170563444,
+        "median_jaccard": 0.6666666666666666,
+        "n_pairs": 4950
+      }
+    },
+    "HNEI_h10_k1": {
+      "random": {
+        "mean_jaccard": 0.06585858585858585,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.06585858585858585,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      }
+    },
+    "HNEI_h10_k3": {
+      "random": {
+        "mean_jaccard": 0.14232323232323232,
+        "median_jaccard": 0.2,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.14232323232323232,
+        "median_jaccard": 0.2,
+        "n_pairs": 4950
+      }
+    },
+    "HNEI_h10_k5": {
+      "random": {
+        "mean_jaccard": 0.2309299342632676,
+        "median_jaccard": 0.25,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.2309299342632676,
+        "median_jaccard": 0.25,
+        "n_pairs": 4950
+      }
+    },
+    "HNEI_h10_k10": {
+      "random": {
+        "mean_jaccard": 0.5619417619417619,
+        "median_jaccard": 0.5384615384615384,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.5619417619417619,
+        "median_jaccard": 0.5384615384615384,
+        "n_pairs": 4950
+      }
+    },
+    "MICH_h10_k1": {
+      "random": {
+        "mean_jaccard": 0.02585858585858586,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.02585858585858586,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      }
+    },
+    "MICH_h10_k3": {
+      "random": {
+        "mean_jaccard": 0.04723232323232324,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.04723232323232324,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      }
+    },
+    "MICH_h10_k5": {
+      "random": {
+        "mean_jaccard": 0.07374619207952542,
+        "median_jaccard": 0.1111111111111111,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.07374619207952542,
+        "median_jaccard": 0.1111111111111111,
+        "n_pairs": 4950
+      }
+    },
+    "MICH_h10_k10": {
+      "random": {
+        "mean_jaccard": 0.1474731242842698,
+        "median_jaccard": 0.1111111111111111,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.1474731242842698,
+        "median_jaccard": 0.1111111111111111,
+        "n_pairs": 4950
+      }
+    },
+    "MICH_EXP_h10_k1": {
+      "random": {
+        "mean_jaccard": 0.10484848484848484,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.10484848484848484,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      }
+    },
+    "MICH_EXP_h10_k3": {
+      "random": {
+        "mean_jaccard": 0.22484848484848485,
+        "median_jaccard": 0.2,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.5133131313131313,
+        "median_jaccard": 0.5,
+        "n_pairs": 4950
+      }
+    },
+    "MICH_EXP_h10_k5": {
+      "random": {
+        "mean_jaccard": 0.40219576719576716,
+        "median_jaccard": 0.42857142857142855,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.40219576719576716,
+        "median_jaccard": 0.42857142857142855,
+        "n_pairs": 4950
+      }
+    },
+    "MICH_EXP_h10_k10": {
+      "random": {
+        "mean_jaccard": 0.6457295173961839,
+        "median_jaccard": 0.5555555555555556,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.6457295173961839,
+        "median_jaccard": 0.5555555555555556,
+        "n_pairs": 4950
+      }
+    },
+    "SNL_h10_k1": {
+      "random": {
+        "mean_jaccard": 0.01818181818181818,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.01818181818181818,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      }
+    },
+    "SNL_h10_k3": {
+      "random": {
+        "mean_jaccard": 0.03785858585858586,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.44371717171717173,
+        "median_jaccard": 0.5,
+        "n_pairs": 4950
+      }
+    },
+    "SNL_h10_k5": {
+      "random": {
+        "mean_jaccard": 0.0550986050986051,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.0550986050986051,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      }
+    },
+    "SNL_h10_k10": {
+      "random": {
+        "mean_jaccard": 0.11055097637140981,
+        "median_jaccard": 0.1111111111111111,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.11055097637140981,
+        "median_jaccard": 0.1111111111111111,
+        "n_pairs": 4950
+      }
+    },
+    "CALB_h20_k1": {
+      "random": {
+        "mean_jaccard": 0.03535353535353535,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.03535353535353535,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      }
+    },
+    "CALB_h20_k3": {
+      "random": {
+        "mean_jaccard": 0.07135353535353536,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.4601414141414142,
+        "median_jaccard": 0.5,
+        "n_pairs": 4950
+      }
+    },
+    "CALB_h20_k5": {
+      "random": {
+        "mean_jaccard": 0.11228555395222062,
+        "median_jaccard": 0.1111111111111111,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.3868229918229918,
+        "median_jaccard": 0.42857142857142855,
+        "n_pairs": 4950
+      }
+    },
+    "CALB_h20_k10": {
+      "random": {
+        "mean_jaccard": 0.23524545457981993,
+        "median_jaccard": 0.25,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.39634228440213987,
+        "median_jaccard": 0.42857142857142855,
+        "n_pairs": 4950
+      }
+    },
+    "CALCE_h20_k1": {
+      "random": {
+        "mean_jaccard": 0.08303030303030302,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.08303030303030302,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      }
+    },
+    "CALCE_h20_k3": {
+      "random": {
+        "mean_jaccard": 0.1479191919191919,
+        "median_jaccard": 0.2,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.1479191919191919,
+        "median_jaccard": 0.2,
+        "n_pairs": 4950
+      }
+    },
+    "CALCE_h20_k5": {
+      "random": {
+        "mean_jaccard": 0.2532227032227032,
+        "median_jaccard": 0.25,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.2532227032227032,
+        "median_jaccard": 0.25,
+        "n_pairs": 4950
+      }
+    },
+    "CALCE_h20_k10": {
+      "random": {
+        "mean_jaccard": 0.6314346259800805,
+        "median_jaccard": 0.6666666666666666,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.6314346259800805,
+        "median_jaccard": 0.6666666666666666,
+        "n_pairs": 4950
+      }
+    },
+    "HNEI_h20_k1": {
+      "random": {
+        "mean_jaccard": 0.0698989898989899,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.0698989898989899,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      }
+    },
+    "HNEI_h20_k3": {
+      "random": {
+        "mean_jaccard": 0.13743434343434344,
+        "median_jaccard": 0.2,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.13743434343434344,
+        "median_jaccard": 0.2,
+        "n_pairs": 4950
+      }
+    },
+    "HNEI_h20_k5": {
+      "random": {
+        "mean_jaccard": 0.23412297578964245,
+        "median_jaccard": 0.25,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.23412297578964245,
+        "median_jaccard": 0.25,
+        "n_pairs": 4950
+      }
+    },
+    "HNEI_h20_k10": {
+      "random": {
+        "mean_jaccard": 0.5608269171905534,
+        "median_jaccard": 0.5384615384615384,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.5608269171905534,
+        "median_jaccard": 0.5384615384615384,
+        "n_pairs": 4950
+      }
+    },
+    "MICH_h20_k1": {
+      "random": {
+        "mean_jaccard": 0.02666666666666667,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.02666666666666667,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      }
+    },
+    "MICH_h20_k3": {
+      "random": {
+        "mean_jaccard": 0.04480808080808081,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.04480808080808081,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      }
+    },
+    "MICH_h20_k5": {
+      "random": {
+        "mean_jaccard": 0.0729637646304313,
+        "median_jaccard": 0.1111111111111111,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.0729637646304313,
+        "median_jaccard": 0.1111111111111111,
+        "n_pairs": 4950
+      }
+    },
+    "MICH_h20_k10": {
+      "random": {
+        "mean_jaccard": 0.14802254810510745,
+        "median_jaccard": 0.1111111111111111,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.14802254810510745,
+        "median_jaccard": 0.1111111111111111,
+        "n_pairs": 4950
+      }
+    },
+    "MICH_EXP_h20_k1": {
+      "random": {
+        "mean_jaccard": 0.10585858585858586,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.10585858585858586,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      }
+    },
+    "MICH_EXP_h20_k3": {
+      "random": {
+        "mean_jaccard": 0.22272727272727272,
+        "median_jaccard": 0.2,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.4377171717171718,
+        "median_jaccard": 0.2,
+        "n_pairs": 4950
+      }
+    },
+    "MICH_EXP_h20_k5": {
+      "random": {
+        "mean_jaccard": 0.40325557158890485,
+        "median_jaccard": 0.42857142857142855,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.40325557158890485,
+        "median_jaccard": 0.42857142857142855,
+        "n_pairs": 4950
+      }
+    },
+    "MICH_EXP_h20_k10": {
+      "random": {
+        "mean_jaccard": 0.6428843995510661,
+        "median_jaccard": 0.5555555555555556,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.6428843995510661,
+        "median_jaccard": 0.5555555555555556,
+        "n_pairs": 4950
+      }
+    },
+    "SNL_h20_k1": {
+      "random": {
+        "mean_jaccard": 0.018585858585858588,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.018585858585858588,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      }
+    },
+    "SNL_h20_k3": {
+      "random": {
+        "mean_jaccard": 0.03553535353535354,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.46357575757575764,
+        "median_jaccard": 0.5,
+        "n_pairs": 4950
+      }
+    },
+    "SNL_h20_k5": {
+      "random": {
+        "mean_jaccard": 0.056567259900593234,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.056567259900593234,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      }
+    },
+    "SNL_h20_k10": {
+      "random": {
+        "mean_jaccard": 0.11049528215162892,
+        "median_jaccard": 0.1111111111111111,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.11049528215162892,
+        "median_jaccard": 0.1111111111111111,
+        "n_pairs": 4950
+      }
+    },
+    "CALB_h50_k1": {
+      "random": {
+        "mean_jaccard": 0.036565656565656565,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.036565656565656565,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      }
+    },
+    "CALB_h50_k3": {
+      "random": {
+        "mean_jaccard": 0.07088888888888889,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.39636363636363636,
+        "median_jaccard": 0.5,
+        "n_pairs": 4950
+      }
+    },
+    "CALB_h50_k5": {
+      "random": {
+        "mean_jaccard": 0.10736411736411737,
+        "median_jaccard": 0.1111111111111111,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.3698388648388648,
+        "median_jaccard": 0.42857142857142855,
+        "n_pairs": 4950
+      }
+    },
+    "CALB_h50_k10": {
+      "random": {
+        "mean_jaccard": 0.2322336053657003,
+        "median_jaccard": 0.25,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.41094253454793844,
+        "median_jaccard": 0.42857142857142855,
+        "n_pairs": 4950
+      }
+    },
+    "CALCE_h50_k1": {
+      "random": {
+        "mean_jaccard": 0.07636363636363637,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.07636363636363637,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      }
+    },
+    "CALCE_h50_k3": {
+      "random": {
+        "mean_jaccard": 0.14931313131313131,
+        "median_jaccard": 0.2,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.14931313131313131,
+        "median_jaccard": 0.2,
+        "n_pairs": 4950
+      }
+    },
+    "CALCE_h50_k5": {
+      "random": {
+        "mean_jaccard": 0.2545911495911496,
+        "median_jaccard": 0.25,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.2545911495911496,
+        "median_jaccard": 0.25,
+        "n_pairs": 4950
+      }
+    },
+    "CALCE_h50_k10": {
+      "random": {
+        "mean_jaccard": 0.6307310870947235,
+        "median_jaccard": 0.6666666666666666,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.6307310870947235,
+        "median_jaccard": 0.6666666666666666,
+        "n_pairs": 4950
+      }
+    },
+    "HNEI_h50_k1": {
+      "random": {
+        "mean_jaccard": 0.07414141414141415,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.07414141414141415,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      }
+    },
+    "HNEI_h50_k3": {
+      "random": {
+        "mean_jaccard": 0.13557575757575757,
+        "median_jaccard": 0.2,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.13557575757575757,
+        "median_jaccard": 0.2,
+        "n_pairs": 4950
+      }
+    },
+    "HNEI_h50_k5": {
+      "random": {
+        "mean_jaccard": 0.23389049222382555,
+        "median_jaccard": 0.25,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.23389049222382555,
+        "median_jaccard": 0.25,
+        "n_pairs": 4950
+      }
+    },
+    "HNEI_h50_k10": {
+      "random": {
+        "mean_jaccard": 0.5613767377403741,
+        "median_jaccard": 0.5384615384615384,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.5613767377403741,
+        "median_jaccard": 0.5384615384615384,
+        "n_pairs": 4950
+      }
+    },
+    "MICH_h50_k1": {
+      "random": {
+        "mean_jaccard": 0.02585858585858586,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.02585858585858586,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      }
+    },
+    "MICH_h50_k3": {
+      "random": {
+        "mean_jaccard": 0.04454545454545455,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.04454545454545455,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      }
+    },
+    "MICH_h50_k5": {
+      "random": {
+        "mean_jaccard": 0.07425044091710759,
+        "median_jaccard": 0.1111111111111111,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.07425044091710759,
+        "median_jaccard": 0.1111111111111111,
+        "n_pairs": 4950
+      }
+    },
+    "MICH_h50_k10": {
+      "random": {
+        "mean_jaccard": 0.1500250914853598,
+        "median_jaccard": 0.1111111111111111,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.1500250914853598,
+        "median_jaccard": 0.1111111111111111,
+        "n_pairs": 4950
+      }
+    },
+    "MICH_EXP_h50_k1": {
+      "random": {
+        "mean_jaccard": 0.10787878787878788,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.10787878787878788,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      }
+    },
+    "MICH_EXP_h50_k3": {
+      "random": {
+        "mean_jaccard": 0.22432323232323234,
+        "median_jaccard": 0.2,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.5257979797979797,
+        "median_jaccard": 0.5,
+        "n_pairs": 4950
+      }
+    },
+    "MICH_EXP_h50_k5": {
+      "random": {
+        "mean_jaccard": 0.4018382235048901,
+        "median_jaccard": 0.42857142857142855,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.4018382235048901,
+        "median_jaccard": 0.42857142857142855,
+        "n_pairs": 4950
+      }
+    },
+    "MICH_EXP_h50_k10": {
+      "random": {
+        "mean_jaccard": 0.6430695847362514,
+        "median_jaccard": 0.5555555555555556,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.6430695847362514,
+        "median_jaccard": 0.5555555555555556,
+        "n_pairs": 4950
+      }
+    },
+    "SNL_h50_k1": {
+      "random": {
+        "mean_jaccard": 0.022626262626262626,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.022626262626262626,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      }
+    },
+    "SNL_h50_k3": {
+      "random": {
+        "mean_jaccard": 0.035393939393939394,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.49636363636363634,
+        "median_jaccard": 0.5,
+        "n_pairs": 4950
+      }
+    },
+    "SNL_h50_k5": {
+      "random": {
+        "mean_jaccard": 0.055229276895943556,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.055229276895943556,
+        "median_jaccard": 0.0,
+        "n_pairs": 4950
+      }
+    },
+    "SNL_h50_k10": {
+      "random": {
+        "mean_jaccard": 0.11103399218982295,
+        "median_jaccard": 0.1111111111111111,
+        "n_pairs": 4950
+      },
+      "apace": {
+        "mean_jaccard": 0.11103399218982295,
+        "median_jaccard": 0.1111111111111111,
+        "n_pairs": 4950
+      }
+    }
+  }
+}

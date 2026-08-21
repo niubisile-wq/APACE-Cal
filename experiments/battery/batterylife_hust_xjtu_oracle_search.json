@@ -1,0 +1,102 @@
+{
+  "phase": "TEST_AWARE_ORACLE_SEARCH",
+  "warning": "Uses held-out test labels and random search; upper-bound diagnostic only.",
+  "rows": [
+    {
+      "horizon": 10,
+      "label_budget_k": 1,
+      "baseline_mape": 139.11021710594488,
+      "oracle_search_mape": 69.41705599714811,
+      "relative_reduction_percent": 50.09923969547053,
+      "search_candidates_per_episode": 500
+    },
+    {
+      "horizon": 10,
+      "label_budget_k": 3,
+      "baseline_mape": 113.58722340140065,
+      "oracle_search_mape": 15.921655412903085,
+      "relative_reduction_percent": 85.98288175718648,
+      "search_candidates_per_episode": 500
+    },
+    {
+      "horizon": 10,
+      "label_budget_k": 5,
+      "baseline_mape": 73.60455467785793,
+      "oracle_search_mape": 14.671665317056473,
+      "relative_reduction_percent": 80.06690566736073,
+      "search_candidates_per_episode": 500
+    },
+    {
+      "horizon": 10,
+      "label_budget_k": 10,
+      "baseline_mape": 35.171957052883634,
+      "oracle_search_mape": 13.42460738835104,
+      "relative_reduction_percent": 61.83150295513511,
+      "search_candidates_per_episode": 500
+    },
+    {
+      "horizon": 20,
+      "label_budget_k": 1,
+      "baseline_mape": 139.8837443674752,
+      "oracle_search_mape": 70.35472289501493,
+      "relative_reduction_percent": 49.704861552609884,
+      "search_candidates_per_episode": 500
+    },
+    {
+      "horizon": 20,
+      "label_budget_k": 3,
+      "baseline_mape": 93.74232230722954,
+      "oracle_search_mape": 15.797594388254156,
+      "relative_reduction_percent": 83.14785253934782,
+      "search_candidates_per_episode": 500
+    },
+    {
+      "horizon": 20,
+      "label_budget_k": 5,
+      "baseline_mape": 75.71974152667299,
+      "oracle_search_mape": 14.390300912429336,
+      "relative_reduction_percent": 80.99531162905485,
+      "search_candidates_per_episode": 500
+    },
+    {
+      "horizon": 20,
+      "label_budget_k": 10,
+      "baseline_mape": 28.37479337867777,
+      "oracle_search_mape": 13.225507582182876,
+      "relative_reduction_percent": 53.38994224317002,
+      "search_candidates_per_episode": 500
+    },
+    {
+      "horizon": 50,
+      "label_budget_k": 1,
+      "baseline_mape": 146.87095774693685,
+      "oracle_search_mape": 69.88244305297786,
+      "relative_reduction_percent": 52.41915479751453,
+      "search_candidates_per_episode": 500
+    },
+    {
+      "horizon": 50,
+      "label_budget_k": 3,
+      "baseline_mape": 85.25183975549434,
+      "oracle_search_mape": 16.181804937125104,
+      "relative_reduction_percent": 81.01882025826637,
+      "search_candidates_per_episode": 500
+    },
+    {
+      "horizon": 50,
+      "label_budget_k": 5,
+      "baseline_mape": 84.12272930677379,
+      "oracle_search_mape": 14.679468333824325,
+      "relative_reduction_percent": 82.54993810258806,
+      "search_candidates_per_episode": 500
+    },
+    {
+      "horizon": 50,
+      "label_budget_k": 10,
+      "baseline_mape": 30.200827888271345,
+      "oracle_search_mape": 13.901390406848344,
+      "relative_reduction_percent": 53.97016777726472,
+      "search_candidates_per_episode": 500
+    }
+  ]
+}

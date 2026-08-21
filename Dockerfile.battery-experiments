@@ -1,0 +1,8 @@
+FROM python:3.12-slim
+WORKDIR /workspace
+COPY requirements-battery-experiments.lock /workspace/
+RUN pip install --no-cache-dir -r requirements-battery-experiments.lock
+COPY experiments/battery /workspace/experiments/battery
+COPY METHOD_FREEZE_V2.md CONFIRMATION_FREEZE_SNU.md /workspace/
+ENV PYTHONPATH=/workspace/experiments/battery
+CMD ["python", "experiments/battery/verify_experiment_execution_artifacts.py"]

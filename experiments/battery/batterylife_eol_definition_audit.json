@@ -1,0 +1,65 @@
+{
+  "conclusion": "No common alternate EOL threshold is reconstructed: the released labels are opaque domain-specific life annotations, and a threshold would require an independently frozen capacity/EOL rule per dataset.",
+  "rows": [
+    {
+      "dataset": "CALB",
+      "n_labels": 27,
+      "n_cycle_files": 27,
+      "cycle_length_min": 99,
+      "cycle_length_max": 208,
+      "label_minus_file_length_min": -85.0,
+      "label_minus_file_length_max": 1312.0,
+      "cycles_without_finite_discharge_capacity": 0
+    },
+    {
+      "dataset": "HNEI",
+      "n_labels": 14,
+      "n_cycle_files": 14,
+      "cycle_length_min": 1075,
+      "cycle_length_max": 1107,
+      "label_minus_file_length_min": -862.0,
+      "label_minus_file_length_max": -814.0,
+      "cycles_without_finite_discharge_capacity": 0
+    },
+    {
+      "dataset": "MICH_EXP",
+      "n_labels": 12,
+      "n_cycle_files": 12,
+      "cycle_length_min": 103,
+      "cycle_length_max": 573,
+      "label_minus_file_length_min": -572.0,
+      "label_minus_file_length_max": 4.0,
+      "cycles_without_finite_discharge_capacity": 0
+    },
+    {
+      "dataset": "CALCE",
+      "n_labels": 13,
+      "n_cycle_files": 13,
+      "cycle_length_min": 632,
+      "cycle_length_max": 1579,
+      "label_minus_file_length_min": -1049.0,
+      "label_minus_file_length_max": -184.0,
+      "cycles_without_finite_discharge_capacity": 0
+    },
+    {
+      "dataset": "MICH",
+      "n_labels": 40,
+      "n_cycle_files": 40,
+      "cycle_length_min": 426,
+      "cycle_length_max": 589,
+      "label_minus_file_length_min": -383.0,
+      "label_minus_file_length_max": -95.0,
+      "cycles_without_finite_discharge_capacity": 0
+    },
+    {
+      "dataset": "SNL",
+      "n_labels": 52,
+      "n_cycle_files": 52,
+      "cycle_length_min": 389,
+      "cycle_length_max": 4569,
+      "label_minus_file_length_min": -1372.0,
+      "label_minus_file_length_max": -14.0,
+      "cycles_without_finite_discharge_capacity": 0
+    }
+  ]
+}

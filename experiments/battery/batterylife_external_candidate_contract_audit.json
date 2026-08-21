@@ -1,0 +1,79 @@
+{
+  "protocol": "candidate screening before any new label opening; no label values read or changed",
+  "source_hashes": {
+    "batterylife_ulpur_prelabel_manifest.json": "2dce2894a74171846eefcdc315a2fe6283859aa26bbcad9e8847f8222586d054",
+    "batterylife_sdu_prelabel_manifest.json": "deee0f975db8f32142e9d08eb8efc44dce9914a1fd21a6494ff942cb0f27f08e",
+    "batterylife_sdu_membership_corrected_prelabel_manifest.json": "2d28f271a400f8460a57182e162c4dbbf4c64818781a47cb6764281a9e90ba6e",
+    "snu_dynamic_dataset2_dryrun_prelabel.json": "84b3673d844ea4357ff1f7e6660e4d90ed31b4cf090c6c34cfceec67a913330a",
+    "batterylife_external_rwth_frozen_adaptive.json": "65c301b9fdb01428d2a1ac4a4f35a6c6b3b9420e2a23e9f03625e08d6a7febd0",
+    "batterylife_luh_blank_external_audit.json": "8dee9a2ee8d9a8f341e338d44f67b77c3afc173fce2ea58d5bd756cbca7fc3e3"
+  },
+  "candidates": [
+    {
+      "manifest": "batterylife_ulpur_prelabel_manifest.json",
+      "dataset": "UL-PUR",
+      "phase": "PRELABEL_FROZEN_MANIFEST",
+      "label_membership_count": null,
+      "routes": {
+        "fallback_medium_protocol_dispersion": 1200
+      },
+      "prelabel_active_route": false,
+      "contract_valid": true,
+      "decision": "not eligible for active confirmation: no active route"
+    },
+    {
+      "manifest": "batterylife_sdu_prelabel_manifest.json",
+      "dataset": "SDU",
+      "phase": "PRELABEL_FROZEN_MANIFEST",
+      "label_membership_count": null,
+      "routes": {
+        "fallback_one_label_low_protocol_dispersion": 300,
+        "active_w2": 900
+      },
+      "prelabel_active_route": true,
+      "contract_valid": false,
+      "decision": "not eligible: superseded by corrected label-membership manifest"
+    },
+    {
+      "manifest": "batterylife_sdu_membership_corrected_prelabel_manifest.json",
+      "dataset": "SDU",
+      "phase": "PRELABEL_FROZEN_MANIFEST",
+      "label_membership_count": 70,
+      "routes": {
+        "fallback_medium_protocol_dispersion": 1200
+      },
+      "prelabel_active_route": false,
+      "contract_valid": true,
+      "decision": "not eligible for active confirmation: no active route"
+    },
+    {
+      "manifest": "snu_dynamic_dataset2_dryrun_prelabel.json",
+      "dataset": 2,
+      "phase": "SNU_DYNAMIC_PRELABEL_FROZEN",
+      "label_membership_count": null,
+      "routes": {
+        "fallback_medium_protocol_dispersion": 1200
+      },
+      "prelabel_active_route": false,
+      "contract_valid": true,
+      "decision": "not eligible for active confirmation: no active route"
+    },
+    {
+      "manifest": "batterylife_external_rwth_frozen_adaptive.json",
+      "dataset": "RWTH",
+      "phase": "legacy_external_result",
+      "prelabel_active_route": null,
+      "contract_valid": false,
+      "decision": "excluded: legacy adaptive result is not frozen APACE-Cal v2 blind chain"
+    },
+    {
+      "manifest": "batterylife_luh_blank_external_audit.json",
+      "dataset": "Luh-Blank",
+      "phase": "technical_audit",
+      "prelabel_active_route": null,
+      "contract_valid": false,
+      "decision": "excluded: no first-50-cycle curve and no common cell-level EOL label"
+    }
+  ],
+  "eligible_new_strict_active_candidates": []
+}

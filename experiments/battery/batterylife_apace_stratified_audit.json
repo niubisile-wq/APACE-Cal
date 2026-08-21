@@ -1,0 +1,1031 @@
+{
+  "protocol": "descriptive stratification of frozen H50/K3 cell-level audit; no post-hoc method tuning",
+  "groups": {
+    "CALB::CALB_0_B182.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 75.04830083262861,
+      "median_relative_reduction_percent": 75.04830083262861,
+      "positive_fraction": 1.0
+    },
+    "CALB::CALB_0_B183.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 93.72068002692866,
+      "median_relative_reduction_percent": 93.72068002692866,
+      "positive_fraction": 1.0
+    },
+    "CALB::CALB_0_B184.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 90.29084096497029,
+      "median_relative_reduction_percent": 90.29084096497029,
+      "positive_fraction": 1.0
+    },
+    "CALB::CALB_0_B185.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 94.82361166567932,
+      "median_relative_reduction_percent": 94.82361166567932,
+      "positive_fraction": 1.0
+    },
+    "CALB::CALB_0_B187.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 91.26404628497913,
+      "median_relative_reduction_percent": 91.26404628497913,
+      "positive_fraction": 1.0
+    },
+    "CALB::CALB_0_B188.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 90.04069195737392,
+      "median_relative_reduction_percent": 90.04069195737392,
+      "positive_fraction": 1.0
+    },
+    "CALB::CALB_0_B189.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 95.34776475519442,
+      "median_relative_reduction_percent": 95.34776475519442,
+      "positive_fraction": 1.0
+    },
+    "CALB::CALB_0_B190.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 93.4245528929527,
+      "median_relative_reduction_percent": 93.4245528929527,
+      "positive_fraction": 1.0
+    },
+    "CALB::CALB_25_T25-1.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": -15.663881378602529,
+      "median_relative_reduction_percent": -15.663881378602529,
+      "positive_fraction": 0.0
+    },
+    "CALB::CALB_25_T25-2.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 8.750280676508122,
+      "median_relative_reduction_percent": 8.750280676508122,
+      "positive_fraction": 1.0
+    },
+    "CALB::CALB_35_B173.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 93.8204141336516,
+      "median_relative_reduction_percent": 93.8204141336516,
+      "positive_fraction": 1.0
+    },
+    "CALB::CALB_35_B174.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 58.951076862495604,
+      "median_relative_reduction_percent": 58.951076862495604,
+      "positive_fraction": 1.0
+    },
+    "CALB::CALB_35_B175.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 56.53387818703339,
+      "median_relative_reduction_percent": 56.53387818703339,
+      "positive_fraction": 1.0
+    },
+    "CALB::CALB_35_B222.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 86.05049644534968,
+      "median_relative_reduction_percent": 86.05049644534968,
+      "positive_fraction": 1.0
+    },
+    "CALB::CALB_35_B223.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 69.82817365927943,
+      "median_relative_reduction_percent": 69.82817365927943,
+      "positive_fraction": 1.0
+    },
+    "CALB::CALB_35_B224.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 65.54297085426724,
+      "median_relative_reduction_percent": 65.54297085426724,
+      "positive_fraction": 1.0
+    },
+    "CALB::CALB_35_B227.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 90.95874144206738,
+      "median_relative_reduction_percent": 90.95874144206738,
+      "positive_fraction": 1.0
+    },
+    "CALB::CALB_35_B228.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 87.42327038677774,
+      "median_relative_reduction_percent": 87.42327038677774,
+      "positive_fraction": 1.0
+    },
+    "CALB::CALB_35_B229.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 77.00527543518896,
+      "median_relative_reduction_percent": 77.00527543518896,
+      "positive_fraction": 1.0
+    },
+    "CALB::CALB_35_B230.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 82.78938051660718,
+      "median_relative_reduction_percent": 82.78938051660718,
+      "positive_fraction": 1.0
+    },
+    "CALB::CALB_35_B247.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": -72.01954397394131,
+      "median_relative_reduction_percent": -72.01954397394131,
+      "positive_fraction": 0.0
+    },
+    "CALB::CALB_35_B248.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 66.64274422526883,
+      "median_relative_reduction_percent": 66.64274422526883,
+      "positive_fraction": 1.0
+    },
+    "CALB::CALB_35_B249.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 75.21455934456078,
+      "median_relative_reduction_percent": 75.21455934456078,
+      "positive_fraction": 1.0
+    },
+    "CALB::CALB_35_B250.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 75.33322988386581,
+      "median_relative_reduction_percent": 75.33322988386581,
+      "positive_fraction": 1.0
+    },
+    "CALB::CALB_45_B253.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": -0.13345185169144874,
+      "median_relative_reduction_percent": -0.13345185169144874,
+      "positive_fraction": 0.0
+    },
+    "CALB::CALB_45_B255.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 17.9307252089187,
+      "median_relative_reduction_percent": 17.9307252089187,
+      "positive_fraction": 1.0
+    },
+    "CALB::CALB_45_B256.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 10.905890589430994,
+      "median_relative_reduction_percent": 10.905890589430994,
+      "positive_fraction": 1.0
+    },
+    "CALCE::CALCE_CS2_33.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "CALCE::CALCE_CS2_34.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "CALCE::CALCE_CS2_35.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "CALCE::CALCE_CS2_36.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "CALCE::CALCE_CS2_37.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "CALCE::CALCE_CS2_38.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "CALCE::CALCE_CX2_16.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "CALCE::CALCE_CX2_33.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "CALCE::CALCE_CX2_34.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "CALCE::CALCE_CX2_35.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "CALCE::CALCE_CX2_36.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "CALCE::CALCE_CX2_37.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "CALCE::CALCE_CX2_38.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "HNEI::HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_a.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "HNEI::HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_b.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "HNEI::HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_c.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "HNEI::HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_d.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "HNEI::HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_e.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "HNEI::HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_f.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "HNEI::HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_g.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "HNEI::HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_j.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "HNEI::HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_l.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "HNEI::HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_n.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "HNEI::HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_o.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "HNEI::HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_p.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "HNEI::HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_s.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "HNEI::HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_t.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_BLForm10_pouch_NMC_25C_0-100_1-1C_j.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_BLForm11_pouch_NMC_25C_0-100_1-1C_a.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_BLForm12_pouch_NMC_25C_0-100_1-1C_b.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_BLForm13_pouch_NMC_25C_0-100_1-1C_c.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_BLForm14_pouch_NMC_25C_0-100_1-1C_d.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_BLForm15_pouch_NMC_25C_0-100_1-1C_e.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_BLForm16_pouch_NMC_25C_0-100_1-1C_f.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_BLForm17_pouch_NMC_25C_0-100_1-1C_g.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_BLForm18_pouch_NMC_25C_0-100_1-1C_h.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_BLForm19_pouch_NMC_25C_0-100_1-1C_i.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_BLForm1_pouch_NMC_45C_0-100_1-1C_a.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_BLForm20_pouch_NMC_25C_0-100_1-1C_j.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_BLForm2_pouch_NMC_45C_0-100_1-1C_b.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_BLForm3_pouch_NMC_45C_0-100_1-1C_c.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_BLForm4_pouch_NMC_45C_0-100_1-1C_d.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_BLForm5_pouch_NMC_45C_0-100_1-1C_e.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_BLForm6_pouch_NMC_45C_0-100_1-1C_f.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_BLForm7_pouch_NMC_45C_0-100_1-1C_g.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_BLForm8_pouch_NMC_45C_0-100_1-1C_h.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_BLForm9_pouch_NMC_45C_0-100_1-1C_i.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_MCForm21_pouch_NMC_25C_0-100_1-1C_a.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_MCForm22_pouch_NMC_25C_0-100_1-1C_b.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_MCForm23_pouch_NMC_25C_0-100_1-1C_c.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_MCForm24_pouch_NMC_25C_0-100_1-1C_d.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_MCForm25_pouch_NMC_25C_0-100_1-1C_e.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_MCForm26_pouch_NMC_25C_0-100_1-1C_f.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_MCForm27_pouch_NMC_25C_0-100_1-1C_g.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_MCForm28_pouch_NMC_25C_0-100_1-1C_h.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_MCForm29_pouch_NMC_25C_0-100_1-1C_i.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_MCForm30_pouch_NMC_25C_0-100_1-1C_j.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_MCForm31_pouch_NMC_45C_0-100_1-1C_a.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_MCForm32_pouch_NMC_45C_0-100_1-1C_b.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_MCForm33_pouch_NMC_45C_0-100_1-1C_c.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_MCForm34_pouch_NMC_45C_0-100_1-1C_d.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_MCForm35_pouch_NMC_45C_0-100_1-1C_e.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_MCForm36_pouch_NMC_45C_0-100_1-1C_f.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_MCForm37_pouch_NMC_45C_0-100_1-1C_g.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_MCForm38_pouch_NMC_45C_0-100_1-1C_h.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_MCForm39_pouch_NMC_45C_0-100_1-1C_i.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH::MICH_MCForm40_pouch_NMC_45C_0-100_1-1C_j.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "MICH_EXP::MICH_01R_pouch_NMC_25C_0-100_0.2-0.2C.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": -2.631421833392496,
+      "median_relative_reduction_percent": -2.631421833392496,
+      "positive_fraction": 0.0
+    },
+    "MICH_EXP::MICH_02C_pouch_NMC_-5C_0-100_0.2-0.2C.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 39.02863584313558,
+      "median_relative_reduction_percent": 39.02863584313558,
+      "positive_fraction": 1.0
+    },
+    "MICH_EXP::MICH_03H_pouch_NMC_45C_0-100_0.2-0.2C.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 52.08958575101428,
+      "median_relative_reduction_percent": 52.08958575101428,
+      "positive_fraction": 1.0
+    },
+    "MICH_EXP::MICH_04R_pouch_NMC_25C_0-100_1.5-1.5C.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 89.9710347305279,
+      "median_relative_reduction_percent": 89.9710347305279,
+      "positive_fraction": 1.0
+    },
+    "MICH_EXP::MICH_06H_pouch_NMC_45C_0-100_1.5-1.5C.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 14.291077150683805,
+      "median_relative_reduction_percent": 14.291077150683805,
+      "positive_fraction": 1.0
+    },
+    "MICH_EXP::MICH_07R_pouch_NMC_25C_0-100_2-2C.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": -27.678622159808487,
+      "median_relative_reduction_percent": -27.678622159808487,
+      "positive_fraction": 0.0
+    },
+    "MICH_EXP::MICH_09H_pouch_NMC_45C_0-100_2-2C.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": -106.05413622827545,
+      "median_relative_reduction_percent": -106.05413622827545,
+      "positive_fraction": 0.0
+    },
+    "MICH_EXP::MICH_10R_pouch_NMC_25C_0-100_0.2-1.5C.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": -0.8981827280685142,
+      "median_relative_reduction_percent": -0.8981827280685142,
+      "positive_fraction": 0.0
+    },
+    "MICH_EXP::MICH_12H_pouch_NMC_45C_0-100_0.2-1.5C.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 45.72268849914239,
+      "median_relative_reduction_percent": 45.72268849914239,
+      "positive_fraction": 1.0
+    },
+    "SNL::SNL_18650_LFP_25C_0-100_0.5-3C_a.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": -12.389357696250736,
+      "median_relative_reduction_percent": -12.389357696250736,
+      "positive_fraction": 0.0
+    },
+    "SNL::SNL_18650_LFP_25C_0-100_0.5-3C_b.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": -7.744696699614738,
+      "median_relative_reduction_percent": -7.744696699614738,
+      "positive_fraction": 0.0
+    },
+    "SNL::SNL_18650_LFP_25C_0-100_0.5-3C_c.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.4692561279470117,
+      "median_relative_reduction_percent": 0.4692561279470117,
+      "positive_fraction": 1.0
+    },
+    "SNL::SNL_18650_LFP_25C_0-100_0.5-3C_d.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": -19.72125993529598,
+      "median_relative_reduction_percent": -19.72125993529598,
+      "positive_fraction": 0.0
+    },
+    "SNL::SNL_18650_LFP_35C_0-100_0.5-1C_b.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": -22.24829290013644,
+      "median_relative_reduction_percent": -22.24829290013644,
+      "positive_fraction": 0.0
+    },
+    "SNL::SNL_18650_LFP_35C_0-100_0.5-1C_c.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": -15.035709956997373,
+      "median_relative_reduction_percent": -15.035709956997373,
+      "positive_fraction": 0.0
+    },
+    "SNL::SNL_18650_LFP_35C_0-100_0.5-1C_d.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": -26.977027941875658,
+      "median_relative_reduction_percent": -26.977027941875658,
+      "positive_fraction": 0.0
+    },
+    "SNL::SNL_18650_LFP_35C_0-100_0.5-2C_a.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": -22.84056413664258,
+      "median_relative_reduction_percent": -22.84056413664258,
+      "positive_fraction": 0.0
+    },
+    "SNL::SNL_18650_LFP_35C_0-100_0.5-2C_b.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": -5.39364906756742,
+      "median_relative_reduction_percent": -5.39364906756742,
+      "positive_fraction": 0.0
+    },
+    "SNL::SNL_18650_NCA_15C_0-100_0.5-1C_a.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 26.744695660372884,
+      "median_relative_reduction_percent": 26.744695660372884,
+      "positive_fraction": 1.0
+    },
+    "SNL::SNL_18650_NCA_15C_0-100_0.5-1C_b.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 11.047558719348341,
+      "median_relative_reduction_percent": 11.047558719348341,
+      "positive_fraction": 1.0
+    },
+    "SNL::SNL_18650_NCA_15C_0-100_0.5-2C_a.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 39.671821971037616,
+      "median_relative_reduction_percent": 39.671821971037616,
+      "positive_fraction": 1.0
+    },
+    "SNL::SNL_18650_NCA_15C_0-100_0.5-2C_b.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 52.87714430422631,
+      "median_relative_reduction_percent": 52.87714430422631,
+      "positive_fraction": 1.0
+    },
+    "SNL::SNL_18650_NCA_25C_0-100_0.5-0.5C_a.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 46.323932438894744,
+      "median_relative_reduction_percent": 46.323932438894744,
+      "positive_fraction": 1.0
+    },
+    "SNL::SNL_18650_NCA_25C_0-100_0.5-0.5C_b.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 36.54600731029957,
+      "median_relative_reduction_percent": 36.54600731029957,
+      "positive_fraction": 1.0
+    },
+    "SNL::SNL_18650_NCA_25C_0-100_0.5-1C_a.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 52.31319734908978,
+      "median_relative_reduction_percent": 52.31319734908978,
+      "positive_fraction": 1.0
+    },
+    "SNL::SNL_18650_NCA_25C_0-100_0.5-1C_b.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 12.216504329618612,
+      "median_relative_reduction_percent": 12.216504329618612,
+      "positive_fraction": 1.0
+    },
+    "SNL::SNL_18650_NCA_25C_0-100_0.5-1C_c.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 79.74529226129147,
+      "median_relative_reduction_percent": 79.74529226129147,
+      "positive_fraction": 1.0
+    },
+    "SNL::SNL_18650_NCA_25C_0-100_0.5-1C_d.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 97.76821678329979,
+      "median_relative_reduction_percent": 97.76821678329979,
+      "positive_fraction": 1.0
+    },
+    "SNL::SNL_18650_NCA_25C_0-100_0.5-2C_a.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 46.54720913607897,
+      "median_relative_reduction_percent": 46.54720913607897,
+      "positive_fraction": 1.0
+    },
+    "SNL::SNL_18650_NCA_25C_0-100_0.5-2C_b.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 72.29958649674367,
+      "median_relative_reduction_percent": 72.29958649674367,
+      "positive_fraction": 1.0
+    },
+    "SNL::SNL_18650_NCA_25C_20-80_0.5-0.5C_a.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 58.002313922158606,
+      "median_relative_reduction_percent": 58.002313922158606,
+      "positive_fraction": 1.0
+    },
+    "SNL::SNL_18650_NCA_25C_20-80_0.5-0.5C_b.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 70.75523488351506,
+      "median_relative_reduction_percent": 70.75523488351506,
+      "positive_fraction": 1.0
+    },
+    "SNL::SNL_18650_NCA_25C_20-80_0.5-0.5C_c.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 53.646122524547664,
+      "median_relative_reduction_percent": 53.646122524547664,
+      "positive_fraction": 1.0
+    },
+    "SNL::SNL_18650_NCA_25C_20-80_0.5-0.5C_d.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 72.65928587140284,
+      "median_relative_reduction_percent": 72.65928587140284,
+      "positive_fraction": 1.0
+    },
+    "SNL::SNL_18650_NCA_35C_0-100_0.5-1C_a.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 94.13992669272466,
+      "median_relative_reduction_percent": 94.13992669272466,
+      "positive_fraction": 1.0
+    },
+    "SNL::SNL_18650_NCA_35C_0-100_0.5-1C_b.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 60.85387968832043,
+      "median_relative_reduction_percent": 60.85387968832043,
+      "positive_fraction": 1.0
+    },
+    "SNL::SNL_18650_NCA_35C_0-100_0.5-1C_c.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 80.25344390784606,
+      "median_relative_reduction_percent": 80.25344390784606,
+      "positive_fraction": 1.0
+    },
+    "SNL::SNL_18650_NCA_35C_0-100_0.5-1C_d.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 36.07236268526602,
+      "median_relative_reduction_percent": 36.07236268526602,
+      "positive_fraction": 1.0
+    },
+    "SNL::SNL_18650_NCA_35C_0-100_0.5-2C_a.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 42.42543610712158,
+      "median_relative_reduction_percent": 42.42543610712158,
+      "positive_fraction": 1.0
+    },
+    "SNL::SNL_18650_NCA_35C_0-100_0.5-2C_b.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 34.93121500214522,
+      "median_relative_reduction_percent": 34.93121500214522,
+      "positive_fraction": 1.0
+    },
+    "SNL::SNL_18650_NMC_15C_0-100_0.5-1C_a.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": -10.530668090289613,
+      "median_relative_reduction_percent": -10.530668090289613,
+      "positive_fraction": 0.0
+    },
+    "SNL::SNL_18650_NMC_15C_0-100_0.5-1C_b.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": -2.081456722665441,
+      "median_relative_reduction_percent": -2.081456722665441,
+      "positive_fraction": 0.0
+    },
+    "SNL::SNL_18650_NMC_15C_0-100_0.5-2C_a.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 30.444704061301945,
+      "median_relative_reduction_percent": 30.444704061301945,
+      "positive_fraction": 1.0
+    },
+    "SNL::SNL_18650_NMC_15C_0-100_0.5-2C_b.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": -12.985184339912987,
+      "median_relative_reduction_percent": -12.985184339912987,
+      "positive_fraction": 0.0
+    },
+    "SNL::SNL_18650_NMC_25C_0-100_0.5-0.5C_b.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 49.34826058666303,
+      "median_relative_reduction_percent": 49.34826058666303,
+      "positive_fraction": 1.0
+    },
+    "SNL::SNL_18650_NMC_25C_0-100_0.5-1C_a.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 89.76566079065806,
+      "median_relative_reduction_percent": 89.76566079065806,
+      "positive_fraction": 1.0
+    },
+    "SNL::SNL_18650_NMC_25C_0-100_0.5-1C_b.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 70.91987373883751,
+      "median_relative_reduction_percent": 70.91987373883751,
+      "positive_fraction": 1.0
+    },
+    "SNL::SNL_18650_NMC_25C_0-100_0.5-1C_c.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 54.79060970319893,
+      "median_relative_reduction_percent": 54.79060970319893,
+      "positive_fraction": 1.0
+    },
+    "SNL::SNL_18650_NMC_25C_0-100_0.5-1C_d.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 90.18643746693114,
+      "median_relative_reduction_percent": 90.18643746693114,
+      "positive_fraction": 1.0
+    },
+    "SNL::SNL_18650_NMC_25C_0-100_0.5-2C_a.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": -17.512681934757172,
+      "median_relative_reduction_percent": -17.512681934757172,
+      "positive_fraction": 0.0
+    },
+    "SNL::SNL_18650_NMC_25C_0-100_0.5-2C_b.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 20.288690735169325,
+      "median_relative_reduction_percent": 20.288690735169325,
+      "positive_fraction": 1.0
+    },
+    "SNL::SNL_18650_NMC_25C_0-100_0.5-3C_a.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 43.591124259809725,
+      "median_relative_reduction_percent": 43.591124259809725,
+      "positive_fraction": 1.0
+    },
+    "SNL::SNL_18650_NMC_25C_0-100_0.5-3C_b.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 36.05874771438906,
+      "median_relative_reduction_percent": 36.05874771438906,
+      "positive_fraction": 1.0
+    },
+    "SNL::SNL_18650_NMC_25C_0-100_0.5-3C_c.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 0.27807370342896476,
+      "median_relative_reduction_percent": 0.27807370342896476,
+      "positive_fraction": 1.0
+    },
+    "SNL::SNL_18650_NMC_25C_0-100_0.5-3C_d.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": -2.2985918749355956,
+      "median_relative_reduction_percent": -2.2985918749355956,
+      "positive_fraction": 0.0
+    },
+    "SNL::SNL_18650_NMC_35C_0-100_0.5-1C_a.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 43.465636782599205,
+      "median_relative_reduction_percent": 43.465636782599205,
+      "positive_fraction": 1.0
+    },
+    "SNL::SNL_18650_NMC_35C_0-100_0.5-1C_b.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": -13.546197626155905,
+      "median_relative_reduction_percent": -13.546197626155905,
+      "positive_fraction": 0.0
+    },
+    "SNL::SNL_18650_NMC_35C_0-100_0.5-1C_c.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": -8.577547739579204,
+      "median_relative_reduction_percent": -8.577547739579204,
+      "positive_fraction": 0.0
+    },
+    "SNL::SNL_18650_NMC_35C_0-100_0.5-1C_d.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 20.96688116712474,
+      "median_relative_reduction_percent": 20.96688116712474,
+      "positive_fraction": 1.0
+    },
+    "SNL::SNL_18650_NMC_35C_0-100_0.5-2C_a.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 22.637112265393565,
+      "median_relative_reduction_percent": 22.637112265393565,
+      "positive_fraction": 1.0
+    },
+    "SNL::SNL_18650_NMC_35C_0-100_0.5-2C_b.pkl": {
+      "n": 1,
+      "mean_relative_reduction_percent": 6.302092776160065,
+      "median_relative_reduction_percent": 6.302092776160065,
+      "positive_fraction": 1.0
+    },
+    "chemistry:LFP": {
+      "n": 9,
+      "mean_relative_reduction_percent": -14.653478022937103,
+      "median_relative_reduction_percent": -15.035709956997373,
+      "positive_fraction": 0.1111111111111111
+    },
+    "chemistry:NCA": {
+      "n": 22,
+      "mean_relative_reduction_percent": 53.538199456606804,
+      "median_relative_reduction_percent": 52.59517082665805,
+      "positive_fraction": 1.0
+    },
+    "chemistry:NMC": {
+      "n": 84,
+      "mean_relative_reduction_percent": 7.325621862480098,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.2261904761904762
+    },
+    "chemistry:unknown": {
+      "n": 40,
+      "mean_relative_reduction_percent": 41.49561800069358,
+      "median_relative_reduction_percent": 57.742477524764496,
+      "positive_fraction": 0.6
+    },
+    "domain:CALB": {
+      "n": 27,
+      "mean_relative_reduction_percent": 61.474989630657156,
+      "median_relative_reduction_percent": 75.33322988386581,
+      "positive_fraction": 0.8888888888888888
+    },
+    "domain:CALCE": {
+      "n": 13,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "domain:HNEI": {
+      "n": 14,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "domain:MICH": {
+      "n": 40,
+      "mean_relative_reduction_percent": 0.0,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.0
+    },
+    "domain:MICH_EXP": {
+      "n": 9,
+      "mean_relative_reduction_percent": 11.537851002773223,
+      "median_relative_reduction_percent": 14.291077150683805,
+      "positive_fraction": 0.5555555555555556
+    },
+    "domain:SNL": {
+      "n": 52,
+      "mean_relative_reduction_percent": 29.951358908890104,
+      "median_relative_reduction_percent": 35.49498135826714,
+      "positive_fraction": 0.7115384615384616
+    },
+    "temperature:02C": {
+      "n": 1,
+      "mean_relative_reduction_percent": 39.02863584313558,
+      "median_relative_reduction_percent": 39.02863584313558,
+      "positive_fraction": 1.0
+    },
+    "temperature:15C": {
+      "n": 8,
+      "mean_relative_reduction_percent": 16.89857694542738,
+      "median_relative_reduction_percent": 18.896127189860614,
+      "positive_fraction": 0.625
+    },
+    "temperature:25C": {
+      "n": 66,
+      "mean_relative_reduction_percent": 17.47902815155118,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.3484848484848485
+    },
+    "temperature:35C": {
+      "n": 17,
+      "mean_relative_reduction_percent": 19.260529276808644,
+      "median_relative_reduction_percent": 20.96688116712474,
+      "positive_fraction": 0.5882352941176471
+    },
+    "temperature:45C": {
+      "n": 23,
+      "mean_relative_reduction_percent": 0.26300935532891423,
+      "median_relative_reduction_percent": 0.0,
+      "positive_fraction": 0.13043478260869565
+    },
+    "temperature:unknown": {
+      "n": 40,
+      "mean_relative_reduction_percent": 41.49561800069358,
+      "median_relative_reduction_percent": 57.742477524764496,
+      "positive_fraction": 0.6
+    }
+  }
+}
